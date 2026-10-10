@@ -1,0 +1,15 @@
+{
+  "reviewed_files": ["PWR_front_print.png", "PWR_back_print.png", "IO_front_print.png", "IO_back_print.png"],
+  "method": "四张实际导出PNG均使用view_image检查，并以浏览器文字几何边界检测视口裁切。",
+  "issues": [],
+  "viewBox": [40.5, 116, 839, 1035],
+  "png_dimensions_px": [2517, 3105],
+  "recommended_word_size_cm": [17.5, 21.59],
+  "notes": [
+    "上部坐标文字实际包围框超出y125，因此采用y116，防止字母顶部被裁。",
+    "全部行列编号、A1三角标记、板框、元件、线、原有标签已保留。",
+    "图外文字从新SVG移出以免裁口出现残字，完整记录在manifest中供Word恢复。",
+    "没有进行栅格裁剪或改图，PNG由新viewBox的SVG在Edge中渲染。",
+    "原图小脚号在17.5cm宽度下约7.1pt，坐标8.3pt，位号8.9pt；整页用于总览，逐根焊接仍配合CSV与可放大SVG。"
+  ]
+}

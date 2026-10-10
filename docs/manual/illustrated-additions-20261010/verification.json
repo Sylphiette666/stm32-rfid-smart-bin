@@ -1,0 +1,24 @@
+{
+  "document": "STM32与RFID智能移动垃圾桶_逐步组装与调试实施手册_图解增强版.docx",
+  "sha256": "251cd1a64bbd1a466630d4e966b3866fa1ca21587e8ba4a98dcf5b7da0dbdf59",
+  "pages": 168,
+  "original_steps_retained": 330,
+  "total_pictures": 47,
+  "new_pictures": 9,
+  "tables": 50,
+  "new_figures": {
+    "31-35": "SG90 linkage and fastening",
+    "36-39": "PWR and IO front/back"
+  },
+  "board_component_count": 65,
+  "default_wire_records": {
+    "PWR": 51,
+    "IO": 91
+  },
+  "structure_check": "PASS: original 330 step titles and original 38 image hashes preserved; original 43 tables retained with precisely recorded BOM corrections; 7 tables appended",
+  "visual_check": "PASS: all 171 pages of first render viewed; final 168-page render has 142 pixel-identical pages in first 145, changed pages 75/82/140 re-viewed; all pages 146-168 viewed individually",
+  "render_method": "Microsoft Word isolated instance; document fields and table of contents updated; PDF rasterized for internal visual inspection",
+  "electrical_review": "AHCT third-channel optional reroute checked for net connectivity separately; default layout files unchanged",
+  "hardware_assembled_or_power_tested": false,
+  "future_diagram_policy": "Integrate each requested diagram in the same illustrated Word, replace local and repository copies, check rendering and push to the existing repository unless user directs otherwise."
+}

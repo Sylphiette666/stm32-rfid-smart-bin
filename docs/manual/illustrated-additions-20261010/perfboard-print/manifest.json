@@ -1,0 +1,162 @@
+[
+  {
+    "id": "PWR_front",
+    "file": "PWR_front_print.png",
+    "svg": "PWR_front_print.svg",
+    "source": "PWR_front.svg",
+    "caption": "PWR 电源板 · 元件面",
+    "alt": "PWR电源洞洞板元件面总览，完整保留24列A至X和30行孔位编号、板框、元件或连线；从元件安装面看。",
+    "suggested_width_cm": 17.5,
+    "printed_height_cm": 21.59,
+    "removed_text_restore_in_word": [
+      "PWR 电源板 · 元件面",
+      "参考布局 R1 · 24 列 × 30 行 · 孔距 2.54 mm · 非实物验证",
+      "从安装元件的一面看；先在 A1 旁做好三角标记",
+      "方框焊盘为排针第 1 脚；端子 + / − 和三管 E / B / C 已标注。",
+      "元件位号对应孔位表。成品模块外置，不能依图猜模块排针顺序。",
+      "3V3_EXT ≠ 3V3_CORE；独立焊盘不自通。不是可直接打板的 Gerber。"
+    ],
+    "viewBox": [
+      40.5,
+      116,
+      839,
+      1035
+    ],
+    "png_dimensions_px": [
+      2517,
+      3105
+    ],
+    "remaining_content_bounds": [
+      45.7890625,
+      121,
+      874.9990234375,
+      1146
+    ],
+    "clipped_text": [],
+    "notes": [
+      "仅删除图外标题、三行底注及视角说明并调整SVG视口；未改板框、孔位、元件、导线或文字位置。",
+      "已删除的文字必须在Word图题、图前提示和图下注释中恢复。",
+      "整页图用于总览，逐根焊线仍查CSV及可缩放SVG。"
+    ]
+  },
+  {
+    "id": "PWR_back",
+    "file": "PWR_back_print.png",
+    "svg": "PWR_back_print.svg",
+    "source": "PWR_back.svg",
+    "caption": "PWR 电源板 · 焊接面",
+    "alt": "PWR电源洞洞板焊接面总览，完整保留24列A至X和30行孔位编号、板框、元件或连线；保持上边朝上、左右翻面。",
+    "suggested_width_cm": 17.5,
+    "printed_height_cm": 21.59,
+    "removed_text_restore_in_word": [
+      "PWR 电源板 · 焊接面",
+      "参考布局 R1 · 24 列 × 30 行 · 孔距 2.54 mm · 非实物验证",
+      "上边仍朝上，左右翻面；孔号随实物保留",
+      "两根连续汇流铜线以外都用绝缘线；线条交叉不相连。",
+      "本图为总览；逐根施工以同名 CSV 及交互图的起止孔位为准。",
+      "3V3_EXT ≠ 3V3_CORE；独立焊盘不自通。不是可直接打板的 Gerber。"
+    ],
+    "viewBox": [
+      40.5,
+      116,
+      839,
+      1035
+    ],
+    "png_dimensions_px": [
+      2517,
+      3105
+    ],
+    "remaining_content_bounds": [
+      41.8515625,
+      121,
+      874.9990234375,
+      1146
+    ],
+    "clipped_text": [],
+    "notes": [
+      "仅删除图外标题、三行底注及视角说明并调整SVG视口；未改板框、孔位、元件、导线或文字位置。",
+      "已删除的文字必须在Word图题、图前提示和图下注释中恢复。",
+      "整页图用于总览，逐根焊线仍查CSV及可缩放SVG。"
+    ]
+  },
+  {
+    "id": "IO_front",
+    "file": "IO_front_print.png",
+    "svg": "IO_front_print.svg",
+    "source": "IO_front.svg",
+    "caption": "IO 信号板 · 元件面",
+    "alt": "IO信号洞洞板元件面总览，完整保留24列A至X和30行孔位编号、板框、元件或连线；从元件安装面看。",
+    "suggested_width_cm": 17.5,
+    "printed_height_cm": 21.59,
+    "removed_text_restore_in_word": [
+      "IO 信号板 · 元件面",
+      "参考布局 R1 · 24 列 × 30 行 · 孔距 2.54 mm · 非实物验证",
+      "从安装元件的一面看；先在 A1 旁做好三角标记",
+      "方框焊盘为排针第 1 脚；端子 + / − 和三管 E / B / C 已标注。",
+      "元件位号对应孔位表。成品模块外置，不能依图猜模块排针顺序。",
+      "3V3_EXT ≠ 3V3_CORE；独立焊盘不自通。不是可直接打板的 Gerber。"
+    ],
+    "viewBox": [
+      40.5,
+      116,
+      839,
+      1035
+    ],
+    "png_dimensions_px": [
+      2517,
+      3105
+    ],
+    "remaining_content_bounds": [
+      45.7890625,
+      121,
+      874.9990234375,
+      1146
+    ],
+    "clipped_text": [],
+    "notes": [
+      "仅删除图外标题、三行底注及视角说明并调整SVG视口；未改板框、孔位、元件、导线或文字位置。",
+      "已删除的文字必须在Word图题、图前提示和图下注释中恢复。",
+      "整页图用于总览，逐根焊线仍查CSV及可缩放SVG。"
+    ]
+  },
+  {
+    "id": "IO_back",
+    "file": "IO_back_print.png",
+    "svg": "IO_back_print.svg",
+    "source": "IO_back.svg",
+    "caption": "IO 信号板 · 焊接面",
+    "alt": "IO信号洞洞板焊接面总览，完整保留24列A至X和30行孔位编号、板框、元件或连线；保持上边朝上、左右翻面。",
+    "suggested_width_cm": 17.5,
+    "printed_height_cm": 21.59,
+    "removed_text_restore_in_word": [
+      "IO 信号板 · 焊接面",
+      "参考布局 R1 · 24 列 × 30 行 · 孔距 2.54 mm · 非实物验证",
+      "上边仍朝上，左右翻面；孔号随实物保留",
+      "线条交叉不相连；只有孔位端点焊接。全部导线用绝缘线。",
+      "本图为总览；逐根施工以同名 CSV 及交互图的起止孔位为准。",
+      "3V3_EXT ≠ 3V3_CORE；独立焊盘不自通。不是可直接打板的 Gerber。"
+    ],
+    "viewBox": [
+      40.5,
+      116,
+      839,
+      1035
+    ],
+    "png_dimensions_px": [
+      2517,
+      3105
+    ],
+    "remaining_content_bounds": [
+      45.7890625,
+      121,
+      874.9990234375,
+      1146
+    ],
+    "clipped_text": [],
+    "notes": [
+      "仅删除图外标题、三行底注及视角说明并调整SVG视口；未改板框、孔位、元件、导线或文字位置。",
+      "已删除的文字必须在Word图题、图前提示和图下注释中恢复。",
+      "整页图用于总览，逐根焊线仍查CSV及可缩放SVG。"
+    ]
+  }
+]

@@ -1,0 +1,35 @@
+{
+  "reviewed_pngs": [
+    "sg90_01_closed_0.png",
+    "sg90_02_mid_35.png",
+    "sg90_03_open_70.png",
+    "sg90_04_lid_bracket.png",
+    "sg90_05_servo_ball_joint.png"
+  ],
+  "method": "逐张使用 view_image 查看实际导出PNG；脚本另外检查文字边界及文字互相重叠。",
+  "issues": [],
+  "resolved": [
+    "打印字体放大后，第5图的尺寸说明与原盘提示行边界相挤；将提示行基线从279移到288，不改几何。"
+  ],
+  "geometry_check": {
+    "fixed_axis_distance_mm": 50,
+    "both_arm_radii_mm": 20,
+    "rod_ball_center_distance_mm": 50,
+    "lid_mm": [160, 150, 2],
+    "lid_angles_deg": [0, 35, 70],
+    "arm_angles_deg": [20, 55, 90],
+    "closed_lid_hole_offset_mm_rounded": [18.8, 6.8]
+  },
+  "print_check": {
+    "suggested_width_cm": 15.7,
+    "source_width_px": 760,
+    "png_width_px": 2280,
+    "body_font_pt_at_suggested_width_approx": 10.5,
+    "minimum_footer_font_pt_at_suggested_width_approx": 9.4
+  },
+  "notes": [
+    "原图为结构示意，不作为实物照片或钻孔加工模板。",
+    "固定剖面为展开叠装关系，图中层间空白不是额外隔离高度。",
+    "舵臂物理方向90度不等同于软件指令90度，解释已写入manifest。"
+  ]
+}

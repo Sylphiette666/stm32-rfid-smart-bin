@@ -1,0 +1,5854 @@
+{
+  "revision": "参考布局 R1 / 2026-10-10",
+  "status": "按电气净表生成并做连通性检查；未实物焊接验证；不是商品模块物理引脚图。",
+  "boards": {
+    "PWR": {
+      "id": "PWR",
+      "title": "PWR 电源板",
+      "columns": 24,
+      "rows": 30,
+      "pitch": 2.54,
+      "components": [
+        {
+          "ref": "JP1",
+          "value": "开关后电池输入",
+          "kind": "terminal",
+          "pins": [
+            {
+              "pin": "+",
+              "hole": "B3",
+              "net": "VBAT_SW"
+            },
+            {
+              "pin": "-",
+              "hole": "D3",
+              "net": "GND"
+            }
+          ],
+          "notes": "KF301-2P，脚距5.08mm。仅适用实际引脚可穿孔的器件；功率线焊在端子针脚上并做机械固定。",
+          "group": "power"
+        },
+        {
+          "ref": "JP2",
+          "value": "去降压 IN",
+          "kind": "terminal",
+          "pins": [
+            {
+              "pin": "+",
+              "hole": "J3",
+              "net": "VBAT_SW"
+            },
+            {
+              "pin": "-",
+              "hole": "L3",
+              "net": "GND"
+            }
+          ],
+          "notes": "KF301-2P，脚距5.08mm。仅适用实际引脚可穿孔的器件；功率线焊在端子针脚上并做机械固定。",
+          "group": "power"
+        },
+        {
+          "ref": "JP3",
+          "value": "接降压 OUT",
+          "kind": "terminal",
+          "pins": [
+            {
+              "pin": "+",
+              "hole": "R3",
+              "net": "5V_BUS"
+            },
+            {
+              "pin": "-",
+              "hole": "T3",
+              "net": "GND"
+            }
+          ],
+          "notes": "KF301-2P，脚距5.08mm。仅适用实际引脚可穿孔的器件；功率线焊在端子针脚上并做机械固定。",
+          "group": "power"
+        },
+        {
+          "ref": "JP4",
+          "value": "电机 5V 支路",
+          "kind": "terminal",
+          "pins": [
+            {
+              "pin": "+",
+              "hole": "B12",
+              "net": "5V_BUS"
+            },
+            {
+              "pin": "-",
+              "hole": "D12",
+              "net": "GND"
+            }
+          ],
+          "notes": "KF301-2P，脚距5.08mm。仅适用实际引脚可穿孔的器件；功率线焊在端子针脚上并做机械固定。",
+          "group": "power"
+        },
+        {
+          "ref": "JP5",
+          "value": "舵机 5V 支路",
+          "kind": "terminal",
+          "pins": [
+            {
+              "pin": "+",
+              "hole": "J12",
+              "net": "5V_BUS"
+            },
+            {
+              "pin": "-",
+              "hole": "L12",
+              "net": "GND"
+            }
+          ],
+          "notes": "KF301-2P，脚距5.08mm。仅适用实际引脚可穿孔的器件；功率线焊在端子针脚上并做机械固定。",
+          "group": "power"
+        },
+        {
+          "ref": "JP6",
+          "value": "逻辑 5V 支路",
+          "kind": "terminal",
+          "pins": [
+            {
+              "pin": "+",
+              "hole": "R12",
+              "net": "5V_BUS"
+            },
+            {
+              "pin": "-",
+              "hole": "T12",
+              "net": "GND"
+            }
+          ],
+          "notes": "KF301-2P，脚距5.08mm。仅适用实际引脚可穿孔的器件；功率线焊在端子针脚上并做机械固定。",
+          "group": "power"
+        },
+        {
+          "ref": "CP1",
+          "value": "470uF/16V",
+          "kind": "electrolytic",
+          "pins": [
+            {
+              "pin": "+",
+              "hole": "B17",
+              "net": "5V_BUS"
+            },
+            {
+              "pin": "-",
+              "hole": "D17",
+              "net": "GND"
+            }
+          ],
+          "notes": "正极接5V，带负号条纹的负极接GND；图示脚距5.08mm，实际不符时在邻近空孔调位并同步更新连线。直径不超过10mm。",
+          "group": "power"
+        },
+        {
+          "ref": "CP4",
+          "value": "100nF",
+          "kind": "C",
+          "pins": [
+            {
+              "pin": "1",
+              "hole": "B21",
+              "net": "5V_BUS"
+            },
+            {
+              "pin": "2",
+              "hole": "D21",
+              "net": "GND"
+            }
+          ],
+          "notes": "",
+          "group": "power"
+        },
+        {
+          "ref": "CP2",
+          "value": "1000uF/16V",
+          "kind": "electrolytic",
+          "pins": [
+            {
+              "pin": "+",
+              "hole": "J17",
+              "net": "5V_BUS"
+            },
+            {
+              "pin": "-",
+              "hole": "L17",
+              "net": "GND"
+            }
+          ],
+          "notes": "正极接5V，带负号条纹的负极接GND；图示脚距5.08mm，实际不符时在邻近空孔调位并同步更新连线。直径不超过10mm。",
+          "group": "power"
+        },
+        {
+          "ref": "CP5",
+          "value": "100nF",
+          "kind": "C",
+          "pins": [
+            {
+              "pin": "1",
+              "hole": "J21",
+              "net": "5V_BUS"
+            },
+            {
+              "pin": "2",
+              "hole": "L21",
+              "net": "GND"
+            }
+          ],
+          "notes": "",
+          "group": "power"
+        },
+        {
+          "ref": "CP3",
+          "value": "100uF/16V",
+          "kind": "electrolytic",
+          "pins": [
+            {
+              "pin": "+",
+              "hole": "R17",
+              "net": "5V_BUS"
+            },
+            {
+              "pin": "-",
+              "hole": "T17",
+              "net": "GND"
+            }
+          ],
+          "notes": "正极接5V，带负号条纹的负极接GND；图示脚距5.08mm，实际不符时在邻近空孔调位并同步更新连线。直径不超过10mm。",
+          "group": "power"
+        },
+        {
+          "ref": "CP6",
+          "value": "100nF",
+          "kind": "C",
+          "pins": [
+            {
+              "pin": "1",
+              "hole": "R21",
+              "net": "5V_BUS"
+            },
+            {
+              "pin": "2",
+              "hole": "T21",
+              "net": "GND"
+            }
+          ],
+          "notes": "",
+          "group": "power"
+        },
+        {
+          "ref": "BUS+",
+          "value": "0.8mm 铜线汇流排",
+          "kind": "bus",
+          "pins": [
+            {
+              "pin": "1",
+              "hole": "V3",
+              "net": "5V_BUS"
+            },
+            {
+              "pin": "2",
+              "hole": "V5",
+              "net": "5V_BUS"
+            },
+            {
+              "pin": "3",
+              "hole": "V7",
+              "net": "5V_BUS"
+            },
+            {
+              "pin": "4",
+              "hole": "V9",
+              "net": "5V_BUS"
+            }
+          ],
+          "notes": "焊接面用一根连续直径约0.8mm镀锡实心铜线覆盖V3至V9，仅V3/V5/V7/V9固定焊接；支路线搭焊在铜线上，不与元件腿挤入同孔。完工绝缘罩住。",
+          "group": "power"
+        },
+        {
+          "ref": "BUS-",
+          "value": "0.8mm 铜线汇流排",
+          "kind": "bus",
+          "pins": [
+            {
+              "pin": "1",
+              "hole": "X3",
+              "net": "GND"
+            },
+            {
+              "pin": "2",
+              "hole": "X5",
+              "net": "GND"
+            },
+            {
+              "pin": "3",
+              "hole": "X7",
+              "net": "GND"
+            },
+            {
+              "pin": "4",
+              "hole": "X9",
+              "net": "GND"
+            },
+            {
+              "pin": "5",
+              "hole": "X11",
+              "net": "GND"
+            }
+          ],
+          "notes": "焊接面用一根连续直径约0.8mm镀锡实心铜线覆盖X3至X11，仅列出节点固定焊接；与V列汇流排保持绝缘间隔，线交叉处必须有绝缘层。",
+          "group": "power"
+        },
+        {
+          "ref": "JP7",
+          "value": "外置3.3V模块 OUT",
+          "kind": "header",
+          "pins": [
+            {
+              "pin": "1",
+              "hole": "R7",
+              "net": "3V3_EXT"
+            },
+            {
+              "pin": "2",
+              "hole": "S7",
+              "net": "GND"
+            }
+          ],
+          "notes": "不是稳压器；这里接外置稳压模块输出。其输入接JP6。",
+          "group": "signal"
+        },
+        {
+          "ref": "JP8",
+          "value": "去 IO JPWR",
+          "kind": "header",
+          "pins": [
+            {
+              "pin": "1",
+              "hole": "X23",
+              "net": "5V_BUS"
+            },
+            {
+              "pin": "2",
+              "hole": "X24",
+              "net": "3V3_EXT"
+            },
+            {
+              "pin": "3",
+              "hole": "X25",
+              "net": "VBAT_SW"
+            },
+            {
+              "pin": "4",
+              "hole": "X26",
+              "net": "GND"
+            }
+          ],
+          "notes": "",
+          "group": "signal"
+        },
+        {
+          "ref": "JP9",
+          "value": "去核心 PA1 / GND",
+          "kind": "header",
+          "pins": [
+            {
+              "pin": "1",
+              "hole": "R28",
+              "net": "BAT_ADC"
+            },
+            {
+              "pin": "2",
+              "hole": "R29",
+              "net": "GND"
+            }
+          ],
+          "notes": "",
+          "group": "signal"
+        },
+        {
+          "ref": "JP10",
+          "value": "灯控制输入",
+          "kind": "header",
+          "pins": [
+            {
+              "pin": "1",
+              "hole": "B24",
+              "net": "MCP_GPA5"
+            },
+            {
+              "pin": "2",
+              "hole": "B25",
+              "net": "GND"
+            }
+          ],
+          "notes": "",
+          "group": "signal"
+        },
+        {
+          "ref": "JP11",
+          "value": "AO3400A 的 G / S / D",
+          "kind": "header",
+          "pins": [
+            {
+              "pin": "1",
+              "hole": "J27",
+              "net": "LED_GATE"
+            },
+            {
+              "pin": "2",
+              "hole": "J28",
+              "net": "GND"
+            },
+            {
+              "pin": "3",
+              "hole": "J29",
+              "net": "LED_NEG"
+            }
+          ],
+          "notes": "这是自定义线束端子，不是任意SOT23转接板的直插脚位；万用表追踪后接G、S、D。",
+          "group": "signal"
+        },
+        {
+          "ref": "JP12",
+          "value": "白色LED A / K",
+          "kind": "header",
+          "pins": [
+            {
+              "pin": "1",
+              "hole": "B28",
+              "net": "LED_POS"
+            },
+            {
+              "pin": "2",
+              "hole": "B29",
+              "net": "LED_NEG"
+            }
+          ],
+          "notes": "",
+          "group": "signal"
+        },
+        {
+          "ref": "RP1",
+          "value": "33k 1%",
+          "kind": "R",
+          "pins": [
+            {
+              "pin": "1",
+              "hole": "L23",
+              "net": "VBAT_SW"
+            },
+            {
+              "pin": "2",
+              "hole": "P23",
+              "net": "BAT_ADC"
+            }
+          ],
+          "notes": "",
+          "group": "adc"
+        },
+        {
+          "ref": "RP2",
+          "value": "10k 1%",
+          "kind": "R",
+          "pins": [
+            {
+              "pin": "1",
+              "hole": "L26",
+              "net": "BAT_ADC"
+            },
+            {
+              "pin": "2",
+              "hole": "P26",
+              "net": "GND"
+            }
+          ],
+          "notes": "",
+          "group": "adc"
+        },
+        {
+          "ref": "CP7",
+          "value": "100nF",
+          "kind": "C",
+          "pins": [
+            {
+              "pin": "1",
+              "hole": "L28",
+              "net": "BAT_ADC"
+            },
+            {
+              "pin": "2",
+              "hole": "N28",
+              "net": "GND"
+            }
+          ],
+          "notes": "",
+          "group": "adc"
+        },
+        {
+          "ref": "RP3",
+          "value": "100R",
+          "kind": "R",
+          "pins": [
+            {
+              "pin": "1",
+              "hole": "D24",
+              "net": "MCP_GPA5"
+            },
+            {
+              "pin": "2",
+              "hole": "H24",
+              "net": "LED_GATE"
+            }
+          ],
+          "notes": "",
+          "group": "led"
+        },
+        {
+          "ref": "RP4",
+          "value": "100k",
+          "kind": "R",
+          "pins": [
+            {
+              "pin": "1",
+              "hole": "F26",
+              "net": "LED_GATE"
+            },
+            {
+              "pin": "2",
+              "hole": "F30",
+              "net": "GND"
+            }
+          ],
+          "notes": "",
+          "group": "led"
+        },
+        {
+          "ref": "RP5",
+          "value": "220R",
+          "kind": "R",
+          "pins": [
+            {
+              "pin": "1",
+              "hole": "L30",
+              "net": "5V_BUS"
+            },
+            {
+              "pin": "2",
+              "hole": "P30",
+              "net": "LED_POS"
+            }
+          ],
+          "notes": "",
+          "group": "led"
+        }
+      ],
+      "wires": [
+        {
+          "net": "5V_BUS",
+          "a": "V3",
+          "z": "V5",
+          "gauge": "0.8mm汇流铜线",
+          "id": "PWR-W001",
+          "route": [
+            [
+              21,
+              2
+            ],
+            [
+              21,
+              4
+            ]
+          ]
+        },
+        {
+          "net": "5V_BUS",
+          "a": "V5",
+          "z": "V7",
+          "gauge": "0.8mm汇流铜线",
+          "id": "PWR-W002",
+          "route": [
+            [
+              21,
+              4
+            ],
+            [
+              21,
+              6
+            ]
+          ]
+        },
+        {
+          "net": "5V_BUS",
+          "a": "V7",
+          "z": "V9",
+          "gauge": "0.8mm汇流铜线",
+          "id": "PWR-W003",
+          "route": [
+            [
+              21,
+              6
+            ],
+            [
+              21,
+              8
+            ]
+          ]
+        },
+        {
+          "net": "GND",
+          "a": "X3",
+          "z": "X5",
+          "gauge": "0.8mm汇流铜线",
+          "id": "PWR-W004",
+          "route": [
+            [
+              23,
+              2
+            ],
+            [
+              23,
+              4
+            ]
+          ]
+        },
+        {
+          "net": "GND",
+          "a": "X5",
+          "z": "X7",
+          "gauge": "0.8mm汇流铜线",
+          "id": "PWR-W005",
+          "route": [
+            [
+              23,
+              4
+            ],
+            [
+              23,
+              6
+            ]
+          ]
+        },
+        {
+          "net": "GND",
+          "a": "X7",
+          "z": "X9",
+          "gauge": "0.8mm汇流铜线",
+          "id": "PWR-W006",
+          "route": [
+            [
+              23,
+              6
+            ],
+            [
+              23,
+              8
+            ]
+          ]
+        },
+        {
+          "net": "GND",
+          "a": "X9",
+          "z": "X11",
+          "gauge": "0.8mm汇流铜线",
+          "id": "PWR-W007",
+          "route": [
+            [
+              23,
+              8
+            ],
+            [
+              23,
+              10
+            ]
+          ]
+        },
+        {
+          "net": "5V_BUS",
+          "a": "R3",
+          "z": "V3",
+          "gauge": "20AWG",
+          "id": "PWR-W008",
+          "route": [
+            [
+              17.0,
+              2.0
+            ],
+            [
+              20.5,
+              1.5
+            ],
+            [
+              21.0,
+              2.0
+            ]
+          ]
+        },
+        {
+          "net": "5V_BUS",
+          "a": "V5",
+          "z": "B12",
+          "gauge": "20AWG",
+          "id": "PWR-W009",
+          "route": [
+            [
+              21,
+              4
+            ],
+            [
+              1,
+              11
+            ]
+          ]
+        },
+        {
+          "net": "5V_BUS",
+          "a": "V7",
+          "z": "J12",
+          "gauge": "20AWG",
+          "id": "PWR-W010",
+          "route": [
+            [
+              21,
+              6
+            ],
+            [
+              9,
+              11
+            ]
+          ]
+        },
+        {
+          "net": "5V_BUS",
+          "a": "V9",
+          "z": "R12",
+          "gauge": "20AWG",
+          "id": "PWR-W011",
+          "route": [
+            [
+              21,
+              8
+            ],
+            [
+              17,
+              11
+            ]
+          ]
+        },
+        {
+          "net": "GND",
+          "a": "D3",
+          "z": "L3",
+          "gauge": "20AWG",
+          "id": "PWR-W012",
+          "route": [
+            [
+              3.0,
+              2.0
+            ],
+            [
+              10.5,
+              1.5
+            ],
+            [
+              11.0,
+              2.0
+            ]
+          ]
+        },
+        {
+          "net": "GND",
+          "a": "T3",
+          "z": "X3",
+          "gauge": "20AWG",
+          "id": "PWR-W013",
+          "route": [
+            [
+              19.0,
+              2.0
+            ],
+            [
+              22.5,
+              1.5
+            ],
+            [
+              23.0,
+              2.0
+            ]
+          ]
+        },
+        {
+          "net": "GND",
+          "a": "X11",
+          "z": "D3",
+          "gauge": "20AWG",
+          "id": "PWR-W014",
+          "route": [
+            [
+              23,
+              10
+            ],
+            [
+              3,
+              2
+            ]
+          ]
+        },
+        {
+          "net": "GND",
+          "a": "X5",
+          "z": "D12",
+          "gauge": "20AWG",
+          "id": "PWR-W015",
+          "route": [
+            [
+              23.0,
+              4.0
+            ],
+            [
+              6.5,
+              8.5
+            ],
+            [
+              3.0,
+              11.0
+            ]
+          ]
+        },
+        {
+          "net": "GND",
+          "a": "X7",
+          "z": "L12",
+          "gauge": "20AWG",
+          "id": "PWR-W016",
+          "route": [
+            [
+              23,
+              6
+            ],
+            [
+              11,
+              11
+            ]
+          ]
+        },
+        {
+          "net": "GND",
+          "a": "X9",
+          "z": "T12",
+          "gauge": "20AWG",
+          "id": "PWR-W017",
+          "route": [
+            [
+              23,
+              8
+            ],
+            [
+              19,
+              11
+            ]
+          ]
+        },
+        {
+          "net": "VBAT_SW",
+          "a": "B3",
+          "z": "J3",
+          "gauge": "20AWG",
+          "id": "PWR-W018",
+          "route": [
+            [
+              1.0,
+              2.0
+            ],
+            [
+              4.5,
+              1.5
+            ],
+            [
+              9.0,
+              2.0
+            ]
+          ]
+        },
+        {
+          "net": "GND",
+          "a": "B25",
+          "z": "F30",
+          "gauge": "26AWG",
+          "id": "PWR-W019",
+          "route": [
+            [
+              1,
+              24
+            ],
+            [
+              5,
+              29
+            ]
+          ]
+        },
+        {
+          "net": "GND",
+          "a": "D12",
+          "z": "D17",
+          "gauge": "22AWG",
+          "id": "PWR-W020",
+          "route": [
+            [
+              3,
+              11
+            ],
+            [
+              3,
+              16
+            ]
+          ]
+        },
+        {
+          "net": "GND",
+          "a": "D17",
+          "z": "D21",
+          "gauge": "26AWG",
+          "id": "PWR-W021",
+          "route": [
+            [
+              3,
+              16
+            ],
+            [
+              3,
+              20
+            ]
+          ]
+        },
+        {
+          "net": "GND",
+          "a": "J28",
+          "z": "F30",
+          "gauge": "26AWG",
+          "id": "PWR-W022",
+          "route": [
+            [
+              9,
+              27
+            ],
+            [
+              5,
+              29
+            ]
+          ]
+        },
+        {
+          "net": "GND",
+          "a": "J28",
+          "z": "N28",
+          "gauge": "26AWG",
+          "id": "PWR-W023",
+          "route": [
+            [
+              9.0,
+              27.0
+            ],
+            [
+              12.5,
+              26.5
+            ],
+            [
+              13.0,
+              27.0
+            ]
+          ]
+        },
+        {
+          "net": "GND",
+          "a": "L12",
+          "z": "L17",
+          "gauge": "22AWG",
+          "id": "PWR-W024",
+          "route": [
+            [
+              11,
+              11
+            ],
+            [
+              11,
+              16
+            ]
+          ]
+        },
+        {
+          "net": "GND",
+          "a": "L17",
+          "z": "L21",
+          "gauge": "26AWG",
+          "id": "PWR-W025",
+          "route": [
+            [
+              11,
+              16
+            ],
+            [
+              11,
+              20
+            ]
+          ]
+        },
+        {
+          "net": "GND",
+          "a": "P26",
+          "z": "N28",
+          "gauge": "26AWG",
+          "id": "PWR-W026",
+          "route": [
+            [
+              15,
+              25
+            ],
+            [
+              13,
+              27
+            ]
+          ]
+        },
+        {
+          "net": "GND",
+          "a": "R29",
+          "z": "N28",
+          "gauge": "26AWG",
+          "id": "PWR-W027",
+          "route": [
+            [
+              17,
+              28
+            ],
+            [
+              13,
+              27
+            ]
+          ]
+        },
+        {
+          "net": "GND",
+          "a": "T12",
+          "z": "S7",
+          "gauge": "26AWG",
+          "id": "PWR-W028",
+          "route": [
+            [
+              19,
+              11
+            ],
+            [
+              18,
+              6
+            ]
+          ]
+        },
+        {
+          "net": "GND",
+          "a": "T12",
+          "z": "T17",
+          "gauge": "22AWG",
+          "id": "PWR-W029",
+          "route": [
+            [
+              19,
+              11
+            ],
+            [
+              19,
+              16
+            ]
+          ]
+        },
+        {
+          "net": "GND",
+          "a": "T17",
+          "z": "T21",
+          "gauge": "26AWG",
+          "id": "PWR-W030",
+          "route": [
+            [
+              19,
+              16
+            ],
+            [
+              19,
+              20
+            ]
+          ]
+        },
+        {
+          "net": "GND",
+          "a": "T21",
+          "z": "P26",
+          "gauge": "26AWG",
+          "id": "PWR-W031",
+          "route": [
+            [
+              19,
+              20
+            ],
+            [
+              15,
+              25
+            ]
+          ]
+        },
+        {
+          "net": "GND",
+          "a": "X26",
+          "z": "P26",
+          "gauge": "26AWG",
+          "id": "PWR-W032",
+          "route": [
+            [
+              23,
+              25
+            ],
+            [
+              15,
+              25
+            ]
+          ]
+        },
+        {
+          "net": "3V3_EXT",
+          "a": "R7",
+          "z": "X24",
+          "gauge": "26AWG",
+          "id": "PWR-W033",
+          "route": [
+            [
+              17.0,
+              6.0
+            ],
+            [
+              22.5,
+              22.5
+            ],
+            [
+              23.0,
+              23.0
+            ]
+          ]
+        },
+        {
+          "net": "5V_BUS",
+          "a": "B12",
+          "z": "B17",
+          "gauge": "22AWG",
+          "id": "PWR-W034",
+          "route": [
+            [
+              1,
+              11
+            ],
+            [
+              1,
+              16
+            ]
+          ]
+        },
+        {
+          "net": "5V_BUS",
+          "a": "B17",
+          "z": "B21",
+          "gauge": "26AWG",
+          "id": "PWR-W035",
+          "route": [
+            [
+              1,
+              16
+            ],
+            [
+              1,
+              20
+            ]
+          ]
+        },
+        {
+          "net": "5V_BUS",
+          "a": "J12",
+          "z": "J17",
+          "gauge": "22AWG",
+          "id": "PWR-W036",
+          "route": [
+            [
+              9,
+              11
+            ],
+            [
+              9,
+              16
+            ]
+          ]
+        },
+        {
+          "net": "5V_BUS",
+          "a": "J17",
+          "z": "J21",
+          "gauge": "26AWG",
+          "id": "PWR-W037",
+          "route": [
+            [
+              9,
+              16
+            ],
+            [
+              9,
+              20
+            ]
+          ]
+        },
+        {
+          "net": "5V_BUS",
+          "a": "R12",
+          "z": "R17",
+          "gauge": "22AWG",
+          "id": "PWR-W038",
+          "route": [
+            [
+              17,
+              11
+            ],
+            [
+              17,
+              16
+            ]
+          ]
+        },
+        {
+          "net": "5V_BUS",
+          "a": "R17",
+          "z": "R21",
+          "gauge": "26AWG",
+          "id": "PWR-W039",
+          "route": [
+            [
+              17,
+              16
+            ],
+            [
+              17,
+              20
+            ]
+          ]
+        },
+        {
+          "net": "5V_BUS",
+          "a": "R21",
+          "z": "L30",
+          "gauge": "26AWG",
+          "id": "PWR-W040",
+          "route": [
+            [
+              17,
+              20
+            ],
+            [
+              11,
+              29
+            ]
+          ]
+        },
+        {
+          "net": "5V_BUS",
+          "a": "R21",
+          "z": "X23",
+          "gauge": "26AWG",
+          "id": "PWR-W041",
+          "route": [
+            [
+              17,
+              20
+            ],
+            [
+              23,
+              22
+            ]
+          ]
+        },
+        {
+          "net": "VBAT_SW",
+          "a": "J3",
+          "z": "L23",
+          "gauge": "26AWG",
+          "id": "PWR-W042",
+          "route": [
+            [
+              9.0,
+              2.0
+            ],
+            [
+              10.5,
+              21.5
+            ],
+            [
+              11.0,
+              22.0
+            ]
+          ]
+        },
+        {
+          "net": "VBAT_SW",
+          "a": "X25",
+          "z": "L23",
+          "gauge": "26AWG",
+          "id": "PWR-W043",
+          "route": [
+            [
+              23,
+              24
+            ],
+            [
+              11,
+              22
+            ]
+          ]
+        },
+        {
+          "net": "BAT_ADC",
+          "a": "L26",
+          "z": "L28",
+          "gauge": "26AWG",
+          "id": "PWR-W044",
+          "route": [
+            [
+              11,
+              25
+            ],
+            [
+              11,
+              27
+            ]
+          ]
+        },
+        {
+          "net": "BAT_ADC",
+          "a": "P23",
+          "z": "L26",
+          "gauge": "26AWG",
+          "id": "PWR-W045",
+          "route": [
+            [
+              15,
+              22
+            ],
+            [
+              11,
+              25
+            ]
+          ]
+        },
+        {
+          "net": "BAT_ADC",
+          "a": "R28",
+          "z": "L28",
+          "gauge": "26AWG",
+          "id": "PWR-W046",
+          "route": [
+            [
+              17.0,
+              27.0
+            ],
+            [
+              11.5,
+              26.5
+            ],
+            [
+              11.0,
+              27.0
+            ]
+          ]
+        },
+        {
+          "net": "LED_GATE",
+          "a": "H24",
+          "z": "F26",
+          "gauge": "26AWG",
+          "id": "PWR-W047",
+          "route": [
+            [
+              7,
+              23
+            ],
+            [
+              5,
+              25
+            ]
+          ]
+        },
+        {
+          "net": "LED_GATE",
+          "a": "J27",
+          "z": "F26",
+          "gauge": "26AWG",
+          "id": "PWR-W048",
+          "route": [
+            [
+              9,
+              26
+            ],
+            [
+              5,
+              25
+            ]
+          ]
+        },
+        {
+          "net": "LED_NEG",
+          "a": "J29",
+          "z": "B29",
+          "gauge": "26AWG",
+          "id": "PWR-W049",
+          "route": [
+            [
+              9,
+              28
+            ],
+            [
+              1,
+              28
+            ]
+          ]
+        },
+        {
+          "net": "LED_POS",
+          "a": "B28",
+          "z": "P30",
+          "gauge": "26AWG",
+          "id": "PWR-W050",
+          "route": [
+            [
+              1.0,
+              27.0
+            ],
+            [
+              10.0,
+              28.5
+            ],
+            [
+              15.0,
+              29.0
+            ]
+          ]
+        },
+        {
+          "net": "MCP_GPA5",
+          "a": "B24",
+          "z": "D24",
+          "gauge": "26AWG",
+          "id": "PWR-W051",
+          "route": [
+            [
+              1,
+              23
+            ],
+            [
+              3,
+              23
+            ]
+          ]
+        }
+      ],
+      "pads": {
+        "B3": {
+          "ref": "JP1",
+          "pin": "+",
+          "hole": "B3",
+          "net": "VBAT_SW",
+          "value": "开关后电池输入"
+        },
+        "D3": {
+          "ref": "JP1",
+          "pin": "-",
+          "hole": "D3",
+          "net": "GND",
+          "value": "开关后电池输入"
+        },
+        "J3": {
+          "ref": "JP2",
+          "pin": "+",
+          "hole": "J3",
+          "net": "VBAT_SW",
+          "value": "去降压 IN"
+        },
+        "L3": {
+          "ref": "JP2",
+          "pin": "-",
+          "hole": "L3",
+          "net": "GND",
+          "value": "去降压 IN"
+        },
+        "R3": {
+          "ref": "JP3",
+          "pin": "+",
+          "hole": "R3",
+          "net": "5V_BUS",
+          "value": "接降压 OUT"
+        },
+        "T3": {
+          "ref": "JP3",
+          "pin": "-",
+          "hole": "T3",
+          "net": "GND",
+          "value": "接降压 OUT"
+        },
+        "B12": {
+          "ref": "JP4",
+          "pin": "+",
+          "hole": "B12",
+          "net": "5V_BUS",
+          "value": "电机 5V 支路"
+        },
+        "D12": {
+          "ref": "JP4",
+          "pin": "-",
+          "hole": "D12",
+          "net": "GND",
+          "value": "电机 5V 支路"
+        },
+        "J12": {
+          "ref": "JP5",
+          "pin": "+",
+          "hole": "J12",
+          "net": "5V_BUS",
+          "value": "舵机 5V 支路"
+        },
+        "L12": {
+          "ref": "JP5",
+          "pin": "-",
+          "hole": "L12",
+          "net": "GND",
+          "value": "舵机 5V 支路"
+        },
+        "R12": {
+          "ref": "JP6",
+          "pin": "+",
+          "hole": "R12",
+          "net": "5V_BUS",
+          "value": "逻辑 5V 支路"
+        },
+        "T12": {
+          "ref": "JP6",
+          "pin": "-",
+          "hole": "T12",
+          "net": "GND",
+          "value": "逻辑 5V 支路"
+        },
+        "B17": {
+          "ref": "CP1",
+          "pin": "+",
+          "hole": "B17",
+          "net": "5V_BUS",
+          "value": "470uF/16V"
+        },
+        "D17": {
+          "ref": "CP1",
+          "pin": "-",
+          "hole": "D17",
+          "net": "GND",
+          "value": "470uF/16V"
+        },
+        "B21": {
+          "ref": "CP4",
+          "pin": "1",
+          "hole": "B21",
+          "net": "5V_BUS",
+          "value": "100nF"
+        },
+        "D21": {
+          "ref": "CP4",
+          "pin": "2",
+          "hole": "D21",
+          "net": "GND",
+          "value": "100nF"
+        },
+        "J17": {
+          "ref": "CP2",
+          "pin": "+",
+          "hole": "J17",
+          "net": "5V_BUS",
+          "value": "1000uF/16V"
+        },
+        "L17": {
+          "ref": "CP2",
+          "pin": "-",
+          "hole": "L17",
+          "net": "GND",
+          "value": "1000uF/16V"
+        },
+        "J21": {
+          "ref": "CP5",
+          "pin": "1",
+          "hole": "J21",
+          "net": "5V_BUS",
+          "value": "100nF"
+        },
+        "L21": {
+          "ref": "CP5",
+          "pin": "2",
+          "hole": "L21",
+          "net": "GND",
+          "value": "100nF"
+        },
+        "R17": {
+          "ref": "CP3",
+          "pin": "+",
+          "hole": "R17",
+          "net": "5V_BUS",
+          "value": "100uF/16V"
+        },
+        "T17": {
+          "ref": "CP3",
+          "pin": "-",
+          "hole": "T17",
+          "net": "GND",
+          "value": "100uF/16V"
+        },
+        "R21": {
+          "ref": "CP6",
+          "pin": "1",
+          "hole": "R21",
+          "net": "5V_BUS",
+          "value": "100nF"
+        },
+        "T21": {
+          "ref": "CP6",
+          "pin": "2",
+          "hole": "T21",
+          "net": "GND",
+          "value": "100nF"
+        },
+        "V3": {
+          "ref": "BUS+",
+          "pin": "1",
+          "hole": "V3",
+          "net": "5V_BUS",
+          "value": "0.8mm 铜线汇流排"
+        },
+        "V5": {
+          "ref": "BUS+",
+          "pin": "2",
+          "hole": "V5",
+          "net": "5V_BUS",
+          "value": "0.8mm 铜线汇流排"
+        },
+        "V7": {
+          "ref": "BUS+",
+          "pin": "3",
+          "hole": "V7",
+          "net": "5V_BUS",
+          "value": "0.8mm 铜线汇流排"
+        },
+        "V9": {
+          "ref": "BUS+",
+          "pin": "4",
+          "hole": "V9",
+          "net": "5V_BUS",
+          "value": "0.8mm 铜线汇流排"
+        },
+        "X3": {
+          "ref": "BUS-",
+          "pin": "1",
+          "hole": "X3",
+          "net": "GND",
+          "value": "0.8mm 铜线汇流排"
+        },
+        "X5": {
+          "ref": "BUS-",
+          "pin": "2",
+          "hole": "X5",
+          "net": "GND",
+          "value": "0.8mm 铜线汇流排"
+        },
+        "X7": {
+          "ref": "BUS-",
+          "pin": "3",
+          "hole": "X7",
+          "net": "GND",
+          "value": "0.8mm 铜线汇流排"
+        },
+        "X9": {
+          "ref": "BUS-",
+          "pin": "4",
+          "hole": "X9",
+          "net": "GND",
+          "value": "0.8mm 铜线汇流排"
+        },
+        "X11": {
+          "ref": "BUS-",
+          "pin": "5",
+          "hole": "X11",
+          "net": "GND",
+          "value": "0.8mm 铜线汇流排"
+        },
+        "R7": {
+          "ref": "JP7",
+          "pin": "1",
+          "hole": "R7",
+          "net": "3V3_EXT",
+          "value": "外置3.3V模块 OUT"
+        },
+        "S7": {
+          "ref": "JP7",
+          "pin": "2",
+          "hole": "S7",
+          "net": "GND",
+          "value": "外置3.3V模块 OUT"
+        },
+        "X23": {
+          "ref": "JP8",
+          "pin": "1",
+          "hole": "X23",
+          "net": "5V_BUS",
+          "value": "去 IO JPWR"
+        },
+        "X24": {
+          "ref": "JP8",
+          "pin": "2",
+          "hole": "X24",
+          "net": "3V3_EXT",
+          "value": "去 IO JPWR"
+        },
+        "X25": {
+          "ref": "JP8",
+          "pin": "3",
+          "hole": "X25",
+          "net": "VBAT_SW",
+          "value": "去 IO JPWR"
+        },
+        "X26": {
+          "ref": "JP8",
+          "pin": "4",
+          "hole": "X26",
+          "net": "GND",
+          "value": "去 IO JPWR"
+        },
+        "R28": {
+          "ref": "JP9",
+          "pin": "1",
+          "hole": "R28",
+          "net": "BAT_ADC",
+          "value": "去核心 PA1 / GND"
+        },
+        "R29": {
+          "ref": "JP9",
+          "pin": "2",
+          "hole": "R29",
+          "net": "GND",
+          "value": "去核心 PA1 / GND"
+        },
+        "B24": {
+          "ref": "JP10",
+          "pin": "1",
+          "hole": "B24",
+          "net": "MCP_GPA5",
+          "value": "灯控制输入"
+        },
+        "B25": {
+          "ref": "JP10",
+          "pin": "2",
+          "hole": "B25",
+          "net": "GND",
+          "value": "灯控制输入"
+        },
+        "J27": {
+          "ref": "JP11",
+          "pin": "1",
+          "hole": "J27",
+          "net": "LED_GATE",
+          "value": "AO3400A 的 G / S / D"
+        },
+        "J28": {
+          "ref": "JP11",
+          "pin": "2",
+          "hole": "J28",
+          "net": "GND",
+          "value": "AO3400A 的 G / S / D"
+        },
+        "J29": {
+          "ref": "JP11",
+          "pin": "3",
+          "hole": "J29",
+          "net": "LED_NEG",
+          "value": "AO3400A 的 G / S / D"
+        },
+        "B28": {
+          "ref": "JP12",
+          "pin": "1",
+          "hole": "B28",
+          "net": "LED_POS",
+          "value": "白色LED A / K"
+        },
+        "B29": {
+          "ref": "JP12",
+          "pin": "2",
+          "hole": "B29",
+          "net": "LED_NEG",
+          "value": "白色LED A / K"
+        },
+        "L23": {
+          "ref": "RP1",
+          "pin": "1",
+          "hole": "L23",
+          "net": "VBAT_SW",
+          "value": "33k 1%"
+        },
+        "P23": {
+          "ref": "RP1",
+          "pin": "2",
+          "hole": "P23",
+          "net": "BAT_ADC",
+          "value": "33k 1%"
+        },
+        "L26": {
+          "ref": "RP2",
+          "pin": "1",
+          "hole": "L26",
+          "net": "BAT_ADC",
+          "value": "10k 1%"
+        },
+        "P26": {
+          "ref": "RP2",
+          "pin": "2",
+          "hole": "P26",
+          "net": "GND",
+          "value": "10k 1%"
+        },
+        "L28": {
+          "ref": "CP7",
+          "pin": "1",
+          "hole": "L28",
+          "net": "BAT_ADC",
+          "value": "100nF"
+        },
+        "N28": {
+          "ref": "CP7",
+          "pin": "2",
+          "hole": "N28",
+          "net": "GND",
+          "value": "100nF"
+        },
+        "D24": {
+          "ref": "RP3",
+          "pin": "1",
+          "hole": "D24",
+          "net": "MCP_GPA5",
+          "value": "100R"
+        },
+        "H24": {
+          "ref": "RP3",
+          "pin": "2",
+          "hole": "H24",
+          "net": "LED_GATE",
+          "value": "100R"
+        },
+        "F26": {
+          "ref": "RP4",
+          "pin": "1",
+          "hole": "F26",
+          "net": "LED_GATE",
+          "value": "100k"
+        },
+        "F30": {
+          "ref": "RP4",
+          "pin": "2",
+          "hole": "F30",
+          "net": "GND",
+          "value": "100k"
+        },
+        "L30": {
+          "ref": "RP5",
+          "pin": "1",
+          "hole": "L30",
+          "net": "5V_BUS",
+          "value": "220R"
+        },
+        "P30": {
+          "ref": "RP5",
+          "pin": "2",
+          "hole": "P30",
+          "net": "LED_POS",
+          "value": "220R"
+        }
+      },
+      "nets": {
+        "VBAT_SW": [
+          "B3",
+          "J3",
+          "X25",
+          "L23"
+        ],
+        "GND": [
+          "D3",
+          "L3",
+          "T3",
+          "D12",
+          "L12",
+          "T12",
+          "D17",
+          "D21",
+          "L17",
+          "L21",
+          "T17",
+          "T21",
+          "X3",
+          "X5",
+          "X7",
+          "X9",
+          "X11",
+          "S7",
+          "X26",
+          "R29",
+          "B25",
+          "J28",
+          "P26",
+          "N28",
+          "F30"
+        ],
+        "5V_BUS": [
+          "R3",
+          "B12",
+          "J12",
+          "R12",
+          "B17",
+          "B21",
+          "J17",
+          "J21",
+          "R17",
+          "R21",
+          "V3",
+          "V5",
+          "V7",
+          "V9",
+          "X23",
+          "L30"
+        ],
+        "3V3_EXT": [
+          "R7",
+          "X24"
+        ],
+        "BAT_ADC": [
+          "R28",
+          "P23",
+          "L26",
+          "L28"
+        ],
+        "MCP_GPA5": [
+          "B24",
+          "D24"
+        ],
+        "LED_GATE": [
+          "J27",
+          "H24",
+          "F26"
+        ],
+        "LED_NEG": [
+          "J29",
+          "B29"
+        ],
+        "LED_POS": [
+          "B28",
+          "P30"
+        ]
+      },
+      "summary": {
+        "parts": 26,
+        "pads": 60,
+        "wires": 51
+      }
+    },
+    "IO": {
+      "id": "IO",
+      "title": "IO 信号板",
+      "columns": 24,
+      "rows": 30,
+      "pitch": 2.54,
+      "components": [
+        {
+          "ref": "JCORE",
+          "value": "核心板信号入口",
+          "kind": "header",
+          "pins": [
+            {
+              "pin": "1",
+              "hole": "A2",
+              "net": "GND"
+            },
+            {
+              "pin": "2",
+              "hole": "A3",
+              "net": "3V3_CORE"
+            },
+            {
+              "pin": "3",
+              "hole": "A4",
+              "net": "PA0"
+            },
+            {
+              "pin": "4",
+              "hole": "A5",
+              "net": "PB15"
+            },
+            {
+              "pin": "5",
+              "hole": "A6",
+              "net": "PB5"
+            },
+            {
+              "pin": "6",
+              "hole": "A7",
+              "net": "PB13"
+            },
+            {
+              "pin": "7",
+              "hole": "A8",
+              "net": "SCL"
+            },
+            {
+              "pin": "8",
+              "hole": "A9",
+              "net": "SDA"
+            },
+            {
+              "pin": "9",
+              "hole": "A10",
+              "net": "PA4"
+            },
+            {
+              "pin": "10",
+              "hole": "A11",
+              "net": "PA15"
+            },
+            {
+              "pin": "11",
+              "hole": "A12",
+              "net": "PB10"
+            },
+            {
+              "pin": "12",
+              "hole": "A13",
+              "net": "PB11"
+            },
+            {
+              "pin": "13",
+              "hole": "A14",
+              "net": "PB3"
+            },
+            {
+              "pin": "14",
+              "hole": "A15",
+              "net": "PB4"
+            },
+            {
+              "pin": "15",
+              "hole": "A16",
+              "net": "PB1"
+            },
+            {
+              "pin": "16",
+              "hole": "A17",
+              "net": "PB12"
+            },
+            {
+              "pin": "17",
+              "hole": "A18",
+              "net": "PB14"
+            }
+          ],
+          "notes": "本图自定义17针排针，不是核心板整排针序。逐根按GPIO名连接。",
+          "group": "signal"
+        },
+        {
+          "ref": "JPWR",
+          "value": "接 PWR JP8",
+          "kind": "header",
+          "pins": [
+            {
+              "pin": "1",
+              "hole": "A21",
+              "net": "5V_LOGIC"
+            },
+            {
+              "pin": "2",
+              "hole": "A22",
+              "net": "3V3_EXT"
+            },
+            {
+              "pin": "3",
+              "hole": "A23",
+              "net": "VBAT_SW"
+            },
+            {
+              "pin": "4",
+              "hole": "A24",
+              "net": "GND"
+            }
+          ],
+          "notes": "",
+          "group": "signal"
+        },
+        {
+          "ref": "JSW",
+          "value": "碰撞 / 闭盖开关",
+          "kind": "header",
+          "pins": [
+            {
+              "pin": "1",
+              "hole": "A27",
+              "net": "PB12"
+            },
+            {
+              "pin": "2",
+              "hole": "A28",
+              "net": "GND"
+            },
+            {
+              "pin": "3",
+              "hole": "A29",
+              "net": "PB14"
+            },
+            {
+              "pin": "4",
+              "hole": "A30",
+              "net": "GND"
+            }
+          ],
+          "notes": "",
+          "group": "signal"
+        },
+        {
+          "ref": "JMCP",
+          "value": "MCP23017 模块",
+          "kind": "header",
+          "pins": [
+            {
+              "pin": "1",
+              "hole": "X2",
+              "net": "3V3_EXT"
+            },
+            {
+              "pin": "2",
+              "hole": "X3",
+              "net": "GND"
+            },
+            {
+              "pin": "3",
+              "hole": "X4",
+              "net": "SCL"
+            },
+            {
+              "pin": "4",
+              "hole": "X5",
+              "net": "SDA"
+            },
+            {
+              "pin": "5",
+              "hole": "X6",
+              "net": "MCP_RESET"
+            }
+          ],
+          "notes": "模块外置。按丝印连接；地址A0/A1/A2在模块侧接GND，模块已有复位上拉可不装R5。",
+          "group": "signal"
+        },
+        {
+          "ref": "JACT",
+          "value": "舵机 / 超声 / 驱动",
+          "kind": "header",
+          "pins": [
+            {
+              "pin": "1",
+              "hole": "X9",
+              "net": "SERVO_SIG_5V"
+            },
+            {
+              "pin": "2",
+              "hole": "X10",
+              "net": "GND"
+            },
+            {
+              "pin": "3",
+              "hole": "X11",
+              "net": "US_TRIG_5V"
+            },
+            {
+              "pin": "4",
+              "hole": "X12",
+              "net": "ECHO_RAW"
+            },
+            {
+              "pin": "5",
+              "hole": "X13",
+              "net": "STBY_OUT"
+            }
+          ],
+          "notes": "此口只走信号和参考地；电机和舵机功率地不经此口回流。",
+          "group": "signal"
+        },
+        {
+          "ref": "JES",
+          "value": "急停双 NC 触点",
+          "kind": "header",
+          "pins": [
+            {
+              "pin": "1",
+              "hole": "X16",
+              "net": "VBAT_SW"
+            },
+            {
+              "pin": "2",
+              "hole": "X17",
+              "net": "NC1_RETURN"
+            },
+            {
+              "pin": "3",
+              "hole": "X18",
+              "net": "VBAT_SW"
+            },
+            {
+              "pin": "4",
+              "hole": "X19",
+              "net": "NC2_RETURN"
+            }
+          ],
+          "notes": "第1-2针去NC1两个端子；第3-4针去NC2两个端子。不能接GPIO或LED触点。",
+          "group": "signal"
+        },
+        {
+          "ref": "JAUX",
+          "value": "外设信号出口",
+          "kind": "header",
+          "pins": [
+            {
+              "pin": "1",
+              "hole": "X22",
+              "net": "DF_RX"
+            },
+            {
+              "pin": "2",
+              "hole": "X23",
+              "net": "PB11"
+            },
+            {
+              "pin": "3",
+              "hole": "X24",
+              "net": "PB3"
+            },
+            {
+              "pin": "4",
+              "hole": "X25",
+              "net": "PB4"
+            },
+            {
+              "pin": "5",
+              "hole": "X26",
+              "net": "PA4"
+            },
+            {
+              "pin": "6",
+              "hole": "X27",
+              "net": "PA15"
+            },
+            {
+              "pin": "7",
+              "hole": "X28",
+              "net": "WP_N"
+            },
+            {
+              "pin": "8",
+              "hole": "X29",
+              "net": "HOLD_N"
+            }
+          ],
+          "notes": "每个针按名称接对应模块，不是同一个模块的8针接口。",
+          "group": "signal"
+        },
+        {
+          "ref": "U1",
+          "value": "SN74AHCT125N",
+          "kind": "dip",
+          "pins": [
+            {
+              "pin": "1",
+              "hole": "D4",
+              "net": "GND"
+            },
+            {
+              "pin": "2",
+              "hole": "D5",
+              "net": "PA0"
+            },
+            {
+              "pin": "3",
+              "hole": "D6",
+              "net": "SERVO_SIG_5V"
+            },
+            {
+              "pin": "4",
+              "hole": "D7",
+              "net": "GND"
+            },
+            {
+              "pin": "5",
+              "hole": "D8",
+              "net": "PB15"
+            },
+            {
+              "pin": "6",
+              "hole": "D9",
+              "net": "US_TRIG_5V"
+            },
+            {
+              "pin": "7",
+              "hole": "D10",
+              "net": "GND"
+            },
+            {
+              "pin": "8",
+              "hole": "G10",
+              "net": "NC_U1_8"
+            },
+            {
+              "pin": "9",
+              "hole": "G9",
+              "net": "GND"
+            },
+            {
+              "pin": "10",
+              "hole": "G8",
+              "net": "5V_LOGIC"
+            },
+            {
+              "pin": "11",
+              "hole": "G7",
+              "net": "NC_U1_11"
+            },
+            {
+              "pin": "12",
+              "hole": "G6",
+              "net": "GND"
+            },
+            {
+              "pin": "13",
+              "hole": "G5",
+              "net": "5V_LOGIC"
+            },
+            {
+              "pin": "14",
+              "hole": "G4",
+              "net": "5V_LOGIC"
+            }
+          ],
+          "notes": "DIP14座；缺口朝第1行。不要换成74HC125。8、11脚输出留空。",
+          "group": "buffer"
+        },
+        {
+          "ref": "C1",
+          "value": "100nF",
+          "kind": "C",
+          "pins": [
+            {
+              "pin": "1",
+              "hole": "I3",
+              "net": "5V_LOGIC"
+            },
+            {
+              "pin": "2",
+              "hole": "I5",
+              "net": "GND"
+            }
+          ],
+          "notes": "",
+          "group": "buffer"
+        },
+        {
+          "ref": "R1",
+          "value": "10k",
+          "kind": "R",
+          "pins": [
+            {
+              "pin": "1",
+              "hole": "C12",
+              "net": "PA0"
+            },
+            {
+              "pin": "2",
+              "hole": "G12",
+              "net": "GND"
+            }
+          ],
+          "notes": "",
+          "group": "buffer"
+        },
+        {
+          "ref": "R2",
+          "value": "10k",
+          "kind": "R",
+          "pins": [
+            {
+              "pin": "1",
+              "hole": "C14",
+              "net": "PB15"
+            },
+            {
+              "pin": "2",
+              "hole": "G14",
+              "net": "GND"
+            }
+          ],
+          "notes": "",
+          "group": "buffer"
+        },
+        {
+          "ref": "Q1",
+          "value": "2N3904",
+          "kind": "npn",
+          "pins": [
+            {
+              "pin": "E",
+              "hole": "K5",
+              "net": "GND"
+            },
+            {
+              "pin": "B",
+              "hole": "L5",
+              "net": "ES1_BASE"
+            },
+            {
+              "pin": "C",
+              "hole": "M5",
+              "net": "KILL_BASE"
+            }
+          ],
+          "notes": "本图定义左E/中B/右C；实际厂家脚序必须核对。引脚套管弯折到孔位，不能仅按平面朝向猜。",
+          "group": "estop"
+        },
+        {
+          "ref": "Q2",
+          "value": "2N3904",
+          "kind": "npn",
+          "pins": [
+            {
+              "pin": "E",
+              "hole": "K9",
+              "net": "GND"
+            },
+            {
+              "pin": "B",
+              "hole": "L9",
+              "net": "KILL_BASE"
+            },
+            {
+              "pin": "C",
+              "hole": "M9",
+              "net": "STBY_OUT"
+            }
+          ],
+          "notes": "本图定义左E/中B/右C；实际厂家脚序必须核对。引脚套管弯折到孔位，不能仅按平面朝向猜。",
+          "group": "estop"
+        },
+        {
+          "ref": "Q3",
+          "value": "2N3904",
+          "kind": "npn",
+          "pins": [
+            {
+              "pin": "E",
+              "hole": "K13",
+              "net": "GND"
+            },
+            {
+              "pin": "B",
+              "hole": "L13",
+              "net": "ES2_BASE"
+            },
+            {
+              "pin": "C",
+              "hole": "M13",
+              "net": "PB13"
+            }
+          ],
+          "notes": "本图定义左E/中B/右C；实际厂家脚序必须核对。引脚套管弯折到孔位，不能仅按平面朝向猜。",
+          "group": "estop"
+        },
+        {
+          "ref": "R3",
+          "value": "4.7k",
+          "kind": "R",
+          "pins": [
+            {
+              "pin": "1",
+              "hole": "C17",
+              "net": "SCL"
+            },
+            {
+              "pin": "2",
+              "hole": "G17",
+              "net": "3V3_EXT"
+            }
+          ],
+          "notes": "条件装：总线只保留一组适合的等效上拉，模块自带上拉须计入。",
+          "group": "bus"
+        },
+        {
+          "ref": "R4",
+          "value": "4.7k",
+          "kind": "R",
+          "pins": [
+            {
+              "pin": "1",
+              "hole": "C19",
+              "net": "SDA"
+            },
+            {
+              "pin": "2",
+              "hole": "G19",
+              "net": "3V3_EXT"
+            }
+          ],
+          "notes": "条件装：总线只保留一组适合的等效上拉，模块自带上拉须计入。",
+          "group": "bus"
+        },
+        {
+          "ref": "R5",
+          "value": "10k",
+          "kind": "R",
+          "pins": [
+            {
+              "pin": "1",
+              "hole": "C21",
+              "net": "MCP_RESET"
+            },
+            {
+              "pin": "2",
+              "hole": "G21",
+              "net": "3V3_EXT"
+            }
+          ],
+          "notes": "条件装：MCP模块已有RESET上拉则核对后可不重复。",
+          "group": "bus"
+        },
+        {
+          "ref": "R6",
+          "value": "10k",
+          "kind": "R",
+          "pins": [
+            {
+              "pin": "1",
+              "hole": "C23",
+              "net": "PA4"
+            },
+            {
+              "pin": "2",
+              "hole": "G23",
+              "net": "3V3_EXT"
+            }
+          ],
+          "notes": "",
+          "group": "spi"
+        },
+        {
+          "ref": "R7",
+          "value": "10k",
+          "kind": "R",
+          "pins": [
+            {
+              "pin": "1",
+              "hole": "C25",
+              "net": "PA15"
+            },
+            {
+              "pin": "2",
+              "hole": "G25",
+              "net": "3V3_EXT"
+            }
+          ],
+          "notes": "",
+          "group": "spi"
+        },
+        {
+          "ref": "R8",
+          "value": "10k",
+          "kind": "R",
+          "pins": [
+            {
+              "pin": "1",
+              "hole": "C27",
+              "net": "WP_N"
+            },
+            {
+              "pin": "2",
+              "hole": "G27",
+              "net": "3V3_EXT"
+            }
+          ],
+          "notes": "条件装：仅FLASH有引出WP#/HOLD#且缺少适当上拉时装；否则针和电阻都留空。",
+          "group": "spi"
+        },
+        {
+          "ref": "R9",
+          "value": "10k",
+          "kind": "R",
+          "pins": [
+            {
+              "pin": "1",
+              "hole": "C29",
+              "net": "HOLD_N"
+            },
+            {
+              "pin": "2",
+              "hole": "G29",
+              "net": "3V3_EXT"
+            }
+          ],
+          "notes": "条件装：仅FLASH有引出WP#/HOLD#且缺少适当上拉时装；否则针和电阻都留空。",
+          "group": "spi"
+        },
+        {
+          "ref": "R10",
+          "value": "4.7k",
+          "kind": "R",
+          "pins": [
+            {
+              "pin": "1",
+              "hole": "K3",
+              "net": "NC1_RETURN"
+            },
+            {
+              "pin": "2",
+              "hole": "O3",
+              "net": "ES1_BASE"
+            }
+          ],
+          "notes": "",
+          "group": "estop"
+        },
+        {
+          "ref": "R11",
+          "value": "100k",
+          "kind": "R",
+          "pins": [
+            {
+              "pin": "1",
+              "hole": "K7",
+              "net": "ES1_BASE"
+            },
+            {
+              "pin": "2",
+              "hole": "O7",
+              "net": "GND"
+            }
+          ],
+          "notes": "",
+          "group": "estop"
+        },
+        {
+          "ref": "R12",
+          "value": "4.7k",
+          "kind": "R",
+          "pins": [
+            {
+              "pin": "1",
+              "hole": "K11",
+              "net": "NC2_RETURN"
+            },
+            {
+              "pin": "2",
+              "hole": "O11",
+              "net": "ES2_BASE"
+            }
+          ],
+          "notes": "",
+          "group": "estop"
+        },
+        {
+          "ref": "R13",
+          "value": "100k",
+          "kind": "R",
+          "pins": [
+            {
+              "pin": "1",
+              "hole": "K15",
+              "net": "ES2_BASE"
+            },
+            {
+              "pin": "2",
+              "hole": "O15",
+              "net": "GND"
+            }
+          ],
+          "notes": "",
+          "group": "estop"
+        },
+        {
+          "ref": "R14",
+          "value": "4.7k",
+          "kind": "R",
+          "pins": [
+            {
+              "pin": "1",
+              "hole": "Q5",
+              "net": "3V3_EXT"
+            },
+            {
+              "pin": "2",
+              "hole": "U5",
+              "net": "KILL_BASE"
+            }
+          ],
+          "notes": "",
+          "group": "estop"
+        },
+        {
+          "ref": "R15",
+          "value": "100k",
+          "kind": "R",
+          "pins": [
+            {
+              "pin": "1",
+              "hole": "Q9",
+              "net": "KILL_BASE"
+            },
+            {
+              "pin": "2",
+              "hole": "U9",
+              "net": "GND"
+            }
+          ],
+          "notes": "",
+          "group": "estop"
+        },
+        {
+          "ref": "R16",
+          "value": "1k",
+          "kind": "R",
+          "pins": [
+            {
+              "pin": "1",
+              "hole": "Q13",
+              "net": "PB5"
+            },
+            {
+              "pin": "2",
+              "hole": "U13",
+              "net": "STBY_OUT"
+            }
+          ],
+          "notes": "",
+          "group": "estop"
+        },
+        {
+          "ref": "R17",
+          "value": "10k",
+          "kind": "R",
+          "pins": [
+            {
+              "pin": "1",
+              "hole": "Q17",
+              "net": "PB5"
+            },
+            {
+              "pin": "2",
+              "hole": "U17",
+              "net": "GND"
+            }
+          ],
+          "notes": "",
+          "group": "estop"
+        },
+        {
+          "ref": "R18",
+          "value": "10k",
+          "kind": "R",
+          "pins": [
+            {
+              "pin": "1",
+              "hole": "Q21",
+              "net": "STBY_OUT"
+            },
+            {
+              "pin": "2",
+              "hole": "U21",
+              "net": "GND"
+            }
+          ],
+          "notes": "",
+          "group": "estop"
+        },
+        {
+          "ref": "R19",
+          "value": "10k",
+          "kind": "R",
+          "pins": [
+            {
+              "pin": "1",
+              "hole": "K19",
+              "net": "3V3_CORE"
+            },
+            {
+              "pin": "2",
+              "hole": "O19",
+              "net": "PB13"
+            }
+          ],
+          "notes": "",
+          "group": "estop"
+        },
+        {
+          "ref": "R20",
+          "value": "12k",
+          "kind": "R",
+          "pins": [
+            {
+              "pin": "1",
+              "hole": "K17",
+              "net": "ECHO_RAW"
+            },
+            {
+              "pin": "2",
+              "hole": "O17",
+              "net": "PB1"
+            }
+          ],
+          "notes": "",
+          "group": "echo"
+        },
+        {
+          "ref": "R21",
+          "value": "20k",
+          "kind": "R",
+          "pins": [
+            {
+              "pin": "1",
+              "hole": "K21",
+              "net": "PB1"
+            },
+            {
+              "pin": "2",
+              "hole": "O21",
+              "net": "GND"
+            }
+          ],
+          "notes": "",
+          "group": "echo"
+        },
+        {
+          "ref": "R22",
+          "value": "10k",
+          "kind": "R",
+          "pins": [
+            {
+              "pin": "1",
+              "hole": "K23",
+              "net": "PB3"
+            },
+            {
+              "pin": "2",
+              "hole": "O23",
+              "net": "3V3_CORE"
+            }
+          ],
+          "notes": "编码器CLK/DT已有到EXT上拉时，不得再与CORE上拉混接；先取消模块该上拉或不装本电阻并验证。",
+          "group": "encoder"
+        },
+        {
+          "ref": "R23",
+          "value": "10k",
+          "kind": "R",
+          "pins": [
+            {
+              "pin": "1",
+              "hole": "K25",
+              "net": "PB4"
+            },
+            {
+              "pin": "2",
+              "hole": "O25",
+              "net": "3V3_CORE"
+            }
+          ],
+          "notes": "编码器CLK/DT已有到EXT上拉时，不得再与CORE上拉混接；先取消模块该上拉或不装本电阻并验证。",
+          "group": "encoder"
+        },
+        {
+          "ref": "R24",
+          "value": "4.7k",
+          "kind": "R",
+          "pins": [
+            {
+              "pin": "1",
+              "hole": "K27",
+              "net": "PB11"
+            },
+            {
+              "pin": "2",
+              "hole": "O27",
+              "net": "3V3_EXT"
+            }
+          ],
+          "notes": "3.3V DHT分支；5V DHT使用外置BSS138双向模块。已有上拉须计入。",
+          "group": "dht"
+        },
+        {
+          "ref": "R25",
+          "value": "1k",
+          "kind": "R",
+          "pins": [
+            {
+              "pin": "1",
+              "hole": "K29",
+              "net": "PB10"
+            },
+            {
+              "pin": "2",
+              "hole": "O29",
+              "net": "DF_RX"
+            }
+          ],
+          "notes": "",
+          "group": "audio"
+        },
+        {
+          "ref": "R26",
+          "value": "10k",
+          "kind": "R",
+          "pins": [
+            {
+              "pin": "1",
+              "hole": "Q25",
+              "net": "PB12"
+            },
+            {
+              "pin": "2",
+              "hole": "U25",
+              "net": "3V3_CORE"
+            }
+          ],
+          "notes": "",
+          "group": "switch"
+        },
+        {
+          "ref": "R27",
+          "value": "10k",
+          "kind": "R",
+          "pins": [
+            {
+              "pin": "1",
+              "hole": "Q29",
+              "net": "PB14"
+            },
+            {
+              "pin": "2",
+              "hole": "U29",
+              "net": "3V3_CORE"
+            }
+          ],
+          "notes": "",
+          "group": "switch"
+        }
+      ],
+      "wires": [
+        {
+          "net": "GND",
+          "a": "A2",
+          "z": "D4",
+          "gauge": "26AWG",
+          "id": "IO-W001",
+          "route": [
+            [
+              0,
+              1
+            ],
+            [
+              3,
+              3
+            ]
+          ]
+        },
+        {
+          "net": "GND",
+          "a": "A24",
+          "z": "A28",
+          "gauge": "26AWG",
+          "id": "IO-W002",
+          "route": [
+            [
+              0.0,
+              23.0
+            ],
+            [
+              -0.5,
+              26.5
+            ],
+            [
+              0.0,
+              27.0
+            ]
+          ]
+        },
+        {
+          "net": "GND",
+          "a": "A24",
+          "z": "G14",
+          "gauge": "26AWG",
+          "id": "IO-W003",
+          "route": [
+            [
+              0.0,
+              23.0
+            ],
+            [
+              3.5,
+              19.0
+            ],
+            [
+              6.0,
+              13.0
+            ]
+          ]
+        },
+        {
+          "net": "GND",
+          "a": "A28",
+          "z": "A30",
+          "gauge": "26AWG",
+          "id": "IO-W004",
+          "route": [
+            [
+              0.0,
+              27.0
+            ],
+            [
+              -0.5,
+              28.5
+            ],
+            [
+              0.0,
+              29.0
+            ]
+          ]
+        },
+        {
+          "net": "GND",
+          "a": "D10",
+          "z": "G9",
+          "gauge": "26AWG",
+          "id": "IO-W005",
+          "route": [
+            [
+              3,
+              9
+            ],
+            [
+              6,
+              8
+            ]
+          ]
+        },
+        {
+          "net": "GND",
+          "a": "D4",
+          "z": "D7",
+          "gauge": "26AWG",
+          "id": "IO-W006",
+          "route": [
+            [
+              3.0,
+              3.0
+            ],
+            [
+              2.5,
+              4.5
+            ],
+            [
+              3.0,
+              6.0
+            ]
+          ]
+        },
+        {
+          "net": "GND",
+          "a": "D7",
+          "z": "D10",
+          "gauge": "26AWG",
+          "id": "IO-W007",
+          "route": [
+            [
+              3.0,
+              6.0
+            ],
+            [
+              2.5,
+              7.5
+            ],
+            [
+              3.0,
+              9.0
+            ]
+          ]
+        },
+        {
+          "net": "GND",
+          "a": "G12",
+          "z": "G14",
+          "gauge": "26AWG",
+          "id": "IO-W008",
+          "route": [
+            [
+              6,
+              11
+            ],
+            [
+              6,
+              13
+            ]
+          ]
+        },
+        {
+          "net": "GND",
+          "a": "G6",
+          "z": "I5",
+          "gauge": "26AWG",
+          "id": "IO-W009",
+          "route": [
+            [
+              6,
+              5
+            ],
+            [
+              8,
+              4
+            ]
+          ]
+        },
+        {
+          "net": "GND",
+          "a": "G9",
+          "z": "G12",
+          "gauge": "26AWG",
+          "id": "IO-W010",
+          "route": [
+            [
+              6.0,
+              8.0
+            ],
+            [
+              5.5,
+              9.5
+            ],
+            [
+              6.0,
+              11.0
+            ]
+          ]
+        },
+        {
+          "net": "GND",
+          "a": "G9",
+          "z": "G6",
+          "gauge": "26AWG",
+          "id": "IO-W011",
+          "route": [
+            [
+              6.0,
+              8.0
+            ],
+            [
+              5.5,
+              6.5
+            ],
+            [
+              6.0,
+              5.0
+            ]
+          ]
+        },
+        {
+          "net": "GND",
+          "a": "I5",
+          "z": "K5",
+          "gauge": "26AWG",
+          "id": "IO-W012",
+          "route": [
+            [
+              8,
+              4
+            ],
+            [
+              10,
+              4
+            ]
+          ]
+        },
+        {
+          "net": "GND",
+          "a": "K13",
+          "z": "O15",
+          "gauge": "26AWG",
+          "id": "IO-W013",
+          "route": [
+            [
+              10,
+              12
+            ],
+            [
+              14,
+              14
+            ]
+          ]
+        },
+        {
+          "net": "GND",
+          "a": "K5",
+          "z": "K9",
+          "gauge": "26AWG",
+          "id": "IO-W014",
+          "route": [
+            [
+              10.0,
+              4.0
+            ],
+            [
+              9.5,
+              7.5
+            ],
+            [
+              10.0,
+              8.0
+            ]
+          ]
+        },
+        {
+          "net": "GND",
+          "a": "K5",
+          "z": "O7",
+          "gauge": "26AWG",
+          "id": "IO-W015",
+          "route": [
+            [
+              10,
+              4
+            ],
+            [
+              14,
+              6
+            ]
+          ]
+        },
+        {
+          "net": "GND",
+          "a": "K9",
+          "z": "K13",
+          "gauge": "26AWG",
+          "id": "IO-W016",
+          "route": [
+            [
+              10.0,
+              8.0
+            ],
+            [
+              9.5,
+              11.5
+            ],
+            [
+              10.0,
+              12.0
+            ]
+          ]
+        },
+        {
+          "net": "GND",
+          "a": "O15",
+          "z": "O21",
+          "gauge": "26AWG",
+          "id": "IO-W017",
+          "route": [
+            [
+              14.0,
+              14.0
+            ],
+            [
+              13.5,
+              17.5
+            ],
+            [
+              14.0,
+              20.0
+            ]
+          ]
+        },
+        {
+          "net": "GND",
+          "a": "O7",
+          "z": "U9",
+          "gauge": "26AWG",
+          "id": "IO-W018",
+          "route": [
+            [
+              14,
+              6
+            ],
+            [
+              20,
+              8
+            ]
+          ]
+        },
+        {
+          "net": "GND",
+          "a": "U17",
+          "z": "U21",
+          "gauge": "26AWG",
+          "id": "IO-W019",
+          "route": [
+            [
+              20,
+              16
+            ],
+            [
+              20,
+              20
+            ]
+          ]
+        },
+        {
+          "net": "GND",
+          "a": "U21",
+          "z": "O21",
+          "gauge": "26AWG",
+          "id": "IO-W020",
+          "route": [
+            [
+              20.0,
+              20.0
+            ],
+            [
+              14.5,
+              19.5
+            ],
+            [
+              14.0,
+              20.0
+            ]
+          ]
+        },
+        {
+          "net": "GND",
+          "a": "X10",
+          "z": "U9",
+          "gauge": "26AWG",
+          "id": "IO-W021",
+          "route": [
+            [
+              23,
+              9
+            ],
+            [
+              20,
+              8
+            ]
+          ]
+        },
+        {
+          "net": "GND",
+          "a": "X3",
+          "z": "X10",
+          "gauge": "26AWG",
+          "id": "IO-W022",
+          "route": [
+            [
+              23.0,
+              2.0
+            ],
+            [
+              22.5,
+              3.5
+            ],
+            [
+              22.5,
+              8.5
+            ],
+            [
+              23.0,
+              9.0
+            ]
+          ]
+        },
+        {
+          "net": "3V3_CORE",
+          "a": "A3",
+          "z": "K19",
+          "gauge": "26AWG",
+          "id": "IO-W023",
+          "route": [
+            [
+              0.0,
+              2.0
+            ],
+            [
+              5.5,
+              8.5
+            ],
+            [
+              8.0,
+              15.0
+            ],
+            [
+              10.0,
+              18.0
+            ]
+          ]
+        },
+        {
+          "net": "3V3_CORE",
+          "a": "K19",
+          "z": "O23",
+          "gauge": "26AWG",
+          "id": "IO-W024",
+          "route": [
+            [
+              10,
+              18
+            ],
+            [
+              14,
+              22
+            ]
+          ]
+        },
+        {
+          "net": "3V3_CORE",
+          "a": "O23",
+          "z": "O25",
+          "gauge": "26AWG",
+          "id": "IO-W025",
+          "route": [
+            [
+              14,
+              22
+            ],
+            [
+              14,
+              24
+            ]
+          ]
+        },
+        {
+          "net": "3V3_CORE",
+          "a": "O25",
+          "z": "U25",
+          "gauge": "26AWG",
+          "id": "IO-W026",
+          "route": [
+            [
+              14.0,
+              24.0
+            ],
+            [
+              17.5,
+              23.5
+            ],
+            [
+              20.0,
+              24.0
+            ]
+          ]
+        },
+        {
+          "net": "3V3_CORE",
+          "a": "U25",
+          "z": "U29",
+          "gauge": "26AWG",
+          "id": "IO-W027",
+          "route": [
+            [
+              20,
+              24
+            ],
+            [
+              20,
+              28
+            ]
+          ]
+        },
+        {
+          "net": "3V3_EXT",
+          "a": "A22",
+          "z": "G21",
+          "gauge": "26AWG",
+          "id": "IO-W028",
+          "route": [
+            [
+              0,
+              21
+            ],
+            [
+              6,
+              20
+            ]
+          ]
+        },
+        {
+          "net": "3V3_EXT",
+          "a": "G17",
+          "z": "G19",
+          "gauge": "26AWG",
+          "id": "IO-W029",
+          "route": [
+            [
+              6,
+              16
+            ],
+            [
+              6,
+              18
+            ]
+          ]
+        },
+        {
+          "net": "3V3_EXT",
+          "a": "G17",
+          "z": "Q5",
+          "gauge": "26AWG",
+          "id": "IO-W030",
+          "route": [
+            [
+              6.0,
+              16.0
+            ],
+            [
+              15.5,
+              5.0
+            ],
+            [
+              16.0,
+              4.0
+            ]
+          ]
+        },
+        {
+          "net": "3V3_EXT",
+          "a": "G19",
+          "z": "G21",
+          "gauge": "26AWG",
+          "id": "IO-W031",
+          "route": [
+            [
+              6,
+              18
+            ],
+            [
+              6,
+              20
+            ]
+          ]
+        },
+        {
+          "net": "3V3_EXT",
+          "a": "G21",
+          "z": "G23",
+          "gauge": "26AWG",
+          "id": "IO-W032",
+          "route": [
+            [
+              6,
+              20
+            ],
+            [
+              6,
+              22
+            ]
+          ]
+        },
+        {
+          "net": "3V3_EXT",
+          "a": "G23",
+          "z": "G25",
+          "gauge": "26AWG",
+          "id": "IO-W033",
+          "route": [
+            [
+              6,
+              22
+            ],
+            [
+              6,
+              24
+            ]
+          ]
+        },
+        {
+          "net": "3V3_EXT",
+          "a": "G25",
+          "z": "G27",
+          "gauge": "26AWG",
+          "id": "IO-W034",
+          "route": [
+            [
+              6,
+              24
+            ],
+            [
+              6,
+              26
+            ]
+          ]
+        },
+        {
+          "net": "3V3_EXT",
+          "a": "G27",
+          "z": "G29",
+          "gauge": "26AWG",
+          "id": "IO-W035",
+          "route": [
+            [
+              6,
+              26
+            ],
+            [
+              6,
+              28
+            ]
+          ]
+        },
+        {
+          "net": "3V3_EXT",
+          "a": "G27",
+          "z": "O27",
+          "gauge": "26AWG",
+          "id": "IO-W036",
+          "route": [
+            [
+              6.0,
+              26.0
+            ],
+            [
+              13.0,
+              25.5
+            ],
+            [
+              14.0,
+              26.0
+            ]
+          ]
+        },
+        {
+          "net": "3V3_EXT",
+          "a": "X2",
+          "z": "Q5",
+          "gauge": "26AWG",
+          "id": "IO-W037",
+          "route": [
+            [
+              23,
+              1
+            ],
+            [
+              16,
+              4
+            ]
+          ]
+        },
+        {
+          "net": "5V_LOGIC",
+          "a": "A21",
+          "z": "G8",
+          "gauge": "26AWG",
+          "id": "IO-W038",
+          "route": [
+            [
+              0.0,
+              20.0
+            ],
+            [
+              1.5,
+              16.0
+            ],
+            [
+              6.0,
+              7.0
+            ]
+          ]
+        },
+        {
+          "net": "5V_LOGIC",
+          "a": "G4",
+          "z": "I3",
+          "gauge": "26AWG",
+          "id": "IO-W039",
+          "route": [
+            [
+              6,
+              3
+            ],
+            [
+              8,
+              2
+            ]
+          ]
+        },
+        {
+          "net": "5V_LOGIC",
+          "a": "G5",
+          "z": "G4",
+          "gauge": "26AWG",
+          "id": "IO-W040",
+          "route": [
+            [
+              6,
+              4
+            ],
+            [
+              6,
+              3
+            ]
+          ]
+        },
+        {
+          "net": "5V_LOGIC",
+          "a": "G8",
+          "z": "G5",
+          "gauge": "26AWG",
+          "id": "IO-W041",
+          "route": [
+            [
+              6.0,
+              7.0
+            ],
+            [
+              5.5,
+              5.5
+            ],
+            [
+              6.0,
+              4.0
+            ]
+          ]
+        },
+        {
+          "net": "VBAT_SW",
+          "a": "A23",
+          "z": "X18",
+          "gauge": "26AWG",
+          "id": "IO-W042",
+          "route": [
+            [
+              0.0,
+              22.0
+            ],
+            [
+              3.5,
+              21.5
+            ],
+            [
+              20.0,
+              18.5
+            ],
+            [
+              23.0,
+              17.0
+            ]
+          ]
+        },
+        {
+          "net": "VBAT_SW",
+          "a": "X16",
+          "z": "X18",
+          "gauge": "26AWG",
+          "id": "IO-W043",
+          "route": [
+            [
+              23.0,
+              15.0
+            ],
+            [
+              22.5,
+              16.5
+            ],
+            [
+              23.0,
+              17.0
+            ]
+          ]
+        },
+        {
+          "net": "DF_RX",
+          "a": "X22",
+          "z": "O29",
+          "gauge": "26AWG",
+          "id": "IO-W044",
+          "route": [
+            [
+              23,
+              21
+            ],
+            [
+              14,
+              28
+            ]
+          ]
+        },
+        {
+          "net": "ECHO_RAW",
+          "a": "X12",
+          "z": "K17",
+          "gauge": "26AWG",
+          "id": "IO-W045",
+          "route": [
+            [
+              23.0,
+              11.0
+            ],
+            [
+              20.0,
+              12.5
+            ],
+            [
+              10.0,
+              16.0
+            ]
+          ]
+        },
+        {
+          "net": "ES1_BASE",
+          "a": "L5",
+          "z": "K7",
+          "gauge": "26AWG",
+          "id": "IO-W046",
+          "route": [
+            [
+              11,
+              4
+            ],
+            [
+              10,
+              6
+            ]
+          ]
+        },
+        {
+          "net": "ES1_BASE",
+          "a": "L5",
+          "z": "O3",
+          "gauge": "26AWG",
+          "id": "IO-W047",
+          "route": [
+            [
+              11,
+              4
+            ],
+            [
+              14,
+              2
+            ]
+          ]
+        },
+        {
+          "net": "ES2_BASE",
+          "a": "L13",
+          "z": "K15",
+          "gauge": "26AWG",
+          "id": "IO-W048",
+          "route": [
+            [
+              11,
+              12
+            ],
+            [
+              10,
+              14
+            ]
+          ]
+        },
+        {
+          "net": "ES2_BASE",
+          "a": "L13",
+          "z": "O11",
+          "gauge": "26AWG",
+          "id": "IO-W049",
+          "route": [
+            [
+              11,
+              12
+            ],
+            [
+              14,
+              10
+            ]
+          ]
+        },
+        {
+          "net": "HOLD_N",
+          "a": "X29",
+          "z": "C29",
+          "gauge": "26AWG",
+          "id": "IO-W050",
+          "route": [
+            [
+              23.0,
+              28.0
+            ],
+            [
+              17.5,
+              27.5
+            ],
+            [
+              2.5,
+              27.5
+            ],
+            [
+              2.0,
+              28.0
+            ]
+          ]
+        },
+        {
+          "net": "KILL_BASE",
+          "a": "L9",
+          "z": "Q9",
+          "gauge": "26AWG",
+          "id": "IO-W051",
+          "route": [
+            [
+              11.0,
+              8.0
+            ],
+            [
+              12.5,
+              7.5
+            ],
+            [
+              16.0,
+              8.0
+            ]
+          ]
+        },
+        {
+          "net": "KILL_BASE",
+          "a": "M5",
+          "z": "L9",
+          "gauge": "26AWG",
+          "id": "IO-W052",
+          "route": [
+            [
+              12,
+              4
+            ],
+            [
+              11,
+              8
+            ]
+          ]
+        },
+        {
+          "net": "KILL_BASE",
+          "a": "M5",
+          "z": "U5",
+          "gauge": "26AWG",
+          "id": "IO-W053",
+          "route": [
+            [
+              12.0,
+              4.0
+            ],
+            [
+              19.0,
+              3.5
+            ],
+            [
+              20.0,
+              4.0
+            ]
+          ]
+        },
+        {
+          "net": "MCP_RESET",
+          "a": "X6",
+          "z": "C21",
+          "gauge": "26AWG",
+          "id": "IO-W054",
+          "route": [
+            [
+              23.0,
+              5.0
+            ],
+            [
+              3.0,
+              19.5
+            ],
+            [
+              2.0,
+              20.0
+            ]
+          ]
+        },
+        {
+          "net": "NC1_RETURN",
+          "a": "X17",
+          "z": "K3",
+          "gauge": "26AWG",
+          "id": "IO-W055",
+          "route": [
+            [
+              23.0,
+              16.0
+            ],
+            [
+              10.0,
+              2.5
+            ],
+            [
+              10.0,
+              2.0
+            ]
+          ]
+        },
+        {
+          "net": "NC2_RETURN",
+          "a": "X19",
+          "z": "K11",
+          "gauge": "26AWG",
+          "id": "IO-W056",
+          "route": [
+            [
+              23.0,
+              18.0
+            ],
+            [
+              16.0,
+              12.5
+            ],
+            [
+              10.0,
+              10.0
+            ]
+          ]
+        },
+        {
+          "net": "PA0",
+          "a": "A4",
+          "z": "D5",
+          "gauge": "26AWG",
+          "id": "IO-W057",
+          "route": [
+            [
+              0,
+              3
+            ],
+            [
+              3,
+              4
+            ]
+          ]
+        },
+        {
+          "net": "PA0",
+          "a": "D5",
+          "z": "C12",
+          "gauge": "26AWG",
+          "id": "IO-W058",
+          "route": [
+            [
+              3.0,
+              4.0
+            ],
+            [
+              2.5,
+              5.5
+            ],
+            [
+              2.0,
+              11.0
+            ]
+          ]
+        },
+        {
+          "net": "PA15",
+          "a": "A11",
+          "z": "C25",
+          "gauge": "26AWG",
+          "id": "IO-W059",
+          "route": [
+            [
+              0.0,
+              10.0
+            ],
+            [
+              0.5,
+              11.5
+            ],
+            [
+              1.5,
+              23.5
+            ],
+            [
+              2.0,
+              24.0
+            ]
+          ]
+        },
+        {
+          "net": "PA15",
+          "a": "X27",
+          "z": "C25",
+          "gauge": "26AWG",
+          "id": "IO-W060",
+          "route": [
+            [
+              23,
+              26
+            ],
+            [
+              2,
+              24
+            ]
+          ]
+        },
+        {
+          "net": "PA4",
+          "a": "A10",
+          "z": "C23",
+          "gauge": "26AWG",
+          "id": "IO-W061",
+          "route": [
+            [
+              0.0,
+              9.0
+            ],
+            [
+              0.5,
+              10.5
+            ],
+            [
+              1.5,
+              21.5
+            ],
+            [
+              2.0,
+              22.0
+            ]
+          ]
+        },
+        {
+          "net": "PA4",
+          "a": "X26",
+          "z": "C23",
+          "gauge": "26AWG",
+          "id": "IO-W062",
+          "route": [
+            [
+              23.0,
+              25.0
+            ],
+            [
+              7.0,
+              24.5
+            ],
+            [
+              6.0,
+              23.5
+            ],
+            [
+              2.0,
+              22.0
+            ]
+          ]
+        },
+        {
+          "net": "PB1",
+          "a": "A16",
+          "z": "K21",
+          "gauge": "26AWG",
+          "id": "IO-W063",
+          "route": [
+            [
+              0.0,
+              15.0
+            ],
+            [
+              3.0,
+              17.0
+            ],
+            [
+              8.5,
+              19.5
+            ],
+            [
+              10.0,
+              20.0
+            ]
+          ]
+        },
+        {
+          "net": "PB1",
+          "a": "O17",
+          "z": "K21",
+          "gauge": "26AWG",
+          "id": "IO-W064",
+          "route": [
+            [
+              14,
+              16
+            ],
+            [
+              10,
+              20
+            ]
+          ]
+        },
+        {
+          "net": "PB10",
+          "a": "A12",
+          "z": "K29",
+          "gauge": "26AWG",
+          "id": "IO-W065",
+          "route": [
+            [
+              0,
+              11
+            ],
+            [
+              10,
+              28
+            ]
+          ]
+        },
+        {
+          "net": "PB11",
+          "a": "A13",
+          "z": "K27",
+          "gauge": "26AWG",
+          "id": "IO-W066",
+          "route": [
+            [
+              0.0,
+              12.0
+            ],
+            [
+              9.5,
+              25.5
+            ],
+            [
+              10.0,
+              26.0
+            ]
+          ]
+        },
+        {
+          "net": "PB11",
+          "a": "X23",
+          "z": "K27",
+          "gauge": "26AWG",
+          "id": "IO-W067",
+          "route": [
+            [
+              23.0,
+              22.0
+            ],
+            [
+              14.5,
+              24.0
+            ],
+            [
+              14.0,
+              24.5
+            ],
+            [
+              10.0,
+              26.0
+            ]
+          ]
+        },
+        {
+          "net": "PB12",
+          "a": "A17",
+          "z": "A27",
+          "gauge": "26AWG",
+          "id": "IO-W068",
+          "route": [
+            [
+              0.0,
+              16.0
+            ],
+            [
+              -0.5,
+              17.5
+            ],
+            [
+              -0.5,
+              25.5
+            ],
+            [
+              0.0,
+              26.0
+            ]
+          ]
+        },
+        {
+          "net": "PB12",
+          "a": "A27",
+          "z": "Q25",
+          "gauge": "26AWG",
+          "id": "IO-W069",
+          "route": [
+            [
+              0.0,
+              26.0
+            ],
+            [
+              11.0,
+              24.5
+            ],
+            [
+              15.0,
+              24.5
+            ],
+            [
+              16.0,
+              24.0
+            ]
+          ]
+        },
+        {
+          "net": "PB13",
+          "a": "A7",
+          "z": "M13",
+          "gauge": "26AWG",
+          "id": "IO-W070",
+          "route": [
+            [
+              0.0,
+              6.0
+            ],
+            [
+              5.5,
+              9.0
+            ],
+            [
+              6.0,
+              9.5
+            ],
+            [
+              12.0,
+              12.0
+            ]
+          ]
+        },
+        {
+          "net": "PB13",
+          "a": "M13",
+          "z": "O19",
+          "gauge": "26AWG",
+          "id": "IO-W071",
+          "route": [
+            [
+              12,
+              12
+            ],
+            [
+              14,
+              18
+            ]
+          ]
+        },
+        {
+          "net": "PB14",
+          "a": "A18",
+          "z": "A29",
+          "gauge": "26AWG",
+          "id": "IO-W072",
+          "route": [
+            [
+              0.0,
+              17.0
+            ],
+            [
+              -0.5,
+              22.5
+            ],
+            [
+              -0.5,
+              27.5
+            ],
+            [
+              0.0,
+              28.0
+            ]
+          ]
+        },
+        {
+          "net": "PB14",
+          "a": "A29",
+          "z": "Q29",
+          "gauge": "26AWG",
+          "id": "IO-W073",
+          "route": [
+            [
+              0.0,
+              28.0
+            ],
+            [
+              3.5,
+              27.5
+            ],
+            [
+              15.5,
+              27.5
+            ],
+            [
+              16.0,
+              28.0
+            ]
+          ]
+        },
+        {
+          "net": "PB15",
+          "a": "A5",
+          "z": "D8",
+          "gauge": "26AWG",
+          "id": "IO-W074",
+          "route": [
+            [
+              0,
+              4
+            ],
+            [
+              3,
+              7
+            ]
+          ]
+        },
+        {
+          "net": "PB15",
+          "a": "D8",
+          "z": "C14",
+          "gauge": "26AWG",
+          "id": "IO-W075",
+          "route": [
+            [
+              3.0,
+              7.0
+            ],
+            [
+              2.5,
+              8.5
+            ],
+            [
+              2.5,
+              12.0
+            ],
+            [
+              2.0,
+              13.0
+            ]
+          ]
+        },
+        {
+          "net": "PB3",
+          "a": "A14",
+          "z": "K23",
+          "gauge": "26AWG",
+          "id": "IO-W076",
+          "route": [
+            [
+              0,
+              13
+            ],
+            [
+              10,
+              22
+            ]
+          ]
+        },
+        {
+          "net": "PB3",
+          "a": "X24",
+          "z": "K23",
+          "gauge": "26AWG",
+          "id": "IO-W077",
+          "route": [
+            [
+              23,
+              23
+            ],
+            [
+              10,
+              22
+            ]
+          ]
+        },
+        {
+          "net": "PB4",
+          "a": "A15",
+          "z": "K25",
+          "gauge": "26AWG",
+          "id": "IO-W078",
+          "route": [
+            [
+              0.0,
+              14.0
+            ],
+            [
+              2.0,
+              16.5
+            ],
+            [
+              9.0,
+              23.5
+            ],
+            [
+              10.0,
+              24.0
+            ]
+          ]
+        },
+        {
+          "net": "PB4",
+          "a": "X25",
+          "z": "K25",
+          "gauge": "26AWG",
+          "id": "IO-W079",
+          "route": [
+            [
+              23.0,
+              24.0
+            ],
+            [
+              17.5,
+              23.5
+            ],
+            [
+              10.5,
+              23.5
+            ],
+            [
+              10.0,
+              24.0
+            ]
+          ]
+        },
+        {
+          "net": "PB5",
+          "a": "A6",
+          "z": "Q13",
+          "gauge": "26AWG",
+          "id": "IO-W080",
+          "route": [
+            [
+              0,
+              5
+            ],
+            [
+              16,
+              12
+            ]
+          ]
+        },
+        {
+          "net": "PB5",
+          "a": "Q13",
+          "z": "Q17",
+          "gauge": "26AWG",
+          "id": "IO-W081",
+          "route": [
+            [
+              16,
+              12
+            ],
+            [
+              16,
+              16
+            ]
+          ]
+        },
+        {
+          "net": "SCL",
+          "a": "A8",
+          "z": "C17",
+          "gauge": "26AWG",
+          "id": "IO-W082",
+          "route": [
+            [
+              0.0,
+              7.0
+            ],
+            [
+              0.5,
+              8.5
+            ],
+            [
+              2.0,
+              16.0
+            ]
+          ]
+        },
+        {
+          "net": "SCL",
+          "a": "A8",
+          "z": "X4",
+          "gauge": "26AWG",
+          "id": "IO-W083",
+          "route": [
+            [
+              0.0,
+              7.0
+            ],
+            [
+              5.5,
+              6.5
+            ],
+            [
+              23.0,
+              3.0
+            ]
+          ]
+        },
+        {
+          "net": "SDA",
+          "a": "A9",
+          "z": "C19",
+          "gauge": "26AWG",
+          "id": "IO-W084",
+          "route": [
+            [
+              0.0,
+              8.0
+            ],
+            [
+              0.5,
+              9.5
+            ],
+            [
+              2.0,
+              18.0
+            ]
+          ]
+        },
+        {
+          "net": "SDA",
+          "a": "A9",
+          "z": "X5",
+          "gauge": "26AWG",
+          "id": "IO-W085",
+          "route": [
+            [
+              0.0,
+              8.0
+            ],
+            [
+              19.0,
+              6.0
+            ],
+            [
+              23.0,
+              4.0
+            ]
+          ]
+        },
+        {
+          "net": "SERVO_SIG_5V",
+          "a": "X9",
+          "z": "D6",
+          "gauge": "26AWG",
+          "id": "IO-W086",
+          "route": [
+            [
+              23.0,
+              8.0
+            ],
+            [
+              17.5,
+              7.5
+            ],
+            [
+              6.0,
+              6.5
+            ],
+            [
+              3.0,
+              5.0
+            ]
+          ]
+        },
+        {
+          "net": "STBY_OUT",
+          "a": "M9",
+          "z": "U13",
+          "gauge": "26AWG",
+          "id": "IO-W087",
+          "route": [
+            [
+              12,
+              8
+            ],
+            [
+              20,
+              12
+            ]
+          ]
+        },
+        {
+          "net": "STBY_OUT",
+          "a": "U13",
+          "z": "Q21",
+          "gauge": "26AWG",
+          "id": "IO-W088",
+          "route": [
+            [
+              20,
+              12
+            ],
+            [
+              16,
+              20
+            ]
+          ]
+        },
+        {
+          "net": "STBY_OUT",
+          "a": "X13",
+          "z": "U13",
+          "gauge": "26AWG",
+          "id": "IO-W089",
+          "route": [
+            [
+              23,
+              12
+            ],
+            [
+              20,
+              12
+            ]
+          ]
+        },
+        {
+          "net": "US_TRIG_5V",
+          "a": "X11",
+          "z": "D9",
+          "gauge": "26AWG",
+          "id": "IO-W090",
+          "route": [
+            [
+              23,
+              10
+            ],
+            [
+              3,
+              8
+            ]
+          ]
+        },
+        {
+          "net": "WP_N",
+          "a": "X28",
+          "z": "C27",
+          "gauge": "26AWG",
+          "id": "IO-W091",
+          "route": [
+            [
+              23.0,
+              27.0
+            ],
+            [
+              3.0,
+              26.5
+            ],
+            [
+              2.0,
+              26.0
+            ]
+          ]
+        }
+      ],
+      "pads": {
+        "A2": {
+          "ref": "JCORE",
+          "pin": "1",
+          "hole": "A2",
+          "net": "GND",
+          "value": "核心板信号入口"
+        },
+        "A3": {
+          "ref": "JCORE",
+          "pin": "2",
+          "hole": "A3",
+          "net": "3V3_CORE",
+          "value": "核心板信号入口"
+        },
+        "A4": {
+          "ref": "JCORE",
+          "pin": "3",
+          "hole": "A4",
+          "net": "PA0",
+          "value": "核心板信号入口"
+        },
+        "A5": {
+          "ref": "JCORE",
+          "pin": "4",
+          "hole": "A5",
+          "net": "PB15",
+          "value": "核心板信号入口"
+        },
+        "A6": {
+          "ref": "JCORE",
+          "pin": "5",
+          "hole": "A6",
+          "net": "PB5",
+          "value": "核心板信号入口"
+        },
+        "A7": {
+          "ref": "JCORE",
+          "pin": "6",
+          "hole": "A7",
+          "net": "PB13",
+          "value": "核心板信号入口"
+        },
+        "A8": {
+          "ref": "JCORE",
+          "pin": "7",
+          "hole": "A8",
+          "net": "SCL",
+          "value": "核心板信号入口"
+        },
+        "A9": {
+          "ref": "JCORE",
+          "pin": "8",
+          "hole": "A9",
+          "net": "SDA",
+          "value": "核心板信号入口"
+        },
+        "A10": {
+          "ref": "JCORE",
+          "pin": "9",
+          "hole": "A10",
+          "net": "PA4",
+          "value": "核心板信号入口"
+        },
+        "A11": {
+          "ref": "JCORE",
+          "pin": "10",
+          "hole": "A11",
+          "net": "PA15",
+          "value": "核心板信号入口"
+        },
+        "A12": {
+          "ref": "JCORE",
+          "pin": "11",
+          "hole": "A12",
+          "net": "PB10",
+          "value": "核心板信号入口"
+        },
+        "A13": {
+          "ref": "JCORE",
+          "pin": "12",
+          "hole": "A13",
+          "net": "PB11",
+          "value": "核心板信号入口"
+        },
+        "A14": {
+          "ref": "JCORE",
+          "pin": "13",
+          "hole": "A14",
+          "net": "PB3",
+          "value": "核心板信号入口"
+        },
+        "A15": {
+          "ref": "JCORE",
+          "pin": "14",
+          "hole": "A15",
+          "net": "PB4",
+          "value": "核心板信号入口"
+        },
+        "A16": {
+          "ref": "JCORE",
+          "pin": "15",
+          "hole": "A16",
+          "net": "PB1",
+          "value": "核心板信号入口"
+        },
+        "A17": {
+          "ref": "JCORE",
+          "pin": "16",
+          "hole": "A17",
+          "net": "PB12",
+          "value": "核心板信号入口"
+        },
+        "A18": {
+          "ref": "JCORE",
+          "pin": "17",
+          "hole": "A18",
+          "net": "PB14",
+          "value": "核心板信号入口"
+        },
+        "A21": {
+          "ref": "JPWR",
+          "pin": "1",
+          "hole": "A21",
+          "net": "5V_LOGIC",
+          "value": "接 PWR JP8"
+        },
+        "A22": {
+          "ref": "JPWR",
+          "pin": "2",
+          "hole": "A22",
+          "net": "3V3_EXT",
+          "value": "接 PWR JP8"
+        },
+        "A23": {
+          "ref": "JPWR",
+          "pin": "3",
+          "hole": "A23",
+          "net": "VBAT_SW",
+          "value": "接 PWR JP8"
+        },
+        "A24": {
+          "ref": "JPWR",
+          "pin": "4",
+          "hole": "A24",
+          "net": "GND",
+          "value": "接 PWR JP8"
+        },
+        "A27": {
+          "ref": "JSW",
+          "pin": "1",
+          "hole": "A27",
+          "net": "PB12",
+          "value": "碰撞 / 闭盖开关"
+        },
+        "A28": {
+          "ref": "JSW",
+          "pin": "2",
+          "hole": "A28",
+          "net": "GND",
+          "value": "碰撞 / 闭盖开关"
+        },
+        "A29": {
+          "ref": "JSW",
+          "pin": "3",
+          "hole": "A29",
+          "net": "PB14",
+          "value": "碰撞 / 闭盖开关"
+        },
+        "A30": {
+          "ref": "JSW",
+          "pin": "4",
+          "hole": "A30",
+          "net": "GND",
+          "value": "碰撞 / 闭盖开关"
+        },
+        "X2": {
+          "ref": "JMCP",
+          "pin": "1",
+          "hole": "X2",
+          "net": "3V3_EXT",
+          "value": "MCP23017 模块"
+        },
+        "X3": {
+          "ref": "JMCP",
+          "pin": "2",
+          "hole": "X3",
+          "net": "GND",
+          "value": "MCP23017 模块"
+        },
+        "X4": {
+          "ref": "JMCP",
+          "pin": "3",
+          "hole": "X4",
+          "net": "SCL",
+          "value": "MCP23017 模块"
+        },
+        "X5": {
+          "ref": "JMCP",
+          "pin": "4",
+          "hole": "X5",
+          "net": "SDA",
+          "value": "MCP23017 模块"
+        },
+        "X6": {
+          "ref": "JMCP",
+          "pin": "5",
+          "hole": "X6",
+          "net": "MCP_RESET",
+          "value": "MCP23017 模块"
+        },
+        "X9": {
+          "ref": "JACT",
+          "pin": "1",
+          "hole": "X9",
+          "net": "SERVO_SIG_5V",
+          "value": "舵机 / 超声 / 驱动"
+        },
+        "X10": {
+          "ref": "JACT",
+          "pin": "2",
+          "hole": "X10",
+          "net": "GND",
+          "value": "舵机 / 超声 / 驱动"
+        },
+        "X11": {
+          "ref": "JACT",
+          "pin": "3",
+          "hole": "X11",
+          "net": "US_TRIG_5V",
+          "value": "舵机 / 超声 / 驱动"
+        },
+        "X12": {
+          "ref": "JACT",
+          "pin": "4",
+          "hole": "X12",
+          "net": "ECHO_RAW",
+          "value": "舵机 / 超声 / 驱动"
+        },
+        "X13": {
+          "ref": "JACT",
+          "pin": "5",
+          "hole": "X13",
+          "net": "STBY_OUT",
+          "value": "舵机 / 超声 / 驱动"
+        },
+        "X16": {
+          "ref": "JES",
+          "pin": "1",
+          "hole": "X16",
+          "net": "VBAT_SW",
+          "value": "急停双 NC 触点"
+        },
+        "X17": {
+          "ref": "JES",
+          "pin": "2",
+          "hole": "X17",
+          "net": "NC1_RETURN",
+          "value": "急停双 NC 触点"
+        },
+        "X18": {
+          "ref": "JES",
+          "pin": "3",
+          "hole": "X18",
+          "net": "VBAT_SW",
+          "value": "急停双 NC 触点"
+        },
+        "X19": {
+          "ref": "JES",
+          "pin": "4",
+          "hole": "X19",
+          "net": "NC2_RETURN",
+          "value": "急停双 NC 触点"
+        },
+        "X22": {
+          "ref": "JAUX",
+          "pin": "1",
+          "hole": "X22",
+          "net": "DF_RX",
+          "value": "外设信号出口"
+        },
+        "X23": {
+          "ref": "JAUX",
+          "pin": "2",
+          "hole": "X23",
+          "net": "PB11",
+          "value": "外设信号出口"
+        },
+        "X24": {
+          "ref": "JAUX",
+          "pin": "3",
+          "hole": "X24",
+          "net": "PB3",
+          "value": "外设信号出口"
+        },
+        "X25": {
+          "ref": "JAUX",
+          "pin": "4",
+          "hole": "X25",
+          "net": "PB4",
+          "value": "外设信号出口"
+        },
+        "X26": {
+          "ref": "JAUX",
+          "pin": "5",
+          "hole": "X26",
+          "net": "PA4",
+          "value": "外设信号出口"
+        },
+        "X27": {
+          "ref": "JAUX",
+          "pin": "6",
+          "hole": "X27",
+          "net": "PA15",
+          "value": "外设信号出口"
+        },
+        "X28": {
+          "ref": "JAUX",
+          "pin": "7",
+          "hole": "X28",
+          "net": "WP_N",
+          "value": "外设信号出口"
+        },
+        "X29": {
+          "ref": "JAUX",
+          "pin": "8",
+          "hole": "X29",
+          "net": "HOLD_N",
+          "value": "外设信号出口"
+        },
+        "D4": {
+          "ref": "U1",
+          "pin": "1",
+          "hole": "D4",
+          "net": "GND",
+          "value": "SN74AHCT125N"
+        },
+        "D5": {
+          "ref": "U1",
+          "pin": "2",
+          "hole": "D5",
+          "net": "PA0",
+          "value": "SN74AHCT125N"
+        },
+        "D6": {
+          "ref": "U1",
+          "pin": "3",
+          "hole": "D6",
+          "net": "SERVO_SIG_5V",
+          "value": "SN74AHCT125N"
+        },
+        "D7": {
+          "ref": "U1",
+          "pin": "4",
+          "hole": "D7",
+          "net": "GND",
+          "value": "SN74AHCT125N"
+        },
+        "D8": {
+          "ref": "U1",
+          "pin": "5",
+          "hole": "D8",
+          "net": "PB15",
+          "value": "SN74AHCT125N"
+        },
+        "D9": {
+          "ref": "U1",
+          "pin": "6",
+          "hole": "D9",
+          "net": "US_TRIG_5V",
+          "value": "SN74AHCT125N"
+        },
+        "D10": {
+          "ref": "U1",
+          "pin": "7",
+          "hole": "D10",
+          "net": "GND",
+          "value": "SN74AHCT125N"
+        },
+        "G10": {
+          "ref": "U1",
+          "pin": "8",
+          "hole": "G10",
+          "net": "NC_U1_8",
+          "value": "SN74AHCT125N"
+        },
+        "G9": {
+          "ref": "U1",
+          "pin": "9",
+          "hole": "G9",
+          "net": "GND",
+          "value": "SN74AHCT125N"
+        },
+        "G8": {
+          "ref": "U1",
+          "pin": "10",
+          "hole": "G8",
+          "net": "5V_LOGIC",
+          "value": "SN74AHCT125N"
+        },
+        "G7": {
+          "ref": "U1",
+          "pin": "11",
+          "hole": "G7",
+          "net": "NC_U1_11",
+          "value": "SN74AHCT125N"
+        },
+        "G6": {
+          "ref": "U1",
+          "pin": "12",
+          "hole": "G6",
+          "net": "GND",
+          "value": "SN74AHCT125N"
+        },
+        "G5": {
+          "ref": "U1",
+          "pin": "13",
+          "hole": "G5",
+          "net": "5V_LOGIC",
+          "value": "SN74AHCT125N"
+        },
+        "G4": {
+          "ref": "U1",
+          "pin": "14",
+          "hole": "G4",
+          "net": "5V_LOGIC",
+          "value": "SN74AHCT125N"
+        },
+        "I3": {
+          "ref": "C1",
+          "pin": "1",
+          "hole": "I3",
+          "net": "5V_LOGIC",
+          "value": "100nF"
+        },
+        "I5": {
+          "ref": "C1",
+          "pin": "2",
+          "hole": "I5",
+          "net": "GND",
+          "value": "100nF"
+        },
+        "C12": {
+          "ref": "R1",
+          "pin": "1",
+          "hole": "C12",
+          "net": "PA0",
+          "value": "10k"
+        },
+        "G12": {
+          "ref": "R1",
+          "pin": "2",
+          "hole": "G12",
+          "net": "GND",
+          "value": "10k"
+        },
+        "C14": {
+          "ref": "R2",
+          "pin": "1",
+          "hole": "C14",
+          "net": "PB15",
+          "value": "10k"
+        },
+        "G14": {
+          "ref": "R2",
+          "pin": "2",
+          "hole": "G14",
+          "net": "GND",
+          "value": "10k"
+        },
+        "K5": {
+          "ref": "Q1",
+          "pin": "E",
+          "hole": "K5",
+          "net": "GND",
+          "value": "2N3904"
+        },
+        "L5": {
+          "ref": "Q1",
+          "pin": "B",
+          "hole": "L5",
+          "net": "ES1_BASE",
+          "value": "2N3904"
+        },
+        "M5": {
+          "ref": "Q1",
+          "pin": "C",
+          "hole": "M5",
+          "net": "KILL_BASE",
+          "value": "2N3904"
+        },
+        "K9": {
+          "ref": "Q2",
+          "pin": "E",
+          "hole": "K9",
+          "net": "GND",
+          "value": "2N3904"
+        },
+        "L9": {
+          "ref": "Q2",
+          "pin": "B",
+          "hole": "L9",
+          "net": "KILL_BASE",
+          "value": "2N3904"
+        },
+        "M9": {
+          "ref": "Q2",
+          "pin": "C",
+          "hole": "M9",
+          "net": "STBY_OUT",
+          "value": "2N3904"
+        },
+        "K13": {
+          "ref": "Q3",
+          "pin": "E",
+          "hole": "K13",
+          "net": "GND",
+          "value": "2N3904"
+        },
+        "L13": {
+          "ref": "Q3",
+          "pin": "B",
+          "hole": "L13",
+          "net": "ES2_BASE",
+          "value": "2N3904"
+        },
+        "M13": {
+          "ref": "Q3",
+          "pin": "C",
+          "hole": "M13",
+          "net": "PB13",
+          "value": "2N3904"
+        },
+        "C17": {
+          "ref": "R3",
+          "pin": "1",
+          "hole": "C17",
+          "net": "SCL",
+          "value": "4.7k"
+        },
+        "G17": {
+          "ref": "R3",
+          "pin": "2",
+          "hole": "G17",
+          "net": "3V3_EXT",
+          "value": "4.7k"
+        },
+        "C19": {
+          "ref": "R4",
+          "pin": "1",
+          "hole": "C19",
+          "net": "SDA",
+          "value": "4.7k"
+        },
+        "G19": {
+          "ref": "R4",
+          "pin": "2",
+          "hole": "G19",
+          "net": "3V3_EXT",
+          "value": "4.7k"
+        },
+        "C21": {
+          "ref": "R5",
+          "pin": "1",
+          "hole": "C21",
+          "net": "MCP_RESET",
+          "value": "10k"
+        },
+        "G21": {
+          "ref": "R5",
+          "pin": "2",
+          "hole": "G21",
+          "net": "3V3_EXT",
+          "value": "10k"
+        },
+        "C23": {
+          "ref": "R6",
+          "pin": "1",
+          "hole": "C23",
+          "net": "PA4",
+          "value": "10k"
+        },
+        "G23": {
+          "ref": "R6",
+          "pin": "2",
+          "hole": "G23",
+          "net": "3V3_EXT",
+          "value": "10k"
+        },
+        "C25": {
+          "ref": "R7",
+          "pin": "1",
+          "hole": "C25",
+          "net": "PA15",
+          "value": "10k"
+        },
+        "G25": {
+          "ref": "R7",
+          "pin": "2",
+          "hole": "G25",
+          "net": "3V3_EXT",
+          "value": "10k"
+        },
+        "C27": {
+          "ref": "R8",
+          "pin": "1",
+          "hole": "C27",
+          "net": "WP_N",
+          "value": "10k"
+        },
+        "G27": {
+          "ref": "R8",
+          "pin": "2",
+          "hole": "G27",
+          "net": "3V3_EXT",
+          "value": "10k"
+        },
+        "C29": {
+          "ref": "R9",
+          "pin": "1",
+          "hole": "C29",
+          "net": "HOLD_N",
+          "value": "10k"
+        },
+        "G29": {
+          "ref": "R9",
+          "pin": "2",
+          "hole": "G29",
+          "net": "3V3_EXT",
+          "value": "10k"
+        },
+        "K3": {
+          "ref": "R10",
+          "pin": "1",
+          "hole": "K3",
+          "net": "NC1_RETURN",
+          "value": "4.7k"
+        },
+        "O3": {
+          "ref": "R10",
+          "pin": "2",
+          "hole": "O3",
+          "net": "ES1_BASE",
+          "value": "4.7k"
+        },
+        "K7": {
+          "ref": "R11",
+          "pin": "1",
+          "hole": "K7",
+          "net": "ES1_BASE",
+          "value": "100k"
+        },
+        "O7": {
+          "ref": "R11",
+          "pin": "2",
+          "hole": "O7",
+          "net": "GND",
+          "value": "100k"
+        },
+        "K11": {
+          "ref": "R12",
+          "pin": "1",
+          "hole": "K11",
+          "net": "NC2_RETURN",
+          "value": "4.7k"
+        },
+        "O11": {
+          "ref": "R12",
+          "pin": "2",
+          "hole": "O11",
+          "net": "ES2_BASE",
+          "value": "4.7k"
+        },
+        "K15": {
+          "ref": "R13",
+          "pin": "1",
+          "hole": "K15",
+          "net": "ES2_BASE",
+          "value": "100k"
+        },
+        "O15": {
+          "ref": "R13",
+          "pin": "2",
+          "hole": "O15",
+          "net": "GND",
+          "value": "100k"
+        },
+        "Q5": {
+          "ref": "R14",
+          "pin": "1",
+          "hole": "Q5",
+          "net": "3V3_EXT",
+          "value": "4.7k"
+        },
+        "U5": {
+          "ref": "R14",
+          "pin": "2",
+          "hole": "U5",
+          "net": "KILL_BASE",
+          "value": "4.7k"
+        },
+        "Q9": {
+          "ref": "R15",
+          "pin": "1",
+          "hole": "Q9",
+          "net": "KILL_BASE",
+          "value": "100k"
+        },
+        "U9": {
+          "ref": "R15",
+          "pin": "2",
+          "hole": "U9",
+          "net": "GND",
+          "value": "100k"
+        },
+        "Q13": {
+          "ref": "R16",
+          "pin": "1",
+          "hole": "Q13",
+          "net": "PB5",
+          "value": "1k"
+        },
+        "U13": {
+          "ref": "R16",
+          "pin": "2",
+          "hole": "U13",
+          "net": "STBY_OUT",
+          "value": "1k"
+        },
+        "Q17": {
+          "ref": "R17",
+          "pin": "1",
+          "hole": "Q17",
+          "net": "PB5",
+          "value": "10k"
+        },
+        "U17": {
+          "ref": "R17",
+          "pin": "2",
+          "hole": "U17",
+          "net": "GND",
+          "value": "10k"
+        },
+        "Q21": {
+          "ref": "R18",
+          "pin": "1",
+          "hole": "Q21",
+          "net": "STBY_OUT",
+          "value": "10k"
+        },
+        "U21": {
+          "ref": "R18",
+          "pin": "2",
+          "hole": "U21",
+          "net": "GND",
+          "value": "10k"
+        },
+        "K19": {
+          "ref": "R19",
+          "pin": "1",
+          "hole": "K19",
+          "net": "3V3_CORE",
+          "value": "10k"
+        },
+        "O19": {
+          "ref": "R19",
+          "pin": "2",
+          "hole": "O19",
+          "net": "PB13",
+          "value": "10k"
+        },
+        "K17": {
+          "ref": "R20",
+          "pin": "1",
+          "hole": "K17",
+          "net": "ECHO_RAW",
+          "value": "12k"
+        },
+        "O17": {
+          "ref": "R20",
+          "pin": "2",
+          "hole": "O17",
+          "net": "PB1",
+          "value": "12k"
+        },
+        "K21": {
+          "ref": "R21",
+          "pin": "1",
+          "hole": "K21",
+          "net": "PB1",
+          "value": "20k"
+        },
+        "O21": {
+          "ref": "R21",
+          "pin": "2",
+          "hole": "O21",
+          "net": "GND",
+          "value": "20k"
+        },
+        "K23": {
+          "ref": "R22",
+          "pin": "1",
+          "hole": "K23",
+          "net": "PB3",
+          "value": "10k"
+        },
+        "O23": {
+          "ref": "R22",
+          "pin": "2",
+          "hole": "O23",
+          "net": "3V3_CORE",
+          "value": "10k"
+        },
+        "K25": {
+          "ref": "R23",
+          "pin": "1",
+          "hole": "K25",
+          "net": "PB4",
+          "value": "10k"
+        },
+        "O25": {
+          "ref": "R23",
+          "pin": "2",
+          "hole": "O25",
+          "net": "3V3_CORE",
+          "value": "10k"
+        },
+        "K27": {
+          "ref": "R24",
+          "pin": "1",
+          "hole": "K27",
+          "net": "PB11",
+          "value": "4.7k"
+        },
+        "O27": {
+          "ref": "R24",
+          "pin": "2",
+          "hole": "O27",
+          "net": "3V3_EXT",
+          "value": "4.7k"
+        },
+        "K29": {
+          "ref": "R25",
+          "pin": "1",
+          "hole": "K29",
+          "net": "PB10",
+          "value": "1k"
+        },
+        "O29": {
+          "ref": "R25",
+          "pin": "2",
+          "hole": "O29",
+          "net": "DF_RX",
+          "value": "1k"
+        },
+        "Q25": {
+          "ref": "R26",
+          "pin": "1",
+          "hole": "Q25",
+          "net": "PB12",
+          "value": "10k"
+        },
+        "U25": {
+          "ref": "R26",
+          "pin": "2",
+          "hole": "U25",
+          "net": "3V3_CORE",
+          "value": "10k"
+        },
+        "Q29": {
+          "ref": "R27",
+          "pin": "1",
+          "hole": "Q29",
+          "net": "PB14",
+          "value": "10k"
+        },
+        "U29": {
+          "ref": "R27",
+          "pin": "2",
+          "hole": "U29",
+          "net": "3V3_CORE",
+          "value": "10k"
+        }
+      },
+      "nets": {
+        "GND": [
+          "A2",
+          "A24",
+          "A28",
+          "A30",
+          "X3",
+          "X10",
+          "D4",
+          "D7",
+          "D10",
+          "G9",
+          "G6",
+          "I5",
+          "G12",
+          "G14",
+          "K5",
+          "K9",
+          "K13",
+          "O7",
+          "O15",
+          "U9",
+          "U17",
+          "U21",
+          "O21"
+        ],
+        "3V3_CORE": [
+          "A3",
+          "K19",
+          "O23",
+          "O25",
+          "U25",
+          "U29"
+        ],
+        "PA0": [
+          "A4",
+          "D5",
+          "C12"
+        ],
+        "PB15": [
+          "A5",
+          "D8",
+          "C14"
+        ],
+        "PB5": [
+          "A6",
+          "Q13",
+          "Q17"
+        ],
+        "PB13": [
+          "A7",
+          "M13",
+          "O19"
+        ],
+        "SCL": [
+          "A8",
+          "X4",
+          "C17"
+        ],
+        "SDA": [
+          "A9",
+          "X5",
+          "C19"
+        ],
+        "PA4": [
+          "A10",
+          "X26",
+          "C23"
+        ],
+        "PA15": [
+          "A11",
+          "X27",
+          "C25"
+        ],
+        "PB10": [
+          "A12",
+          "K29"
+        ],
+        "PB11": [
+          "A13",
+          "X23",
+          "K27"
+        ],
+        "PB3": [
+          "A14",
+          "X24",
+          "K23"
+        ],
+        "PB4": [
+          "A15",
+          "X25",
+          "K25"
+        ],
+        "PB1": [
+          "A16",
+          "O17",
+          "K21"
+        ],
+        "PB12": [
+          "A17",
+          "A27",
+          "Q25"
+        ],
+        "PB14": [
+          "A18",
+          "A29",
+          "Q29"
+        ],
+        "5V_LOGIC": [
+          "A21",
+          "G8",
+          "G5",
+          "G4",
+          "I3"
+        ],
+        "3V3_EXT": [
+          "A22",
+          "X2",
+          "G17",
+          "G19",
+          "G21",
+          "G23",
+          "G25",
+          "G27",
+          "G29",
+          "Q5",
+          "O27"
+        ],
+        "VBAT_SW": [
+          "A23",
+          "X16",
+          "X18"
+        ],
+        "MCP_RESET": [
+          "X6",
+          "C21"
+        ],
+        "SERVO_SIG_5V": [
+          "X9",
+          "D6"
+        ],
+        "US_TRIG_5V": [
+          "X11",
+          "D9"
+        ],
+        "ECHO_RAW": [
+          "X12",
+          "K17"
+        ],
+        "STBY_OUT": [
+          "X13",
+          "M9",
+          "U13",
+          "Q21"
+        ],
+        "NC1_RETURN": [
+          "X17",
+          "K3"
+        ],
+        "NC2_RETURN": [
+          "X19",
+          "K11"
+        ],
+        "DF_RX": [
+          "X22",
+          "O29"
+        ],
+        "WP_N": [
+          "X28",
+          "C27"
+        ],
+        "HOLD_N": [
+          "X29",
+          "C29"
+        ],
+        "ES1_BASE": [
+          "L5",
+          "O3",
+          "K7"
+        ],
+        "KILL_BASE": [
+          "M5",
+          "L9",
+          "U5",
+          "Q9"
+        ],
+        "ES2_BASE": [
+          "L13",
+          "O11",
+          "K15"
+        ]
+      },
+      "summary": {
+        "parts": 39,
+        "pads": 126,
+        "wires": 91
+      }
+    }
+  },
+  "sources": [
+    "https://www.ti.com/lit/ds/symlink/sn74ahct125.pdf",
+    "https://www.onsemi.com/pdf/datasheet/2n3904-d.pdf",
+    "https://www.aosmd.com/sites/default/files/res/datasheets/AO3400A.pdf"
+  ]
+}

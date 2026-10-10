@@ -1,0 +1,407 @@
+{
+  "source_docx": "STM32与RFID智能移动垃圾桶_逐步组装与调试实施手册_图解增强版.docx",
+  "review_basis": [
+    "当前图解增强版DOCX只读提取，1712段/43表",
+    "SmartBin_洞洞板接线图_20261010/layout.json 与 00_先读我.txt",
+    "external_wiring_notes.json，17节"
+  ],
+  "scope": "不直接修改Word；只给最小合并修正和相邻说明。原330步骤及序号保留，新增内容不编号为步骤。",
+  "step_check": {
+    "count": 330,
+    "sequence_is_001_to_330": true
+  },
+  "overall_conclusions": [
+    "未发现正文明确要求电池ADC或照明电路必须装在IO板。需对齐的实际位置措辞是“ADC节点靠近核心输入”和“AO转接插到洞洞板”。",
+    "原BOM已是两块洞洞板、MCP23017成品模块；三块电子托板是机械载体，不应改成三块电气板或新增MCP DIP28。",
+    "参考孔位图未包含全部外置线束及条件适配。必须把该边界和完整外接说明一同收入Word，不能只插四张总览图便称全机接线完成。",
+    "AHCT第三通道蜂鸣选配漏写拆除10脚原5V连线是确切电气风险，需局部修正文句。",
+    "现有330个步骤的技术流程、电阻值、IO分配和软件资源无需整体改写。"
+  ],
+  "paragraph_items": [
+    {
+      "id": "INT01",
+      "priority": "recommended",
+      "scope": "封面说明和图解读法",
+      "operation": "replace_each_paragraph",
+      "position": "after",
+      "paragraph_indices": [
+        4,
+        14
+      ],
+      "old_exact_paragraphs": [
+        "保留原版330个步骤与33项功能，新增30幅操作图解及1幅整机外观概念图。",
+        "原有图1至图7保留；新增图解按01起连续编号，分布在基础操作、机械、电气和调试章节。新增图片是操作辅助，原有接线表、实测要求和330个步骤继续有效。"
+      ],
+      "reason": "加入新图后，固定的“新增30幅”及连续编号介绍需要更新。不要改步骤编号。",
+      "recommended_adjacent_note_or_correction": [
+        "保留原版330个步骤与33项功能，补入SG90接线和洞洞板元件面、焊接面参考图。",
+        "原有图1至图7和操作图解保留；新增SG90与洞洞板参考图按图题引用。步骤编号不变。通用焊接图讲解方法，具体孔位按本册新增的PWR、IO参考布局及配套逐根焊线表核对。"
+      ]
+    },
+    {
+      "id": "INT02",
+      "priority": "required",
+      "scope": "图解03通用洞洞板示意的边界",
+      "operation": "insert_adjacent_note",
+      "position": "after",
+      "paragraph_indices": [
+        114
+      ],
+      "old_exact_paragraphs": [
+        "图解 03  先识别洞洞板铜箔结构，再焊导线建立网络；焊点发亮程度不能单独证明接触可靠。"
+      ],
+      "reason": "原图只是独立焊盘与连线方法示意，不能让读者误以为它是完整项目布线。",
+      "recommended_adjacent_note_or_correction": "本图仅演示焊接方法，不是本机完整布线图。本机使用两块独立焊盘板：PWR电源板和IO信号板。具体器件孔号、元件面与已镜像的焊接面见新增参考布局；还须完成外置模块接线。"
+    },
+    {
+      "id": "INT03",
+      "priority": "recommended",
+      "scope": "步骤033附近的三块机械托板与两块电气板",
+      "operation": "insert_adjacent_note",
+      "position": "after",
+      "paragraph_indices": [
+        257
+      ],
+      "old_exact_paragraphs": [
+        "用 12 根 10 mm 双通柱，每块托板 4 根。第一块放核心板与低压信号汇总；第二块放传感总线与小模块；第三块放电源分配/驱动等，具体按实物大小确定。先纸板拟出托板外形和孔，再用薄绝缘板或洞洞板实现。"
+      ],
+      "reason": "“三块托板”是机械分区，不能被误读成需要第三块DRV洞洞板。",
+      "recommended_adjacent_note_or_correction": "这里的三块托板是机械安装分区，不是三块电气洞洞板。本机只制作PWR、IO两块7×9cm洞洞板；核心、MCP23017成品模块、TB6612与电源模块分别固定在合适托板上。"
+    },
+    {
+      "id": "INT04",
+      "priority": "required",
+      "scope": "第20章电气总则：参考图适用范围与外置模块",
+      "operation": "insert_adjacent_note",
+      "position": "after",
+      "paragraph_indices": [
+        535
+      ],
+      "old_exact_paragraphs": [
+        "本章逐根接线适用于 STM32F103C8T6 可拆核心板＋洞洞板＋MCP23017 的单台方案。这里的 PA、PB 为 STM32 端口名，GPA、GPB 为 MCP23017 扩展口名；例如 PB0 与 GPB0 是两个不同引脚。所有编号按信号名核对，不能把表格顺序当作实物排针左右顺序。旧 V2.1 嘉立创底板和 PCF8574 的接线不适用于本章。"
+      ],
+      "reason": "新孔位图有明确的板型及外置模块边界，原总则尚未说明。",
+      "recommended_adjacent_note_or_correction": "本册新增孔位参考图对应PWR和IO各一块7×9cm、2.54mm独立焊盘洞洞板。先在实物上确认连续24列×30行孔区，再定义A—X、1—30；70×90mm外形不保证各商品板的安装孔和边缘留距相同。核心、MCP23017成品扩展模块、TB6612、降压/稳压及传感器均外置，MCP无需改买DIP28。PWR放电源、ADC分压和照明接口，IO放AHCT缓冲、急停逻辑及信号汇总。"
+    },
+    {
+      "id": "INT05",
+      "priority": "required",
+      "scope": "步骤094：孔位、镜像和逐根焊线表施工",
+      "operation": "insert_adjacent_note",
+      "position": "after",
+      "paragraph_indices": [
+        550
+      ],
+      "old_exact_paragraphs": [
+        "先给洞洞板排针、端子和电阻定位，焊一个脚校正垂直，再焊其余脚。柔性线剥约 4–5 mm，不能割伤铜股；需要端子压线的位置用合适冷压端头或保持整齐裸铜，不把厚焊锡堆夹在螺丝下。"
+      ],
+      "reason": "通用工步需衔接新图的孔号、导线定义，避免读者再镜像一次或将交叉线焊连。",
+      "recommended_adjacent_note_or_correction": "先对照元件面空插核位号、阻值、脚名和壳体间隙；保持第1行朝上，绕竖轴翻板后对照焊接面图。焊接面已左右镜像，列从X到A，不重新编号、不再次镜像。按逐根焊线表焊一根、断电测一根、勾一根；除指定两根连续汇流铜线外，全部用绝缘线，仅指定端点剥皮焊接，交叉不通。"
+    },
+    {
+      "id": "INT06",
+      "priority": "required",
+      "scope": "步骤101：六组功率端子与连续汇流铜线",
+      "operation": "insert_adjacent_note",
+      "position": "after",
+      "paragraph_indices": [
+        586
+      ],
+      "old_exact_paragraphs": [
+        "在降压输出附近设置 5 V 正负配电端，各引一对线分别去驱动、舵机、逻辑；电机回流线不先穿过逻辑板。所有配电端加盖或热缩绝缘，端子附近用扎带作应力释放。"
+      ],
+      "reason": "参考图采用明确的六端子和两根连续汇流线，需在原星形分支工步补充可施工描述。",
+      "recommended_adjacent_note_or_correction": "按PWR图保留BAT_SW、BUCK_IN、BUCK_OUT、MOTOR、SERVO、LOGIC六组大电流端子。正汇流线用一根直径0.8mm镀锡实心铜线连续连接V3/V5/V7/V9；负汇流线用另一根连续连接X3/X5/X7/X9/X11。W001—W003、W004—W007是两根铜线的分段记录，不剪成七根。BUCK_OUT的R3、T3分别只接一根20AWG至V3、X3；各支路搭焊在对应汇流节点，不能把多根粗线挤入同孔。完成检查后覆盖可靠绝缘罩，跨越汇流线的其他导线必须保持绝缘。"
+    },
+    {
+      "id": "INT07",
+      "priority": "recommended",
+      "scope": "步骤100：新图电容位置与实际负载端去耦",
+      "operation": "insert_adjacent_note",
+      "position": "after",
+      "paragraph_indices": [
+        582
+      ],
+      "old_exact_paragraphs": [
+        "电解电容长脚通常为正、壳体条纹标负，以实际标识为准。正极焊到对应 5 V 支路，负极焊到地；100 nF 陶瓷无极性，贴近模块电源脚并联。电解尽量不悬在长线末端，焊后加机械固定。"
+      ],
+      "reason": "布局将CP1—3移至第17行、CP4—6第21行，PWR已有电容不能取代远端模块去耦。",
+      "recommended_adjacent_note_or_correction": "新PWR图中CP1/CP2/CP3依次为电机470μF、舵机1000μF、逻辑100μF，安装在第17行；CP4/CP5/CP6各100nF在第21行。正负以孔位表为准；实际电容脚距、直径及端子壳体先空插确认。MCP和DFPlayer等模块处仍须保留本册规定的就近去耦。"
+    },
+    {
+      "id": "INT08",
+      "priority": "required",
+      "scope": "步骤104：自定义JCORE不是核心板直插座",
+      "operation": "insert_adjacent_note",
+      "position": "after",
+      "paragraph_indices": [
+        601
+      ],
+      "old_exact_paragraphs": [
+        "按实物丝印找到 5V、GND、3V3、NRST、SWDIO/PA13、SWCLK/PA14、BOOT0。用断电导通核对 GND。只连接 5V_LOGIC→5V、GND→GND，先不接外设。BOOT0 置 Flash 正常启动位置。"
+      ],
+      "reason": "新IO的JCORE是17针自定义信号口；原核心针脚表是功能映射而非几何顺序。",
+      "recommended_adjacent_note_or_correction": "IO图中的JCORE是本项目自定义的17针线束接口，不是STM32核心板原有排针次序，不能把核心整排直插。按孔位接口表逐根从核心丝印接至对应信号；JCORE不含核心5V供电脚，核心5V仍单独取PWR的LOGIC支路。PA1从PWR的ADC接口接入；SWD、SPI三线及未纳入JCORE的其余信号按原接线表另接，不能因接口未列出便省略。"
+    },
+    {
+      "id": "INT09",
+      "priority": "required",
+      "scope": "第23章：JMCP五线与14条功能线",
+      "operation": "insert_adjacent_note",
+      "position": "after",
+      "paragraph_indices": [
+        625
+      ],
+      "old_exact_paragraphs": [
+        "扩展器是 MCP23017 I²C 型，不能购买/接成 MCP23S17 SPI 型，也不能继续套用旧 PCF8574 软件。MCP23017 的 GPA7、GPB7 按当前原厂资料只用于输出，本版均输出 0 且不接外部信号。"
+      ],
+      "reason": "用户已经确认是焊好的扩展模块；JMCP只有五线，若仅接五线本机其他功能不会完成。",
+      "recommended_adjacent_note_or_correction": "本次使用已经焊好的MCP23017成品模块。IO的JMCP五线只包括3V3_EXT、GND、SCL、SDA、RESET；按信号接模块丝印，不假定模块排针顺序。GPA0—GPA6及GPB0—GPB6共14条功能线按下表直接另接外部模块和按键，GPA5去PWR照明输入；A0/A1/A2在模块侧接地，INTA/INTB和GPA7/GPB7按本册规定处理。"
+    },
+    {
+      "id": "INT10",
+      "priority": "recommended",
+      "scope": "步骤123：SPI外接线与JAUX功能",
+      "operation": "insert_adjacent_note",
+      "position": "after",
+      "paragraph_indices": [
+        690
+      ],
+      "old_exact_paragraphs": [
+        "同时接回 RC522 和 FLASH，启动先把两个 CS 拉高，操作任一器件时只拉低它自己的 CS；交替每次读卡版本、读 FLASH ID，至少循环 100 次。"
+      ],
+      "reason": "IO图只把片选等汇总到JAUX，并没有三线SPI转接排；防止看图遗漏SCK/MISO/MOSI。",
+      "recommended_adjacent_note_or_correction": "新IO图的JAUX只提供片选、WP/HOLD及其他辅助信号，不含SPI三线。PA5/PA6/PA7仍直接在核心与RC522、FLASH线束间分接；PA4、PA15经图中片选接口分别连接各模块。RC522的SDA标记在本工程是CS，不能接I²C的SDA。板上已有片选上拉时，不再在外部重复装同值上拉。"
+    },
+    {
+      "id": "INT11",
+      "priority": "required",
+      "scope": "第25章：条件电平适配仍在板外完成",
+      "operation": "insert_adjacent_note",
+      "position": "after",
+      "paragraph_indices": [
+        695
+      ],
+      "old_exact_paragraphs": [
+        "STM32 与 MCP23017 本版只使用 3.3 V 逻辑连接。MCP23017 尤其不能直接承受 5 V 输入。对实际模块按下面三种情况只选一种适配，再记录在 SENSOR_POLARITY 配置中。"
+      ],
+      "reason": "两块通用板没有所有传感器适配焊位，图完整不等于未知模块可直接接入。",
+      "recommended_adjacent_note_or_correction": "新两板孔位图仅固定通用电路。实际为5V数字输出的NPN适配在模块侧或另加绝缘小接线片完成；DHT的5V分支用开漏双向BSS138适配，5V模拟AO不能套用数字NPN。MODE、BACK、编码器SW的约10kΩ外部上拉（或已验证的MCP内部上拉）、蜂鸣不响电平偏置以及MCP/DFPlayer就近去耦仍按本章对应步骤完成，不能因两板图无焊位而省掉。"
+    },
+    {
+      "id": "INT12",
+      "priority": "required",
+      "scope": "步骤127：编码器板载上拉与两路3.3V",
+      "operation": "replace_paragraph",
+      "position": "after",
+      "paragraph_indices": [
+        715
+      ],
+      "old_exact_paragraphs": [
+        "确认模块可用 3.3 V，VCC→3V3_EXT、GND→GND、CLK→PB3、DT→PB4、SW→GPB4。CLK/DT 各 10 kΩ 上拉到 3V3_CORE，SW 上拉到 3V3_EXT；若板载上拉已存在，确认它不会拉至5V，避免重复过强上拉。"
+      ],
+      "reason": "旧句仅要求已有上拉不至5V；新IO的R22/R23明确拉CORE，若模块仍拉EXT会通过两电阻连接两稳压轨。需讲清条件装配。",
+      "recommended_adjacent_note_or_correction": "确认模块可用3.3V，VCC→3V3_EXT、GND→GND、CLK→PB3、DT→PB4、SW→GPB4。CLK/DT上拉按实物只选一种：移除模块侧已有上拉后用IO的R22/R23各10kΩ拉3V3_CORE；或保留已确认拉3V3_EXT的模块上拉、不装R22/R23，并实测空闲和旋转电平。不能同时保留两路稳压各自的上拉；SW约10kΩ拉3V3_EXT或使用已验证的MCP内部上拉。"
+    },
+    {
+      "id": "INT13",
+      "priority": "recommended",
+      "scope": "步骤134：三管位号对照",
+      "operation": "insert_adjacent_note",
+      "position": "after",
+      "paragraph_indices": [
+        749
+      ],
+      "old_exact_paragraphs": [
+        "在洞洞板画QES1/2/3轮廓。按实物资料辨E/B/C；三个E接地，每个B经100k到各自E。焊接后不接电池，量E到GND连续，量B到GND约100k。"
+      ],
+      "reason": "正文QES1/2/3与新布局Q1/2/3名称不同但电路相同，需要一行对照避免重复焊三管。",
+      "recommended_adjacent_note_or_correction": "孔位图中的Q1=本节QES1，Q2=QES2，Q3=QES3；是同一组急停三管，不另加一组。图标E/B/C是电气脚名，不能仅靠TO92平面朝向猜脚；按当前厂家资料辨认并在整脚处绝缘。"
+    },
+    {
+      "id": "INT14",
+      "priority": "required",
+      "scope": "步骤149：新增SG90连接图及信号/动力分路",
+      "operation": "insert_adjacent_note",
+      "position": "after",
+      "paragraph_indices": [
+        823
+      ],
+      "old_exact_paragraphs": [
+        "卸下舵盘/连杆，SG90红线→5V_SERVO、棕/黑线→GND、信号→AHCT Y1。先50Hz、1500μs置中，停机后装舵盘。延长线三芯逐线确认，不凭商品公母名称接反。"
+      ],
+      "reason": "原接法正确；新图应把信号排针与PWR两针动力端区分，不画成三根都来自IO。",
+      "recommended_adjacent_note_or_correction": "对照新增SG90图逐根接：红线取PWR的SERVO支路5V，棕/黑线直接回该支路GND；橙/黄/白信号线按实物确认后接IO的JACT中SERVO5V输出（X9，即U1第3脚Y1）。这里SERVO5V是5V逻辑PWM信号，不是舵机供电正端。JACT的GND用于信号参考，不能承担舵机主电流；PA0只进AHCT第2脚，不另直连舵机信号。先拆连杆空载50Hz、1500μs验证，再继续原标定步骤。"
+    },
+    {
+      "id": "INT15",
+      "priority": "required",
+      "scope": "第32章与步骤169：AO3400A转接外置，PWR承载LED电阻和接口",
+      "operation": "replace_each_paragraph",
+      "position": "after",
+      "paragraph_indices": [
+        910,
+        915
+      ],
+      "old_exact_paragraphs": [
+        "AO3400A是SOT-23裸场效应管，本工程用SOT-23→2.54mm转接板后焊到洞洞板，不需要找到名叫“AO3400A模块”的商品。它仅驱动本节一颗小白LED；舵机和电机不接到这个照明MOS。",
+        "在放大镜下把转接板一焊盘少量上锡，镊子对准MOS，固定一脚后确认方向，再焊另两脚。用无电连续性量表追踪G/S/D各到哪个2.54mm排针，写标签；清除连锡后再插洞洞板。"
+      ],
+      "reason": "旧文明确“焊到/插到洞洞板”，新参考图不假定任意转接板排针孔距，而是PWR JP11定义G/S/D外接。按新图纠正位置，不改变电路。",
+      "recommended_adjacent_note_or_correction": [
+        "AO3400A是SOT-23裸场效应管，本工程先焊到SOT-23→2.54mm转接板，再用标记清楚的G/S/D线束接PWR的JP11。转接板独立绝缘固定；不把任意商品转接板整排硬插为相同针序。它仅驱动本节一颗小白LED；舵机和电机不接这个照明MOS。",
+        "在放大镜下给转接板一焊盘少量上锡，镊子对准MOS，固定一脚后确认方向，再焊另两脚。断电用通断档追踪G/S/D各到哪个排针，写标签并清除连锡；按PWR接口表将G、S、D分别接JP11的G、GND、LED_NEG。转接板机械固定并绝缘，不能按商品排针左右次序猜接。"
+      ]
+    },
+    {
+      "id": "INT16",
+      "priority": "required",
+      "scope": "步骤170：照明小电路在PWR并保留原电气值",
+      "operation": "insert_adjacent_note",
+      "position": "after",
+      "paragraph_indices": [
+        919
+      ],
+      "old_exact_paragraphs": [
+        "按表焊100Ω、100kΩ、220Ω与LED。先以G接地检查灯灭，再用3.3V通过100Ω驱动G检查灯亮；最后接GPA5。"
+      ],
+      "reason": "新图已将照明三电阻及接口放在PWR，原正文没有声明IO位置，无需声称推翻旧IO设计。",
+      "recommended_adjacent_note_or_correction": "本次参考布局把100Ω栅极串联、100kΩ栅极下拉、220Ω LED限流放在PWR，位号为RP3、RP4、RP5。MCP的GPA5另接PWR灯控制入口JP10，LED接JP12，AO3400A转接板接JP11；电阻值、电流目标和软件引脚不变。"
+    },
+    {
+      "id": "INT17",
+      "priority": "required",
+      "scope": "步骤173：启用AHCT通道3前同时移除两根默认短线",
+      "operation": "replace_paragraph",
+      "position": "after",
+      "paragraph_indices": [
+        931
+      ],
+      "old_exact_paragraphs": [
+        "已确认3.3V输入兼容的三线模块IN接PB9。若需要5V高电平，启用AHCT通道3：10脚/OE接地、9脚A改接PB9、8脚Y接IN；移除原9脚接地线。PB9按不响电平加10k偏置：高有效蜂鸣模块用下拉GND，低有效用上拉3V3_CORE；软件初始化保持同一关闭电平。"
+      ],
+      "reason": "实际电气遗漏：旧文只明确移除9脚地线。新IO图的10脚默认接5V，若不拆掉就再接GND会直接短路5V。属于必须修正的既有条件分支。",
+      "recommended_adjacent_note_or_correction": "已确认3.3V输入兼容的三线模块IN接PB9。若模块需要5V高电平，断电后先移除AHCT第9脚到GND、以及第10脚到5V_LOGIC的两根原短线，确认两脚均已脱离原网络，再将10脚/OE接GND、9脚A接PB9、8脚Y接IN。采用此分支时同步修改新IO参考图的相关线记录，不能保留默认线后叠接。PB9按不响电平加10kΩ偏置：高有效用下拉GND，低有效用上拉3V3_CORE；软件初始化保持同一关闭电平。"
+    },
+    {
+      "id": "INT18",
+      "priority": "required",
+      "scope": "步骤183：电池分压迁至PWR",
+      "operation": "replace_paragraph",
+      "position": "after",
+      "paragraph_indices": [
+        973
+      ],
+      "old_exact_paragraphs": [
+        "VBAT_SW→33kΩ→BAT_ADC节点→PA1；BAT_ADC→10kΩ→GND，同时100nF从BAT_ADC到GND。电阻用1%，节点靠近核心输入，贴“1.95V@8.4V”标签。"
+      ],
+      "reason": "原文仅说“节点靠近核心输入”，未说在IO；新图固定PWR RP1/RP2/CP7，因此改为PWR局部节点和短采样线。",
+      "recommended_adjacent_note_or_correction": "在PWR按参考布局焊RP1=33kΩ、RP2=10kΩ、CP7=100nF：VBAT_SW→RP1→BAT_ADC，BAT_ADC经RP2及CP7分别到GND。电阻均用1%，CP7靠近分压节点；PWR的ADC接口JP9将BAT_ADC与GND成对用短线引到核心PA1和GND，远离电机线，贴“1.95V@8.4V”标签。电气比例和采样算法不变；原步骤184关于单独断核心电源前拔PA1的要求继续适用。"
+    },
+    {
+      "id": "INT19",
+      "priority": "recommended",
+      "scope": "步骤296：安装时覆盖PWR裸汇流线",
+      "operation": "insert_adjacent_note",
+      "position": "after",
+      "paragraph_indices": [
+        1507
+      ],
+      "old_exact_paragraphs": [
+        "在下层靠近电池的一侧定位电源洞洞板，铜箔面朝上或与底板之间保持绝缘距离；用10mm立柱固定；电源输出端朝线束方向。"
+      ],
+      "reason": "原“铜箔面朝上”允许裸汇流线可触及；加入明确覆盖和安装净距，不改机械托板位置。",
+      "recommended_adjacent_note_or_correction": "采用新PWR图时，两根裸汇流铜线完成检查后须覆盖可靠绝缘罩，无论焊接面朝上还是朝下都不能裸露碰到螺钉、支架或其他焊点；预留元件、端子进线和工具操作空间。"
+    }
+  ],
+  "table_items": [
+    {
+      "id": "TAB01",
+      "priority": "required",
+      "scope": "新增配件表：板型",
+      "table_index": 5,
+      "row_index": 34,
+      "old_exact_paragraphs": [
+        "洞洞板 7×9cm 2.54mm 双面",
+        "2块",
+        "电源分配与信号汇总分板；不依靠细焊锡桥承担大电流。"
+      ],
+      "reason": "新图只适用于独立焊盘且有24×30有效孔的板；双面不等于两面焊盘一定互通。",
+      "recommended_adjacent_note_or_correction": [
+        "洞洞板 7×9cm 2.54mm 独立焊盘型",
+        "2块",
+        "先核连续24列×30行有效孔区；不得用条状连通板。双面板上下焊盘是否贯通须实测，按本册焊接面图建立网络。"
+      ]
+    },
+    {
+      "id": "TAB02",
+      "priority": "required",
+      "scope": "新增配件表：AO转接板安装位置",
+      "table_index": 5,
+      "row_index": 21,
+      "old_exact_paragraphs": [
+        "SOT23-3 转DIP 2.54mm 转接板",
+        "1块",
+        "将AO3400A焊上后上洞洞板；引脚映射须按转接板铜箔检查。"
+      ],
+      "reason": "新图通过G/S/D线束连接，不能保留“焊上后上洞洞板”误导为任意转接板直插。",
+      "recommended_adjacent_note_or_correction": [
+        "SOT23-3 转DIP 2.54mm 转接板",
+        "1块",
+        "AO3400A焊好后用G/S/D标记线束接PWR JP11并独立绝缘固定；引脚映射按转接板导通检查。"
+      ]
+    },
+    {
+      "id": "TAB03",
+      "priority": "required",
+      "scope": "新增配件表：汇流铜线增补行",
+      "table_index": 5,
+      "row_index": 36,
+      "old_exact_paragraphs": [
+        "软硅胶线 20AWG 红黑",
+        "各2 m参考",
+        "主电源和分支；18 AWG亦可。"
+      ],
+      "reason": "原表无新图要求的0.8mm镀锡实心线；普通细焊锡桥不可替代。",
+      "recommended_adjacent_note_or_correction": {
+        "operation": "insert_row_after",
+        "new_row": [
+          "镀锡实心铜线 直径0.8mm",
+          "约10cm起，可买短段留加工余量",
+          "PWR焊接面两根连续汇流线；一根V3到V9、一根X3到X11，支路搭焊；完成电气检查后覆盖可靠绝缘罩。"
+        ]
+      }
+    }
+  ],
+  "suggested_insertions": [
+    {
+      "location": "图解03后",
+      "content": "简短通用示意边界；指向新增参考图"
+    },
+    {
+      "location": "步骤094前或后另设无编号小节",
+      "content": "孔位与镜像读法＋PWR/IO四幅参考图；清晰注明仅参考布局、实物核位后再焊"
+    },
+    {
+      "location": "步骤101后",
+      "content": "PWR六端子、两根汇流线和对应施工引用"
+    },
+    {
+      "location": "步骤149前",
+      "content": "SG90具体连接图＋信号/动力端子区分"
+    },
+    {
+      "location": "第20章末或新增无编号参考附录",
+      "content": "完整外置模块接线说明，以及孔位/逐线表的相对路径；仓库内文件链接用相对路径，Word保留文件名供离线检索"
+    }
+  ],
+  "not_required_to_change": [
+    "原SPI、MCP功能映射表",
+    "原PB1的12kΩ/20kΩ ECHO分压",
+    "原U1 DIP14引脚与两路标准AHCT缓冲",
+    "原SG90 50Hz与1500μs空载检查",
+    "原电池6.6V锁停和恢复条件",
+    "原MCP A0/A1/A2、RESET、GPA7/GPB7处理"
+  ],
+  "validation": "上述old_exact_paragraphs来自当前实际DOCX或其表格单元格，索引仅为这次提取辅助，不是页码。应用时按完整文本锚定，修改后仍需渲染并复查新增图及相邻页。"
+}

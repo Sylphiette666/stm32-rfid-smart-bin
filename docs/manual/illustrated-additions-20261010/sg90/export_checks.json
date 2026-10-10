@@ -1,0 +1,51 @@
+{
+  "source": "C:/Users/35462/.codex/visualizations/2026/09/22/01a0c85f-fe0b-7740-a158-56810cfb3e8f/sg90-lid-linkage.html",
+  "errors": [],
+  "qa": [
+    {
+      "id": "sg90_closed",
+      "dimensions_px": [
+        2280,
+        1332
+      ],
+      "overflow": [],
+      "text_overlap": []
+    },
+    {
+      "id": "sg90_half",
+      "dimensions_px": [
+        2280,
+        1811
+      ],
+      "overflow": [],
+      "text_overlap": []
+    },
+    {
+      "id": "sg90_open",
+      "dimensions_px": [
+        2280,
+        2268
+      ],
+      "overflow": [],
+      "text_overlap": []
+    },
+    {
+      "id": "sg90_lid_mount",
+      "dimensions_px": [
+        2280,
+        2238
+      ],
+      "overflow": [],
+      "text_overlap": []
+    },
+    {
+      "id": "sg90_joint_mount",
+      "dimensions_px": [
+        2280,
+        2298
+      ],
+      "overflow": [],
+      "text_overlap": []
+    }
+  ]
+}
