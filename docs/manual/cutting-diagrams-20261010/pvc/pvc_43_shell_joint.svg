@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1550" viewBox="0 0 1800 1550">
+<rect width="100%" height="100%" fill="white"/>
+<style>text{font-family:"Microsoft YaHei","Noto Sans CJK SC",sans-serif}</style>
+<text x="45.00" y="71.76" font-size="48" fill="#17252E" font-weight="700" text-anchor="start">图解 43｜桶壳拼接：前后壁夹入，底板嵌入且底面齐平</text>
+<text x="45.00" y="134.32" font-size="36" fill="#566773" font-weight="400" text-anchor="start">单位 mm｜固定桶壳全部用 3 mm 发泡 PVC；外形 160×150×180，未画实际角码和螺孔。</text>
+<text x="140.00" y="196.54" font-size="42" fill="#17252E" font-weight="700" text-anchor="start">俯视：先无胶试拼四壁</text>
+<rect x="160.00" y="305.00" width="640.00" height="600.00" fill="none" stroke="#566773" stroke-width="2"/>
+<rect x="160.00" y="305.00" width="640.00" height="12.00" fill="#E7F0F8" stroke="#1565A6" stroke-width="3"/>
+<rect x="160.00" y="893.00" width="640.00" height="12.00" fill="#E7F0F8" stroke="#1565A6" stroke-width="3"/>
+<rect x="160.00" y="317.00" width="12.00" height="576.00" fill="#F7ECD9" stroke="#B16916" stroke-width="3"/>
+<rect x="788.00" y="317.00" width="12.00" height="576.00" fill="#F7ECD9" stroke="#B16916" stroke-width="3"/>
+<rect x="172.00" y="317.00" width="616.00" height="576.00" fill="#E8F2EB" stroke="#237655" stroke-width="2"/>
+<polyline points="160.00,305.00 160.00,270.00" fill="none" stroke="#566773" stroke-width="2"/>
+<polyline points="800.00,305.00 800.00,270.00" fill="none" stroke="#566773" stroke-width="2"/>
+<polyline points="160.00,280.00 800.00,280.00" fill="none" stroke="#566773" stroke-width="3"/>
+<polygon points="800.00,280.00 786.49,286.52 786.49,273.48" fill="#566773" stroke="none" stroke-width="3"/>
+<polygon points="160.00,280.00 173.51,273.48 173.51,286.52" fill="#566773" stroke="none" stroke-width="3"/>
+<text x="480.00" y="259.06" font-size="38" fill="#566773" font-weight="400" text-anchor="middle">外长 160</text>
+<polyline points="160.00,305.00 81.00,305.00" fill="none" stroke="#566773" stroke-width="2"/>
+<polyline points="160.00,905.00 81.00,905.00" fill="none" stroke="#566773" stroke-width="2"/>
+<polyline points="91.00,305.00 91.00,905.00" fill="none" stroke="#566773" stroke-width="3"/>
+<polygon points="91.00,905.00 84.48,891.49 97.52,891.49" fill="#566773" stroke="none" stroke-width="3"/>
+<polygon points="91.00,305.00 97.52,318.51 84.48,318.51" fill="#566773" stroke="none" stroke-width="3"/>
+<rect x="34.00" y="571.00" width="114.00" height="68.00" fill="white" stroke="none" stroke-width="0"/>
+<text x="91.00" y="619.06" font-size="38" fill="#566773" font-weight="400" text-anchor="middle">150</text>
+<text x="480.00" y="568.02" font-size="46" fill="#237655" font-weight="700" text-anchor="middle">P05 壳底</text>
+<text x="480.00" y="626.02" font-size="46" fill="#237655" font-weight="700" text-anchor="middle">154×144×3</text>
+<text x="480.00" y="738.32" font-size="36" fill="#237655" font-weight="400" text-anchor="middle">底板嵌在四壁里面</text>
+<polyline points="480.00,390.00 480.00,310.00" fill="none" stroke="#1565A6" stroke-width="3"/>
+<polygon points="480.00,310.00 486.52,323.51 473.48,323.51" fill="#1565A6" stroke="none" stroke-width="3"/>
+<text x="480.00" y="448.32" font-size="36" fill="#1565A6" font-weight="400" text-anchor="middle">P03 侧壁：160×180×3</text>
+<polyline points="480.00,815.00 480.00,900.00" fill="none" stroke="#1565A6" stroke-width="3"/>
+<polygon points="480.00,900.00 473.48,886.49 486.52,886.49" fill="#1565A6" stroke="none" stroke-width="3"/>
+<text x="480.00" y="788.32" font-size="36" fill="#1565A6" font-weight="400" text-anchor="middle">P03 侧壁：160×180×3</text>
+<polyline points="285.00,1010.00 168.00,930.00 168.00,740.00" fill="none" stroke="#B16916" stroke-width="3"/>
+<polygon points="168.00,740.00 174.52,753.51 161.48,753.51" fill="#B16916" stroke="none" stroke-width="3"/>
+<polyline points="665.00,1010.00 790.00,930.00 794.00,740.00" fill="none" stroke="#B16916" stroke-width="3"/>
+<polygon points="794.00,740.00 800.24,753.64 787.19,753.37" fill="#B16916" stroke="none" stroke-width="3"/>
+<text x="475.00" y="1039.32" font-size="36" fill="#B16916" font-weight="400" text-anchor="middle">P04 后壁 / 前壁：各 144×180×3</text>
+<text x="475.00" y="1087.32" font-size="36" fill="#B16916" font-weight="400" text-anchor="middle">夹在两块 P03 侧壁之间</text>
+<polyline points="520.00,1140.00 800.00,1140.00" fill="none" stroke="#1565A6" stroke-width="4"/>
+<polygon points="800.00,1140.00 786.49,1146.52 786.49,1133.48" fill="#1565A6" stroke="none" stroke-width="3"/>
+<text x="400.00" y="1153.32" font-size="36" fill="#1565A6" font-weight="400" text-anchor="middle">车头 +X</text>
+<text x="140.00" y="1233.06" font-size="38" fill="#17252E" font-weight="400" text-anchor="start">前后壁宽：150 − 2×3 = 144</text>
+<text x="140.00" y="1293.06" font-size="38" fill="#17252E" font-weight="400" text-anchor="start">壳底长宽：154 × 144</text>
+<text x="140.00" y="1353.06" font-size="38" fill="#566773" font-weight="400" text-anchor="start">154 = 160 − 2×3</text>
+<text x="990.00" y="196.54" font-size="42" fill="#17252E" font-weight="700" text-anchor="start">沿 X 的竖剖面：底部做齐平</text>
+<rect x="1030.00" y="305.00" width="9.90" height="594.00" fill="#F7ECD9" stroke="#B16916" stroke-width="3"/>
+<rect x="1548.10" y="305.00" width="9.90" height="594.00" fill="#F7ECD9" stroke="#B16916" stroke-width="3"/>
+<rect x="1039.90" y="889.10" width="508.20" height="9.90" fill="#E8F2EB" stroke="#237655" stroke-width="3"/>
+<rect x="990.00" y="899.00" width="608.00" height="36.00" fill="#E7E3DA" stroke="#566773" stroke-width="3"/>
+<polyline points="960.00,899.00 1628.00,899.00" fill="none" stroke="#C33D3D" stroke-width="3" stroke-dasharray="13 10"/>
+<polyline points="1558.00,305.00 1650.00,305.00" fill="none" stroke="#566773" stroke-width="2"/>
+<polyline points="1558.00,899.00 1650.00,899.00" fill="none" stroke="#566773" stroke-width="2"/>
+<polyline points="1660.00,305.00 1660.00,899.00" fill="none" stroke="#566773" stroke-width="3"/>
+<polygon points="1660.00,899.00 1653.48,885.49 1666.52,885.49" fill="#566773" stroke="none" stroke-width="3"/>
+<polygon points="1660.00,305.00 1666.52,318.51 1653.48,318.51" fill="#566773" stroke="none" stroke-width="3"/>
+<rect x="1603.00" y="568.00" width="114.00" height="68.00" fill="white" stroke="none" stroke-width="0"/>
+<text x="1660.00" y="616.06" font-size="38" fill="#566773" font-weight="400" text-anchor="middle">180</text>
+<text x="1290.00" y="458.80" font-size="40" fill="#B16916" font-weight="400" text-anchor="middle">壁板高 180</text>
+<text x="1290.00" y="510.80" font-size="40" fill="#B16916" font-weight="400" text-anchor="middle">底板放在壁内</text>
+<text x="1290.00" y="704.80" font-size="40" fill="#237655" font-weight="700" text-anchor="middle">P05 厚 3</text>
+<polyline points="1290.00,743.00 1290.00,889.00" fill="none" stroke="#237655" stroke-width="3"/>
+<polygon points="1290.00,889.00 1283.48,875.49 1296.52,875.49" fill="#237655" stroke="none" stroke-width="3"/>
+<text x="1290.00" y="993.32" font-size="36" fill="#566773" font-weight="400" text-anchor="middle">P02 木平台：全面承托壳底</text>
+<text x="990.00" y="1091.32" font-size="36" fill="#C33D3D" font-weight="400" text-anchor="start">红虚线 = P02 上表面</text>
+<text x="990.00" y="1139.32" font-size="36" fill="#C33D3D" font-weight="400" text-anchor="start">四壁底缘与 P05 底面都落在此处。</text>
+<text x="990.00" y="1218.06" font-size="38" fill="#17252E" font-weight="400" text-anchor="start">底板不垫在四壁下面；</text>
+<text x="990.00" y="1268.06" font-size="38" fill="#17252E" font-weight="400" text-anchor="start">也不另加抬高底板的木条。</text>
+<text x="990.00" y="1341.32" font-size="36" fill="#566773" font-weight="400" text-anchor="start">名义净口 154×144；</text>
+<text x="990.00" y="1389.32" font-size="36" fill="#566773" font-weight="400" text-anchor="start">装角码、螺母后须重测实际通道。</text>
+<polyline points="90.00,1400.00 1710.00,1400.00" fill="none" stroke="#DBE2E6" stroke-width="3"/>
+<text x="90.00" y="1463.06" font-size="38" fill="#17252E" font-weight="400" text-anchor="start">四壁试拼方正 → 两对角线差值目标≤2 → 底面齐平 → 内胆实际放入、取出。</text>
+<text x="90.00" y="1521.58" font-size="34" fill="#566773" font-weight="400" text-anchor="start">采用外侧短角码或局部加强片；孔位按实物标记，不占用内胆全高度取出通道。</text>
+</svg>

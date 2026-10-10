@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1530" viewBox="0 0 1800 1530"><title>图解 40  两张 300 × 300 × 5 mm 木板排料</title><defs><marker id="arr" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto-start-reverse"><path d="M 8 0 L 0 4 L 8 8" fill="none" stroke="#687c8b" stroke-width="1.2"/></marker><pattern id="hatch" width="20" height="20" patternUnits="userSpaceOnUse"><path d="M-5,5 L5,-5 M0,20 L20,0 M15,25 L25,15" stroke="#dce3e8" stroke-width="2"/></pattern></defs><style>text{font-family:'Microsoft YaHei','Noto Sans CJK SC',sans-serif;font-size:34px} .small{font-size:32px} .bold{font-weight:700}</style><rect width="1800" height="1530" fill="white"/>
+<text x="70" y="72" font-size="46px" style="font-size:46px" fill="#18344b" text-anchor="start" font-weight="700">图解 40  两张 300 × 300 × 5 mm 木板排料</text>
+<text x="70" y="128" font-size="34px" style="font-size:34px" fill="#687c8b" text-anchor="start" font-weight="400">全部尺寸为 mm；彩色轮廓是成品线。示意图非 1:1，须用尺重新划线。</text>
+<text x="465" y="188" font-size="38px" style="font-size:38px" fill="#18344b" text-anchor="middle" font-weight="700">第 1 张：300 × 300 × 5</text>
+<rect x="150" y="282" width="630" height="630" fill="url(#hatch)" stroke="#18344b" stroke-width="3"/>
+<path d="M150,258H780" fill="none" stroke="#687c8b" stroke-width="2" marker-start="url(#arr)" marker-end="url(#arr)"/>
+<line x1="150" y1="248" x2="150" y2="268" stroke="#687c8b" stroke-width="2"/>
+<line x1="780" y1="248" x2="780" y2="268" stroke="#687c8b" stroke-width="2"/>
+<text x="465" y="242" font-size="34px" style="font-size:34px" fill="#687c8b" text-anchor="middle" font-weight="400">300</text>
+<path d="M108,282V912" fill="none" stroke="#687c8b" stroke-width="2" marker-start="url(#arr)" marker-end="url(#arr)"/>
+<line x1="98" y1="282" x2="118" y2="282" stroke="#687c8b" stroke-width="2"/>
+<line x1="98" y1="912" x2="118" y2="912" stroke="#687c8b" stroke-width="2"/>
+<text x="92" y="597" text-anchor="middle" style="font-size:34px" fill="#687c8b" transform="rotate(-90 92 597)">300</text>
+<text x="150" y="957" font-size="32px" style="font-size:32px" fill="#687c8b" text-anchor="start" font-weight="400">左下角为排料原点 (0, 0)</text>
+<text x="1335" y="188" font-size="38px" style="font-size:38px" fill="#18344b" text-anchor="middle" font-weight="700">第 2 张：300 × 300 × 5</text>
+<rect x="1020" y="282" width="630" height="630" fill="url(#hatch)" stroke="#18344b" stroke-width="3"/>
+<path d="M1020,258H1650" fill="none" stroke="#687c8b" stroke-width="2" marker-start="url(#arr)" marker-end="url(#arr)"/>
+<line x1="1020" y1="248" x2="1020" y2="268" stroke="#687c8b" stroke-width="2"/>
+<line x1="1650" y1="248" x2="1650" y2="268" stroke="#687c8b" stroke-width="2"/>
+<text x="1335" y="242" font-size="34px" style="font-size:34px" fill="#687c8b" text-anchor="middle" font-weight="400">300</text>
+<path d="M978,282V912" fill="none" stroke="#687c8b" stroke-width="2" marker-start="url(#arr)" marker-end="url(#arr)"/>
+<line x1="968" y1="282" x2="988" y2="282" stroke="#687c8b" stroke-width="2"/>
+<line x1="968" y1="912" x2="988" y2="912" stroke="#687c8b" stroke-width="2"/>
+<text x="962" y="597" text-anchor="middle" style="font-size:34px" fill="#687c8b" transform="rotate(-90 962 597)">300</text>
+<text x="1020" y="957" font-size="32px" style="font-size:32px" fill="#687c8b" text-anchor="start" font-weight="400">左下角为排料原点 (0, 0)</text>
+<rect x="160.5" y="439.5" width="588" height="462" fill="#e7f1fb" stroke="#1568a8" stroke-width="3"/>
+<text x="454.5" y="659" font-size="34px" style="font-size:34px" fill="#1568a8" text-anchor="middle" font-weight="700">P01 底板</text>
+<text x="454.5" y="706" font-size="34px" style="font-size:34px" fill="#1568a8" text-anchor="middle" font-weight="400">280 × 220 × 5</text>
+<rect x="160.5" y="303" width="399" height="126" fill="#fff0db" stroke="#ac6017" stroke-width="3"/>
+<text x="360" y="354.5" font-size="34px" style="font-size:34px" fill="#ac6017" text-anchor="middle" font-weight="700">P11 舵机立架</text>
+<text x="360" y="401.5" font-size="34px" style="font-size:34px" fill="#ac6017" text-anchor="middle" font-weight="400">190 × 60 × 5</text>
+<rect x="570" y="345" width="168" height="84" fill="#e4f4ed" stroke="#26795d" stroke-width="3"/>
+<text x="654" y="399" font-size="34px" style="font-size:34px" fill="#26795d" text-anchor="middle" font-weight="700">80 × 40</text>
+<text x="660" y="323" font-size="32px" style="font-size:32px" fill="#26795d" text-anchor="middle" font-weight="400">调节托片</text>
+<line x1="660" y1="328" x2="660" y2="341" stroke="#26795d" stroke-width="2"/>
+<rect x="1030.5" y="502.5" width="504" height="399" fill="#e7f1fb" stroke="#1568a8" stroke-width="3"/>
+<text x="1282.5" y="690.5" font-size="34px" style="font-size:34px" fill="#1568a8" text-anchor="middle" font-weight="700">P02 上平台</text>
+<text x="1282.5" y="737.5" font-size="34px" style="font-size:34px" fill="#1568a8" text-anchor="middle" font-weight="400">240 × 190 × 5</text>
+<rect x="1030.5" y="292.5" width="609" height="199.5" fill="#f3f6f8" stroke="#687c8b" stroke-width="2" stroke-dasharray="10 7"/>
+<text x="1335" y="371" font-size="34px" style="font-size:34px" fill="#687c8b" text-anchor="middle" font-weight="700">余料保留，不预切小件</text>
+<text x="1335" y="421" font-size="32px" style="font-size:32px" fill="#687c8b" text-anchor="middle" font-weight="400">转接片 / 三角撑按实物做</text>
+<line x1="160.5" y1="434.25" x2="770" y2="434.25" stroke="#c14332" stroke-width="3" stroke-dasharray="8 6"/>
+<text x="440" y="500" font-size="32px" style="font-size:32px" fill="#a33629" text-anchor="middle" font-weight="400">虚线所在废料带：宽 5</text>
+<line x1="440" y1="475" x2="440" y2="439" stroke="#a33629" stroke-width="2"/>
+<text x="80" y="1029" font-size="36px" style="font-size:36px" fill="#18344b" text-anchor="start" font-weight="700">逐件定位：坐标从各自整张木板左下角量起（不是装车坐标）</text>
+<rect x="80" y="1053" width="170" height="60" fill="#e9f0f6" stroke="#ccd6de" stroke-width="1"/>
+<text x="94" y="1094" font-size="32px" style="font-size:32px" fill="#18344b" text-anchor="start" font-weight="700">原料</text>
+<rect x="250" y="1053" width="380" height="60" fill="#e9f0f6" stroke="#ccd6de" stroke-width="1"/>
+<text x="264" y="1094" font-size="32px" style="font-size:32px" fill="#18344b" text-anchor="start" font-weight="700">零件</text>
+<rect x="630" y="1053" width="450" height="60" fill="#e9f0f6" stroke="#ccd6de" stroke-width="1"/>
+<text x="644" y="1094" font-size="32px" style="font-size:32px" fill="#18344b" text-anchor="start" font-weight="700">成品左下角 (x, y)</text>
+<rect x="1080" y="1053" width="640" height="60" fill="#e9f0f6" stroke="#ccd6de" stroke-width="1"/>
+<text x="1094" y="1094" font-size="32px" style="font-size:32px" fill="#18344b" text-anchor="start" font-weight="700">成品长 × 宽 × 厚</text>
+<rect x="80" y="1113" width="170" height="60" fill="#ffffff" stroke="#ccd6de" stroke-width="1"/>
+<text x="94" y="1154" font-size="32px" style="font-size:32px" fill="#18344b" text-anchor="start" font-weight="400">第 1 张</text>
+<rect x="250" y="1113" width="380" height="60" fill="#ffffff" stroke="#ccd6de" stroke-width="1"/>
+<text x="264" y="1154" font-size="32px" style="font-size:32px" fill="#18344b" text-anchor="start" font-weight="400">P01 底板</text>
+<rect x="630" y="1113" width="450" height="60" fill="#ffffff" stroke="#ccd6de" stroke-width="1"/>
+<text x="644" y="1154" font-size="32px" style="font-size:32px" fill="#18344b" text-anchor="start" font-weight="400">(5, 5)</text>
+<rect x="1080" y="1113" width="640" height="60" fill="#ffffff" stroke="#ccd6de" stroke-width="1"/>
+<text x="1094" y="1154" font-size="32px" style="font-size:32px" fill="#18344b" text-anchor="start" font-weight="400">280 × 220 × 5</text>
+<rect x="80" y="1173" width="170" height="60" fill="#ffffff" stroke="#ccd6de" stroke-width="1"/>
+<text x="94" y="1214" font-size="32px" style="font-size:32px" fill="#18344b" text-anchor="start" font-weight="400">第 1 张</text>
+<rect x="250" y="1173" width="380" height="60" fill="#ffffff" stroke="#ccd6de" stroke-width="1"/>
+<text x="264" y="1214" font-size="32px" style="font-size:32px" fill="#18344b" text-anchor="start" font-weight="400">P11 舵机立架</text>
+<rect x="630" y="1173" width="450" height="60" fill="#ffffff" stroke="#ccd6de" stroke-width="1"/>
+<text x="644" y="1214" font-size="32px" style="font-size:32px" fill="#18344b" text-anchor="start" font-weight="400">(5, 230)</text>
+<rect x="1080" y="1173" width="640" height="60" fill="#ffffff" stroke="#ccd6de" stroke-width="1"/>
+<text x="1094" y="1214" font-size="32px" style="font-size:32px" fill="#18344b" text-anchor="start" font-weight="400">190 × 60 × 5；装车时 190 竖直</text>
+<rect x="80" y="1233" width="170" height="60" fill="#ffffff" stroke="#ccd6de" stroke-width="1"/>
+<text x="94" y="1274" font-size="32px" style="font-size:32px" fill="#18344b" text-anchor="start" font-weight="400">第 1 张</text>
+<rect x="250" y="1233" width="380" height="60" fill="#ffffff" stroke="#ccd6de" stroke-width="1"/>
+<text x="264" y="1274" font-size="32px" style="font-size:32px" fill="#18344b" text-anchor="start" font-weight="400">舵机调节托片</text>
+<rect x="630" y="1233" width="450" height="60" fill="#ffffff" stroke="#ccd6de" stroke-width="1"/>
+<text x="644" y="1274" font-size="32px" style="font-size:32px" fill="#18344b" text-anchor="start" font-weight="400">(200, 230)</text>
+<rect x="1080" y="1233" width="640" height="60" fill="#ffffff" stroke="#ccd6de" stroke-width="1"/>
+<text x="1094" y="1274" font-size="32px" style="font-size:32px" fill="#18344b" text-anchor="start" font-weight="400">80 × 40 × 5</text>
+<rect x="80" y="1293" width="170" height="60" fill="#ffffff" stroke="#ccd6de" stroke-width="1"/>
+<text x="94" y="1334" font-size="32px" style="font-size:32px" fill="#18344b" text-anchor="start" font-weight="400">第 2 张</text>
+<rect x="250" y="1293" width="380" height="60" fill="#ffffff" stroke="#ccd6de" stroke-width="1"/>
+<text x="264" y="1334" font-size="32px" style="font-size:32px" fill="#18344b" text-anchor="start" font-weight="400">P02 上平台</text>
+<rect x="630" y="1293" width="450" height="60" fill="#ffffff" stroke="#ccd6de" stroke-width="1"/>
+<text x="644" y="1334" font-size="32px" style="font-size:32px" fill="#18344b" text-anchor="start" font-weight="400">(5, 5)</text>
+<rect x="1080" y="1293" width="640" height="60" fill="#ffffff" stroke="#ccd6de" stroke-width="1"/>
+<text x="1094" y="1334" font-size="32px" style="font-size:32px" fill="#18344b" text-anchor="start" font-weight="400">240 × 190 × 5</text>
+<text x="80" y="1412" font-size="34px" style="font-size:34px" fill="#18344b" text-anchor="start" font-weight="400">边缘与相邻成品至少留 5；锯片走尺寸线外侧的废料，最后锉到成品线。</text>
+<text x="80" y="1460" font-size="34px" style="font-size:34px" fill="#18344b" text-anchor="start" font-weight="400">先保住 P01 / P02 完整；余料不足以适配实物支架时另补小料，不能拼主要承载板。</text>
+</svg>

@@ -4,10 +4,10 @@
 
 ## 从这里开始
 
-1. [下载图解增强版Word手册](docs/manual/STM32%E4%B8%8ERFID%E6%99%BA%E8%83%BD%E7%A7%BB%E5%8A%A8%E5%9E%83%E5%9C%BE%E6%A1%B6_%E9%80%90%E6%AD%A5%E7%BB%84%E8%A3%85%E4%B8%8E%E8%B0%83%E8%AF%95%E5%AE%9E%E6%96%BD%E6%89%8B%E5%86%8C_%E5%9B%BE%E8%A7%A3%E5%A2%9E%E5%BC%BA%E7%89%88.docx)：168页，保留330个步骤、33项功能；本轮加入5幅SG90图和4幅洞洞板图，现有39幅操作图解、1幅外观概念图及原7幅图，共47幅。[原125页版本](docs/manual/STM32%E4%B8%8ERFID%E6%99%BA%E8%83%BD%E7%A7%BB%E5%8A%A8%E5%9E%83%E5%9C%BE%E6%A1%B6_%E9%80%90%E6%AD%A5%E7%BB%84%E8%A3%85%E4%B8%8E%E8%B0%83%E8%AF%95%E5%AE%9E%E6%96%BD%E6%89%8B%E5%86%8C.docx)保留。
+1. [下载图解增强版Word手册](docs/manual/STM32%E4%B8%8ERFID%E6%99%BA%E8%83%BD%E7%A7%BB%E5%8A%A8%E5%9E%83%E5%9C%BE%E6%A1%B6_%E9%80%90%E6%AD%A5%E7%BB%84%E8%A3%85%E4%B8%8E%E8%B0%83%E8%AF%95%E5%AE%9E%E6%96%BD%E6%89%8B%E5%86%8C_%E5%9B%BE%E8%A7%A3%E5%A2%9E%E5%BC%BA%E7%89%88.docx)：175页，保留330个步骤、33项功能；含SG90、洞洞板及新增的5幅木板/PVC裁剪图，现有44幅操作图解、1幅外观概念图及原7幅图，共52幅。裁剪详图见第62章（169—175页）。[原125页版本](docs/manual/STM32%E4%B8%8ERFID%E6%99%BA%E8%83%BD%E7%A7%BB%E5%8A%A8%E5%9E%83%E5%9C%BE%E6%A1%B6_%E9%80%90%E6%AD%A5%E7%BB%84%E8%A3%85%E4%B8%8E%E8%B0%83%E8%AF%95%E5%AE%9E%E6%96%BD%E6%89%8B%E5%86%8C.docx)保留。
 2. [在线阅读全部步骤](docs/manual/ASSEMBLY.md)：按顺序检查、装配和调试，原330步不重编；图解以同名Word最新版为准。
 3. [查看当前接线表](hardware/current-low-cost/WIRING.md)和[33项功能验收清单](docs/ACCEPTANCE.md)。
-4. [查看SG90等新增图解与说明](docs/manual/illustrated-additions-20261010/)及[洞洞板正反面图、孔位与逐根焊线表](hardware/current-low-cost/perfboard/)。
+4. [查看SG90等新增图解与说明](docs/manual/illustrated-additions-20261010/)、[木板与PVC裁剪图解](docs/manual/cutting-diagrams-20261010/)及[洞洞板正反面图、孔位与逐根焊线表](hardware/current-low-cost/perfboard/)。
 5. [查看固件开发状态](firmware/README.md)，再开始编写和烧录程序。
 
 ## 目录
@@ -18,6 +18,7 @@
 | --- | --- |
 | `docs/manual/` | 原版及最新同名图解增强版Word、330步阅读版、内容源与图解生成源 |
 | `docs/manual/illustrated-additions-20261010/` | 本轮SG90等新增图解及整合说明 |
+| `docs/manual/cutting-diagrams-20261010/` | 木板/PVC五幅裁剪图、图源、孔位说明及检查记录 |
 | `docs/planning/` | 功能成本选型、33项功能机械设计及功能数据 |
 | `docs/appearance/` | 成品外观概念图及生成说明 |
 | `hardware/current-low-cost/` | 当前MCP23017成品模块方案说明与接线资料 |

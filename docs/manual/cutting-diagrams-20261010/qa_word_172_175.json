@@ -1,0 +1,48 @@
+{
+  "status": "PASS",
+  "reviewed_pages": [
+    172,
+    173,
+    174,
+    175
+  ],
+  "render_directory": "D:\\Work\\嵌入式课设\\.cutting-diagrams-20261010\\render_final",
+  "method": "functions view_image detail=original逐张查看4页实际Word渲染PNG，并与本人最终PVC源图核对尺寸、朝向和拼接关系；未修改Word。",
+  "pages": [
+    {
+      "page": 172,
+      "status": "PASS",
+      "figure": 42,
+      "findings": "排料图、500尺寸线、各零件尺寸与文字均完整可读；分图标题与尺寸标签已分开。图注及两段施工正文无重叠、截断。第一片全部主要件及第二片备用关系保持原图几何，无可见拉伸。",
+      "png_sha256": "7dc176c02d7d812fb1ae7f6f00479af6aa1c3aeee00b49672db7805f34a2b2b4",
+      "actually_viewed_original_png": true
+    },
+    {
+      "page": 173,
+      "status": "PASS",
+      "figure": 43,
+      "findings": "160×150俯视与180高剖面、144前后壁、154×144底板及齐平红线清晰。标题/图注/三段扣厚与试拼正文完整；未发生裁切、错位或孤立标题。外对角约219.3、内约210.8与矩形尺寸一致。",
+      "png_sha256": "eb09a007eba36cb4e89a5fc5ee70a446ad05c05fabb2d1872f73278f4cc6504d",
+      "actually_viewed_original_png": true
+    },
+    {
+      "page": 174,
+      "status": "PASS",
+      "figure": 44,
+      "findings": "200×200×2料板、160×150×2活动盖、3mm固定条和前伸约5均清晰；右侧标签在页内。原图覆盖关系与1mm参考缝保持。图注及称重/压条/铰链三段正文完整，无重叠、裁切。",
+      "png_sha256": "b7bb138e9954ed100fbcc3775ff630e593c02b921632b6fbb7a859bf2b9ab475",
+      "actually_viewed_original_png": true
+    },
+    {
+      "page": 175,
+      "status": "PASS",
+      "figure": null,
+      "findings": "62.6施工顺序1—8及合格记录全部完整；段落间距一致，没有跨页中断、孤立编号或中文方块。页末留白属于章节结束的合理留白。",
+      "png_sha256": "beb1b7ef9d9ed82b4b31756b4a1d50e00eae369a64929441017a06bd7e518f4d",
+      "actually_viewed_original_png": true
+    }
+  ],
+  "issues": [],
+  "geometric_consistency": "图解42—44在Word中的零件长宽、墙片夹接、底板齐平及活动盖覆盖关系与最终PNG源图一致，无可见非等比变形。",
+  "limits": "排版与设计图核验，不代表实物裁切、装配、称重验收完成。"
+}

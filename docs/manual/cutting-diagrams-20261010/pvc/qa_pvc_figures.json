@@ -1,0 +1,44 @@
+{
+  "status": "PASS",
+  "review_method": "每张最终PNG以view_image original实际查看；SVG通过XML解析；两者由同一坐标和文本生成器输出。",
+  "reviewed_files": [
+    "pvc_42_nesting.png",
+    "pvc_43_shell_joint.png",
+    "pvc_44_lid_strip.png"
+  ],
+  "issues_fixed": [
+    "三个分图标题与顶部尺寸标签间距已增加。",
+    "图44前伸标注左移且缩为前伸约5，避免贴右边界。",
+    "统一主标题为图解42—44。"
+  ],
+  "remaining_visual_issues": [],
+  "dimensional_check": {
+    "source": "现行docs/manual/ASSEMBLY.md，第07—19章",
+    "shell_outer_mm": [
+      160,
+      150,
+      180
+    ],
+    "wall_mm": 3,
+    "front_rear_wall_width_mm": 144,
+    "bottom_mm": [
+      154,
+      144,
+      3
+    ],
+    "bottom_bottom_face_flush_with_wall_bottom": true,
+    "source_dimension_inconsistency_found": false,
+    "all_main_3mm_parts_fit_first_500_sheet": true,
+    "minimum_edge_and_interpart_gap_mm": 5,
+    "second_3mm_sheet_retained": true,
+    "rear_strip_150x12_is_reserved_blank_not_final_hinge_geometry": true,
+    "all_mounting_holes_by_actual_hardware": true
+  },
+  "word_insertion": {
+    "width_cm": 17,
+    "max_figure_height_cm": 14.64,
+    "minimum_font_px": 34,
+    "minimum_font_pt_at_17cm": 9.1
+  },
+  "physical_validation": "未进行实物切割、装配或称重；图示尺寸核对不替代实物验收。"
+}

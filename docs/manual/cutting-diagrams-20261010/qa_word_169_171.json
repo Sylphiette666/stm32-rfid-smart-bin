@@ -1,0 +1,27 @@
+{
+  "scope": "175-page final Word, wood cutting appendix",
+  "status": "pass",
+  "reviewed_pages": [
+    169,
+    170,
+    171
+  ],
+  "method": "Viewed each final page PNG at original detail using view_image",
+  "issues": [],
+  "page_checks": [
+    {
+      "page": 169,
+      "result": "Chapter introduction, material table, all rows, and post-table text fit without clipping or overlap."
+    },
+    {
+      "page": 170,
+      "result": "Figure 40 nesting diagram, dimension text, coordinate table, caption, and explanatory paragraphs remain legible and complete; no excessive blank-page spill."
+    },
+    {
+      "page": 171,
+      "result": "Figure 41 H1-H4 labels, local/global hole-coordinate table, drilling note, caption and bottom paragraph are complete; right border labels have visible clearance."
+    }
+  ],
+  "supplemental_height_note": "Page 171 clearly states: 20 mm caster mounting height; reference Hb=45 mm; about25 mm TOTAL rigid spacer including adapter and flat washers; ball diameter15.85 mm does not replace mounting height. The paragraph is fully visible above the footer.",
+  "files_modified": "QA report only; Word not modified."
+}

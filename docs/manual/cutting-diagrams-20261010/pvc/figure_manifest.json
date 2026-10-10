@@ -1,0 +1,53 @@
+[
+  {
+    "number": 42,
+    "filename": "pvc_42_nesting.png",
+    "svg": "pvc_42_nesting.svg",
+    "png_width": 1800,
+    "png_height": 1550,
+    "caption": "3 mm 发泡 PVC 排料：全部主要板件可在第一片裁出，第二片保留试切、补强和重做。",
+    "alt": "第一片500毫米正方形板内排两侧壁160乘180、两前后壁144乘180、壳底154乘144、操作板190乘120、超声横梁150乘35、约180乘25触边横杠及150乘12固定条预留毛坯，间距和边距至少5毫米。第二片保持整张。",
+    "解释": "尺寸依照第12章切件表；后固定条尺寸来自第07章与步骤051。图中150×12只是预留毛坯，最终宽10～12按实物铰链试装，步骤051先试宽10。所有固定件孔位均须实物描。",
+    "anchor": "步骤 036 M26｜先划后切 PVC",
+    "position": "before",
+    "source": "docs/manual/ASSEMBLY.md 第07—19章（现行168页Word对应文字）",
+    "sha256_png": "0dd4a17eba9d806feee360e29e7050657e774c7c7083b0843029d0529beffac4",
+    "sha256_svg": "ba218e5c2d63a288d87471465a05e7c63f54a539bf447af6fcb46368b4c9298c",
+    "recommended_width_cm": 17.0,
+    "height_at_recommended_width_cm": 14.64
+  },
+  {
+    "number": 43,
+    "filename": "pvc_43_shell_joint.png",
+    "svg": "pvc_43_shell_joint.svg",
+    "png_width": 1800,
+    "png_height": 1550,
+    "caption": "桶壳拼接关系：144 mm 前后壁夹在侧壁之间，154×144 mm 底板嵌入，底面与四壁底缘齐平。",
+    "alt": "俯视外长160外宽150，四周壁厚3，内底154乘144。剖面壁高180，底板厚3嵌在壁内，底面与壁板底缘共同落在木平台P02上，外高不增加。",
+    "解释": "以现行切件表核算：150−2×3=144；160−2×3=154。外高180成立的条件是壳底嵌入且齐平。实际角码和螺母会占内通道，必须实物核对装袋PP内胆可进出。",
+    "anchor": "步骤 037 M27｜四壁无胶试拼",
+    "position": "before",
+    "source": "docs/manual/ASSEMBLY.md 第07—19章（现行168页Word对应文字）",
+    "sha256_png": "7f4ccf3f3836a0af432fb2b9a031b97eb1ee14afb3d66dd91663644e6e5f02f0",
+    "sha256_svg": "5d59def8cd7d3fee623085f420125a31b151f131ba1c9503034c68f226825cf1",
+    "recommended_width_cm": 17.0,
+    "height_at_recommended_width_cm": 14.64
+  },
+  {
+    "number": 44,
+    "filename": "pvc_44_lid_strip.png",
+    "svg": "pvc_44_lid_strip.svg",
+    "png_width": 1800,
+    "png_height": 1500,
+    "caption": "2 mm 活动盖与3 mm 后固定条分开裁制，闭盖覆盖和铰链让位先试装，再按实物钻孔。",
+    "alt": "200乘200乘2毫米发泡PVC裁160乘150活动盖。闭盖长边沿X，盖轴参考X75前缘X235，壳体后缘X70前缘X230，后固定条先试X64至74留约1毫米缝；固定条不会随盖运动。裸盖目标不超过30克，活动总成目标40克以内、上限45克。",
+    "解释": "盖与固定条的参考坐标直接来自步骤051。实际铰链变化须同步修正盖覆盖关系与舵机轴位置；图不是铰链孔位模板。PP内胆为另用1mmPP，不混入PVC清单。",
+    "anchor": "步骤 050 M40｜裁出新盖并称裸板",
+    "position": "before",
+    "source": "docs/manual/ASSEMBLY.md 第07—19章（现行168页Word对应文字）",
+    "sha256_png": "be1e8fe3c62f941b9da76bb67883dae2dd76fd671d75b7d02ff00f121af642d4",
+    "sha256_svg": "a0bc9ba728d412f9fea402842e2819cba3e9f2907c281d2efa091592b8ce175a",
+    "recommended_width_cm": 17.0,
+    "height_at_recommended_width_cm": 14.17
+  }
+]

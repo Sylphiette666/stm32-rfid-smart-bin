@@ -1,0 +1,37 @@
+{
+  "baseline_sha256": "251cd1a64bbd1a466630d4e966b3866fa1ca21587e8ba4a98dcf5b7da0dbdf59",
+  "figures": [
+    {
+      "caption": "图解 40  两张木板排料：沿成品线外侧锯切，5 mm 留缝属于废料。",
+      "file": "wood_40_nesting.png",
+      "width_cm": 17.5
+    },
+    {
+      "caption": "图解 41  四柱孔位与配钻：两板局部坐标不同，其他安装孔按实物描出。",
+      "file": "wood_41_pillar_holes.png",
+      "width_cm": 17.5
+    },
+    {
+      "caption": "图解 42  3 mm 发泡 PVC 排料：全部主要板件可在第一片裁出，第二片保留试切、补强和重做。",
+      "file": "pvc_42_nesting.png",
+      "width_cm": 17.5
+    },
+    {
+      "caption": "图解 43  桶壳拼接关系：144 mm 前后壁夹在侧壁之间，154×144 mm 底板嵌入，底面与四壁底缘齐平。",
+      "file": "pvc_43_shell_joint.png",
+      "width_cm": 17.5
+    },
+    {
+      "caption": "图解 44  2 mm 活动盖与3 mm 后固定条分开裁制，闭盖覆盖和铰链让位先试装，再按实物钻孔。",
+      "file": "pvc_44_lid_strip.png",
+      "width_cm": 17.5
+    }
+  ],
+  "output": "STM32与RFID智能移动垃圾桶_逐步组装与调试实施手册_图解增强版.docx",
+  "steps": 330,
+  "inline_images": 52,
+  "tables": 51,
+  "preserved_original_tables": 50,
+  "preserved_original_media": 47,
+  "new_media": 5
+}

@@ -1,0 +1,34 @@
+{
+  "pages": 175,
+  "baseline_pages": 168,
+  "numbered_steps": 330,
+  "inline_images": 52,
+  "operation_diagrams": 44,
+  "new_figures": [
+    40,
+    41,
+    42,
+    43,
+    44
+  ],
+  "tables": 51,
+  "preserved_tables": 50,
+  "exact_unchanged_page_body_matches": 165,
+  "visual_reviewed_changed_pages": [
+    1,
+    2,
+    5,
+    169,
+    170,
+    171,
+    172,
+    173,
+    174,
+    175
+  ],
+  "render_method": "Independent Word COM instance, updated fields and TOC, PDF rasterized at1.6x",
+  "packaged_render_limitation": "LibreOffice soffice.exe unavailable; diagnosed and used Word fallback",
+  "word_user_processes_touched": false,
+  "physical_validation": "Not performed; geometry and document checks do not replace assembly validation",
+  "docx_sha256": "f7d0c5ce51f904e58d40f9733fe5b030d29f31db53e26faf53ad6d21b3713187"
+}

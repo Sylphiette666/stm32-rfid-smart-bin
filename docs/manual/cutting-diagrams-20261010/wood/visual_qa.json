@@ -1,0 +1,21 @@
+{
+  "status": "pass",
+  "reviewed_files": [
+    "wood_40_nesting.png",
+    "wood_41_pillar_holes.png"
+  ],
+  "method": "Actual PNG visual review with view_image at original detail after layout fixes; Edge SVG text-bound checks",
+  "fixes": [
+    "Moved shelf label above small green part with leader.",
+    "Increased sheet-heading to 300 mm dimension spacing.",
+    "Moved H1-H4 labels outside reference regions and drew them last.",
+    "Removed redundant overlapping platform-offset sentence; retained offset in table and drilling instructions.",
+    "Added right-border margin to P02 H2/H4 labels."
+  ],
+  "outstanding_issues": [],
+  "printed_width_cm": 17.5,
+  "minimum_font_pt_at_width": 8.82,
+  "main_body_font_pt_at_width": 9.37,
+  "geometry_check": "All parts inside 300x300 sheets with >=5mm outside edge and mutual clearance; four holes align with (20,15) offset.",
+  "physical_validation": "Dimensions follow the current manual; no physical cutting or assembly performed."
+}

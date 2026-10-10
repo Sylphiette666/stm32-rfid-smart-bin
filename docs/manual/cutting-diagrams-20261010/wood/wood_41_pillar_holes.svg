@@ -1,0 +1,125 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1920" viewBox="0 0 1800 1920"><title>图解 41  两板四柱孔定位与实物描孔边界</title><defs><marker id="arr" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto-start-reverse"><path d="M 8 0 L 0 4 L 8 8" fill="none" stroke="#687c8b" stroke-width="1.2"/></marker><pattern id="hatch" width="20" height="20" patternUnits="userSpaceOnUse"><path d="M-5,5 L5,-5 M0,20 L20,0 M15,25 L25,15" stroke="#dce3e8" stroke-width="2"/></pattern></defs><style>text{font-family:'Microsoft YaHei','Noto Sans CJK SC',sans-serif;font-size:34px} .small{font-size:32px} .bold{font-weight:700}</style><rect width="1800" height="1920" fill="white"/>
+<text x="70" y="72" font-size="46px" style="font-size:46px" fill="#18344b" text-anchor="start" font-weight="700">图解 41  两板四柱孔定位与实物描孔边界</text>
+<text x="70" y="128" font-size="34px" style="font-size:34px" fill="#687c8b" text-anchor="start" font-weight="400">从板件安装面俯视；车尾在左、车头在右。两板均用自身左下角为局部原点。</text>
+<rect x="140" y="235" width="672" height="528" fill="#fafcfe" stroke="#18344b" stroke-width="3"/>
+<text x="476" y="195" font-size="38px" style="font-size:38px" fill="#18344b" text-anchor="middle" font-weight="700">P01  底板 280 × 220 × 5</text>
+<path d="M140,816H812" fill="none" stroke="#687c8b" stroke-width="2" marker-start="url(#arr)" marker-end="url(#arr)"/>
+<line x1="140" y1="806" x2="140" y2="826" stroke="#687c8b" stroke-width="2"/>
+<line x1="812" y1="806" x2="812" y2="826" stroke="#687c8b" stroke-width="2"/>
+<text x="476" y="800" font-size="34px" style="font-size:34px" fill="#687c8b" text-anchor="middle" font-weight="400">280</text>
+<path d="M95,235V763" fill="none" stroke="#687c8b" stroke-width="2" marker-start="url(#arr)" marker-end="url(#arr)"/>
+<line x1="85" y1="235" x2="105" y2="235" stroke="#687c8b" stroke-width="2"/>
+<line x1="85" y1="763" x2="105" y2="763" stroke="#687c8b" stroke-width="2"/>
+<text x="79" y="499" text-anchor="middle" style="font-size:34px" fill="#687c8b" transform="rotate(-90 79 499)">220</text>
+<text x="140" y="870" font-size="32px" style="font-size:32px" fill="#687c8b" text-anchor="start" font-weight="400">(0, 0)  车尾侧</text>
+<text x="812" y="870" font-size="32px" style="font-size:32px" fill="#687c8b" text-anchor="end" font-weight="400">车头 →</text>
+<rect x="1030" y="307" width="576" height="456" fill="#fafcfe" stroke="#18344b" stroke-width="3"/>
+<text x="1318" y="195" font-size="38px" style="font-size:38px" fill="#18344b" text-anchor="middle" font-weight="700">P02  上平台 240 × 190 × 5</text>
+<path d="M1030,816H1606" fill="none" stroke="#687c8b" stroke-width="2" marker-start="url(#arr)" marker-end="url(#arr)"/>
+<line x1="1030" y1="806" x2="1030" y2="826" stroke="#687c8b" stroke-width="2"/>
+<line x1="1606" y1="806" x2="1606" y2="826" stroke="#687c8b" stroke-width="2"/>
+<text x="1318" y="800" font-size="34px" style="font-size:34px" fill="#687c8b" text-anchor="middle" font-weight="400">240</text>
+<path d="M985,307V763" fill="none" stroke="#687c8b" stroke-width="2" marker-start="url(#arr)" marker-end="url(#arr)"/>
+<line x1="975" y1="307" x2="995" y2="307" stroke="#687c8b" stroke-width="2"/>
+<line x1="975" y1="763" x2="995" y2="763" stroke="#687c8b" stroke-width="2"/>
+<text x="969" y="535" text-anchor="middle" style="font-size:34px" fill="#687c8b" transform="rotate(-90 969 535)">190</text>
+<text x="1030" y="870" font-size="32px" style="font-size:32px" fill="#687c8b" text-anchor="start" font-weight="400">(0, 0)  车尾侧</text>
+<text x="1606" y="870" font-size="32px" style="font-size:32px" fill="#687c8b" text-anchor="end" font-weight="400">车头 →</text>
+<rect x="248" y="667" width="216" height="72" fill="#fff6e9" stroke="#ac6017" stroke-width="2" stroke-dasharray="10 7"/>
+<text x="356" y="717" font-size="34px" style="font-size:34px" fill="#ac6017" text-anchor="middle" font-weight="700">①</text>
+<rect x="248" y="259" width="216" height="72" fill="#fff6e9" stroke="#ac6017" stroke-width="2" stroke-dasharray="10 7"/>
+<text x="356" y="309" font-size="34px" style="font-size:34px" fill="#ac6017" text-anchor="middle" font-weight="700">①</text>
+<circle cx="716" cy="499" r="40" fill="#fff6e9" stroke="#ac6017" stroke-width="2" stroke-dasharray="10 7"/>
+<text x="716" y="511" font-size="34px" style="font-size:34px" fill="#ac6017" text-anchor="middle" font-weight="700">②</text>
+<text x="458" y="490" font-size="36px" style="font-size:36px" fill="#1568a8" text-anchor="middle" font-weight="700">4 孔均为 ⌀3.4</text>
+<text x="458" y="540" font-size="32px" style="font-size:32px" fill="#687c8b" text-anchor="middle" font-weight="400">中线 yb = 110</text>
+<line x1="140" y1="499" x2="812" y2="499" stroke="#687c8b" stroke-width="1" stroke-dasharray="10 10"/>
+<rect x="1150" y="355" width="384" height="360" fill="#eaf5ef" stroke="#26795d" stroke-width="2" stroke-dasharray="12 8"/>
+<text x="1342" y="492" font-size="34px" style="font-size:34px" fill="#26795d" text-anchor="middle" font-weight="700">③ 桶壳定位</text>
+<text x="1342" y="542" font-size="32px" style="font-size:32px" fill="#26795d" text-anchor="middle" font-weight="400">160 × 150 投影</text>
+<text x="1342" y="592" font-size="34px" style="font-size:34px" fill="#26795d" text-anchor="middle" font-weight="400">不是切割开口</text>
+<circle cx="212" cy="703" r="4.08" fill="white" stroke="#1568a8" stroke-width="3"/>
+<line x1="198" y1="703" x2="226" y2="703" stroke="#1568a8" stroke-width="2"/>
+<line x1="212" y1="689" x2="212" y2="717" stroke="#1568a8" stroke-width="2"/>
+<text x="200" y="683" font-size="34px" style="font-size:34px" fill="#1568a8" text-anchor="end" font-weight="700">H1</text>
+<circle cx="740" cy="703" r="4.08" fill="white" stroke="#1568a8" stroke-width="3"/>
+<line x1="726" y1="703" x2="754" y2="703" stroke="#1568a8" stroke-width="2"/>
+<line x1="740" y1="689" x2="740" y2="717" stroke="#1568a8" stroke-width="2"/>
+<text x="716" y="683" font-size="34px" style="font-size:34px" fill="#1568a8" text-anchor="end" font-weight="700">H2</text>
+<circle cx="212" cy="295" r="4.08" fill="white" stroke="#1568a8" stroke-width="3"/>
+<line x1="198" y1="295" x2="226" y2="295" stroke="#1568a8" stroke-width="2"/>
+<line x1="212" y1="281" x2="212" y2="309" stroke="#1568a8" stroke-width="2"/>
+<text x="200" y="339" font-size="34px" style="font-size:34px" fill="#1568a8" text-anchor="end" font-weight="700">H3</text>
+<circle cx="740" cy="295" r="4.08" fill="white" stroke="#1568a8" stroke-width="3"/>
+<line x1="726" y1="295" x2="754" y2="295" stroke="#1568a8" stroke-width="2"/>
+<line x1="740" y1="281" x2="740" y2="309" stroke="#1568a8" stroke-width="2"/>
+<text x="716" y="339" font-size="34px" style="font-size:34px" fill="#1568a8" text-anchor="end" font-weight="700">H4</text>
+<circle cx="1054" cy="739" r="4.08" fill="white" stroke="#1568a8" stroke-width="3"/>
+<line x1="1040" y1="739" x2="1068" y2="739" stroke="#1568a8" stroke-width="2"/>
+<line x1="1054" y1="725" x2="1054" y2="753" stroke="#1568a8" stroke-width="2"/>
+<text x="1078" y="705" font-size="34px" style="font-size:34px" fill="#1568a8" text-anchor="start" font-weight="700">H1</text>
+<circle cx="1582" cy="739" r="4.08" fill="white" stroke="#1568a8" stroke-width="3"/>
+<line x1="1568" y1="739" x2="1596" y2="739" stroke="#1568a8" stroke-width="2"/>
+<line x1="1582" y1="725" x2="1582" y2="753" stroke="#1568a8" stroke-width="2"/>
+<text x="1572" y="705" font-size="34px" style="font-size:34px" fill="#1568a8" text-anchor="middle" font-weight="700">H2</text>
+<circle cx="1054" cy="331" r="4.08" fill="white" stroke="#1568a8" stroke-width="3"/>
+<line x1="1040" y1="331" x2="1068" y2="331" stroke="#1568a8" stroke-width="2"/>
+<line x1="1054" y1="317" x2="1054" y2="345" stroke="#1568a8" stroke-width="2"/>
+<text x="1078" y="377" font-size="34px" style="font-size:34px" fill="#1568a8" text-anchor="start" font-weight="700">H3</text>
+<circle cx="1582" cy="331" r="4.08" fill="white" stroke="#1568a8" stroke-width="3"/>
+<line x1="1568" y1="331" x2="1596" y2="331" stroke="#1568a8" stroke-width="2"/>
+<line x1="1582" y1="317" x2="1582" y2="345" stroke="#1568a8" stroke-width="2"/>
+<text x="1572" y="377" font-size="34px" style="font-size:34px" fill="#1568a8" text-anchor="middle" font-weight="700">H4</text>
+<text x="80" y="938" font-size="36px" style="font-size:36px" fill="#1568a8" text-anchor="start" font-weight="700">精确可加工的四柱孔：先测量画十字，再夹板配钻；孔径 ⌀3.4</text>
+<rect x="80" y="961" width="150" height="60" fill="#e9f0f6" stroke="#ccd6de" stroke-width="1"/>
+<text x="96" y="1002" font-size="34px" style="font-size:34px" fill="#18344b" text-anchor="start" font-weight="700">孔号</text>
+<rect x="230" y="961" width="500" height="60" fill="#e9f0f6" stroke="#ccd6de" stroke-width="1"/>
+<text x="246" y="1002" font-size="34px" style="font-size:34px" fill="#18344b" text-anchor="start" font-weight="700">P01 局部 (X, yb)</text>
+<rect x="730" y="961" width="500" height="60" fill="#e9f0f6" stroke="#ccd6de" stroke-width="1"/>
+<text x="746" y="1002" font-size="34px" style="font-size:34px" fill="#18344b" text-anchor="start" font-weight="700">P02 局部 (xp, yp)</text>
+<rect x="1230" y="961" width="490" height="60" fill="#e9f0f6" stroke="#ccd6de" stroke-width="1"/>
+<text x="1246" y="1002" font-size="34px" style="font-size:34px" fill="#18344b" text-anchor="start" font-weight="700">整机坐标 (X, Y)</text>
+<rect x="80" y="1021" width="150" height="60" fill="white" stroke="#ccd6de" stroke-width="1"/>
+<text x="96" y="1062" font-size="34px" style="font-size:34px" fill="#18344b" text-anchor="start" font-weight="400">H1</text>
+<rect x="230" y="1021" width="500" height="60" fill="white" stroke="#ccd6de" stroke-width="1"/>
+<text x="246" y="1062" font-size="34px" style="font-size:34px" fill="#18344b" text-anchor="start" font-weight="400">(30, 25)</text>
+<rect x="730" y="1021" width="500" height="60" fill="white" stroke="#ccd6de" stroke-width="1"/>
+<text x="746" y="1062" font-size="34px" style="font-size:34px" fill="#18344b" text-anchor="start" font-weight="400">(10, 10)</text>
+<rect x="1230" y="1021" width="490" height="60" fill="white" stroke="#ccd6de" stroke-width="1"/>
+<text x="1246" y="1062" font-size="34px" style="font-size:34px" fill="#18344b" text-anchor="start" font-weight="400">(30, −85)</text>
+<rect x="80" y="1081" width="150" height="60" fill="white" stroke="#ccd6de" stroke-width="1"/>
+<text x="96" y="1122" font-size="34px" style="font-size:34px" fill="#18344b" text-anchor="start" font-weight="400">H2</text>
+<rect x="230" y="1081" width="500" height="60" fill="white" stroke="#ccd6de" stroke-width="1"/>
+<text x="246" y="1122" font-size="34px" style="font-size:34px" fill="#18344b" text-anchor="start" font-weight="400">(250, 25)</text>
+<rect x="730" y="1081" width="500" height="60" fill="white" stroke="#ccd6de" stroke-width="1"/>
+<text x="746" y="1122" font-size="34px" style="font-size:34px" fill="#18344b" text-anchor="start" font-weight="400">(230, 10)</text>
+<rect x="1230" y="1081" width="490" height="60" fill="white" stroke="#ccd6de" stroke-width="1"/>
+<text x="1246" y="1122" font-size="34px" style="font-size:34px" fill="#18344b" text-anchor="start" font-weight="400">(250, −85)</text>
+<rect x="80" y="1141" width="150" height="60" fill="white" stroke="#ccd6de" stroke-width="1"/>
+<text x="96" y="1182" font-size="34px" style="font-size:34px" fill="#18344b" text-anchor="start" font-weight="400">H3</text>
+<rect x="230" y="1141" width="500" height="60" fill="white" stroke="#ccd6de" stroke-width="1"/>
+<text x="246" y="1182" font-size="34px" style="font-size:34px" fill="#18344b" text-anchor="start" font-weight="400">(30, 195)</text>
+<rect x="730" y="1141" width="500" height="60" fill="white" stroke="#ccd6de" stroke-width="1"/>
+<text x="746" y="1182" font-size="34px" style="font-size:34px" fill="#18344b" text-anchor="start" font-weight="400">(10, 180)</text>
+<rect x="1230" y="1141" width="490" height="60" fill="white" stroke="#ccd6de" stroke-width="1"/>
+<text x="1246" y="1182" font-size="34px" style="font-size:34px" fill="#18344b" text-anchor="start" font-weight="400">(30, +85)</text>
+<rect x="80" y="1201" width="150" height="60" fill="white" stroke="#ccd6de" stroke-width="1"/>
+<text x="96" y="1242" font-size="34px" style="font-size:34px" fill="#18344b" text-anchor="start" font-weight="400">H4</text>
+<rect x="230" y="1201" width="500" height="60" fill="white" stroke="#ccd6de" stroke-width="1"/>
+<text x="246" y="1242" font-size="34px" style="font-size:34px" fill="#18344b" text-anchor="start" font-weight="400">(250, 195)</text>
+<rect x="730" y="1201" width="500" height="60" fill="white" stroke="#ccd6de" stroke-width="1"/>
+<text x="746" y="1242" font-size="34px" style="font-size:34px" fill="#18344b" text-anchor="start" font-weight="400">(230, 180)</text>
+<rect x="1230" y="1201" width="490" height="60" fill="white" stroke="#ccd6de" stroke-width="1"/>
+<text x="1246" y="1242" font-size="34px" style="font-size:34px" fill="#18344b" text-anchor="start" font-weight="400">(250, +85)</text>
+<text x="80" y="1310" font-size="34px" style="font-size:34px" fill="#687c8b" text-anchor="start" font-weight="400">换算：yb = Y + 110；xp = X − 20；yp = yb − 15。X 向车头、Y 向舵机侧。</text>
+<text x="80" y="1378" font-size="36px" style="font-size:36px" fill="#18344b" text-anchor="start" font-weight="700">灰 / 橙 / 绿虚线是试摆或定位参考，均不是钻孔或切槽模板</text>
+<text x="80" y="1428" font-size="34px" style="font-size:34px" fill="#18344b" text-anchor="start" font-weight="400">① 电机支架先带轮试摆，参考轴心 X≈90；槽与转接孔只按实物覆盖范围描出。</text>
+<text x="80" y="1478" font-size="34px" style="font-size:34px" fill="#18344b" text-anchor="start" font-weight="400">② 前万向球参考接地点 X≈240、Y≈0；固定孔距与转接片按实物，不能照圈钻。</text>
+<text x="80" y="1528" font-size="34px" style="font-size:34px" fill="#18344b" text-anchor="start" font-weight="400">③ 桶壳在 P02 的局部左下角为 (50, 20)；外角码孔按实物，板面不切出矩形。</text>
+<text x="80" y="1578" font-size="34px" style="font-size:34px" fill="#18344b" text-anchor="start" font-weight="400">电池每条绑带两侧各 1 槽，建议 24×4、长边沿 X；槽间距按电池，模块孔亦实描。</text>
+<text x="80" y="1628" font-size="34px" style="font-size:34px" fill="#18344b" text-anchor="start" font-weight="400">舵机托片不可压住 H3 柱顶：按实物留检修孔 / 开口，再定位角码和托片固定孔。</text>
+<rect x="80" y="1710" width="1640" height="145" fill="#eff5fa" stroke="none" stroke-width="0"/>
+<text x="100" y="1756" font-size="34px" style="font-size:34px" fill="#18344b" text-anchor="start" font-weight="400">配钻顺序：① P01 测量标 4 孔并打导孔 → ② P02 按 (20, 15) 偏移夹牢</text>
+<text x="100" y="1808" font-size="34px" style="font-size:34px" fill="#18344b" text-anchor="start" font-weight="400">→ ③ 配钻至 ⌀3.4，逐孔穿临时螺钉防滑；4 颗 M3 螺钉应能自然穿入。</text>
+<text x="80" y="1894" font-size="32px" style="font-size:32px" fill="#687c8b" text-anchor="start" font-weight="400">成品外形目标误差 ±1 mm；本图非 1:1，不能直接打印贴板当钻孔模板。</text>
+</svg>

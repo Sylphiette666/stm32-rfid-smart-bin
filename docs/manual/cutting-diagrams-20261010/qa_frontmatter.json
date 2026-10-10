@@ -1,0 +1,16 @@
+{
+  "status": "pass",
+  "pages": [
+    1,
+    2,
+    5
+  ],
+  "method": "actual final page PNG visual inspection",
+  "checks": [
+    "Cover total 44 operation diagrams",
+    "Reading guide includes diagrams40-44/chapter62",
+    "TOC refreshed and chapter62 starts169",
+    "No clipping or overlaps",
+    "Header/footer consistent"
+  ]
+}

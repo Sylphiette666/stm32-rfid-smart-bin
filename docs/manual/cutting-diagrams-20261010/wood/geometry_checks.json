@@ -1,0 +1,92 @@
+{
+  "source": "docs/manual/ASSEMBLY.md + .assembly-manual-20261010/diagram_spec.json",
+  "physical": {
+    "units": "mm",
+    "sheet": [
+      300,
+      300,
+      5
+    ],
+    "clearance": 5,
+    "sheets": [
+      [
+        {
+          "id": "P01",
+          "x": 5,
+          "y": 5,
+          "w": 280,
+          "h": 220
+        },
+        {
+          "id": "P11",
+          "x": 5,
+          "y": 230,
+          "w": 190,
+          "h": 60
+        },
+        {
+          "id": "servo_shelf",
+          "x": 200,
+          "y": 230,
+          "w": 80,
+          "h": 40
+        }
+      ],
+      [
+        {
+          "id": "P02",
+          "x": 5,
+          "y": 5,
+          "w": 240,
+          "h": 190
+        }
+      ]
+    ],
+    "p01": [
+      [
+        30,
+        25
+      ],
+      [
+        250,
+        25
+      ],
+      [
+        30,
+        195
+      ],
+      [
+        250,
+        195
+      ]
+    ],
+    "p02": [
+      [
+        10,
+        10
+      ],
+      [
+        230,
+        10
+      ],
+      [
+        10,
+        180
+      ],
+      [
+        230,
+        180
+      ]
+    ],
+    "diameter": 3.4,
+    "offset": [
+      20,
+      15
+    ]
+  },
+  "checks": [
+    "sheet 1: all parts inside sheet with >=5 mm edge clearance; pairwise gap >=5 mm",
+    "sheet 2: all parts inside sheet with >=5 mm edge clearance; pairwise gap >=5 mm",
+    "four pillar holes align exactly after P02 offset (20,15)"
+  ]
+}
