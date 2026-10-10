@@ -1,4 +1,4 @@
-* text=auto
+* text=auto eol=lf
 *.md text eol=lf
 *.py text eol=lf
 *.json text eol=lf
@@ -9,3 +9,4 @@
 *.zip binary
 *.png binary
 *.jpg binary
+hardware/archive/pcb-v2.1/original-exports/** -text
