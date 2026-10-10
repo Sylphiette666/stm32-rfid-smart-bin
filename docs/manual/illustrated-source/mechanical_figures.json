@@ -1,0 +1,66 @@
+[
+  {
+    "id": "mech01_standoff_stack",
+    "file": "figures/mech01_standoff_stack.png",
+    "anchor": "步骤 019  M09 上下平台配钻立柱孔",
+    "position": "before",
+    "caption": "先按剖面试装一根，确认板被夹紧且螺钉未顶底，再装其余立柱。",
+    "alt": "60毫米双通柱位于两块5毫米木板之间；10毫米双通柱位于薄托板和支承板之间，两端分别加平垫及螺钉。"
+  },
+  {
+    "id": "mech02_wheel_level",
+    "file": "figures/mech02_wheel_level.png",
+    "anchor": "步骤 024  M14 安装轮子并留侧隙",
+    "position": "before",
+    "caption": "测万向球总高度，再配刚性垫块；以驱动轮接地可靠、车体不摇晃为准。",
+    "alt": "两驱轮和前万向球的侧视图，标出5毫米底板、60毫米立柱、参考45毫米底板离地高度，以及万向球总高与刚性垫块。"
+  },
+  {
+    "id": "mech03_pvc_shell",
+    "file": "figures/mech03_pvc_shell.png",
+    "anchor": "步骤 037  M27 四壁无胶试拼",
+    "position": "before",
+    "caption": "前后壁夹入侧壁，外侧短角码固定；壳底平铺平台，不在底下再塞木条。",
+    "alt": "五片PVC桶壳下料示意和三维拼装图，侧壁160×180两片、前后144×180两片、底154×144一片，外角码不侵占内胆路径。"
+  },
+  {
+    "id": "mech04_pp_ties_bag_clearance",
+    "file": "figures/mech04_pp_ties_bag_clearance.png",
+    "anchor": "步骤 045  M35 打立角扎带孔",
+    "position": "before",
+    "caption": "扎带孔中心距边至少 5 mm；装袋后试提整胆，折边和锁头均计入净空。",
+    "alt": "三个局部图显示PP板接缝两侧约3毫米孔、向外的扎带锁头、PE袋外折10到15毫米及整胆提取至少每侧2毫米净空。"
+  },
+  {
+    "id": "mech05_lid_weight",
+    "file": "figures/mech05_lid_weight.png",
+    "anchor": "步骤 055  M45 称活动总成",
+    "position": "before",
+    "caption": "把所有随盖运动的小零件一起称量，记录实测质量，再做开闭循环检查。",
+    "alt": "左侧电子秤上放置盖板和其活动附件；右侧独立显示固定舵机、立架及传感器横梁，强调40克目标和45克上限。"
+  },
+  {
+    "id": "mech06_linkage_joint",
+    "file": "figures/mech06_linkage_joint.png",
+    "anchor": "步骤 062  M52 调双球头拉杆孔距",
+    "position": "before",
+    "caption": "先量两孔中心距，再装连接端；球头应可摆动，维护拆端头连接螺钉即可。",
+    "alt": "左侧识别20毫米摇臂、50毫米杆距及固定轴距；右侧展示M2螺钉、平垫、球头、隔套、摇臂和防松螺母的装配剖面。"
+  },
+  {
+    "id": "mech07_sensor_height",
+    "file": "figures/mech07_sensor_height.png",
+    "anchor": "步骤 067  M57 制作可拆超声横梁",
+    "position": "before",
+    "caption": "超声向下、对射横穿桶口；装上内胆与袋后，实测有效口沿并重标定满桶距离。",
+    "alt": "桶体剖面显示上平台115、PP外底120、口沿241、投放对射265和超声探头面280毫米的参考高度，以及袋边避开检测路径。"
+  },
+  {
+    "id": "mech08_maintenance_four_steps",
+    "file": "figures/mech08_maintenance_four_steps.png",
+    "anchor": "步骤 086  M76 进入维护并隔离执行电源",
+    "position": "before",
+    "caption": "断电、拆杆、支撑盖、移横梁，再提内胆；清理后逆序恢复并检查互锁。",
+    "alt": "四格维护示意依次为隔离电池执行电源、拆一端球头连接螺钉、手动撑开盖约120度、移走超声横梁并垂直提内胆。"
+  }
+]

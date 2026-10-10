@@ -1,0 +1,34 @@
+[
+  {
+    "id": "g01_multimeter",
+    "file": "figures/g01_multimeter.png",
+    "anchor": "步骤 002  测电压",
+    "position": "before",
+    "caption": "测电压时表笔并接两点；测通断前先断电，不能只把旋钮换档。",
+    "alt": "万用表直流电压与断电通断的两幅接线示意，黑笔COM红笔VΩ。"
+  },
+  {
+    "id": "g02_wire_terminal",
+    "file": "figures/g02_wire_terminal.png",
+    "anchor": "步骤 004  制作一条电源线",
+    "position": "before",
+    "caption": "剥线、压接、锁紧、轻拉检查按顺序完成；裸铜不能伸到相邻端子。",
+    "alt": "三步电源线剥皮、压冷压端头和插入螺丝端子的示意。"
+  },
+  {
+    "id": "g03_perfboard",
+    "file": "figures/g03_perfboard.png",
+    "anchor": "步骤 005  完成一个焊点",
+    "position": "before",
+    "caption": "先识别洞洞板铜箔结构，再焊导线建立网络；焊点发亮程度不能单独证明接触可靠。",
+    "alt": "独立焊盘洞洞板的元件面、焊接面及合格、裂纹和连锡焊点放大图。"
+  },
+  {
+    "id": "g04_voltage_first",
+    "file": "figures/g04_voltage_first.png",
+    "anchor": "步骤 097  E007 安装降压板并单独调压",
+    "position": "before",
+    "caption": "万用表跨在降压输出端，先调压和做负载检查；断电后才接下一块模块。",
+    "alt": "限流电源、降压模块和万用表的单独调压接线以及四步接入顺序。"
+  }
+]

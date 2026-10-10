@@ -1,0 +1,66 @@
+[
+  {
+    "id": "s01_debug_order",
+    "file": "figures/s01_debug_order.png",
+    "anchor": "步骤 198  先生成最小程序",
+    "position": "before",
+    "caption": "按图从左向右调试。一个模块失败时先保留已通过的配置，排查该级；所有级别通过才做整机功能演示。",
+    "alt": "五级调试流程从最小核心、电源和I2C、RFID与存储、架空执行器到低速整机；每级失败向下进入共同停止排查流程。"
+  },
+  {
+    "id": "s02_pwm_compare",
+    "file": "figures/s02_pwm_compare.png",
+    "anchor": "步骤 205  检查定时器",
+    "position": "before",
+    "caption": "先核对定时器和引脚，再核对实际波形。SG90是20 ms周期、约1.5 ms中位脉冲；TB6612电机PWM周期是50 µs，不能互接。",
+    "alt": "上下两种波形对比：舵机50Hz中位1.5ms高电平、20ms周期；电机20kHz周期50微秒，图示50%仅为解释。"
+  },
+  {
+    "id": "s03_rfid_session",
+    "file": "figures/s03_rfid_session.png",
+    "anchor": "步骤 247  接入投放会话",
+    "position": "before",
+    "caption": "跟随箭头逐步观察屏幕和串口。正文规定FLASH事务回读确认后才更新积分并提示成功，随后延时关盖；关盖开关确认前不得移动。",
+    "alt": "八个状态用折返箭头相连，从停车待卡、锁定身份、开盖、光束准备到完整经过、FLASH提交、成功提示和闭盖确认；异常不加分。"
+  },
+  {
+    "id": "s04_deposit_timing",
+    "file": "figures/s04_deposit_timing.png",
+    "anchor": "步骤 248  防重复测试",
+    "position": "before",
+    "caption": "先观察CLEAR至少200 ms，再观察一次30 ms至2 s的BLOCK及至少100 ms的CLEAR。成功后在同一会话内再晃动物体，余额应保持不再增加。",
+    "alt": "卡片在场、投放光束和事务三个时序轨迹；首次完整遮挡后只提交一次，随后重复遮挡不形成第二笔积分。"
+  },
+  {
+    "id": "s05_full_calibration",
+    "file": "figures/s05_full_calibration.png",
+    "anchor": "步骤 254  标定判满高度",
+    "position": "before",
+    "caption": "图中红线用于判满标定，绿线用于清满回差。先把实际垃圾袋固定好，再拿平纸板测量；65/85 mm只是候选，填写实际校准结果。",
+    "alt": "超声探头位于121mm内胆上方，真实袋口下15mm放满位纸板，再下降20mm测清满点；旁注65和85mm候选需实测。"
+  },
+  {
+    "id": "s06_stop_latch",
+    "file": "figures/s06_stop_latch.png",
+    "anchor": "步骤 266  急停与碰撞",
+    "position": "before",
+    "caption": "轮子架空测试急停与碰撞，再测试倾角。停止后先消除原因，再人工确认，最后发送新的运行命令；任何一次自动续跑都不通过。",
+    "alt": "三类停止事件汇入PWM和PB5清零及故障锁存，再经过排除原因、人工确认和新运行指令三个门槛恢复。"
+  },
+  {
+    "id": "s07_line_stations",
+    "file": "figures/s07_line_stations.png",
+    "anchor": "步骤 275  传感器安装标定",
+    "position": "before",
+    "caption": "先把三个探头分别放到白底和18 mm黑胶带上核对0/1。路线无岔路，站点用宽条；每次从人工起点出发清零，选择第一或第二站。",
+    "alt": "左侧俯视三探头中间压主线为010、横向宽站条覆盖三探头为111；右侧闭合固定路线标起点、1号和2号站与行进方向。"
+  },
+  {
+    "id": "s08_flash_recovery",
+    "file": "figures/s08_flash_recovery.png",
+    "anchor": "步骤 235  注入断电检查点",
+    "position": "before",
+    "caption": "先保存测试前余额和日志，再在手册规定的检查点切总电源。重启只能得到旧完整状态10或本次完整状态11；有CRC但缺提交字也不能入账。",
+    "alt": "三个存储示意栏对比旧有效记录、中途掉电导致新记录不完整或未提交、完整新记录含有效CRC及最后写入的提交标志；重启余额分别10、10、11。"
+  }
+]

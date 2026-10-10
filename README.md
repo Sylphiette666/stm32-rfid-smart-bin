@@ -4,7 +4,7 @@
 
 ## 从这里开始
 
-1. [下载逐步组装与调试Word手册](docs/manual/STM32%E4%B8%8ERFID%E6%99%BA%E8%83%BD%E7%A7%BB%E5%8A%A8%E5%9E%83%E5%9C%BE%E6%A1%B6_%E9%80%90%E6%AD%A5%E7%BB%84%E8%A3%85%E4%B8%8E%E8%B0%83%E8%AF%95%E5%AE%9E%E6%96%BD%E6%89%8B%E5%86%8C.docx)：125页、330个步骤、33项功能，含机械、逐线接线、程序实施和验收。
+1. [下载图解增强版Word手册](docs/manual/STM32%E4%B8%8ERFID%E6%99%BA%E8%83%BD%E7%A7%BB%E5%8A%A8%E5%9E%83%E5%9C%BE%E6%A1%B6_%E9%80%90%E6%AD%A5%E7%BB%84%E8%A3%85%E4%B8%8E%E8%B0%83%E8%AF%95%E5%AE%9E%E6%96%BD%E6%89%8B%E5%86%8C_%E5%9B%BE%E8%A7%A3%E5%A2%9E%E5%BC%BA%E7%89%88.docx)：139页、330个步骤、33项功能，新增30幅装配、接线和调试图解及1幅外观概念图。[原125页版本](docs/manual/STM32%E4%B8%8ERFID%E6%99%BA%E8%83%BD%E7%A7%BB%E5%8A%A8%E5%9E%83%E5%9C%BE%E6%A1%B6_%E9%80%90%E6%AD%A5%E7%BB%84%E8%A3%85%E4%B8%8E%E8%B0%83%E8%AF%95%E5%AE%9E%E6%96%BD%E6%89%8B%E5%86%8C.docx)保留。
 2. [在线阅读全部步骤](docs/manual/ASSEMBLY.md)：按顺序检查、装配和调试。
 3. [查看当前接线表](hardware/current-low-cost/WIRING.md)和[33项功能验收清单](docs/ACCEPTANCE.md)。
 4. [查看固件开发状态](firmware/README.md)，再开始编写和烧录程序。
@@ -15,7 +15,7 @@
 
 | 目录 | 内容 |
 | --- | --- |
-| `docs/manual/` | 当前Word手册、GitHub阅读版、JSON源内容和七张装配图 |
+| `docs/manual/` | 原版及图解增强版Word、全部步骤阅读版、内容源与图解生成源 |
 | `docs/planning/` | 功能成本选型、33项功能机械设计及功能数据 |
 | `docs/appearance/` | 成品外观概念图及生成说明 |
 | `hardware/current-low-cost/` | 当前MCP23017方案说明与接线资料 |

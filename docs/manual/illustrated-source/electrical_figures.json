@@ -1,0 +1,82 @@
+[
+  {
+    "id": "e01_swd_uart",
+    "file": "figures/e01_swd_uart.png",
+    "anchor": "步骤 105  E015 连接 SWD 下载器",
+    "position": "before",
+    "caption": "按图逐线接 SWD 与交叉串口；芯片 ID 可读、115200 文本完整后通过。",
+    "alt": "SWDIO接PA13，SWCLK接PA14，GND共地，可选NRST；USB串口TXD接PA10、RXD接PA9；串口供电脚不接，SWD有独立VTref输入时按说明接核心3V3。"
+  },
+  {
+    "id": "e02_i2c",
+    "file": "figures/e02_i2c.png",
+    "anchor": "步骤 109  E019 组装 I²C 主干",
+    "position": "before",
+    "caption": "接好两根共享总线并核对上拉，逐块扫描 MCP、OLED 与 MPU，空闲约3.3 V。",
+    "alt": "PB6和PB7分别为共享SCL和SDA，每线有效4.7千欧上拉EXT3.3V；MPU模块供电依其稳压路径决定；两个稳压输出不并接。"
+  },
+  {
+    "id": "e03_spi",
+    "file": "figures/e03_spi.png",
+    "anchor": "步骤 118  E028 焊 RC522 排针和线束",
+    "position": "before",
+    "caption": "三根 SPI 信号并接，PA4与PA15独立片选；分别读ID后再交替读100次。",
+    "alt": "SCK、MISO、MOSI接PA5、PA6、PA7并共享；RC522 SDA接PA4，FLASH CS接PA15，各10k上拉3V3_EXT，RC522 RST接MCP GPA4。"
+  },
+  {
+    "id": "e04_ultrasonic",
+    "file": "figures/e04_ultrasonic.png",
+    "anchor": "步骤 161  E071 焊ECHO分压",
+    "position": "before",
+    "caption": "照节点焊12k/20k分压，并核对AHCT通道2方向；先测电平再连接PB1。",
+    "alt": "PB15进入AHCT125的5脚，6脚输出到TRIG，14脚5V、7和4脚地；ECHO串12k到PB1节点，节点20k到地。"
+  },
+  {
+    "id": "e05a_switches",
+    "file": "figures/e05a_switches.png",
+    "anchor": "步骤 129  E039 接 MODE 和 BACK",
+    "position": "before",
+    "caption": "轻触开关先测两组常通脚，再跨组接；闭盖微动接COM和NO并确认闭盖为0。",
+    "alt": "轻触开关跨实测A组B组连接，一端地一端MCP输入上拉EXT；闭盖微动COM接地NO接PB14，10k上拉CORE。"
+  },
+  {
+    "id": "e05b_encoder",
+    "file": "figures/e05b_encoder.png",
+    "anchor": "步骤 127  E037 接旋转编码器",
+    "position": "before",
+    "caption": "按三路信号与正确的上拉电源接编码器，旋转和按下分别单测。",
+    "alt": "编码器VCC接EXT，GND共地，CLK接PB3、DT接PB4各10k上拉CORE，SW接MCP GPB4并10k上拉EXT。"
+  },
+  {
+    "id": "e06a_estop_clamp",
+    "file": "figures/e06a_estop_clamp.png",
+    "anchor": "步骤 135  E045 焊NC1和钳位节点",
+    "position": "before",
+    "caption": "按逻辑节点焊NC1两管钳位，按住急停且PB5强制高时，STBY必须低于0.3V。",
+    "alt": "VBAT经NC1和4.7k到QES1基极；QES1集电极连QES2基极，上拉4.7k到EXT；QES2集电极钳STBY。PB5串1k到STBY，各自10k下拉，两管基极各100k下拉。"
+  },
+  {
+    "id": "e06b_estop_sense",
+    "file": "figures/e06b_estop_sense.png",
+    "anchor": "步骤 136  E046 焊NC2反馈",
+    "position": "before",
+    "caption": "独立焊NC2与QES3，验证释放为0、按下或断线为1，并逐个模拟两回路线断开。",
+    "alt": "VBAT经NC2与4.7k接QES3基极，基极100k下拉，发射极接地，集电极到PB13并10k上拉CORE；按下反馈高。"
+  },
+  {
+    "id": "e07_motor_servo",
+    "file": "figures/e07_motor_servo.png",
+    "anchor": "步骤 146  E056 架空接单左电机",
+    "position": "before",
+    "caption": "断电接左轮，架空后低PWM验证方向，再接右轮；SG90独立电源支路且运行互锁。",
+    "alt": "TB6612 VM接独立5V电机支路，VCC接EXT3.3V，控制与地共接；AO1AO2只到左电机，100nF跨端；舵机独立5V支路并通过AHCT接PA0。"
+  },
+  {
+    "id": "e08_mos_cap",
+    "file": "figures/e08_mos_cap.png",
+    "anchor": "步骤 169  E079 焊AO3400A转接板",
+    "position": "before",
+    "caption": "按1G/2S/3D追踪转接板，焊栅极100Ω与100k下拉、LED串220Ω；电解色条端接地。",
+    "alt": "GPA5经100Ω到AO3400A栅极，栅极100k接地，源极接地，漏极接LED负端，LED正端经220Ω到5V；电解负极色条接地。"
+  }
+]
