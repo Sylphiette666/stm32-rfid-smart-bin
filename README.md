@@ -11,10 +11,13 @@
 
 ## 目录
 
+[查看成品外观概念图](docs/appearance/README.md)（合盖与开盖两种状态，非实物照片）。
+
 | 目录 | 内容 |
 | --- | --- |
 | `docs/manual/` | 当前Word手册、GitHub阅读版、JSON源内容和七张装配图 |
 | `docs/planning/` | 功能成本选型、33项功能机械设计及功能数据 |
+| `docs/appearance/` | 成品外观概念图及生成说明 |
 | `hardware/current-low-cost/` | 当前MCP23017方案说明与接线资料 |
 | `hardware/archive/pcb-v2.1/` | 旧PCF8574方案的嘉立创工程、KiCad、Gerber、BOM和贴片坐标 |
 | `firmware/legacy/` | 已有CMSIS基础文件，应用程序待实现 |
