@@ -1,0 +1,30 @@
+# Local build and editor state
+~$*
+*.tmp
+*.bak
+*.lnk
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+node_modules/
+.DS_Store
+Thumbs.db
+*.kicad_prl
+*.kicad_pcb.lck
+*.kicad_sch.lck
+*-backups/
+Objects/
+Listings/
+Debug/
+Release/
+build/
+render/
+render_*/
+*.inspect.ndjson
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key

@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480mm" height="475mm" viewBox="0 0 480 475">
+<rect width="480" height="475" fill="white"/>
+<style>text{font-family:Microsoft YaHei,sans-serif;fill:#243b53;text-anchor:middle}</style>
+<text x="240" y="16" font-size="9">PP 折叠内胆 · 裁切展开图</text>
+<text x="240" y="29" font-size="5">板厚 0.5 mm；底面 140 × 130 mm；侧壁高 120 mm；搭接边 20 mm</text>
+<g transform="translate(50,55)">
+<rect x="120" y="120" width="140" height="130" fill="#dcecf7"/>
+<rect x="120" y="0" width="140" height="120" fill="#f1f6fa"/>
+<rect x="120" y="250" width="140" height="120" fill="#f1f6fa"/>
+<rect x="0" y="120" width="120" height="130" fill="#f1f6fa"/>
+<rect x="260" y="120" width="120" height="130" fill="#f1f6fa"/>
+<rect x="100" y="0" width="20" height="120" fill="#ffe5bb"/>
+<rect x="260" y="0" width="20" height="120" fill="#ffe5bb"/>
+<rect x="100" y="250" width="20" height="120" fill="#ffe5bb"/>
+<rect x="260" y="250" width="20" height="120" fill="#ffe5bb"/>
+<polygon points="100,0 280,0 280,120 380,120 380,250 280,250 280,370 100,370 100,250 0,250 0,120 100,120" fill="none" stroke="#c43830" stroke-width="0.5"/>
+<line x1="120" y1="120" x2="260" y2="120" stroke="#1875b7" stroke-width="0.4" stroke-dasharray="4 3"/>
+<line x1="120" y1="250" x2="260" y2="250" stroke="#1875b7" stroke-width="0.4" stroke-dasharray="4 3"/>
+<line x1="120" y1="120" x2="120" y2="250" stroke="#1875b7" stroke-width="0.4" stroke-dasharray="4 3"/>
+<line x1="260" y1="120" x2="260" y2="250" stroke="#1875b7" stroke-width="0.4" stroke-dasharray="4 3"/>
+<line x1="120" y1="0" x2="120" y2="120" stroke="#1875b7" stroke-width="0.4" stroke-dasharray="4 3"/>
+<line x1="260" y1="0" x2="260" y2="120" stroke="#1875b7" stroke-width="0.4" stroke-dasharray="4 3"/>
+<line x1="120" y1="250" x2="120" y2="370" stroke="#1875b7" stroke-width="0.4" stroke-dasharray="4 3"/>
+<line x1="260" y1="250" x2="260" y2="370" stroke="#1875b7" stroke-width="0.4" stroke-dasharray="4 3"/>
+<line x1="100" y1="120" x2="120" y2="120" stroke="#c43830" stroke-width="0.6"/>
+<line x1="260" y1="120" x2="280" y2="120" stroke="#c43830" stroke-width="0.6"/>
+<line x1="100" y1="250" x2="120" y2="250" stroke="#c43830" stroke-width="0.6"/>
+<line x1="260" y1="250" x2="280" y2="250" stroke="#c43830" stroke-width="0.6"/>
+<text x="190" y="170" font-size="7">底面</text>
+<text x="190" y="190" font-size="7">140 × 130</text>
+<text x="190" y="48" font-size="7">前壁</text>
+<text x="190" y="68" font-size="7">140 × 120</text>
+<text x="190" y="300" font-size="7">后壁</text>
+<text x="190" y="320" font-size="7">140 × 120</text>
+<text x="60" y="173" font-size="7">左侧壁</text>
+<text x="60" y="193" font-size="7">130 × 120</text>
+<text x="320" y="173" font-size="7">右侧壁</text>
+<text x="320" y="193" font-size="7">130 × 120</text>
+<text transform="translate(110,60) rotate(-90)" font-size="5">20 mm 搭接边</text>
+<text transform="translate(270,60) rotate(-90)" font-size="5">20 mm 搭接边</text>
+<text transform="translate(110,310) rotate(-90)" font-size="5">20 mm 搭接边</text>
+<text transform="translate(270,310) rotate(-90)" font-size="5">20 mm 搭接边</text>
+<path d="M 0,-16 H 380 M 0,-20 V -12 M 380,-20 V -12 M -16,0 V 370 M -20,0 H -12 M -20,370 H -12" fill="none" stroke="#607080" stroke-width="0.3"/>
+<text x="190" y="-20" font-size="7">380 mm</text>
+<text transform="translate(-22,185) rotate(-90)" font-size="7">370 mm</text>
+</g>
+<text x="240" y="439" font-size="5">红实线剪开（含四个短切口），蓝虚线折弯；橙色搭接边向盒外固定。</text>
+<text x="240" y="449" font-size="5">先用纸样试折；板厚与折弯会影响成品尺寸；扎带孔在搭接试装后配钻。</text>
+<path d="M 50,461 H 100 M 50,458 V 464 M 100,458 V 464" fill="none" stroke="#243b53" stroke-width="0.4"/>
+<text x="75" y="473" font-size="4">校验线 50 mm</text>
+<text x="295" y="466" font-size="4.5">打印须保持实际尺寸，并测量校验线；勿使用“适合页面”。</text>
+</svg>

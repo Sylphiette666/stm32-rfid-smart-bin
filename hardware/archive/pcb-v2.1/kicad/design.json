@@ -1,0 +1,2305 @@
+{
+  "title": "SmartBin Puzhong Cable Carrier V2",
+  "revision": "V2.0-CABLE",
+  "date": "2026-09-23",
+  "status": "PCB prototype fabrication files; cable interfaces matched by signal name; electrical and mechanical checks required at first assembly",
+  "board": {
+    "x": 40,
+    "y": 40,
+    "width": 135,
+    "height": 105,
+    "thickness": 1.6,
+    "copper_layers": 2
+  },
+  "parts": [
+    {
+      "ref": "J1",
+      "value": "MCU_PA_CABLE",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x20_P2.54mm_Vertical",
+      "pins": {
+        "1": "GND",
+        "2": "5V_CORE",
+        "3": "3V3_CORE",
+        "4": "NRST",
+        "5": "MOTOR_EN",
+        "6": "US_ECHO",
+        "7": "US_TRIG",
+        "8": "TEMP_DQ",
+        "9": "RFID_CS",
+        "10": "SPI_SCK",
+        "11": "SPI_MISO",
+        "12": "SPI_MOSI",
+        "13": "SERVO_PWM",
+        "14": "UART_TX",
+        "15": "UART_RX",
+        "16": "ENC_A",
+        "17": "ENC_B",
+        "18": null,
+        "19": null,
+        "20": "ESTOP_N"
+      },
+      "pos": [
+        102,
+        68,
+        0
+      ],
+      "group": "CORE",
+      "kind": "connector",
+      "uuid": "90249141-9a54-55bc-9c17-e7551250f911",
+      "notes": "Cable header only. Connect by GPIO/power NAME, never by core-board pin position. PA13/PA14 and PB2 intentionally NC; SWD stays on core.",
+      "pin_names": {
+        "1": "GND",
+        "2": "5V_TO_CORE",
+        "3": "3V3_FROM_CORE",
+        "4": "NRST",
+        "5": "PA0",
+        "6": "PA1",
+        "7": "PA2",
+        "8": "PA3",
+        "9": "PA4",
+        "10": "PA5",
+        "11": "PA6",
+        "12": "PA7",
+        "13": "PA8",
+        "14": "PA9",
+        "15": "PA10",
+        "16": "PA11",
+        "17": "PA12",
+        "18": "PA13",
+        "19": "PA14",
+        "20": "PA15"
+      }
+    },
+    {
+      "ref": "J2",
+      "value": "MCU_PB_CABLE",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x20_P2.54mm_Vertical",
+      "pins": {
+        "1": "GND",
+        "2": "3V3_CORE",
+        "3": "VBAT_CORE",
+        "4": null,
+        "5": "RFID_RST",
+        "6": "ADC_IN",
+        "7": null,
+        "8": "MODE_N",
+        "9": "PINCH_FAULT",
+        "10": "DEPOSIT_N",
+        "11": "MOTOR_PWMA",
+        "12": "MOTOR_PWMB",
+        "13": "ALARM_CMD",
+        "14": "LID_CLOSED_N",
+        "15": "I2C_SCL",
+        "16": "I2C_SDA",
+        "17": "MOTOR_AIN1",
+        "18": "MOTOR_AIN2",
+        "19": "MOTOR_BIN1",
+        "20": "MOTOR_BIN2"
+      },
+      "pos": [
+        117.24,
+        68,
+        0
+      ],
+      "group": "CORE",
+      "kind": "connector",
+      "uuid": "fe7a0fac-8f1d-5ec1-86c8-62712b2baf31",
+      "notes": "Cable header only. Connect by GPIO/power NAME, never by core-board pin position. PA13/PA14 and PB2 intentionally NC; SWD stays on core.",
+      "pin_names": {
+        "1": "GND",
+        "2": "3V3_FROM_CORE",
+        "3": "VBAT",
+        "4": "NC",
+        "5": "PB0",
+        "6": "PB1",
+        "7": "PB2",
+        "8": "PB3",
+        "9": "PB4",
+        "10": "PB5",
+        "11": "PB6",
+        "12": "PB7",
+        "13": "PB8",
+        "14": "PB9",
+        "15": "PB10",
+        "16": "PB11",
+        "17": "PB12",
+        "18": "PB13",
+        "19": "PB14",
+        "20": "PB15"
+      }
+    },
+    {
+      "ref": "J3",
+      "value": "REGULATED_5V_IN",
+      "footprint": "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal",
+      "pins": {
+        "1": "5V_IN",
+        "2": "GND"
+      },
+      "pos": [
+        54,
+        48,
+        0
+      ],
+      "group": "POWER",
+      "kind": "connector",
+      "uuid": "0f5cc7d8-b9c0-5380-a45b-c63753df0967",
+      "notes": ""
+    },
+    {
+      "ref": "F1",
+      "value": "750mA_FAST",
+      "footprint": "Fuse:Fuse_1206_3216Metric",
+      "pins": {
+        "1": "5V_IN",
+        "2": "5V_FUSED"
+      },
+      "pos": [
+        65.5,
+        49,
+        0
+      ],
+      "group": "POWER",
+      "kind": "fuse",
+      "uuid": "46eca6bb-b522-5ddd-b4d2-4f2f14282a5b",
+      "notes": ""
+    },
+    {
+      "ref": "Q1",
+      "value": "AO3401A",
+      "footprint": "Package_TO_SOT_SMD:SOT-23",
+      "pins": {
+        "1": "GND",
+        "2": "5V_LOGIC",
+        "3": "5V_FUSED"
+      },
+      "pos": [
+        72,
+        49,
+        180
+      ],
+      "group": "POWER",
+      "kind": "pmos",
+      "uuid": "22987f43-a4b1-5a11-bfdc-e59e3544e871",
+      "notes": "Reverse-polarity MOSFET; body diode from input drain toward output source.",
+      "pin_names": {
+        "1": "G",
+        "2": "S",
+        "3": "D"
+      }
+    },
+    {
+      "ref": "U1",
+      "value": "TLV1117LV33DCYR",
+      "footprint": "Package_TO_SOT_SMD:SOT-223-3_TabPin2",
+      "pins": {
+        "1": "GND",
+        "2": "3V3_IO",
+        "3": "5V_LOGIC"
+      },
+      "pos": [
+        83,
+        49,
+        0
+      ],
+      "group": "POWER",
+      "kind": "ldo",
+      "uuid": "8091b9a3-e42f-55d8-9dc3-c28986bc74c4",
+      "notes": "",
+      "pin_names": {
+        "1": "GND",
+        "2": "OUT",
+        "3": "IN"
+      }
+    },
+    {
+      "ref": "C1",
+      "value": "10uF_10V_X7R",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "pins": {
+        "1": "5V_LOGIC",
+        "2": "GND"
+      },
+      "pos": [
+        75,
+        56,
+        0
+      ],
+      "group": "POWER",
+      "kind": "capacitor",
+      "uuid": "60fd3518-3f6d-55a4-ba53-5a6672b395ab",
+      "notes": ""
+    },
+    {
+      "ref": "C2",
+      "value": "100nF",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "pins": {
+        "1": "5V_LOGIC",
+        "2": "GND"
+      },
+      "pos": [
+        79,
+        56,
+        0
+      ],
+      "group": "POWER",
+      "kind": "capacitor",
+      "uuid": "dd0bacd3-5102-5440-811d-cc6cccd29196",
+      "notes": ""
+    },
+    {
+      "ref": "C3",
+      "value": "10uF_10V_X7R",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "pins": {
+        "1": "3V3_IO",
+        "2": "GND"
+      },
+      "pos": [
+        89,
+        56,
+        0
+      ],
+      "group": "POWER",
+      "kind": "capacitor",
+      "uuid": "46cde6aa-8e6b-55a4-bcb1-0e327f3f0fb3",
+      "notes": ""
+    },
+    {
+      "ref": "C4",
+      "value": "100nF",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "pins": {
+        "1": "3V3_IO",
+        "2": "GND"
+      },
+      "pos": [
+        94,
+        56,
+        0
+      ],
+      "group": "POWER",
+      "kind": "capacitor",
+      "uuid": "487f5a09-8d18-5d85-a576-1143c4ced8a2",
+      "notes": ""
+    },
+    {
+      "ref": "JP1",
+      "value": "CORE_PWR_SHUNT",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical",
+      "pins": {
+        "1": "5V_LOGIC",
+        "2": "5V_CORE"
+      },
+      "pos": [
+        125,
+        48,
+        0
+      ],
+      "group": "POWER",
+      "kind": "connector",
+      "uuid": "4fcc3746-b6d7-58b0-a049-f0d3cccd0c72",
+      "notes": ""
+    },
+    {
+      "ref": "J4",
+      "value": "POWER_TEST",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical",
+      "pins": {
+        "1": "GND",
+        "2": "5V_LOGIC",
+        "3": "3V3_IO",
+        "4": "3V3_CORE"
+      },
+      "pos": [
+        137,
+        47,
+        0
+      ],
+      "group": "POWER",
+      "kind": "connector",
+      "uuid": "b13d2afe-79d7-53ab-8ae1-38cb49d3f2e0",
+      "notes": ""
+    },
+    {
+      "ref": "R1",
+      "value": "2.2k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "pins": {
+        "1": "3V3_IO",
+        "2": "PWR_LED_A"
+      },
+      "pos": [
+        96,
+        47,
+        0
+      ],
+      "group": "POWER",
+      "kind": "resistor",
+      "uuid": "1e660a78-280b-518d-8eaa-bc91142db39c",
+      "notes": ""
+    },
+    {
+      "ref": "D1",
+      "value": "POWER_GREEN",
+      "footprint": "LED_SMD:LED_0805_2012Metric",
+      "pins": {
+        "1": "GND",
+        "2": "PWR_LED_A"
+      },
+      "pos": [
+        97,
+        54,
+        90
+      ],
+      "group": "POWER",
+      "kind": "led",
+      "uuid": "26bcad24-990b-5def-b252-2c739d74842c",
+      "notes": "",
+      "pin_names": {
+        "1": "K",
+        "2": "A"
+      }
+    },
+    {
+      "ref": "J5",
+      "value": "RC522_3V3",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical",
+      "pins": {
+        "1": "RFID_CS",
+        "2": "SPI_SCK",
+        "3": "SPI_MOSI",
+        "4": "SPI_MISO",
+        "5": null,
+        "6": "GND",
+        "7": "RFID_RST",
+        "8": "3V3_IO"
+      },
+      "pos": [
+        48,
+        69,
+        0
+      ],
+      "group": "RFID",
+      "kind": "connector",
+      "uuid": "03df93b3-639f-5b02-9a0c-5d8fc3ba88a0",
+      "notes": ""
+    },
+    {
+      "ref": "C5",
+      "value": "100nF",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "pins": {
+        "1": "3V3_IO",
+        "2": "GND"
+      },
+      "pos": [
+        57,
+        85,
+        0
+      ],
+      "group": "RFID",
+      "kind": "capacitor",
+      "uuid": "c3968f3c-790c-50fa-b61c-aeeac4245110",
+      "notes": ""
+    },
+    {
+      "ref": "C6",
+      "value": "10uF_10V_X7R",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "pins": {
+        "1": "3V3_IO",
+        "2": "GND"
+      },
+      "pos": [
+        62,
+        85,
+        0
+      ],
+      "group": "RFID",
+      "kind": "capacitor",
+      "uuid": "e7ed1172-7aef-5d43-9919-8e13b84680f2",
+      "notes": ""
+    },
+    {
+      "ref": "J6",
+      "value": "OLED_I2C",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical",
+      "pins": {
+        "1": "GND",
+        "2": "3V3_IO",
+        "3": "I2C_SCL",
+        "4": "I2C_SDA"
+      },
+      "pos": [
+        48,
+        99,
+        0
+      ],
+      "group": "I2C",
+      "kind": "connector",
+      "uuid": "ee21d2b9-55ed-53e4-abd8-4e70cd633d89",
+      "notes": ""
+    },
+    {
+      "ref": "J7",
+      "value": "MPU6050_I2C",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical",
+      "pins": {
+        "1": "GND",
+        "2": "3V3_IO",
+        "3": "I2C_SCL",
+        "4": "I2C_SDA"
+      },
+      "pos": [
+        60,
+        109,
+        0
+      ],
+      "group": "I2C",
+      "kind": "connector",
+      "uuid": "2957646a-ffd1-59ec-93eb-73f901f4b710",
+      "notes": ""
+    },
+    {
+      "ref": "R2",
+      "value": "4.7k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "pins": {
+        "1": "I2C_SCL",
+        "2": "3V3_IO"
+      },
+      "pos": [
+        82,
+        102,
+        90
+      ],
+      "group": "I2C",
+      "kind": "resistor",
+      "uuid": "7dc4ba88-6254-52d2-be15-a99d82ddaf3e",
+      "notes": ""
+    },
+    {
+      "ref": "R3",
+      "value": "4.7k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "pins": {
+        "1": "I2C_SDA",
+        "2": "3V3_IO"
+      },
+      "pos": [
+        87,
+        102,
+        90
+      ],
+      "group": "I2C",
+      "kind": "resistor",
+      "uuid": "fa67674b-386e-5526-a7a7-f1e65d31215e",
+      "notes": ""
+    },
+    {
+      "ref": "J8",
+      "value": "SPI_FLASH_3V3",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical",
+      "pins": {
+        "1": "GND",
+        "2": "3V3_IO",
+        "3": "SPI_SCK",
+        "4": "SPI_MISO",
+        "5": "SPI_MOSI",
+        "6": "FLASH_CS"
+      },
+      "pos": [
+        48,
+        120,
+        0
+      ],
+      "group": "RFID",
+      "kind": "connector",
+      "uuid": "5cc20237-0d14-5368-9784-46b37213d8a5",
+      "notes": ""
+    },
+    {
+      "ref": "R4",
+      "value": "10k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "pins": {
+        "1": "FLASH_CS",
+        "2": "3V3_IO"
+      },
+      "pos": [
+        58,
+        131,
+        0
+      ],
+      "group": "RFID",
+      "kind": "resistor",
+      "uuid": "5aa74b34-e345-5361-b8a3-1205930a044e",
+      "notes": ""
+    },
+    {
+      "ref": "J9",
+      "value": "HC05_5V",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical",
+      "pins": {
+        "1": "5V_LOGIC",
+        "2": "GND",
+        "3": "BT_RX",
+        "4": "BT_TX"
+      },
+      "pos": [
+        165,
+        111,
+        0
+      ],
+      "group": "COMM",
+      "kind": "connector",
+      "uuid": "51c17605-db25-58e8-ae49-a1203a88ace2",
+      "notes": ""
+    },
+    {
+      "ref": "R5",
+      "value": "1k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "pins": {
+        "1": "UART_TX",
+        "2": "BT_RX"
+      },
+      "pos": [
+        155,
+        116,
+        0
+      ],
+      "group": "COMM",
+      "kind": "resistor",
+      "uuid": "2269fe23-9812-549f-93cb-9357d97098be",
+      "notes": ""
+    },
+    {
+      "ref": "R6",
+      "value": "1k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "pins": {
+        "1": "UART_RX",
+        "2": "BT_TX"
+      },
+      "pos": [
+        155,
+        121,
+        0
+      ],
+      "group": "COMM",
+      "kind": "resistor",
+      "uuid": "0c8f153a-08bf-57c5-a221-fd796db3dcac",
+      "notes": ""
+    },
+    {
+      "ref": "J10",
+      "value": "SERVO_SIGNAL_ONLY",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical",
+      "pins": {
+        "1": "GND",
+        "2": "SERVO_OUT"
+      },
+      "pos": [
+        165,
+        130,
+        0
+      ],
+      "group": "OUTPUT",
+      "kind": "connector",
+      "uuid": "b704a523-52e7-5b2a-a102-2b0f0bba5275",
+      "notes": "5V PWM via AHCT buffer; signal and GND only. SG90 motor supply external 5V; no power on J10."
+    },
+    {
+      "ref": "R7",
+      "value": "220R",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "pins": {
+        "1": "SERVO_5V",
+        "2": "SERVO_OUT"
+      },
+      "pos": [
+        154,
+        131,
+        0
+      ],
+      "group": "OUTPUT",
+      "kind": "resistor",
+      "uuid": "c25e8cbb-9296-5d9a-b66f-b778b47ea8db",
+      "notes": ""
+    },
+    {
+      "ref": "U6",
+      "value": "SN74AHCT1G125DBVR",
+      "footprint": "Package_TO_SOT_SMD:SOT-23-5",
+      "pins": {
+        "1": "GND",
+        "2": "SERVO_PWM",
+        "3": "GND",
+        "4": "SERVO_5V",
+        "5": "5V_LOGIC"
+      },
+      "pos": [
+        157,
+        126.5,
+        0
+      ],
+      "group": "OUTPUT",
+      "kind": "buffer",
+      "uuid": "35ea84c3-e105-5315-8fd4-ec656042e51f",
+      "notes": "",
+      "pin_names": {
+        "1": "OE_N",
+        "2": "A",
+        "3": "GND",
+        "4": "Y",
+        "5": "VCC"
+      }
+    },
+    {
+      "ref": "C7",
+      "value": "100nF",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "pins": {
+        "1": "5V_LOGIC",
+        "2": "GND"
+      },
+      "pos": [
+        160,
+        122.5,
+        0
+      ],
+      "group": "OUTPUT",
+      "kind": "capacitor",
+      "uuid": "f1719fb7-5328-5009-b227-1a809caddfeb",
+      "notes": ""
+    },
+    {
+      "ref": "R8",
+      "value": "100k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "pins": {
+        "1": "SERVO_PWM",
+        "2": "GND"
+      },
+      "pos": [
+        147,
+        127,
+        0
+      ],
+      "group": "OUTPUT",
+      "kind": "resistor",
+      "uuid": "76c0b1de-4504-58e4-9034-0f3b421116e3",
+      "notes": ""
+    },
+    {
+      "ref": "R9",
+      "value": "100k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "pins": {
+        "1": "SERVO_OUT",
+        "2": "GND"
+      },
+      "pos": [
+        154,
+        137,
+        0
+      ],
+      "group": "OUTPUT",
+      "kind": "resistor",
+      "uuid": "6016eefb-b974-5ae3-8bca-0c47cf218f76",
+      "notes": ""
+    },
+    {
+      "ref": "J11",
+      "value": "MOTOR_CTRL_3V3",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x09_P2.54mm_Vertical",
+      "pins": {
+        "1": "3V3_IO",
+        "2": "GND",
+        "3": "MOTOR_PWMA",
+        "4": "MOTOR_AIN1",
+        "5": "MOTOR_AIN2",
+        "6": "MOTOR_PWMB",
+        "7": "MOTOR_BIN1",
+        "8": "MOTOR_BIN2",
+        "9": "MOTOR_EN"
+      },
+      "pos": [
+        147,
+        95,
+        0
+      ],
+      "group": "OUTPUT",
+      "kind": "connector",
+      "uuid": "7abf9b91-c754-5146-ae31-9deb7b5593f3",
+      "notes": ""
+    },
+    {
+      "ref": "R10",
+      "value": "10k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "pins": {
+        "1": "MOTOR_EN",
+        "2": "GND"
+      },
+      "pos": [
+        141,
+        117,
+        0
+      ],
+      "group": "OUTPUT",
+      "kind": "resistor",
+      "uuid": "89f34291-3bd4-58be-a1bd-bdee779db2ba",
+      "notes": ""
+    },
+    {
+      "ref": "R11",
+      "value": "47k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "pins": {
+        "1": "MOTOR_PWMA",
+        "2": "GND"
+      },
+      "pos": [
+        136,
+        124,
+        90
+      ],
+      "group": "OUTPUT",
+      "kind": "resistor",
+      "uuid": "b2326228-4d01-573b-a40d-1baf159bfd54",
+      "notes": ""
+    },
+    {
+      "ref": "R12",
+      "value": "47k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "pins": {
+        "1": "MOTOR_AIN1",
+        "2": "GND"
+      },
+      "pos": [
+        142,
+        124,
+        90
+      ],
+      "group": "OUTPUT",
+      "kind": "resistor",
+      "uuid": "32584a00-0461-501f-85ff-52d6c92aedb4",
+      "notes": ""
+    },
+    {
+      "ref": "R13",
+      "value": "47k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "pins": {
+        "1": "MOTOR_AIN2",
+        "2": "GND"
+      },
+      "pos": [
+        136,
+        130,
+        90
+      ],
+      "group": "OUTPUT",
+      "kind": "resistor",
+      "uuid": "c8994bf9-dd66-564e-802e-891f59ac4286",
+      "notes": ""
+    },
+    {
+      "ref": "R14",
+      "value": "47k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "pins": {
+        "1": "MOTOR_PWMB",
+        "2": "GND"
+      },
+      "pos": [
+        142,
+        130,
+        90
+      ],
+      "group": "OUTPUT",
+      "kind": "resistor",
+      "uuid": "db897952-6fad-5480-a578-051190d45e3a",
+      "notes": ""
+    },
+    {
+      "ref": "R15",
+      "value": "47k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "pins": {
+        "1": "MOTOR_BIN1",
+        "2": "GND"
+      },
+      "pos": [
+        136,
+        136,
+        90
+      ],
+      "group": "OUTPUT",
+      "kind": "resistor",
+      "uuid": "8e51f03d-224f-5542-886b-d54150de553c",
+      "notes": ""
+    },
+    {
+      "ref": "R16",
+      "value": "47k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "pins": {
+        "1": "MOTOR_BIN2",
+        "2": "GND"
+      },
+      "pos": [
+        142,
+        136,
+        90
+      ],
+      "group": "OUTPUT",
+      "kind": "resistor",
+      "uuid": "dc66f583-3129-5fd3-8bd9-c4e98d2b3ad4",
+      "notes": ""
+    },
+    {
+      "ref": "J12",
+      "value": "HC_SR04",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical",
+      "pins": {
+        "1": "5V_LOGIC",
+        "2": "US_TRIG_5V",
+        "3": "US_ECHO_5V",
+        "4": "GND"
+      },
+      "pos": [
+        70,
+        126,
+        0
+      ],
+      "group": "SENSOR",
+      "kind": "connector",
+      "uuid": "11970c43-7c9c-586c-8025-fcaf944793b4",
+      "notes": ""
+    },
+    {
+      "ref": "R17",
+      "value": "10k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "pins": {
+        "1": "US_ECHO_5V",
+        "2": "US_ECHO"
+      },
+      "pos": [
+        82,
+        130,
+        0
+      ],
+      "group": "SENSOR",
+      "kind": "resistor",
+      "uuid": "c8f1a01f-7996-585a-bb5f-44862fefe800",
+      "notes": ""
+    },
+    {
+      "ref": "R18",
+      "value": "15k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "pins": {
+        "1": "US_ECHO",
+        "2": "GND"
+      },
+      "pos": [
+        88,
+        130,
+        90
+      ],
+      "group": "SENSOR",
+      "kind": "resistor",
+      "uuid": "65891f91-bd3e-5956-8137-b699500057e9",
+      "notes": ""
+    },
+    {
+      "ref": "U5",
+      "value": "SN74AHCT1G125DBVR",
+      "footprint": "Package_TO_SOT_SMD:SOT-23-5",
+      "pins": {
+        "1": "GND",
+        "2": "US_TRIG",
+        "3": "GND",
+        "4": "US_TRIG_5V",
+        "5": "5V_LOGIC"
+      },
+      "pos": [
+        80,
+        121,
+        0
+      ],
+      "group": "SENSOR",
+      "kind": "buffer",
+      "uuid": "864a7fb6-d4a0-54d8-8c43-7d62d6030298",
+      "notes": "",
+      "pin_names": {
+        "1": "OE_N",
+        "2": "A",
+        "3": "GND",
+        "4": "Y",
+        "5": "VCC"
+      }
+    },
+    {
+      "ref": "C8",
+      "value": "100nF",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "pins": {
+        "1": "5V_LOGIC",
+        "2": "GND"
+      },
+      "pos": [
+        86,
+        122,
+        0
+      ],
+      "group": "SENSOR",
+      "kind": "capacitor",
+      "uuid": "5009fce7-28fa-554c-87fc-402aef2f08a5",
+      "notes": ""
+    },
+    {
+      "ref": "R19",
+      "value": "100k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "pins": {
+        "1": "US_TRIG",
+        "2": "GND"
+      },
+      "pos": [
+        87,
+        117,
+        0
+      ],
+      "group": "SENSOR",
+      "kind": "resistor",
+      "uuid": "dd93022e-67cf-5402-9784-844dd977524e",
+      "notes": ""
+    },
+    {
+      "ref": "J13",
+      "value": "DHT11_5V",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical",
+      "pins": {
+        "1": "GND",
+        "2": "5V_LOGIC",
+        "3": "TEMP_DQ_5V"
+      },
+      "pos": [
+        94,
+        128,
+        0
+      ],
+      "group": "SENSOR",
+      "kind": "connector",
+      "uuid": "70b185ce-3b1f-58c7-a6cc-68b4ed8fa3da",
+      "notes": "DHT11: 1=GND,2=5V,3=DATA. Q3 shifts bidirectionally to PA3 at 3.3V. Bare DHT11 pin3 NC."
+    },
+    {
+      "ref": "R20",
+      "value": "4.7k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "pins": {
+        "1": "TEMP_DQ",
+        "2": "3V3_IO"
+      },
+      "pos": [
+        101,
+        130,
+        90
+      ],
+      "group": "SENSOR",
+      "kind": "resistor",
+      "uuid": "9288411c-6d9b-5ac0-8663-1d1f31cf106a",
+      "notes": ""
+    },
+    {
+      "ref": "Q3",
+      "value": "BSS138",
+      "footprint": "Package_TO_SOT_SMD:SOT-23",
+      "pins": {
+        "1": "3V3_IO",
+        "2": "TEMP_DQ",
+        "3": "TEMP_DQ_5V"
+      },
+      "pos": [
+        97,
+        120,
+        0
+      ],
+      "group": "SENSOR",
+      "kind": "nmos",
+      "uuid": "3c450061-6324-5d27-ab15-b35030bdfe5e",
+      "notes": "Bidirectional open-drain level shifter for 5V DHT11; source on 3.3V MCU side.",
+      "pin_names": {
+        "1": "G",
+        "2": "S",
+        "3": "D"
+      }
+    },
+    {
+      "ref": "R21",
+      "value": "4.7k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "pins": {
+        "1": "TEMP_DQ_5V",
+        "2": "5V_LOGIC"
+      },
+      "pos": [
+        94,
+        115,
+        0
+      ],
+      "group": "SENSOR",
+      "kind": "resistor",
+      "uuid": "1ae3fd2c-e626-56eb-927b-47156c1a6896",
+      "notes": ""
+    },
+    {
+      "ref": "C9",
+      "value": "100nF",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "pins": {
+        "1": "5V_LOGIC",
+        "2": "GND"
+      },
+      "pos": [
+        98,
+        111.5,
+        0
+      ],
+      "group": "SENSOR",
+      "kind": "capacitor",
+      "uuid": "06c689b1-055a-5d11-a95a-16dc354b5cd3",
+      "notes": ""
+    },
+    {
+      "ref": "J14",
+      "value": "ADC_3V3_ONLY",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical",
+      "pins": {
+        "1": "GND",
+        "2": "3V3_IO",
+        "3": "ADC_EXT"
+      },
+      "pos": [
+        112,
+        129,
+        0
+      ],
+      "group": "SENSOR",
+      "kind": "connector",
+      "uuid": "91100f36-48dd-5f1f-b51a-ebf0b521f824",
+      "notes": "Analog input 0..3.3V only. Light or thermistor AO, choose one; other module DO can use a spare J16 channel."
+    },
+    {
+      "ref": "R22",
+      "value": "1k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "pins": {
+        "1": "ADC_EXT",
+        "2": "ADC_IN"
+      },
+      "pos": [
+        121,
+        129,
+        0
+      ],
+      "group": "SENSOR",
+      "kind": "resistor",
+      "uuid": "29ef855d-ce45-5cf3-943a-d5caaa4ebf7c",
+      "notes": ""
+    },
+    {
+      "ref": "C10",
+      "value": "100nF",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "pins": {
+        "1": "ADC_IN",
+        "2": "GND"
+      },
+      "pos": [
+        122,
+        135,
+        0
+      ],
+      "group": "SENSOR",
+      "kind": "capacitor",
+      "uuid": "44b7069f-768f-51a6-aa3c-522a32b96ab9",
+      "notes": ""
+    },
+    {
+      "ref": "J15",
+      "value": "ENCODER_OPTION",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical",
+      "pins": {
+        "1": "GND",
+        "2": "3V3_CORE",
+        "3": "ENC_A_EXT",
+        "4": "ENC_B_EXT",
+        "5": "ENC_SW"
+      },
+      "pos": [
+        166,
+        75,
+        0
+      ],
+      "group": "EXPANSION",
+      "kind": "connector",
+      "uuid": "170c8211-6cf4-5c25-aef9-caa0687e0e0f",
+      "notes": ""
+    },
+    {
+      "ref": "R23",
+      "value": "100R",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "pins": {
+        "1": "ENC_A_EXT",
+        "2": "ENC_A"
+      },
+      "pos": [
+        154,
+        76,
+        0
+      ],
+      "group": "EXPANSION",
+      "kind": "resistor",
+      "uuid": "3bd12c40-b1d0-5379-8858-ab5027a82920",
+      "notes": ""
+    },
+    {
+      "ref": "R24",
+      "value": "100R",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "pins": {
+        "1": "ENC_B_EXT",
+        "2": "ENC_B"
+      },
+      "pos": [
+        154,
+        81,
+        0
+      ],
+      "group": "EXPANSION",
+      "kind": "resistor",
+      "uuid": "25fca231-5bed-5986-b61b-ab4b9ada3b2e",
+      "notes": ""
+    },
+    {
+      "ref": "R25",
+      "value": "10k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "pins": {
+        "1": "ENC_A",
+        "2": "3V3_CORE"
+      },
+      "pos": [
+        148,
+        76,
+        90
+      ],
+      "group": "EXPANSION",
+      "kind": "resistor",
+      "uuid": "9e17279c-0249-5e68-9092-086e4b36bc88",
+      "notes": ""
+    },
+    {
+      "ref": "R26",
+      "value": "10k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "pins": {
+        "1": "ENC_B",
+        "2": "3V3_CORE"
+      },
+      "pos": [
+        148,
+        81,
+        90
+      ],
+      "group": "EXPANSION",
+      "kind": "resistor",
+      "uuid": "5ce43407-3528-53d4-96a9-abce9b3b5c0f",
+      "notes": ""
+    },
+    {
+      "ref": "U2",
+      "value": "PCF8574T",
+      "footprint": "Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm",
+      "pins": {
+        "1": "GND",
+        "2": "GND",
+        "3": "GND",
+        "4": "LINE1_N",
+        "5": "LINE2_N",
+        "6": "LINE3_N",
+        "7": "LINE4_N",
+        "8": "GND",
+        "9": "LINE5_N",
+        "10": "FLASH_CS",
+        "11": "ENC_SW",
+        "12": null,
+        "13": null,
+        "14": "I2C_SCL",
+        "15": "I2C_SDA",
+        "16": "3V3_IO"
+      },
+      "pos": [
+        84,
+        76,
+        0
+      ],
+      "group": "INPUT",
+      "kind": "expander",
+      "uuid": "a787f5ca-eda7-5091-89fd-ac9120e2d38c",
+      "notes": "",
+      "pin_names": {
+        "1": "A0",
+        "2": "A1",
+        "3": "A2",
+        "4": "P0",
+        "5": "P1",
+        "6": "P2",
+        "7": "P3",
+        "8": "GND",
+        "9": "P4",
+        "10": "P5",
+        "11": "P6",
+        "12": "P7",
+        "13": "INT_N",
+        "14": "SCL",
+        "15": "SDA",
+        "16": "VDD"
+      }
+    },
+    {
+      "ref": "C11",
+      "value": "100nF",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "pins": {
+        "1": "3V3_IO",
+        "2": "GND"
+      },
+      "pos": [
+        87,
+        66,
+        0
+      ],
+      "group": "INPUT",
+      "kind": "capacitor",
+      "uuid": "849f46cb-2545-52d4-9185-7cb616454810",
+      "notes": ""
+    },
+    {
+      "ref": "J16",
+      "value": "LINE_5V",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical",
+      "pins": {
+        "1": "GND",
+        "2": "5V_LOGIC",
+        "3": "LINE1_EXT",
+        "4": "LINE2_EXT",
+        "5": "LINE3_EXT",
+        "6": "LINE4_EXT",
+        "7": "LINE5_EXT"
+      },
+      "pos": [
+        59,
+        61,
+        90
+      ],
+      "group": "INPUT",
+      "kind": "connector",
+      "uuid": "ef04c761-7543-54b1-af09-25a2e0064a82",
+      "notes": ""
+    },
+    {
+      "ref": "R27",
+      "value": "1k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "pins": {
+        "1": "LINE1_EXT",
+        "2": "LINE1_FILTER"
+      },
+      "pos": [
+        57,
+        90,
+        0
+      ],
+      "group": "INPUT",
+      "kind": "resistor",
+      "uuid": "5d70fdef-dbfa-5544-bbe3-fc4166440961",
+      "notes": ""
+    },
+    {
+      "ref": "R28",
+      "value": "10k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "pins": {
+        "1": "LINE1_FILTER",
+        "2": "3V3_IO"
+      },
+      "pos": [
+        57,
+        92.7,
+        0
+      ],
+      "group": "INPUT",
+      "kind": "resistor",
+      "uuid": "bf4ee3e4-80b4-5a29-b607-5e01fcadaa85",
+      "notes": ""
+    },
+    {
+      "ref": "R29",
+      "value": "1k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "pins": {
+        "1": "LINE1_BUF",
+        "2": "LINE1_N"
+      },
+      "pos": [
+        94,
+        72,
+        0
+      ],
+      "group": "INPUT",
+      "kind": "resistor",
+      "uuid": "8ce4e857-410a-5338-ad44-80a51660ee45",
+      "notes": ""
+    },
+    {
+      "ref": "R30",
+      "value": "1k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "pins": {
+        "1": "LINE2_EXT",
+        "2": "LINE2_FILTER"
+      },
+      "pos": [
+        65,
+        90,
+        0
+      ],
+      "group": "INPUT",
+      "kind": "resistor",
+      "uuid": "12cf7487-f62a-5cd9-8473-b9e0bb6c9c48",
+      "notes": ""
+    },
+    {
+      "ref": "R31",
+      "value": "10k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "pins": {
+        "1": "LINE2_FILTER",
+        "2": "3V3_IO"
+      },
+      "pos": [
+        65,
+        92.7,
+        0
+      ],
+      "group": "INPUT",
+      "kind": "resistor",
+      "uuid": "38e8edc3-114d-5a50-89d5-48d39cce249b",
+      "notes": ""
+    },
+    {
+      "ref": "R32",
+      "value": "1k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "pins": {
+        "1": "LINE2_BUF",
+        "2": "LINE2_N"
+      },
+      "pos": [
+        94,
+        76,
+        0
+      ],
+      "group": "INPUT",
+      "kind": "resistor",
+      "uuid": "ba967ae2-8916-5e4d-866d-e8565e57e65d",
+      "notes": ""
+    },
+    {
+      "ref": "R33",
+      "value": "1k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "pins": {
+        "1": "LINE3_EXT",
+        "2": "LINE3_FILTER"
+      },
+      "pos": [
+        73,
+        90,
+        0
+      ],
+      "group": "INPUT",
+      "kind": "resistor",
+      "uuid": "0dbcf679-ee43-5f2e-9470-ad20a0631d33",
+      "notes": ""
+    },
+    {
+      "ref": "R34",
+      "value": "10k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "pins": {
+        "1": "LINE3_FILTER",
+        "2": "3V3_IO"
+      },
+      "pos": [
+        73,
+        92.7,
+        0
+      ],
+      "group": "INPUT",
+      "kind": "resistor",
+      "uuid": "16719981-0ce9-5a83-9985-13d81c3d8fa1",
+      "notes": ""
+    },
+    {
+      "ref": "R35",
+      "value": "1k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "pins": {
+        "1": "LINE3_BUF",
+        "2": "LINE3_N"
+      },
+      "pos": [
+        94,
+        80,
+        0
+      ],
+      "group": "INPUT",
+      "kind": "resistor",
+      "uuid": "48e8a8a8-dc74-5a2d-a5e7-eaaf9fe10727",
+      "notes": ""
+    },
+    {
+      "ref": "R36",
+      "value": "1k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "pins": {
+        "1": "LINE4_EXT",
+        "2": "LINE4_FILTER"
+      },
+      "pos": [
+        57,
+        96,
+        0
+      ],
+      "group": "INPUT",
+      "kind": "resistor",
+      "uuid": "f8d26179-b720-5025-bd59-934c3184f0ac",
+      "notes": ""
+    },
+    {
+      "ref": "R37",
+      "value": "10k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "pins": {
+        "1": "LINE4_FILTER",
+        "2": "3V3_IO"
+      },
+      "pos": [
+        57,
+        98.7,
+        0
+      ],
+      "group": "INPUT",
+      "kind": "resistor",
+      "uuid": "78eec7aa-7f48-59e4-ab52-d45ef4db52a6",
+      "notes": ""
+    },
+    {
+      "ref": "R38",
+      "value": "1k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "pins": {
+        "1": "LINE4_BUF",
+        "2": "LINE4_N"
+      },
+      "pos": [
+        94,
+        84,
+        0
+      ],
+      "group": "INPUT",
+      "kind": "resistor",
+      "uuid": "e485baca-1300-51f0-90cc-d96663bfa739",
+      "notes": ""
+    },
+    {
+      "ref": "R39",
+      "value": "1k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "pins": {
+        "1": "LINE5_EXT",
+        "2": "LINE5_FILTER"
+      },
+      "pos": [
+        65,
+        96,
+        0
+      ],
+      "group": "INPUT",
+      "kind": "resistor",
+      "uuid": "a1e80f65-1192-5614-8456-2bf0ec5496be",
+      "notes": ""
+    },
+    {
+      "ref": "R40",
+      "value": "10k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "pins": {
+        "1": "LINE5_FILTER",
+        "2": "3V3_IO"
+      },
+      "pos": [
+        65,
+        98.7,
+        0
+      ],
+      "group": "INPUT",
+      "kind": "resistor",
+      "uuid": "1364ad7f-70f7-5e0d-9788-3e61a7c3bd3a",
+      "notes": ""
+    },
+    {
+      "ref": "R41",
+      "value": "1k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "pins": {
+        "1": "LINE5_BUF",
+        "2": "LINE5_N"
+      },
+      "pos": [
+        94,
+        88,
+        0
+      ],
+      "group": "INPUT",
+      "kind": "resistor",
+      "uuid": "7bf77b32-b921-54a9-88e5-f0764ffedca2",
+      "notes": ""
+    },
+    {
+      "ref": "R42",
+      "value": "1k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "pins": {
+        "1": "DEPOSIT_EXT",
+        "2": "DEPOSIT_FILTER"
+      },
+      "pos": [
+        73,
+        96,
+        0
+      ],
+      "group": "INPUT",
+      "kind": "resistor",
+      "uuid": "2feebb0a-cb02-5036-a003-be8ad622cf26",
+      "notes": ""
+    },
+    {
+      "ref": "R43",
+      "value": "10k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "pins": {
+        "1": "DEPOSIT_FILTER",
+        "2": "3V3_IO"
+      },
+      "pos": [
+        73,
+        98.7,
+        0
+      ],
+      "group": "INPUT",
+      "kind": "resistor",
+      "uuid": "f31d64d5-93e6-52c0-bddf-7ab579dad10f",
+      "notes": ""
+    },
+    {
+      "ref": "U3",
+      "value": "SN74LVC14AD",
+      "footprint": "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm",
+      "pins": {
+        "7": "GND",
+        "14": "3V3_IO",
+        "1": "LINE1_FILTER",
+        "2": "LINE1_BUF",
+        "3": "LINE2_FILTER",
+        "4": "LINE2_BUF",
+        "5": "LINE3_FILTER",
+        "6": "LINE3_BUF",
+        "9": "LINE4_FILTER",
+        "8": "LINE4_BUF",
+        "11": "LINE5_FILTER",
+        "10": "LINE5_BUF",
+        "13": "DEPOSIT_FILTER",
+        "12": "DEPOSIT_N"
+      },
+      "pos": [
+        67,
+        76,
+        0
+      ],
+      "group": "INPUT",
+      "kind": "schmitt",
+      "uuid": "d88ab6e8-0e70-50a1-bce9-31190a8d6428",
+      "notes": ""
+    },
+    {
+      "ref": "C12",
+      "value": "100nF",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "pins": {
+        "1": "3V3_IO",
+        "2": "GND"
+      },
+      "pos": [
+        65,
+        66,
+        0
+      ],
+      "group": "INPUT",
+      "kind": "capacitor",
+      "uuid": "738cf6f8-4ff9-528a-9eeb-e07015283fea",
+      "notes": ""
+    },
+    {
+      "ref": "U4",
+      "value": "SN74LVC14AD",
+      "footprint": "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm",
+      "pins": {
+        "7": "GND",
+        "14": "3V3_IO",
+        "1": "PINCH_FILTER",
+        "2": "PINCH_FAULT",
+        "3": "GND",
+        "4": null,
+        "5": "GND",
+        "6": null,
+        "9": "GND",
+        "8": null,
+        "11": "GND",
+        "10": null,
+        "13": "GND",
+        "12": null
+      },
+      "pos": [
+        140,
+        64,
+        0
+      ],
+      "group": "INPUT",
+      "kind": "schmitt",
+      "uuid": "1d7cf0a7-f992-5290-bc47-59c8cd153865",
+      "notes": ""
+    },
+    {
+      "ref": "C13",
+      "value": "100nF",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "pins": {
+        "1": "3V3_IO",
+        "2": "GND"
+      },
+      "pos": [
+        132,
+        56,
+        0
+      ],
+      "group": "INPUT",
+      "kind": "capacitor",
+      "uuid": "72fc175b-f80d-52c2-bc23-5411b47f7a36",
+      "notes": ""
+    },
+    {
+      "ref": "J17",
+      "value": "DEPOSIT_5V",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical",
+      "pins": {
+        "1": "GND",
+        "2": "5V_LOGIC",
+        "3": "DEPOSIT_EXT"
+      },
+      "pos": [
+        88,
+        61,
+        90
+      ],
+      "group": "INPUT",
+      "kind": "connector",
+      "uuid": "baf7f183-9317-571b-8b0a-2420689cdca1",
+      "notes": ""
+    },
+    {
+      "ref": "J18",
+      "value": "PINCH_CLEAR_HIGH",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical",
+      "pins": {
+        "1": "GND",
+        "2": "5V_LOGIC",
+        "3": "PINCH_EXT"
+      },
+      "pos": [
+        153,
+        49,
+        90
+      ],
+      "group": "INPUT",
+      "kind": "connector",
+      "uuid": "3d0e896d-b7dc-501e-a3cb-15a3086d2132",
+      "notes": ""
+    },
+    {
+      "ref": "R44",
+      "value": "1k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "pins": {
+        "1": "PINCH_EXT",
+        "2": "PINCH_FILTER"
+      },
+      "pos": [
+        149,
+        59,
+        0
+      ],
+      "group": "INPUT",
+      "kind": "resistor",
+      "uuid": "3547f26f-6491-51fa-a523-1dd43c5beda8",
+      "notes": ""
+    },
+    {
+      "ref": "R45",
+      "value": "47k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "pins": {
+        "1": "PINCH_FILTER",
+        "2": "GND"
+      },
+      "pos": [
+        155,
+        59,
+        0
+      ],
+      "group": "INPUT",
+      "kind": "resistor",
+      "uuid": "55f4f506-151d-5ba8-bdb2-a4c222843487",
+      "notes": ""
+    },
+    {
+      "ref": "R46",
+      "value": "47k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "pins": {
+        "1": "ALARM_CMD",
+        "2": "GND"
+      },
+      "pos": [
+        129,
+        63,
+        0
+      ],
+      "group": "OUTPUT",
+      "kind": "resistor",
+      "uuid": "8504baf1-75d3-5954-a509-6b8e68105e8e",
+      "notes": ""
+    },
+    {
+      "ref": "J19",
+      "value": "BUZZER_SELECT",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical",
+      "pins": {
+        "1": "GND",
+        "2": "5V_LOGIC",
+        "3": "BUZZER_ACTIVE_LOW",
+        "4": "BUZZER_3V3"
+      },
+      "pos": [
+        166,
+        96,
+        0
+      ],
+      "group": "OUTPUT",
+      "kind": "connector",
+      "uuid": "f67a23bf-7a1f-5857-ae2f-e68deef09c2b",
+      "notes": "Pin3 = inverted open-drain 5V pullup; pin4 = direct 3.3V via 1k. Select ONE signal matching buzzer module. Never join pins3/4."
+    },
+    {
+      "ref": "Q2",
+      "value": "2N7002",
+      "footprint": "Package_TO_SOT_SMD:SOT-23",
+      "pins": {
+        "1": "ALARM_CMD",
+        "2": "GND",
+        "3": "BUZZER_ACTIVE_LOW"
+      },
+      "pos": [
+        157,
+        101,
+        0
+      ],
+      "group": "OUTPUT",
+      "kind": "nmos",
+      "uuid": "9edc4316-2bdc-587c-adae-9ebf8d602b71",
+      "notes": "Open-drain low-active module input; do not connect a bare buzzer load.",
+      "pin_names": {
+        "1": "G",
+        "2": "S",
+        "3": "D"
+      }
+    },
+    {
+      "ref": "R47",
+      "value": "10k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "pins": {
+        "1": "BUZZER_ACTIVE_LOW",
+        "2": "5V_LOGIC"
+      },
+      "pos": [
+        157,
+        95,
+        0
+      ],
+      "group": "OUTPUT",
+      "kind": "resistor",
+      "uuid": "0765422e-c171-58a5-9fd4-6867427e0c3d",
+      "notes": ""
+    },
+    {
+      "ref": "R48",
+      "value": "1k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "pins": {
+        "1": "ALARM_CMD",
+        "2": "BUZZER_3V3"
+      },
+      "pos": [
+        156,
+        107,
+        0
+      ],
+      "group": "OUTPUT",
+      "kind": "resistor",
+      "uuid": "d7b00077-8319-59a9-a00f-b7247ad8275c",
+      "notes": ""
+    },
+    {
+      "ref": "J20",
+      "value": "MODE_BUTTON",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical",
+      "pins": {
+        "1": "MODE_N_EXT",
+        "2": "GND"
+      },
+      "pos": [
+        128,
+        73,
+        0
+      ],
+      "group": "CONTACT",
+      "kind": "connector",
+      "uuid": "3a8f3935-bfed-516e-8cbc-c6c18e51a17a",
+      "notes": ""
+    },
+    {
+      "ref": "R49",
+      "value": "10k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "pins": {
+        "1": "MODE_N_EXT",
+        "2": "3V3_CORE"
+      },
+      "pos": [
+        135,
+        73,
+        90
+      ],
+      "group": "CONTACT",
+      "kind": "resistor",
+      "uuid": "e448c26d-06c7-598b-9409-99ac25c508ad",
+      "notes": ""
+    },
+    {
+      "ref": "R50",
+      "value": "1k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "pins": {
+        "1": "MODE_N_EXT",
+        "2": "MODE_N"
+      },
+      "pos": [
+        135,
+        77,
+        0
+      ],
+      "group": "CONTACT",
+      "kind": "resistor",
+      "uuid": "1e134446-e94a-545c-88e8-ccf8d056321e",
+      "notes": ""
+    },
+    {
+      "ref": "C14",
+      "value": "100nF",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "pins": {
+        "1": "MODE_N",
+        "2": "GND"
+      },
+      "pos": [
+        135,
+        80,
+        0
+      ],
+      "group": "CONTACT",
+      "kind": "capacitor",
+      "uuid": "248102c4-0cfd-5232-80b6-0118b4e5cd37",
+      "notes": ""
+    },
+    {
+      "ref": "J21",
+      "value": "ESTOP_AUX_NC",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical",
+      "pins": {
+        "1": "ESTOP_N_EXT",
+        "2": "GND"
+      },
+      "pos": [
+        128,
+        83,
+        0
+      ],
+      "group": "CONTACT",
+      "kind": "connector",
+      "uuid": "4127394b-1d32-54e6-a68f-499579b1962e",
+      "notes": ""
+    },
+    {
+      "ref": "R51",
+      "value": "10k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "pins": {
+        "1": "ESTOP_N_EXT",
+        "2": "3V3_CORE"
+      },
+      "pos": [
+        135,
+        83,
+        90
+      ],
+      "group": "CONTACT",
+      "kind": "resistor",
+      "uuid": "65916a62-3cf2-530c-bade-3456c4ab564d",
+      "notes": ""
+    },
+    {
+      "ref": "R52",
+      "value": "1k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "pins": {
+        "1": "ESTOP_N_EXT",
+        "2": "ESTOP_N"
+      },
+      "pos": [
+        135,
+        87,
+        0
+      ],
+      "group": "CONTACT",
+      "kind": "resistor",
+      "uuid": "967c5294-21e9-5e18-98be-b23c61af66e5",
+      "notes": ""
+    },
+    {
+      "ref": "C15",
+      "value": "100nF",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "pins": {
+        "1": "ESTOP_N",
+        "2": "GND"
+      },
+      "pos": [
+        135,
+        90,
+        0
+      ],
+      "group": "CONTACT",
+      "kind": "capacitor",
+      "uuid": "9430dbb3-33c7-5130-ac90-ae17cc8d02ce",
+      "notes": ""
+    },
+    {
+      "ref": "J22",
+      "value": "LID_CLOSED_NO",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical",
+      "pins": {
+        "1": "LID_CLOSED_N_EXT",
+        "2": "GND"
+      },
+      "pos": [
+        128,
+        93,
+        0
+      ],
+      "group": "CONTACT",
+      "kind": "connector",
+      "uuid": "d82c9812-12b9-59e2-a5fc-e590a066796c",
+      "notes": ""
+    },
+    {
+      "ref": "R53",
+      "value": "10k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "pins": {
+        "1": "LID_CLOSED_N_EXT",
+        "2": "3V3_CORE"
+      },
+      "pos": [
+        135,
+        93,
+        90
+      ],
+      "group": "CONTACT",
+      "kind": "resistor",
+      "uuid": "ac5bc383-b393-5c45-9668-72dd651223b9",
+      "notes": ""
+    },
+    {
+      "ref": "R54",
+      "value": "1k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "pins": {
+        "1": "LID_CLOSED_N_EXT",
+        "2": "LID_CLOSED_N"
+      },
+      "pos": [
+        135,
+        97,
+        0
+      ],
+      "group": "CONTACT",
+      "kind": "resistor",
+      "uuid": "57dc442e-96de-5d67-850f-a08553cb53e3",
+      "notes": ""
+    },
+    {
+      "ref": "C16",
+      "value": "100nF",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "pins": {
+        "1": "LID_CLOSED_N",
+        "2": "GND"
+      },
+      "pos": [
+        135,
+        100,
+        0
+      ],
+      "group": "CONTACT",
+      "kind": "capacitor",
+      "uuid": "70c405d2-4f43-52c5-835d-becefa1d848a",
+      "notes": ""
+    },
+    {
+      "ref": "J23",
+      "value": "RESET_BUTTON",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical",
+      "pins": {
+        "1": "NRST",
+        "2": "GND"
+      },
+      "pos": [
+        107,
+        59,
+        90
+      ],
+      "group": "CORE",
+      "kind": "connector",
+      "uuid": "5c169788-ef68-583a-a7d0-37f02a8dc7af",
+      "notes": ""
+    },
+    {
+      "ref": "R55",
+      "value": "0R",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "pins": {
+        "1": "VBAT_CORE",
+        "2": "3V3_CORE"
+      },
+      "pos": [
+        94,
+        67,
+        0
+      ],
+      "group": "CORE",
+      "kind": "resistor",
+      "uuid": "110a2cc3-7abd-5fbc-9137-064543d9796c",
+      "notes": ""
+    },
+    {
+      "ref": "C17",
+      "value": "100nF",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "pins": {
+        "1": "VBAT_CORE",
+        "2": "GND"
+      },
+      "pos": [
+        98,
+        62,
+        0
+      ],
+      "group": "CORE",
+      "kind": "capacitor",
+      "uuid": "fd910065-1af9-5a9e-9628-bc66feba173f",
+      "notes": ""
+    },
+    {
+      "ref": "R56",
+      "value": "10k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "pins": {
+        "1": "RFID_CS",
+        "2": "3V3_IO"
+      },
+      "pos": [
+        58,
+        69,
+        0
+      ],
+      "group": "RFID",
+      "kind": "resistor",
+      "uuid": "72dffe59-fe90-5299-bf0c-1a702a6901c5",
+      "notes": ""
+    },
+    {
+      "ref": "H1",
+      "value": "M3_NPTH",
+      "footprint": "MountingHole:MountingHole_3.2mm_M3",
+      "pins": {},
+      "pos": [
+        45,
+        45,
+        0
+      ],
+      "group": "MECHANICAL",
+      "kind": "mount",
+      "uuid": "26a9e956-4bf6-59cb-ba9f-9c85f197acc9",
+      "notes": ""
+    },
+    {
+      "ref": "H2",
+      "value": "M3_NPTH",
+      "footprint": "MountingHole:MountingHole_3.2mm_M3",
+      "pins": {},
+      "pos": [
+        170,
+        45,
+        0
+      ],
+      "group": "MECHANICAL",
+      "kind": "mount",
+      "uuid": "2fc80586-6684-53fe-83f2-458b9795d5ea",
+      "notes": ""
+    },
+    {
+      "ref": "H3",
+      "value": "M3_NPTH",
+      "footprint": "MountingHole:MountingHole_3.2mm_M3",
+      "pins": {},
+      "pos": [
+        45,
+        140,
+        0
+      ],
+      "group": "MECHANICAL",
+      "kind": "mount",
+      "uuid": "98b00474-4278-5cc3-b2e2-e6bd875b888c",
+      "notes": ""
+    },
+    {
+      "ref": "H4",
+      "value": "M3_NPTH",
+      "footprint": "MountingHole:MountingHole_3.2mm_M3",
+      "pins": {},
+      "pos": [
+        170,
+        140,
+        0
+      ],
+      "group": "MECHANICAL",
+      "kind": "mount",
+      "uuid": "676d697e-b3ef-577e-8336-76659c37dd55",
+      "notes": ""
+    }
+  ],
+  "core": {
+    "connection": "Cable only - not a core socket",
+    "pin_pitch": 2.54,
+    "pins_per_header": 20,
+    "pa_header": "J1",
+    "pb_header": "J2",
+    "confirmed_connection_method": true
+  },
+  "power": {
+    "input": "5V regulated only",
+    "total_design_budget_mA": 500,
+    "io_3v3_budget_mA": 200,
+    "motor_servo": "External supply and power wiring; hardware emergency stop external; signal GND reference only"
+  },
+  "sources": [
+    "https://www.st.com/resource/en/datasheet/stm32f103c8.pdf",
+    "https://www.nxp.com/docs/en/data-sheet/PCF8574_PCF8574A.pdf",
+    "https://www.ti.com/lit/ds/symlink/sn74lvc14a.pdf",
+    "https://www.ti.com/lit/ds/symlink/tlv1117lv.pdf",
+    "https://www.ti.com/lit/ds/symlink/sn74ahct1g125.pdf",
+    "https://www.aosmd.com/sites/default/files/res/datasheets/AO3401A.pdf",
+    "http://www.prechin.cn/gongsixinwen/208.html",
+    "https://www.onsemi.com/pdf/datasheet/bss138-d.pdf",
+    "https://www.nxp.com/docs/en/application-note/AN10441.pdf",
+    "https://www.aosong.com/userfiles/files/media/DHT11-V1_3说明书（详细版）.pdf"
+  ],
+  "gpio": {
+    "PA0": "MOTOR_EN",
+    "PA1": "US_ECHO",
+    "PA2": "US_TRIG",
+    "PA3": "TEMP_DQ",
+    "PA4": "RFID_CS",
+    "PA5": "SPI_SCK",
+    "PA6": "SPI_MISO",
+    "PA7": "SPI_MOSI",
+    "PA8": "SERVO_PWM",
+    "PA9": "UART_TX",
+    "PA10": "UART_RX",
+    "PA11": "ENC_A",
+    "PA12": "ENC_B",
+    "PA13": null,
+    "PA14": null,
+    "PA15": "ESTOP_N",
+    "PB0": "RFID_RST",
+    "PB1": "ADC_IN",
+    "PB2": null,
+    "PB3": "MODE_N",
+    "PB4": "PINCH_FAULT",
+    "PB5": "DEPOSIT_N",
+    "PB6": "MOTOR_PWMA",
+    "PB7": "MOTOR_PWMB",
+    "PB8": "ALARM_CMD",
+    "PB9": "LID_CLOSED_N",
+    "PB10": "I2C_SCL",
+    "PB11": "I2C_SDA",
+    "PB12": "MOTOR_AIN1",
+    "PB13": "MOTOR_AIN2",
+    "PB14": "MOTOR_BIN1",
+    "PB15": "MOTOR_BIN2"
+  }
+}

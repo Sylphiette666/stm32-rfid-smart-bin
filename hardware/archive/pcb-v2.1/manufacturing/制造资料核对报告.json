@@ -1,0 +1,116 @@
+{
+  "status": "PASS",
+  "errors": [],
+  "board_mm": [
+    135,
+    105
+  ],
+  "BOM_components": 112,
+  "SMT_components": 84,
+  "THT_components": 24,
+  "mechanical_holes": 4,
+  "SMT_distinct_specs": 21,
+  "all_on_top": true,
+  "BOM_values_match_design": true,
+  "max_PNP_reference_position_error_mm": 1.2599999905660297e-06,
+  "rotation_check": "Export rotations match native project; supplier-specific rotation convention and polarity still require assembly preview approval.",
+  "drill_count": 254,
+  "PTH_inclusive_count": 250,
+  "NPTH_count": 4,
+  "via_drill_subset_count": 125,
+  "via_drill_file_is_subset_of_PTH": true,
+  "max_drill_error_mm": 1.2400000173329317e-06,
+  "copper_track_check": {
+    "1": {
+      "expected": 691,
+      "exact_segment_matches": 688,
+      "redundant_short_segments_covered_by_emitted_copper": [
+        {
+          "endpoints_mm": [
+            [
+              154.1504,
+              -126.5
+            ],
+            [
+              154.1505,
+              -126.5
+            ]
+          ],
+          "width_mm": 0.6,
+          "length_mm": 0.00010000000000331966,
+          "count": 1,
+          "uncovered_area_mm2_with_0_02um_rounding_tolerance": 0.0
+        },
+        {
+          "endpoints_mm": [
+            [
+              147.9653,
+              -127.0528
+            ],
+            [
+              147.9653,
+              -127.0527
+            ]
+          ],
+          "width_mm": 0.6,
+          "length_mm": 0.00010000000000331966,
+          "count": 1,
+          "uncovered_area_mm2_with_0_02um_rounding_tolerance": 0.0
+        },
+        {
+          "endpoints_mm": [
+            [
+              154.9125,
+              -76.0
+            ],
+            [
+              154.9142,
+              -76.0017
+            ]
+          ],
+          "width_mm": 0.3,
+          "length_mm": 0.002404163056033683,
+          "count": 1,
+          "uncovered_area_mm2_with_0_02um_rounding_tolerance": 0.0
+        }
+      ]
+    },
+    "2": {
+      "expected": 268,
+      "exact_segment_matches": 267,
+      "redundant_short_segments_covered_by_emitted_copper": [
+        {
+          "endpoints_mm": [
+            [
+              59.3497,
+              -85.8496
+            ],
+            [
+              59.3511,
+              -85.851
+            ]
+          ],
+          "width_mm": 0.6,
+          "length_mm": 0.001979898987327767,
+          "count": 1,
+          "uncovered_area_mm2_with_0_02um_rounding_tolerance": 0.0
+        }
+      ]
+    }
+  },
+  "pad_center_flashes_checked": 342,
+  "closed_outline": true,
+  "parser_warnings": [
+    "D:\\Work\\嵌入式课设\\Hardware\\SmartBin_V2_1_制造资料核对_20260929\\checks\\gerber\\Drill_NPTH_Through.DRL:11 \"G90\": G90 header statement found after end of header",
+    "D:\\Work\\嵌入式课设\\Hardware\\SmartBin_V2_1_制造资料核对_20260929\\checks\\gerber\\Drill_PTH_Through.DRL:17 \"G90\": G90 header statement found after end of header",
+    "D:\\Work\\嵌入式课设\\Hardware\\SmartBin_V2_1_制造资料核对_20260929\\checks\\gerber\\Drill_PTH_Through_Via.DRL:13 \"G90\": G90 header statement found after end of header"
+  ],
+  "missing_supplier_codes": 84,
+  "SMT_order_ready": false,
+  "limits": "No supplier codes have been selected. No manufacturing DFM, stencil aperture sizing, supplier pin-1 rotation or physical prototype validation has been completed.",
+  "input_sha256": {
+    "BOM_SmartBin_Carrier_SmartBin_Carrier_2026-09-29.xlsx": "7d4579b011d90ac7917cab917594cb7439f8fbd6e94ad404605ff6d6dd8e266d",
+    "PickAndPlace_SmartBin_Carrier_2026_09_29.xlsx": "d0e1d2feaa37105bea63afacf302aa75b67c65e7b1d1e25189adcde65766937c",
+    "Gerber_SmartBin_Carrier_2026-09-29.zip": "6cb2c6513a93a74cf18991a64904ab3cc38422afdf29f43ee1e8fced9605589c"
+  }
+}

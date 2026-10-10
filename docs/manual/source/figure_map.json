@@ -1,0 +1,9 @@
+{
+"使用方法与本次装配基线":[{"path":"assembly_sequence.png","caption":"图1  从配件核对到整机验收的顺序"}],
+"本次采用的结构与加工边界":[{"path":"height_layout_new.png","caption":"图2  更新内胆与盖板后的整机侧视和高度链"}],
+"工具、实测记录与纸样预装":[{"path":"wood_nesting.png","caption":"图3  两张木板的主要板件排料参考"}],
+"坐标、外形与孔槽：先标线后钻孔":[{"path":"base_layout_new.png","caption":"图4  底板与上平台的统一坐标和四柱定位"}],
+"1 mm PP 五片内胆与 30×40 cm 袋":[{"path":"pp_liner_new.png","caption":"图5  1mm PP五片内胆尺寸与接缝固定方式"}],
+"20 /50 /20 /50 连杆机构逐步装配":[{"path":"lid_linkage_new.png","caption":"图6  20mm摇臂与50mm连杆的运动关系"}],
+"PWR 电源板：电池、保险、开关、降压与去耦":[{"path":"power_branches.png","caption":"图7  电源分支及独立回路连接关系"}]
+}
