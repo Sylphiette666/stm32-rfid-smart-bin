@@ -1,0 +1,71 @@
+[
+  {
+    "argv": [
+      "sch",
+      "export",
+      "netlist",
+      "--format",
+      "kicadxml",
+      "--output",
+      "D:\\Work\\嵌入式课设\\.pcb-lowcost-20261012\\a-design\\kicad\\SmartBin_A.net.xml",
+      "D:\\Work\\嵌入式课设\\.pcb-lowcost-20261012\\a-design\\kicad\\SmartBin_A.kicad_sch"
+    ],
+    "returncode": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  {
+    "argv": [
+      "sch",
+      "export",
+      "pdf",
+      "--output",
+      "D:\\Work\\嵌入式课设\\.pcb-lowcost-20261012\\a-design\\kicad\\SmartBin_A_schematic.pdf",
+      "D:\\Work\\嵌入式课设\\.pcb-lowcost-20261012\\a-design\\kicad\\SmartBin_A.kicad_sch"
+    ],
+    "returncode": 0,
+    "stdout": "绘制到 'D:\\Work\\嵌入式课设\\.pcb-lowcost-20261012\\a-design\\kicad\\SmartBin_A_schematic.pdf'。\n完成。\n",
+    "stderr": ""
+  },
+  {
+    "argv": [
+      "sch",
+      "export",
+      "svg",
+      "--output",
+      "D:\\Work\\嵌入式课设\\.pcb-lowcost-20261012\\a-design\\kicad\\schematic-svg",
+      "D:\\Work\\嵌入式课设\\.pcb-lowcost-20261012\\a-design\\kicad\\SmartBin_A.kicad_sch"
+    ],
+    "returncode": 0,
+    "stdout": "已绘制到 'D:\\Work\\嵌入式课设\\.pcb-lowcost-20261012\\a-design\\kicad\\schematic-svg\\SmartBin_A.svg'。\n已绘制到 'D:\\Work\\嵌入式课设\\.pcb-lowcost-20261012\\a-design\\kicad\\schematic-svg\\SmartBin_A-02 01 Power distribution and ADC.svg'。\n已绘制到 'D:\\Work\\嵌入式课设\\.pcb-lowcost-20261012\\a-design\\kicad\\schematic-svg\\SmartBin_A-03 02 MCU, MCP23017 and emergency stop.svg'。\n已绘制到 'D:\\Work\\嵌入式课设\\.pcb-lowcost-20261012\\a-design\\kicad\\schematic-svg\\SmartBin_A-04 03 Serial module interfaces.svg'。\n已绘制到 'D:\\Work\\嵌入式课设\\.pcb-lowcost-20261012\\a-design\\kicad\\schematic-svg\\SmartBin_A-05 04 Buffered outputs and actuators.svg'。\n已绘制到 'D:\\Work\\嵌入式课设\\.pcb-lowcost-20261012\\a-design\\kicad\\schematic-svg\\SmartBin_A-06 05 Sensor and user inputs.svg'。\n完成。\n",
+    "stderr": ""
+  },
+  {
+    "argv": [
+      "sch",
+      "erc",
+      "--format",
+      "json",
+      "--output",
+      "D:\\Work\\嵌入式课设\\.pcb-lowcost-20261012\\a-design\\kicad\\schematic-erc.json",
+      "D:\\Work\\嵌入式课设\\.pcb-lowcost-20261012\\a-design\\kicad\\SmartBin_A.kicad_sch"
+    ],
+    "returncode": 0,
+    "stdout": "发现 0 条违规项\n已将 ERC 报告保存到文件 D:/Work/嵌入式课设/.pcb-lowcost-20261012/a-design/kicad/schematic-erc.json\n",
+    "stderr": ""
+  },
+  {
+    "argv": [
+      "sch",
+      "erc",
+      "--format",
+      "report",
+      "--output",
+      "D:\\Work\\嵌入式课设\\.pcb-lowcost-20261012\\a-design\\kicad\\schematic-erc.rpt",
+      "D:\\Work\\嵌入式课设\\.pcb-lowcost-20261012\\a-design\\kicad\\SmartBin_A.kicad_sch"
+    ],
+    "returncode": 0,
+    "stdout": "发现 0 条违规项\n已将 ERC 报告保存到文件 D:/Work/嵌入式课设/.pcb-lowcost-20261012/a-design/kicad/schematic-erc.rpt\n",
+    "stderr": ""
+  }
+]

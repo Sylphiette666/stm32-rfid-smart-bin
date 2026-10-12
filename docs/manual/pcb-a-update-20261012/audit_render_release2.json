@@ -1,0 +1,757 @@
+{
+  "steps_preserved": true,
+  "steps": 330,
+  "original_media_preserved": true,
+  "original_media_count": 52,
+  "new_media_count": 57,
+  "new_figures_latest": true,
+  "figure_sources": [
+    {
+      "file": "45_pcb_top.png",
+      "source_sha256": "31c4f46ec2906a6cb2b300074b600d6c1f538925761bd2c608a2942332efc66f",
+      "latest_embedded": true
+    },
+    {
+      "file": "46_pcb_bottom.png",
+      "source_sha256": "69793d9f190ed43b70d8fa7ea1e5afb101e88d50358117ab3655fb2087c38733",
+      "latest_embedded": true
+    },
+    {
+      "file": "47_power.png",
+      "source_sha256": "e2f3831c09f1efb7ba6790755590932a41af0a878fcff6b686c563cd017527b9",
+      "latest_embedded": true
+    },
+    {
+      "file": "48_modules.png",
+      "source_sha256": "51a5931ed55b7226d1a697206fe07acd3a860bbec00c381cb2cd0b99b3095a7d",
+      "latest_embedded": true
+    },
+    {
+      "file": "49_conditions.png",
+      "source_sha256": "caac9e37214b0f012718de4400ba7276f43b7d262415530081d50bb9626ce096",
+      "latest_embedded": true
+    }
+  ],
+  "interfaces": 181,
+  "unique_interfaces": 181,
+  "interface_values_match_csv": true,
+  "original_tables_only_authorized_changes": true,
+  "has_placeholders": false,
+  "inline_images": 57,
+  "tables": 64,
+  "sha256": "e372c23d2ecc6cd6eccb2e3e2e680ce35942d956c96c20b01de713b023563885",
+  "original_still_unchanged": true,
+  "render_pages": 198,
+  "unchanged_body_pages": [
+    {
+      "current": 4,
+      "prior": [
+        4
+      ]
+    },
+    {
+      "current": 12,
+      "prior": [
+        12
+      ]
+    },
+    {
+      "current": 13,
+      "prior": [
+        13
+      ]
+    },
+    {
+      "current": 14,
+      "prior": [
+        14
+      ]
+    },
+    {
+      "current": 19,
+      "prior": [
+        19
+      ]
+    },
+    {
+      "current": 20,
+      "prior": [
+        20
+      ]
+    },
+    {
+      "current": 21,
+      "prior": [
+        21
+      ]
+    },
+    {
+      "current": 22,
+      "prior": [
+        22
+      ]
+    },
+    {
+      "current": 23,
+      "prior": [
+        23
+      ]
+    },
+    {
+      "current": 24,
+      "prior": [
+        24
+      ]
+    },
+    {
+      "current": 25,
+      "prior": [
+        25
+      ]
+    },
+    {
+      "current": 26,
+      "prior": [
+        26
+      ]
+    },
+    {
+      "current": 27,
+      "prior": [
+        27
+      ]
+    },
+    {
+      "current": 28,
+      "prior": [
+        28
+      ]
+    },
+    {
+      "current": 30,
+      "prior": [
+        30
+      ]
+    },
+    {
+      "current": 31,
+      "prior": [
+        31
+      ]
+    },
+    {
+      "current": 32,
+      "prior": [
+        32
+      ]
+    },
+    {
+      "current": 33,
+      "prior": [
+        33
+      ]
+    },
+    {
+      "current": 34,
+      "prior": [
+        34
+      ]
+    },
+    {
+      "current": 35,
+      "prior": [
+        35
+      ]
+    },
+    {
+      "current": 36,
+      "prior": [
+        36
+      ]
+    },
+    {
+      "current": 37,
+      "prior": [
+        37
+      ]
+    },
+    {
+      "current": 38,
+      "prior": [
+        38
+      ]
+    },
+    {
+      "current": 39,
+      "prior": [
+        39
+      ]
+    },
+    {
+      "current": 40,
+      "prior": [
+        40
+      ]
+    },
+    {
+      "current": 41,
+      "prior": [
+        41
+      ]
+    },
+    {
+      "current": 42,
+      "prior": [
+        42
+      ]
+    },
+    {
+      "current": 43,
+      "prior": [
+        43
+      ]
+    },
+    {
+      "current": 44,
+      "prior": [
+        44
+      ]
+    },
+    {
+      "current": 46,
+      "prior": [
+        46
+      ]
+    },
+    {
+      "current": 47,
+      "prior": [
+        47
+      ]
+    },
+    {
+      "current": 48,
+      "prior": [
+        48
+      ]
+    },
+    {
+      "current": 49,
+      "prior": [
+        49
+      ]
+    },
+    {
+      "current": 60,
+      "prior": [
+        60
+      ]
+    },
+    {
+      "current": 61,
+      "prior": [
+        61
+      ]
+    },
+    {
+      "current": 64,
+      "prior": [
+        64
+      ]
+    },
+    {
+      "current": 65,
+      "prior": [
+        65
+      ]
+    },
+    {
+      "current": 74,
+      "prior": [
+        74
+      ]
+    },
+    {
+      "current": 76,
+      "prior": [
+        76
+      ]
+    },
+    {
+      "current": 77,
+      "prior": [
+        77
+      ]
+    },
+    {
+      "current": 89,
+      "prior": [
+        89
+      ]
+    },
+    {
+      "current": 90,
+      "prior": [
+        90
+      ]
+    },
+    {
+      "current": 91,
+      "prior": [
+        91
+      ]
+    },
+    {
+      "current": 92,
+      "prior": [
+        92
+      ]
+    },
+    {
+      "current": 93,
+      "prior": [
+        93
+      ]
+    },
+    {
+      "current": 94,
+      "prior": [
+        94
+      ]
+    },
+    {
+      "current": 95,
+      "prior": [
+        95
+      ]
+    },
+    {
+      "current": 96,
+      "prior": [
+        96
+      ]
+    },
+    {
+      "current": 97,
+      "prior": [
+        97
+      ]
+    },
+    {
+      "current": 98,
+      "prior": [
+        98
+      ]
+    },
+    {
+      "current": 99,
+      "prior": [
+        99
+      ]
+    },
+    {
+      "current": 100,
+      "prior": [
+        100
+      ]
+    },
+    {
+      "current": 101,
+      "prior": [
+        101
+      ]
+    },
+    {
+      "current": 102,
+      "prior": [
+        102
+      ]
+    },
+    {
+      "current": 103,
+      "prior": [
+        103
+      ]
+    },
+    {
+      "current": 104,
+      "prior": [
+        104
+      ]
+    },
+    {
+      "current": 105,
+      "prior": [
+        105
+      ]
+    },
+    {
+      "current": 106,
+      "prior": [
+        106
+      ]
+    },
+    {
+      "current": 107,
+      "prior": [
+        107
+      ]
+    },
+    {
+      "current": 108,
+      "prior": [
+        108
+      ]
+    },
+    {
+      "current": 109,
+      "prior": [
+        109
+      ]
+    },
+    {
+      "current": 110,
+      "prior": [
+        110
+      ]
+    },
+    {
+      "current": 111,
+      "prior": [
+        111
+      ]
+    },
+    {
+      "current": 112,
+      "prior": [
+        112
+      ]
+    },
+    {
+      "current": 113,
+      "prior": [
+        113
+      ]
+    },
+    {
+      "current": 114,
+      "prior": [
+        114
+      ]
+    },
+    {
+      "current": 115,
+      "prior": [
+        115
+      ]
+    },
+    {
+      "current": 116,
+      "prior": [
+        116
+      ]
+    },
+    {
+      "current": 117,
+      "prior": [
+        117
+      ]
+    },
+    {
+      "current": 118,
+      "prior": [
+        118
+      ]
+    },
+    {
+      "current": 119,
+      "prior": [
+        119
+      ]
+    },
+    {
+      "current": 120,
+      "prior": [
+        120
+      ]
+    },
+    {
+      "current": 121,
+      "prior": [
+        121
+      ]
+    },
+    {
+      "current": 122,
+      "prior": [
+        122
+      ]
+    },
+    {
+      "current": 123,
+      "prior": [
+        123
+      ]
+    },
+    {
+      "current": 124,
+      "prior": [
+        124
+      ]
+    },
+    {
+      "current": 125,
+      "prior": [
+        125
+      ]
+    },
+    {
+      "current": 126,
+      "prior": [
+        126
+      ]
+    },
+    {
+      "current": 128,
+      "prior": [
+        128
+      ]
+    },
+    {
+      "current": 129,
+      "prior": [
+        129
+      ]
+    },
+    {
+      "current": 130,
+      "prior": [
+        130
+      ]
+    },
+    {
+      "current": 131,
+      "prior": [
+        131
+      ]
+    },
+    {
+      "current": 132,
+      "prior": [
+        132
+      ]
+    },
+    {
+      "current": 133,
+      "prior": [
+        133
+      ]
+    },
+    {
+      "current": 134,
+      "prior": [
+        134
+      ]
+    },
+    {
+      "current": 135,
+      "prior": [
+        135
+      ]
+    },
+    {
+      "current": 136,
+      "prior": [
+        136
+      ]
+    },
+    {
+      "current": 137,
+      "prior": [
+        137
+      ]
+    },
+    {
+      "current": 138,
+      "prior": [
+        138
+      ]
+    },
+    {
+      "current": 139,
+      "prior": [
+        139
+      ]
+    },
+    {
+      "current": 141,
+      "prior": [
+        141
+      ]
+    },
+    {
+      "current": 142,
+      "prior": [
+        142
+      ]
+    },
+    {
+      "current": 143,
+      "prior": [
+        143
+      ]
+    },
+    {
+      "current": 144,
+      "prior": [
+        144
+      ]
+    },
+    {
+      "current": 145,
+      "prior": [
+        145
+      ]
+    },
+    {
+      "current": 170,
+      "prior": [
+        169
+      ]
+    },
+    {
+      "current": 171,
+      "prior": [
+        170
+      ]
+    },
+    {
+      "current": 172,
+      "prior": [
+        171
+      ]
+    },
+    {
+      "current": 173,
+      "prior": [
+        172
+      ]
+    },
+    {
+      "current": 174,
+      "prior": [
+        173
+      ]
+    },
+    {
+      "current": 175,
+      "prior": [
+        174
+      ]
+    },
+    {
+      "current": 176,
+      "prior": [
+        175
+      ]
+    }
+  ],
+  "changed_or_new_pages": [
+    1,
+    2,
+    3,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    15,
+    16,
+    17,
+    18,
+    29,
+    45,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    62,
+    63,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    75,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    127,
+    140,
+    146,
+    147,
+    148,
+    149,
+    150,
+    151,
+    152,
+    153,
+    154,
+    155,
+    156,
+    157,
+    158,
+    159,
+    160,
+    161,
+    162,
+    163,
+    164,
+    165,
+    166,
+    167,
+    168,
+    169,
+    177,
+    178,
+    179,
+    180,
+    181,
+    182,
+    183,
+    184,
+    185,
+    186,
+    187,
+    188,
+    189,
+    190,
+    191,
+    192,
+    193,
+    194,
+    195,
+    196,
+    197,
+    198
+  ]
+}

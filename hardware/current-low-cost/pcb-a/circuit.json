@@ -1,0 +1,2900 @@
+{
+  "schema_version": "1.0",
+  "revision": "A1-electrical-2026-10-12",
+  "status": "electrical definition for schematic/PCB generation; not fabricated or powered",
+  "title": "SmartBin Low-cost THT Carrier A",
+  "board": {
+    "target_size_mm": [
+      100,
+      100
+    ],
+    "layers": 2,
+    "thickness_mm": 1.6,
+    "copper_oz": 1,
+    "assembly": "manual THT using purchased parts",
+    "module_mounting": "all active modules external, labeled individual wires, no assumed commercial header order"
+  },
+  "parts": [
+    {
+      "ref": "J1",
+      "kind": "connector",
+      "value": "BAT_SW",
+      "symbol": "Connector_Generic:Conn_01x02",
+      "footprint": "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal",
+      "pins": {
+        "1": "VBAT_SW",
+        "2": "GND"
+      },
+      "pin_names": {
+        "1": "VBAT_SW",
+        "2": "GND"
+      },
+      "group": "power",
+      "notes": "电池保护板输出正极经外置保险座和总开关后进入1脚；2脚为电池负极。禁止接未经保险的裸电池。",
+      "dnp": false,
+      "connector_type": "THT screw terminal 2P 5.08mm",
+      "high_current": true
+    },
+    {
+      "ref": "J2",
+      "kind": "connector",
+      "value": "BUCK_IN",
+      "symbol": "Connector_Generic:Conn_01x02",
+      "footprint": "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal",
+      "pins": {
+        "1": "VBAT_SW",
+        "2": "GND"
+      },
+      "pin_names": {
+        "1": "VBAT_SW",
+        "2": "GND"
+      },
+      "group": "power",
+      "notes": "外置非隔离5V降压输入；20AWG短线。",
+      "dnp": false,
+      "connector_type": "THT screw terminal 2P 5.08mm",
+      "high_current": true
+    },
+    {
+      "ref": "J3",
+      "kind": "connector",
+      "value": "BUCK_OUT",
+      "symbol": "Connector_Generic:Conn_01x02",
+      "footprint": "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal",
+      "pins": {
+        "1": "5V_BUS",
+        "2": "GND"
+      },
+      "pin_names": {
+        "1": "5V_BUS",
+        "2": "GND"
+      },
+      "group": "power",
+      "notes": "外置降压输出，接入板上星形中心。电池满电8.4V不能接此口。",
+      "dnp": false,
+      "connector_type": "THT screw terminal 2P 5.08mm",
+      "high_current": true
+    },
+    {
+      "ref": "J4",
+      "kind": "connector",
+      "value": "MOTOR_PWR",
+      "symbol": "Connector_Generic:Conn_01x02",
+      "footprint": "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal",
+      "pins": {
+        "1": "5V_BUS",
+        "2": "GND"
+      },
+      "pin_names": {
+        "1": "5V_BUS",
+        "2": "GND"
+      },
+      "group": "power",
+      "notes": "电机主电流支路；22AWG短线，长线/偏大电流用20AWG。",
+      "dnp": false,
+      "connector_type": "THT screw terminal 2P 5.08mm",
+      "high_current": true
+    },
+    {
+      "ref": "J5",
+      "kind": "connector",
+      "value": "SERVO_PWR",
+      "symbol": "Connector_Generic:Conn_01x02",
+      "footprint": "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal",
+      "pins": {
+        "1": "5V_BUS",
+        "2": "GND"
+      },
+      "pin_names": {
+        "1": "5V_BUS",
+        "2": "GND"
+      },
+      "group": "power",
+      "notes": "舵机主电流仅走本支路；原3芯舵机延长线在配电处分离电源与信号。",
+      "dnp": false,
+      "connector_type": "THT screw terminal 2P 5.08mm",
+      "high_current": true
+    },
+    {
+      "ref": "J6",
+      "kind": "connector",
+      "value": "LOGIC_PWR",
+      "symbol": "Connector_Generic:Conn_01x02",
+      "footprint": "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal",
+      "pins": {
+        "1": "5V_BUS",
+        "2": "GND"
+      },
+      "pin_names": {
+        "1": "5V_BUS",
+        "2": "GND"
+      },
+      "group": "power",
+      "notes": "逻辑5V支路；可给DFPlayer和3.3V稳压输入等可靠分线，不把多根线强塞一只端子。",
+      "dnp": false,
+      "connector_type": "THT screw terminal 2P 5.08mm",
+      "high_current": true
+    },
+    {
+      "ref": "C1",
+      "kind": "electrolytic",
+      "value": "470uF/16V",
+      "symbol": "Device:C_Polarized",
+      "footprint": "Capacitor_THT:CP_Radial_D12.5mm_P5.00mm",
+      "pins": {
+        "1": "5V_BUS",
+        "2": "GND"
+      },
+      "pin_names": {
+        "1": "+",
+        "2": "-"
+      },
+      "group": "power",
+      "notes": "靠近J4；若驱动距板较远，驱动VM端仍补就地电容。",
+      "dnp": false,
+      "original_ref": "PWR:CP1",
+      "voltage_rating_V": 16
+    },
+    {
+      "ref": "C2",
+      "kind": "electrolytic",
+      "value": "1000uF/16V",
+      "symbol": "Device:C_Polarized",
+      "footprint": "Capacitor_THT:CP_Radial_D12.5mm_P5.00mm",
+      "pins": {
+        "1": "5V_BUS",
+        "2": "GND"
+      },
+      "pin_names": {
+        "1": "+",
+        "2": "-"
+      },
+      "group": "power",
+      "notes": "靠近J5；尺寸暂按直径12.5mm、脚距5mm预留，实物不匹配时短绝缘飞线并机械固定。",
+      "dnp": false,
+      "original_ref": "PWR:CP2",
+      "voltage_rating_V": 16
+    },
+    {
+      "ref": "C3",
+      "kind": "electrolytic",
+      "value": "100uF/16V",
+      "symbol": "Device:C_Polarized",
+      "footprint": "Capacitor_THT:CP_Radial_D12.5mm_P5.00mm",
+      "pins": {
+        "1": "5V_BUS",
+        "2": "GND"
+      },
+      "pin_names": {
+        "1": "+",
+        "2": "-"
+      },
+      "group": "power",
+      "notes": "靠近J6逻辑支路；DFPlayer模块附近仍需其本地100uF。",
+      "dnp": false,
+      "original_ref": "PWR:CP3",
+      "voltage_rating_V": 16
+    },
+    {
+      "ref": "C4",
+      "kind": "capacitor",
+      "value": "100nF",
+      "symbol": "Device:C",
+      "footprint": "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm",
+      "pins": {
+        "1": "5V_BUS",
+        "2": "GND"
+      },
+      "pin_names": {
+        "1": "1",
+        "2": "2"
+      },
+      "group": "power",
+      "notes": "对应J4支路去耦；实物瓷片脚距按实测核对。",
+      "dnp": false,
+      "original_ref": "PWR:CP4",
+      "voltage_rating_V": 25
+    },
+    {
+      "ref": "C5",
+      "kind": "capacitor",
+      "value": "100nF",
+      "symbol": "Device:C",
+      "footprint": "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm",
+      "pins": {
+        "1": "5V_BUS",
+        "2": "GND"
+      },
+      "pin_names": {
+        "1": "1",
+        "2": "2"
+      },
+      "group": "power",
+      "notes": "对应J5支路去耦；实物瓷片脚距按实测核对。",
+      "dnp": false,
+      "original_ref": "PWR:CP5",
+      "voltage_rating_V": 25
+    },
+    {
+      "ref": "C6",
+      "kind": "capacitor",
+      "value": "100nF",
+      "symbol": "Device:C",
+      "footprint": "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm",
+      "pins": {
+        "1": "5V_BUS",
+        "2": "GND"
+      },
+      "pin_names": {
+        "1": "1",
+        "2": "2"
+      },
+      "group": "power",
+      "notes": "对应J6支路去耦；实物瓷片脚距按实测核对。",
+      "dnp": false,
+      "original_ref": "PWR:CP6",
+      "voltage_rating_V": 25
+    },
+    {
+      "ref": "R1",
+      "kind": "resistor",
+      "value": "33k",
+      "symbol": "Device:R",
+      "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",
+      "pins": {
+        "1": "VBAT_SW",
+        "2": "BAT_ADC_DIV"
+      },
+      "pin_names": {},
+      "group": "adc",
+      "notes": "1%；与R2构成分压，8.4V约1.953V。",
+      "dnp": false,
+      "original_ref": "PWR:RP1",
+      "power_rating_W": 0.25,
+      "tolerance": "1%"
+    },
+    {
+      "ref": "R2",
+      "kind": "resistor",
+      "value": "10k",
+      "symbol": "Device:R",
+      "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",
+      "pins": {
+        "1": "BAT_ADC_DIV",
+        "2": "GND"
+      },
+      "pin_names": {},
+      "group": "adc",
+      "notes": "1%；ADC分压下臂。",
+      "dnp": false,
+      "original_ref": "PWR:RP2",
+      "power_rating_W": 0.25,
+      "tolerance": "1%"
+    },
+    {
+      "ref": "C7",
+      "kind": "capacitor",
+      "value": "100nF",
+      "symbol": "Device:C",
+      "footprint": "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm",
+      "pins": {
+        "1": "BAT_ADC_DIV",
+        "2": "GND"
+      },
+      "pin_names": {
+        "1": "1",
+        "2": "2"
+      },
+      "group": "adc",
+      "notes": "靠近R1/R2与JP9；ADC慢信号滤波。",
+      "dnp": false,
+      "original_ref": "PWR:CP7",
+      "voltage_rating_V": 25
+    },
+    {
+      "ref": "R3",
+      "kind": "resistor",
+      "value": "100",
+      "symbol": "Device:R",
+      "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",
+      "pins": {
+        "1": "MCP_GPA5",
+        "2": "LED_GATE"
+      },
+      "pin_names": {},
+      "group": "led",
+      "notes": "栅极串联，不可拿来作为LED限流。",
+      "dnp": false,
+      "original_ref": "PWR:RP3",
+      "power_rating_W": 0.25,
+      "tolerance": "5% or better"
+    },
+    {
+      "ref": "R4",
+      "kind": "resistor",
+      "value": "100k",
+      "symbol": "Device:R",
+      "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",
+      "pins": {
+        "1": "LED_GATE",
+        "2": "GND"
+      },
+      "pin_names": {},
+      "group": "led",
+      "notes": "G-S默认下拉，复位关灯。",
+      "dnp": false,
+      "original_ref": "PWR:RP4",
+      "power_rating_W": 0.25,
+      "tolerance": "5% or better"
+    },
+    {
+      "ref": "R5",
+      "kind": "resistor",
+      "value": "220",
+      "symbol": "Device:R",
+      "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",
+      "pins": {
+        "1": "5V_BUS",
+        "2": "LED_POS"
+      },
+      "pin_names": {},
+      "group": "led",
+      "notes": "仅适用本方案单颗小功率白LED，目标几mA至约10mA。",
+      "dnp": false,
+      "original_ref": "PWR:RP5",
+      "power_rating_W": 0.25,
+      "tolerance": "5% or better"
+    },
+    {
+      "ref": "U1",
+      "kind": "logic",
+      "value": "SN74AHCT125N",
+      "symbol": "74xx:74AHCT125",
+      "footprint": "Package_DIP:DIP-14_W7.62mm_Socket",
+      "pins": {
+        "1": "GND",
+        "2": "PA0",
+        "3": "SERVO_SIG_5V",
+        "4": "GND",
+        "5": "PB15",
+        "6": "US_TRIG_5V",
+        "7": "GND",
+        "8": "BUZZ_5V",
+        "9": "PB9",
+        "10": "GND",
+        "11": null,
+        "12": "GND",
+        "13": "5V_BUS",
+        "14": "5V_BUS"
+      },
+      "pin_names": {
+        "1": "/OE1",
+        "2": "A1",
+        "3": "Y1",
+        "4": "/OE2",
+        "5": "A2",
+        "6": "Y2",
+        "7": "GND",
+        "8": "Y3",
+        "9": "A3",
+        "10": "/OE3",
+        "11": "Y4_NC",
+        "12": "A4",
+        "13": "/OE4",
+        "14": "VCC"
+      },
+      "group": "ahct",
+      "notes": "DIP14+7.62mm芯片座；N为PDIP。第3通道永久使能，输入PB9有默认偏置，输出通过JP3选择；第4通道固定禁用，11脚不接。不得替换成74HC125。",
+      "dnp": false,
+      "original_ref": "IO:U1"
+    },
+    {
+      "ref": "C8",
+      "kind": "capacitor",
+      "value": "100nF",
+      "symbol": "Device:C",
+      "footprint": "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm",
+      "pins": {
+        "1": "5V_BUS",
+        "2": "GND"
+      },
+      "pin_names": {
+        "1": "1",
+        "2": "2"
+      },
+      "group": "ahct",
+      "notes": "紧邻U1第14/7脚，尽量短回路。",
+      "dnp": false,
+      "original_ref": "IO:C1",
+      "voltage_rating_V": 25
+    },
+    {
+      "ref": "R6",
+      "kind": "resistor",
+      "value": "10k",
+      "symbol": "Device:R",
+      "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",
+      "pins": {
+        "1": "PA0",
+        "2": "GND"
+      },
+      "pin_names": {},
+      "group": "ahct",
+      "notes": "上电PWM输入下拉。",
+      "dnp": false,
+      "original_ref": "IO:R1",
+      "power_rating_W": 0.25,
+      "tolerance": "5% or better"
+    },
+    {
+      "ref": "R7",
+      "kind": "resistor",
+      "value": "10k",
+      "symbol": "Device:R",
+      "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",
+      "pins": {
+        "1": "PB15",
+        "2": "GND"
+      },
+      "pin_names": {},
+      "group": "ahct",
+      "notes": "上电TRIG输入下拉。",
+      "dnp": false,
+      "original_ref": "IO:R2",
+      "power_rating_W": 0.25,
+      "tolerance": "5% or better"
+    },
+    {
+      "ref": "R8",
+      "kind": "resistor",
+      "value": "4.7k",
+      "symbol": "Device:R",
+      "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",
+      "pins": {
+        "1": "I2C_SCL",
+        "2": "3V3_EXT"
+      },
+      "pin_names": {},
+      "group": "i2c",
+      "notes": "条件上拉：只保留合适的等效上拉；模块已带上拉时核算并可DNP。",
+      "dnp": true,
+      "original_ref": "IO:R3",
+      "power_rating_W": 0.25,
+      "tolerance": "5% or better"
+    },
+    {
+      "ref": "R9",
+      "kind": "resistor",
+      "value": "4.7k",
+      "symbol": "Device:R",
+      "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",
+      "pins": {
+        "1": "I2C_SDA",
+        "2": "3V3_EXT"
+      },
+      "pin_names": {},
+      "group": "i2c",
+      "notes": "条件上拉：两总线空闲电压只能为3V3_EXT，不允许5V上拉。",
+      "dnp": true,
+      "original_ref": "IO:R4",
+      "power_rating_W": 0.25,
+      "tolerance": "5% or better"
+    },
+    {
+      "ref": "R10",
+      "kind": "resistor",
+      "value": "10k",
+      "symbol": "Device:R",
+      "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",
+      "pins": {
+        "1": "MCP_RESET_N",
+        "2": "3V3_EXT"
+      },
+      "pin_names": {},
+      "group": "i2c",
+      "notes": "模块已有复位上拉时可以DNP；不可连接核心NRST。",
+      "dnp": false,
+      "original_ref": "IO:R5",
+      "power_rating_W": 0.25,
+      "tolerance": "5% or better"
+    },
+    {
+      "ref": "R11",
+      "kind": "resistor",
+      "value": "10k",
+      "symbol": "Device:R",
+      "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",
+      "pins": {
+        "1": "PA4",
+        "2": "3V3_EXT"
+      },
+      "pin_names": {},
+      "group": "spi",
+      "notes": "RC522 CS默认高；同轨已有适宜上拉时可以DNP。",
+      "dnp": false,
+      "original_ref": "IO:R6",
+      "power_rating_W": 0.25,
+      "tolerance": "5% or better"
+    },
+    {
+      "ref": "R12",
+      "kind": "resistor",
+      "value": "10k",
+      "symbol": "Device:R",
+      "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",
+      "pins": {
+        "1": "PA15",
+        "2": "3V3_EXT"
+      },
+      "pin_names": {},
+      "group": "spi",
+      "notes": "FLASH CS默认高；同轨已有适宜上拉时可以DNP。",
+      "dnp": false,
+      "original_ref": "IO:R7",
+      "power_rating_W": 0.25,
+      "tolerance": "5% or better"
+    },
+    {
+      "ref": "R13",
+      "kind": "resistor",
+      "value": "10k",
+      "symbol": "Device:R",
+      "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",
+      "pins": {
+        "1": "FLASH_WP_N",
+        "2": "3V3_EXT"
+      },
+      "pin_names": {},
+      "group": "spi",
+      "notes": "仅FLASH有对应外露脚且模块没有同轨上拉时安装；4/6针模块可以不接该引脚。",
+      "dnp": true,
+      "original_ref": "IO:R8",
+      "power_rating_W": 0.25,
+      "tolerance": "5% or better"
+    },
+    {
+      "ref": "R14",
+      "kind": "resistor",
+      "value": "10k",
+      "symbol": "Device:R",
+      "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",
+      "pins": {
+        "1": "FLASH_HOLD_N",
+        "2": "3V3_EXT"
+      },
+      "pin_names": {},
+      "group": "spi",
+      "notes": "仅FLASH有对应外露脚且模块没有同轨上拉时安装；具体/WP、/HOLD或IO2/IO3按芯片资料。",
+      "dnp": true,
+      "original_ref": "IO:R9",
+      "power_rating_W": 0.25,
+      "tolerance": "5% or better"
+    },
+    {
+      "ref": "R15",
+      "kind": "resistor",
+      "value": "4.7k",
+      "symbol": "Device:R",
+      "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",
+      "pins": {
+        "1": "ESTOP_NC1_RETURN",
+        "2": "ES1_BASE"
+      },
+      "pin_names": {},
+      "group": "estop",
+      "notes": "原3管急停；6.0V时接点电流约1.13mA。",
+      "dnp": false,
+      "original_ref": "IO:R10",
+      "power_rating_W": 0.25,
+      "tolerance": "5% or better"
+    },
+    {
+      "ref": "R16",
+      "kind": "resistor",
+      "value": "100k",
+      "symbol": "Device:R",
+      "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",
+      "pins": {
+        "1": "ES1_BASE",
+        "2": "GND"
+      },
+      "pin_names": {},
+      "group": "estop",
+      "notes": "",
+      "dnp": false,
+      "original_ref": "IO:R11",
+      "power_rating_W": 0.25,
+      "tolerance": "5% or better"
+    },
+    {
+      "ref": "R17",
+      "kind": "resistor",
+      "value": "4.7k",
+      "symbol": "Device:R",
+      "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",
+      "pins": {
+        "1": "ESTOP_NC2_RETURN",
+        "2": "ES2_BASE"
+      },
+      "pin_names": {},
+      "group": "estop",
+      "notes": "双NC彼此独立，一路门控，一路状态。",
+      "dnp": false,
+      "original_ref": "IO:R12",
+      "power_rating_W": 0.25,
+      "tolerance": "5% or better"
+    },
+    {
+      "ref": "R18",
+      "kind": "resistor",
+      "value": "100k",
+      "symbol": "Device:R",
+      "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",
+      "pins": {
+        "1": "ES2_BASE",
+        "2": "GND"
+      },
+      "pin_names": {},
+      "group": "estop",
+      "notes": "",
+      "dnp": false,
+      "original_ref": "IO:R13",
+      "power_rating_W": 0.25,
+      "tolerance": "5% or better"
+    },
+    {
+      "ref": "R19",
+      "kind": "resistor",
+      "value": "4.7k",
+      "symbol": "Device:R",
+      "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",
+      "pins": {
+        "1": "3V3_EXT",
+        "2": "KILL_BASE"
+      },
+      "pin_names": {},
+      "group": "estop",
+      "notes": "EXT有效且NC1断开时使Q2导通；EXT掉电时不能声称仍有完整硬件急停保证。",
+      "dnp": false,
+      "original_ref": "IO:R14",
+      "power_rating_W": 0.25,
+      "tolerance": "5% or better"
+    },
+    {
+      "ref": "R20",
+      "kind": "resistor",
+      "value": "100k",
+      "symbol": "Device:R",
+      "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",
+      "pins": {
+        "1": "KILL_BASE",
+        "2": "GND"
+      },
+      "pin_names": {},
+      "group": "estop",
+      "notes": "",
+      "dnp": false,
+      "original_ref": "IO:R15",
+      "power_rating_W": 0.25,
+      "tolerance": "5% or better"
+    },
+    {
+      "ref": "R21",
+      "kind": "resistor",
+      "value": "1k",
+      "symbol": "Device:R",
+      "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",
+      "pins": {
+        "1": "PB5",
+        "2": "STBY_OUT"
+      },
+      "pin_names": {},
+      "group": "estop",
+      "notes": "限制PB5高而Q2钳低时电流；不得再以导线跨过该电阻。",
+      "dnp": false,
+      "original_ref": "IO:R16",
+      "power_rating_W": 0.25,
+      "tolerance": "5% or better"
+    },
+    {
+      "ref": "R22",
+      "kind": "resistor",
+      "value": "10k",
+      "symbol": "Device:R",
+      "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",
+      "pins": {
+        "1": "PB5",
+        "2": "GND"
+      },
+      "pin_names": {},
+      "group": "estop",
+      "notes": "",
+      "dnp": false,
+      "original_ref": "IO:R17",
+      "power_rating_W": 0.25,
+      "tolerance": "5% or better"
+    },
+    {
+      "ref": "R23",
+      "kind": "resistor",
+      "value": "10k",
+      "symbol": "Device:R",
+      "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",
+      "pins": {
+        "1": "STBY_OUT",
+        "2": "GND"
+      },
+      "pin_names": {},
+      "group": "estop",
+      "notes": "",
+      "dnp": false,
+      "original_ref": "IO:R18",
+      "power_rating_W": 0.25,
+      "tolerance": "5% or better"
+    },
+    {
+      "ref": "R24",
+      "kind": "resistor",
+      "value": "10k",
+      "symbol": "Device:R",
+      "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",
+      "pins": {
+        "1": "PB13",
+        "2": "3V3_CORE"
+      },
+      "pin_names": {},
+      "group": "estop",
+      "notes": "急停反馈上拉只用CORE；正常0，按下或NC2断线1。",
+      "dnp": false,
+      "original_ref": "IO:R19",
+      "power_rating_W": 0.25,
+      "tolerance": "5% or better"
+    },
+    {
+      "ref": "R25",
+      "kind": "resistor",
+      "value": "12k",
+      "symbol": "Device:R",
+      "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",
+      "pins": {
+        "1": "US_ECHO_RAW",
+        "2": "PB1"
+      },
+      "pin_names": {},
+      "group": "ultrasonic",
+      "notes": "ECHO分压上臂，建议1%；不是12k到地。",
+      "dnp": false,
+      "original_ref": "IO:R20",
+      "power_rating_W": 0.25,
+      "tolerance": "1%"
+    },
+    {
+      "ref": "R26",
+      "kind": "resistor",
+      "value": "20k",
+      "symbol": "Device:R",
+      "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",
+      "pins": {
+        "1": "PB1",
+        "2": "GND"
+      },
+      "pin_names": {},
+      "group": "ultrasonic",
+      "notes": "ECHO分压下臂，建议1%；5.0V输入约3.125V。",
+      "dnp": false,
+      "original_ref": "IO:R21",
+      "power_rating_W": 0.25,
+      "tolerance": "1%"
+    },
+    {
+      "ref": "R27",
+      "kind": "resistor",
+      "value": "10k",
+      "symbol": "Device:R",
+      "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",
+      "pins": {
+        "1": "PB3",
+        "2": "3V3_CORE"
+      },
+      "pin_names": {},
+      "group": "encoder",
+      "notes": "与模块已有EXT上拉二选一；若保留EXT上拉，本电阻DNP，避免两稳压轨经两上拉相连。",
+      "dnp": true,
+      "original_ref": "IO:R22",
+      "power_rating_W": 0.25,
+      "tolerance": "5% or better"
+    },
+    {
+      "ref": "R28",
+      "kind": "resistor",
+      "value": "10k",
+      "symbol": "Device:R",
+      "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",
+      "pins": {
+        "1": "PB4",
+        "2": "3V3_CORE"
+      },
+      "pin_names": {},
+      "group": "encoder",
+      "notes": "与R27相同；不能只改其中一根编码相。",
+      "dnp": true,
+      "original_ref": "IO:R23",
+      "power_rating_W": 0.25,
+      "tolerance": "5% or better"
+    },
+    {
+      "ref": "R29",
+      "kind": "resistor",
+      "value": "4.7k",
+      "symbol": "Device:R",
+      "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",
+      "pins": {
+        "1": "PB11",
+        "2": "3V3_EXT"
+      },
+      "pin_names": {},
+      "group": "dht",
+      "notes": "DHT低压侧开漏上拉；模块/BSS138已有合适同轨上拉时DNP。",
+      "dnp": true,
+      "original_ref": "IO:R24",
+      "power_rating_W": 0.25,
+      "tolerance": "5% or better"
+    },
+    {
+      "ref": "R30",
+      "kind": "resistor",
+      "value": "1k",
+      "symbol": "Device:R",
+      "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",
+      "pins": {
+        "1": "PB10",
+        "2": "DF_RX"
+      },
+      "pin_names": {},
+      "group": "voice",
+      "notes": "仅USART3 TX，模块TX不接PB11。",
+      "dnp": false,
+      "original_ref": "IO:R25",
+      "power_rating_W": 0.25,
+      "tolerance": "5% or better"
+    },
+    {
+      "ref": "R31",
+      "kind": "resistor",
+      "value": "10k",
+      "symbol": "Device:R",
+      "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",
+      "pins": {
+        "1": "PB12",
+        "2": "3V3_CORE"
+      },
+      "pin_names": {},
+      "group": "switches",
+      "notes": "碰撞两NC串联接地；任一个断开为高。",
+      "dnp": false,
+      "original_ref": "IO:R26",
+      "power_rating_W": 0.25,
+      "tolerance": "5% or better"
+    },
+    {
+      "ref": "R32",
+      "kind": "resistor",
+      "value": "10k",
+      "symbol": "Device:R",
+      "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",
+      "pins": {
+        "1": "PB14",
+        "2": "3V3_CORE"
+      },
+      "pin_names": {},
+      "group": "switches",
+      "notes": "闭盖NO接地，闭盖=0；未闭合/断线=1。",
+      "dnp": false,
+      "original_ref": "IO:R27",
+      "power_rating_W": 0.25,
+      "tolerance": "5% or better"
+    },
+    {
+      "ref": "Q1",
+      "kind": "npn",
+      "value": "2N3904",
+      "symbol": "Transistor_BJT:2N3904",
+      "footprint": "Package_TO_SOT_THT:TO-92_Inline_Wide",
+      "pins": {
+        "1": "GND",
+        "2": "ES1_BASE",
+        "3": "KILL_BASE"
+      },
+      "pin_names": {
+        "1": "E",
+        "2": "B",
+        "3": "C"
+      },
+      "group": "estop",
+      "notes": "按onsemi 2N3904 Rev3 TO-92资料定义1=E,2=B,3=C；已购其它品牌必须核数据手册/实测，不按外壳平面猜脚。",
+      "dnp": false,
+      "original_ref": "IO:Q1"
+    },
+    {
+      "ref": "Q2",
+      "kind": "npn",
+      "value": "2N3904",
+      "symbol": "Transistor_BJT:2N3904",
+      "footprint": "Package_TO_SOT_THT:TO-92_Inline_Wide",
+      "pins": {
+        "1": "GND",
+        "2": "KILL_BASE",
+        "3": "STBY_OUT"
+      },
+      "pin_names": {
+        "1": "E",
+        "2": "B",
+        "3": "C"
+      },
+      "group": "estop",
+      "notes": "按onsemi 2N3904 Rev3 TO-92资料定义1=E,2=B,3=C；已购其它品牌必须核数据手册/实测，不按外壳平面猜脚。",
+      "dnp": false,
+      "original_ref": "IO:Q2"
+    },
+    {
+      "ref": "Q3",
+      "kind": "npn",
+      "value": "2N3904",
+      "symbol": "Transistor_BJT:2N3904",
+      "footprint": "Package_TO_SOT_THT:TO-92_Inline_Wide",
+      "pins": {
+        "1": "GND",
+        "2": "ES2_BASE",
+        "3": "PB13"
+      },
+      "pin_names": {
+        "1": "E",
+        "2": "B",
+        "3": "C"
+      },
+      "group": "estop",
+      "notes": "按onsemi 2N3904 Rev3 TO-92资料定义1=E,2=B,3=C；已购其它品牌必须核数据手册/实测，不按外壳平面猜脚。",
+      "dnp": false,
+      "original_ref": "IO:Q3"
+    },
+    {
+      "ref": "R33",
+      "kind": "resistor",
+      "value": "10k",
+      "symbol": "Device:R",
+      "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",
+      "pins": {
+        "1": "MCP_GPB4",
+        "2": "3V3_EXT"
+      },
+      "pin_names": {},
+      "group": "encoder",
+      "notes": "编码器SW外部上拉；模块已有同轨上拉或已验证MCP内部上拉时DNP。",
+      "dnp": true,
+      "original_ref": "",
+      "power_rating_W": 0.25,
+      "tolerance": "5% or better"
+    },
+    {
+      "ref": "R34",
+      "kind": "resistor",
+      "value": "10k",
+      "symbol": "Device:R",
+      "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",
+      "pins": {
+        "1": "MCP_GPB5",
+        "2": "3V3_EXT"
+      },
+      "pin_names": {},
+      "group": "switches",
+      "notes": "MODE低有效；推荐安装，已验证内部上拉时可DNP。",
+      "dnp": false,
+      "original_ref": "",
+      "power_rating_W": 0.25,
+      "tolerance": "5% or better"
+    },
+    {
+      "ref": "R35",
+      "kind": "resistor",
+      "value": "10k",
+      "symbol": "Device:R",
+      "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",
+      "pins": {
+        "1": "MCP_GPB6",
+        "2": "3V3_EXT"
+      },
+      "pin_names": {},
+      "group": "switches",
+      "notes": "BACK低有效；推荐安装，已验证内部上拉时可DNP。",
+      "dnp": false,
+      "original_ref": "",
+      "power_rating_W": 0.25,
+      "tolerance": "5% or better"
+    },
+    {
+      "ref": "R36",
+      "kind": "resistor",
+      "value": "10k",
+      "symbol": "Device:R",
+      "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",
+      "pins": {
+        "1": "PB9",
+        "2": "GND"
+      },
+      "pin_names": {},
+      "group": "buzzer",
+      "notes": "默认安装使AHCT输入确定；高有效蜂鸣保留。低有效模块先拆R36再装R37，不能两者均不装后运行。",
+      "dnp": false,
+      "original_ref": "",
+      "power_rating_W": 0.25,
+      "tolerance": "5% or better"
+    },
+    {
+      "ref": "R37",
+      "kind": "resistor",
+      "value": "10k",
+      "symbol": "Device:R",
+      "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",
+      "pins": {
+        "1": "PB9",
+        "2": "3V3_CORE"
+      },
+      "pin_names": {},
+      "group": "buzzer",
+      "notes": "低有效蜂鸣模块选择本上拉，R36必须DNP；绝不可上拉5V。",
+      "dnp": true,
+      "original_ref": "",
+      "power_rating_W": 0.25,
+      "tolerance": "5% or better"
+    },
+    {
+      "ref": "J7",
+      "kind": "connector",
+      "value": "EXT_REG",
+      "symbol": "Connector_Generic:Conn_01x03",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical",
+      "pins": {
+        "1": "5V_BUS",
+        "2": "GND",
+        "3": "3V3_EXT"
+      },
+      "pin_names": {
+        "1": "5V_BUS",
+        "2": "GND",
+        "3": "3V3_EXT"
+      },
+      "group": "power",
+      "notes": "外置3.3V稳压模块低电流接口；确认额定输出及GND；本口3脚是模块输出进入本板，不是核心3V3。",
+      "dnp": false,
+      "connector_type": "custom 1x3 2.54mm signal header",
+      "high_current": false
+    },
+    {
+      "ref": "J8",
+      "kind": "connector",
+      "value": "CORE_PA",
+      "symbol": "Connector_Generic:Conn_01x17",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x17_P2.54mm_Vertical",
+      "pins": {
+        "1": "5V_BUS",
+        "2": "GND",
+        "3": "3V3_CORE",
+        "4": "PA0",
+        "5": "PA1",
+        "6": "PA2",
+        "7": "PA3",
+        "8": "PA4",
+        "9": "PA5",
+        "10": "PA6",
+        "11": "PA7",
+        "12": "PA8",
+        "13": "PA9",
+        "14": "PA10",
+        "15": "PA11",
+        "16": "PA12",
+        "17": "PA15"
+      },
+      "pin_names": {
+        "1": "5V_BUS",
+        "2": "GND",
+        "3": "3V3_CORE",
+        "4": "PA0",
+        "5": "PA1",
+        "6": "PA2",
+        "7": "PA3",
+        "8": "PA4",
+        "9": "PA5",
+        "10": "PA6",
+        "11": "PA7",
+        "12": "PA8",
+        "13": "PA9",
+        "14": "PA10",
+        "15": "PA11",
+        "16": "PA12",
+        "17": "PA15"
+      },
+      "group": "core",
+      "notes": "自定义17针线束；按核心丝印逐线连接，不能整排直插；正常系统核心由本板1脚供5V，禁止同时插核心USB；若做独立USB台架，先断本板电源并拔下与核心相连的全部线束，再另行测试。",
+      "dnp": false,
+      "connector_type": "custom 1x17 2.54mm signal header",
+      "high_current": false
+    },
+    {
+      "ref": "J9",
+      "kind": "connector",
+      "value": "CORE_PB",
+      "symbol": "Connector_Generic:Conn_01x16",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x16_P2.54mm_Vertical",
+      "pins": {
+        "1": "GND",
+        "2": "PB0",
+        "3": "PB1",
+        "4": "PB3",
+        "5": "PB4",
+        "6": "PB5",
+        "7": "I2C_SCL",
+        "8": "I2C_SDA",
+        "9": "PB8",
+        "10": "PB9",
+        "11": "PB10",
+        "12": "PB11",
+        "13": "PB12",
+        "14": "PB13",
+        "15": "PB14",
+        "16": "PB15"
+      },
+      "pin_names": {
+        "1": "GND",
+        "2": "PB0",
+        "3": "PB1",
+        "4": "PB3",
+        "5": "PB4",
+        "6": "PB5",
+        "7": "PB6",
+        "8": "PB7",
+        "9": "PB8",
+        "10": "PB9",
+        "11": "PB10",
+        "12": "PB11",
+        "13": "PB12",
+        "14": "PB13",
+        "15": "PB14",
+        "16": "PB15"
+      },
+      "group": "core",
+      "notes": "自定义16针线束；PB2/BOOT1不接；PA13/PA14在核心直接接SWD并始终保留。",
+      "dnp": false,
+      "connector_type": "custom 1x16 2.54mm signal header",
+      "high_current": false
+    },
+    {
+      "ref": "J10",
+      "kind": "connector",
+      "value": "MCP_BUS",
+      "symbol": "Connector_Generic:Conn_01x05",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical",
+      "pins": {
+        "1": "3V3_EXT",
+        "2": "GND",
+        "3": "I2C_SCL",
+        "4": "I2C_SDA",
+        "5": "MCP_RESET_N"
+      },
+      "pin_names": {
+        "1": "3V3_EXT",
+        "2": "GND",
+        "3": "I2C_SCL",
+        "4": "I2C_SDA",
+        "5": "MCP_RESET_N"
+      },
+      "group": "i2c",
+      "notes": "成品MCP23017模块五线；A0/A1/A2在模块侧接地；INTA/INTB不用；RESET不接核心NRST。",
+      "dnp": false,
+      "connector_type": "custom 1x5 2.54mm signal header",
+      "high_current": false
+    },
+    {
+      "ref": "J11",
+      "kind": "connector",
+      "value": "MCP_A",
+      "symbol": "Connector_Generic:Conn_01x07",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical",
+      "pins": {
+        "1": "MCP_GPA0",
+        "2": "MCP_GPA1",
+        "3": "MCP_GPA2",
+        "4": "MCP_GPA3",
+        "5": "MCP_GPA4",
+        "6": "MCP_GPA5",
+        "7": "MCP_GPA6"
+      },
+      "pin_names": {
+        "1": "MCP_GPA0",
+        "2": "MCP_GPA1",
+        "3": "MCP_GPA2",
+        "4": "MCP_GPA3",
+        "5": "MCP_GPA4",
+        "6": "MCP_GPA5",
+        "7": "MCP_GPA6"
+      },
+      "group": "mcp",
+      "notes": "逐线接模块GPA0至GPA6；GPA7不外接、软件设输出0。",
+      "dnp": false,
+      "connector_type": "custom 1x7 2.54mm signal header",
+      "high_current": false
+    },
+    {
+      "ref": "J12",
+      "kind": "connector",
+      "value": "MCP_B",
+      "symbol": "Connector_Generic:Conn_01x07",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical",
+      "pins": {
+        "1": "MCP_GPB0",
+        "2": "MCP_GPB1",
+        "3": "MCP_GPB2",
+        "4": "MCP_GPB3",
+        "5": "MCP_GPB4",
+        "6": "MCP_GPB5",
+        "7": "MCP_GPB6"
+      },
+      "pin_names": {
+        "1": "MCP_GPB0",
+        "2": "MCP_GPB1",
+        "3": "MCP_GPB2",
+        "4": "MCP_GPB3",
+        "5": "MCP_GPB4",
+        "6": "MCP_GPB5",
+        "7": "MCP_GPB6"
+      },
+      "group": "mcp",
+      "notes": "逐线接模块GPB0至GPB6；GPB7不外接、软件设输出0。",
+      "dnp": false,
+      "connector_type": "custom 1x7 2.54mm signal header",
+      "high_current": false
+    },
+    {
+      "ref": "J13",
+      "kind": "connector",
+      "value": "OLED",
+      "symbol": "Connector_Generic:Conn_01x04",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical",
+      "pins": {
+        "1": "3V3_EXT",
+        "2": "GND",
+        "3": "I2C_SCL",
+        "4": "I2C_SDA"
+      },
+      "pin_names": {
+        "1": "3V3_EXT",
+        "2": "GND",
+        "3": "I2C_SCL",
+        "4": "I2C_SDA"
+      },
+      "group": "i2c",
+      "notes": "仅用于已确认3.3V供电I2C OLED；I2C拉3V3_EXT。",
+      "dnp": false,
+      "connector_type": "custom 1x4 2.54mm signal header",
+      "high_current": false
+    },
+    {
+      "ref": "J14",
+      "kind": "connector",
+      "value": "MPU6050",
+      "symbol": "Connector_Generic:Conn_01x04",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical",
+      "pins": {
+        "1": "V_MPU",
+        "2": "GND",
+        "3": "I2C_SCL",
+        "4": "I2C_SDA"
+      },
+      "pin_names": {
+        "1": "V_MPU",
+        "2": "GND",
+        "3": "I2C_SCL",
+        "4": "I2C_SDA"
+      },
+      "group": "i2c",
+      "notes": "JP5选择模块实际VIN电压；不能因芯片3.3V就默认板VIN也3.3V；任何模块内5V总线上拉必须处理。",
+      "dnp": false,
+      "connector_type": "custom 1x4 2.54mm signal header",
+      "high_current": false
+    },
+    {
+      "ref": "J15",
+      "kind": "connector",
+      "value": "RC522",
+      "symbol": "Connector_Generic:Conn_01x07",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical",
+      "pins": {
+        "1": "3V3_EXT",
+        "2": "GND",
+        "3": "PA4",
+        "4": "PA5",
+        "5": "PA7",
+        "6": "PA6",
+        "7": "MCP_GPA4"
+      },
+      "pin_names": {
+        "1": "3V3_EXT",
+        "2": "GND",
+        "3": "PA4",
+        "4": "PA5",
+        "5": "PA7",
+        "6": "PA6",
+        "7": "MCP_GPA4"
+      },
+      "group": "spi",
+      "notes": "RC522仅3.3V；商品排针SDA在SPI模式为CS，不接I2C；IRQ不接。",
+      "dnp": false,
+      "connector_type": "custom 1x7 2.54mm signal header",
+      "high_current": false
+    },
+    {
+      "ref": "J16",
+      "kind": "connector",
+      "value": "FLASH",
+      "symbol": "Connector_Generic:Conn_01x08",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical",
+      "pins": {
+        "1": "3V3_EXT",
+        "2": "GND",
+        "3": "PA15",
+        "4": "PA5",
+        "5": "PA7",
+        "6": "PA6",
+        "7": "FLASH_WP_N",
+        "8": "FLASH_HOLD_N"
+      },
+      "pin_names": {
+        "1": "3V3_EXT",
+        "2": "GND",
+        "3": "PA15",
+        "4": "PA5",
+        "5": "PA7",
+        "6": "PA6",
+        "7": "FLASH_WP_N",
+        "8": "FLASH_HOLD_N"
+      },
+      "group": "spi",
+      "notes": "按实际3.3V SPI NOR芯片核对；不存在的WP/HOLD外露脚不接，不能套商品针序。",
+      "dnp": false,
+      "connector_type": "custom 1x8 2.54mm signal header",
+      "high_current": false
+    },
+    {
+      "ref": "J17",
+      "kind": "connector",
+      "value": "HC05",
+      "symbol": "Connector_Generic:Conn_01x04",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical",
+      "pins": {
+        "1": "V_HC05",
+        "2": "GND",
+        "3": "PA2",
+        "4": "PA3"
+      },
+      "pin_names": {
+        "1": "V_HC05",
+        "2": "GND",
+        "3": "PA2",
+        "4": "PA3"
+      },
+      "group": "uart",
+      "notes": "JP6供电选择按模块规格；UART输入输出均须3.3V逻辑。",
+      "dnp": false,
+      "connector_type": "custom 1x4 2.54mm signal header",
+      "high_current": false
+    },
+    {
+      "ref": "J18",
+      "kind": "connector",
+      "value": "PC_UART",
+      "symbol": "Connector_Generic:Conn_01x03",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical",
+      "pins": {
+        "1": "GND",
+        "2": "PA9",
+        "3": "PA10"
+      },
+      "pin_names": {
+        "1": "GND",
+        "2": "PA9",
+        "3": "PA10"
+      },
+      "group": "uart",
+      "notes": "3.3V逻辑USB转串口；本接口不提供电源，转换器VCC/5V/3V3脚不接。",
+      "dnp": false,
+      "connector_type": "custom 1x3 2.54mm signal header",
+      "high_current": false
+    },
+    {
+      "ref": "J19",
+      "kind": "connector",
+      "value": "TB6612_CTRL",
+      "symbol": "Connector_Generic:Conn_01x09",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x09_P2.54mm_Vertical",
+      "pins": {
+        "1": "3V3_EXT",
+        "2": "GND",
+        "3": "MCP_GPA0",
+        "4": "MCP_GPA1",
+        "5": "MCP_GPA2",
+        "6": "MCP_GPA3",
+        "7": "PA8",
+        "8": "PA11",
+        "9": "STBY_OUT"
+      },
+      "pin_names": {
+        "1": "3V3_EXT",
+        "2": "GND",
+        "3": "MCP_GPA0",
+        "4": "MCP_GPA1",
+        "5": "MCP_GPA2",
+        "6": "MCP_GPA3",
+        "7": "PA8",
+        "8": "PA11",
+        "9": "STBY_OUT"
+      },
+      "group": "motor",
+      "notes": "本口仅逻辑；VM和动力地走J4；AO1/AO2/BO1/BO2在驱动模块直接接电机粗线。",
+      "dnp": false,
+      "connector_type": "custom 1x9 2.54mm signal header",
+      "high_current": false
+    },
+    {
+      "ref": "J20",
+      "kind": "connector",
+      "value": "SERVO_SIG",
+      "symbol": "Connector_Generic:Conn_01x02",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical",
+      "pins": {
+        "1": "SERVO_SIG_5V",
+        "2": "GND"
+      },
+      "pin_names": {
+        "1": "SERVO_SIG_5V",
+        "2": "GND"
+      },
+      "group": "ahct",
+      "notes": "1脚是PWM逻辑输出，不是舵机正电源；SG90主电源走J5，主地也直接回J5。",
+      "dnp": false,
+      "connector_type": "custom 1x2 2.54mm signal header",
+      "high_current": false
+    },
+    {
+      "ref": "J21",
+      "kind": "connector",
+      "value": "HC_SR04",
+      "symbol": "Connector_Generic:Conn_01x04",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical",
+      "pins": {
+        "1": "5V_BUS",
+        "2": "GND",
+        "3": "US_TRIG_5V",
+        "4": "US_ECHO_RAW"
+      },
+      "pin_names": {
+        "1": "5V_BUS",
+        "2": "GND",
+        "3": "US_TRIG_5V",
+        "4": "US_ECHO_RAW"
+      },
+      "group": "ultrasonic",
+      "notes": "ECHO已经由板上12k/20k分压至PB1；不得从模块ECHO再另跨线到核心。",
+      "dnp": false,
+      "connector_type": "custom 1x4 2.54mm signal header",
+      "high_current": false
+    },
+    {
+      "ref": "J22",
+      "kind": "connector",
+      "value": "DHT",
+      "symbol": "Connector_Generic:Conn_01x03",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical",
+      "pins": {
+        "1": "V_DHT",
+        "2": "GND",
+        "3": "DHT_DATA_RAW"
+      },
+      "pin_names": {
+        "1": "V_DHT",
+        "2": "GND",
+        "3": "DHT_DATA_RAW"
+      },
+      "group": "dht",
+      "notes": "3.3V分支JP7=1-2且JP8闭合；5V分支JP7=2-3、JP8断开，外置BSS138经J23转换；严禁5V分支短接JP8。",
+      "dnp": false,
+      "connector_type": "custom 1x3 2.54mm signal header",
+      "high_current": false
+    },
+    {
+      "ref": "J23",
+      "kind": "connector",
+      "value": "DHT_LEVEL",
+      "symbol": "Connector_Generic:Conn_01x05",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical",
+      "pins": {
+        "1": "3V3_EXT",
+        "2": "5V_BUS",
+        "3": "GND",
+        "4": "PB11",
+        "5": "DHT_DATA_RAW"
+      },
+      "pin_names": {
+        "1": "3V3_EXT",
+        "2": "5V_BUS",
+        "3": "GND",
+        "4": "PB11",
+        "5": "DHT_DATA_RAW"
+      },
+      "group": "dht",
+      "notes": "仅5V DHT分支使用外置BSS138双向开漏转换；3.3V分支保持空。转换模块GND全部共地。",
+      "dnp": false,
+      "connector_type": "custom 1x5 2.54mm signal header",
+      "high_current": false
+    },
+    {
+      "ref": "J24",
+      "kind": "connector",
+      "value": "ENCODER",
+      "symbol": "Connector_Generic:Conn_01x05",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical",
+      "pins": {
+        "1": "3V3_EXT",
+        "2": "GND",
+        "3": "PB3",
+        "4": "PB4",
+        "5": "MCP_GPB4"
+      },
+      "pin_names": {
+        "1": "3V3_EXT",
+        "2": "GND",
+        "3": "PB3",
+        "4": "PB4",
+        "5": "MCP_GPB4"
+      },
+      "group": "encoder",
+      "notes": "仅3.3V编码器模块；CLK/DT的CORE上拉与模块EXT上拉二选一；SW上拉同样核对。",
+      "dnp": false,
+      "connector_type": "custom 1x5 2.54mm signal header",
+      "high_current": false
+    },
+    {
+      "ref": "J25",
+      "kind": "connector",
+      "value": "KEYS_LID",
+      "symbol": "Connector_Generic:Conn_01x06",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical",
+      "pins": {
+        "1": "MCP_GPB5",
+        "2": "GND",
+        "3": "MCP_GPB6",
+        "4": "GND",
+        "5": "PB14",
+        "6": "GND"
+      },
+      "pin_names": {
+        "1": "MCP_GPB5",
+        "2": "GND",
+        "3": "MCP_GPB6",
+        "4": "GND",
+        "5": "PB14",
+        "6": "GND"
+      },
+      "group": "switches",
+      "notes": "三组接地开关：MODE、BACK轻触NO；闭盖用NO微动。轻触4脚同组导通须实测。",
+      "dnp": false,
+      "connector_type": "custom 1x6 2.54mm signal header",
+      "high_current": false
+    },
+    {
+      "ref": "J26",
+      "kind": "connector",
+      "value": "BUMPER",
+      "symbol": "Connector_Generic:Conn_01x02",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical",
+      "pins": {
+        "1": "PB12",
+        "2": "GND"
+      },
+      "pin_names": {
+        "1": "PB12",
+        "2": "GND"
+      },
+      "group": "switches",
+      "notes": "外置左右微动NC串联，任一个碰撞或断线为高；不用NO端。",
+      "dnp": false,
+      "connector_type": "custom 1x2 2.54mm signal header",
+      "high_current": false
+    },
+    {
+      "ref": "J27",
+      "kind": "connector",
+      "value": "ESTOP_2NC",
+      "symbol": "Connector_Generic:Conn_01x04",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical",
+      "pins": {
+        "1": "VBAT_SW",
+        "2": "ESTOP_NC1_RETURN",
+        "3": "VBAT_SW",
+        "4": "ESTOP_NC2_RETURN"
+      },
+      "pin_names": {
+        "1": "VBAT_SW",
+        "2": "ESTOP_NC1_RETURN",
+        "3": "VBAT_SW",
+        "4": "ESTOP_NC2_RETURN"
+      },
+      "group": "estop",
+      "notes": "急停必须两组独立NC；开关闭合正常通，按下断。此口含最高8.4V，不能插传感器/MCU；禁止插跳帽伪装急停。",
+      "dnp": false,
+      "connector_type": "custom 1x4 2.54mm signal header",
+      "high_current": false
+    },
+    {
+      "ref": "J28",
+      "kind": "connector",
+      "value": "AO3400_ADAPTER",
+      "symbol": "Connector_Generic:Conn_01x03",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical",
+      "pins": {
+        "1": "LED_GATE",
+        "2": "GND",
+        "3": "LED_NEG"
+      },
+      "pin_names": {
+        "1": "LED_GATE",
+        "2": "GND",
+        "3": "LED_NEG"
+      },
+      "group": "led",
+      "notes": "AO3400A是已购裸管，先焊到转接板并核对G/S/D，再外接本接口；不能照商品排针顺序。",
+      "dnp": false,
+      "connector_type": "custom 1x3 2.54mm signal header",
+      "high_current": false
+    },
+    {
+      "ref": "J29",
+      "kind": "connector",
+      "value": "WHITE_LED",
+      "symbol": "Connector_Generic:Conn_01x02",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical",
+      "pins": {
+        "1": "LED_POS",
+        "2": "LED_NEG"
+      },
+      "pin_names": {
+        "1": "LED_POS",
+        "2": "LED_NEG"
+      },
+      "group": "led",
+      "notes": "单颗小功率白LED正负端，板上220Ω串联限流；不能换成灯带。",
+      "dnp": false,
+      "connector_type": "custom 1x2 2.54mm signal header",
+      "high_current": false
+    },
+    {
+      "ref": "J30",
+      "kind": "connector",
+      "value": "BUZZER",
+      "symbol": "Connector_Generic:Conn_01x03",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical",
+      "pins": {
+        "1": "V_BUZZ",
+        "2": "GND",
+        "3": "BUZZ_IN"
+      },
+      "pin_names": {
+        "1": "V_BUZZ",
+        "2": "GND",
+        "3": "BUZZ_IN"
+      },
+      "group": "buzzer",
+      "notes": "仅带驱动三线蜂鸣模块；核供电和有效电平再选JP3/4与R36/37。",
+      "dnp": false,
+      "connector_type": "custom 1x3 2.54mm signal header",
+      "high_current": false
+    },
+    {
+      "ref": "J31",
+      "kind": "connector",
+      "value": "DFPLAYER_SIG",
+      "symbol": "Connector_Generic:Conn_01x03",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical",
+      "pins": {
+        "1": "GND",
+        "2": "DF_RX",
+        "3": "MCP_GPA6"
+      },
+      "pin_names": {
+        "1": "GND",
+        "2": "DF_RX",
+        "3": "MCP_GPA6"
+      },
+      "group": "voice",
+      "notes": "仅信号口。DFPlayer VCC和电源GND以独立适当线径从J6引；喇叭接模块SPK1/2而非GND；模块TX不接。BUSY必须为<=3.3V或先外置适配。",
+      "dnp": false,
+      "connector_type": "custom 1x3 2.54mm signal header",
+      "high_current": false
+    },
+    {
+      "ref": "J32",
+      "kind": "connector",
+      "value": "LIGHT",
+      "symbol": "Connector_Generic:Conn_01x03",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical",
+      "pins": {
+        "1": "3V3_EXT",
+        "2": "GND",
+        "3": "PB0"
+      },
+      "pin_names": {
+        "1": "3V3_EXT",
+        "2": "GND",
+        "3": "PB0"
+      },
+      "group": "adc",
+      "notes": "默认3.3V光敏AO。若仅DO改软件模式；若5V模拟AO需外置分压校准，禁止用NPN代替模拟采样。热敏为台架替换，不能与光敏并接。",
+      "dnp": false,
+      "connector_type": "custom 1x3 2.54mm signal header",
+      "high_current": false
+    },
+    {
+      "ref": "J33",
+      "kind": "connector",
+      "value": "IR_INPUTS",
+      "symbol": "Connector_Generic:Conn_01x09",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x09_P2.54mm_Vertical",
+      "pins": {
+        "1": "3V3_EXT",
+        "2": "5V_BUS",
+        "3": "GND",
+        "4": "MCP_GPB0",
+        "5": "MCP_GPB1",
+        "6": "MCP_GPB2",
+        "7": "MCP_GPB3",
+        "8": "PB8",
+        "9": "PA12"
+      },
+      "pin_names": {
+        "1": "3V3_EXT",
+        "2": "5V_BUS",
+        "3": "GND",
+        "4": "MCP_GPB0",
+        "5": "MCP_GPB1",
+        "6": "MCP_GPB2",
+        "7": "MCP_GPB3",
+        "8": "PB8",
+        "9": "PA12"
+      },
+      "group": "digital_inputs",
+      "notes": "自定义供电/信号汇集口；六路输入必须经外置条件适配后<=3.3V。3V3与5V是两根可用电源，绝不能同时接模块同一VCC。",
+      "dnp": false,
+      "connector_type": "custom 1x9 2.54mm signal header",
+      "high_current": false
+    },
+    {
+      "ref": "JP3",
+      "kind": "jumper",
+      "value": "BUZZ_SIG_SELECT",
+      "symbol": "Connector_Generic:Conn_01x03",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical",
+      "pins": {
+        "1": "PB9",
+        "2": "BUZZ_IN",
+        "3": "BUZZ_5V"
+      },
+      "pin_names": {
+        "1": "PB9",
+        "2": "BUZZ_IN",
+        "3": "BUZZ_5V"
+      },
+      "group": "buzzer",
+      "notes": "3.3V可驱动模块选1-2；仅确需5V控制时2-3；通道3始终使能；两输出不可并接。",
+      "dnp": false,
+      "default_shunt": "open",
+      "allowed_shunts": [
+        "open",
+        "1-2",
+        "2-3"
+      ]
+    },
+    {
+      "ref": "JP4",
+      "kind": "jumper",
+      "value": "BUZZ_V_SELECT",
+      "symbol": "Connector_Generic:Conn_01x03",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical",
+      "pins": {
+        "1": "3V3_EXT",
+        "2": "V_BUZZ",
+        "3": "5V_BUS"
+      },
+      "pin_names": {
+        "1": "3V3_EXT",
+        "2": "V_BUZZ",
+        "3": "5V_BUS"
+      },
+      "group": "buzzer",
+      "notes": "按模块VCC选3.3V或5V，只能一帽；未确认前保持开路。",
+      "dnp": false,
+      "default_shunt": "open",
+      "allowed_shunts": [
+        "open",
+        "1-2",
+        "2-3"
+      ]
+    },
+    {
+      "ref": "JP5",
+      "kind": "jumper",
+      "value": "MPU_V_SELECT",
+      "symbol": "Connector_Generic:Conn_01x03",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical",
+      "pins": {
+        "1": "3V3_EXT",
+        "2": "V_MPU",
+        "3": "5V_BUS"
+      },
+      "pin_names": {
+        "1": "3V3_EXT",
+        "2": "V_MPU",
+        "3": "5V_BUS"
+      },
+      "group": "i2c",
+      "notes": "核模块VIN/稳压压差后选择；无论VIN如何SCL/SDA均只拉EXT3.3V。",
+      "dnp": false,
+      "default_shunt": "open",
+      "allowed_shunts": [
+        "open",
+        "1-2",
+        "2-3"
+      ]
+    },
+    {
+      "ref": "JP6",
+      "kind": "jumper",
+      "value": "HC05_V_SELECT",
+      "symbol": "Connector_Generic:Conn_01x03",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical",
+      "pins": {
+        "1": "3V3_EXT",
+        "2": "V_HC05",
+        "3": "5V_BUS"
+      },
+      "pin_names": {
+        "1": "3V3_EXT",
+        "2": "V_HC05",
+        "3": "5V_BUS"
+      },
+      "group": "uart",
+      "notes": "带稳压底板通常VIN5V，裸核心通常3.3V；必须核对实物。",
+      "dnp": false,
+      "default_shunt": "open",
+      "allowed_shunts": [
+        "open",
+        "1-2",
+        "2-3"
+      ]
+    },
+    {
+      "ref": "JP7",
+      "kind": "jumper",
+      "value": "DHT_V_SELECT",
+      "symbol": "Connector_Generic:Conn_01x03",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical",
+      "pins": {
+        "1": "3V3_EXT",
+        "2": "V_DHT",
+        "3": "5V_BUS"
+      },
+      "pin_names": {
+        "1": "3V3_EXT",
+        "2": "V_DHT",
+        "3": "5V_BUS"
+      },
+      "group": "dht",
+      "notes": "3.3V模块1-2；5V模块2-3，同时JP8必须开路并装外置BSS138。",
+      "dnp": false,
+      "default_shunt": "open",
+      "allowed_shunts": [
+        "open",
+        "1-2",
+        "2-3"
+      ]
+    },
+    {
+      "ref": "JP8",
+      "kind": "jumper",
+      "value": "DHT_DIRECT",
+      "symbol": "Connector_Generic:Conn_01x02",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical",
+      "pins": {
+        "1": "PB11",
+        "2": "DHT_DATA_RAW"
+      },
+      "pin_names": {
+        "1": "PB11",
+        "2": "DHT_DATA_RAW"
+      },
+      "group": "dht",
+      "notes": "仅3.3V供电且已确认DATA安全时闭合；与5V DHT分支互斥。",
+      "dnp": false,
+      "default_shunt": "open",
+      "allowed_shunts": [
+        "open",
+        "1-2"
+      ]
+    },
+    {
+      "ref": "JP9",
+      "kind": "jumper",
+      "value": "ADC_LINK",
+      "symbol": "Connector_Generic:Conn_01x02",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical",
+      "pins": {
+        "1": "BAT_ADC_DIV",
+        "2": "PA1"
+      },
+      "pin_names": {
+        "1": "BAT_ADC_DIV",
+        "2": "PA1"
+      },
+      "group": "adc",
+      "notes": "正常装帽；电池仍接通而单独关闭/拔掉核心电源前拔帽，防ADC向掉电核心注入。",
+      "dnp": false,
+      "default_shunt": "1-2",
+      "allowed_shunts": [
+        "open",
+        "1-2"
+      ]
+    },
+    {
+      "ref": "JP10",
+      "kind": "jumper",
+      "value": "MCP_RESET_TEST",
+      "symbol": "Connector_Generic:Conn_01x02",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical",
+      "pins": {
+        "1": "MCP_RESET_N",
+        "2": "GND"
+      },
+      "pin_names": {
+        "1": "MCP_RESET_N",
+        "2": "GND"
+      },
+      "group": "i2c",
+      "notes": "复位测试短接点，正常禁止长期留帽；不是核心NRST。",
+      "dnp": false,
+      "default_shunt": "open",
+      "allowed_shunts": [
+        "open",
+        "momentary 1-2"
+      ]
+    },
+    {
+      "ref": "H1",
+      "kind": "mounting_hole",
+      "value": "M3 NPTH",
+      "symbol": "Mechanical:MountingHole",
+      "footprint": "MountingHole:MountingHole_3.2mm_M3",
+      "pins": {},
+      "pin_names": {},
+      "group": "MECHANICAL",
+      "notes": "3.2mm非金属化M3孔；孔中心坐标由100x100mm板左上基准定义。",
+      "dnp": false,
+      "position_mm": [
+        5,
+        5
+      ]
+    },
+    {
+      "ref": "H2",
+      "kind": "mounting_hole",
+      "value": "M3 NPTH",
+      "symbol": "Mechanical:MountingHole",
+      "footprint": "MountingHole:MountingHole_3.2mm_M3",
+      "pins": {},
+      "pin_names": {},
+      "group": "MECHANICAL",
+      "notes": "3.2mm非金属化M3孔；孔中心坐标由100x100mm板左上基准定义。",
+      "dnp": false,
+      "position_mm": [
+        95,
+        5
+      ]
+    },
+    {
+      "ref": "H3",
+      "kind": "mounting_hole",
+      "value": "M3 NPTH",
+      "symbol": "Mechanical:MountingHole",
+      "footprint": "MountingHole:MountingHole_3.2mm_M3",
+      "pins": {},
+      "pin_names": {},
+      "group": "MECHANICAL",
+      "notes": "3.2mm非金属化M3孔；孔中心坐标由100x100mm板左上基准定义。",
+      "dnp": false,
+      "position_mm": [
+        5,
+        95
+      ]
+    },
+    {
+      "ref": "H4",
+      "kind": "mounting_hole",
+      "value": "M3 NPTH",
+      "symbol": "Mechanical:MountingHole",
+      "footprint": "MountingHole:MountingHole_3.2mm_M3",
+      "pins": {},
+      "pin_names": {},
+      "group": "MECHANICAL",
+      "notes": "3.2mm非金属化M3孔；孔中心坐标由100x100mm板左上基准定义。",
+      "dnp": false,
+      "position_mm": [
+        95,
+        95
+      ]
+    }
+  ],
+  "connectors": [
+    {
+      "ref": "J1",
+      "name": "BAT_SW",
+      "notes": "电池保护板输出正极经外置保险座和总开关后进入1脚；2脚为电池负极。禁止接未经保险的裸电池。",
+      "targets": {
+        "1": "外置总开关输出",
+        "2": "电池负极"
+      },
+      "high_current": true
+    },
+    {
+      "ref": "J2",
+      "name": "BUCK_IN",
+      "notes": "外置非隔离5V降压输入；20AWG短线。",
+      "targets": {
+        "1": "降压IN+",
+        "2": "降压IN-"
+      },
+      "high_current": true
+    },
+    {
+      "ref": "J3",
+      "name": "BUCK_OUT",
+      "notes": "外置降压输出，接入板上星形中心。电池满电8.4V不能接此口。",
+      "targets": {
+        "1": "降压OUT+",
+        "2": "降压OUT-"
+      },
+      "high_current": true
+    },
+    {
+      "ref": "J4",
+      "name": "MOTOR_PWR",
+      "notes": "电机主电流支路；22AWG短线，长线/偏大电流用20AWG。",
+      "targets": {
+        "1": "TB6612 VM",
+        "2": "TB6612动力GND"
+      },
+      "high_current": true
+    },
+    {
+      "ref": "J5",
+      "name": "SERVO_PWR",
+      "notes": "舵机主电流仅走本支路；原3芯舵机延长线在配电处分离电源与信号。",
+      "targets": {
+        "1": "SG90红线/正极",
+        "2": "SG90棕或黑线/负极"
+      },
+      "high_current": true
+    },
+    {
+      "ref": "J6",
+      "name": "LOGIC_PWR",
+      "notes": "逻辑5V支路；可给DFPlayer和3.3V稳压输入等可靠分线，不把多根线强塞一只端子。",
+      "targets": {
+        "1": "逻辑电源分配正极",
+        "2": "逻辑电源分配地"
+      },
+      "high_current": true
+    },
+    {
+      "ref": "J7",
+      "name": "EXT_REG",
+      "notes": "外置3.3V稳压模块低电流接口；确认额定输出及GND；本口3脚是模块输出进入本板，不是核心3V3。",
+      "targets": {
+        "1": "外置稳压IN+",
+        "2": "外置稳压GND/IN-/OUT-",
+        "3": "外置稳压OUT+"
+      },
+      "high_current": false
+    },
+    {
+      "ref": "J8",
+      "name": "CORE_PA",
+      "notes": "自定义17针线束；按核心丝印逐线连接，不能整排直插；正常系统核心由本板1脚供5V，禁止同时插核心USB；若做独立USB台架，先断本板电源并拔下与核心相连的全部线束，再另行测试。",
+      "targets": {
+        "1": "核心5V输入",
+        "2": "核心GND",
+        "3": "核心3V3输出/参考",
+        "4": "核心PA0",
+        "5": "核心PA1",
+        "6": "核心PA2",
+        "7": "核心PA3",
+        "8": "核心PA4",
+        "9": "核心PA5",
+        "10": "核心PA6",
+        "11": "核心PA7",
+        "12": "核心PA8",
+        "13": "核心PA9",
+        "14": "核心PA10",
+        "15": "核心PA11",
+        "16": "核心PA12",
+        "17": "核心PA15"
+      },
+      "high_current": false
+    },
+    {
+      "ref": "J9",
+      "name": "CORE_PB",
+      "notes": "自定义16针线束；PB2/BOOT1不接；PA13/PA14在核心直接接SWD并始终保留。",
+      "targets": {
+        "1": "核心GND",
+        "2": "核心PB0",
+        "3": "核心PB1",
+        "4": "核心PB3",
+        "5": "核心PB4",
+        "6": "核心PB5",
+        "7": "核心PB6",
+        "8": "核心PB7",
+        "9": "核心PB8",
+        "10": "核心PB9",
+        "11": "核心PB10",
+        "12": "核心PB11",
+        "13": "核心PB12",
+        "14": "核心PB13",
+        "15": "核心PB14",
+        "16": "核心PB15"
+      },
+      "high_current": false
+    },
+    {
+      "ref": "J10",
+      "name": "MCP_BUS",
+      "notes": "成品MCP23017模块五线；A0/A1/A2在模块侧接地；INTA/INTB不用；RESET不接核心NRST。",
+      "targets": {
+        "1": "模块VDD",
+        "2": "模块GND",
+        "3": "模块SCL",
+        "4": "模块SDA",
+        "5": "模块RESET"
+      },
+      "high_current": false
+    },
+    {
+      "ref": "J11",
+      "name": "MCP_A",
+      "notes": "逐线接模块GPA0至GPA6；GPA7不外接、软件设输出0。",
+      "targets": {
+        "1": "模块GPA0",
+        "2": "模块GPA1",
+        "3": "模块GPA2",
+        "4": "模块GPA3",
+        "5": "模块GPA4",
+        "6": "模块GPA5",
+        "7": "模块GPA6"
+      },
+      "high_current": false
+    },
+    {
+      "ref": "J12",
+      "name": "MCP_B",
+      "notes": "逐线接模块GPB0至GPB6；GPB7不外接、软件设输出0。",
+      "targets": {
+        "1": "模块GPB0",
+        "2": "模块GPB1",
+        "3": "模块GPB2",
+        "4": "模块GPB3",
+        "5": "模块GPB4",
+        "6": "模块GPB5",
+        "7": "模块GPB6"
+      },
+      "high_current": false
+    },
+    {
+      "ref": "J13",
+      "name": "OLED",
+      "notes": "仅用于已确认3.3V供电I2C OLED；I2C拉3V3_EXT。",
+      "targets": {
+        "1": "OLED VCC",
+        "2": "OLED GND",
+        "3": "OLED SCL",
+        "4": "OLED SDA"
+      },
+      "high_current": false
+    },
+    {
+      "ref": "J14",
+      "name": "MPU6050",
+      "notes": "JP5选择模块实际VIN电压；不能因芯片3.3V就默认板VIN也3.3V；任何模块内5V总线上拉必须处理。",
+      "targets": {
+        "1": "MPU模块VIN/VCC",
+        "2": "模块GND",
+        "3": "模块SCL",
+        "4": "模块SDA"
+      },
+      "high_current": false
+    },
+    {
+      "ref": "J15",
+      "name": "RC522",
+      "notes": "RC522仅3.3V；商品排针SDA在SPI模式为CS，不接I2C；IRQ不接。",
+      "targets": {
+        "1": "RC522 3.3V",
+        "2": "RC522 GND",
+        "3": "RC522 SDA/SS/CS",
+        "4": "RC522 SCK",
+        "5": "RC522 MOSI",
+        "6": "RC522 MISO",
+        "7": "RC522 RST"
+      },
+      "high_current": false
+    },
+    {
+      "ref": "J16",
+      "name": "FLASH",
+      "notes": "按实际3.3V SPI NOR芯片核对；不存在的WP/HOLD外露脚不接，不能套商品针序。",
+      "targets": {
+        "1": "FLASH VCC",
+        "2": "FLASH GND",
+        "3": "FLASH CS",
+        "4": "FLASH CLK",
+        "5": "FLASH DI/MOSI",
+        "6": "FLASH DO/MISO",
+        "7": "FLASH /WP（若外露）",
+        "8": "FLASH /HOLD（若外露）"
+      },
+      "high_current": false
+    },
+    {
+      "ref": "J17",
+      "name": "HC05",
+      "notes": "JP6供电选择按模块规格；UART输入输出均须3.3V逻辑。",
+      "targets": {
+        "1": "HC05 VCC/VIN",
+        "2": "HC05 GND",
+        "3": "HC05 RX",
+        "4": "HC05 TX"
+      },
+      "high_current": false
+    },
+    {
+      "ref": "J18",
+      "name": "PC_UART",
+      "notes": "3.3V逻辑USB转串口；本接口不提供电源，转换器VCC/5V/3V3脚不接。",
+      "targets": {
+        "1": "USB串口GND",
+        "2": "USB串口RXD",
+        "3": "USB串口TXD"
+      },
+      "high_current": false
+    },
+    {
+      "ref": "J19",
+      "name": "TB6612_CTRL",
+      "notes": "本口仅逻辑；VM和动力地走J4；AO1/AO2/BO1/BO2在驱动模块直接接电机粗线。",
+      "targets": {
+        "1": "驱动VCC",
+        "2": "驱动信号GND",
+        "3": "AIN1",
+        "4": "AIN2",
+        "5": "BIN1",
+        "6": "BIN2",
+        "7": "PWMA",
+        "8": "PWMB",
+        "9": "STBY"
+      },
+      "high_current": false
+    },
+    {
+      "ref": "J20",
+      "name": "SERVO_SIG",
+      "notes": "1脚是PWM逻辑输出，不是舵机正电源；SG90主电源走J5，主地也直接回J5。",
+      "targets": {
+        "1": "SG90信号（确认颜色）",
+        "2": "信号参考地/不得承担舵机主电流"
+      },
+      "high_current": false
+    },
+    {
+      "ref": "J21",
+      "name": "HC_SR04",
+      "notes": "ECHO已经由板上12k/20k分压至PB1；不得从模块ECHO再另跨线到核心。",
+      "targets": {
+        "1": "HC-SR04 VCC",
+        "2": "GND",
+        "3": "TRIG",
+        "4": "ECHO"
+      },
+      "high_current": false
+    },
+    {
+      "ref": "J22",
+      "name": "DHT",
+      "notes": "3.3V分支JP7=1-2且JP8闭合；5V分支JP7=2-3、JP8断开，外置BSS138经J23转换；严禁5V分支短接JP8。",
+      "targets": {
+        "1": "DHT模块VCC",
+        "2": "DHT GND",
+        "3": "DHT DATA"
+      },
+      "high_current": false
+    },
+    {
+      "ref": "J23",
+      "name": "DHT_LEVEL",
+      "notes": "仅5V DHT分支使用外置BSS138双向开漏转换；3.3V分支保持空。转换模块GND全部共地。",
+      "targets": {
+        "1": "BSS138 LV",
+        "2": "BSS138 HV",
+        "3": "BSS138 GND",
+        "4": "BSS138 LV通道",
+        "5": "BSS138对应HV通道"
+      },
+      "high_current": false
+    },
+    {
+      "ref": "J24",
+      "name": "ENCODER",
+      "notes": "仅3.3V编码器模块；CLK/DT的CORE上拉与模块EXT上拉二选一；SW上拉同样核对。",
+      "targets": {
+        "1": "编码器VCC",
+        "2": "GND",
+        "3": "CLK",
+        "4": "DT",
+        "5": "SW"
+      },
+      "high_current": false
+    },
+    {
+      "ref": "J25",
+      "name": "KEYS_LID",
+      "notes": "三组接地开关：MODE、BACK轻触NO；闭盖用NO微动。轻触4脚同组导通须实测。",
+      "targets": {
+        "1": "MODE接点",
+        "2": "MODE另一接点",
+        "3": "BACK接点",
+        "4": "BACK另一接点",
+        "5": "闭盖NO",
+        "6": "闭盖COM"
+      },
+      "high_current": false
+    },
+    {
+      "ref": "J26",
+      "name": "BUMPER",
+      "notes": "外置左右微动NC串联，任一个碰撞或断线为高；不用NO端。",
+      "targets": {
+        "1": "右NC；右COM接左NC",
+        "2": "左COM"
+      },
+      "high_current": false
+    },
+    {
+      "ref": "J27",
+      "name": "ESTOP_2NC",
+      "notes": "急停必须两组独立NC；开关闭合正常通，按下断。此口含最高8.4V，不能插传感器/MCU；禁止插跳帽伪装急停。",
+      "targets": {
+        "1": "NC1一端",
+        "2": "NC1另一端",
+        "3": "NC2一端",
+        "4": "NC2另一端"
+      },
+      "high_current": false
+    },
+    {
+      "ref": "J28",
+      "name": "AO3400_ADAPTER",
+      "notes": "AO3400A是已购裸管，先焊到转接板并核对G/S/D，再外接本接口；不能照商品排针顺序。",
+      "targets": {
+        "1": "MOS G",
+        "2": "MOS S",
+        "3": "MOS D"
+      },
+      "high_current": false
+    },
+    {
+      "ref": "J29",
+      "name": "WHITE_LED",
+      "notes": "单颗小功率白LED正负端，板上220Ω串联限流；不能换成灯带。",
+      "targets": {
+        "1": "LED阳极+",
+        "2": "LED阴极-"
+      },
+      "high_current": false
+    },
+    {
+      "ref": "J30",
+      "name": "BUZZER",
+      "notes": "仅带驱动三线蜂鸣模块；核供电和有效电平再选JP3/4与R36/37。",
+      "targets": {
+        "1": "模块VCC",
+        "2": "模块GND",
+        "3": "模块IN"
+      },
+      "high_current": false
+    },
+    {
+      "ref": "J31",
+      "name": "DFPLAYER_SIG",
+      "notes": "仅信号口。DFPlayer VCC和电源GND以独立适当线径从J6引；喇叭接模块SPK1/2而非GND；模块TX不接。BUSY必须为<=3.3V或先外置适配。",
+      "targets": {
+        "1": "DFPlayer信号GND",
+        "2": "DFPlayer RX",
+        "3": "经核对/适配的BUSY"
+      },
+      "high_current": false
+    },
+    {
+      "ref": "J32",
+      "name": "LIGHT",
+      "notes": "默认3.3V光敏AO。若仅DO改软件模式；若5V模拟AO需外置分压校准，禁止用NPN代替模拟采样。热敏为台架替换，不能与光敏并接。",
+      "targets": {
+        "1": "光敏模块VCC（确认支持3.3V）",
+        "2": "GND",
+        "3": "光敏AO（或明确选用DO）"
+      },
+      "high_current": false
+    },
+    {
+      "ref": "J33",
+      "name": "IR_INPUTS",
+      "notes": "自定义供电/信号汇集口；六路输入必须经外置条件适配后<=3.3V。3V3与5V是两根可用电源，绝不能同时接模块同一VCC。",
+      "targets": {
+        "1": "3.3V外设电源",
+        "2": "5V外设电源",
+        "3": "模块公共地",
+        "4": "循迹左有效3.3V输入",
+        "5": "循迹中有效3.3V输入",
+        "6": "循迹右有效3.3V输入",
+        "7": "靠近DO有效3.3V输入",
+        "8": "前障碍DO有效3.3V输入",
+        "9": "投放对射DO有效3.3V输入"
+      },
+      "high_current": false
+    }
+  ],
+  "mcu_pin_map": {
+    "PA0": {
+      "function": "舵机PWM",
+      "usage": "TIM2_CH1；AHCT通道1",
+      "net": "PA0"
+    },
+    "PA1": {
+      "function": "电池电压",
+      "usage": "ADC1_IN1；JP9可隔离",
+      "net": "PA1"
+    },
+    "PA2": {
+      "function": "蓝牙TX",
+      "usage": "USART2 TX→HC05 RX",
+      "net": "PA2"
+    },
+    "PA3": {
+      "function": "蓝牙RX",
+      "usage": "USART2 RX←HC05 TX",
+      "net": "PA3"
+    },
+    "PA4": {
+      "function": "RC522片选",
+      "usage": "SPI1 CS，模块SDA即CS",
+      "net": "PA4"
+    },
+    "PA5": {
+      "function": "共享SCK",
+      "usage": "SPI1 SCK",
+      "net": "PA5"
+    },
+    "PA6": {
+      "function": "共享MISO",
+      "usage": "SPI1 MISO",
+      "net": "PA6"
+    },
+    "PA7": {
+      "function": "共享MOSI",
+      "usage": "SPI1 MOSI",
+      "net": "PA7"
+    },
+    "PA8": {
+      "function": "左电机PWM",
+      "usage": "TIM1_CH1，20kHz",
+      "net": "PA8"
+    },
+    "PA9": {
+      "function": "调试串口TX",
+      "usage": "USART1 TX→转换器RXD",
+      "net": "PA9"
+    },
+    "PA10": {
+      "function": "调试串口RX",
+      "usage": "USART1 RX←转换器TXD",
+      "net": "PA10"
+    },
+    "PA11": {
+      "function": "右电机PWM",
+      "usage": "TIM1_CH4，20kHz；禁USB",
+      "net": "PA11"
+    },
+    "PA12": {
+      "function": "投放光束输入",
+      "usage": "1ms轮询；不可用EXTI12；禁USB并核核心板USB上拉",
+      "net": "PA12"
+    },
+    "PA15": {
+      "function": "FLASH片选",
+      "usage": "禁JTAG保留SWD后作GPIO",
+      "net": "PA15"
+    },
+    "PB0": {
+      "function": "光敏AO/DO",
+      "usage": "ADC1_IN8或数字输入二选一",
+      "net": "PB0"
+    },
+    "PB1": {
+      "function": "超声ECHO",
+      "usage": "EXTI1双边沿，12k/20k分压后",
+      "net": "PB1"
+    },
+    "PB3": {
+      "function": "编码器CLK",
+      "usage": "禁JTAG保留SWD；轮询/EXTI3",
+      "net": "PB3"
+    },
+    "PB4": {
+      "function": "编码器DT",
+      "usage": "禁JTAG保留SWD；轮询/EXTI4",
+      "net": "PB4"
+    },
+    "PB5": {
+      "function": "电机使能请求",
+      "usage": "经R21和Q2门控；不能直连STBY",
+      "net": "PB5"
+    },
+    "PB6": {
+      "function": "I2C SCL",
+      "usage": "I2C1默认映射、开漏",
+      "net": "I2C_SCL"
+    },
+    "PB7": {
+      "function": "I2C SDA",
+      "usage": "I2C1默认映射、开漏",
+      "net": "I2C_SDA"
+    },
+    "PB8": {
+      "function": "前方避障",
+      "usage": "外置条件电平适配",
+      "net": "PB8"
+    },
+    "PB9": {
+      "function": "蜂鸣器",
+      "usage": "GPIO/TIM4_CH4，按模块不响电平偏置",
+      "net": "PB9"
+    },
+    "PB10": {
+      "function": "语音TX",
+      "usage": "USART3 TX，经1k；禁USART3 RX",
+      "net": "PB10"
+    },
+    "PB11": {
+      "function": "DHT数据",
+      "usage": "开漏+EXT上拉；EXTI11可用",
+      "net": "PB11"
+    },
+    "PB12": {
+      "function": "碰撞回路",
+      "usage": "EXTI12，两NC串联，正常低",
+      "net": "PB12"
+    },
+    "PB13": {
+      "function": "急停反馈",
+      "usage": "EXTI13，正常低，按下/断线高",
+      "net": "PB13"
+    },
+    "PB14": {
+      "function": "闭盖反馈",
+      "usage": "NO微动，闭盖低",
+      "net": "PB14"
+    },
+    "PB15": {
+      "function": "超声TRIG",
+      "usage": "普通GPIO→AHCT通道2",
+      "net": "PB15"
+    }
+  },
+  "mcp_pin_map": {
+    "GPA0": "TB6612 AIN1",
+    "GPA1": "TB6612 AIN2",
+    "GPA2": "TB6612 BIN1",
+    "GPA3": "TB6612 BIN2",
+    "GPA4": "RC522 RST",
+    "GPA5": "LED MOS gate via 100R",
+    "GPA6": "DFPlayer BUSY input",
+    "GPA7": "OUTPUT LOW, no external connection",
+    "GPB0": "LINE_L input",
+    "GPB1": "LINE_C input",
+    "GPB2": "LINE_R input",
+    "GPB3": "NEAR input",
+    "GPB4": "ENC_SW input",
+    "GPB5": "MODE input",
+    "GPB6": "BACK input",
+    "GPB7": "OUTPUT LOW, no external connection"
+  },
+  "features": {
+    "A1": "RC522/STM32 UID识别",
+    "A2": "RC522+FLASH 注册/删除/挂失",
+    "A3": "RC522+对射+FLASH有效投放积分",
+    "A4": "FLASH持久化",
+    "A5": "RC522+OLED积分查询",
+    "A6": "RC522 RFID读写实验",
+    "A7": "管理员卡+菜单",
+    "A8": "FLASH日志/排名+串口导出",
+    "A9": "FLASH虚拟兑换",
+    "B1": "RC522+SG90刷卡开盖",
+    "B2": "对射投放检测",
+    "B3": "对射+状态机防重复积分",
+    "B4": "靠近红外+SG90便民开盖",
+    "B5": "HC-SR04满桶检测",
+    "B8": "菜单维护清理模式",
+    "C1": "TB6612+双减速电机差速",
+    "C2": "前红外避障",
+    "C3": "三路循迹",
+    "C4": "循迹站点识别",
+    "C6": "HC05蓝牙手动",
+    "C8": "MPU6050倾斜保护",
+    "C9": "双NC碰撞停车",
+    "D1": "OLED人机显示",
+    "D2": "蜂鸣器提醒",
+    "D3": "MODE/BACK按键",
+    "D4": "编码器旋转/按下",
+    "D5": "双NC急停",
+    "D6": "上电自检",
+    "D7": "ADC电量监测",
+    "D8": "USB串口日志/配置",
+    "E1": "DHT温湿度",
+    "E2": "光敏+LED自动照明",
+    "E4": "DFPlayer语音"
+  },
+  "configurations": [
+    {
+      "id": "ahct_ch3_always_enabled",
+      "requires": {
+        "U1.9": "PB9",
+        "U1.10": "GND",
+        "R36_or_R37": "exactly one populated"
+      },
+      "notes": "第3通道永久使能，即使不用蜂鸣也必须保留R36/R37其中一只使PB9有确定复位偏置；JP3可开路或1-2直驱3.3V兼容模块，或2-3使用5V输出。"
+    },
+    {
+      "id": "buzzer_5v_control",
+      "requires": {
+        "JP3": "2-3"
+      },
+      "notes": "JP4按模块额定电源；R36/R37二选一使复位不响。"
+    },
+    {
+      "id": "buzzer_active_high",
+      "requires": {
+        "R36": "populate",
+        "R37": "DNP"
+      },
+      "notes": "PB9低不响；5V缓冲与直驱均为同相。"
+    },
+    {
+      "id": "buzzer_active_low",
+      "requires": {
+        "R36": "DNP",
+        "R37": "populate"
+      },
+      "notes": "PB9高不响；只允许拉3V3_CORE。"
+    },
+    {
+      "id": "dht_3v3",
+      "requires": {
+        "JP7": "1-2",
+        "JP8": "1-2",
+        "J23": "unconnected"
+      },
+      "notes": "确认模块支持3.3V且总线开漏。R29按同轨上拉情况装配。"
+    },
+    {
+      "id": "dht_5v",
+      "requires": {
+        "JP7": "2-3",
+        "JP8": "open",
+        "J23": "external BSS138 fitted"
+      },
+      "notes": "双向开漏转换；5V不得直通PB11。"
+    },
+    {
+      "id": "encoder_module_pullup",
+      "requires": {
+        "R27": "DNP",
+        "R28": "DNP"
+      },
+      "notes": "保留实物模块已有到EXT的CLK/DT上拉。"
+    },
+    {
+      "id": "encoder_board_pullup",
+      "requires": {
+        "R27": "populate",
+        "R28": "populate"
+      },
+      "notes": "先移除模块CLK/DT原上拉，两路只拉CORE。"
+    },
+    {
+      "id": "i2c_pullups",
+      "requires": {
+        "R8": "conditional",
+        "R9": "conditional"
+      },
+      "notes": "全总线等效上拉只到3V3_EXT，起步100kHz；按现有模块上拉和总线波形核算，不默认每块并装。"
+    },
+    {
+      "id": "digital_5v",
+      "requires": {
+        "external_adapter": "per affected input"
+      },
+      "notes": "模块DO→10k→2N3904 B，B→100k→GND，E→GND，C→对应3.3V输入，C→10k→3V3_EXT；逻辑反相。用于6路IR或DF BUSY，不能用于DHT/SPI/I2C/模拟AO。"
+    }
+  ],
+  "sources": [
+    {
+      "title": "当前低成本 WIRING.md",
+      "path": "D:\\Work\\嵌入式课设\\stm32-rfid-smart-bin\\hardware\\current-low-cost\\WIRING.md"
+    },
+    {
+      "title": "原两板结构化布局",
+      "path": "D:\\Work\\嵌入式课设\\stm32-rfid-smart-bin\\hardware\\current-low-cost\\perfboard\\layout.json"
+    },
+    {
+      "title": "330步骤手册源",
+      "path": "D:\\Work\\嵌入式课设\\stm32-rfid-smart-bin\\docs\\manual\\ASSEMBLY.md"
+    },
+    {
+      "title": "TI SN74AHCT125 datasheet",
+      "url": "https://www.ti.com/lit/ds/symlink/sn74ahct125.pdf"
+    },
+    {
+      "title": "onsemi 2N3904 Rev3 / TO92 1E2B3C",
+      "url": "https://www.onsemi.com/pdf/datasheet/2n3904-d.pdf"
+    },
+    {
+      "title": "Microchip MCP23017 DS20001952D（GPA7/GPB7仅输出）",
+      "url": "https://ww1.microchip.com/downloads/aemDocuments/documents/APID/ProductDocuments/DataSheets/MCP23017-Data-Sheet-DS20001952.pdf"
+    }
+  ],
+  "power_budget": {
+    "battery": "protected 2S18650 6.6–8.4V normal range; 6.0V abnormal immediate-stop threshold; >=5A pack capability",
+    "fuse": "external 5x20mm 3A initial value; final response curve and wire protection validated with real loads",
+    "buck": "external 5.00V, real >=3A continuous and >=4A transient under actual input/cooling conditions",
+    "motor_assumption": "each <=1A stall at5V; two <=2A; never intentional continuous stall",
+    "servo_allowance_A": 2.0,
+    "logic_total_5v_equivalent_allowance_A": 0.5,
+    "mutual_exclusion": "motor motion and servo travel interlocked, motors disabled before lid motion; voice limited to budget",
+    "worst_planned_active_A": 2.5,
+    "with_20_percent_margin_A": 3.0,
+    "external_3v3": "existing regulator >=200mA per original list; total actual peripheral current must fit with >=20% headroom; if not, replace with >=300mA qualified module or reduce load",
+    "large_current_off_board": [
+      "battery fuse/master switch/XT30",
+      "buck conversion loop and wiring",
+      "TB6612 bridge and motor outputs",
+      "SG90 internal drive",
+      "DFPlayer speaker outputs"
+    ],
+    "dupont_limit": "signal and verified low-current logic only; never battery/buck trunk, motor VM/output, servo power/return or speaker current"
+  },
+  "known_boundaries": [
+    "Existing three-NPN stop gate depends on 3V3_EXT. It is not a certified or fully power-failure-safe emergency-stop circuit; EXT loss while MCU remains powered must not be treated as covered. Do not drive external pins high if EXT is absent. Main switch physically removes supply.",
+    "Battery ADC remains connected to VBAT_SW while core could be off. Open JP9 before isolated MCU power-down with battery still live; normal single-supply startup retained. No claim of zero injection current during arbitrary power sequences.",
+    "5V digital inputs require external validated adaptation; board does not make J33/DF BUSY 5V tolerant. Unknown modules are not plug-and-play.",
+    "DHT5V requires external BSS138 and JP8 open; a 5V analog light signal needs appropriate analog divider, not an NPN.",
+    "3V3_CORE and3V3_EXT must not be parallelled. Module pullups on encoder or buses must be checked; signal protection paths can still couple rails when one rail is unpowered.",
+    "GPA7 and GPB7 are output-only on current MCP23017 datasheet; configure low outputs and leave unwired. POR/reset inputs on other pins are handled by STBY defaults and commissioning sequence.",
+    "All 2N3904 footprints use1E2B3C per referenced onsemi part. Actual purchased transistor leadout must match; otherwise use insulated formed leads/verified adapter, do not reverse by visual guess.",
+    "Capacitor and terminal physical dimensions are not guaranteed by nominal value. D12.5/P5 electrolytic courtyard reserved; measure purchased parts, use mechanically supported short insulated leads if needed.",
+    "Core board must be removed from teaching base; PA11/12 are GPIO not USB, PA12 existing USB pullup must be assessed; core USB power and board5V must not be directly dual-fed.",
+    "This definition is not ERC/DRC or manufacturing proof. Layout, board/schematic consistency, fabrication checks and hardware tests are separate."
+  ],
+  "layout_requirements": [
+    "J3 is power star: J4/J5/J6 positive and return branches do not daisy-chain through signal headers or MCU ground leads. Use wide copper and solid low-impedance ground; do not make long high-current thermals.",
+    "KeepVBAT/J1/J2/J27 visibly separate from3.3V signal headers. Label every connector pin and pin1 square. Put polarity on board top silk.",
+    "PlaceC1/C4 nearJ4,C2/C5 nearJ5,C3/C6 nearJ6;C8 adjacentU1 pin14/7. PlaceADC divider/filter away from motor current routes.",
+    "Give electrolytics D12.5mm bodies clearance; terminal screws accessible at edge, cable bend space outside outline. Check purchased terminal pin shape and actual body before release.",
+    "All selectable jumpers single-cap only; clearly silk 3V3/5V or OFF/ON. Keep JP9 and reset test accessible. Reserve mounting holes and insulated underside.",
+    "All external module signal wiring <=20cm initially;SPI andI2C share nearby GND. Choose100kHz I2C and conservative SPI clock for first test."
+  ],
+  "power_flags": [
+    "GND",
+    "VBAT_SW",
+    "5V_BUS",
+    "3V3_EXT",
+    "3V3_CORE"
+  ],
+  "mechanical_envelopes": {
+    "electrolytics": {
+      "max_body_diameter_mm": 12.5,
+      "nominal_lead_pitch_mm": 5.0,
+      "height": "check actual parts and enclosure; not constrained by value alone",
+      "fallback": "short insulated leads plus mechanical support, no unsupported hanging capacitor"
+    },
+    "terminals": {
+      "pitch_mm": 5.08,
+      "positions": 2,
+      "target_max_body_mm": [
+        11.5,
+        10.5
+      ],
+      "wire_entry": "board edge, >=10mm external working clearance; verify actual KF301 variant"
+    },
+    "resistors": {
+      "lead_pitch_mm": 10.16,
+      "max_body_mm": [
+        6.3,
+        2.5
+      ]
+    },
+    "through_hole_pins": "manufacturing drill sizes determined by actual component leads plus assembly tolerance, not nominal pitch"
+  },
+  "summary": {
+    "electrical_positions": 49,
+    "original_electrical_positions": 44,
+    "additional_optional_bias_positions": 5,
+    "connector_groups": 33,
+    "power_terminal_groups": 6,
+    "header_groups": 27,
+    "jumper_groups": 8,
+    "total_refs": 94,
+    "kind_counts": {
+      "connector": 33,
+      "electrolytic": 3,
+      "capacitor": 5,
+      "resistor": 37,
+      "logic": 1,
+      "npn": 3,
+      "jumper": 8,
+      "mounting_hole": 4
+    }
+  },
+  "validation": {
+    "unique_refs": "PASS",
+    "original_44_electrical_parts_preserved": "PASS",
+    "feature_count": 33,
+    "assigned_mcu_io_count": 29,
+    "no_mcp_bit7_external_net": "PASS",
+    "i2c_alias_connected": "PASS",
+    "footprint_library_existence": "pending root verification",
+    "physical_bought_part_fit": "not measured",
+    "manufacturing_checks": "not run in this electrical-definition task"
+  }
+}

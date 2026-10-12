@@ -1,0 +1,119 @@
+{
+  "score": {
+    "total": 3750.0,
+    "collision_count": 0,
+    "wire_hits": 0,
+    "component_hits": 0,
+    "text_hits": 0,
+    "collision_area": 0,
+    "wire_corner_count": 6,
+    "wire_corner_penalty": 150.0,
+    "diagonal_wire_count": 0,
+    "diagonal_wire_penalty": 0.0,
+    "symbol_wire_conflict_count": 3,
+    "symbol_wire_penalty": 3600.0,
+    "symbol_wire_clearance_count": 0,
+    "symbol_wire_clearance_penalty": 0.0,
+    "symbol_wire_edge_hug_count": 0,
+    "symbol_wire_edge_hug_penalty": 0
+  },
+  "wire_length": {
+    "total_mm": 708.66,
+    "segment_count": 95,
+    "longest_segment_mm": 7.62
+  },
+  "collisions": [],
+  "symbol_wire_conflicts": [
+    {
+      "kind": "overlap",
+      "ref": "Q1",
+      "lib_id": "SmartBin_A:Transistor_BJT_2N3904",
+      "bbox": {
+        "x1": 152.39999999999998,
+        "y1": 71.12,
+        "x2": 160.01999999999998,
+        "y2": 81.28
+      },
+      "expanded_bbox": null,
+      "clearance_side": null,
+      "edge_side": null,
+      "orth_distance": null,
+      "overlap_span": null,
+      "preferred_dx": 0.0,
+      "preferred_dy": 0.0,
+      "wire": {
+        "uuid": "d869b709-037b-5f1a-9018-706a1ed9c109",
+        "p1": [
+          152.4,
+          76.2
+        ],
+        "p2": [
+          144.78,
+          76.2
+        ]
+      }
+    },
+    {
+      "kind": "overlap",
+      "ref": "Q2",
+      "lib_id": "SmartBin_A:Transistor_BJT_2N3904",
+      "bbox": {
+        "x1": 152.39999999999998,
+        "y1": 101.60000000000001,
+        "x2": 160.01999999999998,
+        "y2": 111.76
+      },
+      "expanded_bbox": null,
+      "clearance_side": null,
+      "edge_side": null,
+      "orth_distance": null,
+      "overlap_span": null,
+      "preferred_dx": 0.0,
+      "preferred_dy": 0.0,
+      "wire": {
+        "uuid": "2097cfdc-5f56-5fe3-a908-73fb5db28346",
+        "p1": [
+          152.4,
+          106.68
+        ],
+        "p2": [
+          144.78,
+          106.68
+        ]
+      }
+    },
+    {
+      "kind": "overlap",
+      "ref": "Q3",
+      "lib_id": "SmartBin_A:Transistor_BJT_2N3904",
+      "bbox": {
+        "x1": 152.39999999999998,
+        "y1": 133.35,
+        "x2": 160.01999999999998,
+        "y2": 143.51000000000002
+      },
+      "expanded_bbox": null,
+      "clearance_side": null,
+      "edge_side": null,
+      "orth_distance": null,
+      "overlap_span": null,
+      "preferred_dx": 0.0,
+      "preferred_dy": 0.0,
+      "wire": {
+        "uuid": "9bdbd1dc-5e8c-5e81-8f96-b98815f93e0e",
+        "p1": [
+          152.4,
+          138.43
+        ],
+        "p2": [
+          144.78,
+          138.43
+        ]
+      }
+    }
+  ],
+  "filters": {
+    "only_text": null,
+    "margin": 0.0
+  }
+}

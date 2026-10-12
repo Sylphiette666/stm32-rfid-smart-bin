@@ -2,6 +2,8 @@
 
 本组图解已加入同名图解增强版Word第62章。全部标注单位为毫米；这是尺寸关系图，不是1∶1打印描孔模板。沿成品线外侧废料切削，按数字量取尺寸。5mm是边距及零件之间的预留废料，不是刀具宽度。
 
+本组加入时的175页版本是历史计数。当前[同名图解增强版Word](../STM32与RFID智能移动垃圾桶_逐步组装与调试实施手册_图解增强版.docx)为198页、330个步骤、57幅图、64张表；图数由49幅操作图解、1幅外观概念图和原7幅图组成。第62章机械裁剪继续保留，第63章新增A1裸PCB替代双洞洞板的装配说明；第61章仅作旧洞洞板历史参照。新图45—49位于[A1图解目录](../../../hardware/current-low-cost/pcb-a/diagrams/)，当前手册更新源位于[pcb-a-update-20261012](../pcb-a-update-20261012/)。
+
 | 图 | 内容 | 可缩放图源 |
 | --- | --- | --- |
 | 40 | 两张300×300×5木板的排料与余料 | [SVG](wood/wood_40_nesting.svg) |
@@ -38,6 +40,6 @@ P01四孔为(30,25)、(250,25)、(30,195)、(250,195)，孔径3.4。P02自身四
 
 wood/build_wood.cjs、pvc/build_pvc_diagrams.py是图源。运行需Node/Playwright/Edge或Python/Pillow与中文字体；运行环境路径在脚本顶部，可按实际环境调整。两个figure_manifest.json提供图注、说明与图片规格；geometry_checks.json、nesting_check.json和视检记录记录了几何检查及实际PNG检查。
 
-build_cutting_manual.py用于增量修改，输入必须为Git提交616a7bc中的168页图解增强版，SHA256为251cd1a64bbd1a466630d4e966b3866fa1ca21587e8ba4a98dcf5b7da0dbdf59。以--input指定备份、--output指定输出，避免覆盖未合入修改；retained_formatting.py沿用原版格式。之后需要用Word更新目录、渲染并逐页检查。
+build_cutting_manual.py用于重建本轮机械裁剪增量，输入必须为Git提交616a7bc中的168页历史图解增强版，SHA256为251cd1a64bbd1a466630d4e966b3866fa1ca21587e8ba4a98dcf5b7da0dbdf59。以--input指定备份、--output指定输出，避免覆盖未合入修改；retained_formatting.py沿用原版格式。该脚本不包含后续A1章节，不能单独运行后覆盖当前198页Word。之后需要用Word更新目录、渲染并逐页检查。
 
-本轮只增加机械裁剪图。PCB替代洞洞板正在讨论，现有电路基线仍为MCP23017模块与PWR/IO洞洞板。旧PCF8574 PCB归档不能直接拿来替代。所有图纸尚需实际加工和装配验证。
+本轮源脚本只增加机械裁剪图。当前电气路线已确定为MCP23017成品模块外置、100×100mm A1裸PCB手焊，优先复用已购器件；旧PWR/IO洞洞板及PCF8574 PCB均保留归档，不能混用。电子板安装位置按新PCB实物试摆、描孔，不修改已确定的壳体和盖板尺寸。所有图纸尚需实际加工和装配验证。

@@ -1,0 +1,54 @@
+{
+  "status": "PASS",
+  "board_sha256": "b16aad367273b6b39cf8452db6615a54745bc44198ac9485f1a253c8de96b066",
+  "units": "mm",
+  "coordinate_transform": "Excellon X-50, -Y-50 = board-relative native X,Y",
+  "drill_matches": [
+    {
+      "file": "SmartBin_A-PTH.drl",
+      "sha256": "16d6d9d6dfc8189957b01b5d9c76ceaf90d3101524693ce8fd592265d0576f30",
+      "expected_count": 356,
+      "actual_count": 356,
+      "coordinate_tolerance_per_axis_mm": 0.0005,
+      "maximum_radial_rounding_mm": 0.0006403124237445668,
+      "missing": [],
+      "extra": [],
+      "pass": true
+    },
+    {
+      "file": "SmartBin_A-NPTH.drl",
+      "sha256": "6f1ba6e43990c7809749b7ae162cb0c5db7c7c858a2f01b732d1f30a6c6eef2b",
+      "expected_count": 4,
+      "actual_count": 4,
+      "coordinate_tolerance_per_axis_mm": 0.0005,
+      "maximum_radial_rounding_mm": 0.0,
+      "missing": [],
+      "extra": [],
+      "pass": true
+    }
+  ],
+  "minimum_hole_edge_spacing": {
+    "pad-pad": {
+      "gap_mm": 1.539999999999992,
+      "objects": [
+        "J32.2",
+        "J32.3"
+      ]
+    },
+    "pad-via": {
+      "gap_mm": 0.8,
+      "objects": [
+        "J25.1",
+        "via5"
+      ]
+    },
+    "via-via": {
+      "gap_mm": 0.6747884675600061,
+      "objects": [
+        "via44",
+        "via56"
+      ]
+    }
+  },
+  "scope": "Coordinates matched one-to-one at Excellon 0.001 mm precision; exact diameter and PTH/NPTH class; no physical part fit assertion."
+}

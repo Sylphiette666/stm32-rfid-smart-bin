@@ -1,0 +1,129 @@
+{
+  "source": "D:\\Work\\嵌入式课设\\.pcb-lowcost-20261012\\a-design\\manufacturing\\Gerber_RS274X.zip",
+  "source_sha256": "d613507ebb631bb055847faf6cc9197b1f7f826a0880b4674f329b2af03ee1cf",
+  "parser": "gerbonara 1.6.3",
+  "board_bounds_mm": [
+    [
+      49.95,
+      -150.05
+    ],
+    [
+      150.05,
+      -49.95
+    ]
+  ],
+  "layers": {
+    "('top', 'copper')": {
+      "objects": 925,
+      "bounds": [
+        [
+          50.7,
+          -149.4815
+        ],
+        [
+          149.3,
+          -50.7
+        ]
+      ]
+    },
+    "('top', 'mask')": {
+      "objects": 298,
+      "bounds": [
+        [
+          53.4,
+          -147.35
+        ],
+        [
+          146.6,
+          -53.4
+        ]
+      ]
+    },
+    "('top', 'silk')": {
+      "objects": 4332,
+      "bounds": [
+        [
+          51.61,
+          -148.52981899999997
+        ],
+        [
+          144.18,
+          -51.32608
+        ]
+      ]
+    },
+    "('bottom', 'copper')": {
+      "objects": 932,
+      "bounds": [
+        [
+          50.7,
+          -149.4815
+        ],
+        [
+          149.3,
+          -50.7
+        ]
+      ]
+    },
+    "('bottom', 'mask')": {
+      "objects": 298,
+      "bounds": [
+        [
+          53.4,
+          -147.35
+        ],
+        [
+          146.6,
+          -53.4
+        ]
+      ]
+    },
+    "('bottom', 'silk')": {
+      "objects": 2830,
+      "bounds": [
+        [
+          53.210713999999996,
+          -147.02981899999997
+        ],
+        [
+          141.369284,
+          -51.32608
+        ]
+      ]
+    },
+    "('mechanical', 'outline')": {
+      "objects": 4,
+      "bounds": [
+        [
+          49.95,
+          -150.05
+        ],
+        [
+          150.05,
+          -49.95
+        ]
+      ]
+    }
+  },
+  "pth_objects": 356,
+  "npth_objects": 4,
+  "warnings": [
+    "C:\\Users\\35462\\AppData\\Local\\Temp\\tmplw32m1oh\\input\\SmartBin_A-NPTH.drl:12 \"G90\": G90 header statement found after end of header",
+    "C:\\Users\\35462\\AppData\\Local\\Temp\\tmplw32m1oh\\input\\SmartBin_A-PTH.drl:20 \"G90\": G90 header statement found after end of header",
+    "Aperture definition using macro RoundRect has more parameters than the macro uses.",
+    "Aperture definition using macro RoundRect has more parameters than the macro uses.",
+    "Aperture definition using macro RoundRect has more parameters than the macro uses.",
+    "Aperture definition using macro RoundRect has more parameters than the macro uses.",
+    "Aperture definition using macro RoundRect has more parameters than the macro uses.",
+    "Aperture definition using macro RoundRect has more parameters than the macro uses.",
+    "Layer \"top paste\" not found. Found layers: top copper, top mask, top silk, bottom copper, bottom mask, bottom silk, mechanical outline",
+    "Aperture definition using macro RoundRect has more parameters than the macro uses.",
+    "Aperture definition using macro RoundRect has more parameters than the macro uses.",
+    "Aperture definition using macro RoundRect has more parameters than the macro uses.",
+    "Aperture definition using macro RoundRect has more parameters than the macro uses.",
+    "Aperture definition using macro RoundRect has more parameters than the macro uses.",
+    "Aperture definition using macro RoundRect has more parameters than the macro uses.",
+    "Layer \"bottom paste\" not found. Found layers: top copper, top mask, top silk, bottom copper, bottom mask, bottom silk, mechanical outline"
+  ],
+  "scope": "Independent parser rendered actual exported Gerber/Excellon files; visual review is a separate recorded step."
+}

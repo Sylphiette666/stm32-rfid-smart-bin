@@ -1,0 +1,182 @@
+﻿Ref,Name,PCB_pin,Net,External_signal_by_label,Connector_type,Notes
+J1,BAT_SW,1,VBAT_SW,外置总开关输出,THT screw terminal 2P 5.08mm,电池保护板输出正极经外置保险座和总开关后进入1脚；2脚为电池负极。禁止接未经保险的裸电池。
+J1,BAT_SW,2,GND,电池负极,THT screw terminal 2P 5.08mm,电池保护板输出正极经外置保险座和总开关后进入1脚；2脚为电池负极。禁止接未经保险的裸电池。
+J2,BUCK_IN,1,VBAT_SW,降压IN+,THT screw terminal 2P 5.08mm,外置非隔离5V降压输入；20AWG短线。
+J2,BUCK_IN,2,GND,降压IN-,THT screw terminal 2P 5.08mm,外置非隔离5V降压输入；20AWG短线。
+J3,BUCK_OUT,1,5V_BUS,降压OUT+,THT screw terminal 2P 5.08mm,外置降压输出，接入板上星形中心。电池满电8.4V不能接此口。
+J3,BUCK_OUT,2,GND,降压OUT-,THT screw terminal 2P 5.08mm,外置降压输出，接入板上星形中心。电池满电8.4V不能接此口。
+J4,MOTOR_PWR,1,5V_BUS,TB6612 VM,THT screw terminal 2P 5.08mm,电机主电流支路；22AWG短线，长线/偏大电流用20AWG。
+J4,MOTOR_PWR,2,GND,TB6612动力GND,THT screw terminal 2P 5.08mm,电机主电流支路；22AWG短线，长线/偏大电流用20AWG。
+J5,SERVO_PWR,1,5V_BUS,SG90红线/正极,THT screw terminal 2P 5.08mm,舵机主电流仅走本支路；原3芯舵机延长线在配电处分离电源与信号。
+J5,SERVO_PWR,2,GND,SG90棕或黑线/负极,THT screw terminal 2P 5.08mm,舵机主电流仅走本支路；原3芯舵机延长线在配电处分离电源与信号。
+J6,LOGIC_PWR,1,5V_BUS,逻辑电源分配正极,THT screw terminal 2P 5.08mm,逻辑5V支路；可给DFPlayer和3.3V稳压输入等可靠分线，不把多根线强塞一只端子。
+J6,LOGIC_PWR,2,GND,逻辑电源分配地,THT screw terminal 2P 5.08mm,逻辑5V支路；可给DFPlayer和3.3V稳压输入等可靠分线，不把多根线强塞一只端子。
+J7,EXT_REG,1,5V_BUS,外置稳压IN+,custom 1x3 2.54mm signal header,外置3.3V稳压模块低电流接口；确认额定输出及GND；本口3脚是模块输出进入本板，不是核心3V3。
+J7,EXT_REG,2,GND,外置稳压GND/IN-/OUT-,custom 1x3 2.54mm signal header,外置3.3V稳压模块低电流接口；确认额定输出及GND；本口3脚是模块输出进入本板，不是核心3V3。
+J7,EXT_REG,3,3V3_EXT,外置稳压OUT+,custom 1x3 2.54mm signal header,外置3.3V稳压模块低电流接口；确认额定输出及GND；本口3脚是模块输出进入本板，不是核心3V3。
+J8,CORE_PA,1,5V_BUS,核心5V输入,custom 1x17 2.54mm signal header,自定义17针线束；按核心丝印逐线连接，不能整排直插；正常系统核心由本板1脚供5V，禁止同时插核心USB；若做独立USB台架，先断本板电源并拔下与核心相连的全部线束，再另行测试。
+J8,CORE_PA,2,GND,核心GND,custom 1x17 2.54mm signal header,自定义17针线束；按核心丝印逐线连接，不能整排直插；正常系统核心由本板1脚供5V，禁止同时插核心USB；若做独立USB台架，先断本板电源并拔下与核心相连的全部线束，再另行测试。
+J8,CORE_PA,3,3V3_CORE,核心3V3输出/参考,custom 1x17 2.54mm signal header,自定义17针线束；按核心丝印逐线连接，不能整排直插；正常系统核心由本板1脚供5V，禁止同时插核心USB；若做独立USB台架，先断本板电源并拔下与核心相连的全部线束，再另行测试。
+J8,CORE_PA,4,PA0,核心PA0,custom 1x17 2.54mm signal header,自定义17针线束；按核心丝印逐线连接，不能整排直插；正常系统核心由本板1脚供5V，禁止同时插核心USB；若做独立USB台架，先断本板电源并拔下与核心相连的全部线束，再另行测试。
+J8,CORE_PA,5,PA1,核心PA1,custom 1x17 2.54mm signal header,自定义17针线束；按核心丝印逐线连接，不能整排直插；正常系统核心由本板1脚供5V，禁止同时插核心USB；若做独立USB台架，先断本板电源并拔下与核心相连的全部线束，再另行测试。
+J8,CORE_PA,6,PA2,核心PA2,custom 1x17 2.54mm signal header,自定义17针线束；按核心丝印逐线连接，不能整排直插；正常系统核心由本板1脚供5V，禁止同时插核心USB；若做独立USB台架，先断本板电源并拔下与核心相连的全部线束，再另行测试。
+J8,CORE_PA,7,PA3,核心PA3,custom 1x17 2.54mm signal header,自定义17针线束；按核心丝印逐线连接，不能整排直插；正常系统核心由本板1脚供5V，禁止同时插核心USB；若做独立USB台架，先断本板电源并拔下与核心相连的全部线束，再另行测试。
+J8,CORE_PA,8,PA4,核心PA4,custom 1x17 2.54mm signal header,自定义17针线束；按核心丝印逐线连接，不能整排直插；正常系统核心由本板1脚供5V，禁止同时插核心USB；若做独立USB台架，先断本板电源并拔下与核心相连的全部线束，再另行测试。
+J8,CORE_PA,9,PA5,核心PA5,custom 1x17 2.54mm signal header,自定义17针线束；按核心丝印逐线连接，不能整排直插；正常系统核心由本板1脚供5V，禁止同时插核心USB；若做独立USB台架，先断本板电源并拔下与核心相连的全部线束，再另行测试。
+J8,CORE_PA,10,PA6,核心PA6,custom 1x17 2.54mm signal header,自定义17针线束；按核心丝印逐线连接，不能整排直插；正常系统核心由本板1脚供5V，禁止同时插核心USB；若做独立USB台架，先断本板电源并拔下与核心相连的全部线束，再另行测试。
+J8,CORE_PA,11,PA7,核心PA7,custom 1x17 2.54mm signal header,自定义17针线束；按核心丝印逐线连接，不能整排直插；正常系统核心由本板1脚供5V，禁止同时插核心USB；若做独立USB台架，先断本板电源并拔下与核心相连的全部线束，再另行测试。
+J8,CORE_PA,12,PA8,核心PA8,custom 1x17 2.54mm signal header,自定义17针线束；按核心丝印逐线连接，不能整排直插；正常系统核心由本板1脚供5V，禁止同时插核心USB；若做独立USB台架，先断本板电源并拔下与核心相连的全部线束，再另行测试。
+J8,CORE_PA,13,PA9,核心PA9,custom 1x17 2.54mm signal header,自定义17针线束；按核心丝印逐线连接，不能整排直插；正常系统核心由本板1脚供5V，禁止同时插核心USB；若做独立USB台架，先断本板电源并拔下与核心相连的全部线束，再另行测试。
+J8,CORE_PA,14,PA10,核心PA10,custom 1x17 2.54mm signal header,自定义17针线束；按核心丝印逐线连接，不能整排直插；正常系统核心由本板1脚供5V，禁止同时插核心USB；若做独立USB台架，先断本板电源并拔下与核心相连的全部线束，再另行测试。
+J8,CORE_PA,15,PA11,核心PA11,custom 1x17 2.54mm signal header,自定义17针线束；按核心丝印逐线连接，不能整排直插；正常系统核心由本板1脚供5V，禁止同时插核心USB；若做独立USB台架，先断本板电源并拔下与核心相连的全部线束，再另行测试。
+J8,CORE_PA,16,PA12,核心PA12,custom 1x17 2.54mm signal header,自定义17针线束；按核心丝印逐线连接，不能整排直插；正常系统核心由本板1脚供5V，禁止同时插核心USB；若做独立USB台架，先断本板电源并拔下与核心相连的全部线束，再另行测试。
+J8,CORE_PA,17,PA15,核心PA15,custom 1x17 2.54mm signal header,自定义17针线束；按核心丝印逐线连接，不能整排直插；正常系统核心由本板1脚供5V，禁止同时插核心USB；若做独立USB台架，先断本板电源并拔下与核心相连的全部线束，再另行测试。
+J9,CORE_PB,1,GND,核心GND,custom 1x16 2.54mm signal header,自定义16针线束；PB2/BOOT1不接；PA13/PA14在核心直接接SWD并始终保留。
+J9,CORE_PB,2,PB0,核心PB0,custom 1x16 2.54mm signal header,自定义16针线束；PB2/BOOT1不接；PA13/PA14在核心直接接SWD并始终保留。
+J9,CORE_PB,3,PB1,核心PB1,custom 1x16 2.54mm signal header,自定义16针线束；PB2/BOOT1不接；PA13/PA14在核心直接接SWD并始终保留。
+J9,CORE_PB,4,PB3,核心PB3,custom 1x16 2.54mm signal header,自定义16针线束；PB2/BOOT1不接；PA13/PA14在核心直接接SWD并始终保留。
+J9,CORE_PB,5,PB4,核心PB4,custom 1x16 2.54mm signal header,自定义16针线束；PB2/BOOT1不接；PA13/PA14在核心直接接SWD并始终保留。
+J9,CORE_PB,6,PB5,核心PB5,custom 1x16 2.54mm signal header,自定义16针线束；PB2/BOOT1不接；PA13/PA14在核心直接接SWD并始终保留。
+J9,CORE_PB,7,I2C_SCL,核心PB6,custom 1x16 2.54mm signal header,自定义16针线束；PB2/BOOT1不接；PA13/PA14在核心直接接SWD并始终保留。
+J9,CORE_PB,8,I2C_SDA,核心PB7,custom 1x16 2.54mm signal header,自定义16针线束；PB2/BOOT1不接；PA13/PA14在核心直接接SWD并始终保留。
+J9,CORE_PB,9,PB8,核心PB8,custom 1x16 2.54mm signal header,自定义16针线束；PB2/BOOT1不接；PA13/PA14在核心直接接SWD并始终保留。
+J9,CORE_PB,10,PB9,核心PB9,custom 1x16 2.54mm signal header,自定义16针线束；PB2/BOOT1不接；PA13/PA14在核心直接接SWD并始终保留。
+J9,CORE_PB,11,PB10,核心PB10,custom 1x16 2.54mm signal header,自定义16针线束；PB2/BOOT1不接；PA13/PA14在核心直接接SWD并始终保留。
+J9,CORE_PB,12,PB11,核心PB11,custom 1x16 2.54mm signal header,自定义16针线束；PB2/BOOT1不接；PA13/PA14在核心直接接SWD并始终保留。
+J9,CORE_PB,13,PB12,核心PB12,custom 1x16 2.54mm signal header,自定义16针线束；PB2/BOOT1不接；PA13/PA14在核心直接接SWD并始终保留。
+J9,CORE_PB,14,PB13,核心PB13,custom 1x16 2.54mm signal header,自定义16针线束；PB2/BOOT1不接；PA13/PA14在核心直接接SWD并始终保留。
+J9,CORE_PB,15,PB14,核心PB14,custom 1x16 2.54mm signal header,自定义16针线束；PB2/BOOT1不接；PA13/PA14在核心直接接SWD并始终保留。
+J9,CORE_PB,16,PB15,核心PB15,custom 1x16 2.54mm signal header,自定义16针线束；PB2/BOOT1不接；PA13/PA14在核心直接接SWD并始终保留。
+J10,MCP_BUS,1,3V3_EXT,模块VDD,custom 1x5 2.54mm signal header,成品MCP23017模块五线；A0/A1/A2在模块侧接地；INTA/INTB不用；RESET不接核心NRST。
+J10,MCP_BUS,2,GND,模块GND,custom 1x5 2.54mm signal header,成品MCP23017模块五线；A0/A1/A2在模块侧接地；INTA/INTB不用；RESET不接核心NRST。
+J10,MCP_BUS,3,I2C_SCL,模块SCL,custom 1x5 2.54mm signal header,成品MCP23017模块五线；A0/A1/A2在模块侧接地；INTA/INTB不用；RESET不接核心NRST。
+J10,MCP_BUS,4,I2C_SDA,模块SDA,custom 1x5 2.54mm signal header,成品MCP23017模块五线；A0/A1/A2在模块侧接地；INTA/INTB不用；RESET不接核心NRST。
+J10,MCP_BUS,5,MCP_RESET_N,模块RESET,custom 1x5 2.54mm signal header,成品MCP23017模块五线；A0/A1/A2在模块侧接地；INTA/INTB不用；RESET不接核心NRST。
+J11,MCP_A,1,MCP_GPA0,模块GPA0,custom 1x7 2.54mm signal header,逐线接模块GPA0至GPA6；GPA7不外接、软件设输出0。
+J11,MCP_A,2,MCP_GPA1,模块GPA1,custom 1x7 2.54mm signal header,逐线接模块GPA0至GPA6；GPA7不外接、软件设输出0。
+J11,MCP_A,3,MCP_GPA2,模块GPA2,custom 1x7 2.54mm signal header,逐线接模块GPA0至GPA6；GPA7不外接、软件设输出0。
+J11,MCP_A,4,MCP_GPA3,模块GPA3,custom 1x7 2.54mm signal header,逐线接模块GPA0至GPA6；GPA7不外接、软件设输出0。
+J11,MCP_A,5,MCP_GPA4,模块GPA4,custom 1x7 2.54mm signal header,逐线接模块GPA0至GPA6；GPA7不外接、软件设输出0。
+J11,MCP_A,6,MCP_GPA5,模块GPA5,custom 1x7 2.54mm signal header,逐线接模块GPA0至GPA6；GPA7不外接、软件设输出0。
+J11,MCP_A,7,MCP_GPA6,模块GPA6,custom 1x7 2.54mm signal header,逐线接模块GPA0至GPA6；GPA7不外接、软件设输出0。
+J12,MCP_B,1,MCP_GPB0,模块GPB0,custom 1x7 2.54mm signal header,逐线接模块GPB0至GPB6；GPB7不外接、软件设输出0。
+J12,MCP_B,2,MCP_GPB1,模块GPB1,custom 1x7 2.54mm signal header,逐线接模块GPB0至GPB6；GPB7不外接、软件设输出0。
+J12,MCP_B,3,MCP_GPB2,模块GPB2,custom 1x7 2.54mm signal header,逐线接模块GPB0至GPB6；GPB7不外接、软件设输出0。
+J12,MCP_B,4,MCP_GPB3,模块GPB3,custom 1x7 2.54mm signal header,逐线接模块GPB0至GPB6；GPB7不外接、软件设输出0。
+J12,MCP_B,5,MCP_GPB4,模块GPB4,custom 1x7 2.54mm signal header,逐线接模块GPB0至GPB6；GPB7不外接、软件设输出0。
+J12,MCP_B,6,MCP_GPB5,模块GPB5,custom 1x7 2.54mm signal header,逐线接模块GPB0至GPB6；GPB7不外接、软件设输出0。
+J12,MCP_B,7,MCP_GPB6,模块GPB6,custom 1x7 2.54mm signal header,逐线接模块GPB0至GPB6；GPB7不外接、软件设输出0。
+J13,OLED,1,3V3_EXT,OLED VCC,custom 1x4 2.54mm signal header,仅用于已确认3.3V供电I2C OLED；I2C拉3V3_EXT。
+J13,OLED,2,GND,OLED GND,custom 1x4 2.54mm signal header,仅用于已确认3.3V供电I2C OLED；I2C拉3V3_EXT。
+J13,OLED,3,I2C_SCL,OLED SCL,custom 1x4 2.54mm signal header,仅用于已确认3.3V供电I2C OLED；I2C拉3V3_EXT。
+J13,OLED,4,I2C_SDA,OLED SDA,custom 1x4 2.54mm signal header,仅用于已确认3.3V供电I2C OLED；I2C拉3V3_EXT。
+J14,MPU6050,1,V_MPU,MPU模块VIN/VCC,custom 1x4 2.54mm signal header,JP5选择模块实际VIN电压；不能因芯片3.3V就默认板VIN也3.3V；任何模块内5V总线上拉必须处理。
+J14,MPU6050,2,GND,模块GND,custom 1x4 2.54mm signal header,JP5选择模块实际VIN电压；不能因芯片3.3V就默认板VIN也3.3V；任何模块内5V总线上拉必须处理。
+J14,MPU6050,3,I2C_SCL,模块SCL,custom 1x4 2.54mm signal header,JP5选择模块实际VIN电压；不能因芯片3.3V就默认板VIN也3.3V；任何模块内5V总线上拉必须处理。
+J14,MPU6050,4,I2C_SDA,模块SDA,custom 1x4 2.54mm signal header,JP5选择模块实际VIN电压；不能因芯片3.3V就默认板VIN也3.3V；任何模块内5V总线上拉必须处理。
+J15,RC522,1,3V3_EXT,RC522 3.3V,custom 1x7 2.54mm signal header,RC522仅3.3V；商品排针SDA在SPI模式为CS，不接I2C；IRQ不接。
+J15,RC522,2,GND,RC522 GND,custom 1x7 2.54mm signal header,RC522仅3.3V；商品排针SDA在SPI模式为CS，不接I2C；IRQ不接。
+J15,RC522,3,PA4,RC522 SDA/SS/CS,custom 1x7 2.54mm signal header,RC522仅3.3V；商品排针SDA在SPI模式为CS，不接I2C；IRQ不接。
+J15,RC522,4,PA5,RC522 SCK,custom 1x7 2.54mm signal header,RC522仅3.3V；商品排针SDA在SPI模式为CS，不接I2C；IRQ不接。
+J15,RC522,5,PA7,RC522 MOSI,custom 1x7 2.54mm signal header,RC522仅3.3V；商品排针SDA在SPI模式为CS，不接I2C；IRQ不接。
+J15,RC522,6,PA6,RC522 MISO,custom 1x7 2.54mm signal header,RC522仅3.3V；商品排针SDA在SPI模式为CS，不接I2C；IRQ不接。
+J15,RC522,7,MCP_GPA4,RC522 RST,custom 1x7 2.54mm signal header,RC522仅3.3V；商品排针SDA在SPI模式为CS，不接I2C；IRQ不接。
+J16,FLASH,1,3V3_EXT,FLASH VCC,custom 1x8 2.54mm signal header,按实际3.3V SPI NOR芯片核对；不存在的WP/HOLD外露脚不接，不能套商品针序。
+J16,FLASH,2,GND,FLASH GND,custom 1x8 2.54mm signal header,按实际3.3V SPI NOR芯片核对；不存在的WP/HOLD外露脚不接，不能套商品针序。
+J16,FLASH,3,PA15,FLASH CS,custom 1x8 2.54mm signal header,按实际3.3V SPI NOR芯片核对；不存在的WP/HOLD外露脚不接，不能套商品针序。
+J16,FLASH,4,PA5,FLASH CLK,custom 1x8 2.54mm signal header,按实际3.3V SPI NOR芯片核对；不存在的WP/HOLD外露脚不接，不能套商品针序。
+J16,FLASH,5,PA7,FLASH DI/MOSI,custom 1x8 2.54mm signal header,按实际3.3V SPI NOR芯片核对；不存在的WP/HOLD外露脚不接，不能套商品针序。
+J16,FLASH,6,PA6,FLASH DO/MISO,custom 1x8 2.54mm signal header,按实际3.3V SPI NOR芯片核对；不存在的WP/HOLD外露脚不接，不能套商品针序。
+J16,FLASH,7,FLASH_WP_N,FLASH /WP（若外露）,custom 1x8 2.54mm signal header,按实际3.3V SPI NOR芯片核对；不存在的WP/HOLD外露脚不接，不能套商品针序。
+J16,FLASH,8,FLASH_HOLD_N,FLASH /HOLD（若外露）,custom 1x8 2.54mm signal header,按实际3.3V SPI NOR芯片核对；不存在的WP/HOLD外露脚不接，不能套商品针序。
+J17,HC05,1,V_HC05,HC05 VCC/VIN,custom 1x4 2.54mm signal header,JP6供电选择按模块规格；UART输入输出均须3.3V逻辑。
+J17,HC05,2,GND,HC05 GND,custom 1x4 2.54mm signal header,JP6供电选择按模块规格；UART输入输出均须3.3V逻辑。
+J17,HC05,3,PA2,HC05 RX,custom 1x4 2.54mm signal header,JP6供电选择按模块规格；UART输入输出均须3.3V逻辑。
+J17,HC05,4,PA3,HC05 TX,custom 1x4 2.54mm signal header,JP6供电选择按模块规格；UART输入输出均须3.3V逻辑。
+J18,PC_UART,1,GND,USB串口GND,custom 1x3 2.54mm signal header,3.3V逻辑USB转串口；本接口不提供电源，转换器VCC/5V/3V3脚不接。
+J18,PC_UART,2,PA9,USB串口RXD,custom 1x3 2.54mm signal header,3.3V逻辑USB转串口；本接口不提供电源，转换器VCC/5V/3V3脚不接。
+J18,PC_UART,3,PA10,USB串口TXD,custom 1x3 2.54mm signal header,3.3V逻辑USB转串口；本接口不提供电源，转换器VCC/5V/3V3脚不接。
+J19,TB6612_CTRL,1,3V3_EXT,驱动VCC,custom 1x9 2.54mm signal header,本口仅逻辑；VM和动力地走J4；AO1/AO2/BO1/BO2在驱动模块直接接电机粗线。
+J19,TB6612_CTRL,2,GND,驱动信号GND,custom 1x9 2.54mm signal header,本口仅逻辑；VM和动力地走J4；AO1/AO2/BO1/BO2在驱动模块直接接电机粗线。
+J19,TB6612_CTRL,3,MCP_GPA0,AIN1,custom 1x9 2.54mm signal header,本口仅逻辑；VM和动力地走J4；AO1/AO2/BO1/BO2在驱动模块直接接电机粗线。
+J19,TB6612_CTRL,4,MCP_GPA1,AIN2,custom 1x9 2.54mm signal header,本口仅逻辑；VM和动力地走J4；AO1/AO2/BO1/BO2在驱动模块直接接电机粗线。
+J19,TB6612_CTRL,5,MCP_GPA2,BIN1,custom 1x9 2.54mm signal header,本口仅逻辑；VM和动力地走J4；AO1/AO2/BO1/BO2在驱动模块直接接电机粗线。
+J19,TB6612_CTRL,6,MCP_GPA3,BIN2,custom 1x9 2.54mm signal header,本口仅逻辑；VM和动力地走J4；AO1/AO2/BO1/BO2在驱动模块直接接电机粗线。
+J19,TB6612_CTRL,7,PA8,PWMA,custom 1x9 2.54mm signal header,本口仅逻辑；VM和动力地走J4；AO1/AO2/BO1/BO2在驱动模块直接接电机粗线。
+J19,TB6612_CTRL,8,PA11,PWMB,custom 1x9 2.54mm signal header,本口仅逻辑；VM和动力地走J4；AO1/AO2/BO1/BO2在驱动模块直接接电机粗线。
+J19,TB6612_CTRL,9,STBY_OUT,STBY,custom 1x9 2.54mm signal header,本口仅逻辑；VM和动力地走J4；AO1/AO2/BO1/BO2在驱动模块直接接电机粗线。
+J20,SERVO_SIG,1,SERVO_SIG_5V,SG90信号（确认颜色）,custom 1x2 2.54mm signal header,1脚是PWM逻辑输出，不是舵机正电源；SG90主电源走J5，主地也直接回J5。
+J20,SERVO_SIG,2,GND,信号参考地/不得承担舵机主电流,custom 1x2 2.54mm signal header,1脚是PWM逻辑输出，不是舵机正电源；SG90主电源走J5，主地也直接回J5。
+J21,HC_SR04,1,5V_BUS,HC-SR04 VCC,custom 1x4 2.54mm signal header,ECHO已经由板上12k/20k分压至PB1；不得从模块ECHO再另跨线到核心。
+J21,HC_SR04,2,GND,GND,custom 1x4 2.54mm signal header,ECHO已经由板上12k/20k分压至PB1；不得从模块ECHO再另跨线到核心。
+J21,HC_SR04,3,US_TRIG_5V,TRIG,custom 1x4 2.54mm signal header,ECHO已经由板上12k/20k分压至PB1；不得从模块ECHO再另跨线到核心。
+J21,HC_SR04,4,US_ECHO_RAW,ECHO,custom 1x4 2.54mm signal header,ECHO已经由板上12k/20k分压至PB1；不得从模块ECHO再另跨线到核心。
+J22,DHT,1,V_DHT,DHT模块VCC,custom 1x3 2.54mm signal header,3.3V分支JP7=1-2且JP8闭合；5V分支JP7=2-3、JP8断开，外置BSS138经J23转换；严禁5V分支短接JP8。
+J22,DHT,2,GND,DHT GND,custom 1x3 2.54mm signal header,3.3V分支JP7=1-2且JP8闭合；5V分支JP7=2-3、JP8断开，外置BSS138经J23转换；严禁5V分支短接JP8。
+J22,DHT,3,DHT_DATA_RAW,DHT DATA,custom 1x3 2.54mm signal header,3.3V分支JP7=1-2且JP8闭合；5V分支JP7=2-3、JP8断开，外置BSS138经J23转换；严禁5V分支短接JP8。
+J23,DHT_LEVEL,1,3V3_EXT,BSS138 LV,custom 1x5 2.54mm signal header,仅5V DHT分支使用外置BSS138双向开漏转换；3.3V分支保持空。转换模块GND全部共地。
+J23,DHT_LEVEL,2,5V_BUS,BSS138 HV,custom 1x5 2.54mm signal header,仅5V DHT分支使用外置BSS138双向开漏转换；3.3V分支保持空。转换模块GND全部共地。
+J23,DHT_LEVEL,3,GND,BSS138 GND,custom 1x5 2.54mm signal header,仅5V DHT分支使用外置BSS138双向开漏转换；3.3V分支保持空。转换模块GND全部共地。
+J23,DHT_LEVEL,4,PB11,BSS138 LV通道,custom 1x5 2.54mm signal header,仅5V DHT分支使用外置BSS138双向开漏转换；3.3V分支保持空。转换模块GND全部共地。
+J23,DHT_LEVEL,5,DHT_DATA_RAW,BSS138对应HV通道,custom 1x5 2.54mm signal header,仅5V DHT分支使用外置BSS138双向开漏转换；3.3V分支保持空。转换模块GND全部共地。
+J24,ENCODER,1,3V3_EXT,编码器VCC,custom 1x5 2.54mm signal header,仅3.3V编码器模块；CLK/DT的CORE上拉与模块EXT上拉二选一；SW上拉同样核对。
+J24,ENCODER,2,GND,GND,custom 1x5 2.54mm signal header,仅3.3V编码器模块；CLK/DT的CORE上拉与模块EXT上拉二选一；SW上拉同样核对。
+J24,ENCODER,3,PB3,CLK,custom 1x5 2.54mm signal header,仅3.3V编码器模块；CLK/DT的CORE上拉与模块EXT上拉二选一；SW上拉同样核对。
+J24,ENCODER,4,PB4,DT,custom 1x5 2.54mm signal header,仅3.3V编码器模块；CLK/DT的CORE上拉与模块EXT上拉二选一；SW上拉同样核对。
+J24,ENCODER,5,MCP_GPB4,SW,custom 1x5 2.54mm signal header,仅3.3V编码器模块；CLK/DT的CORE上拉与模块EXT上拉二选一；SW上拉同样核对。
+J25,KEYS_LID,1,MCP_GPB5,MODE接点,custom 1x6 2.54mm signal header,三组接地开关：MODE、BACK轻触NO；闭盖用NO微动。轻触4脚同组导通须实测。
+J25,KEYS_LID,2,GND,MODE另一接点,custom 1x6 2.54mm signal header,三组接地开关：MODE、BACK轻触NO；闭盖用NO微动。轻触4脚同组导通须实测。
+J25,KEYS_LID,3,MCP_GPB6,BACK接点,custom 1x6 2.54mm signal header,三组接地开关：MODE、BACK轻触NO；闭盖用NO微动。轻触4脚同组导通须实测。
+J25,KEYS_LID,4,GND,BACK另一接点,custom 1x6 2.54mm signal header,三组接地开关：MODE、BACK轻触NO；闭盖用NO微动。轻触4脚同组导通须实测。
+J25,KEYS_LID,5,PB14,闭盖NO,custom 1x6 2.54mm signal header,三组接地开关：MODE、BACK轻触NO；闭盖用NO微动。轻触4脚同组导通须实测。
+J25,KEYS_LID,6,GND,闭盖COM,custom 1x6 2.54mm signal header,三组接地开关：MODE、BACK轻触NO；闭盖用NO微动。轻触4脚同组导通须实测。
+J26,BUMPER,1,PB12,右NC；右COM接左NC,custom 1x2 2.54mm signal header,外置左右微动NC串联，任一个碰撞或断线为高；不用NO端。
+J26,BUMPER,2,GND,左COM,custom 1x2 2.54mm signal header,外置左右微动NC串联，任一个碰撞或断线为高；不用NO端。
+J27,ESTOP_2NC,1,VBAT_SW,NC1一端,custom 1x4 2.54mm signal header,急停必须两组独立NC；开关闭合正常通，按下断。此口含最高8.4V，不能插传感器/MCU；禁止插跳帽伪装急停。
+J27,ESTOP_2NC,2,ESTOP_NC1_RETURN,NC1另一端,custom 1x4 2.54mm signal header,急停必须两组独立NC；开关闭合正常通，按下断。此口含最高8.4V，不能插传感器/MCU；禁止插跳帽伪装急停。
+J27,ESTOP_2NC,3,VBAT_SW,NC2一端,custom 1x4 2.54mm signal header,急停必须两组独立NC；开关闭合正常通，按下断。此口含最高8.4V，不能插传感器/MCU；禁止插跳帽伪装急停。
+J27,ESTOP_2NC,4,ESTOP_NC2_RETURN,NC2另一端,custom 1x4 2.54mm signal header,急停必须两组独立NC；开关闭合正常通，按下断。此口含最高8.4V，不能插传感器/MCU；禁止插跳帽伪装急停。
+J28,AO3400_ADAPTER,1,LED_GATE,MOS G,custom 1x3 2.54mm signal header,AO3400A是已购裸管，先焊到转接板并核对G/S/D，再外接本接口；不能照商品排针顺序。
+J28,AO3400_ADAPTER,2,GND,MOS S,custom 1x3 2.54mm signal header,AO3400A是已购裸管，先焊到转接板并核对G/S/D，再外接本接口；不能照商品排针顺序。
+J28,AO3400_ADAPTER,3,LED_NEG,MOS D,custom 1x3 2.54mm signal header,AO3400A是已购裸管，先焊到转接板并核对G/S/D，再外接本接口；不能照商品排针顺序。
+J29,WHITE_LED,1,LED_POS,LED阳极+,custom 1x2 2.54mm signal header,单颗小功率白LED正负端，板上220Ω串联限流；不能换成灯带。
+J29,WHITE_LED,2,LED_NEG,LED阴极-,custom 1x2 2.54mm signal header,单颗小功率白LED正负端，板上220Ω串联限流；不能换成灯带。
+J30,BUZZER,1,V_BUZZ,模块VCC,custom 1x3 2.54mm signal header,仅带驱动三线蜂鸣模块；核供电和有效电平再选JP3/4与R36/37。
+J30,BUZZER,2,GND,模块GND,custom 1x3 2.54mm signal header,仅带驱动三线蜂鸣模块；核供电和有效电平再选JP3/4与R36/37。
+J30,BUZZER,3,BUZZ_IN,模块IN,custom 1x3 2.54mm signal header,仅带驱动三线蜂鸣模块；核供电和有效电平再选JP3/4与R36/37。
+J31,DFPLAYER_SIG,1,GND,DFPlayer信号GND,custom 1x3 2.54mm signal header,仅信号口。DFPlayer VCC和电源GND以独立适当线径从J6引；喇叭接模块SPK1/2而非GND；模块TX不接。BUSY必须为<=3.3V或先外置适配。
+J31,DFPLAYER_SIG,2,DF_RX,DFPlayer RX,custom 1x3 2.54mm signal header,仅信号口。DFPlayer VCC和电源GND以独立适当线径从J6引；喇叭接模块SPK1/2而非GND；模块TX不接。BUSY必须为<=3.3V或先外置适配。
+J31,DFPLAYER_SIG,3,MCP_GPA6,经核对/适配的BUSY,custom 1x3 2.54mm signal header,仅信号口。DFPlayer VCC和电源GND以独立适当线径从J6引；喇叭接模块SPK1/2而非GND；模块TX不接。BUSY必须为<=3.3V或先外置适配。
+J32,LIGHT,1,3V3_EXT,光敏模块VCC（确认支持3.3V）,custom 1x3 2.54mm signal header,默认3.3V光敏AO。若仅DO改软件模式；若5V模拟AO需外置分压校准，禁止用NPN代替模拟采样。热敏为台架替换，不能与光敏并接。
+J32,LIGHT,2,GND,GND,custom 1x3 2.54mm signal header,默认3.3V光敏AO。若仅DO改软件模式；若5V模拟AO需外置分压校准，禁止用NPN代替模拟采样。热敏为台架替换，不能与光敏并接。
+J32,LIGHT,3,PB0,光敏AO（或明确选用DO）,custom 1x3 2.54mm signal header,默认3.3V光敏AO。若仅DO改软件模式；若5V模拟AO需外置分压校准，禁止用NPN代替模拟采样。热敏为台架替换，不能与光敏并接。
+J33,IR_INPUTS,1,3V3_EXT,3.3V外设电源,custom 1x9 2.54mm signal header,自定义供电/信号汇集口；六路输入必须经外置条件适配后<=3.3V。3V3与5V是两根可用电源，绝不能同时接模块同一VCC。
+J33,IR_INPUTS,2,5V_BUS,5V外设电源,custom 1x9 2.54mm signal header,自定义供电/信号汇集口；六路输入必须经外置条件适配后<=3.3V。3V3与5V是两根可用电源，绝不能同时接模块同一VCC。
+J33,IR_INPUTS,3,GND,模块公共地,custom 1x9 2.54mm signal header,自定义供电/信号汇集口；六路输入必须经外置条件适配后<=3.3V。3V3与5V是两根可用电源，绝不能同时接模块同一VCC。
+J33,IR_INPUTS,4,MCP_GPB0,循迹左有效3.3V输入,custom 1x9 2.54mm signal header,自定义供电/信号汇集口；六路输入必须经外置条件适配后<=3.3V。3V3与5V是两根可用电源，绝不能同时接模块同一VCC。
+J33,IR_INPUTS,5,MCP_GPB1,循迹中有效3.3V输入,custom 1x9 2.54mm signal header,自定义供电/信号汇集口；六路输入必须经外置条件适配后<=3.3V。3V3与5V是两根可用电源，绝不能同时接模块同一VCC。
+J33,IR_INPUTS,6,MCP_GPB2,循迹右有效3.3V输入,custom 1x9 2.54mm signal header,自定义供电/信号汇集口；六路输入必须经外置条件适配后<=3.3V。3V3与5V是两根可用电源，绝不能同时接模块同一VCC。
+J33,IR_INPUTS,7,MCP_GPB3,靠近DO有效3.3V输入,custom 1x9 2.54mm signal header,自定义供电/信号汇集口；六路输入必须经外置条件适配后<=3.3V。3V3与5V是两根可用电源，绝不能同时接模块同一VCC。
+J33,IR_INPUTS,8,PB8,前障碍DO有效3.3V输入,custom 1x9 2.54mm signal header,自定义供电/信号汇集口；六路输入必须经外置条件适配后<=3.3V。3V3与5V是两根可用电源，绝不能同时接模块同一VCC。
+J33,IR_INPUTS,9,PA12,投放对射DO有效3.3V输入,custom 1x9 2.54mm signal header,自定义供电/信号汇集口；六路输入必须经外置条件适配后<=3.3V。3V3与5V是两根可用电源，绝不能同时接模块同一VCC。
+JP3,BUZZ_SIG_SELECT,1,PB9,跳帽选择端,custom2.54mm,3.3V可驱动模块选1-2；仅确需5V控制时2-3；通道3始终使能；两输出不可并接。 默认:open
+JP3,BUZZ_SIG_SELECT,2,BUZZ_IN,跳帽选择端,custom2.54mm,3.3V可驱动模块选1-2；仅确需5V控制时2-3；通道3始终使能；两输出不可并接。 默认:open
+JP3,BUZZ_SIG_SELECT,3,BUZZ_5V,跳帽选择端,custom2.54mm,3.3V可驱动模块选1-2；仅确需5V控制时2-3；通道3始终使能；两输出不可并接。 默认:open
+JP4,BUZZ_V_SELECT,1,3V3_EXT,跳帽选择端,custom2.54mm,按模块VCC选3.3V或5V，只能一帽；未确认前保持开路。 默认:open
+JP4,BUZZ_V_SELECT,2,V_BUZZ,跳帽选择端,custom2.54mm,按模块VCC选3.3V或5V，只能一帽；未确认前保持开路。 默认:open
+JP4,BUZZ_V_SELECT,3,5V_BUS,跳帽选择端,custom2.54mm,按模块VCC选3.3V或5V，只能一帽；未确认前保持开路。 默认:open
+JP5,MPU_V_SELECT,1,3V3_EXT,跳帽选择端,custom2.54mm,核模块VIN/稳压压差后选择；无论VIN如何SCL/SDA均只拉EXT3.3V。 默认:open
+JP5,MPU_V_SELECT,2,V_MPU,跳帽选择端,custom2.54mm,核模块VIN/稳压压差后选择；无论VIN如何SCL/SDA均只拉EXT3.3V。 默认:open
+JP5,MPU_V_SELECT,3,5V_BUS,跳帽选择端,custom2.54mm,核模块VIN/稳压压差后选择；无论VIN如何SCL/SDA均只拉EXT3.3V。 默认:open
+JP6,HC05_V_SELECT,1,3V3_EXT,跳帽选择端,custom2.54mm,带稳压底板通常VIN5V，裸核心通常3.3V；必须核对实物。 默认:open
+JP6,HC05_V_SELECT,2,V_HC05,跳帽选择端,custom2.54mm,带稳压底板通常VIN5V，裸核心通常3.3V；必须核对实物。 默认:open
+JP6,HC05_V_SELECT,3,5V_BUS,跳帽选择端,custom2.54mm,带稳压底板通常VIN5V，裸核心通常3.3V；必须核对实物。 默认:open
+JP7,DHT_V_SELECT,1,3V3_EXT,跳帽选择端,custom2.54mm,3.3V模块1-2；5V模块2-3，同时JP8必须开路并装外置BSS138。 默认:open
+JP7,DHT_V_SELECT,2,V_DHT,跳帽选择端,custom2.54mm,3.3V模块1-2；5V模块2-3，同时JP8必须开路并装外置BSS138。 默认:open
+JP7,DHT_V_SELECT,3,5V_BUS,跳帽选择端,custom2.54mm,3.3V模块1-2；5V模块2-3，同时JP8必须开路并装外置BSS138。 默认:open
+JP8,DHT_DIRECT,1,PB11,跳帽选择端,custom2.54mm,仅3.3V供电且已确认DATA安全时闭合；与5V DHT分支互斥。 默认:open
+JP8,DHT_DIRECT,2,DHT_DATA_RAW,跳帽选择端,custom2.54mm,仅3.3V供电且已确认DATA安全时闭合；与5V DHT分支互斥。 默认:open
+JP9,ADC_LINK,1,BAT_ADC_DIV,跳帽选择端,custom2.54mm,正常装帽；电池仍接通而单独关闭/拔掉核心电源前拔帽，防ADC向掉电核心注入。 默认:1-2
+JP9,ADC_LINK,2,PA1,跳帽选择端,custom2.54mm,正常装帽；电池仍接通而单独关闭/拔掉核心电源前拔帽，防ADC向掉电核心注入。 默认:1-2
+JP10,MCP_RESET_TEST,1,MCP_RESET_N,跳帽选择端,custom2.54mm,复位测试短接点，正常禁止长期留帽；不是核心NRST。 默认:open
+JP10,MCP_RESET_TEST,2,GND,跳帽选择端,custom2.54mm,复位测试短接点，正常禁止长期留帽；不是核心NRST。 默认:open

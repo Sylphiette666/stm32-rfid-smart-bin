@@ -1,0 +1,81 @@
+{
+  "status": "READY_FOR_ROOT_REPLACEMENT",
+  "docx": "D:\\Work\\嵌入式课设\\.pcb-lowcost-20261012\\a-manual\\staging\\STM32与RFID智能移动垃圾桶_逐步组装与调试实施手册_图解增强版.docx",
+  "docx_sha256": "e372c23d2ecc6cd6eccb2e3e2e680ce35942d956c96c20b01de713b023563885",
+  "pdf": "D:\\Work\\嵌入式课设\\.pcb-lowcost-20261012\\a-manual\\render_release2\\manual.pdf",
+  "pdf_sha256": "7464bf74994f583f1cab3358a1883e85be1f48085315ef512d60964a81177ec4",
+  "text": "D:\\Work\\嵌入式课设\\.pcb-lowcost-20261012\\a-manual\\render_release2\\word_text.txt",
+  "text_sha256": "5a36c172b0228ef082114228d76b9f014a75515daca7d9ac9b5e084ab621665a",
+  "pages": 198,
+  "steps": 330,
+  "inline_images": 57,
+  "operation_diagrams": 49,
+  "tables": 64,
+  "connector_endpoints": 181,
+  "original_step_headings_exactly_preserved": true,
+  "original_52_image_bytes_preserved": true,
+  "latest_images_embedded": [
+    {
+      "file": "45_pcb_top.png",
+      "source_sha256": "31c4f46ec2906a6cb2b300074b600d6c1f538925761bd2c608a2942332efc66f",
+      "latest_embedded": true
+    },
+    {
+      "file": "46_pcb_bottom.png",
+      "source_sha256": "69793d9f190ed43b70d8fa7ea1e5afb101e88d50358117ab3655fb2087c38733",
+      "latest_embedded": true
+    },
+    {
+      "file": "47_power.png",
+      "source_sha256": "e2f3831c09f1efb7ba6790755590932a41af0a878fcff6b686c563cd017527b9",
+      "latest_embedded": true
+    },
+    {
+      "file": "48_modules.png",
+      "source_sha256": "51a5931ed55b7226d1a697206fe07acd3a860bbec00c381cb2cd0b99b3095a7d",
+      "latest_embedded": true
+    },
+    {
+      "file": "49_conditions.png",
+      "source_sha256": "caac9e37214b0f012718de4400ba7276f43b7d262415530081d50bb9626ce096",
+      "latest_embedded": true
+    }
+  ],
+  "structural_audit": "D:\\Work\\嵌入式课设\\.pcb-lowcost-20261012\\a-manual\\audit_render_release2.json",
+  "word_render_log": "D:\\Work\\嵌入式课设\\.pcb-lowcost-20261012\\a-manual\\word_render_release2.json",
+  "qa": "D:\\Work\\嵌入式课设\\.pcb-lowcost-20261012\\a-manual\\FINAL_QA.md",
+  "new_chapter_full_size_reviewed_pages": [
+    177,
+    178,
+    179,
+    180,
+    181,
+    182,
+    183,
+    184,
+    185,
+    186,
+    187,
+    188,
+    189,
+    190,
+    191,
+    192,
+    193,
+    194,
+    195,
+    196,
+    197,
+    198
+  ],
+  "original_body_pixel_identical_pages": 102,
+  "changed_and_new_page_count": 96,
+  "final_render_diff_from_previous_release": [
+    178
+  ],
+  "user_word_instances_touched": false,
+  "canonical_replacement_performed_by_subagent": false,
+  "manufacturing_state": "Digital manufacturing review passed by root/reviewer; prototype has not been soldered or powered",
+  "pcb_sha256": "b16aad367273b6b39cf8452db6615a54745bc44198ac9485f1a253c8de96b066",
+  "gerber_zip_sha256": "d613507ebb631bb055847faf6cc9197b1f7f826a0880b4674f329b2af03ee1cf"
+}

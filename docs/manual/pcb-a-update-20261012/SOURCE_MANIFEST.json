@@ -1,0 +1,20 @@
+{
+  "artifact.md": "dad7744339fe68f520eb413eb1ec96b256de758f80aed391f1e1f1ca18900984",
+  "audit_manual.py": "14da7fdda8791e98d9221a8815c901cdab5ab4ab2f98e000f5b75105dab398b3",
+  "audit_render_release2.json": "28241ec90cb35f54a5342e8316cb4b59eea5479221ed7722ae1457294398545c",
+  "baseline_inventory.json": "adaf2865333ed906e8691b530a7a65c09748a56a449caaaf9c116f23bfcb21ee",
+  "baseline_parts.json": "1aecc8e5ac947a87f5676d51474eb6bb20ecb4abbbc373af95e93dc0ed15934a",
+  "baseline_steps.json": "b34c7b1be8960df8a78372ba508278f0902cb982ff4f89dc4a01d016b3988d3a",
+  "baseline_tables.json": "1fda9edfc02db2ec71902043e410a97b47c04dd0a59416c1064e27ea47961074",
+  "build_audit.json": "21f230a5d6ae9f2a27c1c0856140417080f95abebdd5501eb205d4437ba095dd",
+  "build_manual.py": "7b2313065375a848ade2888680d017495ac3b7d13b3e6edf221d64e22c71b870",
+  "contact-169-180.png": "6fbc811b750de8d68f57a12344e5b3ed9c4574d798f8688b2aa4ae3d2f603d14",
+  "contact-181-192.png": "7cf5794bab865f1abe8a8850a3d744786bd8a9ac14db1beabb0e55c3edd03fff",
+  "contact-193-198.png": "6c0ad713ff1be67539bd4c7d8b1a334d206fe9d9d0bcbc221188afee9cd17ede",
+  "FINAL_HANDOFF.json": "14cdff3e526b4bc9772980613e66eb3bc552ba21b0d17e053162c91e01a8e78a",
+  "FINAL_QA.md": "55b42c688b9d1197d6d682f81ab80153790294e70c9a14af347b0e9d3c974058",
+  "README.md": "84f39acc9cf06c4a2903757068ccad883802575edb58b71f705fcfa3097e63df",
+  "render_skill_01.log": "f1356ebd6925b014ed776ad7bf8e37996bc32cfd834f7f4b3d6e1b99544c02ea",
+  "retained_formatting.py": "46fce545c6e723cc20e172b60f5c73a96e13c527d65d3ceac176687f23868f06",
+  "word_render_release2.json": "f02337c38da9e49138c72f2faaff4a6dfc16d8ea65ae6bf0c62d449d8936f31e"
+}

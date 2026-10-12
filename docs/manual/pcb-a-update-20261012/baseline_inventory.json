@@ -1,0 +1,2262 @@
+{
+  "reference": "D:\\Work\\嵌入式课设\\.pcb-lowcost-20261012\\a-manual\\before.docx",
+  "sha256": "f7d0c5ce51f904e58d40f9733fe5b030d29f31db53e26faf53ad6d21b3713187",
+  "inline_images": 52,
+  "paragraphs": 1931,
+  "tables": 51,
+  "steps_count": 330,
+  "headings": [
+    {
+      "index": 80,
+      "style": "Heading 1",
+      "text": "01  使用方法与本次装配基线"
+    },
+    {
+      "index": 88,
+      "style": "Heading 1",
+      "text": "02  全部功能与实际效果"
+    },
+    {
+      "index": 93,
+      "style": "Heading 1",
+      "text": "03  工作台工具与基础操作"
+    },
+    {
+      "index": 96,
+      "style": "Heading 3",
+      "text": "步骤 001  划分工作区"
+    },
+    {
+      "index": 102,
+      "style": "Heading 3",
+      "text": "步骤 002  测电压"
+    },
+    {
+      "index": 106,
+      "style": "Heading 3",
+      "text": "步骤 003  测通断"
+    },
+    {
+      "index": 112,
+      "style": "Heading 3",
+      "text": "步骤 004  制作一条电源线"
+    },
+    {
+      "index": 119,
+      "style": "Heading 3",
+      "text": "步骤 005  完成一个焊点"
+    },
+    {
+      "index": 123,
+      "style": "Heading 3",
+      "text": "步骤 006  检查一颗四脚轻触按键"
+    },
+    {
+      "index": 127,
+      "style": "Heading 3",
+      "text": "步骤 007  检查双常闭急停"
+    },
+    {
+      "index": 131,
+      "style": "Heading 1",
+      "text": "04  已有配件逐一登记"
+    },
+    {
+      "index": 134,
+      "style": "Heading 1",
+      "text": "05  新增电子配件清单"
+    },
+    {
+      "index": 138,
+      "style": "Heading 1",
+      "text": "06  结构件与耗材清单"
+    },
+    {
+      "index": 141,
+      "style": "Heading 3",
+      "text": "步骤 008  按用途分袋"
+    },
+    {
+      "index": 145,
+      "style": "Heading 3",
+      "text": "步骤 009  记录所有未知型号"
+    },
+    {
+      "index": 149,
+      "style": "Heading 3",
+      "text": "步骤 010  准备干燥投放样品"
+    },
+    {
+      "index": 153,
+      "style": "Heading 1",
+      "text": "07  本次采用的结构与加工边界"
+    },
+    {
+      "index": 160,
+      "style": "Heading 1",
+      "text": "08  工具 实测记录与纸样预装"
+    },
+    {
+      "index": 165,
+      "style": "Heading 3",
+      "text": "步骤 011  M01 建立零件分盒"
+    },
+    {
+      "index": 169,
+      "style": "Heading 3",
+      "text": "步骤 012  M02 测量轮组"
+    },
+    {
+      "index": 173,
+      "style": "Heading 3",
+      "text": "步骤 013  M03 测量万向球与电池"
+    },
+    {
+      "index": 177,
+      "style": "Heading 3",
+      "text": "步骤 014  M04 测量 SG90 与拉杆"
+    },
+    {
+      "index": 181,
+      "style": "Heading 3",
+      "text": "步骤 015  M05 制作底盘纸样"
+    },
+    {
+      "index": 185,
+      "style": "Heading 3",
+      "text": "步骤 016  M06 制作桶壳与内胆纸样"
+    },
+    {
+      "index": 189,
+      "style": "Heading 1",
+      "text": "09  坐标 外形与孔槽 先标线后钻孔"
+    },
+    {
+      "index": 195,
+      "style": "Heading 3",
+      "text": "步骤 017  M07 在板材上排版"
+    },
+    {
+      "index": 199,
+      "style": "Heading 3",
+      "text": "步骤 018  M08 切割胶合板并校正"
+    },
+    {
+      "index": 205,
+      "style": "Heading 3",
+      "text": "步骤 019  M09 上下平台配钻立柱孔"
+    },
+    {
+      "index": 209,
+      "style": "Heading 3",
+      "text": "步骤 020  M10 预装四根 60 mm 柱"
+    },
+    {
+      "index": 213,
+      "style": "Heading 3",
+      "text": "步骤 021  M11 描电机转接槽"
+    },
+    {
+      "index": 217,
+      "style": "Heading 3",
+      "text": "步骤 022  M12 加工电池绑带槽"
+    },
+    {
+      "index": 221,
+      "style": "Heading 1",
+      "text": "10  驱动轮 万向球和底盘调平"
+    },
+    {
+      "index": 223,
+      "style": "Heading 3",
+      "text": "步骤 023  M13 装左右减速电机"
+    },
+    {
+      "index": 229,
+      "style": "Heading 3",
+      "text": "步骤 024  M14 安装轮子并留侧隙"
+    },
+    {
+      "index": 233,
+      "style": "Heading 3",
+      "text": "步骤 025  M15 确认底板高度"
+    },
+    {
+      "index": 237,
+      "style": "Heading 3",
+      "text": "步骤 026  M16 安装前万向球"
+    },
+    {
+      "index": 241,
+      "style": "Heading 3",
+      "text": "步骤 027  M17 无电手推检查"
+    },
+    {
+      "index": 245,
+      "style": "Heading 3",
+      "text": "步骤 028  M18 紧固与标记"
+    },
+    {
+      "index": 250,
+      "style": "Heading 1",
+      "text": "11  电池 电子托板和检修空间"
+    },
+    {
+      "index": 252,
+      "style": "Heading 3",
+      "text": "步骤 029  M19 铺电池防滑垫"
+    },
+    {
+      "index": 256,
+      "style": "Heading 3",
+      "text": "步骤 030  M20 穿两条电池绑带"
+    },
+    {
+      "index": 260,
+      "style": "Heading 3",
+      "text": "步骤 031  M21 规划三块电子托板"
+    },
+    {
+      "index": 265,
+      "style": "Heading 3",
+      "text": "步骤 032  M22 固定核心板及 FLASH 扩展板"
+    },
+    {
+      "index": 269,
+      "style": "Heading 3",
+      "text": "步骤 033  M23 固定驱动 电源与声频模块"
+    },
+    {
+      "index": 273,
+      "style": "Heading 3",
+      "text": "步骤 034  M24 刚性安装 MPU6050"
+    },
+    {
+      "index": 277,
+      "style": "Heading 3",
+      "text": "步骤 035  M25 做一次上平台拆装"
+    },
+    {
+      "index": 281,
+      "style": "Heading 1",
+      "text": "12  3 mm PVC 桶壳 下料 拼合 固定"
+    },
+    {
+      "index": 284,
+      "style": "Heading 3",
+      "text": "步骤 036  M26 先划后切 PVC"
+    },
+    {
+      "index": 290,
+      "style": "Heading 3",
+      "text": "步骤 037  M27 四壁无胶试拼"
+    },
+    {
+      "index": 294,
+      "style": "Heading 3",
+      "text": "步骤 038  M28 用外角件加强并保留内胆通道"
+    },
+    {
+      "index": 298,
+      "style": "Heading 3",
+      "text": "步骤 039  M29 放入壳底并由平台承托"
+    },
+    {
+      "index": 302,
+      "style": "Heading 3",
+      "text": "步骤 040  M30 将桶壳固定到 P02"
+    },
+    {
+      "index": 306,
+      "style": "Heading 3",
+      "text": "步骤 041  M31 标记传感器区域后再开孔"
+    },
+    {
+      "index": 310,
+      "style": "Heading 1",
+      "text": "13  1 mm PP 五片内胆与 30×40 cm 袋"
+    },
+    {
+      "index": 314,
+      "style": "Heading 3",
+      "text": "步骤 042  M32 PP 板排料"
+    },
+    {
+      "index": 318,
+      "style": "Heading 3",
+      "text": "步骤 043  M33 裁切去毛刺"
+    },
+    {
+      "index": 322,
+      "style": "Heading 3",
+      "text": "步骤 044  M34 立壁试装并确定扎带位置"
+    },
+    {
+      "index": 328,
+      "style": "Heading 3",
+      "text": "步骤 045  M35 打立角扎带孔"
+    },
+    {
+      "index": 332,
+      "style": "Heading 3",
+      "text": "步骤 046  M36 打底部连接孔"
+    },
+    {
+      "index": 336,
+      "style": "Heading 3",
+      "text": "步骤 047  M37 穿约 16 条扎带并修整"
+    },
+    {
+      "index": 340,
+      "style": "Heading 3",
+      "text": "步骤 048  M38 加袋并控制袋口"
+    },
+    {
+      "index": 344,
+      "style": "Heading 3",
+      "text": "步骤 049  M39 承托与取出试验"
+    },
+    {
+      "index": 349,
+      "style": "Heading 1",
+      "text": "14  2 mm 轻型盖 铰链与 45 g 上限"
+    },
+    {
+      "index": 351,
+      "style": "Heading 3",
+      "text": "步骤 050  M40 裁出新盖并称裸板"
+    },
+    {
+      "index": 355,
+      "style": "Heading 3",
+      "text": "步骤 051  M41 确定闭盖位置与后压条"
+    },
+    {
+      "index": 359,
+      "style": "Heading 3",
+      "text": "步骤 052  M42 试放两个小铰链"
+    },
+    {
+      "index": 363,
+      "style": "Heading 3",
+      "text": "步骤 053  M43 固定铰链并记录实际轴高"
+    },
+    {
+      "index": 367,
+      "style": "Heading 3",
+      "text": "步骤 054  M44 贴最少必要软垫"
+    },
+    {
+      "index": 373,
+      "style": "Heading 3",
+      "text": "步骤 055  M45 称活动总成"
+    },
+    {
+      "index": 378,
+      "style": "Heading 1",
+      "text": "15  20  50  20  50 连杆机构逐步装配"
+    },
+    {
+      "index": 382,
+      "style": "Heading 3",
+      "text": "步骤 056  M46 先做纸板运动学模板"
+    },
+    {
+      "index": 386,
+      "style": "Heading 3",
+      "text": "步骤 057  M47 设置外侧运动平面"
+    },
+    {
+      "index": 390,
+      "style": "Heading 3",
+      "text": "步骤 058  M48 预装舵机立架与调节托片"
+    },
+    {
+      "index": 394,
+      "style": "Heading 3",
+      "text": "步骤 059  M49 实物描舵机安装孔"
+    },
+    {
+      "index": 398,
+      "style": "Heading 3",
+      "text": "步骤 060  M50 制作或选择 20 mm 舵臂"
+    },
+    {
+      "index": 402,
+      "style": "Heading 3",
+      "text": "步骤 061  M51 固定盖侧从动臂"
+    },
+    {
+      "index": 409,
+      "style": "Heading 3",
+      "text": "步骤 062  M52 调双球头拉杆孔距"
+    },
+    {
+      "index": 413,
+      "style": "Heading 3",
+      "text": "步骤 063  M53 先不接舵机电源做机构试装"
+    },
+    {
+      "index": 417,
+      "style": "Heading 3",
+      "text": "步骤 064  M54 与舵机空载标定衔接"
+    },
+    {
+      "index": 421,
+      "style": "Heading 3",
+      "text": "步骤 065  M55 逐步标定开启位置"
+    },
+    {
+      "index": 425,
+      "style": "Heading 3",
+      "text": "步骤 066  M56 装护罩与做 20 次循环"
+    },
+    {
+      "index": 429,
+      "style": "Heading 1",
+      "text": "16  传感器 面板和碰撞横杠逐件安装"
+    },
+    {
+      "index": 433,
+      "style": "Heading 3",
+      "text": "步骤 067  M57 制作可拆超声横梁"
+    },
+    {
+      "index": 437,
+      "style": "Heading 3",
+      "text": "步骤 068  M58 检查超声视场与投入口"
+    },
+    {
+      "index": 441,
+      "style": "Heading 3",
+      "text": "步骤 069  M59 安装投放对射"
+    },
+    {
+      "index": 445,
+      "style": "Heading 3",
+      "text": "步骤 070  M60 重做满桶距离标定"
+    },
+    {
+      "index": 449,
+      "style": "Heading 3",
+      "text": "步骤 071  M61 安装盖闭合微动开关"
+    },
+    {
+      "index": 453,
+      "style": "Heading 3",
+      "text": "步骤 072  M62 操作面板排版与固定"
+    },
+    {
+      "index": 457,
+      "style": "Heading 3",
+      "text": "步骤 073  M63 固定 RC522 和 OLED"
+    },
+    {
+      "index": 461,
+      "style": "Heading 3",
+      "text": "步骤 074  M64 安装编码器和两只轻触按键"
+    },
+    {
+      "index": 465,
+      "style": "Heading 3",
+      "text": "步骤 075  M65 靠近检测与前避障分开装"
+    },
+    {
+      "index": 469,
+      "style": "Heading 3",
+      "text": "步骤 076  M66 装三路循迹支架"
+    },
+    {
+      "index": 473,
+      "style": "Heading 3",
+      "text": "步骤 077  M67 装碰撞横杠和两开关"
+    },
+    {
+      "index": 477,
+      "style": "Heading 3",
+      "text": "步骤 078  M68 安装 DHT11 光敏与照明 LED"
+    },
+    {
+      "index": 481,
+      "style": "Heading 3",
+      "text": "步骤 079  M69 安装喇叭 蓝牙及蜂鸣器"
+    },
+    {
+      "index": 485,
+      "style": "Heading 1",
+      "text": "17  护线圈 端子 线束与总装顺序"
+    },
+    {
+      "index": 487,
+      "style": "Heading 3",
+      "text": "步骤 080  M70 按实物开护线圈孔"
+    },
+    {
+      "index": 491,
+      "style": "Heading 3",
+      "text": "步骤 081  M71 布电源线与电机线"
+    },
+    {
+      "index": 495,
+      "style": "Heading 3",
+      "text": "步骤 082  M72 布信号线和标识"
+    },
+    {
+      "index": 499,
+      "style": "Heading 3",
+      "text": "步骤 083  M73 端子与插头应力释放"
+    },
+    {
+      "index": 503,
+      "style": "Heading 3",
+      "text": "步骤 084  M74 设置舵机服务线与拆杆通道"
+    },
+    {
+      "index": 507,
+      "style": "Heading 3",
+      "text": "步骤 085  M75 合装并做零件清点"
+    },
+    {
+      "index": 511,
+      "style": "Heading 1",
+      "text": "18  维护取袋必须实际完成一次"
+    },
+    {
+      "index": 515,
+      "style": "Heading 3",
+      "text": "步骤 086  M76 进入维护并隔离执行电源"
+    },
+    {
+      "index": 519,
+      "style": "Heading 3",
+      "text": "步骤 087  M77 解开一端拉杆并固定盖"
+    },
+    {
+      "index": 523,
+      "style": "Heading 3",
+      "text": "步骤 088  M78 移开超声横梁"
+    },
+    {
+      "index": 527,
+      "style": "Heading 3",
+      "text": "步骤 089  M79 垂直取内胆并换袋"
+    },
+    {
+      "index": 531,
+      "style": "Heading 3",
+      "text": "步骤 090  M80 逆序恢复并检查互锁"
+    },
+    {
+      "index": 535,
+      "style": "Heading 1",
+      "text": "19  台面到地面 整机机械验收与故障处理"
+    },
+    {
+      "index": 540,
+      "style": "Heading 1",
+      "text": "20  电气装配总则 先做可测的小系统"
+    },
+    {
+      "index": 544,
+      "style": "Heading 3",
+      "text": "步骤 091  E001 建立台账和标签"
+    },
+    {
+      "index": 548,
+      "style": "Heading 3",
+      "text": "步骤 092  E002 固定线色与接口方向"
+    },
+    {
+      "index": 552,
+      "style": "Heading 3",
+      "text": "步骤 093  E003 练习万用表与断电检查"
+    },
+    {
+      "index": 556,
+      "style": "Heading 3",
+      "text": "步骤 094  E004 焊接接头和线束"
+    },
+    {
+      "index": 561,
+      "style": "Heading 3",
+      "text": "步骤 095  E005 每增加一块模块先断电"
+    },
+    {
+      "index": 566,
+      "style": "Heading 1",
+      "text": "21  PWR 电源板 电池 保险 开关 降压与去耦"
+    },
+    {
+      "index": 571,
+      "style": "Heading 3",
+      "text": "步骤 096  E006 安装保险座和 XT30U"
+    },
+    {
+      "index": 577,
+      "style": "Heading 3",
+      "text": "步骤 097  E007 安装降压板并单独调压"
+    },
+    {
+      "index": 581,
+      "style": "Heading 3",
+      "text": "步骤 098  E008 给降压做分级负载"
+    },
+    {
+      "index": 585,
+      "style": "Heading 3",
+      "text": "步骤 099  E009 安装 3.3 V 外设稳压"
+    },
+    {
+      "index": 589,
+      "style": "Heading 3",
+      "text": "步骤 100  E010 焊入滤波电容"
+    },
+    {
+      "index": 594,
+      "style": "Heading 3",
+      "text": "步骤 101  E011 制作星形分支"
+    },
+    {
+      "index": 599,
+      "style": "Heading 3",
+      "text": "步骤 102  E012 用电池替代限流电源"
+    },
+    {
+      "index": 604,
+      "style": "Heading 1",
+      "text": "22  STM32 核心板 SWD 与电脑串口 建立最小系统"
+    },
+    {
+      "index": 606,
+      "style": "Heading 3",
+      "text": "步骤 103  E013 拔出并固定核心板"
+    },
+    {
+      "index": 610,
+      "style": "Heading 3",
+      "text": "步骤 104  E014 确认电源入口和保留口"
+    },
+    {
+      "index": 617,
+      "style": "Heading 3",
+      "text": "步骤 105  E015 连接 SWD 下载器"
+    },
+    {
+      "index": 621,
+      "style": "Heading 3",
+      "text": "步骤 106  E016 下载最小安全固件"
+    },
+    {
+      "index": 625,
+      "style": "Heading 3",
+      "text": "步骤 107  E017 连接 3.3 V 逻辑 USB 串口"
+    },
+    {
+      "index": 629,
+      "style": "Heading 3",
+      "text": "步骤 108  E018 禁止核心 USB 并用"
+    },
+    {
+      "index": 635,
+      "style": "Heading 1",
+      "text": "23  IO 信号板 MCP23017 I²C 上拉与 OLED"
+    },
+    {
+      "index": 641,
+      "style": "Heading 3",
+      "text": "步骤 109  E019 组装 I²C 主干"
+    },
+    {
+      "index": 645,
+      "style": "Heading 3",
+      "text": "步骤 110  E020 单独扫描 MCP"
+    },
+    {
+      "index": 649,
+      "style": "Heading 3",
+      "text": "步骤 111  E021 初始化扩展端口"
+    },
+    {
+      "index": 653,
+      "style": "Heading 3",
+      "text": "步骤 112  E022 检验每一路扩展输入输出"
+    },
+    {
+      "index": 657,
+      "style": "Heading 3",
+      "text": "步骤 113  E023 接 OLED 四根线"
+    },
+    {
+      "index": 661,
+      "style": "Heading 3",
+      "text": "步骤 114  E024 合并 MCP 与 OLED 测试"
+    },
+    {
+      "index": 665,
+      "style": "Heading 1",
+      "text": "24  MPU6050 RC522 与 FLASH 总线设备逐一验证"
+    },
+    {
+      "index": 667,
+      "style": "Heading 3",
+      "text": "步骤 115  E025 确认 MPU 模块的供电路径"
+    },
+    {
+      "index": 671,
+      "style": "Heading 3",
+      "text": "步骤 116  E026 接 MPU 数据线与固定"
+    },
+    {
+      "index": 675,
+      "style": "Heading 3",
+      "text": "步骤 117  E027 MPU 零偏和倾斜检查"
+    },
+    {
+      "index": 681,
+      "style": "Heading 3",
+      "text": "步骤 118  E028 焊 RC522 排针和线束"
+    },
+    {
+      "index": 685,
+      "style": "Heading 3",
+      "text": "步骤 119  E029 单独测试 RFID"
+    },
+    {
+      "index": 689,
+      "style": "Heading 3",
+      "text": "步骤 120  E030 定位 RFID 天线"
+    },
+    {
+      "index": 693,
+      "style": "Heading 3",
+      "text": "步骤 121  E031 确认 FLASH 型号再接电"
+    },
+    {
+      "index": 697,
+      "style": "Heading 3",
+      "text": "步骤 122  E032 单 FLASH 擦写验证"
+    },
+    {
+      "index": 701,
+      "style": "Heading 3",
+      "text": "步骤 123  E033 合并 SPI 共享总线"
+    },
+    {
+      "index": 707,
+      "style": "Heading 1",
+      "text": "25  输入电平适配 完成传感器后再接 MCU"
+    },
+    {
+      "index": 711,
+      "style": "Heading 3",
+      "text": "步骤 124  E034 在未接 MCU 时测输出"
+    },
+    {
+      "index": 715,
+      "style": "Heading 3",
+      "text": "步骤 125  E035 制作一条 NPN 适配作为样板"
+    },
+    {
+      "index": 719,
+      "style": "Heading 3",
+      "text": "步骤 126  E036 编写极性表"
+    },
+    {
+      "index": 724,
+      "style": "Heading 1",
+      "text": "26  按键 编码器 碰撞和盖闭合检测"
+    },
+    {
+      "index": 728,
+      "style": "Heading 3",
+      "text": "步骤 127  E037 接旋转编码器"
+    },
+    {
+      "index": 732,
+      "style": "Heading 3",
+      "text": "步骤 128  E038 验证编码器方向和去抖"
+    },
+    {
+      "index": 738,
+      "style": "Heading 3",
+      "text": "步骤 129  E039 接 MODE 和 BACK"
+    },
+    {
+      "index": 742,
+      "style": "Heading 3",
+      "text": "步骤 130  E040 接双碰撞常闭回路"
+    },
+    {
+      "index": 746,
+      "style": "Heading 3",
+      "text": "步骤 131  E041 接盖闭合开关"
+    },
+    {
+      "index": 750,
+      "style": "Heading 3",
+      "text": "步骤 132  E042 输入故障注入"
+    },
+    {
+      "index": 754,
+      "style": "Heading 1",
+      "text": "27  急停按钮 2S 偏置＋三管硬件钳位"
+    },
+    {
+      "index": 758,
+      "style": "Heading 3",
+      "text": "步骤 133  E043 先测按钮触点"
+    },
+    {
+      "index": 762,
+      "style": "Heading 3",
+      "text": "步骤 134  E044 焊三个三极管及下拉"
+    },
+    {
+      "index": 769,
+      "style": "Heading 3",
+      "text": "步骤 135  E045 焊NC1和钳位节点"
+    },
+    {
+      "index": 775,
+      "style": "Heading 3",
+      "text": "步骤 136  E046 焊NC2反馈"
+    },
+    {
+      "index": 779,
+      "style": "Heading 3",
+      "text": "步骤 137  E047 仅测接口 不接电机"
+    },
+    {
+      "index": 783,
+      "style": "Heading 3",
+      "text": "步骤 138  E048 证明硬件按下会钳位"
+    },
+    {
+      "index": 787,
+      "style": "Heading 3",
+      "text": "步骤 139  E049 测两组断线和软件锁存"
+    },
+    {
+      "index": 793,
+      "style": "Heading 1",
+      "text": "28  SN74AHCT125N 统一装好舵机与超声触发电平缓冲"
+    },
+    {
+      "index": 796,
+      "style": "Heading 3",
+      "text": "步骤 140  E050 焊IC座与去耦"
+    },
+    {
+      "index": 800,
+      "style": "Heading 3",
+      "text": "步骤 141  E051 插芯片并测试两路"
+    },
+    {
+      "index": 804,
+      "style": "Heading 3",
+      "text": "步骤 142  E052 标记最终端口"
+    },
+    {
+      "index": 808,
+      "style": "Heading 1",
+      "text": "29  TB6612 轮电机与SG90 先架空 再装机械负载"
+    },
+    {
+      "index": 811,
+      "style": "Heading 3",
+      "text": "步骤 143  E053 检查驱动和轮电机规格"
+    },
+    {
+      "index": 815,
+      "style": "Heading 3",
+      "text": "步骤 144  E054 焊电机线和抑制电容"
+    },
+    {
+      "index": 819,
+      "style": "Heading 3",
+      "text": "步骤 145  E055 先接驱动逻辑 不接VM"
+    },
+    {
+      "index": 825,
+      "style": "Heading 3",
+      "text": "步骤 146  E056 架空接单左电机"
+    },
+    {
+      "index": 829,
+      "style": "Heading 3",
+      "text": "步骤 147  E057 接右电机并检查组合"
+    },
+    {
+      "index": 833,
+      "style": "Heading 3",
+      "text": "步骤 148  E058 带轮地面初测"
+    },
+    {
+      "index": 837,
+      "style": "Heading 3",
+      "text": "步骤 149  E059 空载接SG90"
+    },
+    {
+      "index": 842,
+      "style": "Heading 3",
+      "text": "步骤 150  E060 标定舵机有效范围"
+    },
+    {
+      "index": 846,
+      "style": "Heading 3",
+      "text": "步骤 151  E061 接机械连杆后联合检查"
+    },
+    {
+      "index": 851,
+      "style": "Heading 1",
+      "text": "30  投放对射 三路循迹 前方避障与靠近开盖"
+    },
+    {
+      "index": 853,
+      "style": "Heading 3",
+      "text": "步骤 152  E062 接投放对射电源"
+    },
+    {
+      "index": 857,
+      "style": "Heading 3",
+      "text": "步骤 153  E063 将对射DO接PA12"
+    },
+    {
+      "index": 861,
+      "style": "Heading 3",
+      "text": "步骤 154  E064 固定对射并做经过试验"
+    },
+    {
+      "index": 865,
+      "style": "Heading 3",
+      "text": "步骤 155  E065 接三路循迹"
+    },
+    {
+      "index": 869,
+      "style": "Heading 3",
+      "text": "步骤 156  E066 标定黑白阈值"
+    },
+    {
+      "index": 873,
+      "style": "Heading 3",
+      "text": "步骤 157  E067 接前避障"
+    },
+    {
+      "index": 877,
+      "style": "Heading 3",
+      "text": "步骤 158  E068 接靠近检测"
+    },
+    {
+      "index": 881,
+      "style": "Heading 3",
+      "text": "步骤 159  E069 做红外互扰检查"
+    },
+    {
+      "index": 885,
+      "style": "Heading 1",
+      "text": "31  HC-SR04 DHT11 光敏 测量电路与校准"
+    },
+    {
+      "index": 887,
+      "style": "Heading 3",
+      "text": "步骤 160  E070 接超声电源和TRIG"
+    },
+    {
+      "index": 893,
+      "style": "Heading 3",
+      "text": "步骤 161  E071 焊ECHO分压"
+    },
+    {
+      "index": 897,
+      "style": "Heading 3",
+      "text": "步骤 162  E072 测距固件及超时"
+    },
+    {
+      "index": 901,
+      "style": "Heading 3",
+      "text": "步骤 163  E073 重新标定短内胆满桶点"
+    },
+    {
+      "index": 905,
+      "style": "Heading 3",
+      "text": "步骤 164  E074 接DHT11"
+    },
+    {
+      "index": 909,
+      "style": "Heading 3",
+      "text": "步骤 165  E075 处理必须5V的DHT版本"
+    },
+    {
+      "index": 913,
+      "style": "Heading 3",
+      "text": "步骤 166  E076 安装DHT并校验"
+    },
+    {
+      "index": 917,
+      "style": "Heading 3",
+      "text": "步骤 167  E077 接光敏AO或DO"
+    },
+    {
+      "index": 921,
+      "style": "Heading 3",
+      "text": "步骤 168  E078 标定明暗阈值"
+    },
+    {
+      "index": 925,
+      "style": "Heading 1",
+      "text": "32  照明MOS 蜂鸣器与DFPlayer语音"
+    },
+    {
+      "index": 930,
+      "style": "Heading 3",
+      "text": "步骤 169  E079 焊AO3400A转接板"
+    },
+    {
+      "index": 934,
+      "style": "Heading 3",
+      "text": "步骤 170  E080 接LED和栅极阻容"
+    },
+    {
+      "index": 939,
+      "style": "Heading 3",
+      "text": "步骤 171  E081 让明暗控制灯"
+    },
+    {
+      "index": 943,
+      "style": "Heading 3",
+      "text": "步骤 172  E082 辨认蜂鸣模块"
+    },
+    {
+      "index": 947,
+      "style": "Heading 3",
+      "text": "步骤 173  E083 接蜂鸣控制并试音"
+    },
+    {
+      "index": 951,
+      "style": "Heading 3",
+      "text": "步骤 174  E084 无源裸蜂鸣器的补充接法"
+    },
+    {
+      "index": 955,
+      "style": "Heading 3",
+      "text": "步骤 175  E085 准备TF卡与语音文件"
+    },
+    {
+      "index": 959,
+      "style": "Heading 3",
+      "text": "步骤 176  E086 接DFPlayer并低音量测试"
+    },
+    {
+      "index": 963,
+      "style": "Heading 3",
+      "text": "步骤 177  E087 接BUSY和异常超时"
+    },
+    {
+      "index": 967,
+      "style": "Heading 1",
+      "text": "33  HC-05蓝牙 电脑导出与电池ADC"
+    },
+    {
+      "index": 969,
+      "style": "Heading 3",
+      "text": "步骤 178  E088 确认HC-05底板电源"
+    },
+    {
+      "index": 973,
+      "style": "Heading 3",
+      "text": "步骤 179  E089 先做蓝牙串口回显"
+    },
+    {
+      "index": 977,
+      "style": "Heading 3",
+      "text": "步骤 180  E090 遥控首先只打印不运动"
+    },
+    {
+      "index": 981,
+      "style": "Heading 3",
+      "text": "步骤 181  E091 架空验证遥控 再落地"
+    },
+    {
+      "index": 985,
+      "style": "Heading 3",
+      "text": "步骤 182  E092 完成CSV导出"
+    },
+    {
+      "index": 989,
+      "style": "Heading 3",
+      "text": "步骤 183  E093 焊电池分压"
+    },
+    {
+      "index": 993,
+      "style": "Heading 3",
+      "text": "步骤 184  E094 标定电池电压"
+    },
+    {
+      "index": 997,
+      "style": "Heading 3",
+      "text": "步骤 185  E095 验证低电停运"
+    },
+    {
+      "index": 1001,
+      "style": "Heading 1",
+      "text": "34  已有备用模块的安排 不增加隐蔽接线"
+    },
+    {
+      "index": 1005,
+      "style": "Heading 1",
+      "text": "35  最终接线验收 线束收束与全机带载检查"
+    },
+    {
+      "index": 1007,
+      "style": "Heading 3",
+      "text": "步骤 186  E096 完成逐线复核"
+    },
+    {
+      "index": 1011,
+      "style": "Heading 3",
+      "text": "步骤 187  E097 先做零负载开机"
+    },
+    {
+      "index": 1015,
+      "style": "Heading 3",
+      "text": "步骤 188  E098 逐个加动态负载"
+    },
+    {
+      "index": 1019,
+      "style": "Heading 3",
+      "text": "步骤 189  E099 测互锁和组合峰值"
+    },
+    {
+      "index": 1023,
+      "style": "Heading 3",
+      "text": "步骤 190  E100 收束线束和装护线圈"
+    },
+    {
+      "index": 1027,
+      "style": "Heading 3",
+      "text": "步骤 191  E101 固定电池和电路板"
+    },
+    {
+      "index": 1031,
+      "style": "Heading 3",
+      "text": "步骤 192  E102 全部断线故障复测"
+    },
+    {
+      "index": 1035,
+      "style": "Heading 3",
+      "text": "步骤 193  E103 满载30分钟验证"
+    },
+    {
+      "index": 1039,
+      "style": "Heading 3",
+      "text": "步骤 194  E104 形成电气竣工资料"
+    },
+    {
+      "index": 1044,
+      "style": "Heading 1",
+      "text": "36  软件起点与版本界限"
+    },
+    {
+      "index": 1049,
+      "style": "Heading 1",
+      "text": "37  安装软件 建立 STM32 工程与第一次下载"
+    },
+    {
+      "index": 1051,
+      "style": "Heading 3",
+      "text": "步骤 195  下载并安装"
+    },
+    {
+      "index": 1055,
+      "style": "Heading 3",
+      "text": "步骤 196  新建工程"
+    },
+    {
+      "index": 1059,
+      "style": "Heading 3",
+      "text": "步骤 197  保留调试接口"
+    },
+    {
+      "index": 1065,
+      "style": "Heading 3",
+      "text": "步骤 198  先生成最小程序"
+    },
+    {
+      "index": 1069,
+      "style": "Heading 3",
+      "text": "步骤 199  连接 SWD"
+    },
+    {
+      "index": 1073,
+      "style": "Heading 3",
+      "text": "步骤 200  烧录和运行"
+    },
+    {
+      "index": 1077,
+      "style": "Heading 3",
+      "text": "步骤 201  建立串口观察口"
+    },
+    {
+      "index": 1081,
+      "style": "Heading 3",
+      "text": "步骤 202  保存基线"
+    },
+    {
+      "index": 1086,
+      "style": "Heading 1",
+      "text": "38  时钟 定时器 总线和中断的精确配置"
+    },
+    {
+      "index": 1090,
+      "style": "Heading 3",
+      "text": "步骤 203  逐项占用引脚"
+    },
+    {
+      "index": 1094,
+      "style": "Heading 3",
+      "text": "步骤 204  配置输入极性"
+    },
+    {
+      "index": 1100,
+      "style": "Heading 3",
+      "text": "步骤 205  检查定时器"
+    },
+    {
+      "index": 1104,
+      "style": "Heading 1",
+      "text": "39  建立不会拖延停车的主循环"
+    },
+    {
+      "index": 1109,
+      "style": "Heading 3",
+      "text": "步骤 206  固定数组和队列"
+    },
+    {
+      "index": 1113,
+      "style": "Heading 3",
+      "text": "步骤 207  定义安全入口"
+    },
+    {
+      "index": 1117,
+      "style": "Heading 3",
+      "text": "步骤 208  实现故障锁"
+    },
+    {
+      "index": 1121,
+      "style": "Heading 3",
+      "text": "步骤 209  检查最长阻塞"
+    },
+    {
+      "index": 1125,
+      "style": "Heading 3",
+      "text": "步骤 210  最后启用看门狗"
+    },
+    {
+      "index": 1129,
+      "style": "Heading 1",
+      "text": "40  MCP23017 与三种 I²C 模块单测"
+    },
+    {
+      "index": 1132,
+      "style": "Heading 3",
+      "text": "步骤 211  只接MCP"
+    },
+    {
+      "index": 1136,
+      "style": "Heading 3",
+      "text": "步骤 212  逐个输入测试"
+    },
+    {
+      "index": 1140,
+      "style": "Heading 3",
+      "text": "步骤 213  输出不互相覆盖"
+    },
+    {
+      "index": 1144,
+      "style": "Heading 3",
+      "text": "步骤 214  加入OLED"
+    },
+    {
+      "index": 1148,
+      "style": "Heading 3",
+      "text": "步骤 215  加入MPU6050"
+    },
+    {
+      "index": 1152,
+      "style": "Heading 3",
+      "text": "步骤 216  总线故障测试"
+    },
+    {
+      "index": 1156,
+      "style": "Heading 1",
+      "text": "41  RC522 与 SPI FLASH 先分别测 再共总线"
+    },
+    {
+      "index": 1158,
+      "style": "Heading 3",
+      "text": "步骤 217  RC522寄存器读写"
+    },
+    {
+      "index": 1162,
+      "style": "Heading 3",
+      "text": "步骤 218  读UID"
+    },
+    {
+      "index": 1166,
+      "style": "Heading 3",
+      "text": "步骤 219  贴卡去重"
+    },
+    {
+      "index": 1170,
+      "style": "Heading 3",
+      "text": "步骤 220  FLASH识别"
+    },
+    {
+      "index": 1174,
+      "style": "Heading 3",
+      "text": "步骤 221  FLASH擦写回读"
+    },
+    {
+      "index": 1178,
+      "style": "Heading 3",
+      "text": "步骤 222  SPI共享验证"
+    },
+    {
+      "index": 1183,
+      "style": "Heading 1",
+      "text": "42  A1 A2 A5 A7 用户识别 注册 查询和权限"
+    },
+    {
+      "index": 1185,
+      "style": "Heading 3",
+      "text": "步骤 223  定义用户表"
+    },
+    {
+      "index": 1189,
+      "style": "Heading 3",
+      "text": "步骤 224  初始化首位管理员"
+    },
+    {
+      "index": 1193,
+      "style": "Heading 3",
+      "text": "步骤 225  注册普通用户"
+    },
+    {
+      "index": 1197,
+      "style": "Heading 3",
+      "text": "步骤 226  挂失与注销"
+    },
+    {
+      "index": 1201,
+      "style": "Heading 3",
+      "text": "步骤 227  积分查询"
+    },
+    {
+      "index": 1205,
+      "style": "Heading 3",
+      "text": "步骤 228  管理员会话"
+    },
+    {
+      "index": 1209,
+      "style": "Heading 3",
+      "text": "步骤 229  容量和异常测试"
+    },
+    {
+      "index": 1213,
+      "style": "Heading 1",
+      "text": "43  A4 把积分做成可恢复的持久事务"
+    },
+    {
+      "index": 1217,
+      "style": "Heading 3",
+      "text": "步骤 230  编写序列化和CRC"
+    },
+    {
+      "index": 1221,
+      "style": "Heading 3",
+      "text": "步骤 231  实现提交状态机"
+    },
+    {
+      "index": 1225,
+      "style": "Heading 3",
+      "text": "步骤 232  执行双快照"
+    },
+    {
+      "index": 1229,
+      "style": "Heading 3",
+      "text": "步骤 233  开机恢复"
+    },
+    {
+      "index": 1233,
+      "style": "Heading 3",
+      "text": "步骤 234  扩展和回收"
+    },
+    {
+      "index": 1239,
+      "style": "Heading 3",
+      "text": "步骤 235  注入断电检查点"
+    },
+    {
+      "index": 1243,
+      "style": "Heading 1",
+      "text": "44  A3 A6 A8 A9 计分 读写卡 排行榜和兑换"
+    },
+    {
+      "index": 1245,
+      "style": "Heading 3",
+      "text": "步骤 236  固定分值积分"
+    },
+    {
+      "index": 1249,
+      "style": "Heading 3",
+      "text": "步骤 237  显示最近记录"
+    },
+    {
+      "index": 1253,
+      "style": "Heading 3",
+      "text": "步骤 238  排行榜"
+    },
+    {
+      "index": 1257,
+      "style": "Heading 3",
+      "text": "步骤 239  兑换事务"
+    },
+    {
+      "index": 1261,
+      "style": "Heading 3",
+      "text": "步骤 240  卡片读写准备"
+    },
+    {
+      "index": 1265,
+      "style": "Heading 3",
+      "text": "步骤 241  写入并回读"
+    },
+    {
+      "index": 1269,
+      "style": "Heading 3",
+      "text": "步骤 242  综合账本测试"
+    },
+    {
+      "index": 1273,
+      "style": "Heading 1",
+      "text": "45  盖板与真实投放 B1 B2 B3 B4 B8 逐步调试"
+    },
+    {
+      "index": 1276,
+      "style": "Heading 3",
+      "text": "步骤 243  空载舵机中位"
+    },
+    {
+      "index": 1280,
+      "style": "Heading 3",
+      "text": "步骤 244  机械闭盖标定"
+    },
+    {
+      "index": 1284,
+      "style": "Heading 3",
+      "text": "步骤 245  开盖标定"
+    },
+    {
+      "index": 1288,
+      "style": "Heading 3",
+      "text": "步骤 246  对射原始量"
+    },
+    {
+      "index": 1294,
+      "style": "Heading 3",
+      "text": "步骤 247  接入投放会话"
+    },
+    {
+      "index": 1300,
+      "style": "Heading 3",
+      "text": "步骤 248  防重复测试"
+    },
+    {
+      "index": 1304,
+      "style": "Heading 3",
+      "text": "步骤 249  便捷模式"
+    },
+    {
+      "index": 1308,
+      "style": "Heading 3",
+      "text": "步骤 250  维护与取内胆"
+    },
+    {
+      "index": 1312,
+      "style": "Heading 3",
+      "text": "步骤 251  维护退出"
+    },
+    {
+      "index": 1316,
+      "style": "Heading 1",
+      "text": "46  B5 桶满检测 按 121 mm 新内胆重新标定"
+    },
+    {
+      "index": 1319,
+      "style": "Heading 3",
+      "text": "步骤 252  超声空载测试"
+    },
+    {
+      "index": 1323,
+      "style": "Heading 3",
+      "text": "步骤 253  空桶基准"
+    },
+    {
+      "index": 1329,
+      "style": "Heading 3",
+      "text": "步骤 254  标定判满高度"
+    },
+    {
+      "index": 1333,
+      "style": "Heading 3",
+      "text": "步骤 255  滤波与状态"
+    },
+    {
+      "index": 1337,
+      "style": "Heading 3",
+      "text": "步骤 256  功能验收"
+    },
+    {
+      "index": 1341,
+      "style": "Heading 1",
+      "text": "47  D1至D4及D6 屏幕 按键 旋钮 声音和自检"
+    },
+    {
+      "index": 1343,
+      "style": "Heading 3",
+      "text": "步骤 257  OLED页面"
+    },
+    {
+      "index": 1347,
+      "style": "Heading 3",
+      "text": "步骤 258  两个按键"
+    },
+    {
+      "index": 1351,
+      "style": "Heading 3",
+      "text": "步骤 259  编码器"
+    },
+    {
+      "index": 1355,
+      "style": "Heading 3",
+      "text": "步骤 260  蜂鸣节奏"
+    },
+    {
+      "index": 1359,
+      "style": "Heading 3",
+      "text": "步骤 261  上电自检"
+    },
+    {
+      "index": 1363,
+      "style": "Heading 3",
+      "text": "步骤 262  故障降级"
+    },
+    {
+      "index": 1367,
+      "style": "Heading 1",
+      "text": "48  C1 C2 C8 C9 D5 D7 先把停止做好 再让轮子落地"
+    },
+    {
+      "index": 1370,
+      "style": "Heading 3",
+      "text": "步骤 263  架空测试"
+    },
+    {
+      "index": 1374,
+      "style": "Heading 3",
+      "text": "步骤 264  统一正方向"
+    },
+    {
+      "index": 1378,
+      "style": "Heading 3",
+      "text": "步骤 265  换向流程"
+    },
+    {
+      "index": 1384,
+      "style": "Heading 3",
+      "text": "步骤 266  急停与碰撞"
+    },
+    {
+      "index": 1388,
+      "style": "Heading 3",
+      "text": "步骤 267  运动互锁"
+    },
+    {
+      "index": 1392,
+      "style": "Heading 3",
+      "text": "步骤 268  MPU姿态标定"
+    },
+    {
+      "index": 1396,
+      "style": "Heading 3",
+      "text": "步骤 269  倾倒停车"
+    },
+    {
+      "index": 1400,
+      "style": "Heading 3",
+      "text": "步骤 270  电池ADC校准"
+    },
+    {
+      "index": 1404,
+      "style": "Heading 3",
+      "text": "步骤 271  低电策略"
+    },
+    {
+      "index": 1408,
+      "style": "Heading 3",
+      "text": "步骤 272  地面限速"
+    },
+    {
+      "index": 1412,
+      "style": "Heading 3",
+      "text": "步骤 273  红外遇障"
+    },
+    {
+      "index": 1416,
+      "style": "Heading 3",
+      "text": "步骤 274  制动距离"
+    },
+    {
+      "index": 1420,
+      "style": "Heading 1",
+      "text": "49  C3 C4 循迹路线与一至两站停靠"
+    },
+    {
+      "index": 1425,
+      "style": "Heading 3",
+      "text": "步骤 275  传感器安装标定"
+    },
+    {
+      "index": 1429,
+      "style": "Heading 3",
+      "text": "步骤 276  只测直线"
+    },
+    {
+      "index": 1433,
+      "style": "Heading 3",
+      "text": "步骤 277  加缓弯"
+    },
+    {
+      "index": 1437,
+      "style": "Heading 3",
+      "text": "步骤 278  制作站点条"
+    },
+    {
+      "index": 1441,
+      "style": "Heading 3",
+      "text": "步骤 279  站点计数"
+    },
+    {
+      "index": 1445,
+      "style": "Heading 3",
+      "text": "步骤 280  到站服务"
+    },
+    {
+      "index": 1449,
+      "style": "Heading 3",
+      "text": "步骤 281  极端测试"
+    },
+    {
+      "index": 1453,
+      "style": "Heading 1",
+      "text": "50  C6 D8 蓝牙控制和电脑导出协议"
+    },
+    {
+      "index": 1456,
+      "style": "Heading 3",
+      "text": "步骤 282  先用有线终端验证解析"
+    },
+    {
+      "index": 1460,
+      "style": "Heading 3",
+      "text": "步骤 283  蓝牙配对"
+    },
+    {
+      "index": 1464,
+      "style": "Heading 3",
+      "text": "步骤 284  加运动心跳"
+    },
+    {
+      "index": 1468,
+      "style": "Heading 3",
+      "text": "步骤 285  多来源互斥"
+    },
+    {
+      "index": 1472,
+      "style": "Heading 3",
+      "text": "步骤 286  导出CSV"
+    },
+    {
+      "index": 1476,
+      "style": "Heading 3",
+      "text": "步骤 287  断线和取消"
+    },
+    {
+      "index": 1480,
+      "style": "Heading 1",
+      "text": "51  E1 E2 E4 温湿度 自动照明和固定语音"
+    },
+    {
+      "index": 1486,
+      "style": "Heading 3",
+      "text": "步骤 288  DHT11接入"
+    },
+    {
+      "index": 1490,
+      "style": "Heading 3",
+      "text": "步骤 289  DHT时序不阻塞"
+    },
+    {
+      "index": 1494,
+      "style": "Heading 3",
+      "text": "步骤 290  光敏极性标定"
+    },
+    {
+      "index": 1498,
+      "style": "Heading 3",
+      "text": "步骤 291  AO3400A照明"
+    },
+    {
+      "index": 1502,
+      "style": "Heading 3",
+      "text": "步骤 292  准备音频卡"
+    },
+    {
+      "index": 1506,
+      "style": "Heading 3",
+      "text": "步骤 293  DFPlayer单测"
+    },
+    {
+      "index": 1510,
+      "style": "Heading 3",
+      "text": "步骤 294  语音队列"
+    },
+    {
+      "index": 1514,
+      "style": "Heading 3",
+      "text": "步骤 295  辅助故障测试"
+    },
+    {
+      "index": 1518,
+      "style": "Heading 1",
+      "text": "52  33 项功能逐项验收矩阵"
+    },
+    {
+      "index": 1521,
+      "style": "Heading 1",
+      "text": "53  整机收线与最后合装"
+    },
+    {
+      "index": 1523,
+      "style": "Heading 3",
+      "text": "步骤 296  先固定电源汇总板"
+    },
+    {
+      "index": 1528,
+      "style": "Heading 3",
+      "text": "步骤 297  固定核心及信号汇总板"
+    },
+    {
+      "index": 1532,
+      "style": "Heading 3",
+      "text": "步骤 298  固定运动与姿态模块"
+    },
+    {
+      "index": 1536,
+      "style": "Heading 3",
+      "text": "步骤 299  安排无线与读卡位置"
+    },
+    {
+      "index": 1540,
+      "style": "Heading 3",
+      "text": "步骤 300  安排声音与光线"
+    },
+    {
+      "index": 1544,
+      "style": "Heading 3",
+      "text": "步骤 301  按编号敷设线束"
+    },
+    {
+      "index": 1548,
+      "style": "Heading 3",
+      "text": "步骤 302  形成应力释放"
+    },
+    {
+      "index": 1552,
+      "style": "Heading 3",
+      "text": "步骤 303  固定电池"
+    },
+    {
+      "index": 1556,
+      "style": "Heading 3",
+      "text": "步骤 304  设置检修盖与标识"
+    },
+    {
+      "index": 1560,
+      "style": "Heading 3",
+      "text": "步骤 305  做线束静态检查"
+    },
+    {
+      "index": 1564,
+      "style": "Heading 3",
+      "text": "步骤 306  做整机通断复查"
+    },
+    {
+      "index": 1568,
+      "style": "Heading 3",
+      "text": "步骤 307  封装前留证"
+    },
+    {
+      "index": 1572,
+      "style": "Heading 1",
+      "text": "54  分阶段整机验收"
+    },
+    {
+      "index": 1574,
+      "style": "Heading 3",
+      "text": "步骤 308  完成逻辑上电验收"
+    },
+    {
+      "index": 1578,
+      "style": "Heading 3",
+      "text": "步骤 309  完成执行器分项验收"
+    },
+    {
+      "index": 1582,
+      "style": "Heading 3",
+      "text": "步骤 310  完成固定桶积分验收"
+    },
+    {
+      "index": 1586,
+      "style": "Heading 3",
+      "text": "步骤 311  完成盖机构连续试验"
+    },
+    {
+      "index": 1590,
+      "style": "Heading 3",
+      "text": "步骤 312  完成空载行走"
+    },
+    {
+      "index": 1594,
+      "style": "Heading 3",
+      "text": "步骤 313  完成载荷与重心检查"
+    },
+    {
+      "index": 1598,
+      "style": "Heading 3",
+      "text": "步骤 314  完成停止类联动"
+    },
+    {
+      "index": 1602,
+      "style": "Heading 3",
+      "text": "步骤 315  完成循环演示"
+    },
+    {
+      "index": 1606,
+      "style": "Heading 3",
+      "text": "步骤 316  完成长时间观察"
+    },
+    {
+      "index": 1610,
+      "style": "Heading 3",
+      "text": "步骤 317  形成最终通过记录"
+    },
+    {
+      "index": 1614,
+      "style": "Heading 1",
+      "text": "55  常见故障逐项排查"
+    },
+    {
+      "index": 1617,
+      "style": "Heading 1",
+      "text": "56  充电收纳与日常维护"
+    },
+    {
+      "index": 1619,
+      "style": "Heading 3",
+      "text": "步骤 318  关闭与保存"
+    },
+    {
+      "index": 1623,
+      "style": "Heading 3",
+      "text": "步骤 319  取出并充电"
+    },
+    {
+      "index": 1627,
+      "style": "Heading 3",
+      "text": "步骤 320  更换垃圾袋"
+    },
+    {
+      "index": 1631,
+      "style": "Heading 3",
+      "text": "步骤 321  检查紧固与线束"
+    },
+    {
+      "index": 1635,
+      "style": "Heading 3",
+      "text": "步骤 322  保存工程资料"
+    },
+    {
+      "index": 1639,
+      "style": "Heading 1",
+      "text": "57  可以直接填写的制作记录"
+    },
+    {
+      "index": 1646,
+      "style": "Heading 1",
+      "text": "58  课设演示的完整顺序"
+    },
+    {
+      "index": 1648,
+      "style": "Heading 3",
+      "text": "步骤 323  展示硬件和初始状态"
+    },
+    {
+      "index": 1652,
+      "style": "Heading 3",
+      "text": "步骤 324  展示身份与权限"
+    },
+    {
+      "index": 1656,
+      "style": "Heading 3",
+      "text": "步骤 325  展示投放积分"
+    },
+    {
+      "index": 1660,
+      "style": "Heading 3",
+      "text": "步骤 326  展示RFID实验和存储"
+    },
+    {
+      "index": 1664,
+      "style": "Heading 3",
+      "text": "步骤 327  展示兑换与排行"
+    },
+    {
+      "index": 1668,
+      "style": "Heading 3",
+      "text": "步骤 328  展示桶体附加功能"
+    },
+    {
+      "index": 1672,
+      "style": "Heading 3",
+      "text": "步骤 329  展示移动功能"
+    },
+    {
+      "index": 1676,
+      "style": "Heading 3",
+      "text": "步骤 330  展示环境与收尾"
+    },
+    {
+      "index": 1680,
+      "style": "Heading 1",
+      "text": "59  技术资料与参数依据"
+    },
+    {
+      "index": 1730,
+      "style": "Heading 1",
+      "text": "60  SG90舵机与桶盖连接详图"
+    },
+    {
+      "index": 1732,
+      "style": "Heading 2",
+      "text": "60.1  先认清固定件和运动件"
+    },
+    {
+      "index": 1735,
+      "style": "Heading 2",
+      "text": "60.2  三根舵机线分别接到哪里"
+    },
+    {
+      "index": 1737,
+      "style": "Heading 2",
+      "text": "60.3  合盖状态与尺寸基准"
+    },
+    {
+      "index": 1741,
+      "style": "Heading 2",
+      "text": "60.4  中间状态与干涉检查"
+    },
+    {
+      "index": 1745,
+      "style": "Heading 2",
+      "text": "60.5  正常全开与端点校准"
+    },
+    {
+      "index": 1749,
+      "style": "Heading 2",
+      "text": "60.6  盖侧臂与桶盖固定"
+    },
+    {
+      "index": 1754,
+      "style": "Heading 2",
+      "text": "60.7  舵盘与球头叠装"
+    },
+    {
+      "index": 1759,
+      "style": "Heading 1",
+      "text": "61  洞洞板正反面与逐根接线表"
+    },
+    {
+      "index": 1761,
+      "style": "Heading 2",
+      "text": "61.1  读图前先确认板型和方向"
+    },
+    {
+      "index": 1770,
+      "style": "Heading 2",
+      "text": "61.2  怎样从原步骤查到本章"
+    },
+    {
+      "index": 1771,
+      "style": "Heading 2",
+      "text": "61.3  PWR电源板元件面"
+    },
+    {
+      "index": 1774,
+      "style": "Heading 2",
+      "text": "PWR电源板焊接面"
+    },
+    {
+      "index": 1777,
+      "style": "Heading 2",
+      "text": "IO信号板元件面"
+    },
+    {
+      "index": 1780,
+      "style": "Heading 2",
+      "text": "IO信号板焊接面"
+    },
+    {
+      "index": 1783,
+      "style": "Heading 2",
+      "text": "61.4  PWR元件孔位与接口"
+    },
+    {
+      "index": 1785,
+      "style": "Heading 2",
+      "text": "61.5  IO元件孔位与接口"
+    },
+    {
+      "index": 1787,
+      "style": "Heading 2",
+      "text": "61.6  PWR逐根焊线检查表"
+    },
+    {
+      "index": 1789,
+      "style": "Heading 2",
+      "text": "61.7  IO逐根焊线检查表"
+    },
+    {
+      "index": 1791,
+      "style": "Heading 2",
+      "text": "61.8  条件装配与外部线束边界"
+    },
+    {
+      "index": 1798,
+      "style": "Heading 2",
+      "text": "61.9  外置模块接线与分阶段上电"
+    },
+    {
+      "index": 1799,
+      "style": "Heading 3",
+      "text": "01  这两块板怎样分工"
+    },
+    {
+      "index": 1803,
+      "style": "Heading 3",
+      "text": "02  两板图以外仍须接好的线和小元件"
+    },
+    {
+      "index": 1810,
+      "style": "Heading 3",
+      "text": "03  电源与两路 3.3 V"
+    },
+    {
+      "index": 1815,
+      "style": "Heading 3",
+      "text": "04  PWR 两根连续汇流铜线的具体施工"
+    },
+    {
+      "index": 1821,
+      "style": "Heading 3",
+      "text": "05  核心板、下载器和电脑串口"
+    },
+    {
+      "index": 1826,
+      "style": "Heading 3",
+      "text": "06  MCP23017、OLED 与 MPU6050"
+    },
+    {
+      "index": 1831,
+      "style": "Heading 3",
+      "text": "07  RC522 与 FLASH 的 SPI"
+    },
+    {
+      "index": 1836,
+      "style": "Heading 3",
+      "text": "08  所有数字传感器先确定输入适配方式"
+    },
+    {
+      "index": 1842,
+      "style": "Heading 3",
+      "text": "09  编码器、模式按键、碰撞和闭盖"
+    },
+    {
+      "index": 1847,
+      "style": "Heading 3",
+      "text": "10  急停两组NC与三个三极管"
+    },
+    {
+      "index": 1853,
+      "style": "Heading 3",
+      "text": "11  AHCT缓冲、舵机与HC-SR04"
+    },
+    {
+      "index": 1858,
+      "style": "Heading 3",
+      "text": "12  轮电机和TB6612"
+    },
+    {
+      "index": 1862,
+      "style": "Heading 3",
+      "text": "13  DHT11、光敏与PWR板电池ADC"
+    },
+    {
+      "index": 1867,
+      "style": "Heading 3",
+      "text": "14  PWR照明MOS、蜂鸣器与语音"
+    },
+    {
+      "index": 1873,
+      "style": "Heading 3",
+      "text": "15  HC-05、原有备用模块和接口余量"
+    },
+    {
+      "index": 1877,
+      "style": "Heading 3",
+      "text": "16  焊接与镜像顺序"
+    },
+    {
+      "index": 1882,
+      "style": "Heading 3",
+      "text": "17  按阶段上电验收"
+    },
+    {
+      "index": 1888,
+      "style": "Heading 2",
+      "text": "61.10  文件和本次修订记录"
+    },
+    {
+      "index": 1891,
+      "style": "Heading 1",
+      "text": "62  木板与PVC板裁剪图解"
+    },
+    {
+      "index": 1895,
+      "style": "Heading 2",
+      "text": "62.1  两张木板怎样排料"
+    },
+    {
+      "index": 1900,
+      "style": "Heading 2",
+      "text": "62.2  底板与上平台怎样标孔"
+    },
+    {
+      "index": 1904,
+      "style": "Heading 2",
+      "text": "62.3  3mm固定壳体怎样排料"
+    },
+    {
+      "index": 1909,
+      "style": "Heading 2",
+      "text": "62.4  四壁与壳底怎样扣除板厚"
+    },
+    {
+      "index": 1915,
+      "style": "Heading 2",
+      "text": "62.5  2mm活动盖怎样裁剪"
+    },
+    {
+      "index": 1921,
+      "style": "Heading 2",
+      "text": "62.6  实际施工顺序与复核"
+    }
+  ],
+  "fields": [
+    "TOC \\o \"1-1\" \\h \\z \\u",
+    " PAGEREF _Toc242563055 \\h ",
+    " PAGEREF _Toc242563056 \\h ",
+    " PAGEREF _Toc242563057 \\h ",
+    " PAGEREF _Toc242563058 \\h ",
+    " PAGEREF _Toc242563059 \\h ",
+    " PAGEREF _Toc242563060 \\h ",
+    " PAGEREF _Toc242563061 \\h ",
+    " PAGEREF _Toc242563062 \\h ",
+    " PAGEREF _Toc242563063 \\h ",
+    " PAGEREF _Toc242563064 \\h ",
+    " PAGEREF _Toc242563065 \\h ",
+    " PAGEREF _Toc242563066 \\h ",
+    " PAGEREF _Toc242563067 \\h ",
+    " PAGEREF _Toc242563068 \\h ",
+    " PAGEREF _Toc242563069 \\h ",
+    " PAGEREF _Toc242563070 \\h ",
+    " PAGEREF _Toc242563071 \\h ",
+    " PAGEREF _Toc242563072 \\h ",
+    " PAGEREF _Toc242563073 \\h ",
+    " PAGEREF _Toc242563074 \\h ",
+    " PAGEREF _Toc242563075 \\h ",
+    " PAGEREF _Toc242563076 \\h ",
+    " PAGEREF _Toc242563077 \\h ",
+    " PAGEREF _Toc242563078 \\h ",
+    " PAGEREF _Toc242563079 \\h ",
+    " PAGEREF _Toc242563080 \\h ",
+    " PAGEREF _Toc242563081 \\h ",
+    " PAGEREF _Toc242563082 \\h ",
+    " PAGEREF _Toc242563083 \\h ",
+    " PAGEREF _Toc242563084 \\h ",
+    " PAGEREF _Toc242563085 \\h ",
+    " PAGEREF _Toc242563086 \\h ",
+    " PAGEREF _Toc242563087 \\h ",
+    " PAGEREF _Toc242563088 \\h ",
+    " PAGEREF _Toc242563089 \\h ",
+    " PAGEREF _Toc242563090 \\h ",
+    " PAGEREF _Toc242563091 \\h ",
+    " PAGEREF _Toc242563092 \\h ",
+    " PAGEREF _Toc242563093 \\h ",
+    " PAGEREF _Toc242563094 \\h ",
+    " PAGEREF _Toc242563095 \\h ",
+    " PAGEREF _Toc242563096 \\h ",
+    " PAGEREF _Toc242563097 \\h ",
+    " PAGEREF _Toc242563098 \\h ",
+    " PAGEREF _Toc242563099 \\h ",
+    " PAGEREF _Toc242563100 \\h ",
+    " PAGEREF _Toc242563101 \\h ",
+    " PAGEREF _Toc242563102 \\h ",
+    " PAGEREF _Toc242563103 \\h ",
+    " PAGEREF _Toc242563104 \\h ",
+    " PAGEREF _Toc242563105 \\h ",
+    " PAGEREF _Toc242563106 \\h ",
+    " PAGEREF _Toc242563107 \\h ",
+    " PAGEREF _Toc242563108 \\h ",
+    " PAGEREF _Toc242563109 \\h ",
+    " PAGEREF _Toc242563110 \\h ",
+    " PAGEREF _Toc242563111 \\h ",
+    " PAGEREF _Toc242563112 \\h ",
+    " PAGEREF _Toc242563113 \\h ",
+    " PAGEREF _Toc242563114 \\h ",
+    " PAGEREF _Toc242563115 \\h ",
+    " PAGEREF _Toc242563116 \\h "
+  ],
+  "sections": [
+    {
+      "width_cm": 21.59,
+      "height_cm": 27.94,
+      "top_cm": 1.700388888888889,
+      "bottom_cm": 1.700388888888889,
+      "left_cm": 1.7991666666666666,
+      "right_cm": 1.7991666666666666,
+      "header_cm": 0.650875,
+      "footer_cm": 0.7002638888888889
+    }
+  ]
+}

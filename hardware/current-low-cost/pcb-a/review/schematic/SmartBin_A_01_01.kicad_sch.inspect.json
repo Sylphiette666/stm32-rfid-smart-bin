@@ -1,0 +1,409 @@
+{
+  "score": {
+    "total": 15725.0,
+    "collision_count": 0,
+    "wire_hits": 0,
+    "component_hits": 0,
+    "text_hits": 0,
+    "collision_area": 0,
+    "wire_corner_count": 5,
+    "wire_corner_penalty": 125.0,
+    "diagonal_wire_count": 0,
+    "diagonal_wire_penalty": 0.0,
+    "symbol_wire_conflict_count": 13,
+    "symbol_wire_penalty": 15600.0,
+    "symbol_wire_clearance_count": 0,
+    "symbol_wire_clearance_penalty": 0.0,
+    "symbol_wire_edge_hug_count": 0,
+    "symbol_wire_edge_hug_penalty": 0
+  },
+  "wire_length": {
+    "total_mm": 353.06,
+    "segment_count": 48,
+    "longest_segment_mm": 7.62
+  },
+  "collisions": [],
+  "symbol_wire_conflicts": [
+    {
+      "kind": "overlap",
+      "ref": "C4",
+      "lib_id": "SmartBin_A:Device_C",
+      "bbox": {
+        "x1": 153.67,
+        "y1": 95.25,
+        "x2": 161.29,
+        "y2": 95.25
+      },
+      "expanded_bbox": null,
+      "clearance_side": null,
+      "edge_side": null,
+      "orth_distance": null,
+      "overlap_span": null,
+      "preferred_dx": 0.0,
+      "preferred_dy": 0.0,
+      "wire": {
+        "uuid": "7092e46d-9691-5356-a037-4b5e912e7ba7",
+        "p1": [
+          153.67,
+          95.25
+        ],
+        "p2": [
+          146.05,
+          95.25
+        ]
+      }
+    },
+    {
+      "kind": "overlap",
+      "ref": "C4",
+      "lib_id": "SmartBin_A:Device_C",
+      "bbox": {
+        "x1": 153.67,
+        "y1": 95.25,
+        "x2": 161.29,
+        "y2": 95.25
+      },
+      "expanded_bbox": null,
+      "clearance_side": null,
+      "edge_side": null,
+      "orth_distance": null,
+      "overlap_span": null,
+      "preferred_dx": 0.0,
+      "preferred_dy": 0.0,
+      "wire": {
+        "uuid": "f88daa65-9a10-57a7-b319-0692cfaedb8b",
+        "p1": [
+          161.29,
+          95.25
+        ],
+        "p2": [
+          168.91,
+          95.25
+        ]
+      }
+    },
+    {
+      "kind": "overlap",
+      "ref": "C5",
+      "lib_id": "SmartBin_A:Device_C",
+      "bbox": {
+        "x1": 153.67,
+        "y1": 119.38,
+        "x2": 161.29,
+        "y2": 119.38
+      },
+      "expanded_bbox": null,
+      "clearance_side": null,
+      "edge_side": null,
+      "orth_distance": null,
+      "overlap_span": null,
+      "preferred_dx": 0.0,
+      "preferred_dy": 0.0,
+      "wire": {
+        "uuid": "5b99e25a-7e54-5082-880e-e3595a00529f",
+        "p1": [
+          153.67,
+          119.38
+        ],
+        "p2": [
+          146.05,
+          119.38
+        ]
+      }
+    },
+    {
+      "kind": "overlap",
+      "ref": "C5",
+      "lib_id": "SmartBin_A:Device_C",
+      "bbox": {
+        "x1": 153.67,
+        "y1": 119.38,
+        "x2": 161.29,
+        "y2": 119.38
+      },
+      "expanded_bbox": null,
+      "clearance_side": null,
+      "edge_side": null,
+      "orth_distance": null,
+      "overlap_span": null,
+      "preferred_dx": 0.0,
+      "preferred_dy": 0.0,
+      "wire": {
+        "uuid": "a98a111a-0f29-53c4-9b90-6ea441ae1169",
+        "p1": [
+          161.29,
+          119.38
+        ],
+        "p2": [
+          168.91,
+          119.38
+        ]
+      }
+    },
+    {
+      "kind": "overlap",
+      "ref": "C6",
+      "lib_id": "SmartBin_A:Device_C",
+      "bbox": {
+        "x1": 153.67,
+        "y1": 143.51,
+        "x2": 161.29,
+        "y2": 143.51
+      },
+      "expanded_bbox": null,
+      "clearance_side": null,
+      "edge_side": null,
+      "orth_distance": null,
+      "overlap_span": null,
+      "preferred_dx": 0.0,
+      "preferred_dy": 0.0,
+      "wire": {
+        "uuid": "b116f7f5-e60b-55a3-8da3-4585e07466b1",
+        "p1": [
+          153.67,
+          143.51
+        ],
+        "p2": [
+          146.05,
+          143.51
+        ]
+      }
+    },
+    {
+      "kind": "overlap",
+      "ref": "C6",
+      "lib_id": "SmartBin_A:Device_C",
+      "bbox": {
+        "x1": 153.67,
+        "y1": 143.51,
+        "x2": 161.29,
+        "y2": 143.51
+      },
+      "expanded_bbox": null,
+      "clearance_side": null,
+      "edge_side": null,
+      "orth_distance": null,
+      "overlap_span": null,
+      "preferred_dx": 0.0,
+      "preferred_dy": 0.0,
+      "wire": {
+        "uuid": "c2ea5be9-0e6b-5995-95fe-9c7412611b9a",
+        "p1": [
+          161.29,
+          143.51
+        ],
+        "p2": [
+          168.91,
+          143.51
+        ]
+      }
+    },
+    {
+      "kind": "overlap",
+      "ref": "C7",
+      "lib_id": "SmartBin_A:Device_C",
+      "bbox": {
+        "x1": 153.67,
+        "y1": 214.63,
+        "x2": 161.29,
+        "y2": 214.63
+      },
+      "expanded_bbox": null,
+      "clearance_side": null,
+      "edge_side": null,
+      "orth_distance": null,
+      "overlap_span": null,
+      "preferred_dx": 0.0,
+      "preferred_dy": 0.0,
+      "wire": {
+        "uuid": "5e6e5db0-bda6-58b1-972a-3fbde649ce87",
+        "p1": [
+          153.67,
+          214.63
+        ],
+        "p2": [
+          146.05,
+          214.63
+        ]
+      }
+    },
+    {
+      "kind": "overlap",
+      "ref": "C7",
+      "lib_id": "SmartBin_A:Device_C",
+      "bbox": {
+        "x1": 153.67,
+        "y1": 214.63,
+        "x2": 161.29,
+        "y2": 214.63
+      },
+      "expanded_bbox": null,
+      "clearance_side": null,
+      "edge_side": null,
+      "orth_distance": null,
+      "overlap_span": null,
+      "preferred_dx": 0.0,
+      "preferred_dy": 0.0,
+      "wire": {
+        "uuid": "b417b35a-c2dc-54b9-8e7c-441ff35517fb",
+        "p1": [
+          161.29,
+          214.63
+        ],
+        "p2": [
+          168.91,
+          214.63
+        ]
+      }
+    },
+    {
+      "kind": "overlap",
+      "ref": "#FLG001",
+      "lib_id": "SmartBin_A:power_PWR_FLAG",
+      "bbox": {
+        "x1": 31.75,
+        "y1": 271.78,
+        "x2": 31.75,
+        "y2": 271.78
+      },
+      "expanded_bbox": null,
+      "clearance_side": null,
+      "edge_side": null,
+      "orth_distance": null,
+      "overlap_span": null,
+      "preferred_dx": 0.0,
+      "preferred_dy": 0.0,
+      "wire": {
+        "uuid": "e490cd8e-d20f-5f1c-97dc-3f02c3270de5",
+        "p1": [
+          31.75,
+          271.78
+        ],
+        "p2": [
+          31.75,
+          276.86
+        ]
+      }
+    },
+    {
+      "kind": "overlap",
+      "ref": "#FLG002",
+      "lib_id": "SmartBin_A:power_PWR_FLAG",
+      "bbox": {
+        "x1": 90.17,
+        "y1": 271.78,
+        "x2": 90.17,
+        "y2": 271.78
+      },
+      "expanded_bbox": null,
+      "clearance_side": null,
+      "edge_side": null,
+      "orth_distance": null,
+      "overlap_span": null,
+      "preferred_dx": 0.0,
+      "preferred_dy": 0.0,
+      "wire": {
+        "uuid": "971fdc18-299d-5d1d-9fce-e1b439ce1802",
+        "p1": [
+          90.17,
+          271.78
+        ],
+        "p2": [
+          90.17,
+          276.86
+        ]
+      }
+    },
+    {
+      "kind": "overlap",
+      "ref": "#FLG003",
+      "lib_id": "SmartBin_A:power_PWR_FLAG",
+      "bbox": {
+        "x1": 148.59,
+        "y1": 271.78,
+        "x2": 148.59,
+        "y2": 271.78
+      },
+      "expanded_bbox": null,
+      "clearance_side": null,
+      "edge_side": null,
+      "orth_distance": null,
+      "overlap_span": null,
+      "preferred_dx": 0.0,
+      "preferred_dy": 0.0,
+      "wire": {
+        "uuid": "e89cc29c-121b-5775-b9b2-da0934cc8f9a",
+        "p1": [
+          148.59,
+          271.78
+        ],
+        "p2": [
+          148.59,
+          276.86
+        ]
+      }
+    },
+    {
+      "kind": "overlap",
+      "ref": "#FLG004",
+      "lib_id": "SmartBin_A:power_PWR_FLAG",
+      "bbox": {
+        "x1": 205.74,
+        "y1": 271.78,
+        "x2": 205.74,
+        "y2": 271.78
+      },
+      "expanded_bbox": null,
+      "clearance_side": null,
+      "edge_side": null,
+      "orth_distance": null,
+      "overlap_span": null,
+      "preferred_dx": 0.0,
+      "preferred_dy": 0.0,
+      "wire": {
+        "uuid": "e25d8441-984f-512a-ab6a-457755e4fbf9",
+        "p1": [
+          205.74,
+          271.78
+        ],
+        "p2": [
+          205.74,
+          276.86
+        ]
+      }
+    },
+    {
+      "kind": "overlap",
+      "ref": "#FLG005",
+      "lib_id": "SmartBin_A:power_PWR_FLAG",
+      "bbox": {
+        "x1": 264.16,
+        "y1": 271.78,
+        "x2": 264.16,
+        "y2": 271.78
+      },
+      "expanded_bbox": null,
+      "clearance_side": null,
+      "edge_side": null,
+      "orth_distance": null,
+      "overlap_span": null,
+      "preferred_dx": 0.0,
+      "preferred_dy": 0.0,
+      "wire": {
+        "uuid": "f121ab7a-50d8-516b-ad9f-57ed9fb7ea7b",
+        "p1": [
+          264.16,
+          271.78
+        ],
+        "p2": [
+          264.16,
+          276.86
+        ]
+      }
+    }
+  ],
+  "filters": {
+    "only_text": null,
+    "margin": 0.0
+  }
+}

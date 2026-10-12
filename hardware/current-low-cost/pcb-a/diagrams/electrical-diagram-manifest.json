@@ -1,0 +1,39 @@
+{
+  "circuit_sha256": "225c46bab14148b6967e939e0aa3b51cb713c2dd21b1f58574349da68c86e21b",
+  "figures": [
+    {
+      "file": "D:\\Work\\嵌入式课设\\.pcb-lowcost-20261012\\a-design\\diagrams\\47_power.png",
+      "width": 1800,
+      "height": 2180,
+      "text_boxes": 64,
+      "bounds_pass": true,
+      "id": 47,
+      "svg": "D:\\Work\\嵌入式课设\\.pcb-lowcost-20261012\\a-design\\diagrams\\47_power.svg",
+      "caption": "图47 板外电源与PCB三支路：保险和总开关在电池正线上；动力采用独立粗线回路，外设与核心的两路3.3V输出不并接。",
+      "alt": "图47 板外电源与PCB三支路：保险和总开关在电池正线上；动力采用独立粗线回路，外设与核心的两路3.3V输出不并接。"
+    },
+    {
+      "file": "D:\\Work\\嵌入式课设\\.pcb-lowcost-20261012\\a-design\\diagrams\\48_modules.png",
+      "width": 1800,
+      "height": 2200,
+      "text_boxes": 67,
+      "bounds_pass": true,
+      "id": 48,
+      "svg": "D:\\Work\\嵌入式课设\\.pcb-lowcost-20261012\\a-design\\diagrams\\48_modules.svg",
+      "caption": "图48 新PCB模块接口总览：核心与模块逐线按信号连接；MCP五根总线/电源/复位加两组七根GPIO，共19根线。",
+      "alt": "图48 新PCB模块接口总览：核心与模块逐线按信号连接；MCP五根总线/电源/复位加两组七根GPIO，共19根线。"
+    },
+    {
+      "file": "D:\\Work\\嵌入式课设\\.pcb-lowcost-20261012\\a-design\\diagrams\\49_conditions.png",
+      "width": 1800,
+      "height": 2200,
+      "text_boxes": 46,
+      "bounds_pass": true,
+      "id": 49,
+      "svg": "D:\\Work\\嵌入式课设\\.pcb-lowcost-20261012\\a-design\\diagrams\\49_conditions.svg",
+      "caption": "图49 条件适配：5V数字DO使用反相NPN适配；5V DHT使用BSS138且断开JP8；蜂鸣控制与供电、复位偏置分别选择。",
+      "alt": "图49 条件适配：5V数字DO使用反相NPN适配；5V DHT使用BSS138且断开JP8；蜂鸣控制与供电、复位偏置分别选择。"
+    }
+  ],
+  "qa_status": "PASS: actual PNG view for47/48/49; see electrical-diagram-qa.json"
+}

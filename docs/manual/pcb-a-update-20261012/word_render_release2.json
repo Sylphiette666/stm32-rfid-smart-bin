@@ -1,0 +1,20 @@
+{
+  "input": "D:\\Work\\嵌入式课设\\.pcb-lowcost-20261012\\a-manual\\staging\\STM32与RFID智能移动垃圾桶_逐步组装与调试实施手册_图解增强版.docx",
+  "pdf": "D:\\Work\\嵌入式课设\\.pcb-lowcost-20261012\\a-manual\\render_release2\\manual.pdf",
+  "text": "D:\\Work\\嵌入式课设\\.pcb-lowcost-20261012\\a-manual\\render_release2\\word_text.txt",
+  "update_and_save": true,
+  "initial_word_pids": [
+    14952,
+    41796
+  ],
+  "owned_word_pid": 27852,
+  "ownership_verified": true,
+  "pages": 198,
+  "status": "success",
+  "ownership_method": "single_new_pid_creation_time_and_COM_identity_hwnd_zero",
+  "hwnd_pid_before_open": 0,
+  "hwnd_pid_after_open": 0,
+  "user_instances_touched": false,
+  "cleanup_warnings": [],
+  "finished_at": "2026-10-12T18:34:27.8168060+08:00"
+}

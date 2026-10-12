@@ -1,0 +1,132 @@
+(kicad_sch (version 20250114) (generator kicad-tool)
+  (generator_version "1.0")
+
+  (uuid d2a8d719-5ab2-513a-8b9d-2797cd2f9361)
+
+  (paper "A3")
+
+  (title_block
+    (title "SmartBin A / System index")
+    (date "2026-10-12")
+    (rev "A1")
+    (company "STM32 + RFID / DIY through-hole carrier")
+    (comment 1 "Existing external modules; cable connected; all named nets are global.")
+    (comment 2 "Prototype: verify polarity and module pin order before connection.")
+  )
+  (lib_symbols)
+
+  (text "SYSTEM INDEX"
+    (at 15 16 0)
+    (effects (font (size 2 2) (bold yes)) (justify left))
+    (uuid ed51fd7c-b45f-50f7-8ded-968919d88758)
+  )
+  (text "A1 | Bare PCB + hand soldering | Existing assembled modules remain external"
+    (at 15 22 0)
+    (effects (font (size 1.15 1.15)) (justify left))
+    (uuid e93b50cf-ea36-5042-a454-d7b2888a6f6f)
+  )
+  (text "PROJECT STRUCTURE"
+    (at 20 38 0)
+    (effects (font (size 1.5 1.5) (bold yes)) (justify left))
+    (uuid f95be082-6223-5feb-98ae-50e051c02c90)
+  )
+  (text "Assembly guidance and external module connections are specified in the accompanying manual."
+    (at 20 255 0)
+    (effects (font (size 1.2 1.2)) (justify left))
+    (uuid d6d39107-b357-5c53-9b1d-c8d151931344)
+  )
+  (text "Do not connect the core 3.3 V rail in parallel with the external 3.3 V regulator."
+    (at 20 262 0)
+    (effects (font (size 1.2 1.2)) (justify left))
+    (uuid 25f2f1b8-e452-5327-91b3-b657ff2f5111)
+  )
+
+  (sheet (at 25 54) (size 160 20)
+    (stroke (width 0))
+    (fill (color 0 0 0 0))
+    (uuid e20c3048-392a-5dbe-aff3-20af12951aa6)
+    (property "Sheetname" "02 01 Power distribution and ADC" (at 30 59 0)
+      (effects (font (size 1.2 1.2)) (justify left))
+    )
+    (property "Sheetfile" "SmartBin_A_01_01.kicad_sch" (at 30 68 0)
+      (effects (font (size 1.1 1.1)) (justify left))
+    )
+    (instances
+      (project "SmartBin_A"
+        (path "/d2a8d719-5ab2-513a-8b9d-2797cd2f9361" (page "2"))
+      )
+    )
+  )
+
+  (sheet (at 215 54) (size 160 20)
+    (stroke (width 0))
+    (fill (color 0 0 0 0))
+    (uuid 4acde8c5-959f-53fe-a7d2-681bb844abe9)
+    (property "Sheetname" "03 02 MCU, MCP23017 and emergency stop" (at 220 59 0)
+      (effects (font (size 1.2 1.2)) (justify left))
+    )
+    (property "Sheetfile" "SmartBin_A_02_01.kicad_sch" (at 220 68 0)
+      (effects (font (size 1.1 1.1)) (justify left))
+    )
+    (instances
+      (project "SmartBin_A"
+        (path "/d2a8d719-5ab2-513a-8b9d-2797cd2f9361" (page "3"))
+      )
+    )
+  )
+
+  (sheet (at 25 91) (size 160 20)
+    (stroke (width 0))
+    (fill (color 0 0 0 0))
+    (uuid 12661bca-0903-5abb-8aad-b1cff245c4f0)
+    (property "Sheetname" "04 03 Serial module interfaces" (at 30 96 0)
+      (effects (font (size 1.2 1.2)) (justify left))
+    )
+    (property "Sheetfile" "SmartBin_A_03_01.kicad_sch" (at 30 105 0)
+      (effects (font (size 1.1 1.1)) (justify left))
+    )
+    (instances
+      (project "SmartBin_A"
+        (path "/d2a8d719-5ab2-513a-8b9d-2797cd2f9361" (page "4"))
+      )
+    )
+  )
+
+  (sheet (at 215 91) (size 160 20)
+    (stroke (width 0))
+    (fill (color 0 0 0 0))
+    (uuid d385536b-95d0-5df1-a5a0-9bec05d55771)
+    (property "Sheetname" "05 04 Buffered outputs and actuators" (at 220 96 0)
+      (effects (font (size 1.2 1.2)) (justify left))
+    )
+    (property "Sheetfile" "SmartBin_A_04_01.kicad_sch" (at 220 105 0)
+      (effects (font (size 1.1 1.1)) (justify left))
+    )
+    (instances
+      (project "SmartBin_A"
+        (path "/d2a8d719-5ab2-513a-8b9d-2797cd2f9361" (page "5"))
+      )
+    )
+  )
+
+  (sheet (at 25 128) (size 160 20)
+    (stroke (width 0))
+    (fill (color 0 0 0 0))
+    (uuid 648917c6-a615-514c-9dc3-06c1e92b5fde)
+    (property "Sheetname" "06 05 Sensor and user inputs" (at 30 133 0)
+      (effects (font (size 1.2 1.2)) (justify left))
+    )
+    (property "Sheetfile" "SmartBin_A_05_01.kicad_sch" (at 30 142 0)
+      (effects (font (size 1.1 1.1)) (justify left))
+    )
+    (instances
+      (project "SmartBin_A"
+        (path "/d2a8d719-5ab2-513a-8b9d-2797cd2f9361" (page "6"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)

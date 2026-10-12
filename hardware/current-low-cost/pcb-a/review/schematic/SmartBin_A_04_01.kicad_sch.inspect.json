@@ -1,0 +1,206 @@
+{
+  "score": {
+    "total": 7350.0,
+    "collision_count": 0,
+    "wire_hits": 0,
+    "component_hits": 0,
+    "text_hits": 0,
+    "collision_area": 0,
+    "wire_corner_count": 6,
+    "wire_corner_penalty": 150.0,
+    "diagonal_wire_count": 0,
+    "diagonal_wire_penalty": 0.0,
+    "symbol_wire_conflict_count": 6,
+    "symbol_wire_penalty": 7200.0,
+    "symbol_wire_clearance_count": 0,
+    "symbol_wire_clearance_penalty": 0.0,
+    "symbol_wire_edge_hug_count": 0,
+    "symbol_wire_edge_hug_penalty": 0
+  },
+  "wire_length": {
+    "total_mm": 434.34,
+    "segment_count": 59,
+    "longest_segment_mm": 7.62
+  },
+  "collisions": [],
+  "symbol_wire_conflicts": [
+    {
+      "kind": "overlap",
+      "ref": "U1",
+      "lib_id": "SmartBin_A:74xx_74AHCT125",
+      "bbox": {
+        "x1": 54.61,
+        "y1": 111.75999999999999,
+        "x2": 64.77,
+        "y2": 127.0
+      },
+      "expanded_bbox": null,
+      "clearance_side": null,
+      "edge_side": null,
+      "orth_distance": null,
+      "overlap_span": null,
+      "preferred_dx": 0.0,
+      "preferred_dy": 0.0,
+      "wire": {
+        "uuid": "72a40b5f-2e36-5430-ba78-1445fdb4ca5b",
+        "p1": [
+          59.69,
+          125.73
+        ],
+        "p2": [
+          59.69,
+          130.81
+        ]
+      }
+    },
+    {
+      "kind": "overlap",
+      "ref": "U1",
+      "lib_id": "SmartBin_A:74xx_74AHCT125",
+      "bbox": {
+        "x1": 54.61,
+        "y1": 156.21,
+        "x2": 64.77,
+        "y2": 171.45000000000002
+      },
+      "expanded_bbox": null,
+      "clearance_side": null,
+      "edge_side": null,
+      "orth_distance": null,
+      "overlap_span": null,
+      "preferred_dx": 0.0,
+      "preferred_dy": 0.0,
+      "wire": {
+        "uuid": "77c3c1c9-d617-54eb-8fa7-49098f56eb11",
+        "p1": [
+          59.69,
+          170.18
+        ],
+        "p2": [
+          59.69,
+          175.26
+        ]
+      }
+    },
+    {
+      "kind": "overlap",
+      "ref": "U1",
+      "lib_id": "SmartBin_A:74xx_74AHCT125",
+      "bbox": {
+        "x1": 54.61,
+        "y1": 201.93,
+        "x2": 64.77,
+        "y2": 217.17000000000002
+      },
+      "expanded_bbox": null,
+      "clearance_side": null,
+      "edge_side": null,
+      "orth_distance": null,
+      "overlap_span": null,
+      "preferred_dx": 0.0,
+      "preferred_dy": 0.0,
+      "wire": {
+        "uuid": "882b891c-a5fd-5a6a-ae6c-0b2257ecf080",
+        "p1": [
+          59.69,
+          215.9
+        ],
+        "p2": [
+          59.69,
+          220.98
+        ]
+      }
+    },
+    {
+      "kind": "overlap",
+      "ref": "U1",
+      "lib_id": "SmartBin_A:74xx_74AHCT125",
+      "bbox": {
+        "x1": 152.39999999999998,
+        "y1": 39.370000000000005,
+        "x2": 162.56,
+        "y2": 54.61
+      },
+      "expanded_bbox": null,
+      "clearance_side": null,
+      "edge_side": null,
+      "orth_distance": null,
+      "overlap_span": null,
+      "preferred_dx": 0.0,
+      "preferred_dy": 0.0,
+      "wire": {
+        "uuid": "6363e520-0b32-5193-b758-bb0416284ddf",
+        "p1": [
+          157.48,
+          53.34
+        ],
+        "p2": [
+          157.48,
+          58.42
+        ]
+      }
+    },
+    {
+      "kind": "overlap",
+      "ref": "C8",
+      "lib_id": "SmartBin_A:Device_C",
+      "bbox": {
+        "x1": 153.67,
+        "y1": 137.16,
+        "x2": 161.29,
+        "y2": 137.16
+      },
+      "expanded_bbox": null,
+      "clearance_side": null,
+      "edge_side": null,
+      "orth_distance": null,
+      "overlap_span": null,
+      "preferred_dx": 0.0,
+      "preferred_dy": 0.0,
+      "wire": {
+        "uuid": "86b65af0-2206-558f-ba3b-b60d2b891f10",
+        "p1": [
+          153.67,
+          137.16
+        ],
+        "p2": [
+          146.05,
+          137.16
+        ]
+      }
+    },
+    {
+      "kind": "overlap",
+      "ref": "C8",
+      "lib_id": "SmartBin_A:Device_C",
+      "bbox": {
+        "x1": 153.67,
+        "y1": 137.16,
+        "x2": 161.29,
+        "y2": 137.16
+      },
+      "expanded_bbox": null,
+      "clearance_side": null,
+      "edge_side": null,
+      "orth_distance": null,
+      "overlap_span": null,
+      "preferred_dx": 0.0,
+      "preferred_dy": 0.0,
+      "wire": {
+        "uuid": "55369f48-72b7-5d71-a9f3-5abb6c28c496",
+        "p1": [
+          161.29,
+          137.16
+        ],
+        "p2": [
+          168.91,
+          137.16
+        ]
+      }
+    }
+  ],
+  "filters": {
+    "only_text": null,
+    "margin": 0.0
+  }
+}

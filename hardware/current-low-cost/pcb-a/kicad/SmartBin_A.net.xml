@@ -1,0 +1,3571 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>D:\Work\嵌入式课设\.pcb-lowcost-20261012\a-design\kicad\SmartBin_A.kicad_sch</source>
+    <date>2026-10-12T17:40:04</date>
+    <tool>Eeschema 10.0.6</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>SmartBin A / System index</title>
+        <company>STM32 + RFID / DIY through-hole carrier</company>
+        <rev>A1</rev>
+        <date>2026-10-12</date>
+        <source>SmartBin_A.kicad_sch</source>
+        <comment number="1" value="Existing external modules; cable connected; all named nets are global."/>
+        <comment number="2" value="Prototype: verify polarity and module pin order before connection."/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/02 01 Power distribution and ADC/" tstamps="/e20c3048-392a-5dbe-aff3-20af12951aa6/">
+      <title_block>
+        <title>SmartBin A / 01 Power distribution and ADC</title>
+        <company>STM32 + RFID / DIY through-hole carrier</company>
+        <rev>A1</rev>
+        <date>2026-10-12</date>
+        <source>SmartBin_A_01_01.kicad_sch</source>
+        <comment number="1" value="Existing external modules; cable connected; all named nets are global."/>
+        <comment number="2" value="Prototype: verify polarity and module pin order before connection."/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/03 02 MCU, MCP23017 and emergency stop/" tstamps="/4acde8c5-959f-53fe-a7d2-681bb844abe9/">
+      <title_block>
+        <title>SmartBin A / 02 MCU, MCP23017 and emergency stop</title>
+        <company>STM32 + RFID / DIY through-hole carrier</company>
+        <rev>A1</rev>
+        <date>2026-10-12</date>
+        <source>SmartBin_A_02_01.kicad_sch</source>
+        <comment number="1" value="Existing external modules; cable connected; all named nets are global."/>
+        <comment number="2" value="Prototype: verify polarity and module pin order before connection."/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/04 03 Serial module interfaces/" tstamps="/12661bca-0903-5abb-8aad-b1cff245c4f0/">
+      <title_block>
+        <title>SmartBin A / 03 Serial module interfaces</title>
+        <company>STM32 + RFID / DIY through-hole carrier</company>
+        <rev>A1</rev>
+        <date>2026-10-12</date>
+        <source>SmartBin_A_03_01.kicad_sch</source>
+        <comment number="1" value="Existing external modules; cable connected; all named nets are global."/>
+        <comment number="2" value="Prototype: verify polarity and module pin order before connection."/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="5" name="/05 04 Buffered outputs and actuators/" tstamps="/d385536b-95d0-5df1-a5a0-9bec05d55771/">
+      <title_block>
+        <title>SmartBin A / 04 Buffered outputs and actuators</title>
+        <company>STM32 + RFID / DIY through-hole carrier</company>
+        <rev>A1</rev>
+        <date>2026-10-12</date>
+        <source>SmartBin_A_04_01.kicad_sch</source>
+        <comment number="1" value="Existing external modules; cable connected; all named nets are global."/>
+        <comment number="2" value="Prototype: verify polarity and module pin order before connection."/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="6" name="/06 05 Sensor and user inputs/" tstamps="/648917c6-a615-514c-9dc3-06c1e92b5fde/">
+      <title_block>
+        <title>SmartBin A / 05 Sensor and user inputs</title>
+        <company>STM32 + RFID / DIY through-hole carrier</company>
+        <rev>A1</rev>
+        <date>2026-10-12</date>
+        <source>SmartBin_A_05_01.kicad_sch</source>
+        <comment number="1" value="Existing external modules; cable connected; all named nets are global."/>
+        <comment number="2" value="Prototype: verify polarity and module pin order before connection."/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>470uF/16V</value>
+      <footprint>Capacitor_THT:CP_Radial_D12.5mm_P5.00mm</footprint>
+      <description>靠近J4；若驱动距板较远，驱动VM端仍补就地电容。</description>
+      <fields>
+        <field name="group">power</field>
+        <field name="Footprint">Capacitor_THT:CP_Radial_D12.5mm_P5.00mm</field>
+        <field name="Datasheet"/>
+        <field name="Description">靠近J4；若驱动距板较远，驱动VM端仍补就地电容。</field>
+      </fields>
+      <libsource lib="SmartBin_A" part="Device_C_Polarized" description="Polarized capacitor"/>
+      <property name="group" value="power"/>
+      <property name="Sheetname" value="02 01 Power distribution and ADC"/>
+      <property name="Sheetfile" value="SmartBin_A_01_01.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="CP_*"/>
+      <sheetpath names="/02 01 Power distribution and ADC/" tstamps="/e20c3048-392a-5dbe-aff3-20af12951aa6/"/>
+      <tstamps>8fe7bd0d-63eb-5d9d-8f7f-4580edc4babe</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C2">
+      <value>1000uF/16V</value>
+      <footprint>Capacitor_THT:CP_Radial_D12.5mm_P5.00mm</footprint>
+      <description>靠近J5；尺寸暂按直径12.5mm、脚距5mm预留，实物不匹配时短绝缘飞线并机械固定。</description>
+      <fields>
+        <field name="group">power</field>
+        <field name="Footprint">Capacitor_THT:CP_Radial_D12.5mm_P5.00mm</field>
+        <field name="Datasheet"/>
+        <field name="Description">靠近J5；尺寸暂按直径12.5mm、脚距5mm预留，实物不匹配时短绝缘飞线并机械固定。</field>
+      </fields>
+      <libsource lib="SmartBin_A" part="Device_C_Polarized" description="Polarized capacitor"/>
+      <property name="group" value="power"/>
+      <property name="Sheetname" value="02 01 Power distribution and ADC"/>
+      <property name="Sheetfile" value="SmartBin_A_01_01.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="CP_*"/>
+      <sheetpath names="/02 01 Power distribution and ADC/" tstamps="/e20c3048-392a-5dbe-aff3-20af12951aa6/"/>
+      <tstamps>055b05ac-fe62-5995-b850-6870b9785c0a</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C3">
+      <value>100uF/16V</value>
+      <footprint>Capacitor_THT:CP_Radial_D12.5mm_P5.00mm</footprint>
+      <description>靠近J6逻辑支路；DFPlayer模块附近仍需其本地100uF。</description>
+      <fields>
+        <field name="group">power</field>
+        <field name="Footprint">Capacitor_THT:CP_Radial_D12.5mm_P5.00mm</field>
+        <field name="Datasheet"/>
+        <field name="Description">靠近J6逻辑支路；DFPlayer模块附近仍需其本地100uF。</field>
+      </fields>
+      <libsource lib="SmartBin_A" part="Device_C_Polarized" description="Polarized capacitor"/>
+      <property name="group" value="power"/>
+      <property name="Sheetname" value="02 01 Power distribution and ADC"/>
+      <property name="Sheetfile" value="SmartBin_A_01_01.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="CP_*"/>
+      <sheetpath names="/02 01 Power distribution and ADC/" tstamps="/e20c3048-392a-5dbe-aff3-20af12951aa6/"/>
+      <tstamps>9cb12b24-e638-5c9b-a088-06137ea0b0d0</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C4">
+      <value>100nF</value>
+      <footprint>Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm</footprint>
+      <description>对应J4支路去耦；实物瓷片脚距按实测核对。</description>
+      <fields>
+        <field name="group">power</field>
+        <field name="Footprint">Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm</field>
+        <field name="Datasheet"/>
+        <field name="Description">对应J4支路去耦；实物瓷片脚距按实测核对。</field>
+      </fields>
+      <libsource lib="SmartBin_A" part="Device_C" description="Unpolarized capacitor"/>
+      <property name="group" value="power"/>
+      <property name="Sheetname" value="02 01 Power distribution and ADC"/>
+      <property name="Sheetfile" value="SmartBin_A_01_01.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/02 01 Power distribution and ADC/" tstamps="/e20c3048-392a-5dbe-aff3-20af12951aa6/"/>
+      <tstamps>b37af6dd-5d08-521a-b7be-01bbfe45cc43</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C5">
+      <value>100nF</value>
+      <footprint>Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm</footprint>
+      <description>对应J5支路去耦；实物瓷片脚距按实测核对。</description>
+      <fields>
+        <field name="group">power</field>
+        <field name="Footprint">Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm</field>
+        <field name="Datasheet"/>
+        <field name="Description">对应J5支路去耦；实物瓷片脚距按实测核对。</field>
+      </fields>
+      <libsource lib="SmartBin_A" part="Device_C" description="Unpolarized capacitor"/>
+      <property name="group" value="power"/>
+      <property name="Sheetname" value="02 01 Power distribution and ADC"/>
+      <property name="Sheetfile" value="SmartBin_A_01_01.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/02 01 Power distribution and ADC/" tstamps="/e20c3048-392a-5dbe-aff3-20af12951aa6/"/>
+      <tstamps>0a1c223e-2719-56ab-8bbe-047128f40d2e</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C6">
+      <value>100nF</value>
+      <footprint>Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm</footprint>
+      <description>对应J6支路去耦；实物瓷片脚距按实测核对。</description>
+      <fields>
+        <field name="group">power</field>
+        <field name="Footprint">Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm</field>
+        <field name="Datasheet"/>
+        <field name="Description">对应J6支路去耦；实物瓷片脚距按实测核对。</field>
+      </fields>
+      <libsource lib="SmartBin_A" part="Device_C" description="Unpolarized capacitor"/>
+      <property name="group" value="power"/>
+      <property name="Sheetname" value="02 01 Power distribution and ADC"/>
+      <property name="Sheetfile" value="SmartBin_A_01_01.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/02 01 Power distribution and ADC/" tstamps="/e20c3048-392a-5dbe-aff3-20af12951aa6/"/>
+      <tstamps>57a19647-e677-59eb-9e60-244ab340103f</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C7">
+      <value>100nF</value>
+      <footprint>Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm</footprint>
+      <description>靠近R1/R2与JP9；ADC慢信号滤波。</description>
+      <fields>
+        <field name="group">adc</field>
+        <field name="Footprint">Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm</field>
+        <field name="Datasheet"/>
+        <field name="Description">靠近R1/R2与JP9；ADC慢信号滤波。</field>
+      </fields>
+      <libsource lib="SmartBin_A" part="Device_C" description="Unpolarized capacitor"/>
+      <property name="group" value="adc"/>
+      <property name="Sheetname" value="02 01 Power distribution and ADC"/>
+      <property name="Sheetfile" value="SmartBin_A_01_01.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/02 01 Power distribution and ADC/" tstamps="/e20c3048-392a-5dbe-aff3-20af12951aa6/"/>
+      <tstamps>9fa39192-ff6a-5fbb-b557-4558d0216d30</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="H1">
+      <value>M3 NPTH</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <description>3.2mm非金属化M3孔；孔中心坐标由100x100mm板左上基准定义。</description>
+      <fields>
+        <field name="group">MECHANICAL</field>
+        <field name="Footprint">MountingHole:MountingHole_3.2mm_M3</field>
+        <field name="Datasheet"/>
+        <field name="Description">3.2mm非金属化M3孔；孔中心坐标由100x100mm板左上基准定义。</field>
+      </fields>
+      <libsource lib="SmartBin_A" part="Mechanical_MountingHole" description="Mounting Hole without connection"/>
+      <property name="group" value="MECHANICAL"/>
+      <property name="Sheetname" value="02 01 Power distribution and ADC"/>
+      <property name="Sheetfile" value="SmartBin_A_01_01.kicad_sch"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <property name="ki_fp_filters" value="MountingHole*"/>
+      <sheetpath names="/02 01 Power distribution and ADC/" tstamps="/e20c3048-392a-5dbe-aff3-20af12951aa6/"/>
+      <tstamps>75deaff2-8ed9-5fa3-a1d5-c685181c369f</tstamps>
+      <units>
+        <unit name="A">
+          <pins/>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="H2">
+      <value>M3 NPTH</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <description>3.2mm非金属化M3孔；孔中心坐标由100x100mm板左上基准定义。</description>
+      <fields>
+        <field name="group">MECHANICAL</field>
+        <field name="Footprint">MountingHole:MountingHole_3.2mm_M3</field>
+        <field name="Datasheet"/>
+        <field name="Description">3.2mm非金属化M3孔；孔中心坐标由100x100mm板左上基准定义。</field>
+      </fields>
+      <libsource lib="SmartBin_A" part="Mechanical_MountingHole" description="Mounting Hole without connection"/>
+      <property name="group" value="MECHANICAL"/>
+      <property name="Sheetname" value="02 01 Power distribution and ADC"/>
+      <property name="Sheetfile" value="SmartBin_A_01_01.kicad_sch"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <property name="ki_fp_filters" value="MountingHole*"/>
+      <sheetpath names="/02 01 Power distribution and ADC/" tstamps="/e20c3048-392a-5dbe-aff3-20af12951aa6/"/>
+      <tstamps>71315bda-9805-5451-a969-7f532c152fb8</tstamps>
+      <units>
+        <unit name="A">
+          <pins/>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="H3">
+      <value>M3 NPTH</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <description>3.2mm非金属化M3孔；孔中心坐标由100x100mm板左上基准定义。</description>
+      <fields>
+        <field name="group">MECHANICAL</field>
+        <field name="Footprint">MountingHole:MountingHole_3.2mm_M3</field>
+        <field name="Datasheet"/>
+        <field name="Description">3.2mm非金属化M3孔；孔中心坐标由100x100mm板左上基准定义。</field>
+      </fields>
+      <libsource lib="SmartBin_A" part="Mechanical_MountingHole" description="Mounting Hole without connection"/>
+      <property name="group" value="MECHANICAL"/>
+      <property name="Sheetname" value="02 01 Power distribution and ADC"/>
+      <property name="Sheetfile" value="SmartBin_A_01_01.kicad_sch"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <property name="ki_fp_filters" value="MountingHole*"/>
+      <sheetpath names="/02 01 Power distribution and ADC/" tstamps="/e20c3048-392a-5dbe-aff3-20af12951aa6/"/>
+      <tstamps>48d2bdd2-919d-5719-8637-c3eac5d7056c</tstamps>
+      <units>
+        <unit name="A">
+          <pins/>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="H4">
+      <value>M3 NPTH</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <description>3.2mm非金属化M3孔；孔中心坐标由100x100mm板左上基准定义。</description>
+      <fields>
+        <field name="group">MECHANICAL</field>
+        <field name="Footprint">MountingHole:MountingHole_3.2mm_M3</field>
+        <field name="Datasheet"/>
+        <field name="Description">3.2mm非金属化M3孔；孔中心坐标由100x100mm板左上基准定义。</field>
+      </fields>
+      <libsource lib="SmartBin_A" part="Mechanical_MountingHole" description="Mounting Hole without connection"/>
+      <property name="group" value="MECHANICAL"/>
+      <property name="Sheetname" value="02 01 Power distribution and ADC"/>
+      <property name="Sheetfile" value="SmartBin_A_01_01.kicad_sch"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <property name="ki_fp_filters" value="MountingHole*"/>
+      <sheetpath names="/02 01 Power distribution and ADC/" tstamps="/e20c3048-392a-5dbe-aff3-20af12951aa6/"/>
+      <tstamps>0978b1d4-ef0f-56a0-95af-2d53b93b5483</tstamps>
+      <units>
+        <unit name="A">
+          <pins/>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J1">
+      <value>BAT_SW</value>
+      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal</footprint>
+      <description>电池保护板输出正极经外置保险座和总开关后进入1脚；2脚为电池负极。禁止接未经保险的裸电池。</description>
+      <fields>
+        <field name="group">power</field>
+        <field name="Footprint">TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description">电池保护板输出正极经外置保险座和总开关后进入1脚；2脚为电池负极。禁止接未经保险的裸电池。</field>
+      </fields>
+      <libsource lib="SmartBin_A" part="Connector_Generic_Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="group" value="power"/>
+      <property name="Sheetname" value="02 01 Power distribution and ADC"/>
+      <property name="Sheetfile" value="SmartBin_A_01_01.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/02 01 Power distribution and ADC/" tstamps="/e20c3048-392a-5dbe-aff3-20af12951aa6/"/>
+      <tstamps>4de616a1-f2b4-5620-9d88-d9a55d96e9d4</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J2">
+      <value>BUCK_IN</value>
+      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal</footprint>
+      <description>外置非隔离5V降压输入；20AWG短线。</description>
+      <fields>
+        <field name="group">power</field>
+        <field name="Footprint">TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description">外置非隔离5V降压输入；20AWG短线。</field>
+      </fields>
+      <libsource lib="SmartBin_A" part="Connector_Generic_Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="group" value="power"/>
+      <property name="Sheetname" value="02 01 Power distribution and ADC"/>
+      <property name="Sheetfile" value="SmartBin_A_01_01.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/02 01 Power distribution and ADC/" tstamps="/e20c3048-392a-5dbe-aff3-20af12951aa6/"/>
+      <tstamps>0ca55113-238a-55a7-a8bf-540a2b02f6cc</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J3">
+      <value>BUCK_OUT</value>
+      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal</footprint>
+      <description>外置降压输出，接入板上星形中心。电池满电8.4V不能接此口。</description>
+      <fields>
+        <field name="group">power</field>
+        <field name="Footprint">TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description">外置降压输出，接入板上星形中心。电池满电8.4V不能接此口。</field>
+      </fields>
+      <libsource lib="SmartBin_A" part="Connector_Generic_Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="group" value="power"/>
+      <property name="Sheetname" value="02 01 Power distribution and ADC"/>
+      <property name="Sheetfile" value="SmartBin_A_01_01.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/02 01 Power distribution and ADC/" tstamps="/e20c3048-392a-5dbe-aff3-20af12951aa6/"/>
+      <tstamps>4423f749-f88b-5205-8eaf-221dd54c7c07</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J4">
+      <value>MOTOR_PWR</value>
+      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal</footprint>
+      <description>电机主电流支路；22AWG短线，长线/偏大电流用20AWG。</description>
+      <fields>
+        <field name="group">power</field>
+        <field name="Footprint">TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description">电机主电流支路；22AWG短线，长线/偏大电流用20AWG。</field>
+      </fields>
+      <libsource lib="SmartBin_A" part="Connector_Generic_Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="group" value="power"/>
+      <property name="Sheetname" value="02 01 Power distribution and ADC"/>
+      <property name="Sheetfile" value="SmartBin_A_01_01.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/02 01 Power distribution and ADC/" tstamps="/e20c3048-392a-5dbe-aff3-20af12951aa6/"/>
+      <tstamps>6726d95e-f481-5a2e-a1cc-e696f68b5bb7</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J5">
+      <value>SERVO_PWR</value>
+      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal</footprint>
+      <description>舵机主电流仅走本支路；原3芯舵机延长线在配电处分离电源与信号。</description>
+      <fields>
+        <field name="group">power</field>
+        <field name="Footprint">TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description">舵机主电流仅走本支路；原3芯舵机延长线在配电处分离电源与信号。</field>
+      </fields>
+      <libsource lib="SmartBin_A" part="Connector_Generic_Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="group" value="power"/>
+      <property name="Sheetname" value="02 01 Power distribution and ADC"/>
+      <property name="Sheetfile" value="SmartBin_A_01_01.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/02 01 Power distribution and ADC/" tstamps="/e20c3048-392a-5dbe-aff3-20af12951aa6/"/>
+      <tstamps>84528be9-344b-5d6b-a7d2-c756851702b9</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J6">
+      <value>LOGIC_PWR</value>
+      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal</footprint>
+      <description>逻辑5V支路；可给DFPlayer和3.3V稳压输入等可靠分线，不把多根线强塞一只端子。</description>
+      <fields>
+        <field name="group">power</field>
+        <field name="Footprint">TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description">逻辑5V支路；可给DFPlayer和3.3V稳压输入等可靠分线，不把多根线强塞一只端子。</field>
+      </fields>
+      <libsource lib="SmartBin_A" part="Connector_Generic_Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="group" value="power"/>
+      <property name="Sheetname" value="02 01 Power distribution and ADC"/>
+      <property name="Sheetfile" value="SmartBin_A_01_01.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/02 01 Power distribution and ADC/" tstamps="/e20c3048-392a-5dbe-aff3-20af12951aa6/"/>
+      <tstamps>48ade684-14fe-5806-a869-4b978fa1613e</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J7">
+      <value>EXT_REG</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <description>外置3.3V稳压模块低电流接口；确认额定输出及GND；本口3脚是模块输出进入本板，不是核心3V3。</description>
+      <fields>
+        <field name="group">power</field>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description">外置3.3V稳压模块低电流接口；确认额定输出及GND；本口3脚是模块输出进入本板，不是核心3V3。</field>
+      </fields>
+      <libsource lib="SmartBin_A" part="Connector_Generic_Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="group" value="power"/>
+      <property name="Sheetname" value="02 01 Power distribution and ADC"/>
+      <property name="Sheetfile" value="SmartBin_A_01_01.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/02 01 Power distribution and ADC/" tstamps="/e20c3048-392a-5dbe-aff3-20af12951aa6/"/>
+      <tstamps>b8b76271-7b4f-5039-8427-31362c6c980d</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J32">
+      <value>LIGHT</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <description>默认3.3V光敏AO。若仅DO改软件模式；若5V模拟AO需外置分压校准，禁止用NPN代替模拟采样。热敏为台架替换，不能与光敏并接。</description>
+      <fields>
+        <field name="group">adc</field>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description">默认3.3V光敏AO。若仅DO改软件模式；若5V模拟AO需外置分压校准，禁止用NPN代替模拟采样。热敏为台架替换，不能与光敏并接。</field>
+      </fields>
+      <libsource lib="SmartBin_A" part="Connector_Generic_Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="group" value="adc"/>
+      <property name="Sheetname" value="02 01 Power distribution and ADC"/>
+      <property name="Sheetfile" value="SmartBin_A_01_01.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/02 01 Power distribution and ADC/" tstamps="/e20c3048-392a-5dbe-aff3-20af12951aa6/"/>
+      <tstamps>e4fbe094-3347-55ab-9f66-7f3cd49110af</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="JP9">
+      <value>ADC_LINK</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <description>正常装帽；电池仍接通而单独关闭/拔掉核心电源前拔帽，防ADC向掉电核心注入。</description>
+      <fields>
+        <field name="group">adc</field>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description">正常装帽；电池仍接通而单独关闭/拔掉核心电源前拔帽，防ADC向掉电核心注入。</field>
+      </fields>
+      <libsource lib="SmartBin_A" part="Connector_Generic_Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="group" value="adc"/>
+      <property name="Sheetname" value="02 01 Power distribution and ADC"/>
+      <property name="Sheetfile" value="SmartBin_A_01_01.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/02 01 Power distribution and ADC/" tstamps="/e20c3048-392a-5dbe-aff3-20af12951aa6/"/>
+      <tstamps>d8a7d753-7f76-5166-8654-cdf205f7d8b1</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R1">
+      <value>33k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <description>1%；与R2构成分压，8.4V约1.953V。</description>
+      <fields>
+        <field name="group">adc</field>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description">1%；与R2构成分压，8.4V约1.953V。</field>
+      </fields>
+      <libsource lib="SmartBin_A" part="Device_R" description="Resistor"/>
+      <property name="group" value="adc"/>
+      <property name="Sheetname" value="02 01 Power distribution and ADC"/>
+      <property name="Sheetfile" value="SmartBin_A_01_01.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/02 01 Power distribution and ADC/" tstamps="/e20c3048-392a-5dbe-aff3-20af12951aa6/"/>
+      <tstamps>8f5d47d7-4074-524b-a79b-fe1028b4325e</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R2">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <description>1%；ADC分压下臂。</description>
+      <fields>
+        <field name="group">adc</field>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description">1%；ADC分压下臂。</field>
+      </fields>
+      <libsource lib="SmartBin_A" part="Device_R" description="Resistor"/>
+      <property name="group" value="adc"/>
+      <property name="Sheetname" value="02 01 Power distribution and ADC"/>
+      <property name="Sheetfile" value="SmartBin_A_01_01.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/02 01 Power distribution and ADC/" tstamps="/e20c3048-392a-5dbe-aff3-20af12951aa6/"/>
+      <tstamps>3de20fed-177e-5480-bee0-52c5966debbb</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J8">
+      <value>CORE_PA</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x17_P2.54mm_Vertical</footprint>
+      <description>自定义17针线束；按核心丝印逐线连接，不能整排直插；正常系统核心由本板1脚供5V，禁止同时插核心USB；若做独立USB台架，先断本板电源并拔下与核心相连的全部线束，再另行测试。</description>
+      <fields>
+        <field name="group">core</field>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x17_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description">自定义17针线束；按核心丝印逐线连接，不能整排直插；正常系统核心由本板1脚供5V，禁止同时插核心USB；若做独立USB台架，先断本板电源并拔下与核心相连的全部线束，再另行测试。</field>
+      </fields>
+      <libsource lib="SmartBin_A" part="Connector_Generic_Conn_01x17" description="Generic connector, single row, 01x17, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="group" value="core"/>
+      <property name="Sheetname" value="03 02 MCU, MCP23017 and emergency stop"/>
+      <property name="Sheetfile" value="SmartBin_A_02_01.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/03 02 MCU, MCP23017 and emergency stop/" tstamps="/4acde8c5-959f-53fe-a7d2-681bb844abe9/"/>
+      <tstamps>715a2bf3-ba8d-56d1-a0c1-5b1456b674bb</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="8"/>
+            <pin num="9"/>
+            <pin num="10"/>
+            <pin num="11"/>
+            <pin num="12"/>
+            <pin num="13"/>
+            <pin num="14"/>
+            <pin num="15"/>
+            <pin num="16"/>
+            <pin num="17"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J9">
+      <value>CORE_PB</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x16_P2.54mm_Vertical</footprint>
+      <description>自定义16针线束；PB2/BOOT1不接；PA13/PA14在核心直接接SWD并始终保留。</description>
+      <fields>
+        <field name="group">core</field>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x16_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description">自定义16针线束；PB2/BOOT1不接；PA13/PA14在核心直接接SWD并始终保留。</field>
+      </fields>
+      <libsource lib="SmartBin_A" part="Connector_Generic_Conn_01x16" description="Generic connector, single row, 01x16, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="group" value="core"/>
+      <property name="Sheetname" value="03 02 MCU, MCP23017 and emergency stop"/>
+      <property name="Sheetfile" value="SmartBin_A_02_01.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/03 02 MCU, MCP23017 and emergency stop/" tstamps="/4acde8c5-959f-53fe-a7d2-681bb844abe9/"/>
+      <tstamps>1a9dba95-5c72-5829-9fc4-3f7dddc2bcc6</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="8"/>
+            <pin num="9"/>
+            <pin num="10"/>
+            <pin num="11"/>
+            <pin num="12"/>
+            <pin num="13"/>
+            <pin num="14"/>
+            <pin num="15"/>
+            <pin num="16"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J11">
+      <value>MCP_A</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical</footprint>
+      <description>逐线接模块GPA0至GPA6；GPA7不外接、软件设输出0。</description>
+      <fields>
+        <field name="group">mcp</field>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description">逐线接模块GPA0至GPA6；GPA7不外接、软件设输出0。</field>
+      </fields>
+      <libsource lib="SmartBin_A" part="Connector_Generic_Conn_01x07" description="Generic connector, single row, 01x07, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="group" value="mcp"/>
+      <property name="Sheetname" value="03 02 MCU, MCP23017 and emergency stop"/>
+      <property name="Sheetfile" value="SmartBin_A_02_01.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/03 02 MCU, MCP23017 and emergency stop/" tstamps="/4acde8c5-959f-53fe-a7d2-681bb844abe9/"/>
+      <tstamps>18f6f044-9a2b-5c63-919b-b7655e1252a2</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J12">
+      <value>MCP_B</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical</footprint>
+      <description>逐线接模块GPB0至GPB6；GPB7不外接、软件设输出0。</description>
+      <fields>
+        <field name="group">mcp</field>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description">逐线接模块GPB0至GPB6；GPB7不外接、软件设输出0。</field>
+      </fields>
+      <libsource lib="SmartBin_A" part="Connector_Generic_Conn_01x07" description="Generic connector, single row, 01x07, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="group" value="mcp"/>
+      <property name="Sheetname" value="03 02 MCU, MCP23017 and emergency stop"/>
+      <property name="Sheetfile" value="SmartBin_A_02_01.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/03 02 MCU, MCP23017 and emergency stop/" tstamps="/4acde8c5-959f-53fe-a7d2-681bb844abe9/"/>
+      <tstamps>ae1197c5-2c17-5901-8c6e-1bf9bde14d0b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J19">
+      <value>TB6612_CTRL</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x09_P2.54mm_Vertical</footprint>
+      <description>本口仅逻辑；VM和动力地走J4；AO1/AO2/BO1/BO2在驱动模块直接接电机粗线。</description>
+      <fields>
+        <field name="group">motor</field>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x09_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description">本口仅逻辑；VM和动力地走J4；AO1/AO2/BO1/BO2在驱动模块直接接电机粗线。</field>
+      </fields>
+      <libsource lib="SmartBin_A" part="Connector_Generic_Conn_01x09" description="Generic connector, single row, 01x09, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="group" value="motor"/>
+      <property name="Sheetname" value="03 02 MCU, MCP23017 and emergency stop"/>
+      <property name="Sheetfile" value="SmartBin_A_02_01.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/03 02 MCU, MCP23017 and emergency stop/" tstamps="/4acde8c5-959f-53fe-a7d2-681bb844abe9/"/>
+      <tstamps>df8b5974-9f94-55f7-b4dd-bdc9a7b90d43</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="8"/>
+            <pin num="9"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J27">
+      <value>ESTOP_2NC</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical</footprint>
+      <description>急停必须两组独立NC；开关闭合正常通，按下断。此口含最高8.4V，不能插传感器/MCU；禁止插跳帽伪装急停。</description>
+      <fields>
+        <field name="group">estop</field>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description">急停必须两组独立NC；开关闭合正常通，按下断。此口含最高8.4V，不能插传感器/MCU；禁止插跳帽伪装急停。</field>
+      </fields>
+      <libsource lib="SmartBin_A" part="Connector_Generic_Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="group" value="estop"/>
+      <property name="Sheetname" value="03 02 MCU, MCP23017 and emergency stop"/>
+      <property name="Sheetfile" value="SmartBin_A_02_01.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/03 02 MCU, MCP23017 and emergency stop/" tstamps="/4acde8c5-959f-53fe-a7d2-681bb844abe9/"/>
+      <tstamps>ef60977f-b58f-5fca-9c88-b4764f269415</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="Q1">
+      <value>2N3904</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline_Wide</footprint>
+      <description>按onsemi 2N3904 Rev3 TO-92资料定义1=E,2=B,3=C；已购其它品牌必须核数据手册/实测，不按外壳平面猜脚。</description>
+      <fields>
+        <field name="group">estop</field>
+        <field name="Footprint">Package_TO_SOT_THT:TO-92_Inline_Wide</field>
+        <field name="Datasheet"/>
+        <field name="Description">按onsemi 2N3904 Rev3 TO-92资料定义1=E,2=B,3=C；已购其它品牌必须核数据手册/实测，不按外壳平面猜脚。</field>
+      </fields>
+      <libsource lib="SmartBin_A" part="Transistor_BJT_2N3904" description="0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"/>
+      <property name="group" value="estop"/>
+      <property name="Sheetname" value="03 02 MCU, MCP23017 and emergency stop"/>
+      <property name="Sheetfile" value="SmartBin_A_02_01.kicad_sch"/>
+      <property name="ki_keywords" value="NPN Transistor"/>
+      <property name="ki_fp_filters" value="TO?92*"/>
+      <sheetpath names="/03 02 MCU, MCP23017 and emergency stop/" tstamps="/4acde8c5-959f-53fe-a7d2-681bb844abe9/"/>
+      <tstamps>980dc11b-f6e1-50fd-a4e4-a729f58fe753</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="Q2">
+      <value>2N3904</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline_Wide</footprint>
+      <description>按onsemi 2N3904 Rev3 TO-92资料定义1=E,2=B,3=C；已购其它品牌必须核数据手册/实测，不按外壳平面猜脚。</description>
+      <fields>
+        <field name="group">estop</field>
+        <field name="Footprint">Package_TO_SOT_THT:TO-92_Inline_Wide</field>
+        <field name="Datasheet"/>
+        <field name="Description">按onsemi 2N3904 Rev3 TO-92资料定义1=E,2=B,3=C；已购其它品牌必须核数据手册/实测，不按外壳平面猜脚。</field>
+      </fields>
+      <libsource lib="SmartBin_A" part="Transistor_BJT_2N3904" description="0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"/>
+      <property name="group" value="estop"/>
+      <property name="Sheetname" value="03 02 MCU, MCP23017 and emergency stop"/>
+      <property name="Sheetfile" value="SmartBin_A_02_01.kicad_sch"/>
+      <property name="ki_keywords" value="NPN Transistor"/>
+      <property name="ki_fp_filters" value="TO?92*"/>
+      <sheetpath names="/03 02 MCU, MCP23017 and emergency stop/" tstamps="/4acde8c5-959f-53fe-a7d2-681bb844abe9/"/>
+      <tstamps>43456bf9-4d6c-5b16-8bf0-3900e1b04287</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="Q3">
+      <value>2N3904</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline_Wide</footprint>
+      <description>按onsemi 2N3904 Rev3 TO-92资料定义1=E,2=B,3=C；已购其它品牌必须核数据手册/实测，不按外壳平面猜脚。</description>
+      <fields>
+        <field name="group">estop</field>
+        <field name="Footprint">Package_TO_SOT_THT:TO-92_Inline_Wide</field>
+        <field name="Datasheet"/>
+        <field name="Description">按onsemi 2N3904 Rev3 TO-92资料定义1=E,2=B,3=C；已购其它品牌必须核数据手册/实测，不按外壳平面猜脚。</field>
+      </fields>
+      <libsource lib="SmartBin_A" part="Transistor_BJT_2N3904" description="0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"/>
+      <property name="group" value="estop"/>
+      <property name="Sheetname" value="03 02 MCU, MCP23017 and emergency stop"/>
+      <property name="Sheetfile" value="SmartBin_A_02_01.kicad_sch"/>
+      <property name="ki_keywords" value="NPN Transistor"/>
+      <property name="ki_fp_filters" value="TO?92*"/>
+      <sheetpath names="/03 02 MCU, MCP23017 and emergency stop/" tstamps="/4acde8c5-959f-53fe-a7d2-681bb844abe9/"/>
+      <tstamps>fabe2a93-dcd8-56d7-ac67-a402f4a6f21e</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R15">
+      <value>4.7k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <description>原3管急停；6.0V时接点电流约1.13mA。</description>
+      <fields>
+        <field name="group">estop</field>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description">原3管急停；6.0V时接点电流约1.13mA。</field>
+      </fields>
+      <libsource lib="SmartBin_A" part="Device_R" description="Resistor"/>
+      <property name="group" value="estop"/>
+      <property name="Sheetname" value="03 02 MCU, MCP23017 and emergency stop"/>
+      <property name="Sheetfile" value="SmartBin_A_02_01.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/03 02 MCU, MCP23017 and emergency stop/" tstamps="/4acde8c5-959f-53fe-a7d2-681bb844abe9/"/>
+      <tstamps>859ec30d-026f-5a6e-92db-c39557066636</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R16">
+      <value>100k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="group">estop</field>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="SmartBin_A" part="Device_R" description="Resistor"/>
+      <property name="group" value="estop"/>
+      <property name="Sheetname" value="03 02 MCU, MCP23017 and emergency stop"/>
+      <property name="Sheetfile" value="SmartBin_A_02_01.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/03 02 MCU, MCP23017 and emergency stop/" tstamps="/4acde8c5-959f-53fe-a7d2-681bb844abe9/"/>
+      <tstamps>03916029-c2d5-5992-9053-6981fb87af82</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R17">
+      <value>4.7k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <description>双NC彼此独立，一路门控，一路状态。</description>
+      <fields>
+        <field name="group">estop</field>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description">双NC彼此独立，一路门控，一路状态。</field>
+      </fields>
+      <libsource lib="SmartBin_A" part="Device_R" description="Resistor"/>
+      <property name="group" value="estop"/>
+      <property name="Sheetname" value="03 02 MCU, MCP23017 and emergency stop"/>
+      <property name="Sheetfile" value="SmartBin_A_02_01.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/03 02 MCU, MCP23017 and emergency stop/" tstamps="/4acde8c5-959f-53fe-a7d2-681bb844abe9/"/>
+      <tstamps>be2afb48-e442-5568-9b21-9af5b5bfd389</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R18">
+      <value>100k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="group">estop</field>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="SmartBin_A" part="Device_R" description="Resistor"/>
+      <property name="group" value="estop"/>
+      <property name="Sheetname" value="03 02 MCU, MCP23017 and emergency stop"/>
+      <property name="Sheetfile" value="SmartBin_A_02_01.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/03 02 MCU, MCP23017 and emergency stop/" tstamps="/4acde8c5-959f-53fe-a7d2-681bb844abe9/"/>
+      <tstamps>969818eb-390d-5bf3-89b4-ba0bea7fd698</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R19">
+      <value>4.7k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <description>EXT有效且NC1断开时使Q2导通；EXT掉电时不能声称仍有完整硬件急停保证。</description>
+      <fields>
+        <field name="group">estop</field>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description">EXT有效且NC1断开时使Q2导通；EXT掉电时不能声称仍有完整硬件急停保证。</field>
+      </fields>
+      <libsource lib="SmartBin_A" part="Device_R" description="Resistor"/>
+      <property name="group" value="estop"/>
+      <property name="Sheetname" value="03 02 MCU, MCP23017 and emergency stop"/>
+      <property name="Sheetfile" value="SmartBin_A_02_01.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/03 02 MCU, MCP23017 and emergency stop/" tstamps="/4acde8c5-959f-53fe-a7d2-681bb844abe9/"/>
+      <tstamps>28efdb50-fa1b-5cab-9f53-ddbdcf772088</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R20">
+      <value>100k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="group">estop</field>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="SmartBin_A" part="Device_R" description="Resistor"/>
+      <property name="group" value="estop"/>
+      <property name="Sheetname" value="03 02 MCU, MCP23017 and emergency stop"/>
+      <property name="Sheetfile" value="SmartBin_A_02_01.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/03 02 MCU, MCP23017 and emergency stop/" tstamps="/4acde8c5-959f-53fe-a7d2-681bb844abe9/"/>
+      <tstamps>788d0971-dc67-51a1-abc1-614a084746f3</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R21">
+      <value>1k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <description>限制PB5高而Q2钳低时电流；不得再以导线跨过该电阻。</description>
+      <fields>
+        <field name="group">estop</field>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description">限制PB5高而Q2钳低时电流；不得再以导线跨过该电阻。</field>
+      </fields>
+      <libsource lib="SmartBin_A" part="Device_R" description="Resistor"/>
+      <property name="group" value="estop"/>
+      <property name="Sheetname" value="03 02 MCU, MCP23017 and emergency stop"/>
+      <property name="Sheetfile" value="SmartBin_A_02_01.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/03 02 MCU, MCP23017 and emergency stop/" tstamps="/4acde8c5-959f-53fe-a7d2-681bb844abe9/"/>
+      <tstamps>8ed93a6f-8f5c-599f-ac04-d464379f5753</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R22">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="group">estop</field>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="SmartBin_A" part="Device_R" description="Resistor"/>
+      <property name="group" value="estop"/>
+      <property name="Sheetname" value="03 02 MCU, MCP23017 and emergency stop"/>
+      <property name="Sheetfile" value="SmartBin_A_02_01.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/03 02 MCU, MCP23017 and emergency stop/" tstamps="/4acde8c5-959f-53fe-a7d2-681bb844abe9/"/>
+      <tstamps>056dbdc3-89b5-5245-8c1f-786a7490fa26</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R23">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="group">estop</field>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="SmartBin_A" part="Device_R" description="Resistor"/>
+      <property name="group" value="estop"/>
+      <property name="Sheetname" value="03 02 MCU, MCP23017 and emergency stop"/>
+      <property name="Sheetfile" value="SmartBin_A_02_01.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/03 02 MCU, MCP23017 and emergency stop/" tstamps="/4acde8c5-959f-53fe-a7d2-681bb844abe9/"/>
+      <tstamps>34a4da5c-35eb-5b14-b295-6e4fcfaab683</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R24">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <description>急停反馈上拉只用CORE；正常0，按下或NC2断线1。</description>
+      <fields>
+        <field name="group">estop</field>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description">急停反馈上拉只用CORE；正常0，按下或NC2断线1。</field>
+      </fields>
+      <libsource lib="SmartBin_A" part="Device_R" description="Resistor"/>
+      <property name="group" value="estop"/>
+      <property name="Sheetname" value="03 02 MCU, MCP23017 and emergency stop"/>
+      <property name="Sheetfile" value="SmartBin_A_02_01.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/03 02 MCU, MCP23017 and emergency stop/" tstamps="/4acde8c5-959f-53fe-a7d2-681bb844abe9/"/>
+      <tstamps>11a3c0d7-39ed-52e1-a06e-8305ffc9f57a</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J10">
+      <value>MCP_BUS</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical</footprint>
+      <description>成品MCP23017模块五线；A0/A1/A2在模块侧接地；INTA/INTB不用；RESET不接核心NRST。</description>
+      <fields>
+        <field name="group">i2c</field>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description">成品MCP23017模块五线；A0/A1/A2在模块侧接地；INTA/INTB不用；RESET不接核心NRST。</field>
+      </fields>
+      <libsource lib="SmartBin_A" part="Connector_Generic_Conn_01x05" description="Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="group" value="i2c"/>
+      <property name="Sheetname" value="04 03 Serial module interfaces"/>
+      <property name="Sheetfile" value="SmartBin_A_03_01.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/04 03 Serial module interfaces/" tstamps="/12661bca-0903-5abb-8aad-b1cff245c4f0/"/>
+      <tstamps>195de0fb-7b02-58db-8423-620a4aef7671</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J13">
+      <value>OLED</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical</footprint>
+      <description>仅用于已确认3.3V供电I2C OLED；I2C拉3V3_EXT。</description>
+      <fields>
+        <field name="group">i2c</field>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description">仅用于已确认3.3V供电I2C OLED；I2C拉3V3_EXT。</field>
+      </fields>
+      <libsource lib="SmartBin_A" part="Connector_Generic_Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="group" value="i2c"/>
+      <property name="Sheetname" value="04 03 Serial module interfaces"/>
+      <property name="Sheetfile" value="SmartBin_A_03_01.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/04 03 Serial module interfaces/" tstamps="/12661bca-0903-5abb-8aad-b1cff245c4f0/"/>
+      <tstamps>07b60af0-8c0c-5647-a298-f4b84c9a2980</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J14">
+      <value>MPU6050</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical</footprint>
+      <description>JP5选择模块实际VIN电压；不能因芯片3.3V就默认板VIN也3.3V；任何模块内5V总线上拉必须处理。</description>
+      <fields>
+        <field name="group">i2c</field>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description">JP5选择模块实际VIN电压；不能因芯片3.3V就默认板VIN也3.3V；任何模块内5V总线上拉必须处理。</field>
+      </fields>
+      <libsource lib="SmartBin_A" part="Connector_Generic_Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="group" value="i2c"/>
+      <property name="Sheetname" value="04 03 Serial module interfaces"/>
+      <property name="Sheetfile" value="SmartBin_A_03_01.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/04 03 Serial module interfaces/" tstamps="/12661bca-0903-5abb-8aad-b1cff245c4f0/"/>
+      <tstamps>80853e5c-7a09-5f01-9743-77fa0736ea19</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J15">
+      <value>RC522</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical</footprint>
+      <description>RC522仅3.3V；商品排针SDA在SPI模式为CS，不接I2C；IRQ不接。</description>
+      <fields>
+        <field name="group">spi</field>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description">RC522仅3.3V；商品排针SDA在SPI模式为CS，不接I2C；IRQ不接。</field>
+      </fields>
+      <libsource lib="SmartBin_A" part="Connector_Generic_Conn_01x07" description="Generic connector, single row, 01x07, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="group" value="spi"/>
+      <property name="Sheetname" value="04 03 Serial module interfaces"/>
+      <property name="Sheetfile" value="SmartBin_A_03_01.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/04 03 Serial module interfaces/" tstamps="/12661bca-0903-5abb-8aad-b1cff245c4f0/"/>
+      <tstamps>a296ffb6-6641-51d6-a510-f20e9f246d59</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J16">
+      <value>FLASH</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical</footprint>
+      <description>按实际3.3V SPI NOR芯片核对；不存在的WP/HOLD外露脚不接，不能套商品针序。</description>
+      <fields>
+        <field name="group">spi</field>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description">按实际3.3V SPI NOR芯片核对；不存在的WP/HOLD外露脚不接，不能套商品针序。</field>
+      </fields>
+      <libsource lib="SmartBin_A" part="Connector_Generic_Conn_01x08" description="Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="group" value="spi"/>
+      <property name="Sheetname" value="04 03 Serial module interfaces"/>
+      <property name="Sheetfile" value="SmartBin_A_03_01.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/04 03 Serial module interfaces/" tstamps="/12661bca-0903-5abb-8aad-b1cff245c4f0/"/>
+      <tstamps>56fe980a-5705-54d9-bb61-83e87863a83a</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="8"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J17">
+      <value>HC05</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical</footprint>
+      <description>JP6供电选择按模块规格；UART输入输出均须3.3V逻辑。</description>
+      <fields>
+        <field name="group">uart</field>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description">JP6供电选择按模块规格；UART输入输出均须3.3V逻辑。</field>
+      </fields>
+      <libsource lib="SmartBin_A" part="Connector_Generic_Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="group" value="uart"/>
+      <property name="Sheetname" value="04 03 Serial module interfaces"/>
+      <property name="Sheetfile" value="SmartBin_A_03_01.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/04 03 Serial module interfaces/" tstamps="/12661bca-0903-5abb-8aad-b1cff245c4f0/"/>
+      <tstamps>e95fe4ea-9f23-56ab-8399-eadfd92d1a77</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J18">
+      <value>PC_UART</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <description>3.3V逻辑USB转串口；本接口不提供电源，转换器VCC/5V/3V3脚不接。</description>
+      <fields>
+        <field name="group">uart</field>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description">3.3V逻辑USB转串口；本接口不提供电源，转换器VCC/5V/3V3脚不接。</field>
+      </fields>
+      <libsource lib="SmartBin_A" part="Connector_Generic_Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="group" value="uart"/>
+      <property name="Sheetname" value="04 03 Serial module interfaces"/>
+      <property name="Sheetfile" value="SmartBin_A_03_01.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/04 03 Serial module interfaces/" tstamps="/12661bca-0903-5abb-8aad-b1cff245c4f0/"/>
+      <tstamps>2657cc0b-36cd-5ec9-ad59-b0aed848542d</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J31">
+      <value>DFPLAYER_SIG</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <description>仅信号口。DFPlayer VCC和电源GND以独立适当线径从J6引；喇叭接模块SPK1/2而非GND；模块TX不接。BUSY必须为&lt;=3.3V或先外置适配。</description>
+      <fields>
+        <field name="group">voice</field>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description">仅信号口。DFPlayer VCC和电源GND以独立适当线径从J6引；喇叭接模块SPK1/2而非GND；模块TX不接。BUSY必须为&lt;=3.3V或先外置适配。</field>
+      </fields>
+      <libsource lib="SmartBin_A" part="Connector_Generic_Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="group" value="voice"/>
+      <property name="Sheetname" value="04 03 Serial module interfaces"/>
+      <property name="Sheetfile" value="SmartBin_A_03_01.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/04 03 Serial module interfaces/" tstamps="/12661bca-0903-5abb-8aad-b1cff245c4f0/"/>
+      <tstamps>3026072e-c1de-5f21-a7a8-2e6cefffa91b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="JP5">
+      <value>MPU_V_SELECT</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <description>核模块VIN/稳压压差后选择；无论VIN如何SCL/SDA均只拉EXT3.3V。</description>
+      <fields>
+        <field name="group">i2c</field>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description">核模块VIN/稳压压差后选择；无论VIN如何SCL/SDA均只拉EXT3.3V。</field>
+      </fields>
+      <libsource lib="SmartBin_A" part="Connector_Generic_Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="group" value="i2c"/>
+      <property name="Sheetname" value="04 03 Serial module interfaces"/>
+      <property name="Sheetfile" value="SmartBin_A_03_01.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/04 03 Serial module interfaces/" tstamps="/12661bca-0903-5abb-8aad-b1cff245c4f0/"/>
+      <tstamps>0d4b7c29-e984-5e58-a5ee-77fb7ad815f8</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="JP6">
+      <value>HC05_V_SELECT</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <description>带稳压底板通常VIN5V，裸核心通常3.3V；必须核对实物。</description>
+      <fields>
+        <field name="group">uart</field>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description">带稳压底板通常VIN5V，裸核心通常3.3V；必须核对实物。</field>
+      </fields>
+      <libsource lib="SmartBin_A" part="Connector_Generic_Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="group" value="uart"/>
+      <property name="Sheetname" value="04 03 Serial module interfaces"/>
+      <property name="Sheetfile" value="SmartBin_A_03_01.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/04 03 Serial module interfaces/" tstamps="/12661bca-0903-5abb-8aad-b1cff245c4f0/"/>
+      <tstamps>44934d43-5319-5243-8552-bb845e250b53</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="JP10">
+      <value>MCP_RESET_TEST</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <description>复位测试短接点，正常禁止长期留帽；不是核心NRST。</description>
+      <fields>
+        <field name="group">i2c</field>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description">复位测试短接点，正常禁止长期留帽；不是核心NRST。</field>
+      </fields>
+      <libsource lib="SmartBin_A" part="Connector_Generic_Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="group" value="i2c"/>
+      <property name="Sheetname" value="04 03 Serial module interfaces"/>
+      <property name="Sheetfile" value="SmartBin_A_03_01.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/04 03 Serial module interfaces/" tstamps="/12661bca-0903-5abb-8aad-b1cff245c4f0/"/>
+      <tstamps>1eee9b3a-579f-52b5-bd94-566a37c17c4c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R8">
+      <value>4.7k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <description>条件上拉：只保留合适的等效上拉；模块已带上拉时核算并可DNP。</description>
+      <fields>
+        <field name="group">i2c</field>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description">条件上拉：只保留合适的等效上拉；模块已带上拉时核算并可DNP。</field>
+      </fields>
+      <libsource lib="SmartBin_A" part="Device_R" description="Resistor"/>
+      <property name="group" value="i2c"/>
+      <property name="Sheetname" value="04 03 Serial module interfaces"/>
+      <property name="Sheetfile" value="SmartBin_A_03_01.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/04 03 Serial module interfaces/" tstamps="/12661bca-0903-5abb-8aad-b1cff245c4f0/"/>
+      <tstamps>1410c0a6-2248-58a6-8a96-f952b34daf7e</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R9">
+      <value>4.7k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <description>条件上拉：两总线空闲电压只能为3V3_EXT，不允许5V上拉。</description>
+      <fields>
+        <field name="group">i2c</field>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description">条件上拉：两总线空闲电压只能为3V3_EXT，不允许5V上拉。</field>
+      </fields>
+      <libsource lib="SmartBin_A" part="Device_R" description="Resistor"/>
+      <property name="group" value="i2c"/>
+      <property name="Sheetname" value="04 03 Serial module interfaces"/>
+      <property name="Sheetfile" value="SmartBin_A_03_01.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/04 03 Serial module interfaces/" tstamps="/12661bca-0903-5abb-8aad-b1cff245c4f0/"/>
+      <tstamps>d6a7c232-107d-5c44-8735-11e87fd5c769</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R10">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <description>模块已有复位上拉时可以DNP；不可连接核心NRST。</description>
+      <fields>
+        <field name="group">i2c</field>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description">模块已有复位上拉时可以DNP；不可连接核心NRST。</field>
+      </fields>
+      <libsource lib="SmartBin_A" part="Device_R" description="Resistor"/>
+      <property name="group" value="i2c"/>
+      <property name="Sheetname" value="04 03 Serial module interfaces"/>
+      <property name="Sheetfile" value="SmartBin_A_03_01.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/04 03 Serial module interfaces/" tstamps="/12661bca-0903-5abb-8aad-b1cff245c4f0/"/>
+      <tstamps>31fea959-3ed2-571c-83e5-f895e76e3d2e</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R11">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <description>RC522 CS默认高；同轨已有适宜上拉时可以DNP。</description>
+      <fields>
+        <field name="group">spi</field>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description">RC522 CS默认高；同轨已有适宜上拉时可以DNP。</field>
+      </fields>
+      <libsource lib="SmartBin_A" part="Device_R" description="Resistor"/>
+      <property name="group" value="spi"/>
+      <property name="Sheetname" value="04 03 Serial module interfaces"/>
+      <property name="Sheetfile" value="SmartBin_A_03_01.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/04 03 Serial module interfaces/" tstamps="/12661bca-0903-5abb-8aad-b1cff245c4f0/"/>
+      <tstamps>6ac259df-0019-580b-9e2f-8e5d0b776a86</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R12">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <description>FLASH CS默认高；同轨已有适宜上拉时可以DNP。</description>
+      <fields>
+        <field name="group">spi</field>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description">FLASH CS默认高；同轨已有适宜上拉时可以DNP。</field>
+      </fields>
+      <libsource lib="SmartBin_A" part="Device_R" description="Resistor"/>
+      <property name="group" value="spi"/>
+      <property name="Sheetname" value="04 03 Serial module interfaces"/>
+      <property name="Sheetfile" value="SmartBin_A_03_01.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/04 03 Serial module interfaces/" tstamps="/12661bca-0903-5abb-8aad-b1cff245c4f0/"/>
+      <tstamps>eb00da82-3f87-51c2-940d-94909d328728</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R13">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <description>仅FLASH有对应外露脚且模块没有同轨上拉时安装；4/6针模块可以不接该引脚。</description>
+      <fields>
+        <field name="group">spi</field>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description">仅FLASH有对应外露脚且模块没有同轨上拉时安装；4/6针模块可以不接该引脚。</field>
+      </fields>
+      <libsource lib="SmartBin_A" part="Device_R" description="Resistor"/>
+      <property name="group" value="spi"/>
+      <property name="Sheetname" value="04 03 Serial module interfaces"/>
+      <property name="Sheetfile" value="SmartBin_A_03_01.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/04 03 Serial module interfaces/" tstamps="/12661bca-0903-5abb-8aad-b1cff245c4f0/"/>
+      <tstamps>c987cca4-e3ff-5823-b823-ce278c08902c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R14">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <description>仅FLASH有对应外露脚且模块没有同轨上拉时安装；具体/WP、/HOLD或IO2/IO3按芯片资料。</description>
+      <fields>
+        <field name="group">spi</field>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description">仅FLASH有对应外露脚且模块没有同轨上拉时安装；具体/WP、/HOLD或IO2/IO3按芯片资料。</field>
+      </fields>
+      <libsource lib="SmartBin_A" part="Device_R" description="Resistor"/>
+      <property name="group" value="spi"/>
+      <property name="Sheetname" value="04 03 Serial module interfaces"/>
+      <property name="Sheetfile" value="SmartBin_A_03_01.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/04 03 Serial module interfaces/" tstamps="/12661bca-0903-5abb-8aad-b1cff245c4f0/"/>
+      <tstamps>d31bbed9-7bd4-53cc-919b-ce2b3b8985a1</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R30">
+      <value>1k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <description>仅USART3 TX，模块TX不接PB11。</description>
+      <fields>
+        <field name="group">voice</field>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description">仅USART3 TX，模块TX不接PB11。</field>
+      </fields>
+      <libsource lib="SmartBin_A" part="Device_R" description="Resistor"/>
+      <property name="group" value="voice"/>
+      <property name="Sheetname" value="04 03 Serial module interfaces"/>
+      <property name="Sheetfile" value="SmartBin_A_03_01.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/04 03 Serial module interfaces/" tstamps="/12661bca-0903-5abb-8aad-b1cff245c4f0/"/>
+      <tstamps>d83b70e3-dfd7-5a89-b6c5-6571129d0a77</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C8">
+      <value>100nF</value>
+      <footprint>Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm</footprint>
+      <description>紧邻U1第14/7脚，尽量短回路。</description>
+      <fields>
+        <field name="group">ahct</field>
+        <field name="Footprint">Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm</field>
+        <field name="Datasheet"/>
+        <field name="Description">紧邻U1第14/7脚，尽量短回路。</field>
+      </fields>
+      <libsource lib="SmartBin_A" part="Device_C" description="Unpolarized capacitor"/>
+      <property name="group" value="ahct"/>
+      <property name="Sheetname" value="05 04 Buffered outputs and actuators"/>
+      <property name="Sheetfile" value="SmartBin_A_04_01.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/05 04 Buffered outputs and actuators/" tstamps="/d385536b-95d0-5df1-a5a0-9bec05d55771/"/>
+      <tstamps>960462c9-5dad-5060-ac0e-985dc2c01eb8</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J20">
+      <value>SERVO_SIG</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <description>1脚是PWM逻辑输出，不是舵机正电源；SG90主电源走J5，主地也直接回J5。</description>
+      <fields>
+        <field name="group">ahct</field>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description">1脚是PWM逻辑输出，不是舵机正电源；SG90主电源走J5，主地也直接回J5。</field>
+      </fields>
+      <libsource lib="SmartBin_A" part="Connector_Generic_Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="group" value="ahct"/>
+      <property name="Sheetname" value="05 04 Buffered outputs and actuators"/>
+      <property name="Sheetfile" value="SmartBin_A_04_01.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/05 04 Buffered outputs and actuators/" tstamps="/d385536b-95d0-5df1-a5a0-9bec05d55771/"/>
+      <tstamps>5f538fb0-3dd1-5b31-a335-1d9e34d4b0fe</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J21">
+      <value>HC_SR04</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical</footprint>
+      <description>ECHO已经由板上12k/20k分压至PB1；不得从模块ECHO再另跨线到核心。</description>
+      <fields>
+        <field name="group">ultrasonic</field>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description">ECHO已经由板上12k/20k分压至PB1；不得从模块ECHO再另跨线到核心。</field>
+      </fields>
+      <libsource lib="SmartBin_A" part="Connector_Generic_Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="group" value="ultrasonic"/>
+      <property name="Sheetname" value="05 04 Buffered outputs and actuators"/>
+      <property name="Sheetfile" value="SmartBin_A_04_01.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/05 04 Buffered outputs and actuators/" tstamps="/d385536b-95d0-5df1-a5a0-9bec05d55771/"/>
+      <tstamps>57de7abb-1137-5743-bf31-2cde87582eec</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J28">
+      <value>AO3400_ADAPTER</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <description>外接已焊AO3400A转接板，按真实G/S/D接，不能照商品排针顺序。</description>
+      <fields>
+        <field name="group">led</field>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description">外接已焊AO3400A转接板，按真实G/S/D接，不能照商品排针顺序。</field>
+      </fields>
+      <libsource lib="SmartBin_A" part="Connector_Generic_Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="group" value="led"/>
+      <property name="Sheetname" value="05 04 Buffered outputs and actuators"/>
+      <property name="Sheetfile" value="SmartBin_A_04_01.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/05 04 Buffered outputs and actuators/" tstamps="/d385536b-95d0-5df1-a5a0-9bec05d55771/"/>
+      <tstamps>4ae794df-1476-53dc-8829-b27f936d69b0</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J29">
+      <value>WHITE_LED</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <description>单颗小功率白LED正负端，板上220Ω串联限流；不能换成灯带。</description>
+      <fields>
+        <field name="group">led</field>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description">单颗小功率白LED正负端，板上220Ω串联限流；不能换成灯带。</field>
+      </fields>
+      <libsource lib="SmartBin_A" part="Connector_Generic_Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="group" value="led"/>
+      <property name="Sheetname" value="05 04 Buffered outputs and actuators"/>
+      <property name="Sheetfile" value="SmartBin_A_04_01.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/05 04 Buffered outputs and actuators/" tstamps="/d385536b-95d0-5df1-a5a0-9bec05d55771/"/>
+      <tstamps>9d48bd2c-99d7-5690-9161-7a3e6f050823</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J30">
+      <value>BUZZER</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <description>仅带驱动三线蜂鸣模块；核供电和有效电平再选JP3/4与R36/37。</description>
+      <fields>
+        <field name="group">buzzer</field>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description">仅带驱动三线蜂鸣模块；核供电和有效电平再选JP3/4与R36/37。</field>
+      </fields>
+      <libsource lib="SmartBin_A" part="Connector_Generic_Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="group" value="buzzer"/>
+      <property name="Sheetname" value="05 04 Buffered outputs and actuators"/>
+      <property name="Sheetfile" value="SmartBin_A_04_01.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/05 04 Buffered outputs and actuators/" tstamps="/d385536b-95d0-5df1-a5a0-9bec05d55771/"/>
+      <tstamps>4d3e8c4b-e55a-5845-9b80-450d1326ce9e</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="JP3">
+      <value>BUZZ_SIG_SELECT</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <description>3.3V可驱动模块选1-2；仅确需5V控制时2-3；通道3始终使能；两输出不可并接。</description>
+      <fields>
+        <field name="group">buzzer</field>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description">3.3V可驱动模块选1-2；仅确需5V控制时2-3；通道3始终使能；两输出不可并接。</field>
+      </fields>
+      <libsource lib="SmartBin_A" part="Connector_Generic_Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="group" value="buzzer"/>
+      <property name="Sheetname" value="05 04 Buffered outputs and actuators"/>
+      <property name="Sheetfile" value="SmartBin_A_04_01.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/05 04 Buffered outputs and actuators/" tstamps="/d385536b-95d0-5df1-a5a0-9bec05d55771/"/>
+      <tstamps>6291e38d-43fd-576b-9ef7-5fe16bc457aa</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="JP4">
+      <value>BUZZ_V_SELECT</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <description>按模块VCC选3.3V或5V，只能一帽；未确认前保持开路。</description>
+      <fields>
+        <field name="group">buzzer</field>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description">按模块VCC选3.3V或5V，只能一帽；未确认前保持开路。</field>
+      </fields>
+      <libsource lib="SmartBin_A" part="Connector_Generic_Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="group" value="buzzer"/>
+      <property name="Sheetname" value="05 04 Buffered outputs and actuators"/>
+      <property name="Sheetfile" value="SmartBin_A_04_01.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/05 04 Buffered outputs and actuators/" tstamps="/d385536b-95d0-5df1-a5a0-9bec05d55771/"/>
+      <tstamps>b31e71ae-e76f-5baf-91ca-82f92c94b96b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R3">
+      <value>100</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <description>栅极串联，不可拿来作为LED限流。</description>
+      <fields>
+        <field name="group">led</field>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description">栅极串联，不可拿来作为LED限流。</field>
+      </fields>
+      <libsource lib="SmartBin_A" part="Device_R" description="Resistor"/>
+      <property name="group" value="led"/>
+      <property name="Sheetname" value="05 04 Buffered outputs and actuators"/>
+      <property name="Sheetfile" value="SmartBin_A_04_01.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/05 04 Buffered outputs and actuators/" tstamps="/d385536b-95d0-5df1-a5a0-9bec05d55771/"/>
+      <tstamps>c382356f-f477-5350-b775-68bac59533a1</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R4">
+      <value>100k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <description>G-S默认下拉，复位关灯。</description>
+      <fields>
+        <field name="group">led</field>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description">G-S默认下拉，复位关灯。</field>
+      </fields>
+      <libsource lib="SmartBin_A" part="Device_R" description="Resistor"/>
+      <property name="group" value="led"/>
+      <property name="Sheetname" value="05 04 Buffered outputs and actuators"/>
+      <property name="Sheetfile" value="SmartBin_A_04_01.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/05 04 Buffered outputs and actuators/" tstamps="/d385536b-95d0-5df1-a5a0-9bec05d55771/"/>
+      <tstamps>a7c4b650-5f00-5bf0-a176-b25cc07cd752</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R5">
+      <value>220</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <description>仅适用本方案单颗小功率白LED，目标几mA至约10mA。</description>
+      <fields>
+        <field name="group">led</field>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description">仅适用本方案单颗小功率白LED，目标几mA至约10mA。</field>
+      </fields>
+      <libsource lib="SmartBin_A" part="Device_R" description="Resistor"/>
+      <property name="group" value="led"/>
+      <property name="Sheetname" value="05 04 Buffered outputs and actuators"/>
+      <property name="Sheetfile" value="SmartBin_A_04_01.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/05 04 Buffered outputs and actuators/" tstamps="/d385536b-95d0-5df1-a5a0-9bec05d55771/"/>
+      <tstamps>0e14a9f1-1338-5d38-bcfc-6bb283c268d6</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R6">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <description>上电PWM输入下拉。</description>
+      <fields>
+        <field name="group">ahct</field>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description">上电PWM输入下拉。</field>
+      </fields>
+      <libsource lib="SmartBin_A" part="Device_R" description="Resistor"/>
+      <property name="group" value="ahct"/>
+      <property name="Sheetname" value="05 04 Buffered outputs and actuators"/>
+      <property name="Sheetfile" value="SmartBin_A_04_01.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/05 04 Buffered outputs and actuators/" tstamps="/d385536b-95d0-5df1-a5a0-9bec05d55771/"/>
+      <tstamps>deeafb38-b5b2-5488-80bf-cd8f9fcbbd70</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R7">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <description>上电TRIG输入下拉。</description>
+      <fields>
+        <field name="group">ahct</field>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description">上电TRIG输入下拉。</field>
+      </fields>
+      <libsource lib="SmartBin_A" part="Device_R" description="Resistor"/>
+      <property name="group" value="ahct"/>
+      <property name="Sheetname" value="05 04 Buffered outputs and actuators"/>
+      <property name="Sheetfile" value="SmartBin_A_04_01.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/05 04 Buffered outputs and actuators/" tstamps="/d385536b-95d0-5df1-a5a0-9bec05d55771/"/>
+      <tstamps>e44d989c-aea3-55af-9eef-d2ccefc7f7f2</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R25">
+      <value>12k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <description>ECHO分压上臂，建议1%；不是12k到地。</description>
+      <fields>
+        <field name="group">ultrasonic</field>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description">ECHO分压上臂，建议1%；不是12k到地。</field>
+      </fields>
+      <libsource lib="SmartBin_A" part="Device_R" description="Resistor"/>
+      <property name="group" value="ultrasonic"/>
+      <property name="Sheetname" value="05 04 Buffered outputs and actuators"/>
+      <property name="Sheetfile" value="SmartBin_A_04_01.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/05 04 Buffered outputs and actuators/" tstamps="/d385536b-95d0-5df1-a5a0-9bec05d55771/"/>
+      <tstamps>f14989d1-55ad-5bc0-85cb-00582be91b4b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R26">
+      <value>20k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <description>ECHO分压下臂，建议1%；5.0V输入约3.125V。</description>
+      <fields>
+        <field name="group">ultrasonic</field>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description">ECHO分压下臂，建议1%；5.0V输入约3.125V。</field>
+      </fields>
+      <libsource lib="SmartBin_A" part="Device_R" description="Resistor"/>
+      <property name="group" value="ultrasonic"/>
+      <property name="Sheetname" value="05 04 Buffered outputs and actuators"/>
+      <property name="Sheetfile" value="SmartBin_A_04_01.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/05 04 Buffered outputs and actuators/" tstamps="/d385536b-95d0-5df1-a5a0-9bec05d55771/"/>
+      <tstamps>7bcbc073-20fd-5916-9a0c-94a40e6610e7</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R36">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <description>默认安装使AHCT输入确定；高有效蜂鸣保留。低有效模块先拆R36再装R37，不能两者均不装后运行。</description>
+      <fields>
+        <field name="group">buzzer</field>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description">默认安装使AHCT输入确定；高有效蜂鸣保留。低有效模块先拆R36再装R37，不能两者均不装后运行。</field>
+      </fields>
+      <libsource lib="SmartBin_A" part="Device_R" description="Resistor"/>
+      <property name="group" value="buzzer"/>
+      <property name="Sheetname" value="05 04 Buffered outputs and actuators"/>
+      <property name="Sheetfile" value="SmartBin_A_04_01.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/05 04 Buffered outputs and actuators/" tstamps="/d385536b-95d0-5df1-a5a0-9bec05d55771/"/>
+      <tstamps>b1997443-e953-5668-93e6-36d17164bee0</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R37">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <description>低有效蜂鸣模块选择本上拉，R36必须DNP；绝不可上拉5V。</description>
+      <fields>
+        <field name="group">buzzer</field>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description">低有效蜂鸣模块选择本上拉，R36必须DNP；绝不可上拉5V。</field>
+      </fields>
+      <libsource lib="SmartBin_A" part="Device_R" description="Resistor"/>
+      <property name="group" value="buzzer"/>
+      <property name="Sheetname" value="05 04 Buffered outputs and actuators"/>
+      <property name="Sheetfile" value="SmartBin_A_04_01.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/05 04 Buffered outputs and actuators/" tstamps="/d385536b-95d0-5df1-a5a0-9bec05d55771/"/>
+      <tstamps>bddc3438-60d1-581e-9d86-18cfe81a02e9</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U1">
+      <value>SN74AHCT125N</value>
+      <footprint>Package_DIP:DIP-14_W7.62mm_Socket</footprint>
+      <description>DIP14+7.62mm芯片座；N为PDIP。第3通道永久使能，输入PB9有默认偏置，输出通过JP3选择；第4通道固定禁用，11脚不接。不得替换成74HC125。</description>
+      <fields>
+        <field name="group">ahct</field>
+        <field name="Footprint">Package_DIP:DIP-14_W7.62mm_Socket</field>
+        <field name="Datasheet"/>
+        <field name="Description">DIP14+7.62mm芯片座；N为PDIP。第3通道永久使能，输入PB9有默认偏置，输出通过JP3选择；第4通道固定禁用，11脚不接。不得替换成74HC125。</field>
+      </fields>
+      <libsource lib="SmartBin_A" part="74xx_74AHCT125" description="Quadruple Bus Buffer Gates With 3-State Outputs"/>
+      <property name="group" value="ahct"/>
+      <property name="Sheetname" value="05 04 Buffered outputs and actuators"/>
+      <property name="Sheetfile" value="SmartBin_A_04_01.kicad_sch"/>
+      <property name="ki_keywords" value="buffer 3State"/>
+      <property name="ki_fp_filters" value="DIP*W7.62mm* SO14* SSOP?14* TSSOP?14* SOIC*3.9x8.7mm*P1.27mm*"/>
+      <sheetpath names="/05 04 Buffered outputs and actuators/" tstamps="/d385536b-95d0-5df1-a5a0-9bec05d55771/"/>
+      <tstamps>dd3d9bff-7735-5683-8fe3-1ea9983ada25 cfe90448-d3ca-5b36-aeee-351a6881813d eb435988-eb88-5ef2-8646-ca6a897fc680 de38e489-2e7d-5e46-8a89-07a7b4727dc5 1c184f2f-cebb-5ef5-b2fd-23338f4d88a3</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="2"/>
+            <pin num="1"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+        <unit name="B">
+          <pins>
+            <pin num="5"/>
+            <pin num="4"/>
+            <pin num="6"/>
+          </pins>
+        </unit>
+        <unit name="C">
+          <pins>
+            <pin num="9"/>
+            <pin num="10"/>
+            <pin num="8"/>
+          </pins>
+        </unit>
+        <unit name="D">
+          <pins>
+            <pin num="12"/>
+            <pin num="13"/>
+            <pin num="11"/>
+          </pins>
+        </unit>
+        <unit name="E">
+          <pins>
+            <pin num="14"/>
+            <pin num="7"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J22">
+      <value>DHT</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <description>3.3V分支JP7=1-2且JP8闭合；5V分支JP7=2-3、JP8断开，外置BSS138经J23转换；严禁5V分支短接JP8。</description>
+      <fields>
+        <field name="group">dht</field>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description">3.3V分支JP7=1-2且JP8闭合；5V分支JP7=2-3、JP8断开，外置BSS138经J23转换；严禁5V分支短接JP8。</field>
+      </fields>
+      <libsource lib="SmartBin_A" part="Connector_Generic_Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="group" value="dht"/>
+      <property name="Sheetname" value="06 05 Sensor and user inputs"/>
+      <property name="Sheetfile" value="SmartBin_A_05_01.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/06 05 Sensor and user inputs/" tstamps="/648917c6-a615-514c-9dc3-06c1e92b5fde/"/>
+      <tstamps>d349f1e7-d873-591c-be1e-15f807117bd1</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J23">
+      <value>DHT_LEVEL</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical</footprint>
+      <description>仅5V DHT分支使用外置BSS138双向开漏转换；3.3V分支保持空。转换模块GND全部共地。</description>
+      <fields>
+        <field name="group">dht</field>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description">仅5V DHT分支使用外置BSS138双向开漏转换；3.3V分支保持空。转换模块GND全部共地。</field>
+      </fields>
+      <libsource lib="SmartBin_A" part="Connector_Generic_Conn_01x05" description="Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="group" value="dht"/>
+      <property name="Sheetname" value="06 05 Sensor and user inputs"/>
+      <property name="Sheetfile" value="SmartBin_A_05_01.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/06 05 Sensor and user inputs/" tstamps="/648917c6-a615-514c-9dc3-06c1e92b5fde/"/>
+      <tstamps>79001dae-61fb-5a47-971d-8513cb4e2e06</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J24">
+      <value>ENCODER</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical</footprint>
+      <description>仅3.3V编码器模块；CLK/DT的CORE上拉与模块EXT上拉二选一；SW上拉同样核对。</description>
+      <fields>
+        <field name="group">encoder</field>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description">仅3.3V编码器模块；CLK/DT的CORE上拉与模块EXT上拉二选一；SW上拉同样核对。</field>
+      </fields>
+      <libsource lib="SmartBin_A" part="Connector_Generic_Conn_01x05" description="Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="group" value="encoder"/>
+      <property name="Sheetname" value="06 05 Sensor and user inputs"/>
+      <property name="Sheetfile" value="SmartBin_A_05_01.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/06 05 Sensor and user inputs/" tstamps="/648917c6-a615-514c-9dc3-06c1e92b5fde/"/>
+      <tstamps>767aebf7-ae8d-5b59-94cb-3384e6545263</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J25">
+      <value>KEYS_LID</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical</footprint>
+      <description>三组接地开关：MODE、BACK轻触NO；闭盖用NO微动。轻触4脚同组导通须实测。</description>
+      <fields>
+        <field name="group">switches</field>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description">三组接地开关：MODE、BACK轻触NO；闭盖用NO微动。轻触4脚同组导通须实测。</field>
+      </fields>
+      <libsource lib="SmartBin_A" part="Connector_Generic_Conn_01x06" description="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="group" value="switches"/>
+      <property name="Sheetname" value="06 05 Sensor and user inputs"/>
+      <property name="Sheetfile" value="SmartBin_A_05_01.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/06 05 Sensor and user inputs/" tstamps="/648917c6-a615-514c-9dc3-06c1e92b5fde/"/>
+      <tstamps>191fe01f-6d95-55f3-912d-a68d29cbb041</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J26">
+      <value>BUMPER</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <description>外置左右微动NC串联，任一个碰撞或断线为高；不用NO端。</description>
+      <fields>
+        <field name="group">switches</field>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description">外置左右微动NC串联，任一个碰撞或断线为高；不用NO端。</field>
+      </fields>
+      <libsource lib="SmartBin_A" part="Connector_Generic_Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="group" value="switches"/>
+      <property name="Sheetname" value="06 05 Sensor and user inputs"/>
+      <property name="Sheetfile" value="SmartBin_A_05_01.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/06 05 Sensor and user inputs/" tstamps="/648917c6-a615-514c-9dc3-06c1e92b5fde/"/>
+      <tstamps>fecc392a-4710-5f49-ba51-7bc8ec0839af</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J33">
+      <value>IR_INPUTS</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x09_P2.54mm_Vertical</footprint>
+      <description>自定义供电/信号汇集口；六路输入必须经外置条件适配后&lt;=3.3V。3V3与5V是两根可用电源，绝不能同时接模块同一VCC。</description>
+      <fields>
+        <field name="group">digital_inputs</field>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x09_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description">自定义供电/信号汇集口；六路输入必须经外置条件适配后&lt;=3.3V。3V3与5V是两根可用电源，绝不能同时接模块同一VCC。</field>
+      </fields>
+      <libsource lib="SmartBin_A" part="Connector_Generic_Conn_01x09" description="Generic connector, single row, 01x09, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="group" value="digital_inputs"/>
+      <property name="Sheetname" value="06 05 Sensor and user inputs"/>
+      <property name="Sheetfile" value="SmartBin_A_05_01.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/06 05 Sensor and user inputs/" tstamps="/648917c6-a615-514c-9dc3-06c1e92b5fde/"/>
+      <tstamps>bb54acee-2625-599d-a164-2a179e897945</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="8"/>
+            <pin num="9"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="JP7">
+      <value>DHT_V_SELECT</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <description>3.3V模块1-2；5V模块2-3，同时JP8必须开路并装外置BSS138。</description>
+      <fields>
+        <field name="group">dht</field>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description">3.3V模块1-2；5V模块2-3，同时JP8必须开路并装外置BSS138。</field>
+      </fields>
+      <libsource lib="SmartBin_A" part="Connector_Generic_Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="group" value="dht"/>
+      <property name="Sheetname" value="06 05 Sensor and user inputs"/>
+      <property name="Sheetfile" value="SmartBin_A_05_01.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/06 05 Sensor and user inputs/" tstamps="/648917c6-a615-514c-9dc3-06c1e92b5fde/"/>
+      <tstamps>e2ea7a8e-4bd2-5845-8862-cfae236cafad</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="JP8">
+      <value>DHT_DIRECT</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <description>仅3.3V供电且已确认DATA安全时闭合；与5V DHT分支互斥。</description>
+      <fields>
+        <field name="group">dht</field>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description">仅3.3V供电且已确认DATA安全时闭合；与5V DHT分支互斥。</field>
+      </fields>
+      <libsource lib="SmartBin_A" part="Connector_Generic_Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="group" value="dht"/>
+      <property name="Sheetname" value="06 05 Sensor and user inputs"/>
+      <property name="Sheetfile" value="SmartBin_A_05_01.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/06 05 Sensor and user inputs/" tstamps="/648917c6-a615-514c-9dc3-06c1e92b5fde/"/>
+      <tstamps>f1329c5b-51b1-55f7-9fd7-cc2d19950df9</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R27">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <description>与模块已有EXT上拉二选一；若保留EXT上拉，本电阻DNP，避免两稳压轨经两上拉相连。</description>
+      <fields>
+        <field name="group">encoder</field>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description">与模块已有EXT上拉二选一；若保留EXT上拉，本电阻DNP，避免两稳压轨经两上拉相连。</field>
+      </fields>
+      <libsource lib="SmartBin_A" part="Device_R" description="Resistor"/>
+      <property name="group" value="encoder"/>
+      <property name="Sheetname" value="06 05 Sensor and user inputs"/>
+      <property name="Sheetfile" value="SmartBin_A_05_01.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/06 05 Sensor and user inputs/" tstamps="/648917c6-a615-514c-9dc3-06c1e92b5fde/"/>
+      <tstamps>8a3c9cf0-14f0-52b9-9930-56f34884aa16</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R28">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <description>与R27相同；不能只改其中一根编码相。</description>
+      <fields>
+        <field name="group">encoder</field>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description">与R27相同；不能只改其中一根编码相。</field>
+      </fields>
+      <libsource lib="SmartBin_A" part="Device_R" description="Resistor"/>
+      <property name="group" value="encoder"/>
+      <property name="Sheetname" value="06 05 Sensor and user inputs"/>
+      <property name="Sheetfile" value="SmartBin_A_05_01.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/06 05 Sensor and user inputs/" tstamps="/648917c6-a615-514c-9dc3-06c1e92b5fde/"/>
+      <tstamps>4eb1228d-c983-57f1-a816-5d4c83717964</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R29">
+      <value>4.7k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <description>DHT低压侧开漏上拉；模块/BSS138已有合适同轨上拉时DNP。</description>
+      <fields>
+        <field name="group">dht</field>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description">DHT低压侧开漏上拉；模块/BSS138已有合适同轨上拉时DNP。</field>
+      </fields>
+      <libsource lib="SmartBin_A" part="Device_R" description="Resistor"/>
+      <property name="group" value="dht"/>
+      <property name="Sheetname" value="06 05 Sensor and user inputs"/>
+      <property name="Sheetfile" value="SmartBin_A_05_01.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/06 05 Sensor and user inputs/" tstamps="/648917c6-a615-514c-9dc3-06c1e92b5fde/"/>
+      <tstamps>d61727b0-b327-5a74-b9c3-8681eb16cc2d</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R31">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <description>碰撞两NC串联接地；任一个断开为高。</description>
+      <fields>
+        <field name="group">switches</field>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description">碰撞两NC串联接地；任一个断开为高。</field>
+      </fields>
+      <libsource lib="SmartBin_A" part="Device_R" description="Resistor"/>
+      <property name="group" value="switches"/>
+      <property name="Sheetname" value="06 05 Sensor and user inputs"/>
+      <property name="Sheetfile" value="SmartBin_A_05_01.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/06 05 Sensor and user inputs/" tstamps="/648917c6-a615-514c-9dc3-06c1e92b5fde/"/>
+      <tstamps>2df98b0c-c364-55d2-b69a-d22be6801218</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R32">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <description>闭盖NO接地，闭盖=0；未闭合/断线=1。</description>
+      <fields>
+        <field name="group">switches</field>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description">闭盖NO接地，闭盖=0；未闭合/断线=1。</field>
+      </fields>
+      <libsource lib="SmartBin_A" part="Device_R" description="Resistor"/>
+      <property name="group" value="switches"/>
+      <property name="Sheetname" value="06 05 Sensor and user inputs"/>
+      <property name="Sheetfile" value="SmartBin_A_05_01.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/06 05 Sensor and user inputs/" tstamps="/648917c6-a615-514c-9dc3-06c1e92b5fde/"/>
+      <tstamps>6d7ca435-f7f2-572c-b05c-1d6ef0279a31</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R33">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <description>编码器SW外部上拉；模块已有同轨上拉或已验证MCP内部上拉时DNP。</description>
+      <fields>
+        <field name="group">encoder</field>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description">编码器SW外部上拉；模块已有同轨上拉或已验证MCP内部上拉时DNP。</field>
+      </fields>
+      <libsource lib="SmartBin_A" part="Device_R" description="Resistor"/>
+      <property name="group" value="encoder"/>
+      <property name="Sheetname" value="06 05 Sensor and user inputs"/>
+      <property name="Sheetfile" value="SmartBin_A_05_01.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/06 05 Sensor and user inputs/" tstamps="/648917c6-a615-514c-9dc3-06c1e92b5fde/"/>
+      <tstamps>b8e4bde8-f647-5f2c-b16e-f7da33dd1a04</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R34">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <description>MODE低有效；推荐安装，已验证内部上拉时可DNP。</description>
+      <fields>
+        <field name="group">switches</field>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description">MODE低有效；推荐安装，已验证内部上拉时可DNP。</field>
+      </fields>
+      <libsource lib="SmartBin_A" part="Device_R" description="Resistor"/>
+      <property name="group" value="switches"/>
+      <property name="Sheetname" value="06 05 Sensor and user inputs"/>
+      <property name="Sheetfile" value="SmartBin_A_05_01.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/06 05 Sensor and user inputs/" tstamps="/648917c6-a615-514c-9dc3-06c1e92b5fde/"/>
+      <tstamps>25efbcb5-3eff-5be6-975f-d13c4020c51e</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R35">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <description>BACK低有效；推荐安装，已验证内部上拉时可DNP。</description>
+      <fields>
+        <field name="group">switches</field>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description">BACK低有效；推荐安装，已验证内部上拉时可DNP。</field>
+      </fields>
+      <libsource lib="SmartBin_A" part="Device_R" description="Resistor"/>
+      <property name="group" value="switches"/>
+      <property name="Sheetname" value="06 05 Sensor and user inputs"/>
+      <property name="Sheetfile" value="SmartBin_A_05_01.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/06 05 Sensor and user inputs/" tstamps="/648917c6-a615-514c-9dc3-06c1e92b5fde/"/>
+      <tstamps>5f5dfc9e-68a5-527f-86eb-e4afd9a94e7d</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="SmartBin_A" part="74xx_74AHCT125">
+      <description>Quadruple Bus Buffer Gates With 3-State Outputs</description>
+      <docs>https://www.ti.com/lit/ds/symlink/sn74ahct125.pdf</docs>
+      <footprints>
+        <fp>DIP*W7.62mm*</fp>
+        <fp>SO14*</fp>
+        <fp>SSOP?14*</fp>
+        <fp>TSSOP?14*</fp>
+        <fp>SOIC*3.9x8.7mm*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">74AHCT125</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/sn74ahct125.pdf</field>
+        <field name="Description">Quadruple Bus Buffer Gates With 3-State Outputs</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="input"/>
+        <pin num="2" name="" type="input"/>
+        <pin num="3" name="" type="tri_state"/>
+        <pin num="4" name="" type="input"/>
+        <pin num="5" name="" type="input"/>
+        <pin num="6" name="" type="tri_state"/>
+        <pin num="7" name="GND" type="power_in"/>
+        <pin num="8" name="" type="tri_state"/>
+        <pin num="9" name="" type="input"/>
+        <pin num="10" name="" type="input"/>
+        <pin num="11" name="" type="tri_state"/>
+        <pin num="12" name="" type="input"/>
+        <pin num="13" name="" type="input"/>
+        <pin num="14" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="SmartBin_A" part="Connector_Generic_Conn_01x02">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SmartBin_A" part="Connector_Generic_Conn_01x03">
+      <description>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x03</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SmartBin_A" part="Connector_Generic_Conn_01x04">
+      <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SmartBin_A" part="Connector_Generic_Conn_01x05">
+      <description>Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x05</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SmartBin_A" part="Connector_Generic_Conn_01x06">
+      <description>Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x06</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SmartBin_A" part="Connector_Generic_Conn_01x07">
+      <description>Generic connector, single row, 01x07, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x07</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Generic connector, single row, 01x07, script generated (kicad-library-utils/schlib/autogen/connector/)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SmartBin_A" part="Connector_Generic_Conn_01x08">
+      <description>Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x08</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SmartBin_A" part="Connector_Generic_Conn_01x09">
+      <description>Generic connector, single row, 01x09, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x09</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Generic connector, single row, 01x09, script generated (kicad-library-utils/schlib/autogen/connector/)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SmartBin_A" part="Connector_Generic_Conn_01x16">
+      <description>Generic connector, single row, 01x16, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x16</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Generic connector, single row, 01x16, script generated (kicad-library-utils/schlib/autogen/connector/)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+        <pin num="13" name="Pin_13" type="passive"/>
+        <pin num="14" name="Pin_14" type="passive"/>
+        <pin num="15" name="Pin_15" type="passive"/>
+        <pin num="16" name="Pin_16" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SmartBin_A" part="Connector_Generic_Conn_01x17">
+      <description>Generic connector, single row, 01x17, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x17</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Generic connector, single row, 01x17, script generated (kicad-library-utils/schlib/autogen/connector/)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+        <pin num="13" name="Pin_13" type="passive"/>
+        <pin num="14" name="Pin_14" type="passive"/>
+        <pin num="15" name="Pin_15" type="passive"/>
+        <pin num="16" name="Pin_16" type="passive"/>
+        <pin num="17" name="Pin_17" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SmartBin_A" part="Device_C">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SmartBin_A" part="Device_C_Polarized">
+      <description>Polarized capacitor</description>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Polarized</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Polarized capacitor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SmartBin_A" part="Device_R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SmartBin_A" part="Mechanical_MountingHole">
+      <description>Mounting Hole without connection</description>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Mounting Hole without connection</field>
+      </fields>
+    </libpart>
+    <libpart lib="SmartBin_A" part="Transistor_BJT_2N3904">
+      <description>0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92</description>
+      <docs>https://www.onsemi.com/pub/Collateral/2N3903-D.PDF</docs>
+      <footprints>
+        <fp>TO?92*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">2N3904</field>
+        <field name="Footprint">Package_TO_SOT_THT:TO-92_Inline</field>
+        <field name="Datasheet">https://www.onsemi.com/pub/Collateral/2N3903-D.PDF</field>
+        <field name="Description">0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92</field>
+      </fields>
+      <pins>
+        <pin num="1" name="E" type="passive"/>
+        <pin num="2" name="B" type="input"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="SmartBin_A">
+      <uri>${KIPRJMOD}/SmartBin_A.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="3V3_CORE" class="LogicPower,Default">
+      <node ref="J8" pin="3" pinfunction="Pin_3_3" pintype="passive"/>
+      <node ref="R24" pin="2" pintype="passive"/>
+      <node ref="R27" pin="2" pintype="passive"/>
+      <node ref="R28" pin="2" pintype="passive"/>
+      <node ref="R31" pin="2" pintype="passive"/>
+      <node ref="R32" pin="2" pintype="passive"/>
+      <node ref="R37" pin="2" pintype="passive"/>
+    </net>
+    <net code="2" name="3V3_EXT" class="LogicPower,Default">
+      <node ref="J10" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+      <node ref="J13" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+      <node ref="J15" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+      <node ref="J16" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+      <node ref="J19" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+      <node ref="J23" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+      <node ref="J24" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+      <node ref="J32" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+      <node ref="J33" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+      <node ref="J7" pin="3" pinfunction="Pin_3_3" pintype="passive"/>
+      <node ref="JP4" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+      <node ref="JP5" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+      <node ref="JP6" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+      <node ref="JP7" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+      <node ref="R10" pin="2" pintype="passive"/>
+      <node ref="R11" pin="2" pintype="passive"/>
+      <node ref="R12" pin="2" pintype="passive"/>
+      <node ref="R13" pin="2" pintype="passive"/>
+      <node ref="R14" pin="2" pintype="passive"/>
+      <node ref="R19" pin="1" pintype="passive"/>
+      <node ref="R29" pin="2" pintype="passive"/>
+      <node ref="R33" pin="2" pintype="passive"/>
+      <node ref="R34" pin="2" pintype="passive"/>
+      <node ref="R35" pin="2" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+    </net>
+    <net code="3" name="5V_BUS" class="LogicPower,Default">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="J21" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+      <node ref="J23" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+      <node ref="J3" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+      <node ref="J33" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+      <node ref="J4" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+      <node ref="J5" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+      <node ref="J6" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+      <node ref="J7" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+      <node ref="J8" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+      <node ref="JP4" pin="3" pinfunction="Pin_3_3" pintype="passive"/>
+      <node ref="JP5" pin="3" pinfunction="Pin_3_3" pintype="passive"/>
+      <node ref="JP6" pin="3" pinfunction="Pin_3_3" pintype="passive"/>
+      <node ref="JP7" pin="3" pinfunction="Pin_3_3" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="U1" pin="13" pintype="input"/>
+      <node ref="U1" pin="14" pinfunction="VCC_14" pintype="power_in"/>
+    </net>
+    <net code="4" name="BAT_ADC_DIV" class="Default">
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="JP9" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+    </net>
+    <net code="5" name="BUZZ_5V" class="Default">
+      <node ref="JP3" pin="3" pinfunction="Pin_3_3" pintype="passive"/>
+      <node ref="U1" pin="8" pintype="tri_state"/>
+    </net>
+    <net code="6" name="BUZZ_IN" class="Default">
+      <node ref="J30" pin="3" pinfunction="Pin_3_3" pintype="passive"/>
+      <node ref="JP3" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+    </net>
+    <net code="7" name="DF_RX" class="Default">
+      <node ref="J31" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+      <node ref="R30" pin="2" pintype="passive"/>
+    </net>
+    <net code="8" name="DHT_DATA_RAW" class="Default">
+      <node ref="J22" pin="3" pinfunction="Pin_3_3" pintype="passive"/>
+      <node ref="J23" pin="5" pinfunction="Pin_5_5" pintype="passive"/>
+      <node ref="JP8" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+    </net>
+    <net code="9" name="ES1_BASE" class="Default">
+      <node ref="Q1" pin="2" pinfunction="B_2" pintype="input"/>
+      <node ref="R15" pin="2" pintype="passive"/>
+      <node ref="R16" pin="1" pintype="passive"/>
+    </net>
+    <net code="10" name="ES2_BASE" class="Default">
+      <node ref="Q3" pin="2" pinfunction="B_2" pintype="input"/>
+      <node ref="R17" pin="2" pintype="passive"/>
+      <node ref="R18" pin="1" pintype="passive"/>
+    </net>
+    <net code="11" name="ESTOP_NC1_RETURN" class="Default">
+      <node ref="J27" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+      <node ref="R15" pin="1" pintype="passive"/>
+    </net>
+    <net code="12" name="ESTOP_NC2_RETURN" class="Default">
+      <node ref="J27" pin="4" pinfunction="Pin_4_4" pintype="passive"/>
+      <node ref="R17" pin="1" pintype="passive"/>
+    </net>
+    <net code="13" name="FLASH_HOLD_N" class="Default">
+      <node ref="J16" pin="8" pinfunction="Pin_8_8" pintype="passive"/>
+      <node ref="R14" pin="1" pintype="passive"/>
+    </net>
+    <net code="14" name="FLASH_WP_N" class="Default">
+      <node ref="J16" pin="7" pinfunction="Pin_7_7" pintype="passive"/>
+      <node ref="R13" pin="1" pintype="passive"/>
+    </net>
+    <net code="15" name="GND" class="Ground,Default">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+      <node ref="J10" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+      <node ref="J13" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+      <node ref="J14" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+      <node ref="J15" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+      <node ref="J16" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+      <node ref="J17" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+      <node ref="J18" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+      <node ref="J19" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+      <node ref="J20" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+      <node ref="J21" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+      <node ref="J22" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+      <node ref="J23" pin="3" pinfunction="Pin_3_3" pintype="passive"/>
+      <node ref="J24" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+      <node ref="J25" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+      <node ref="J25" pin="4" pinfunction="Pin_4_4" pintype="passive"/>
+      <node ref="J25" pin="6" pinfunction="Pin_6_6" pintype="passive"/>
+      <node ref="J26" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+      <node ref="J28" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+      <node ref="J3" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+      <node ref="J30" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+      <node ref="J31" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+      <node ref="J32" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+      <node ref="J33" pin="3" pinfunction="Pin_3_3" pintype="passive"/>
+      <node ref="J4" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+      <node ref="J5" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+      <node ref="J6" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+      <node ref="J7" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+      <node ref="J8" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+      <node ref="J9" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+      <node ref="JP10" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+      <node ref="Q1" pin="1" pinfunction="E_1" pintype="passive"/>
+      <node ref="Q2" pin="1" pinfunction="E_1" pintype="passive"/>
+      <node ref="Q3" pin="1" pinfunction="E_1" pintype="passive"/>
+      <node ref="R16" pin="2" pintype="passive"/>
+      <node ref="R18" pin="2" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="R20" pin="2" pintype="passive"/>
+      <node ref="R22" pin="2" pintype="passive"/>
+      <node ref="R23" pin="2" pintype="passive"/>
+      <node ref="R26" pin="2" pintype="passive"/>
+      <node ref="R36" pin="2" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="U1" pin="1" pintype="input"/>
+      <node ref="U1" pin="10" pintype="input"/>
+      <node ref="U1" pin="12" pintype="input"/>
+      <node ref="U1" pin="4" pintype="input"/>
+      <node ref="U1" pin="7" pinfunction="GND_7" pintype="power_in"/>
+    </net>
+    <net code="16" name="I2C_SCL" class="Default">
+      <node ref="J10" pin="3" pinfunction="Pin_3_3" pintype="passive"/>
+      <node ref="J13" pin="3" pinfunction="Pin_3_3" pintype="passive"/>
+      <node ref="J14" pin="3" pinfunction="Pin_3_3" pintype="passive"/>
+      <node ref="J9" pin="7" pinfunction="Pin_7_7" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+    </net>
+    <net code="17" name="I2C_SDA" class="Default">
+      <node ref="J10" pin="4" pinfunction="Pin_4_4" pintype="passive"/>
+      <node ref="J13" pin="4" pinfunction="Pin_4_4" pintype="passive"/>
+      <node ref="J14" pin="4" pinfunction="Pin_4_4" pintype="passive"/>
+      <node ref="J9" pin="8" pinfunction="Pin_8_8" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+    </net>
+    <net code="18" name="KILL_BASE" class="Default">
+      <node ref="Q1" pin="3" pinfunction="C_3" pintype="passive"/>
+      <node ref="Q2" pin="2" pinfunction="B_2" pintype="input"/>
+      <node ref="R19" pin="2" pintype="passive"/>
+      <node ref="R20" pin="1" pintype="passive"/>
+    </net>
+    <net code="19" name="LED_GATE" class="Default">
+      <node ref="J28" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+    </net>
+    <net code="20" name="LED_NEG" class="Default">
+      <node ref="J28" pin="3" pinfunction="Pin_3_3" pintype="passive"/>
+      <node ref="J29" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+    </net>
+    <net code="21" name="LED_POS" class="Default">
+      <node ref="J29" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+    </net>
+    <net code="22" name="MCP_GPA0" class="Default">
+      <node ref="J11" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+      <node ref="J19" pin="3" pinfunction="Pin_3_3" pintype="passive"/>
+    </net>
+    <net code="23" name="MCP_GPA1" class="Default">
+      <node ref="J11" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+      <node ref="J19" pin="4" pinfunction="Pin_4_4" pintype="passive"/>
+    </net>
+    <net code="24" name="MCP_GPA2" class="Default">
+      <node ref="J11" pin="3" pinfunction="Pin_3_3" pintype="passive"/>
+      <node ref="J19" pin="5" pinfunction="Pin_5_5" pintype="passive"/>
+    </net>
+    <net code="25" name="MCP_GPA3" class="Default">
+      <node ref="J11" pin="4" pinfunction="Pin_4_4" pintype="passive"/>
+      <node ref="J19" pin="6" pinfunction="Pin_6_6" pintype="passive"/>
+    </net>
+    <net code="26" name="MCP_GPA4" class="Default">
+      <node ref="J11" pin="5" pinfunction="Pin_5_5" pintype="passive"/>
+      <node ref="J15" pin="7" pinfunction="Pin_7_7" pintype="passive"/>
+    </net>
+    <net code="27" name="MCP_GPA5" class="Default">
+      <node ref="J11" pin="6" pinfunction="Pin_6_6" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+    </net>
+    <net code="28" name="MCP_GPA6" class="Default">
+      <node ref="J11" pin="7" pinfunction="Pin_7_7" pintype="passive"/>
+      <node ref="J31" pin="3" pinfunction="Pin_3_3" pintype="passive"/>
+    </net>
+    <net code="29" name="MCP_GPB0" class="Default">
+      <node ref="J12" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+      <node ref="J33" pin="4" pinfunction="Pin_4_4" pintype="passive"/>
+    </net>
+    <net code="30" name="MCP_GPB1" class="Default">
+      <node ref="J12" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+      <node ref="J33" pin="5" pinfunction="Pin_5_5" pintype="passive"/>
+    </net>
+    <net code="31" name="MCP_GPB2" class="Default">
+      <node ref="J12" pin="3" pinfunction="Pin_3_3" pintype="passive"/>
+      <node ref="J33" pin="6" pinfunction="Pin_6_6" pintype="passive"/>
+    </net>
+    <net code="32" name="MCP_GPB3" class="Default">
+      <node ref="J12" pin="4" pinfunction="Pin_4_4" pintype="passive"/>
+      <node ref="J33" pin="7" pinfunction="Pin_7_7" pintype="passive"/>
+    </net>
+    <net code="33" name="MCP_GPB4" class="Default">
+      <node ref="J12" pin="5" pinfunction="Pin_5_5" pintype="passive"/>
+      <node ref="J24" pin="5" pinfunction="Pin_5_5" pintype="passive"/>
+      <node ref="R33" pin="1" pintype="passive"/>
+    </net>
+    <net code="34" name="MCP_GPB5" class="Default">
+      <node ref="J12" pin="6" pinfunction="Pin_6_6" pintype="passive"/>
+      <node ref="J25" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+      <node ref="R34" pin="1" pintype="passive"/>
+    </net>
+    <net code="35" name="MCP_GPB6" class="Default">
+      <node ref="J12" pin="7" pinfunction="Pin_7_7" pintype="passive"/>
+      <node ref="J25" pin="3" pinfunction="Pin_3_3" pintype="passive"/>
+      <node ref="R35" pin="1" pintype="passive"/>
+    </net>
+    <net code="36" name="MCP_RESET_N" class="Default">
+      <node ref="J10" pin="5" pinfunction="Pin_5_5" pintype="passive"/>
+      <node ref="JP10" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+      <node ref="R10" pin="1" pintype="passive"/>
+    </net>
+    <net code="37" name="PA0" class="Default">
+      <node ref="J8" pin="4" pinfunction="Pin_4_4" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="U1" pin="2" pintype="input"/>
+    </net>
+    <net code="38" name="PA1" class="Default">
+      <node ref="J8" pin="5" pinfunction="Pin_5_5" pintype="passive"/>
+      <node ref="JP9" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+    </net>
+    <net code="39" name="PA2" class="Default">
+      <node ref="J17" pin="3" pinfunction="Pin_3_3" pintype="passive"/>
+      <node ref="J8" pin="6" pinfunction="Pin_6_6" pintype="passive"/>
+    </net>
+    <net code="40" name="PA3" class="Default">
+      <node ref="J17" pin="4" pinfunction="Pin_4_4" pintype="passive"/>
+      <node ref="J8" pin="7" pinfunction="Pin_7_7" pintype="passive"/>
+    </net>
+    <net code="41" name="PA4" class="Default">
+      <node ref="J15" pin="3" pinfunction="Pin_3_3" pintype="passive"/>
+      <node ref="J8" pin="8" pinfunction="Pin_8_8" pintype="passive"/>
+      <node ref="R11" pin="1" pintype="passive"/>
+    </net>
+    <net code="42" name="PA5" class="Default">
+      <node ref="J15" pin="4" pinfunction="Pin_4_4" pintype="passive"/>
+      <node ref="J16" pin="4" pinfunction="Pin_4_4" pintype="passive"/>
+      <node ref="J8" pin="9" pinfunction="Pin_9_9" pintype="passive"/>
+    </net>
+    <net code="43" name="PA6" class="Default">
+      <node ref="J15" pin="6" pinfunction="Pin_6_6" pintype="passive"/>
+      <node ref="J16" pin="6" pinfunction="Pin_6_6" pintype="passive"/>
+      <node ref="J8" pin="10" pinfunction="Pin_10_10" pintype="passive"/>
+    </net>
+    <net code="44" name="PA7" class="Default">
+      <node ref="J15" pin="5" pinfunction="Pin_5_5" pintype="passive"/>
+      <node ref="J16" pin="5" pinfunction="Pin_5_5" pintype="passive"/>
+      <node ref="J8" pin="11" pinfunction="Pin_11_11" pintype="passive"/>
+    </net>
+    <net code="45" name="PA8" class="Default">
+      <node ref="J19" pin="7" pinfunction="Pin_7_7" pintype="passive"/>
+      <node ref="J8" pin="12" pinfunction="Pin_12_12" pintype="passive"/>
+    </net>
+    <net code="46" name="PA9" class="Default">
+      <node ref="J18" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+      <node ref="J8" pin="13" pinfunction="Pin_13_13" pintype="passive"/>
+    </net>
+    <net code="47" name="PA10" class="Default">
+      <node ref="J18" pin="3" pinfunction="Pin_3_3" pintype="passive"/>
+      <node ref="J8" pin="14" pinfunction="Pin_14_14" pintype="passive"/>
+    </net>
+    <net code="48" name="PA11" class="Default">
+      <node ref="J19" pin="8" pinfunction="Pin_8_8" pintype="passive"/>
+      <node ref="J8" pin="15" pinfunction="Pin_15_15" pintype="passive"/>
+    </net>
+    <net code="49" name="PA12" class="Default">
+      <node ref="J33" pin="9" pinfunction="Pin_9_9" pintype="passive"/>
+      <node ref="J8" pin="16" pinfunction="Pin_16_16" pintype="passive"/>
+    </net>
+    <net code="50" name="PA15" class="Default">
+      <node ref="J16" pin="3" pinfunction="Pin_3_3" pintype="passive"/>
+      <node ref="J8" pin="17" pinfunction="Pin_17_17" pintype="passive"/>
+      <node ref="R12" pin="1" pintype="passive"/>
+    </net>
+    <net code="51" name="PB0" class="Default">
+      <node ref="J32" pin="3" pinfunction="Pin_3_3" pintype="passive"/>
+      <node ref="J9" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+    </net>
+    <net code="52" name="PB1" class="Default">
+      <node ref="J9" pin="3" pinfunction="Pin_3_3" pintype="passive"/>
+      <node ref="R25" pin="2" pintype="passive"/>
+      <node ref="R26" pin="1" pintype="passive"/>
+    </net>
+    <net code="53" name="PB3" class="Default">
+      <node ref="J24" pin="3" pinfunction="Pin_3_3" pintype="passive"/>
+      <node ref="J9" pin="4" pinfunction="Pin_4_4" pintype="passive"/>
+      <node ref="R27" pin="1" pintype="passive"/>
+    </net>
+    <net code="54" name="PB4" class="Default">
+      <node ref="J24" pin="4" pinfunction="Pin_4_4" pintype="passive"/>
+      <node ref="J9" pin="5" pinfunction="Pin_5_5" pintype="passive"/>
+      <node ref="R28" pin="1" pintype="passive"/>
+    </net>
+    <net code="55" name="PB5" class="Default">
+      <node ref="J9" pin="6" pinfunction="Pin_6_6" pintype="passive"/>
+      <node ref="R21" pin="1" pintype="passive"/>
+      <node ref="R22" pin="1" pintype="passive"/>
+    </net>
+    <net code="56" name="PB8" class="Default">
+      <node ref="J33" pin="8" pinfunction="Pin_8_8" pintype="passive"/>
+      <node ref="J9" pin="9" pinfunction="Pin_9_9" pintype="passive"/>
+    </net>
+    <net code="57" name="PB9" class="Default">
+      <node ref="J9" pin="10" pinfunction="Pin_10_10" pintype="passive"/>
+      <node ref="JP3" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+      <node ref="R36" pin="1" pintype="passive"/>
+      <node ref="R37" pin="1" pintype="passive"/>
+      <node ref="U1" pin="9" pintype="input"/>
+    </net>
+    <net code="58" name="PB10" class="Default">
+      <node ref="J9" pin="11" pinfunction="Pin_11_11" pintype="passive"/>
+      <node ref="R30" pin="1" pintype="passive"/>
+    </net>
+    <net code="59" name="PB11" class="Default">
+      <node ref="J23" pin="4" pinfunction="Pin_4_4" pintype="passive"/>
+      <node ref="J9" pin="12" pinfunction="Pin_12_12" pintype="passive"/>
+      <node ref="JP8" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+      <node ref="R29" pin="1" pintype="passive"/>
+    </net>
+    <net code="60" name="PB12" class="Default">
+      <node ref="J26" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+      <node ref="J9" pin="13" pinfunction="Pin_13_13" pintype="passive"/>
+      <node ref="R31" pin="1" pintype="passive"/>
+    </net>
+    <net code="61" name="PB13" class="Default">
+      <node ref="J9" pin="14" pinfunction="Pin_14_14" pintype="passive"/>
+      <node ref="Q3" pin="3" pinfunction="C_3" pintype="passive"/>
+      <node ref="R24" pin="1" pintype="passive"/>
+    </net>
+    <net code="62" name="PB14" class="Default">
+      <node ref="J25" pin="5" pinfunction="Pin_5_5" pintype="passive"/>
+      <node ref="J9" pin="15" pinfunction="Pin_15_15" pintype="passive"/>
+      <node ref="R32" pin="1" pintype="passive"/>
+    </net>
+    <net code="63" name="PB15" class="Default">
+      <node ref="J9" pin="16" pinfunction="Pin_16_16" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="U1" pin="5" pintype="input"/>
+    </net>
+    <net code="64" name="SERVO_SIG_5V" class="Default">
+      <node ref="J20" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+      <node ref="U1" pin="3" pintype="tri_state"/>
+    </net>
+    <net code="65" name="STBY_OUT" class="Default">
+      <node ref="J19" pin="9" pinfunction="Pin_9_9" pintype="passive"/>
+      <node ref="Q2" pin="3" pinfunction="C_3" pintype="passive"/>
+      <node ref="R21" pin="2" pintype="passive"/>
+      <node ref="R23" pin="1" pintype="passive"/>
+    </net>
+    <net code="66" name="US_ECHO_RAW" class="Default">
+      <node ref="J21" pin="4" pinfunction="Pin_4_4" pintype="passive"/>
+      <node ref="R25" pin="1" pintype="passive"/>
+    </net>
+    <net code="67" name="US_TRIG_5V" class="Default">
+      <node ref="J21" pin="3" pinfunction="Pin_3_3" pintype="passive"/>
+      <node ref="U1" pin="6" pintype="tri_state"/>
+    </net>
+    <net code="68" name="VBAT_SW" class="LogicPower,Default">
+      <node ref="J1" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+      <node ref="J27" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+      <node ref="J27" pin="3" pinfunction="Pin_3_3" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+    </net>
+    <net code="69" name="V_BUZZ" class="Default">
+      <node ref="J30" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+      <node ref="JP4" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+    </net>
+    <net code="70" name="V_DHT" class="Default">
+      <node ref="J22" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+      <node ref="JP7" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+    </net>
+    <net code="71" name="V_HC05" class="Default">
+      <node ref="J17" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+      <node ref="JP6" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+    </net>
+    <net code="72" name="V_MPU" class="Default">
+      <node ref="J14" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+      <node ref="JP5" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+    </net>
+    <net code="73" name="unconnected-(U1-Pad11)" class="Default">
+      <node ref="U1" pin="11" pintype="tri_state+no_connect"/>
+    </net>
+  </nets>
+</export>

@@ -1,0 +1,21 @@
+{
+  "pcb_refs": 94,
+  "accessory_rows": 1,
+  "csv_rows": 95,
+  "default_dnp": [
+    "H1",
+    "H2",
+    "H3",
+    "H4",
+    "R8",
+    "R9",
+    "R13",
+    "R14",
+    "R27",
+    "R28",
+    "R29",
+    "R33",
+    "R37"
+  ],
+  "note": "Hand-solder existing-parts BOM. Generic supplier/MPNs unverified and intentionally blank; not a PCBA sourcing BOM."
+}

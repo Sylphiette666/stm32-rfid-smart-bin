@@ -1,0 +1,61 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-10-12T17:40:06",
+    "ignored_checks": [
+        {
+            "description": "Global label only appears once in the schematic",
+            "key": "single_global_label"
+        },
+        {
+            "description": "Four connection points are joined together",
+            "key": "four_way_junction"
+        },
+        {
+            "description": "SPICE model issue",
+            "key": "simulation_model_issue"
+        },
+        {
+            "description": "Assigned footprint doesn't match footprint filters",
+            "key": "footprint_filter"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "10.0.6",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/d2a8d719-5ab2-513a-8b9d-2797cd2f9361",
+            "violations": []
+        },
+        {
+            "path": "/02 01 Power distribution and ADC/",
+            "uuid_path": "/d2a8d719-5ab2-513a-8b9d-2797cd2f9361/e20c3048-392a-5dbe-aff3-20af12951aa6",
+            "violations": []
+        },
+        {
+            "path": "/03 02 MCU, MCP23017 and emergency stop/",
+            "uuid_path": "/d2a8d719-5ab2-513a-8b9d-2797cd2f9361/4acde8c5-959f-53fe-a7d2-681bb844abe9",
+            "violations": []
+        },
+        {
+            "path": "/04 03 Serial module interfaces/",
+            "uuid_path": "/d2a8d719-5ab2-513a-8b9d-2797cd2f9361/12661bca-0903-5abb-8aad-b1cff245c4f0",
+            "violations": []
+        },
+        {
+            "path": "/05 04 Buffered outputs and actuators/",
+            "uuid_path": "/d2a8d719-5ab2-513a-8b9d-2797cd2f9361/d385536b-95d0-5df1-a5a0-9bec05d55771",
+            "violations": []
+        },
+        {
+            "path": "/06 05 Sensor and user inputs/",
+            "uuid_path": "/d2a8d719-5ab2-513a-8b9d-2797cd2f9361/648917c6-a615-514c-9dc3-06c1e92b5fde",
+            "violations": []
+        }
+    ],
+    "source": "SmartBin_A.kicad_sch"
+}

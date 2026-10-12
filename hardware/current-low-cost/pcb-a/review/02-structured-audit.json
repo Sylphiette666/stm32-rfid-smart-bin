@@ -1,0 +1,300 @@
+{
+  "source": "D:\\Work\\嵌入式课设\\.pcb-lowcost-20261012\\a-design\\circuit.json",
+  "sha256": "225c46bab14148b6967e939e0aa3b51cb713c2dd21b1f58574349da68c86e21b",
+  "revision": "A1-electrical-2026-10-12",
+  "component_counts": {
+    "connector": 33,
+    "electrolytic": 3,
+    "capacitor": 5,
+    "resistor": 37,
+    "logic": 1,
+    "npn": 3,
+    "jumper": 8,
+    "mounting_hole": 4
+  },
+  "net_count": 72,
+  "endpoint_count": 293,
+  "checks": [
+    {
+      "check": "unique references",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "check": "33 features",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "check": "29 assigned MCU GPIO",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "check": "no bit7 external nets",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "check": "MCP bit7 output restrictions documented",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "check": "pins:Q1",
+      "status": "PASS",
+      "details": {
+        "1": "GND",
+        "2": "ES1_BASE",
+        "3": "KILL_BASE"
+      }
+    },
+    {
+      "check": "pins:Q2",
+      "status": "PASS",
+      "details": {
+        "1": "GND",
+        "2": "KILL_BASE",
+        "3": "STBY_OUT"
+      }
+    },
+    {
+      "check": "pins:Q3",
+      "status": "PASS",
+      "details": {
+        "1": "GND",
+        "2": "ES2_BASE",
+        "3": "PB13"
+      }
+    },
+    {
+      "check": "pins:U1",
+      "status": "PASS",
+      "details": {
+        "1": "GND",
+        "2": "PA0",
+        "3": "SERVO_SIG_5V",
+        "4": "GND",
+        "5": "PB15",
+        "6": "US_TRIG_5V",
+        "7": "GND",
+        "8": "BUZZ_5V",
+        "9": "PB9",
+        "10": "GND",
+        "11": null,
+        "12": "GND",
+        "13": "5V_BUS",
+        "14": "5V_BUS"
+      }
+    },
+    {
+      "check": "AHCT PB9 defined while core reset",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "check": "AHCT direct wiring removes JP1 JP2",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "check": "pins:J10",
+      "status": "PASS",
+      "details": {
+        "1": "3V3_EXT",
+        "2": "GND",
+        "3": "I2C_SCL",
+        "4": "I2C_SDA",
+        "5": "MCP_RESET_N"
+      }
+    },
+    {
+      "check": "pins:J15",
+      "status": "PASS",
+      "details": {
+        "1": "3V3_EXT",
+        "2": "GND",
+        "3": "PA4",
+        "4": "PA5",
+        "5": "PA7",
+        "6": "PA6",
+        "7": "MCP_GPA4"
+      }
+    },
+    {
+      "check": "pins:J16",
+      "status": "PASS",
+      "details": {
+        "1": "3V3_EXT",
+        "2": "GND",
+        "3": "PA15",
+        "4": "PA5",
+        "5": "PA7",
+        "6": "PA6",
+        "7": "FLASH_WP_N",
+        "8": "FLASH_HOLD_N"
+      }
+    },
+    {
+      "check": "pins:J19",
+      "status": "PASS",
+      "details": {
+        "1": "3V3_EXT",
+        "2": "GND",
+        "3": "MCP_GPA0",
+        "4": "MCP_GPA1",
+        "5": "MCP_GPA2",
+        "6": "MCP_GPA3",
+        "7": "PA8",
+        "8": "PA11",
+        "9": "STBY_OUT"
+      }
+    },
+    {
+      "check": "pins:J23",
+      "status": "PASS",
+      "details": {
+        "1": "3V3_EXT",
+        "2": "5V_BUS",
+        "3": "GND",
+        "4": "PB11",
+        "5": "DHT_DATA_RAW"
+      }
+    },
+    {
+      "check": "pins:J27",
+      "status": "PASS",
+      "details": {
+        "1": "VBAT_SW",
+        "2": "ESTOP_NC1_RETURN",
+        "3": "VBAT_SW",
+        "4": "ESTOP_NC2_RETURN"
+      }
+    },
+    {
+      "check": "pins:J28",
+      "status": "PASS",
+      "details": {
+        "1": "LED_GATE",
+        "2": "GND",
+        "3": "LED_NEG"
+      }
+    },
+    {
+      "check": "pins:J33",
+      "status": "PASS",
+      "details": {
+        "1": "3V3_EXT",
+        "2": "5V_BUS",
+        "3": "GND",
+        "4": "MCP_GPB0",
+        "5": "MCP_GPB1",
+        "6": "MCP_GPB2",
+        "7": "MCP_GPB3",
+        "8": "PB8",
+        "9": "PA12"
+      }
+    },
+    {
+      "check": "I2C aliases physically in core header",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "check": "all assigned MCU nets reach core connectors",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "check": "all pull-up domains",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "check": "no direct CORE-EXT passive bridge",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "check": "CSV connector pin exact match",
+      "status": "PASS",
+      "details": {
+        "csv_pins": 181,
+        "expected_pins": 181
+      }
+    },
+    {
+      "check": "connector targets exact key match",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "check": "all original 44 electrical refs mapped",
+      "status": "PASS",
+      "details": {
+        "old_count": 44,
+        "new_count": 44,
+        "missing": []
+      }
+    },
+    {
+      "check": "preserved component intentional changes only",
+      "status": "PASS",
+      "details": [
+        {
+          "original": "IO:U1",
+          "new": "U1",
+          "value_old": "SN74AHCT125N",
+          "value_new": "SN74AHCT125N",
+          "nets_old_normalized": [
+            "GND",
+            "PA0",
+            "SERVO_SIG_5V",
+            "GND",
+            "PB15",
+            "US_TRIG_5V",
+            "GND",
+            "NC_U1_8",
+            "GND",
+            "5V_BUS",
+            "NC_U1_11",
+            "GND",
+            "5V_BUS",
+            "5V_BUS"
+          ],
+          "nets_new": [
+            "GND",
+            "PA0",
+            "SERVO_SIG_5V",
+            "GND",
+            "PB15",
+            "US_TRIG_5V",
+            "GND",
+            "BUZZ_5V",
+            "PB9",
+            "GND",
+            null,
+            "GND",
+            "5V_BUS",
+            "5V_BUS"
+          ]
+        }
+      ]
+    },
+    {
+      "check": "no unintended singleton electrical nets",
+      "status": "PASS",
+      "details": {}
+    }
+  ],
+  "calculations": {
+    "adc_at_8p4V": 1.9534883720930232,
+    "echo_at_5V": 3.125,
+    "echo_at_5p15V_1pct_worst": 3.2428304239401498,
+    "stby_at_pb5_3p3V_nominal": 2.986425339366516,
+    "q2_base_mA_at_3p3V_vbe_0p7V": 0.546191489361702,
+    "NC_current_mA_at_6V_vbe_0p85V": 1.0957446808510638,
+    "NC_current_mA_at_8p4V_vbe_0p7V": 1.6382978723404256
+  },
+  "limits": "Structured checks plus human review, not ERC/DRC or physical validation."
+}

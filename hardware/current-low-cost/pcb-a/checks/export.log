@@ -1,0 +1,26 @@
+发现 0 条违规项
+发现 0 个未连接的项目
+发现 0 个原理图一致性问题
+保存 DRC 报告到 D:/Work/嵌入式课设/.pcb-lowcost-20261012/a-design/checks/pcb-drc.json
+已保存电路板
+ 
+绘制到 'D:\Work\嵌入式课设\.pcb-lowcost-20261012\a-design\manufacturing\SmartBin_A-F_Cu.gtl'。
+绘制到 'D:\Work\嵌入式课设\.pcb-lowcost-20261012\a-design\manufacturing\SmartBin_A-B_Cu.gbl'。
+绘制到 'D:\Work\嵌入式课设\.pcb-lowcost-20261012\a-design\manufacturing\SmartBin_A-F_Silkscreen.gto'。
+绘制到 'D:\Work\嵌入式课设\.pcb-lowcost-20261012\a-design\manufacturing\SmartBin_A-B_Silkscreen.gbo'。
+绘制到 'D:\Work\嵌入式课设\.pcb-lowcost-20261012\a-design\manufacturing\SmartBin_A-F_Mask.gts'。
+绘制到 'D:\Work\嵌入式课设\.pcb-lowcost-20261012\a-design\manufacturing\SmartBin_A-B_Mask.gbs'。
+绘制到 'D:\Work\嵌入式课设\.pcb-lowcost-20261012\a-design\manufacturing\SmartBin_A-Edge_Cuts.gm1'。
+ 
+已创建文件 'D:\Work\嵌入式课设\.pcb-lowcost-20261012\a-design\manufacturing\SmartBin_A-PTH.drl'
+已创建文件 'D:\Work\嵌入式课设\.pcb-lowcost-20261012\a-design\manufacturing\SmartBin_A-NPTH.drl'
+创建文件 'D:\Work\嵌入式课设\.pcb-lowcost-20261012\a-design\manufacturing\SmartBin_A-PTH-drl_map.pdf'。
+创建文件 'D:\Work\嵌入式课设\.pcb-lowcost-20261012\a-design\manufacturing\SmartBin_A-NPTH-drl_map.pdf'。
+完成。
+ 
+已绘制到 'D:\Work\嵌入式课设\.pcb-lowcost-20261012\a-design\renders\board-top-copper.svg'。
+完成。
+ 
+已绘制到 'D:\Work\嵌入式课设\.pcb-lowcost-20261012\a-design\renders\board-bottom-solder.svg'。
+完成。
+ 

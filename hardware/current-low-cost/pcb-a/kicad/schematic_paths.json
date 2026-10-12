@@ -1,0 +1,852 @@
+{
+  "root_uuid": "d2a8d719-5ab2-513a-8b9d-2797cd2f9361",
+  "project": "SmartBin_A",
+  "components": {
+    "J1": {
+      "uuid": "4de616a1-f2b4-5620-9d88-d9a55d96e9d4",
+      "sheet_uuid": "e20c3048-392a-5dbe-aff3-20af12951aa6",
+      "sheet_path": "/d2a8d719-5ab2-513a-8b9d-2797cd2f9361/e20c3048-392a-5dbe-aff3-20af12951aa6",
+      "path": "/d2a8d719-5ab2-513a-8b9d-2797cd2f9361/e20c3048-392a-5dbe-aff3-20af12951aa6/4de616a1-f2b4-5620-9d88-d9a55d96e9d4",
+      "sheet_file": "SmartBin_A_01_01.kicad_sch",
+      "value": "BAT_SW",
+      "footprint": "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
+    },
+    "J2": {
+      "uuid": "0ca55113-238a-55a7-a8bf-540a2b02f6cc",
+      "sheet_uuid": "e20c3048-392a-5dbe-aff3-20af12951aa6",
+      "sheet_path": "/d2a8d719-5ab2-513a-8b9d-2797cd2f9361/e20c3048-392a-5dbe-aff3-20af12951aa6",
+      "path": "/d2a8d719-5ab2-513a-8b9d-2797cd2f9361/e20c3048-392a-5dbe-aff3-20af12951aa6/0ca55113-238a-55a7-a8bf-540a2b02f6cc",
+      "sheet_file": "SmartBin_A_01_01.kicad_sch",
+      "value": "BUCK_IN",
+      "footprint": "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
+    },
+    "J3": {
+      "uuid": "4423f749-f88b-5205-8eaf-221dd54c7c07",
+      "sheet_uuid": "e20c3048-392a-5dbe-aff3-20af12951aa6",
+      "sheet_path": "/d2a8d719-5ab2-513a-8b9d-2797cd2f9361/e20c3048-392a-5dbe-aff3-20af12951aa6",
+      "path": "/d2a8d719-5ab2-513a-8b9d-2797cd2f9361/e20c3048-392a-5dbe-aff3-20af12951aa6/4423f749-f88b-5205-8eaf-221dd54c7c07",
+      "sheet_file": "SmartBin_A_01_01.kicad_sch",
+      "value": "BUCK_OUT",
+      "footprint": "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
+    },
+    "J4": {
+      "uuid": "6726d95e-f481-5a2e-a1cc-e696f68b5bb7",
+      "sheet_uuid": "e20c3048-392a-5dbe-aff3-20af12951aa6",
+      "sheet_path": "/d2a8d719-5ab2-513a-8b9d-2797cd2f9361/e20c3048-392a-5dbe-aff3-20af12951aa6",
+      "path": "/d2a8d719-5ab2-513a-8b9d-2797cd2f9361/e20c3048-392a-5dbe-aff3-20af12951aa6/6726d95e-f481-5a2e-a1cc-e696f68b5bb7",
+      "sheet_file": "SmartBin_A_01_01.kicad_sch",
+      "value": "MOTOR_PWR",
+      "footprint": "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
+    },
+    "J5": {
+      "uuid": "84528be9-344b-5d6b-a7d2-c756851702b9",
+      "sheet_uuid": "e20c3048-392a-5dbe-aff3-20af12951aa6",
+      "sheet_path": "/d2a8d719-5ab2-513a-8b9d-2797cd2f9361/e20c3048-392a-5dbe-aff3-20af12951aa6",
+      "path": "/d2a8d719-5ab2-513a-8b9d-2797cd2f9361/e20c3048-392a-5dbe-aff3-20af12951aa6/84528be9-344b-5d6b-a7d2-c756851702b9",
+      "sheet_file": "SmartBin_A_01_01.kicad_sch",
+      "value": "SERVO_PWR",
+      "footprint": "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
+    },
+    "J6": {
+      "uuid": "48ade684-14fe-5806-a869-4b978fa1613e",
+      "sheet_uuid": "e20c3048-392a-5dbe-aff3-20af12951aa6",
+      "sheet_path": "/d2a8d719-5ab2-513a-8b9d-2797cd2f9361/e20c3048-392a-5dbe-aff3-20af12951aa6",
+      "path": "/d2a8d719-5ab2-513a-8b9d-2797cd2f9361/e20c3048-392a-5dbe-aff3-20af12951aa6/48ade684-14fe-5806-a869-4b978fa1613e",
+      "sheet_file": "SmartBin_A_01_01.kicad_sch",
+      "value": "LOGIC_PWR",
+      "footprint": "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
+    },
+    "C1": {
+      "uuid": "8fe7bd0d-63eb-5d9d-8f7f-4580edc4babe",
+      "sheet_uuid": "e20c3048-392a-5dbe-aff3-20af12951aa6",
+      "sheet_path": "/d2a8d719-5ab2-513a-8b9d-2797cd2f9361/e20c3048-392a-5dbe-aff3-20af12951aa6",
+      "path": "/d2a8d719-5ab2-513a-8b9d-2797cd2f9361/e20c3048-392a-5dbe-aff3-20af12951aa6/8fe7bd0d-63eb-5d9d-8f7f-4580edc4babe",
+      "sheet_file": "SmartBin_A_01_01.kicad_sch",
+      "value": "470uF/16V",
+      "footprint": "Capacitor_THT:CP_Radial_D12.5mm_P5.00mm"
+    },
+    "C2": {
+      "uuid": "055b05ac-fe62-5995-b850-6870b9785c0a",
+      "sheet_uuid": "e20c3048-392a-5dbe-aff3-20af12951aa6",
+      "sheet_path": "/d2a8d719-5ab2-513a-8b9d-2797cd2f9361/e20c3048-392a-5dbe-aff3-20af12951aa6",
+      "path": "/d2a8d719-5ab2-513a-8b9d-2797cd2f9361/e20c3048-392a-5dbe-aff3-20af12951aa6/055b05ac-fe62-5995-b850-6870b9785c0a",
+      "sheet_file": "SmartBin_A_01_01.kicad_sch",
+      "value": "1000uF/16V",
+      "footprint": "Capacitor_THT:CP_Radial_D12.5mm_P5.00mm"
+    },
+    "C3": {
+      "uuid": "9cb12b24-e638-5c9b-a088-06137ea0b0d0",
+      "sheet_uuid": "e20c3048-392a-5dbe-aff3-20af12951aa6",
+      "sheet_path": "/d2a8d719-5ab2-513a-8b9d-2797cd2f9361/e20c3048-392a-5dbe-aff3-20af12951aa6",
+      "path": "/d2a8d719-5ab2-513a-8b9d-2797cd2f9361/e20c3048-392a-5dbe-aff3-20af12951aa6/9cb12b24-e638-5c9b-a088-06137ea0b0d0",
+      "sheet_file": "SmartBin_A_01_01.kicad_sch",
+      "value": "100uF/16V",
+      "footprint": "Capacitor_THT:CP_Radial_D12.5mm_P5.00mm"
+    },
+    "C4": {
+      "uuid": "b37af6dd-5d08-521a-b7be-01bbfe45cc43",
+      "sheet_uuid": "e20c3048-392a-5dbe-aff3-20af12951aa6",
+      "sheet_path": "/d2a8d719-5ab2-513a-8b9d-2797cd2f9361/e20c3048-392a-5dbe-aff3-20af12951aa6",
+      "path": "/d2a8d719-5ab2-513a-8b9d-2797cd2f9361/e20c3048-392a-5dbe-aff3-20af12951aa6/b37af6dd-5d08-521a-b7be-01bbfe45cc43",
+      "sheet_file": "SmartBin_A_01_01.kicad_sch",
+      "value": "100nF",
+      "footprint": "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
+    },
+    "C5": {
+      "uuid": "0a1c223e-2719-56ab-8bbe-047128f40d2e",
+      "sheet_uuid": "e20c3048-392a-5dbe-aff3-20af12951aa6",
+      "sheet_path": "/d2a8d719-5ab2-513a-8b9d-2797cd2f9361/e20c3048-392a-5dbe-aff3-20af12951aa6",
+      "path": "/d2a8d719-5ab2-513a-8b9d-2797cd2f9361/e20c3048-392a-5dbe-aff3-20af12951aa6/0a1c223e-2719-56ab-8bbe-047128f40d2e",
+      "sheet_file": "SmartBin_A_01_01.kicad_sch",
+      "value": "100nF",
+      "footprint": "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
+    },
+    "C6": {
+      "uuid": "57a19647-e677-59eb-9e60-244ab340103f",
+      "sheet_uuid": "e20c3048-392a-5dbe-aff3-20af12951aa6",
+      "sheet_path": "/d2a8d719-5ab2-513a-8b9d-2797cd2f9361/e20c3048-392a-5dbe-aff3-20af12951aa6",
+      "path": "/d2a8d719-5ab2-513a-8b9d-2797cd2f9361/e20c3048-392a-5dbe-aff3-20af12951aa6/57a19647-e677-59eb-9e60-244ab340103f",
+      "sheet_file": "SmartBin_A_01_01.kicad_sch",
+      "value": "100nF",
+      "footprint": "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
+    },
+    "R1": {
+      "uuid": "8f5d47d7-4074-524b-a79b-fe1028b4325e",
+      "sheet_uuid": "e20c3048-392a-5dbe-aff3-20af12951aa6",
+      "sheet_path": "/d2a8d719-5ab2-513a-8b9d-2797cd2f9361/e20c3048-392a-5dbe-aff3-20af12951aa6",
+      "path": "/d2a8d719-5ab2-513a-8b9d-2797cd2f9361/e20c3048-392a-5dbe-aff3-20af12951aa6/8f5d47d7-4074-524b-a79b-fe1028b4325e",
+      "sheet_file": "SmartBin_A_01_01.kicad_sch",
+      "value": "33k",
+      "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+    },
+    "R2": {
+      "uuid": "3de20fed-177e-5480-bee0-52c5966debbb",
+      "sheet_uuid": "e20c3048-392a-5dbe-aff3-20af12951aa6",
+      "sheet_path": "/d2a8d719-5ab2-513a-8b9d-2797cd2f9361/e20c3048-392a-5dbe-aff3-20af12951aa6",
+      "path": "/d2a8d719-5ab2-513a-8b9d-2797cd2f9361/e20c3048-392a-5dbe-aff3-20af12951aa6/3de20fed-177e-5480-bee0-52c5966debbb",
+      "sheet_file": "SmartBin_A_01_01.kicad_sch",
+      "value": "10k",
+      "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+    },
+    "C7": {
+      "uuid": "9fa39192-ff6a-5fbb-b557-4558d0216d30",
+      "sheet_uuid": "e20c3048-392a-5dbe-aff3-20af12951aa6",
+      "sheet_path": "/d2a8d719-5ab2-513a-8b9d-2797cd2f9361/e20c3048-392a-5dbe-aff3-20af12951aa6",
+      "path": "/d2a8d719-5ab2-513a-8b9d-2797cd2f9361/e20c3048-392a-5dbe-aff3-20af12951aa6/9fa39192-ff6a-5fbb-b557-4558d0216d30",
+      "sheet_file": "SmartBin_A_01_01.kicad_sch",
+      "value": "100nF",
+      "footprint": "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
+    },
+    "J7": {
+      "uuid": "b8b76271-7b4f-5039-8427-31362c6c980d",
+      "sheet_uuid": "e20c3048-392a-5dbe-aff3-20af12951aa6",
+      "sheet_path": "/d2a8d719-5ab2-513a-8b9d-2797cd2f9361/e20c3048-392a-5dbe-aff3-20af12951aa6",
+      "path": "/d2a8d719-5ab2-513a-8b9d-2797cd2f9361/e20c3048-392a-5dbe-aff3-20af12951aa6/b8b76271-7b4f-5039-8427-31362c6c980d",
+      "sheet_file": "SmartBin_A_01_01.kicad_sch",
+      "value": "EXT_REG",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+    },
+    "J32": {
+      "uuid": "e4fbe094-3347-55ab-9f66-7f3cd49110af",
+      "sheet_uuid": "e20c3048-392a-5dbe-aff3-20af12951aa6",
+      "sheet_path": "/d2a8d719-5ab2-513a-8b9d-2797cd2f9361/e20c3048-392a-5dbe-aff3-20af12951aa6",
+      "path": "/d2a8d719-5ab2-513a-8b9d-2797cd2f9361/e20c3048-392a-5dbe-aff3-20af12951aa6/e4fbe094-3347-55ab-9f66-7f3cd49110af",
+      "sheet_file": "SmartBin_A_01_01.kicad_sch",
+      "value": "LIGHT",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+    },
+    "JP9": {
+      "uuid": "d8a7d753-7f76-5166-8654-cdf205f7d8b1",
+      "sheet_uuid": "e20c3048-392a-5dbe-aff3-20af12951aa6",
+      "sheet_path": "/d2a8d719-5ab2-513a-8b9d-2797cd2f9361/e20c3048-392a-5dbe-aff3-20af12951aa6",
+      "path": "/d2a8d719-5ab2-513a-8b9d-2797cd2f9361/e20c3048-392a-5dbe-aff3-20af12951aa6/d8a7d753-7f76-5166-8654-cdf205f7d8b1",
+      "sheet_file": "SmartBin_A_01_01.kicad_sch",
+      "value": "ADC_LINK",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+    },
+    "H1": {
+      "uuid": "75deaff2-8ed9-5fa3-a1d5-c685181c369f",
+      "sheet_uuid": "e20c3048-392a-5dbe-aff3-20af12951aa6",
+      "sheet_path": "/d2a8d719-5ab2-513a-8b9d-2797cd2f9361/e20c3048-392a-5dbe-aff3-20af12951aa6",
+      "path": "/d2a8d719-5ab2-513a-8b9d-2797cd2f9361/e20c3048-392a-5dbe-aff3-20af12951aa6/75deaff2-8ed9-5fa3-a1d5-c685181c369f",
+      "sheet_file": "SmartBin_A_01_01.kicad_sch",
+      "value": "M3 NPTH",
+      "footprint": "MountingHole:MountingHole_3.2mm_M3"
+    },
+    "H2": {
+      "uuid": "71315bda-9805-5451-a969-7f532c152fb8",
+      "sheet_uuid": "e20c3048-392a-5dbe-aff3-20af12951aa6",
+      "sheet_path": "/d2a8d719-5ab2-513a-8b9d-2797cd2f9361/e20c3048-392a-5dbe-aff3-20af12951aa6",
+      "path": "/d2a8d719-5ab2-513a-8b9d-2797cd2f9361/e20c3048-392a-5dbe-aff3-20af12951aa6/71315bda-9805-5451-a969-7f532c152fb8",
+      "sheet_file": "SmartBin_A_01_01.kicad_sch",
+      "value": "M3 NPTH",
+      "footprint": "MountingHole:MountingHole_3.2mm_M3"
+    },
+    "H3": {
+      "uuid": "48d2bdd2-919d-5719-8637-c3eac5d7056c",
+      "sheet_uuid": "e20c3048-392a-5dbe-aff3-20af12951aa6",
+      "sheet_path": "/d2a8d719-5ab2-513a-8b9d-2797cd2f9361/e20c3048-392a-5dbe-aff3-20af12951aa6",
+      "path": "/d2a8d719-5ab2-513a-8b9d-2797cd2f9361/e20c3048-392a-5dbe-aff3-20af12951aa6/48d2bdd2-919d-5719-8637-c3eac5d7056c",
+      "sheet_file": "SmartBin_A_01_01.kicad_sch",
+      "value": "M3 NPTH",
+      "footprint": "MountingHole:MountingHole_3.2mm_M3"
+    },
+    "H4": {
+      "uuid": "0978b1d4-ef0f-56a0-95af-2d53b93b5483",
+      "sheet_uuid": "e20c3048-392a-5dbe-aff3-20af12951aa6",
+      "sheet_path": "/d2a8d719-5ab2-513a-8b9d-2797cd2f9361/e20c3048-392a-5dbe-aff3-20af12951aa6",
+      "path": "/d2a8d719-5ab2-513a-8b9d-2797cd2f9361/e20c3048-392a-5dbe-aff3-20af12951aa6/0978b1d4-ef0f-56a0-95af-2d53b93b5483",
+      "sheet_file": "SmartBin_A_01_01.kicad_sch",
+      "value": "M3 NPTH",
+      "footprint": "MountingHole:MountingHole_3.2mm_M3"
+    },
+    "R15": {
+      "uuid": "859ec30d-026f-5a6e-92db-c39557066636",
+      "sheet_uuid": "4acde8c5-959f-53fe-a7d2-681bb844abe9",
+      "sheet_path": "/d2a8d719-5ab2-513a-8b9d-2797cd2f9361/4acde8c5-959f-53fe-a7d2-681bb844abe9",
+      "path": "/d2a8d719-5ab2-513a-8b9d-2797cd2f9361/4acde8c5-959f-53fe-a7d2-681bb844abe9/859ec30d-026f-5a6e-92db-c39557066636",
+      "sheet_file": "SmartBin_A_02_01.kicad_sch",
+      "value": "4.7k",
+      "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+    },
+    "R16": {
+      "uuid": "03916029-c2d5-5992-9053-6981fb87af82",
+      "sheet_uuid": "4acde8c5-959f-53fe-a7d2-681bb844abe9",
+      "sheet_path": "/d2a8d719-5ab2-513a-8b9d-2797cd2f9361/4acde8c5-959f-53fe-a7d2-681bb844abe9",
+      "path": "/d2a8d719-5ab2-513a-8b9d-2797cd2f9361/4acde8c5-959f-53fe-a7d2-681bb844abe9/03916029-c2d5-5992-9053-6981fb87af82",
+      "sheet_file": "SmartBin_A_02_01.kicad_sch",
+      "value": "100k",
+      "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+    },
+    "R17": {
+      "uuid": "be2afb48-e442-5568-9b21-9af5b5bfd389",
+      "sheet_uuid": "4acde8c5-959f-53fe-a7d2-681bb844abe9",
+      "sheet_path": "/d2a8d719-5ab2-513a-8b9d-2797cd2f9361/4acde8c5-959f-53fe-a7d2-681bb844abe9",
+      "path": "/d2a8d719-5ab2-513a-8b9d-2797cd2f9361/4acde8c5-959f-53fe-a7d2-681bb844abe9/be2afb48-e442-5568-9b21-9af5b5bfd389",
+      "sheet_file": "SmartBin_A_02_01.kicad_sch",
+      "value": "4.7k",
+      "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+    },
+    "R18": {
+      "uuid": "969818eb-390d-5bf3-89b4-ba0bea7fd698",
+      "sheet_uuid": "4acde8c5-959f-53fe-a7d2-681bb844abe9",
+      "sheet_path": "/d2a8d719-5ab2-513a-8b9d-2797cd2f9361/4acde8c5-959f-53fe-a7d2-681bb844abe9",
+      "path": "/d2a8d719-5ab2-513a-8b9d-2797cd2f9361/4acde8c5-959f-53fe-a7d2-681bb844abe9/969818eb-390d-5bf3-89b4-ba0bea7fd698",
+      "sheet_file": "SmartBin_A_02_01.kicad_sch",
+      "value": "100k",
+      "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+    },
+    "R19": {
+      "uuid": "28efdb50-fa1b-5cab-9f53-ddbdcf772088",
+      "sheet_uuid": "4acde8c5-959f-53fe-a7d2-681bb844abe9",
+      "sheet_path": "/d2a8d719-5ab2-513a-8b9d-2797cd2f9361/4acde8c5-959f-53fe-a7d2-681bb844abe9",
+      "path": "/d2a8d719-5ab2-513a-8b9d-2797cd2f9361/4acde8c5-959f-53fe-a7d2-681bb844abe9/28efdb50-fa1b-5cab-9f53-ddbdcf772088",
+      "sheet_file": "SmartBin_A_02_01.kicad_sch",
+      "value": "4.7k",
+      "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+    },
+    "R20": {
+      "uuid": "788d0971-dc67-51a1-abc1-614a084746f3",
+      "sheet_uuid": "4acde8c5-959f-53fe-a7d2-681bb844abe9",
+      "sheet_path": "/d2a8d719-5ab2-513a-8b9d-2797cd2f9361/4acde8c5-959f-53fe-a7d2-681bb844abe9",
+      "path": "/d2a8d719-5ab2-513a-8b9d-2797cd2f9361/4acde8c5-959f-53fe-a7d2-681bb844abe9/788d0971-dc67-51a1-abc1-614a084746f3",
+      "sheet_file": "SmartBin_A_02_01.kicad_sch",
+      "value": "100k",
+      "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+    },
+    "R21": {
+      "uuid": "8ed93a6f-8f5c-599f-ac04-d464379f5753",
+      "sheet_uuid": "4acde8c5-959f-53fe-a7d2-681bb844abe9",
+      "sheet_path": "/d2a8d719-5ab2-513a-8b9d-2797cd2f9361/4acde8c5-959f-53fe-a7d2-681bb844abe9",
+      "path": "/d2a8d719-5ab2-513a-8b9d-2797cd2f9361/4acde8c5-959f-53fe-a7d2-681bb844abe9/8ed93a6f-8f5c-599f-ac04-d464379f5753",
+      "sheet_file": "SmartBin_A_02_01.kicad_sch",
+      "value": "1k",
+      "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+    },
+    "R22": {
+      "uuid": "056dbdc3-89b5-5245-8c1f-786a7490fa26",
+      "sheet_uuid": "4acde8c5-959f-53fe-a7d2-681bb844abe9",
+      "sheet_path": "/d2a8d719-5ab2-513a-8b9d-2797cd2f9361/4acde8c5-959f-53fe-a7d2-681bb844abe9",
+      "path": "/d2a8d719-5ab2-513a-8b9d-2797cd2f9361/4acde8c5-959f-53fe-a7d2-681bb844abe9/056dbdc3-89b5-5245-8c1f-786a7490fa26",
+      "sheet_file": "SmartBin_A_02_01.kicad_sch",
+      "value": "10k",
+      "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+    },
+    "R23": {
+      "uuid": "34a4da5c-35eb-5b14-b295-6e4fcfaab683",
+      "sheet_uuid": "4acde8c5-959f-53fe-a7d2-681bb844abe9",
+      "sheet_path": "/d2a8d719-5ab2-513a-8b9d-2797cd2f9361/4acde8c5-959f-53fe-a7d2-681bb844abe9",
+      "path": "/d2a8d719-5ab2-513a-8b9d-2797cd2f9361/4acde8c5-959f-53fe-a7d2-681bb844abe9/34a4da5c-35eb-5b14-b295-6e4fcfaab683",
+      "sheet_file": "SmartBin_A_02_01.kicad_sch",
+      "value": "10k",
+      "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+    },
+    "R24": {
+      "uuid": "11a3c0d7-39ed-52e1-a06e-8305ffc9f57a",
+      "sheet_uuid": "4acde8c5-959f-53fe-a7d2-681bb844abe9",
+      "sheet_path": "/d2a8d719-5ab2-513a-8b9d-2797cd2f9361/4acde8c5-959f-53fe-a7d2-681bb844abe9",
+      "path": "/d2a8d719-5ab2-513a-8b9d-2797cd2f9361/4acde8c5-959f-53fe-a7d2-681bb844abe9/11a3c0d7-39ed-52e1-a06e-8305ffc9f57a",
+      "sheet_file": "SmartBin_A_02_01.kicad_sch",
+      "value": "10k",
+      "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+    },
+    "Q1": {
+      "uuid": "980dc11b-f6e1-50fd-a4e4-a729f58fe753",
+      "sheet_uuid": "4acde8c5-959f-53fe-a7d2-681bb844abe9",
+      "sheet_path": "/d2a8d719-5ab2-513a-8b9d-2797cd2f9361/4acde8c5-959f-53fe-a7d2-681bb844abe9",
+      "path": "/d2a8d719-5ab2-513a-8b9d-2797cd2f9361/4acde8c5-959f-53fe-a7d2-681bb844abe9/980dc11b-f6e1-50fd-a4e4-a729f58fe753",
+      "sheet_file": "SmartBin_A_02_01.kicad_sch",
+      "value": "2N3904",
+      "footprint": "Package_TO_SOT_THT:TO-92_Inline_Wide"
+    },
+    "Q2": {
+      "uuid": "43456bf9-4d6c-5b16-8bf0-3900e1b04287",
+      "sheet_uuid": "4acde8c5-959f-53fe-a7d2-681bb844abe9",
+      "sheet_path": "/d2a8d719-5ab2-513a-8b9d-2797cd2f9361/4acde8c5-959f-53fe-a7d2-681bb844abe9",
+      "path": "/d2a8d719-5ab2-513a-8b9d-2797cd2f9361/4acde8c5-959f-53fe-a7d2-681bb844abe9/43456bf9-4d6c-5b16-8bf0-3900e1b04287",
+      "sheet_file": "SmartBin_A_02_01.kicad_sch",
+      "value": "2N3904",
+      "footprint": "Package_TO_SOT_THT:TO-92_Inline_Wide"
+    },
+    "Q3": {
+      "uuid": "fabe2a93-dcd8-56d7-ac67-a402f4a6f21e",
+      "sheet_uuid": "4acde8c5-959f-53fe-a7d2-681bb844abe9",
+      "sheet_path": "/d2a8d719-5ab2-513a-8b9d-2797cd2f9361/4acde8c5-959f-53fe-a7d2-681bb844abe9",
+      "path": "/d2a8d719-5ab2-513a-8b9d-2797cd2f9361/4acde8c5-959f-53fe-a7d2-681bb844abe9/fabe2a93-dcd8-56d7-ac67-a402f4a6f21e",
+      "sheet_file": "SmartBin_A_02_01.kicad_sch",
+      "value": "2N3904",
+      "footprint": "Package_TO_SOT_THT:TO-92_Inline_Wide"
+    },
+    "J8": {
+      "uuid": "715a2bf3-ba8d-56d1-a0c1-5b1456b674bb",
+      "sheet_uuid": "4acde8c5-959f-53fe-a7d2-681bb844abe9",
+      "sheet_path": "/d2a8d719-5ab2-513a-8b9d-2797cd2f9361/4acde8c5-959f-53fe-a7d2-681bb844abe9",
+      "path": "/d2a8d719-5ab2-513a-8b9d-2797cd2f9361/4acde8c5-959f-53fe-a7d2-681bb844abe9/715a2bf3-ba8d-56d1-a0c1-5b1456b674bb",
+      "sheet_file": "SmartBin_A_02_01.kicad_sch",
+      "value": "CORE_PA",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x17_P2.54mm_Vertical"
+    },
+    "J9": {
+      "uuid": "1a9dba95-5c72-5829-9fc4-3f7dddc2bcc6",
+      "sheet_uuid": "4acde8c5-959f-53fe-a7d2-681bb844abe9",
+      "sheet_path": "/d2a8d719-5ab2-513a-8b9d-2797cd2f9361/4acde8c5-959f-53fe-a7d2-681bb844abe9",
+      "path": "/d2a8d719-5ab2-513a-8b9d-2797cd2f9361/4acde8c5-959f-53fe-a7d2-681bb844abe9/1a9dba95-5c72-5829-9fc4-3f7dddc2bcc6",
+      "sheet_file": "SmartBin_A_02_01.kicad_sch",
+      "value": "CORE_PB",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x16_P2.54mm_Vertical"
+    },
+    "J11": {
+      "uuid": "18f6f044-9a2b-5c63-919b-b7655e1252a2",
+      "sheet_uuid": "4acde8c5-959f-53fe-a7d2-681bb844abe9",
+      "sheet_path": "/d2a8d719-5ab2-513a-8b9d-2797cd2f9361/4acde8c5-959f-53fe-a7d2-681bb844abe9",
+      "path": "/d2a8d719-5ab2-513a-8b9d-2797cd2f9361/4acde8c5-959f-53fe-a7d2-681bb844abe9/18f6f044-9a2b-5c63-919b-b7655e1252a2",
+      "sheet_file": "SmartBin_A_02_01.kicad_sch",
+      "value": "MCP_A",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical"
+    },
+    "J12": {
+      "uuid": "ae1197c5-2c17-5901-8c6e-1bf9bde14d0b",
+      "sheet_uuid": "4acde8c5-959f-53fe-a7d2-681bb844abe9",
+      "sheet_path": "/d2a8d719-5ab2-513a-8b9d-2797cd2f9361/4acde8c5-959f-53fe-a7d2-681bb844abe9",
+      "path": "/d2a8d719-5ab2-513a-8b9d-2797cd2f9361/4acde8c5-959f-53fe-a7d2-681bb844abe9/ae1197c5-2c17-5901-8c6e-1bf9bde14d0b",
+      "sheet_file": "SmartBin_A_02_01.kicad_sch",
+      "value": "MCP_B",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical"
+    },
+    "J19": {
+      "uuid": "df8b5974-9f94-55f7-b4dd-bdc9a7b90d43",
+      "sheet_uuid": "4acde8c5-959f-53fe-a7d2-681bb844abe9",
+      "sheet_path": "/d2a8d719-5ab2-513a-8b9d-2797cd2f9361/4acde8c5-959f-53fe-a7d2-681bb844abe9",
+      "path": "/d2a8d719-5ab2-513a-8b9d-2797cd2f9361/4acde8c5-959f-53fe-a7d2-681bb844abe9/df8b5974-9f94-55f7-b4dd-bdc9a7b90d43",
+      "sheet_file": "SmartBin_A_02_01.kicad_sch",
+      "value": "TB6612_CTRL",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x09_P2.54mm_Vertical"
+    },
+    "J27": {
+      "uuid": "ef60977f-b58f-5fca-9c88-b4764f269415",
+      "sheet_uuid": "4acde8c5-959f-53fe-a7d2-681bb844abe9",
+      "sheet_path": "/d2a8d719-5ab2-513a-8b9d-2797cd2f9361/4acde8c5-959f-53fe-a7d2-681bb844abe9",
+      "path": "/d2a8d719-5ab2-513a-8b9d-2797cd2f9361/4acde8c5-959f-53fe-a7d2-681bb844abe9/ef60977f-b58f-5fca-9c88-b4764f269415",
+      "sheet_file": "SmartBin_A_02_01.kicad_sch",
+      "value": "ESTOP_2NC",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
+    },
+    "R8": {
+      "uuid": "1410c0a6-2248-58a6-8a96-f952b34daf7e",
+      "sheet_uuid": "12661bca-0903-5abb-8aad-b1cff245c4f0",
+      "sheet_path": "/d2a8d719-5ab2-513a-8b9d-2797cd2f9361/12661bca-0903-5abb-8aad-b1cff245c4f0",
+      "path": "/d2a8d719-5ab2-513a-8b9d-2797cd2f9361/12661bca-0903-5abb-8aad-b1cff245c4f0/1410c0a6-2248-58a6-8a96-f952b34daf7e",
+      "sheet_file": "SmartBin_A_03_01.kicad_sch",
+      "value": "4.7k",
+      "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+    },
+    "R9": {
+      "uuid": "d6a7c232-107d-5c44-8735-11e87fd5c769",
+      "sheet_uuid": "12661bca-0903-5abb-8aad-b1cff245c4f0",
+      "sheet_path": "/d2a8d719-5ab2-513a-8b9d-2797cd2f9361/12661bca-0903-5abb-8aad-b1cff245c4f0",
+      "path": "/d2a8d719-5ab2-513a-8b9d-2797cd2f9361/12661bca-0903-5abb-8aad-b1cff245c4f0/d6a7c232-107d-5c44-8735-11e87fd5c769",
+      "sheet_file": "SmartBin_A_03_01.kicad_sch",
+      "value": "4.7k",
+      "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+    },
+    "R10": {
+      "uuid": "31fea959-3ed2-571c-83e5-f895e76e3d2e",
+      "sheet_uuid": "12661bca-0903-5abb-8aad-b1cff245c4f0",
+      "sheet_path": "/d2a8d719-5ab2-513a-8b9d-2797cd2f9361/12661bca-0903-5abb-8aad-b1cff245c4f0",
+      "path": "/d2a8d719-5ab2-513a-8b9d-2797cd2f9361/12661bca-0903-5abb-8aad-b1cff245c4f0/31fea959-3ed2-571c-83e5-f895e76e3d2e",
+      "sheet_file": "SmartBin_A_03_01.kicad_sch",
+      "value": "10k",
+      "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+    },
+    "R11": {
+      "uuid": "6ac259df-0019-580b-9e2f-8e5d0b776a86",
+      "sheet_uuid": "12661bca-0903-5abb-8aad-b1cff245c4f0",
+      "sheet_path": "/d2a8d719-5ab2-513a-8b9d-2797cd2f9361/12661bca-0903-5abb-8aad-b1cff245c4f0",
+      "path": "/d2a8d719-5ab2-513a-8b9d-2797cd2f9361/12661bca-0903-5abb-8aad-b1cff245c4f0/6ac259df-0019-580b-9e2f-8e5d0b776a86",
+      "sheet_file": "SmartBin_A_03_01.kicad_sch",
+      "value": "10k",
+      "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+    },
+    "R12": {
+      "uuid": "eb00da82-3f87-51c2-940d-94909d328728",
+      "sheet_uuid": "12661bca-0903-5abb-8aad-b1cff245c4f0",
+      "sheet_path": "/d2a8d719-5ab2-513a-8b9d-2797cd2f9361/12661bca-0903-5abb-8aad-b1cff245c4f0",
+      "path": "/d2a8d719-5ab2-513a-8b9d-2797cd2f9361/12661bca-0903-5abb-8aad-b1cff245c4f0/eb00da82-3f87-51c2-940d-94909d328728",
+      "sheet_file": "SmartBin_A_03_01.kicad_sch",
+      "value": "10k",
+      "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+    },
+    "R13": {
+      "uuid": "c987cca4-e3ff-5823-b823-ce278c08902c",
+      "sheet_uuid": "12661bca-0903-5abb-8aad-b1cff245c4f0",
+      "sheet_path": "/d2a8d719-5ab2-513a-8b9d-2797cd2f9361/12661bca-0903-5abb-8aad-b1cff245c4f0",
+      "path": "/d2a8d719-5ab2-513a-8b9d-2797cd2f9361/12661bca-0903-5abb-8aad-b1cff245c4f0/c987cca4-e3ff-5823-b823-ce278c08902c",
+      "sheet_file": "SmartBin_A_03_01.kicad_sch",
+      "value": "10k",
+      "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+    },
+    "R14": {
+      "uuid": "d31bbed9-7bd4-53cc-919b-ce2b3b8985a1",
+      "sheet_uuid": "12661bca-0903-5abb-8aad-b1cff245c4f0",
+      "sheet_path": "/d2a8d719-5ab2-513a-8b9d-2797cd2f9361/12661bca-0903-5abb-8aad-b1cff245c4f0",
+      "path": "/d2a8d719-5ab2-513a-8b9d-2797cd2f9361/12661bca-0903-5abb-8aad-b1cff245c4f0/d31bbed9-7bd4-53cc-919b-ce2b3b8985a1",
+      "sheet_file": "SmartBin_A_03_01.kicad_sch",
+      "value": "10k",
+      "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+    },
+    "R30": {
+      "uuid": "d83b70e3-dfd7-5a89-b6c5-6571129d0a77",
+      "sheet_uuid": "12661bca-0903-5abb-8aad-b1cff245c4f0",
+      "sheet_path": "/d2a8d719-5ab2-513a-8b9d-2797cd2f9361/12661bca-0903-5abb-8aad-b1cff245c4f0",
+      "path": "/d2a8d719-5ab2-513a-8b9d-2797cd2f9361/12661bca-0903-5abb-8aad-b1cff245c4f0/d83b70e3-dfd7-5a89-b6c5-6571129d0a77",
+      "sheet_file": "SmartBin_A_03_01.kicad_sch",
+      "value": "1k",
+      "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+    },
+    "J10": {
+      "uuid": "195de0fb-7b02-58db-8423-620a4aef7671",
+      "sheet_uuid": "12661bca-0903-5abb-8aad-b1cff245c4f0",
+      "sheet_path": "/d2a8d719-5ab2-513a-8b9d-2797cd2f9361/12661bca-0903-5abb-8aad-b1cff245c4f0",
+      "path": "/d2a8d719-5ab2-513a-8b9d-2797cd2f9361/12661bca-0903-5abb-8aad-b1cff245c4f0/195de0fb-7b02-58db-8423-620a4aef7671",
+      "sheet_file": "SmartBin_A_03_01.kicad_sch",
+      "value": "MCP_BUS",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical"
+    },
+    "J13": {
+      "uuid": "07b60af0-8c0c-5647-a298-f4b84c9a2980",
+      "sheet_uuid": "12661bca-0903-5abb-8aad-b1cff245c4f0",
+      "sheet_path": "/d2a8d719-5ab2-513a-8b9d-2797cd2f9361/12661bca-0903-5abb-8aad-b1cff245c4f0",
+      "path": "/d2a8d719-5ab2-513a-8b9d-2797cd2f9361/12661bca-0903-5abb-8aad-b1cff245c4f0/07b60af0-8c0c-5647-a298-f4b84c9a2980",
+      "sheet_file": "SmartBin_A_03_01.kicad_sch",
+      "value": "OLED",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
+    },
+    "J14": {
+      "uuid": "80853e5c-7a09-5f01-9743-77fa0736ea19",
+      "sheet_uuid": "12661bca-0903-5abb-8aad-b1cff245c4f0",
+      "sheet_path": "/d2a8d719-5ab2-513a-8b9d-2797cd2f9361/12661bca-0903-5abb-8aad-b1cff245c4f0",
+      "path": "/d2a8d719-5ab2-513a-8b9d-2797cd2f9361/12661bca-0903-5abb-8aad-b1cff245c4f0/80853e5c-7a09-5f01-9743-77fa0736ea19",
+      "sheet_file": "SmartBin_A_03_01.kicad_sch",
+      "value": "MPU6050",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
+    },
+    "J15": {
+      "uuid": "a296ffb6-6641-51d6-a510-f20e9f246d59",
+      "sheet_uuid": "12661bca-0903-5abb-8aad-b1cff245c4f0",
+      "sheet_path": "/d2a8d719-5ab2-513a-8b9d-2797cd2f9361/12661bca-0903-5abb-8aad-b1cff245c4f0",
+      "path": "/d2a8d719-5ab2-513a-8b9d-2797cd2f9361/12661bca-0903-5abb-8aad-b1cff245c4f0/a296ffb6-6641-51d6-a510-f20e9f246d59",
+      "sheet_file": "SmartBin_A_03_01.kicad_sch",
+      "value": "RC522",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical"
+    },
+    "J16": {
+      "uuid": "56fe980a-5705-54d9-bb61-83e87863a83a",
+      "sheet_uuid": "12661bca-0903-5abb-8aad-b1cff245c4f0",
+      "sheet_path": "/d2a8d719-5ab2-513a-8b9d-2797cd2f9361/12661bca-0903-5abb-8aad-b1cff245c4f0",
+      "path": "/d2a8d719-5ab2-513a-8b9d-2797cd2f9361/12661bca-0903-5abb-8aad-b1cff245c4f0/56fe980a-5705-54d9-bb61-83e87863a83a",
+      "sheet_file": "SmartBin_A_03_01.kicad_sch",
+      "value": "FLASH",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical"
+    },
+    "J17": {
+      "uuid": "e95fe4ea-9f23-56ab-8399-eadfd92d1a77",
+      "sheet_uuid": "12661bca-0903-5abb-8aad-b1cff245c4f0",
+      "sheet_path": "/d2a8d719-5ab2-513a-8b9d-2797cd2f9361/12661bca-0903-5abb-8aad-b1cff245c4f0",
+      "path": "/d2a8d719-5ab2-513a-8b9d-2797cd2f9361/12661bca-0903-5abb-8aad-b1cff245c4f0/e95fe4ea-9f23-56ab-8399-eadfd92d1a77",
+      "sheet_file": "SmartBin_A_03_01.kicad_sch",
+      "value": "HC05",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
+    },
+    "J18": {
+      "uuid": "2657cc0b-36cd-5ec9-ad59-b0aed848542d",
+      "sheet_uuid": "12661bca-0903-5abb-8aad-b1cff245c4f0",
+      "sheet_path": "/d2a8d719-5ab2-513a-8b9d-2797cd2f9361/12661bca-0903-5abb-8aad-b1cff245c4f0",
+      "path": "/d2a8d719-5ab2-513a-8b9d-2797cd2f9361/12661bca-0903-5abb-8aad-b1cff245c4f0/2657cc0b-36cd-5ec9-ad59-b0aed848542d",
+      "sheet_file": "SmartBin_A_03_01.kicad_sch",
+      "value": "PC_UART",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+    },
+    "J31": {
+      "uuid": "3026072e-c1de-5f21-a7a8-2e6cefffa91b",
+      "sheet_uuid": "12661bca-0903-5abb-8aad-b1cff245c4f0",
+      "sheet_path": "/d2a8d719-5ab2-513a-8b9d-2797cd2f9361/12661bca-0903-5abb-8aad-b1cff245c4f0",
+      "path": "/d2a8d719-5ab2-513a-8b9d-2797cd2f9361/12661bca-0903-5abb-8aad-b1cff245c4f0/3026072e-c1de-5f21-a7a8-2e6cefffa91b",
+      "sheet_file": "SmartBin_A_03_01.kicad_sch",
+      "value": "DFPLAYER_SIG",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+    },
+    "JP5": {
+      "uuid": "0d4b7c29-e984-5e58-a5ee-77fb7ad815f8",
+      "sheet_uuid": "12661bca-0903-5abb-8aad-b1cff245c4f0",
+      "sheet_path": "/d2a8d719-5ab2-513a-8b9d-2797cd2f9361/12661bca-0903-5abb-8aad-b1cff245c4f0",
+      "path": "/d2a8d719-5ab2-513a-8b9d-2797cd2f9361/12661bca-0903-5abb-8aad-b1cff245c4f0/0d4b7c29-e984-5e58-a5ee-77fb7ad815f8",
+      "sheet_file": "SmartBin_A_03_01.kicad_sch",
+      "value": "MPU_V_SELECT",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+    },
+    "JP6": {
+      "uuid": "44934d43-5319-5243-8552-bb845e250b53",
+      "sheet_uuid": "12661bca-0903-5abb-8aad-b1cff245c4f0",
+      "sheet_path": "/d2a8d719-5ab2-513a-8b9d-2797cd2f9361/12661bca-0903-5abb-8aad-b1cff245c4f0",
+      "path": "/d2a8d719-5ab2-513a-8b9d-2797cd2f9361/12661bca-0903-5abb-8aad-b1cff245c4f0/44934d43-5319-5243-8552-bb845e250b53",
+      "sheet_file": "SmartBin_A_03_01.kicad_sch",
+      "value": "HC05_V_SELECT",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+    },
+    "JP10": {
+      "uuid": "1eee9b3a-579f-52b5-bd94-566a37c17c4c",
+      "sheet_uuid": "12661bca-0903-5abb-8aad-b1cff245c4f0",
+      "sheet_path": "/d2a8d719-5ab2-513a-8b9d-2797cd2f9361/12661bca-0903-5abb-8aad-b1cff245c4f0",
+      "path": "/d2a8d719-5ab2-513a-8b9d-2797cd2f9361/12661bca-0903-5abb-8aad-b1cff245c4f0/1eee9b3a-579f-52b5-bd94-566a37c17c4c",
+      "sheet_file": "SmartBin_A_03_01.kicad_sch",
+      "value": "MCP_RESET_TEST",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+    },
+    "R3": {
+      "uuid": "c382356f-f477-5350-b775-68bac59533a1",
+      "sheet_uuid": "d385536b-95d0-5df1-a5a0-9bec05d55771",
+      "sheet_path": "/d2a8d719-5ab2-513a-8b9d-2797cd2f9361/d385536b-95d0-5df1-a5a0-9bec05d55771",
+      "path": "/d2a8d719-5ab2-513a-8b9d-2797cd2f9361/d385536b-95d0-5df1-a5a0-9bec05d55771/c382356f-f477-5350-b775-68bac59533a1",
+      "sheet_file": "SmartBin_A_04_01.kicad_sch",
+      "value": "100",
+      "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+    },
+    "R4": {
+      "uuid": "a7c4b650-5f00-5bf0-a176-b25cc07cd752",
+      "sheet_uuid": "d385536b-95d0-5df1-a5a0-9bec05d55771",
+      "sheet_path": "/d2a8d719-5ab2-513a-8b9d-2797cd2f9361/d385536b-95d0-5df1-a5a0-9bec05d55771",
+      "path": "/d2a8d719-5ab2-513a-8b9d-2797cd2f9361/d385536b-95d0-5df1-a5a0-9bec05d55771/a7c4b650-5f00-5bf0-a176-b25cc07cd752",
+      "sheet_file": "SmartBin_A_04_01.kicad_sch",
+      "value": "100k",
+      "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+    },
+    "R5": {
+      "uuid": "0e14a9f1-1338-5d38-bcfc-6bb283c268d6",
+      "sheet_uuid": "d385536b-95d0-5df1-a5a0-9bec05d55771",
+      "sheet_path": "/d2a8d719-5ab2-513a-8b9d-2797cd2f9361/d385536b-95d0-5df1-a5a0-9bec05d55771",
+      "path": "/d2a8d719-5ab2-513a-8b9d-2797cd2f9361/d385536b-95d0-5df1-a5a0-9bec05d55771/0e14a9f1-1338-5d38-bcfc-6bb283c268d6",
+      "sheet_file": "SmartBin_A_04_01.kicad_sch",
+      "value": "220",
+      "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+    },
+    "U1": {
+      "uuid": "de38e489-2e7d-5e46-8a89-07a7b4727dc5",
+      "sheet_uuid": "d385536b-95d0-5df1-a5a0-9bec05d55771",
+      "sheet_path": "/d2a8d719-5ab2-513a-8b9d-2797cd2f9361/d385536b-95d0-5df1-a5a0-9bec05d55771",
+      "path": "/d2a8d719-5ab2-513a-8b9d-2797cd2f9361/d385536b-95d0-5df1-a5a0-9bec05d55771/de38e489-2e7d-5e46-8a89-07a7b4727dc5",
+      "sheet_file": "SmartBin_A_04_01.kicad_sch",
+      "value": "SN74AHCT125N",
+      "footprint": "Package_DIP:DIP-14_W7.62mm_Socket"
+    },
+    "C8": {
+      "uuid": "960462c9-5dad-5060-ac0e-985dc2c01eb8",
+      "sheet_uuid": "d385536b-95d0-5df1-a5a0-9bec05d55771",
+      "sheet_path": "/d2a8d719-5ab2-513a-8b9d-2797cd2f9361/d385536b-95d0-5df1-a5a0-9bec05d55771",
+      "path": "/d2a8d719-5ab2-513a-8b9d-2797cd2f9361/d385536b-95d0-5df1-a5a0-9bec05d55771/960462c9-5dad-5060-ac0e-985dc2c01eb8",
+      "sheet_file": "SmartBin_A_04_01.kicad_sch",
+      "value": "100nF",
+      "footprint": "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
+    },
+    "R6": {
+      "uuid": "deeafb38-b5b2-5488-80bf-cd8f9fcbbd70",
+      "sheet_uuid": "d385536b-95d0-5df1-a5a0-9bec05d55771",
+      "sheet_path": "/d2a8d719-5ab2-513a-8b9d-2797cd2f9361/d385536b-95d0-5df1-a5a0-9bec05d55771",
+      "path": "/d2a8d719-5ab2-513a-8b9d-2797cd2f9361/d385536b-95d0-5df1-a5a0-9bec05d55771/deeafb38-b5b2-5488-80bf-cd8f9fcbbd70",
+      "sheet_file": "SmartBin_A_04_01.kicad_sch",
+      "value": "10k",
+      "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+    },
+    "R7": {
+      "uuid": "e44d989c-aea3-55af-9eef-d2ccefc7f7f2",
+      "sheet_uuid": "d385536b-95d0-5df1-a5a0-9bec05d55771",
+      "sheet_path": "/d2a8d719-5ab2-513a-8b9d-2797cd2f9361/d385536b-95d0-5df1-a5a0-9bec05d55771",
+      "path": "/d2a8d719-5ab2-513a-8b9d-2797cd2f9361/d385536b-95d0-5df1-a5a0-9bec05d55771/e44d989c-aea3-55af-9eef-d2ccefc7f7f2",
+      "sheet_file": "SmartBin_A_04_01.kicad_sch",
+      "value": "10k",
+      "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+    },
+    "R25": {
+      "uuid": "f14989d1-55ad-5bc0-85cb-00582be91b4b",
+      "sheet_uuid": "d385536b-95d0-5df1-a5a0-9bec05d55771",
+      "sheet_path": "/d2a8d719-5ab2-513a-8b9d-2797cd2f9361/d385536b-95d0-5df1-a5a0-9bec05d55771",
+      "path": "/d2a8d719-5ab2-513a-8b9d-2797cd2f9361/d385536b-95d0-5df1-a5a0-9bec05d55771/f14989d1-55ad-5bc0-85cb-00582be91b4b",
+      "sheet_file": "SmartBin_A_04_01.kicad_sch",
+      "value": "12k",
+      "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+    },
+    "R26": {
+      "uuid": "7bcbc073-20fd-5916-9a0c-94a40e6610e7",
+      "sheet_uuid": "d385536b-95d0-5df1-a5a0-9bec05d55771",
+      "sheet_path": "/d2a8d719-5ab2-513a-8b9d-2797cd2f9361/d385536b-95d0-5df1-a5a0-9bec05d55771",
+      "path": "/d2a8d719-5ab2-513a-8b9d-2797cd2f9361/d385536b-95d0-5df1-a5a0-9bec05d55771/7bcbc073-20fd-5916-9a0c-94a40e6610e7",
+      "sheet_file": "SmartBin_A_04_01.kicad_sch",
+      "value": "20k",
+      "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+    },
+    "R36": {
+      "uuid": "b1997443-e953-5668-93e6-36d17164bee0",
+      "sheet_uuid": "d385536b-95d0-5df1-a5a0-9bec05d55771",
+      "sheet_path": "/d2a8d719-5ab2-513a-8b9d-2797cd2f9361/d385536b-95d0-5df1-a5a0-9bec05d55771",
+      "path": "/d2a8d719-5ab2-513a-8b9d-2797cd2f9361/d385536b-95d0-5df1-a5a0-9bec05d55771/b1997443-e953-5668-93e6-36d17164bee0",
+      "sheet_file": "SmartBin_A_04_01.kicad_sch",
+      "value": "10k",
+      "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+    },
+    "R37": {
+      "uuid": "bddc3438-60d1-581e-9d86-18cfe81a02e9",
+      "sheet_uuid": "d385536b-95d0-5df1-a5a0-9bec05d55771",
+      "sheet_path": "/d2a8d719-5ab2-513a-8b9d-2797cd2f9361/d385536b-95d0-5df1-a5a0-9bec05d55771",
+      "path": "/d2a8d719-5ab2-513a-8b9d-2797cd2f9361/d385536b-95d0-5df1-a5a0-9bec05d55771/bddc3438-60d1-581e-9d86-18cfe81a02e9",
+      "sheet_file": "SmartBin_A_04_01.kicad_sch",
+      "value": "10k",
+      "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+    },
+    "J20": {
+      "uuid": "5f538fb0-3dd1-5b31-a335-1d9e34d4b0fe",
+      "sheet_uuid": "d385536b-95d0-5df1-a5a0-9bec05d55771",
+      "sheet_path": "/d2a8d719-5ab2-513a-8b9d-2797cd2f9361/d385536b-95d0-5df1-a5a0-9bec05d55771",
+      "path": "/d2a8d719-5ab2-513a-8b9d-2797cd2f9361/d385536b-95d0-5df1-a5a0-9bec05d55771/5f538fb0-3dd1-5b31-a335-1d9e34d4b0fe",
+      "sheet_file": "SmartBin_A_04_01.kicad_sch",
+      "value": "SERVO_SIG",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+    },
+    "J21": {
+      "uuid": "57de7abb-1137-5743-bf31-2cde87582eec",
+      "sheet_uuid": "d385536b-95d0-5df1-a5a0-9bec05d55771",
+      "sheet_path": "/d2a8d719-5ab2-513a-8b9d-2797cd2f9361/d385536b-95d0-5df1-a5a0-9bec05d55771",
+      "path": "/d2a8d719-5ab2-513a-8b9d-2797cd2f9361/d385536b-95d0-5df1-a5a0-9bec05d55771/57de7abb-1137-5743-bf31-2cde87582eec",
+      "sheet_file": "SmartBin_A_04_01.kicad_sch",
+      "value": "HC_SR04",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
+    },
+    "J28": {
+      "uuid": "4ae794df-1476-53dc-8829-b27f936d69b0",
+      "sheet_uuid": "d385536b-95d0-5df1-a5a0-9bec05d55771",
+      "sheet_path": "/d2a8d719-5ab2-513a-8b9d-2797cd2f9361/d385536b-95d0-5df1-a5a0-9bec05d55771",
+      "path": "/d2a8d719-5ab2-513a-8b9d-2797cd2f9361/d385536b-95d0-5df1-a5a0-9bec05d55771/4ae794df-1476-53dc-8829-b27f936d69b0",
+      "sheet_file": "SmartBin_A_04_01.kicad_sch",
+      "value": "AO3400_ADAPTER",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+    },
+    "J29": {
+      "uuid": "9d48bd2c-99d7-5690-9161-7a3e6f050823",
+      "sheet_uuid": "d385536b-95d0-5df1-a5a0-9bec05d55771",
+      "sheet_path": "/d2a8d719-5ab2-513a-8b9d-2797cd2f9361/d385536b-95d0-5df1-a5a0-9bec05d55771",
+      "path": "/d2a8d719-5ab2-513a-8b9d-2797cd2f9361/d385536b-95d0-5df1-a5a0-9bec05d55771/9d48bd2c-99d7-5690-9161-7a3e6f050823",
+      "sheet_file": "SmartBin_A_04_01.kicad_sch",
+      "value": "WHITE_LED",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+    },
+    "J30": {
+      "uuid": "4d3e8c4b-e55a-5845-9b80-450d1326ce9e",
+      "sheet_uuid": "d385536b-95d0-5df1-a5a0-9bec05d55771",
+      "sheet_path": "/d2a8d719-5ab2-513a-8b9d-2797cd2f9361/d385536b-95d0-5df1-a5a0-9bec05d55771",
+      "path": "/d2a8d719-5ab2-513a-8b9d-2797cd2f9361/d385536b-95d0-5df1-a5a0-9bec05d55771/4d3e8c4b-e55a-5845-9b80-450d1326ce9e",
+      "sheet_file": "SmartBin_A_04_01.kicad_sch",
+      "value": "BUZZER",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+    },
+    "JP3": {
+      "uuid": "6291e38d-43fd-576b-9ef7-5fe16bc457aa",
+      "sheet_uuid": "d385536b-95d0-5df1-a5a0-9bec05d55771",
+      "sheet_path": "/d2a8d719-5ab2-513a-8b9d-2797cd2f9361/d385536b-95d0-5df1-a5a0-9bec05d55771",
+      "path": "/d2a8d719-5ab2-513a-8b9d-2797cd2f9361/d385536b-95d0-5df1-a5a0-9bec05d55771/6291e38d-43fd-576b-9ef7-5fe16bc457aa",
+      "sheet_file": "SmartBin_A_04_01.kicad_sch",
+      "value": "BUZZ_SIG_SELECT",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+    },
+    "JP4": {
+      "uuid": "b31e71ae-e76f-5baf-91ca-82f92c94b96b",
+      "sheet_uuid": "d385536b-95d0-5df1-a5a0-9bec05d55771",
+      "sheet_path": "/d2a8d719-5ab2-513a-8b9d-2797cd2f9361/d385536b-95d0-5df1-a5a0-9bec05d55771",
+      "path": "/d2a8d719-5ab2-513a-8b9d-2797cd2f9361/d385536b-95d0-5df1-a5a0-9bec05d55771/b31e71ae-e76f-5baf-91ca-82f92c94b96b",
+      "sheet_file": "SmartBin_A_04_01.kicad_sch",
+      "value": "BUZZ_V_SELECT",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+    },
+    "R27": {
+      "uuid": "8a3c9cf0-14f0-52b9-9930-56f34884aa16",
+      "sheet_uuid": "648917c6-a615-514c-9dc3-06c1e92b5fde",
+      "sheet_path": "/d2a8d719-5ab2-513a-8b9d-2797cd2f9361/648917c6-a615-514c-9dc3-06c1e92b5fde",
+      "path": "/d2a8d719-5ab2-513a-8b9d-2797cd2f9361/648917c6-a615-514c-9dc3-06c1e92b5fde/8a3c9cf0-14f0-52b9-9930-56f34884aa16",
+      "sheet_file": "SmartBin_A_05_01.kicad_sch",
+      "value": "10k",
+      "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+    },
+    "R28": {
+      "uuid": "4eb1228d-c983-57f1-a816-5d4c83717964",
+      "sheet_uuid": "648917c6-a615-514c-9dc3-06c1e92b5fde",
+      "sheet_path": "/d2a8d719-5ab2-513a-8b9d-2797cd2f9361/648917c6-a615-514c-9dc3-06c1e92b5fde",
+      "path": "/d2a8d719-5ab2-513a-8b9d-2797cd2f9361/648917c6-a615-514c-9dc3-06c1e92b5fde/4eb1228d-c983-57f1-a816-5d4c83717964",
+      "sheet_file": "SmartBin_A_05_01.kicad_sch",
+      "value": "10k",
+      "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+    },
+    "R29": {
+      "uuid": "d61727b0-b327-5a74-b9c3-8681eb16cc2d",
+      "sheet_uuid": "648917c6-a615-514c-9dc3-06c1e92b5fde",
+      "sheet_path": "/d2a8d719-5ab2-513a-8b9d-2797cd2f9361/648917c6-a615-514c-9dc3-06c1e92b5fde",
+      "path": "/d2a8d719-5ab2-513a-8b9d-2797cd2f9361/648917c6-a615-514c-9dc3-06c1e92b5fde/d61727b0-b327-5a74-b9c3-8681eb16cc2d",
+      "sheet_file": "SmartBin_A_05_01.kicad_sch",
+      "value": "4.7k",
+      "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+    },
+    "R31": {
+      "uuid": "2df98b0c-c364-55d2-b69a-d22be6801218",
+      "sheet_uuid": "648917c6-a615-514c-9dc3-06c1e92b5fde",
+      "sheet_path": "/d2a8d719-5ab2-513a-8b9d-2797cd2f9361/648917c6-a615-514c-9dc3-06c1e92b5fde",
+      "path": "/d2a8d719-5ab2-513a-8b9d-2797cd2f9361/648917c6-a615-514c-9dc3-06c1e92b5fde/2df98b0c-c364-55d2-b69a-d22be6801218",
+      "sheet_file": "SmartBin_A_05_01.kicad_sch",
+      "value": "10k",
+      "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+    },
+    "R32": {
+      "uuid": "6d7ca435-f7f2-572c-b05c-1d6ef0279a31",
+      "sheet_uuid": "648917c6-a615-514c-9dc3-06c1e92b5fde",
+      "sheet_path": "/d2a8d719-5ab2-513a-8b9d-2797cd2f9361/648917c6-a615-514c-9dc3-06c1e92b5fde",
+      "path": "/d2a8d719-5ab2-513a-8b9d-2797cd2f9361/648917c6-a615-514c-9dc3-06c1e92b5fde/6d7ca435-f7f2-572c-b05c-1d6ef0279a31",
+      "sheet_file": "SmartBin_A_05_01.kicad_sch",
+      "value": "10k",
+      "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+    },
+    "R33": {
+      "uuid": "b8e4bde8-f647-5f2c-b16e-f7da33dd1a04",
+      "sheet_uuid": "648917c6-a615-514c-9dc3-06c1e92b5fde",
+      "sheet_path": "/d2a8d719-5ab2-513a-8b9d-2797cd2f9361/648917c6-a615-514c-9dc3-06c1e92b5fde",
+      "path": "/d2a8d719-5ab2-513a-8b9d-2797cd2f9361/648917c6-a615-514c-9dc3-06c1e92b5fde/b8e4bde8-f647-5f2c-b16e-f7da33dd1a04",
+      "sheet_file": "SmartBin_A_05_01.kicad_sch",
+      "value": "10k",
+      "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+    },
+    "R34": {
+      "uuid": "25efbcb5-3eff-5be6-975f-d13c4020c51e",
+      "sheet_uuid": "648917c6-a615-514c-9dc3-06c1e92b5fde",
+      "sheet_path": "/d2a8d719-5ab2-513a-8b9d-2797cd2f9361/648917c6-a615-514c-9dc3-06c1e92b5fde",
+      "path": "/d2a8d719-5ab2-513a-8b9d-2797cd2f9361/648917c6-a615-514c-9dc3-06c1e92b5fde/25efbcb5-3eff-5be6-975f-d13c4020c51e",
+      "sheet_file": "SmartBin_A_05_01.kicad_sch",
+      "value": "10k",
+      "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+    },
+    "R35": {
+      "uuid": "5f5dfc9e-68a5-527f-86eb-e4afd9a94e7d",
+      "sheet_uuid": "648917c6-a615-514c-9dc3-06c1e92b5fde",
+      "sheet_path": "/d2a8d719-5ab2-513a-8b9d-2797cd2f9361/648917c6-a615-514c-9dc3-06c1e92b5fde",
+      "path": "/d2a8d719-5ab2-513a-8b9d-2797cd2f9361/648917c6-a615-514c-9dc3-06c1e92b5fde/5f5dfc9e-68a5-527f-86eb-e4afd9a94e7d",
+      "sheet_file": "SmartBin_A_05_01.kicad_sch",
+      "value": "10k",
+      "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+    },
+    "J22": {
+      "uuid": "d349f1e7-d873-591c-be1e-15f807117bd1",
+      "sheet_uuid": "648917c6-a615-514c-9dc3-06c1e92b5fde",
+      "sheet_path": "/d2a8d719-5ab2-513a-8b9d-2797cd2f9361/648917c6-a615-514c-9dc3-06c1e92b5fde",
+      "path": "/d2a8d719-5ab2-513a-8b9d-2797cd2f9361/648917c6-a615-514c-9dc3-06c1e92b5fde/d349f1e7-d873-591c-be1e-15f807117bd1",
+      "sheet_file": "SmartBin_A_05_01.kicad_sch",
+      "value": "DHT",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+    },
+    "J23": {
+      "uuid": "79001dae-61fb-5a47-971d-8513cb4e2e06",
+      "sheet_uuid": "648917c6-a615-514c-9dc3-06c1e92b5fde",
+      "sheet_path": "/d2a8d719-5ab2-513a-8b9d-2797cd2f9361/648917c6-a615-514c-9dc3-06c1e92b5fde",
+      "path": "/d2a8d719-5ab2-513a-8b9d-2797cd2f9361/648917c6-a615-514c-9dc3-06c1e92b5fde/79001dae-61fb-5a47-971d-8513cb4e2e06",
+      "sheet_file": "SmartBin_A_05_01.kicad_sch",
+      "value": "DHT_LEVEL",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical"
+    },
+    "J24": {
+      "uuid": "767aebf7-ae8d-5b59-94cb-3384e6545263",
+      "sheet_uuid": "648917c6-a615-514c-9dc3-06c1e92b5fde",
+      "sheet_path": "/d2a8d719-5ab2-513a-8b9d-2797cd2f9361/648917c6-a615-514c-9dc3-06c1e92b5fde",
+      "path": "/d2a8d719-5ab2-513a-8b9d-2797cd2f9361/648917c6-a615-514c-9dc3-06c1e92b5fde/767aebf7-ae8d-5b59-94cb-3384e6545263",
+      "sheet_file": "SmartBin_A_05_01.kicad_sch",
+      "value": "ENCODER",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical"
+    },
+    "J25": {
+      "uuid": "191fe01f-6d95-55f3-912d-a68d29cbb041",
+      "sheet_uuid": "648917c6-a615-514c-9dc3-06c1e92b5fde",
+      "sheet_path": "/d2a8d719-5ab2-513a-8b9d-2797cd2f9361/648917c6-a615-514c-9dc3-06c1e92b5fde",
+      "path": "/d2a8d719-5ab2-513a-8b9d-2797cd2f9361/648917c6-a615-514c-9dc3-06c1e92b5fde/191fe01f-6d95-55f3-912d-a68d29cbb041",
+      "sheet_file": "SmartBin_A_05_01.kicad_sch",
+      "value": "KEYS_LID",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical"
+    },
+    "J26": {
+      "uuid": "fecc392a-4710-5f49-ba51-7bc8ec0839af",
+      "sheet_uuid": "648917c6-a615-514c-9dc3-06c1e92b5fde",
+      "sheet_path": "/d2a8d719-5ab2-513a-8b9d-2797cd2f9361/648917c6-a615-514c-9dc3-06c1e92b5fde",
+      "path": "/d2a8d719-5ab2-513a-8b9d-2797cd2f9361/648917c6-a615-514c-9dc3-06c1e92b5fde/fecc392a-4710-5f49-ba51-7bc8ec0839af",
+      "sheet_file": "SmartBin_A_05_01.kicad_sch",
+      "value": "BUMPER",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+    },
+    "J33": {
+      "uuid": "bb54acee-2625-599d-a164-2a179e897945",
+      "sheet_uuid": "648917c6-a615-514c-9dc3-06c1e92b5fde",
+      "sheet_path": "/d2a8d719-5ab2-513a-8b9d-2797cd2f9361/648917c6-a615-514c-9dc3-06c1e92b5fde",
+      "path": "/d2a8d719-5ab2-513a-8b9d-2797cd2f9361/648917c6-a615-514c-9dc3-06c1e92b5fde/bb54acee-2625-599d-a164-2a179e897945",
+      "sheet_file": "SmartBin_A_05_01.kicad_sch",
+      "value": "IR_INPUTS",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x09_P2.54mm_Vertical"
+    },
+    "JP7": {
+      "uuid": "e2ea7a8e-4bd2-5845-8862-cfae236cafad",
+      "sheet_uuid": "648917c6-a615-514c-9dc3-06c1e92b5fde",
+      "sheet_path": "/d2a8d719-5ab2-513a-8b9d-2797cd2f9361/648917c6-a615-514c-9dc3-06c1e92b5fde",
+      "path": "/d2a8d719-5ab2-513a-8b9d-2797cd2f9361/648917c6-a615-514c-9dc3-06c1e92b5fde/e2ea7a8e-4bd2-5845-8862-cfae236cafad",
+      "sheet_file": "SmartBin_A_05_01.kicad_sch",
+      "value": "DHT_V_SELECT",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+    },
+    "JP8": {
+      "uuid": "f1329c5b-51b1-55f7-9fd7-cc2d19950df9",
+      "sheet_uuid": "648917c6-a615-514c-9dc3-06c1e92b5fde",
+      "sheet_path": "/d2a8d719-5ab2-513a-8b9d-2797cd2f9361/648917c6-a615-514c-9dc3-06c1e92b5fde",
+      "path": "/d2a8d719-5ab2-513a-8b9d-2797cd2f9361/648917c6-a615-514c-9dc3-06c1e92b5fde/f1329c5b-51b1-55f7-9fd7-cc2d19950df9",
+      "sheet_file": "SmartBin_A_05_01.kicad_sch",
+      "value": "DHT_DIRECT",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+    }
+  }
+}
