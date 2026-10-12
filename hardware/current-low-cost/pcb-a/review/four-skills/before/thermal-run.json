@@ -1,0 +1,39 @@
+{
+  "task": "thermal",
+  "exit": 0,
+  "seconds": 0.33,
+  "script": "C:\\Users\\35462\\.codex\\skills\\kicad\\scripts\\analyze_thermal.py",
+  "script_sha256": "92629779aa0e7fc569ef1bcdbf45a2883e02dfec60fdbf5fe726c9a8adcced07",
+  "stderr": "Thermal analysis complete: 0 findings (score SKIPPED) -> D:\\Work\\嵌入式课设\\.four-skills-review-20261012\\analysis\\thermal.json\r\n",
+  "summary": {
+    "total_findings": 0,
+    "components_assessed": 0,
+    "components_skipped": 0,
+    "active": 0,
+    "suppressed": 0,
+    "by_severity": {
+      "error": 0,
+      "warning": 0,
+      "info": 0
+    },
+    "thermal_score": null,
+    "skipped_reason": "No components had quantifiable power dissipation data (missing MPNs or no datasheet extraction cache)",
+    "total_board_dissipation_w": 0,
+    "components_analyzed": 0,
+    "components_above_85c": 0,
+    "components_above_tjmax": 0,
+    "ambient_c": 25.0
+  },
+  "keys": [
+    "analyzer_type",
+    "schema_version",
+    "inputs",
+    "compat",
+    "summary",
+    "findings",
+    "assessments",
+    "elapsed_s",
+    "trust_summary",
+    "capability_mode_ref"
+  ]
+}

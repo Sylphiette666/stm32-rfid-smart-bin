@@ -1,0 +1,20 @@
+{
+  "input": "D:\\Work\\嵌入式课设\\.four-skills-review-20261012\\manual\\STM32与RFID智能移动垃圾桶_逐步组装与调试实施手册_图解增强版.docx",
+  "pdf": "D:\\Work\\嵌入式课设\\.four-skills-review-20261012\\manual\\render\\manual.pdf",
+  "text": "D:\\Work\\嵌入式课设\\.four-skills-review-20261012\\manual\\render\\word_text.txt",
+  "update_and_save": true,
+  "initial_word_pids": [
+    14952,
+    41796
+  ],
+  "owned_word_pid": 37356,
+  "ownership_verified": true,
+  "pages": 200,
+  "status": "success",
+  "ownership_method": "single_new_pid_creation_time_and_COM_identity_hwnd_zero",
+  "hwnd_pid_before_open": 0,
+  "hwnd_pid_after_open": 0,
+  "user_instances_touched": false,
+  "cleanup_warnings": [],
+  "finished_at": "2026-10-12T19:32:16.6303234+08:00"
+}

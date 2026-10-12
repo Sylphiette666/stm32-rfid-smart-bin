@@ -1,14 +1,14 @@
 {
   "status": "PASS",
-  "board_sha256": "b16aad367273b6b39cf8452db6615a54745bc44198ac9485f1a253c8de96b066",
+  "board_sha256": "a7423fc37ea90df6079c1efc811024454c0423cb86c682edda9411fff4a9531a",
   "units": "mm",
   "coordinate_transform": "Excellon X-50, -Y-50 = board-relative native X,Y",
   "drill_matches": [
     {
       "file": "SmartBin_A-PTH.drl",
-      "sha256": "16d6d9d6dfc8189957b01b5d9c76ceaf90d3101524693ce8fd592265d0576f30",
-      "expected_count": 356,
-      "actual_count": 356,
+      "sha256": "c906faff527c158a4f1d28b381a7449f15a0587342548f19c34eed0a6600ccaf",
+      "expected_count": 411,
+      "actual_count": 411,
       "coordinate_tolerance_per_axis_mm": 0.0005,
       "maximum_radial_rounding_mm": 0.0006403124237445668,
       "missing": [],
@@ -17,7 +17,7 @@
     },
     {
       "file": "SmartBin_A-NPTH.drl",
-      "sha256": "6f1ba6e43990c7809749b7ae162cb0c5db7c7c858a2f01b732d1f30a6c6eef2b",
+      "sha256": "4cf21c156853c54d0723920fc2ba79b05dfece901d6e6eb5b09971208dba5589",
       "expected_count": 4,
       "actual_count": 4,
       "coordinate_tolerance_per_axis_mm": 0.0005,
@@ -39,14 +39,14 @@
       "gap_mm": 0.8,
       "objects": [
         "J25.1",
-        "via5"
+        "via60"
       ]
     },
     "via-via": {
       "gap_mm": 0.6747884675600061,
       "objects": [
-        "via44",
-        "via56"
+        "via99",
+        "via111"
       ]
     }
   },

@@ -1,0 +1,19 @@
+{
+  "all_original_track_geometries_identical": true,
+  "original_tracks": 1117,
+  "all_original_vias_retained": true,
+  "added_ground_vias": 55,
+  "all_footprints_pads_and_positions_identical": true,
+  "unchanged_sources": {
+    "SmartBin_A.kicad_sch": true,
+    "SmartBin_A_01_01.kicad_sch": true,
+    "SmartBin_A_02_01.kicad_sch": true,
+    "SmartBin_A_03_01.kicad_sch": true,
+    "SmartBin_A_04_01.kicad_sch": true,
+    "SmartBin_A_05_01.kicad_sch": true,
+    "circuit.json": true,
+    "connector-map.csv": true,
+    "manufacturing/bom.csv": true
+  },
+  "board_sha256": "a7423fc37ea90df6079c1efc811024454c0423cb86c682edda9411fff4a9531a"
+}

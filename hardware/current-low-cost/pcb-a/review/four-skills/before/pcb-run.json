@@ -1,0 +1,36 @@
+{
+  "task": "pcb",
+  "exit": 0,
+  "seconds": 11.47,
+  "script": "C:\\Users\\35462\\.codex\\skills\\kicad\\scripts\\analyze_pcb.py",
+  "script_sha256": "943ae5f9c2db2f394b3965d13f68ae0e9e2f246c7773a725f9b9aa6116f878cd",
+  "stderr": "Written to D:\\Work\\嵌入式课设\\.four-skills-review-20261012\\analysis\\pcb.json\r\n",
+  "summary": {
+    "total_findings": 56,
+    "by_severity": {
+      "error": 0,
+      "warning": 1,
+      "info": 55
+    }
+  },
+  "keys": [
+    "analyzer_type",
+    "schema_version",
+    "kicad_version",
+    "file_version",
+    "statistics",
+    "layers",
+    "setup",
+    "nets",
+    "net_name_to_id",
+    "board_outline",
+    "component_groups",
+    "footprints",
+    "tracks",
+    "vias",
+    "zones",
+    "keepout_zones",
+    "connectivity",
+    "net_lengths"
+  ]
+}

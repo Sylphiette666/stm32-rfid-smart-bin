@@ -1,10 +1,25 @@
 {
   "accepted_warning_types": [],
   "reviews": {
-    "placement_and_hand_solder_access": {"status": "PASS", "evidence": "Actual native 3D, final assembly SVG and independent CAM viewed. No nominal footprint body collision; all six terminals face left board edge. Phoenix P5.08/1.3mm drilling and D12.5/P5 electrolytic envelopes verified. Actual purchased KF301, capacitor and TO92 fit still requires measurement."},
-    "power_trunks_and_returns": {"status": "PASS", "evidence": "Native segment union comparison independently proves all 33 planned copper segments retained at no less than planned width; 3mm trunks and 2mm branches continuous in both actual copper CAM views. Eight pads excluding zone fill are logic-header GND pins, not motor/servo terminals. No high-current path depends on a narrow logic stub or single via. See 04-native-final-audit.json."},
-    "decoupling_and_analog_separation": {"status": "PASS", "evidence": "C1/C4, C2/C5 and C3/C6 adjacent to respective power connector banks, C8 near U1 VCC on 0.8mm local trace. Battery divider C7 and signal wiring confirmed. Switching regulators/motor drivers remain off-board; no claim of measured EMI or transient immunity."},
-    "silkscreen_and_pin1": {"status": "PASS", "evidence": "Final actual top/bottom CAM has readable reference marks, clear U1 notch and connector pad1 cues. Board PIN1=SQUARE PAD is clarified in assembly documentation as J/JP guidance; polarized C1-C3 must follow + mark. Native pad1 is 5V_BUS and pad2 GND. Bottom CAM is mirrored for solder-side viewing."},
-    "gerber_visual_and_drill_alignment": {"status": "PASS", "evidence": "Frozen Gerber_RS274X.zip d613507ebb631bb055847faf6cc9197b1f7f826a0880b4674f329b2af03ee1cf parsed independently with gerbonara; both copper and rendered mask/silk sides viewed. All 9 entries exactly match checked exports; 356 PTH + 4 NPTH matched one-to-one at Excellon 0.001mm coordinate precision. Generic gerber audit PASS, 0 errors/0 warnings. Parser advisory warnings classified in final review."}
+    "placement_and_hand_solder_access": {
+      "status": "PASS",
+      "evidence": "Actual native 3D, final assembly SVG and independent CAM viewed. No nominal footprint body collision; all six terminals face left board edge. Phoenix P5.08/1.3mm drilling and D12.5/P5 electrolytic envelopes verified. Actual purchased KF301, capacitor and TO92 fit still requires measurement."
+    },
+    "power_trunks_and_returns": {
+      "status": "PASS",
+      "evidence": "Native segment union comparison independently proves all 33 planned copper segments retained at no less than planned width; 3mm trunks and 2mm branches continuous in both actual copper CAM views. Eight pads excluding zone fill are logic-header GND pins, not motor/servo terminals. No high-current path depends on a narrow logic stub or single via. See 04-native-final-audit.json."
+    },
+    "decoupling_and_analog_separation": {
+      "status": "PASS",
+      "evidence": "Connectivity and nominal placement checked; C8-to-U1VCC5.24mm remains an EMC warning, not a performance PASS. This manufacturing check only confirms decoupler is fitted/connected; analog filter and external power boundaries documented. See four-skills report for residual layout risks."
+    },
+    "silkscreen_and_pin1": {
+      "status": "PASS",
+      "evidence": "Final actual top/bottom CAM has readable reference marks, clear U1 notch and connector pad1 cues. Board PIN1=SQUARE PAD is clarified in assembly documentation as J/JP guidance; polarized C1-C3 must follow + mark. Native pad1 is 5V_BUS and pad2 GND. Bottom CAM is mirrored for solder-side viewing."
+    },
+    "gerber_visual_and_drill_alignment": {
+      "status": "PASS",
+      "evidence": "Current Gerber fe6e2326e9f386d1d61bb4a39691f18acd81a0e23232bfc711ad509c4ede470a independently parsed with gerbonara; top/bottom copper, mask and silk reviewed.411PTH+4NPTH match the final native PCB; all9zipentriesmatch. No paste required for THT handbuild."
+    }
   }
 }

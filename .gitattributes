@@ -13,3 +13,4 @@ hardware/archive/pcb-v2.1/original-exports/** -text
 # Preserve the released PCB package byte-for-byte for manufacturing checksums.
 hardware/current-low-cost/pcb-a/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
 docs/manual/pcb-a-update-20261012/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+docs/manual/four-skills-review-20261012/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol

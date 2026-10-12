@@ -1,0 +1,36 @@
+{
+  "task": "schematic",
+  "exit": 0,
+  "seconds": 0.42,
+  "script": "C:\\Users\\35462\\.codex\\skills\\kicad\\scripts\\analyze_schematic.py",
+  "script_sha256": "86026787b4e0e9305732e198c51c58bd23d83eb124c69904bbd1ad5a0051f0de",
+  "stderr": "Written to D:\\Work\\嵌入式课设\\.four-skills-review-20261012\\analysis-after\\schematic.json\r\n",
+  "summary": {
+    "total_findings": 56,
+    "by_severity": {
+      "error": 1,
+      "warning": 2,
+      "info": 53
+    }
+  },
+  "keys": [
+    "analyzer_type",
+    "schema_version",
+    "summary",
+    "trust_summary",
+    "kicad_version",
+    "file_version",
+    "title_block",
+    "statistics",
+    "findings",
+    "assessments",
+    "bom",
+    "components",
+    "nets",
+    "subcircuits",
+    "ic_pin_analysis",
+    "transistor_pin_analysis",
+    "design_analysis",
+    "connectivity_issues"
+  ]
+}

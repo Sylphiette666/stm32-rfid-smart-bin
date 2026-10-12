@@ -1,0 +1,81 @@
+{
+  "engine": "ngspice shared library bundled with KiCad 10",
+  "automatic_skill_runner": "No standalone executable detected; this adapter uses the installed engine through its C API.",
+  "scope": "Unloaded DC divider only, 1% resistor corners. Does not validate power-off injection, MCU VIH margin at low VDD, cable ringing, ADC acquisition time, motors or emergency logic.",
+  "cases": [
+    {
+      "circuit": "BAT_ADC R1/R2",
+      "case": "nominal",
+      "vin_V": 8.4,
+      "upper_ohm": 33000.0,
+      "lower_ohm": 10000.0,
+      "spice_V": 1.9534883720930232,
+      "formula_V": 1.9534883720930232,
+      "limit_V": 3.3,
+      "pass": true,
+      "upper_dissipation_mW": 1.2593185505678746
+    },
+    {
+      "circuit": "BAT_ADC R1/R2",
+      "case": "high_output_1pct",
+      "vin_V": 8.4,
+      "upper_ohm": 32670.0,
+      "lower_ohm": 10100.0,
+      "spice_V": 1.9836333878887071,
+      "formula_V": 1.9836333878887071,
+      "limit_V": 3.3,
+      "pass": true,
+      "upper_dissipation_mW": 1.260170202051318
+    },
+    {
+      "circuit": "BAT_ADC R1/R2",
+      "case": "low_output_1pct",
+      "vin_V": 8.4,
+      "upper_ohm": 33330.0,
+      "lower_ohm": 9900.0,
+      "spice_V": 1.9236641221374047,
+      "formula_V": 1.9236641221374047,
+      "limit_V": 3.3,
+      "pass": true,
+      "upper_dissipation_mW": 1.2584136334500533
+    },
+    {
+      "circuit": "ECHO R25/R26",
+      "case": "nominal",
+      "vin_V": 5.0,
+      "upper_ohm": 12000.0,
+      "lower_ohm": 20000.0,
+      "spice_V": 3.125,
+      "formula_V": 3.125,
+      "limit_V": 3.3,
+      "pass": true,
+      "upper_dissipation_mW": 0.29296875
+    },
+    {
+      "circuit": "ECHO R25/R26",
+      "case": "high_output_1pct",
+      "vin_V": 5.15,
+      "upper_ohm": 11880.0,
+      "lower_ohm": 20200.0,
+      "spice_V": 3.2428304239401498,
+      "formula_V": 3.2428304239401498,
+      "limit_V": 3.3,
+      "pass": true,
+      "upper_dissipation_mW": 0.306169679448511
+    },
+    {
+      "circuit": "ECHO R25/R26",
+      "case": "low_output_1pct",
+      "vin_V": 5.15,
+      "upper_ohm": 12120.0,
+      "lower_ohm": 19800.0,
+      "spice_V": 3.194548872180451,
+      "formula_V": 3.194548872180451,
+      "limit_V": 3.3,
+      "pass": true,
+      "upper_dissipation_mW": 0.3154941512616128
+    }
+  ],
+  "battery_RC_tau_ms": 0.7674418604651163,
+  "pass": true
+}

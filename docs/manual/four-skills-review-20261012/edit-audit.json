@@ -1,0 +1,22 @@
+{
+  "source_sha256": "e372c23d2ecc6cd6eccb2e3e2e680ce35942d956c96c20b01de713b023563885",
+  "steps": 330,
+  "step_headings_preserved": true,
+  "original_tables_preserved": true,
+  "tables": 66,
+  "images": 57,
+  "changed_images": [
+    {
+      "image": "45_pcb_top.png",
+      "before": "31c4f46ec2906a6cb2b300074b600d6c1f538925761bd2c608a2942332efc66f",
+      "after": "9267cad9b22eb5ee461737b992e6e6d656e01fb7c3c21f6615d045a82aae334f"
+    },
+    {
+      "image": "46_pcb_bottom.png",
+      "before": "69793d9f190ed43b70d8fa7ea1e5afb101e88d50358117ab3655fb2087c38733",
+      "after": "1c9928a9c637098fc5accc1f302cf79ae1a426a9c7dbb14e52914194c6176f9e"
+    }
+  ],
+  "added_chapter": 64,
+  "output": "D:\\Work\\嵌入式课设\\.four-skills-review-20261012\\manual\\STM32与RFID智能移动垃圾桶_逐步组装与调试实施手册_图解增强版.docx"
+}

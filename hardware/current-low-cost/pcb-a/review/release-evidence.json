@@ -37,9 +37,9 @@
       "detail": [
         {
           "file": "SmartBin_A-PTH.drl",
-          "sha256": "16d6d9d6dfc8189957b01b5d9c76ceaf90d3101524693ce8fd592265d0576f30",
-          "expected_count": 356,
-          "actual_count": 356,
+          "sha256": "c906faff527c158a4f1d28b381a7449f15a0587342548f19c34eed0a6600ccaf",
+          "expected_count": 411,
+          "actual_count": 411,
           "coordinate_tolerance_per_axis_mm": 0.0005,
           "maximum_radial_rounding_mm": 0.0006403124237445668,
           "missing": [],
@@ -48,7 +48,7 @@
         },
         {
           "file": "SmartBin_A-NPTH.drl",
-          "sha256": "6f1ba6e43990c7809749b7ae162cb0c5db7c7c858a2f01b732d1f30a6c6eef2b",
+          "sha256": "4cf21c156853c54d0723920fc2ba79b05dfece901d6e6eb5b09971208dba5589",
           "expected_count": 4,
           "actual_count": 4,
           "coordinate_tolerance_per_axis_mm": 0.0005,
@@ -257,9 +257,9 @@
       "name": "DRC source",
       "status": "INFO",
       "detail": {
-        "path": "D:\\Work\\嵌入式课设\\.pcb-lowcost-20261012\\a-design\\checks\\pcb-drc.json",
-        "sha256": "f79cf114c698337b53ea1bf83a9fca503e347f862a378176f9d659d317ac6d12",
-        "date": "2026-10-12T18:25:52",
+        "path": "D:\\Work\\嵌入式课设\\.four-skills-review-20261012\\working\\checks\\pcb-drc.json",
+        "sha256": "71cc055f77c4eed48e730e812cf1f991e7ab520003b692262ae132bff7e30bec",
+        "date": "2026-10-12T19:15:19",
         "version": "10.0.6",
         "ignored_checks": [
           {
@@ -331,8 +331,8 @@
       "name": "Gerber archive",
       "status": "INFO",
       "detail": {
-        "path": "D:\\Work\\嵌入式课设\\.pcb-lowcost-20261012\\a-design\\manufacturing\\Gerber_RS274X.zip",
-        "sha256": "d613507ebb631bb055847faf6cc9197b1f7f826a0880b4674f329b2af03ee1cf",
+        "path": "D:\\Work\\嵌入式课设\\.four-skills-review-20261012\\working\\manufacturing\\Gerber_RS274X.zip",
+        "sha256": "fe6e2326e9f386d1d61bb4a39691f18acd81a0e23232bfc711ad509c4ede470a",
         "files": [
           "SmartBin_A-F_Cu.gtl",
           "SmartBin_A-B_Cu.gbl",
@@ -359,7 +359,7 @@
     {
       "name": "Manual review: decoupling_and_analog_separation",
       "status": "PASS",
-      "detail": "C1/C4, C2/C5 and C3/C6 adjacent to respective power connector banks, C8 near U1 VCC on 0.8mm local trace. Battery divider C7 and signal wiring confirmed. Switching regulators/motor drivers remain off-board; no claim of measured EMI or transient immunity."
+      "detail": "Connectivity and nominal placement checked; C8-to-U1VCC5.24mm remains an EMC warning, not a performance PASS. This manufacturing check only confirms decoupler is fitted/connected; analog filter and external power boundaries documented. See four-skills report for residual layout risks."
     },
     {
       "name": "Manual review: silkscreen_and_pin1",
@@ -369,7 +369,7 @@
     {
       "name": "Manual review: gerber_visual_and_drill_alignment",
       "status": "PASS",
-      "detail": "Frozen Gerber_RS274X.zip d613507ebb631bb055847faf6cc9197b1f7f826a0880b4674f329b2af03ee1cf parsed independently with gerbonara; both copper and rendered mask/silk sides viewed. All 9 entries exactly match checked exports; 356 PTH + 4 NPTH matched one-to-one at Excellon 0.001mm coordinate precision. Generic gerber audit PASS, 0 errors/0 warnings. Parser advisory warnings classified in final review."
+      "detail": "Current Gerber fe6e2326e9f386d1d61bb4a39691f18acd81a0e23232bfc711ad509c4ede470a independently parsed with gerbonara; top/bottom copper, mask and silk reviewed.411PTH+4NPTH match the final native PCB; all9zipentriesmatch. No paste required for THT handbuild."
     }
   ],
   "scope": "Manufacturing/digital review only; no physical fit, actual welding, powered function, load/temperature or firmware completion implied."

@@ -1,0 +1,110 @@
+{
+  "scope": "Manual datasheet cross-reference plus structured native pad/net audit; external purchased modules not physically verified.",
+  "sources": {
+    "U1": "https://www.ti.com/lit/ds/symlink/sn74ahct125.pdf",
+    "Q1-Q3": "https://www.onsemi.com/pdf/datasheet/2n3904-d.pdf",
+    "MCU": "https://www.st.com/resource/en/datasheet/stm32f103c8.pdf",
+    "MCP": "https://ww1.microchip.com/downloads/aemDocuments/documents/APID/ProductDocuments/DataSheets/MCP23017-Data-Sheet-DS20001952.pdf",
+    "AO3400A": "https://www.aosmd.com/res/data_sheets/AO3400A.pdf"
+  },
+  "board_sha256": "a7423fc37ea90df6079c1efc811024454c0423cb86c682edda9411fff4a9531a",
+  "ic_checks": [
+    {
+      "ref": "U1",
+      "specified_part": "SN74AHCT125N",
+      "source": "https://www.ti.com/lit/ds/symlink/sn74ahct125.pdf",
+      "pages_1_based": [
+        3,
+        4,
+        5
+      ],
+      "pins": {
+        "1": "GND",
+        "2": "PA0",
+        "3": "SERVO_SIG_5V",
+        "4": "GND",
+        "5": "PB15",
+        "6": "US_TRIG_5V",
+        "7": "GND",
+        "8": "BUZZ_5V",
+        "9": "PB9",
+        "10": "GND",
+        "11": null,
+        "12": "GND",
+        "13": "5V_BUS",
+        "14": "5V_BUS"
+      },
+      "result": "PASS for specified TI PDIP-14",
+      "checks": [
+        "VCC14=5V_BUS,GND7=GND",
+        "OE1/2/3 grounded; OE4=VCC, A4=GND, Y4=NC",
+        "3.3V MCU level exceeds 2.0V VIH at 4.5-5.5V supply",
+        "R6/R7/R36 establish default levels; R36/R37 mutually exclusive",
+        "Outputs drive module logic inputs, not buzzer element or motor load"
+      ],
+      "limitations": [
+        "C8 VCC distance 5.24mm; DIP opposite-corner ground return; EMC warning retained",
+        "Asynchronous power ramp not simulated; no hot-plug claim"
+      ]
+    },
+    {
+      "ref": "Q1,Q2,Q3",
+      "specified_part": "2N3904 using onsemi E-B-C reference",
+      "source": "https://www.onsemi.com/pdf/datasheet/2n3904-d.pdf",
+      "pages_1_based": [
+        1,
+        2
+      ],
+      "pins": {
+        "Q1": {
+          "1": "GND",
+          "2": "ES1_BASE",
+          "3": "KILL_BASE"
+        },
+        "Q2": {
+          "1": "GND",
+          "2": "KILL_BASE",
+          "3": "STBY_OUT"
+        },
+        "Q3": {
+          "1": "GND",
+          "2": "ES2_BASE",
+          "3": "PB13"
+        }
+      },
+      "result": "PASS reference pinout; purchased-brand pinout needs physical verification",
+      "checks": [
+        "Pad1=emitter GND, pad2=base, pad3=collector",
+        "Q1 detects NC loop, Q2 clamps STBY, Q3 supplies independent status",
+        "At 8.4V and assumed VBE0.7V, R15/R17 nominal dissipate about12.6mW",
+        "With EXT3.3V present Q2 base current approx0.55mA and clamp demand <=3.3mA through1k"
+      ],
+      "limitations": [
+        "EXT power loss cannot guarantee hardware inhibit",
+        "Stop circuit not independent safety-rated power disconnect"
+      ]
+    },
+    {
+      "ref": "External modules",
+      "result": "CONDITIONAL",
+      "checks": [
+        "STM32 runs from CORE3.3V; RC522/FLASH/MCP use compatible3.3V interfaces",
+        "MCP23017 GPA7/GPB7 not assigned input functions",
+        "External buck, BSS138, AO3400A and TB6612 physical pin order remains label-based",
+        "CORE/EXT regulator outputs not paralleled; signal-mediated backfeed remains possible"
+      ],
+      "limitations": [
+        "No complete external module schematics or vendor MPN inventory",
+        "No oscillator/regulator/RF antenna layout reviewed; all external"
+      ]
+    }
+  ],
+  "native_reference_and_net_match": {
+    "pass": true,
+    "references": 94,
+    "expected_references": 94,
+    "issues": []
+  },
+  "dnp_native_vs_bom": "9 native schematic DNP flags match circuit.json. kicad-happy statistic dnp_parts=0 is a parser limitation; no source fix needed.",
+  "thermal": "Automatic analyzer assessed 0 parts. Divider and base-resistor dissipation bounded separately; no measured motor/buck/board temperature."
+}

@@ -4,11 +4,13 @@
 
 ## 从这里开始
 
-1. [下载图解增强版Word手册](docs/manual/STM32%E4%B8%8ERFID%E6%99%BA%E8%83%BD%E7%A7%BB%E5%8A%A8%E5%9E%83%E5%9C%BE%E6%A1%B6_%E9%80%90%E6%AD%A5%E7%BB%84%E8%A3%85%E4%B8%8E%E8%B0%83%E8%AF%95%E5%AE%9E%E6%96%BD%E6%89%8B%E5%86%8C_%E5%9B%BE%E8%A7%A3%E5%A2%9E%E5%BC%BA%E7%89%88.docx)：保留330个步骤、33项功能；第62章为木板/PVC裁剪图，第63章和图45—49为当前A1 PCB、板外供电、模块接口及条件适配补充。SG90与历史洞洞板图仍保留。[原版手册](docs/manual/STM32%E4%B8%8ERFID%E6%99%BA%E8%83%BD%E7%A7%BB%E5%8A%A8%E5%9E%83%E5%9C%BE%E6%A1%B6_%E9%80%90%E6%AD%A5%E7%BB%84%E8%A3%85%E4%B8%8E%E8%B0%83%E8%AF%95%E5%AE%9E%E6%96%BD%E6%89%8B%E5%86%8C.docx)保留。
+1. [下载图解增强版Word手册](docs/manual/STM32%E4%B8%8ERFID%E6%99%BA%E8%83%BD%E7%A7%BB%E5%8A%A8%E5%9E%83%E5%9C%BE%E6%A1%B6_%E9%80%90%E6%AD%A5%E7%BB%84%E8%A3%85%E4%B8%8E%E8%B0%83%E8%AF%95%E5%AE%9E%E6%96%BD%E6%89%8B%E5%86%8C_%E5%9B%BE%E8%A7%A3%E5%A2%9E%E5%BC%BA%E7%89%88.docx)：保留330个步骤、33项功能；第62章为木板/PVC裁剪图，第63章和图45—49为当前A1 PCB、板外供电、模块接口及条件适配补充。第64章新增四套技能审查结论与接地加强后的调试要求。SG90与历史洞洞板图仍保留。[原版手册](docs/manual/STM32%E4%B8%8ERFID%E6%99%BA%E8%83%BD%E7%A7%BB%E5%8A%A8%E5%9E%83%E5%9C%BE%E6%A1%B6_%E9%80%90%E6%AD%A5%E7%BB%84%E8%A3%85%E4%B8%8E%E8%B0%83%E8%AF%95%E5%AE%9E%E6%96%BD%E6%89%8B%E5%86%8C.docx)保留。
 2. [在线阅读全部步骤](docs/manual/ASSEMBLY.md)：按顺序检查、装配和调试，原330步不重编；图解以同名Word最新版为准。
 3. [查看当前A1 PCB资料](hardware/current-low-cost/pcb-a/README.md)、[接线说明](hardware/current-low-cost/WIRING.md)、[逐针接口表](hardware/current-low-cost/pcb-a/connector-map.csv)、[BOM](hardware/current-low-cost/pcb-a/manufacturing/bom.csv)和[33项功能验收清单](docs/ACCEPTANCE.md)。裸板制造文件为[Gerber_RS274X.zip](hardware/current-low-cost/pcb-a/manufacturing/Gerber_RS274X.zip)，原理图及工程在[kicad目录](hardware/current-low-cost/pcb-a/kicad/)。
 4. [查看SG90等图解与说明](docs/manual/illustrated-additions-20261010/)和[木板与PVC裁剪图解](docs/manual/cutting-diagrams-20261010/)；[旧PWR/IO洞洞板正反面与逐根焊线表](hardware/current-low-cost/perfboard/)仅作归档参考，不再作为A1 PCB施工接口。
 5. [查看固件开发状态](firmware/README.md)，再开始编写和烧录程序。
+
+本次接地加强版新增55个GND过孔，不增加元件采购或手焊任务；裸板制造检查通过，仍保留EMC及实物验证边界。详见[四套技能联合审查报告](hardware/current-low-cost/pcb-a/review/four-skills/四套技能联合审查报告.md)。
 
 ## 目录
 

@@ -1,0 +1,27 @@
+{
+  "status": "PASS",
+  "docx_sha256": "6b477d3f874b7f3675b447e0fad18e68799a8b121de0b868b2508a0831c7d520",
+  "pdf_sha256": "2f86ac80e0fc31035a7ebb1f29f5525fd4d961ae07b72262da5455d3d3740add",
+  "pages": 200,
+  "steps_preserved": 330,
+  "existing_table_contents_preserved": 64,
+  "total_tables": 66,
+  "inline_images": 57,
+  "all_other_media_preserved": true,
+  "unchanged_page_bodies": 196,
+  "changed_or_added_pages": [
+    5,
+    179,
+    199,
+    200
+  ],
+  "visually_inspected_at_full_size": [
+    5,
+    179,
+    199,
+    200
+  ],
+  "visual_result": "PASS after correcting added-table column/cell widths; no clipping, overlap or missing text on changed pages.196 other page bodies pixel-identical to reviewed baseline.",
+  "render_backend": "Installed Microsoft Word isolated owned instance -> PDF -> pypdfium2 page PNG. Packaged render_docx.py attempted; LibreOffice absent, logged.",
+  "user_word_instances_touched": false
+}

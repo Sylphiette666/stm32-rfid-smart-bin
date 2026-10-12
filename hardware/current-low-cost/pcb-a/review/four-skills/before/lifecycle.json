@@ -1,0 +1,48 @@
+{
+  "analyzer_type": "lifecycle",
+  "schema_version": "1.4.0",
+  "audit_date": "2026-10-12T18:56:59+08:00",
+  "components_checked": 0,
+  "components_with_mpn": 0,
+  "components_without_mpn": 48,
+  "sources_available": [],
+  "findings": [],
+  "lifecycle_summary": {
+    "active": 0,
+    "nrnd": 0,
+    "last_time_buy": 0,
+    "obsolete": 0,
+    "discontinued": 0,
+    "unknown": 0
+  },
+  "summary": {
+    "total_findings": 0,
+    "by_severity": {
+      "error": 0,
+      "warning": 0,
+      "info": 0
+    },
+    "components_checked": 0,
+    "lifecycle_issues": 0,
+    "temperature_issues": 0
+  },
+  "trust_summary": {
+    "total_findings": 0,
+    "trust_level": "high",
+    "by_confidence": {
+      "deterministic": 0,
+      "heuristic": 0,
+      "datasheet_backed": 0
+    },
+    "by_evidence_source": {
+      "datasheet": 0,
+      "topology": 0,
+      "heuristic_rule": 0,
+      "symbol_footprint": 0,
+      "bom": 0,
+      "geometry": 0,
+      "api_lookup": 0
+    },
+    "provenance_coverage_pct": null
+  }
+}

@@ -1,0 +1,14 @@
+drill SmartBin_A-NPTH.drl: units=mm ; FORMAT={-:-/ absolute / metric / decimal} notes: M48 header present; absolute coords (G90)
+drill SmartBin_A-PTH.drl: units=mm ; FORMAT={-:-/ absolute / metric / decimal} notes: M48 header present; absolute coords (G90)
+drill drill-report.txt: units=UNKNOWN  notes: NO M48 header - embedded/implicit format: verify with fab
+WARN: drill drill-report.txt: units not detected (check header)
+
+--- pre-release checklist (manual) ---
+[ ] copper layers: 2 ['1', '99']
+[ ] mask: ['SmartBin_A-B_Mask.gbs', 'SmartBin_A-F_Mask.gts'] | silk: ['SmartBin_A-B_Silkscreen.gbo', 'SmartBin_A-F_Silkscreen.gto'] | paste: skipped | outline: ['SmartBin_A-Edge_Cuts.gm1'] | drill: ['SmartBin_A-NPTH.drl', 'SmartBin_A-PTH.drl', 'drill-report.txt']
+[ ] pos.csv + BOM exported from FINAL board; designators reconcile
+[ ] fab notes filled (stackup/finish/copper/qty/impedance)
+[ ] bring-up notes written BEFORE ordering
+[ ] human review where mandated (HV/mains/safety/battery)
+[ ] final backup uploaded + verified (download-back check)
+gerber_audit: PASS (17 files, 2 copper, 0 errors, 1 warnings)

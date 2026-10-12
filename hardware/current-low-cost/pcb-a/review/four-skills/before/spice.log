@@ -1,0 +1,7 @@
+
+STDERR
+Error: no SPICE simulator found. Install one of:
+  ngspice: apt install ngspice / brew install ngspice
+  LTspice: download from analog.com/ltspice
+  Xyce:    download from xyce.sandia.gov
+  Or set NGSPICE_PATH env var to the ngspice binary path.

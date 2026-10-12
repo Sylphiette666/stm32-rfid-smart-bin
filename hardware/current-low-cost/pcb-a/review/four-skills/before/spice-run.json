@@ -1,0 +1,8 @@
+{
+  "task": "spice",
+  "exit": 1,
+  "seconds": 0.27,
+  "script": "C:\\Users\\35462\\.codex\\skills\\spice\\scripts\\simulate_subcircuits.py",
+  "script_sha256": "237d49121d791841e961123bd7192d76b9f3e1c4c66ce2d820efe4639d42ffd2",
+  "stderr": "Error: no SPICE simulator found. Install one of:\r\n  ngspice: apt install ngspice / brew install ngspice\r\n  LTspice: download from analog.com/ltspice\r\n  Xyce:    download from xyce.sandia.gov\r\n  Or set NGSPICE_PATH env var to the ngspice binary path.\r\n"
+}

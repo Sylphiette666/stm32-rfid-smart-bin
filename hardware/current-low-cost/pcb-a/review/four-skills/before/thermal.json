@@ -1,0 +1,80 @@
+{
+  "analyzer_type": "thermal",
+  "schema_version": "1.4.0",
+  "inputs": {
+    "source_files": [
+      "D:\\Work\\\u5d4c\u5165\u5f0f\u8bfe\u8bbe\\.four-skills-review-20261012\\analysis\\schematic.json",
+      "D:\\Work\\\u5d4c\u5165\u5f0f\u8bfe\u8bbe\\.four-skills-review-20261012\\analysis\\pcb.json"
+    ],
+    "source_hashes": {
+      "D:\\Work\\\u5d4c\u5165\u5f0f\u8bfe\u8bbe\\.four-skills-review-20261012\\analysis\\schematic.json": "51df351b854c20dd119566b5af6c66db91c477054165bae9a213908ed6b9cd6f",
+      "D:\\Work\\\u5d4c\u5165\u5f0f\u8bfe\u8bbe\\.four-skills-review-20261012\\analysis\\pcb.json": "db71fdebd6123dc10b629b3f9c3777b2e087c4b03dbd85d863b1e3078d522c59"
+    },
+    "run_id": "20261012T105534Z-c54bc7",
+    "config_hash": null,
+    "upstream_artifacts": {
+      "schematic": {
+        "path": "D:\\Work\\\u5d4c\u5165\u5f0f\u8bfe\u8bbe\\.four-skills-review-20261012\\analysis\\schematic.json",
+        "sha256": "51df351b854c20dd119566b5af6c66db91c477054165bae9a213908ed6b9cd6f",
+        "schema_version": "1.4.0",
+        "run_id": "20261012T105534Z-c54bc7"
+      },
+      "pcb": {
+        "path": "D:\\Work\\\u5d4c\u5165\u5f0f\u8bfe\u8bbe\\.four-skills-review-20261012\\analysis\\pcb.json",
+        "sha256": "db71fdebd6123dc10b629b3f9c3777b2e087c4b03dbd85d863b1e3078d522c59",
+        "schema_version": "1.4.0",
+        "run_id": "20261012T105534Z-c54bc7"
+      }
+    }
+  },
+  "compat": {
+    "minimum_consumer_version": "1.4.0",
+    "deprecated_fields": [],
+    "experimental_fields": []
+  },
+  "summary": {
+    "total_findings": 0,
+    "components_assessed": 0,
+    "components_skipped": 0,
+    "active": 0,
+    "suppressed": 0,
+    "by_severity": {
+      "error": 0,
+      "warning": 0,
+      "info": 0
+    },
+    "thermal_score": null,
+    "skipped_reason": "No components had quantifiable power dissipation data (missing MPNs or no datasheet extraction cache)",
+    "total_board_dissipation_w": 0,
+    "components_analyzed": 0,
+    "components_above_85c": 0,
+    "components_above_tjmax": 0,
+    "ambient_c": 25.0
+  },
+  "findings": [],
+  "assessments": [],
+  "elapsed_s": 0.0,
+  "trust_summary": {
+    "total_findings": 0,
+    "trust_level": "high",
+    "by_confidence": {
+      "deterministic": 0,
+      "heuristic": 0,
+      "datasheet_backed": 0
+    },
+    "by_evidence_source": {
+      "datasheet": 0,
+      "topology": 0,
+      "heuristic_rule": 0,
+      "symbol_footprint": 0,
+      "bom": 0,
+      "geometry": 0,
+      "api_lookup": 0
+    },
+    "provenance_coverage_pct": null
+  },
+  "capability_mode_ref": {
+    "source": "analysis/capability_mode.json",
+    "run_id": "20261012T105534Z-c54bc7"
+  }
+}

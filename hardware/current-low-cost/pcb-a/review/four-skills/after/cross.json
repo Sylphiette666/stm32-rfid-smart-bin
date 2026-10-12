@@ -1,0 +1,238 @@
+{
+  "analyzer_type": "cross_analysis",
+  "schema_version": "1.4.0",
+  "inputs": {
+    "source_files": [
+      "D:\\Work\\\u5d4c\u5165\u5f0f\u8bfe\u8bbe\\.four-skills-review-20261012\\analysis-after\\schematic.json",
+      "D:\\Work\\\u5d4c\u5165\u5f0f\u8bfe\u8bbe\\.four-skills-review-20261012\\analysis-after\\pcb.json"
+    ],
+    "source_hashes": {
+      "D:\\Work\\\u5d4c\u5165\u5f0f\u8bfe\u8bbe\\.four-skills-review-20261012\\analysis-after\\schematic.json": "9eb9fd402a7a114524f0770833b5fac2dbabf78cc1c900dc5f9b98ffe2c8c6d5",
+      "D:\\Work\\\u5d4c\u5165\u5f0f\u8bfe\u8bbe\\.four-skills-review-20261012\\analysis-after\\pcb.json": "791f841dc0f23246761afda3fc8f0fec3cdaa4b68854feca4f6f6362ba11fd05"
+    },
+    "run_id": "20261012T111515Z-0b7f02",
+    "config_hash": null,
+    "upstream_artifacts": {
+      "schematic": {
+        "path": "D:\\Work\\\u5d4c\u5165\u5f0f\u8bfe\u8bbe\\.four-skills-review-20261012\\analysis-after\\schematic.json",
+        "sha256": "9eb9fd402a7a114524f0770833b5fac2dbabf78cc1c900dc5f9b98ffe2c8c6d5",
+        "schema_version": "1.4.0",
+        "run_id": "20261012T111515Z-0b7f02"
+      },
+      "pcb": {
+        "path": "D:\\Work\\\u5d4c\u5165\u5f0f\u8bfe\u8bbe\\.four-skills-review-20261012\\analysis-after\\pcb.json",
+        "sha256": "791f841dc0f23246761afda3fc8f0fec3cdaa4b68854feca4f6f6362ba11fd05",
+        "schema_version": "1.4.0",
+        "run_id": "20261012T111515Z-0b7f02"
+      }
+    }
+  },
+  "compat": {
+    "minimum_consumer_version": "1.4.0",
+    "deprecated_fields": [],
+    "experimental_fields": []
+  },
+  "elapsed_s": 0.028,
+  "summary": {
+    "total_findings": 1,
+    "by_severity": {
+      "error": 0,
+      "warning": 1,
+      "info": 0
+    }
+  },
+  "findings": [
+    {
+      "detector": "check_plane_splits",
+      "rule_id": "PS-002",
+      "category": "plane_integrity",
+      "summary": "5V_BUS plane split: 6 islands, 2 signals crossing",
+      "description": "5V_BUS plane has 6 disconnected islands. Signals crossing: BAT_ADC_DIV, ES2_BASE.",
+      "components": [],
+      "nets": [
+        "5V_BUS",
+        "BAT_ADC_DIV",
+        "ES2_BASE"
+      ],
+      "pins": [],
+      "severity": "warning",
+      "confidence": "deterministic",
+      "evidence_source": "topology",
+      "recommendation": "Bridge the plane gap with copper pour or stitching vias. If zones were modified after the last fill, run KiCad Edit \u2192 Fill All Zones (B) and re-run the analyzer first \u2014 stale zone fills are a common cause of apparent plane splits.",
+      "report_context": {
+        "section": "Plane Integrity",
+        "impact": "Return path discontinuity increases EMI",
+        "standard_ref": ""
+      },
+      "finding_id": "cross_analysis:PS-002:5v_bus",
+      "stages": [
+        "layout"
+      ]
+    }
+  ],
+  "assessments": [],
+  "checks_run": [
+    {
+      "check": "CC-001",
+      "ran": true,
+      "reason_skipped": null,
+      "items_examined": 33,
+      "findings": 0
+    },
+    {
+      "check": "EG-001",
+      "ran": true,
+      "reason_skipped": null,
+      "items_examined": 33,
+      "findings": 0
+    },
+    {
+      "check": "DA-001",
+      "ran": true,
+      "reason_skipped": null,
+      "items_examined": 0,
+      "findings": 0
+    },
+    {
+      "check": "XV-001..003",
+      "ran": true,
+      "reason_skipped": null,
+      "items_examined": 94,
+      "findings": 0
+    },
+    {
+      "check": "NR-001",
+      "ran": true,
+      "reason_skipped": null,
+      "items_examined": 1117,
+      "findings": 0
+    },
+    {
+      "check": "RP-002",
+      "ran": true,
+      "reason_skipped": null,
+      "items_examined": 1117,
+      "findings": 0
+    },
+    {
+      "check": "TW-001",
+      "ran": false,
+      "reason_skipped": "no power regulator current estimates in schematic analysis",
+      "items_examined": 0,
+      "findings": 0
+    },
+    {
+      "check": "PS-002",
+      "ran": true,
+      "reason_skipped": null,
+      "items_examined": 73,
+      "findings": 1
+    },
+    {
+      "check": "VS-002",
+      "ran": true,
+      "reason_skipped": null,
+      "items_examined": 117,
+      "findings": 0
+    },
+    {
+      "check": "DP-005",
+      "ran": false,
+      "reason_skipped": "no differential pairs classified in schematic net_classifications",
+      "items_examined": 0,
+      "findings": 0
+    }
+  ],
+  "trust_summary": {
+    "total_findings": 1,
+    "trust_level": "high",
+    "by_confidence": {
+      "deterministic": 1,
+      "heuristic": 0,
+      "datasheet_backed": 0
+    },
+    "by_evidence_source": {
+      "datasheet": 0,
+      "topology": 1,
+      "heuristic_rule": 0,
+      "symbol_footprint": 0,
+      "bom": 0,
+      "geometry": 0,
+      "api_lookup": 0
+    },
+    "provenance_coverage_pct": 0.0
+  },
+  "audience_summary": {
+    "designer": {
+      "total_findings": 1,
+      "by_severity": {
+        "error": 0,
+        "warning": 1,
+        "info": 0
+      },
+      "by_category": {
+        "plane_integrity": 1
+      },
+      "top_issues": [
+        {
+          "detector": "check_plane_splits",
+          "rule_id": "PS-002",
+          "category": "plane_integrity",
+          "summary": "5V_BUS plane split: 6 islands, 2 signals crossing",
+          "description": "5V_BUS plane has 6 disconnected islands. Signals crossing: BAT_ADC_DIV, ES2_BASE.",
+          "components": [],
+          "nets": [
+            "5V_BUS",
+            "BAT_ADC_DIV",
+            "ES2_BASE"
+          ],
+          "pins": [],
+          "severity": "warning",
+          "confidence": "deterministic",
+          "evidence_source": "topology",
+          "recommendation": "Bridge the plane gap with copper pour or stitching vias. If zones were modified after the last fill, run KiCad Edit \u2192 Fill All Zones (B) and re-run the analyzer first \u2014 stale zone fills are a common cause of apparent plane splits.",
+          "report_context": {
+            "section": "Plane Integrity",
+            "impact": "Return path discontinuity increases EMI",
+            "standard_ref": ""
+          },
+          "finding_id": "cross_analysis:PS-002:5v_bus",
+          "stages": [
+            "layout"
+          ]
+        }
+      ]
+    },
+    "reviewer": {
+      "total_findings": 1,
+      "by_category": {
+        "plane_integrity": 1
+      },
+      "top_issues": [
+        {
+          "rule_id": "PS-002",
+          "severity": "warning",
+          "summary": "5V_BUS plane split: 6 islands, 2 signals crossing",
+          "recommendation": "Bridge the plane gap with copper pour or stitching vias. If zones were modified after the last fill, run KiCad Edit \u2192 Fill All Zones (B) and re-run the analyzer first \u2014 stale zone fills are a common cause of apparent plane splits.",
+          "category": "plane_integrity"
+        }
+      ]
+    },
+    "manager": {
+      "risk_level": "low",
+      "blocker_count": 0,
+      "warning_count": 1,
+      "stage_readiness": {
+        "schematic": "pass",
+        "layout": "needs_review",
+        "pre_fab": "pass",
+        "bring_up": "pass"
+      },
+      "one_liner": "1 warning across 1 category."
+    }
+  },
+  "capability_mode_ref": {
+    "source": "analysis/capability_mode.json",
+    "run_id": "20261012T111515Z-0b7f02"
+  }
+}

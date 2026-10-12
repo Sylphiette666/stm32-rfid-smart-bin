@@ -1,0 +1,39 @@
+{
+  "task": "emc",
+  "exit": 0,
+  "seconds": 0.52,
+  "script": "C:\\Users\\35462\\.codex\\skills\\emc\\scripts\\analyze_emc.py",
+  "script_sha256": "b79b5f6f27b0e62c42f1f158521a3242fa581b3658b68ceab1e7b683b4404203",
+  "stderr": "EMC analysis complete: 135 findings (score 70.0/100) → D:\\Work\\嵌入式课设\\.four-skills-review-20261012\\analysis-after\\emc.json\r\n",
+  "summary": {
+    "total_findings": 135,
+    "categories_checked": 5,
+    "active": 135,
+    "suppressed": 0,
+    "by_severity": {
+      "error": 45,
+      "warning": 44,
+      "info": 46
+    },
+    "emc_risk_score": 70.0
+  },
+  "keys": [
+    "analyzer_type",
+    "schema_version",
+    "inputs",
+    "compat",
+    "summary",
+    "target_standard",
+    "findings",
+    "assessments",
+    "per_net_scores",
+    "test_plan",
+    "regulatory_coverage",
+    "category_summary",
+    "board_info",
+    "elapsed_s",
+    "audience_summary",
+    "trust_summary",
+    "capability_mode_ref"
+  ]
+}

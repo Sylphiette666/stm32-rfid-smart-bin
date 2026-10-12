@@ -1,0 +1,64 @@
+stderr Warning: can't find the initialization file spinit.
+stdout ******
+stdout ** ngspice-46 shared library
+stdout ** Creation Date: Apr 14 2026   05:15:29
+stdout ******
+stdout Note: No compatibility mode selected!
+stdout Circuit: divider dc review
+Prepare Deck
+Parse
+stdout Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+Device Setup
+stdout Using SPARSE 1.3 as Direct Linear Solver
+op
+stdout No. of Data Rows : 1
+Source Deck
+stdout Note: No compatibility mode selected!
+stdout Circuit: divider dc review
+Prepare Deck
+Parse
+stdout Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+Device Setup
+stdout Using SPARSE 1.3 as Direct Linear Solver
+op
+stdout No. of Data Rows : 1
+Source Deck
+stdout Note: No compatibility mode selected!
+stdout Circuit: divider dc review
+Prepare Deck
+Parse
+stdout Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+Device Setup
+stdout Using SPARSE 1.3 as Direct Linear Solver
+op
+stdout No. of Data Rows : 1
+Source Deck
+stdout Note: No compatibility mode selected!
+stdout Circuit: divider dc review
+Prepare Deck
+Parse
+stdout Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+Device Setup
+stdout Using SPARSE 1.3 as Direct Linear Solver
+op
+stdout No. of Data Rows : 1
+Source Deck
+stdout Note: No compatibility mode selected!
+stdout Circuit: divider dc review
+Prepare Deck
+Parse
+stdout Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+Device Setup
+stdout Using SPARSE 1.3 as Direct Linear Solver
+op
+stdout No. of Data Rows : 1
+Source Deck
+stdout Note: No compatibility mode selected!
+stdout Circuit: divider dc review
+Prepare Deck
+Parse
+stdout Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+Device Setup
+stdout Using SPARSE 1.3 as Direct Linear Solver
+op
+stdout No. of Data Rows : 1

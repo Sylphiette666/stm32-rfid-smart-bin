@@ -1,10 +1,10 @@
 {
-  "board_sha256": "b16aad367273b6b39cf8452db6615a54745bc44198ac9485f1a253c8de96b066",
+  "board_sha256": "a7423fc37ea90df6079c1efc811024454c0423cb86c682edda9411fff4a9531a",
   "board_unchanged_during_read": true,
   "copper_layers": 2,
   "thickness": 1.6,
   "track_count": 1117,
-  "via_count": 62,
+  "via_count": 117,
   "width_counts": {
     "0.8": 179,
     "0.5": 123,
@@ -37,6 +37,501 @@
       "position": [
         73.037,
         77.963
+      ],
+      "diameter": 0.8,
+      "drill": 0.4
+    },
+    {
+      "net": "GND",
+      "position": [
+        16.92,
+        64.38
+      ],
+      "diameter": 0.8,
+      "drill": 0.4
+    },
+    {
+      "net": "GND",
+      "position": [
+        43.0,
+        79.24000000000001
+      ],
+      "diameter": 0.8,
+      "drill": 0.4
+    },
+    {
+      "net": "GND",
+      "position": [
+        2.5,
+        4.0
+      ],
+      "diameter": 0.8,
+      "drill": 0.4
+    },
+    {
+      "net": "GND",
+      "position": [
+        30.310000000000002,
+        27.040000000000006
+      ],
+      "diameter": 0.8,
+      "drill": 0.4
+    },
+    {
+      "net": "GND",
+      "position": [
+        39.620000000000005,
+        3.0799999999999983
+      ],
+      "diameter": 0.8,
+      "drill": 0.4
+    },
+    {
+      "net": "GND",
+      "position": [
+        64.2,
+        12.920000000000002
+      ],
+      "diameter": 0.8,
+      "drill": 0.4
+    },
+    {
+      "net": "GND",
+      "position": [
+        16.92,
+        76.38
+      ],
+      "diameter": 0.8,
+      "drill": 0.4
+    },
+    {
+      "net": "GND",
+      "position": [
+        4.920000000000002,
+        64.38
+      ],
+      "diameter": 0.8,
+      "drill": 0.4
+    },
+    {
+      "net": "GND",
+      "position": [
+        63.620000000000005,
+        3.0799999999999983
+      ],
+      "diameter": 0.8,
+      "drill": 0.4
+    },
+    {
+      "net": "GND",
+      "position": [
+        88.91999999999999,
+        27.620000000000005
+      ],
+      "diameter": 0.8,
+      "drill": 0.4
+    },
+    {
+      "net": "GND",
+      "position": [
+        50.94,
+        14.939999999999998
+      ],
+      "diameter": 0.8,
+      "drill": 0.4
+    },
+    {
+      "net": "GND",
+      "position": [
+        52.0,
+        74.5
+      ],
+      "diameter": 0.8,
+      "drill": 0.4
+    },
+    {
+      "net": "GND",
+      "position": [
+        66.0,
+        40.209999999999994
+      ],
+      "diameter": 0.8,
+      "drill": 0.4
+    },
+    {
+      "net": "GND",
+      "position": [
+        87.62,
+        88.91999999999999
+      ],
+      "diameter": 0.8,
+      "drill": 0.4
+    },
+    {
+      "net": "GND",
+      "position": [
+        38.0,
+        75.22
+      ],
+      "diameter": 0.8,
+      "drill": 0.4
+    },
+    {
+      "net": "GND",
+      "position": [
+        76.38,
+        88.91999999999999
+      ],
+      "diameter": 0.8,
+      "drill": 0.4
+    },
+    {
+      "net": "GND",
+      "position": [
+        4.920000000000002,
+        40.379999999999995
+      ],
+      "diameter": 0.8,
+      "drill": 0.4
+    },
+    {
+      "net": "GND",
+      "position": [
+        4.920000000000002,
+        52.379999999999995
+      ],
+      "diameter": 0.8,
+      "drill": 0.4
+    },
+    {
+      "net": "GND",
+      "position": [
+        28.92,
+        64.38
+      ],
+      "diameter": 0.8,
+      "drill": 0.4
+    },
+    {
+      "net": "GND",
+      "position": [
+        88.91999999999999,
+        4.380000000000003
+      ],
+      "diameter": 0.8,
+      "drill": 0.4
+    },
+    {
+      "net": "GND",
+      "position": [
+        76.47,
+        22.22
+      ],
+      "diameter": 0.8,
+      "drill": 0.4
+    },
+    {
+      "net": "GND",
+      "position": [
+        75.62,
+        4.920000000000002
+      ],
+      "diameter": 0.8,
+      "drill": 0.4
+    },
+    {
+      "net": "GND",
+      "position": [
+        65.79,
+        84.05000000000001
+      ],
+      "diameter": 0.8,
+      "drill": 0.4
+    },
+    {
+      "net": "GND",
+      "position": [
+        16.379998999999998,
+        4.920000000000002
+      ],
+      "diameter": 0.8,
+      "drill": 0.4
+    },
+    {
+      "net": "GND",
+      "position": [
+        69.12,
+        28.5
+      ],
+      "diameter": 0.8,
+      "drill": 0.4
+    },
+    {
+      "net": "GND",
+      "position": [
+        43.269999999999996,
+        59.650000000000006
+      ],
+      "diameter": 0.8,
+      "drill": 0.4
+    },
+    {
+      "net": "GND",
+      "position": [
+        76.92,
+        28.379999999999995
+      ],
+      "diameter": 0.8,
+      "drill": 0.4
+    },
+    {
+      "net": "GND",
+      "position": [
+        73.81,
+        36.459999999999994
+      ],
+      "diameter": 0.8,
+      "drill": 0.4
+    },
+    {
+      "net": "GND",
+      "position": [
+        15.620000000000005,
+        39.08
+      ],
+      "diameter": 0.8,
+      "drill": 0.4
+    },
+    {
+      "net": "GND",
+      "position": [
+        27.08,
+        39.620000000000005
+      ],
+      "diameter": 0.8,
+      "drill": 0.4
+    },
+    {
+      "net": "GND",
+      "position": [
+        29.0,
+        16.0
+      ],
+      "diameter": 0.8,
+      "drill": 0.4
+    },
+    {
+      "net": "GND",
+      "position": [
+        50.86,
+        68.28
+      ],
+      "diameter": 0.8,
+      "drill": 0.4
+    },
+    {
+      "net": "GND",
+      "position": [
+        55.97,
+        81.6
+      ],
+      "diameter": 0.8,
+      "drill": 0.4
+    },
+    {
+      "net": "GND",
+      "position": [
+        90.13,
+        38.05
+      ],
+      "diameter": 0.8,
+      "drill": 0.4
+    },
+    {
+      "net": "GND",
+      "position": [
+        58.0,
+        13.5
+      ],
+      "diameter": 0.8,
+      "drill": 0.4
+    },
+    {
+      "net": "GND",
+      "position": [
+        71.83,
+        83.41
+      ],
+      "diameter": 0.8,
+      "drill": 0.4
+    },
+    {
+      "net": "GND",
+      "position": [
+        28.92,
+        76.38
+      ],
+      "diameter": 0.8,
+      "drill": 0.4
+    },
+    {
+      "net": "GND",
+      "position": [
+        72.4,
+        20.180000000000007
+      ],
+      "diameter": 0.8,
+      "drill": 0.4
+    },
+    {
+      "net": "GND",
+      "position": [
+        88.91999999999999,
+        16.379998999999998
+      ],
+      "diameter": 0.8,
+      "drill": 0.4
+    },
+    {
+      "net": "GND",
+      "position": [
+        52.209999999999994,
+        56.41
+      ],
+      "diameter": 0.8,
+      "drill": 0.4
+    },
+    {
+      "net": "GND",
+      "position": [
+        28.379999999999995,
+        4.920000000000002
+      ],
+      "diameter": 0.8,
+      "drill": 0.4
+    },
+    {
+      "net": "GND",
+      "position": [
+        60.33,
+        40.209999999999994
+      ],
+      "diameter": 0.8,
+      "drill": 0.4
+    },
+    {
+      "net": "GND",
+      "position": [
+        35.5,
+        82.0
+      ],
+      "diameter": 0.8,
+      "drill": 0.4
+    },
+    {
+      "net": "GND",
+      "position": [
+        51.709999999999994,
+        81.12
+      ],
+      "diameter": 0.8,
+      "drill": 0.4
+    },
+    {
+      "net": "GND",
+      "position": [
+        92.38999999999999,
+        49.5
+      ],
+      "diameter": 0.8,
+      "drill": 0.4
+    },
+    {
+      "net": "GND",
+      "position": [
+        88.38,
+        64.92
+      ],
+      "diameter": 0.8,
+      "drill": 0.4
+    },
+    {
+      "net": "GND",
+      "position": [
+        89.35,
+        53.209999999999994
+      ],
+      "diameter": 0.8,
+      "drill": 0.4
+    },
+    {
+      "net": "GND",
+      "position": [
+        40.0,
+        40.5
+      ],
+      "diameter": 0.8,
+      "drill": 0.4
+    },
+    {
+      "net": "GND",
+      "position": [
+        16.379998999999998,
+        52.92
+      ],
+      "diameter": 0.8,
+      "drill": 0.4
+    },
+    {
+      "net": "GND",
+      "position": [
+        4.920000000000002,
+        28.379999999999995
+      ],
+      "diameter": 0.8,
+      "drill": 0.4
+    },
+    {
+      "net": "GND",
+      "position": [
+        16.379998999999998,
+        88.91999999999999
+      ],
+      "diameter": 0.8,
+      "drill": 0.4
+    },
+    {
+      "net": "GND",
+      "position": [
+        44.11,
+        46.349999999999994
+      ],
+      "diameter": 0.8,
+      "drill": 0.4
+    },
+    {
+      "net": "GND",
+      "position": [
+        49.3,
+        53.39
+      ],
+      "diameter": 0.8,
+      "drill": 0.4
+    },
+    {
+      "net": "GND",
+      "position": [
+        67.03,
+        33.06999999999999
+      ],
+      "diameter": 0.8,
+      "drill": 0.4
+    },
+    {
+      "net": "GND",
+      "position": [
+        61.69,
+        54.22
       ],
       "diameter": 0.8,
       "drill": 0.4
@@ -748,7 +1243,7 @@
       ],
       "clearance": 0.3,
       "thermal_spoke": 0.5,
-      "filled_polygons": 13
+      "filled_polygons": 17
     },
     {
       "net": "GND",
@@ -761,7 +1256,7 @@
       ],
       "clearance": 0.3,
       "thermal_spoke": 0.5,
-      "filled_polygons": 15
+      "filled_polygons": 26
     }
   ],
   "edge_cuts": [
@@ -4320,5 +4815,5 @@
     "expected_references": 94,
     "issues": []
   },
-  "copper_geometry_sha256": "f3516428df5aea85660f0645150cba33c5ded7ceec7ae27587e036e5b6c8f1a2"
+  "copper_geometry_sha256": "f32501a1fa60334fd307502a7a7e5a601ff4dcde2c2524dbf8b919c43b3b9a90"
 }

@@ -1,0 +1,36 @@
+{
+  "task": "gerber",
+  "exit": 0,
+  "seconds": 0.31,
+  "script": "C:\\Users\\35462\\.codex\\skills\\kicad\\scripts\\analyze_gerbers.py",
+  "script_sha256": "4fec81e477a7a870cfcb351e8828b029d7376e26dcb93ece41ad6952710f415f",
+  "stderr": "Written to D:\\Work\\嵌入式课设\\.four-skills-review-20261012\\analysis\\gerber.json\r\n",
+  "summary": {
+    "total_findings": 0,
+    "by_severity": {
+      "error": 0,
+      "warning": 0,
+      "info": 0
+    }
+  },
+  "keys": [
+    "analyzer_type",
+    "schema_version",
+    "directory",
+    "generator",
+    "layer_count",
+    "board_dimensions",
+    "statistics",
+    "completeness",
+    "alignment",
+    "drill_classification",
+    "pad_summary",
+    "gerbers",
+    "drills",
+    "drill_tools",
+    "job_file",
+    "zip_archives",
+    "findings",
+    "assessments"
+  ]
+}

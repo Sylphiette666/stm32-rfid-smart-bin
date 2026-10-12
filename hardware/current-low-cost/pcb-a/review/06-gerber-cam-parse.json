@@ -1,6 +1,6 @@
 {
-  "source": "D:\\Work\\嵌入式课设\\.pcb-lowcost-20261012\\a-design\\manufacturing\\Gerber_RS274X.zip",
-  "source_sha256": "d613507ebb631bb055847faf6cc9197b1f7f826a0880b4674f329b2af03ee1cf",
+  "source": ".four-skills-review-20261012\\working\\manufacturing\\Gerber_RS274X.zip",
+  "source_sha256": "fe6e2326e9f386d1d61bb4a39691f18acd81a0e23232bfc711ad509c4ede470a",
   "parser": "gerbonara 1.6.3",
   "board_bounds_mm": [
     [
@@ -14,7 +14,7 @@
   ],
   "layers": {
     "('top', 'copper')": {
-      "objects": 925,
+      "objects": 984,
       "bounds": [
         [
           50.7,
@@ -53,7 +53,7 @@
       ]
     },
     "('bottom', 'copper')": {
-      "objects": 932,
+      "objects": 998,
       "bounds": [
         [
           50.7,
@@ -105,11 +105,11 @@
       ]
     }
   },
-  "pth_objects": 356,
+  "pth_objects": 411,
   "npth_objects": 4,
   "warnings": [
-    "C:\\Users\\35462\\AppData\\Local\\Temp\\tmplw32m1oh\\input\\SmartBin_A-NPTH.drl:12 \"G90\": G90 header statement found after end of header",
-    "C:\\Users\\35462\\AppData\\Local\\Temp\\tmplw32m1oh\\input\\SmartBin_A-PTH.drl:20 \"G90\": G90 header statement found after end of header",
+    "C:\\Users\\35462\\AppData\\Local\\Temp\\tmpjdg1nzsm\\input\\SmartBin_A-NPTH.drl:12 \"G90\": G90 header statement found after end of header",
+    "C:\\Users\\35462\\AppData\\Local\\Temp\\tmpjdg1nzsm\\input\\SmartBin_A-PTH.drl:20 \"G90\": G90 header statement found after end of header",
     "Aperture definition using macro RoundRect has more parameters than the macro uses.",
     "Aperture definition using macro RoundRect has more parameters than the macro uses.",
     "Aperture definition using macro RoundRect has more parameters than the macro uses.",
