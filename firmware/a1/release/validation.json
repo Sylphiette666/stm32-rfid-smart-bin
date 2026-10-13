@@ -1,0 +1,80 @@
+{
+  "flash_image_bytes": 29328,
+  "flash_limit_bytes": 65536,
+  "ram_limit_bytes": 20480,
+  "stack_reserved_bytes": 4096,
+  "hardware_tested": false,
+  "files": {
+    "SmartBin_A1.axf": "6f21ecdc24b119cb64c9c2b16d5c6c44c8d61910473db14dd141fd4631c57d27",
+    "SmartBin_A1.bin": "3ccb173e4a1fccf2311a58a16884d1d8ec46656cbef5bf303d26d61bde162b27",
+    "SmartBin_A1.hex": "46f2af327810e4eca6fb5178c5e2b831f59128fcbed571f4872315f1a3a5e062"
+  },
+  "ram_bytes_including_reserved_stack": 15616,
+  "verified_at": "2026-10-13T18:20:52.045879+08:00",
+  "keil_rebuild": {
+    "errors": 0,
+    "warnings": 0,
+    "log": "*** Using Compiler 'V6.24', folder: 'D:\\Keil5\\ARM\\ARMCLANG\\Bin'\nRebuild target 'SmartBin_A1'\nassembling startup.s...\ncompiling nor.c...\ncompiling main.c...\ncompiling platform.c...\ncompiling rfid.c...\ncompiling app.c...\ncompiling devices.c...\ncompiling storage.c...\ncompiling console.c...\nlinking...\nProgram Size: Code=38608 RO-data=2336 RW-data=12 ZI-data=15716  \nFromELF: creating hex file...\n\"..\\build\\keil\\SmartBin_A1.axf\" - 0 Error(s), 0 Warning(s).\nBuild Time Elapsed:  00:00:01\n"
+  },
+  "host_tests": [
+    {
+      "test": "storage",
+      "passed": true,
+      "output": "storage_test.c\r\nstorage.c\r\n正在生成代码...\r\nPASS storage: CRC, 4/7/10-byte UID, last-admin guard, 501 power cuts, >1008 transactions, rollover, config, capacity, lost-card, corrupt-media\r\n"
+    },
+    {
+      "test": "app",
+      "passed": true,
+      "output": "app_test.c\r\nstorage.c\r\napp.c\r\nconsole.c\r\n正在生成代码...\r\nPASS app: boot-disarmed, UART permissions, malformed commands, 300ms timeout, STOP latch, estop interlock, stale MCP, direction failure, one-credit session, obstruction hold/close, confirmed admin transaction\r\n"
+    },
+    {
+      "test": "rfid",
+      "passed": true,
+      "output": "rfid_test.c\r\nrfid.c\r\n正在生成代码...\r\nPASS RFID: 4/7/10-byte cascade, CRC, 10-second presence dedup, WUPA/HALT, block-4 authentication/write/readback, no business event during card test\r\n"
+    },
+    {
+      "test": "sensors",
+      "passed": true,
+      "output": "sensors_test.c\r\ndevices.c\r\n正在生成代码...\r\nPASS sensors: MCP output preservation/reset detection, DHT checksum/edge timing/16-bit wrap/abort, ultrasonic median/hysteresis/maintenance clear/no-echo unknown\r\n"
+    }
+  ],
+  "source_sha256": {
+    "src/app.c": "c597871de525368a4362ced1a3845950bbc3d0fb9a15d5ca7456eeed2c02f020",
+    "src/console.c": "502d95c030e145d1b27e3fb1770f7ccaaeb690a1ddfc2f867292eefaa0d5b205",
+    "src/devices.c": "2585ad37998a64fb42e0e28f123dd592cd268f3d4e1bb90fee133b56759e71f9",
+    "src/main.c": "bb2c2aa5d4ddeddca7b04ebfa746fccf927b8d8a6df2674eeb82e49737d05e1c",
+    "src/nor.c": "6e307590daee96f0a49fd43746f4cfeb7f91cce215f2f89ed373aa35a08b195d",
+    "src/platform.c": "047bedf5779f52c6ad63d5aa94dbd05570822f672ac670ccdc3c689c88c43961",
+    "src/rfid.c": "7e305aa33d64d79a4ed4444f45b3d3efbcebe4e8cae838cc775ed3e5f044e1f2",
+    "src/startup.s": "18c5920e208c55b11b7a502069f5888d0b1f4e54d8d4c07a7e1539c4aacb94ff",
+    "src/storage.c": "f6d0f6cb3588fe871ef50436e498d9f30828a95e090472ad9e78787c295041de",
+    "include/app.h": "09ff5afc60f78194a8013fb256f6f7ba7f6081424fea58965fdbd6c3c40941db",
+    "include/config.h": "d37bdf9af1cdb7195bb02daef50b8cdd901f0cb10a17106e879b2589785d9b3d",
+    "include/devices.h": "4088cda2386b83dbb1f4a8b62a2584d9a8bff48e38d07bf1b1f8ff25b92de257",
+    "include/platform.h": "05dcd81d8f7c5f39c537e3c6047cf53b0582d65a30bc80443ed6a3adef443ade",
+    "include/storage.h": "77c626ff6e90944094a502b75b72cd911864b11b1fd154f239ed29fc15e6aa26",
+    "vendor/CMSIS5_Core/cmsis_armclang.h": "d5da2b48204f0d0cf1ff38ffccb527e5706cd0a091ff0a331eb41d6596c33fe5",
+    "vendor/CMSIS5_Core/cmsis_compiler.h": "b51963d271c1571ca3463654c76aa7ea50c4eac5d0a2710df10414ac64d9e0f8",
+    "vendor/CMSIS5_Core/cmsis_version.h": "184c19fd3ee73632edf35a0b4d49cd48be75fbf49e6ccb19d9db05fa83bea4b3",
+    "vendor/CMSIS5_Core/core_cm3.h": "c9937781259a8897adf514445441c68570087d6a72a558d8a4afe75cdb62dbd2",
+    "vendor/CMSIS5_Core/LICENSE.txt": "b40930bbcf80744c86c46a12bc9da056641d722716c378f5659b9e555ef833e1",
+    "vendor/CMSIS5_Core/mpu_armv7.h": "29206b52ee02290ed6f5a5415ebd4187de802cf176d9b3cb844390d8e5571372",
+    "MDK/flash.sct": "bec0c663ad4b523a5c77fb1663eeb782820b5b448977bf0966dea29ff5f78868",
+    "MDK/SmartBin_A1.uvprojx": "c0cb442ca142d99451f511e4d9ac04f8b4a90dd564ea7cfb914af4da18bf7a62",
+    "tools/build.py": "334ae11b4ad29e723b2913ee0bce33bf43d42dd4fd2ab76ad052114fb1222b07",
+    "tools/build_keil.py": "7beb14de535cac58e5fa899dfd46c5ca69b354497a5f32900dce33caaae971de",
+    "tools/make_project.py": "bf03fb155e19dff465692bcb1fd2bfeeb4bd1fdf2d3091caea9f47eaded94c4a",
+    "tools/package.py": "ca6f16ab0554084fc5258a453cef99364b322768ffc9a576a05e48e627ed9ea3",
+    "tools/test.py": "5b401ec67f10000ced803fb01ebe3a35f5c8f37fadd5a5dd5697346f2aa28e65",
+    "tests/app_test.c": "c11ad7d94e27a557886a2f1ced1112a072d826959af13a2aee436094aaca4a3e",
+    "tests/rfid_test.c": "6df188e7aa35eabf034f70807194fec1c8e99eff86e69cab2a12878cf0ecefa0",
+    "tests/sensors_test.c": "2d58544ccf78cef236beb0b0609b1a324424b9d76c9236eaa1785ca27954b0e3",
+    "tests/storage_test.c": "356fb679168752f9e746503f9b9f0d0dfd6568d9621d8a59b0dad83c6e3ebb93"
+  },
+  "source_hash_normalization": "CRLF to LF; UTF-8 bytes otherwise unchanged",
+  "limitations": [
+    "No target hardware attached or flashed",
+    "Physical calibration and acceptance remain pending",
+    "Command-line legacy assembler reports a deprecation warning; uVision build reports 0 warnings"
+  ]
+}

@@ -1,0 +1,6 @@
+# Preserve upstream formatting in copied CMSIS and the derived ST startup file.
+vendor/** -whitespace
+src/startup.s -whitespace
+release/*.hex binary
+release/*.bin binary
+release/*.axf binary

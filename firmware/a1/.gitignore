@@ -1,0 +1,9 @@
+build/
+MDK/RTE/
+MDK/DebugConfig/
+*.uvguix.*
+*.uvoptx
+*.uvprojx.bak
+*.uvoptx.bak
+!release/
+!release/**

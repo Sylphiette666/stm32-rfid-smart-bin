@@ -8,7 +8,7 @@
 2. [在线阅读全部步骤](docs/manual/ASSEMBLY.md)：按顺序检查、装配和调试，原330步不重编；图解以同名Word最新版为准。
 3. [查看当前A1 PCB资料](hardware/current-low-cost/pcb-a/README.md)、[接线说明](hardware/current-low-cost/WIRING.md)、[逐针接口表](hardware/current-low-cost/pcb-a/connector-map.csv)、[BOM](hardware/current-low-cost/pcb-a/manufacturing/bom.csv)和[33项功能验收清单](docs/ACCEPTANCE.md)。裸板制造文件为[Gerber_RS274X.zip](hardware/current-low-cost/pcb-a/manufacturing/Gerber_RS274X.zip)，原理图及工程在[kicad目录](hardware/current-low-cost/pcb-a/kicad/)。
 4. [查看SG90等图解与说明](docs/manual/illustrated-additions-20261010/)和[木板与PVC裁剪图解](docs/manual/cutting-diagrams-20261010/)；[旧PWR/IO洞洞板正反面与逐根焊线表](hardware/current-low-cost/perfboard/)仅作归档参考，不再作为A1 PCB施工接口。
-5. [查看固件开发状态](firmware/README.md)，再开始编写和烧录程序。
+5. [打开A1固件与调试说明](firmware/a1/README.md)：已提供可编译Keil工程和烧录文件，先按[实验室集中检查清单](firmware/a1/LAB_CHECKLIST.md)核对硬件，再逐模块上电调试。
 
 本次接地加强版新增55个GND过孔，不增加元件采购或手焊任务；裸板制造检查通过，仍保留EMC及实物验证边界。详见[四套技能联合审查报告](hardware/current-low-cost/pcb-a/review/four-skills/四套技能联合审查报告.md)。
 
@@ -27,13 +27,14 @@
 | `hardware/current-low-cost/pcb-a/` | 100×100mm裸PCB、原理图、制造Gerber、BOM和逐针接口表 |
 | `hardware/current-low-cost/perfboard/` | 归档：原PWR与IO两块洞洞板正反面、孔位、逐根焊线表及外接说明 |
 | `hardware/archive/pcb-v2.1/` | 旧PCF8574方案的嘉立创工程、KiCad、Gerber、BOM和贴片坐标 |
-| `firmware/legacy/` | 已有CMSIS基础文件，应用程序待实现 |
+| `firmware/a1/` | A1应用固件、Keil工程、四组主机C测试、发布文件和集中调试说明 |
+| `firmware/legacy/` | 保留的STM32/CMSIS基础文件 |
 | `archive/` | 较早手册、采购表及折叠内胆参考图 |
 
 ## 当前状态与版本边界
 
 - 已整理设计、采购、装配、接线、软件实施步骤和验收方法；文档步骤不代表已完成实物验证。
-- 当前仓库**没有实现全部33项功能的完整可编译固件**，不能把CMSIS目录当作成品程序烧录。
+- 2026-10-13已实现A1应用固件，并通过编译与主机模拟测试；**没有完成实物烧录、标定和整机验收**。默认关闭电机/舵机动作，硬件型号与极性须确认；使用方式见`firmware/a1/README.md`。
 - A1继续使用MCP23017成品模块与原MCU功能映射，复用已购器件；AO3400A裸管仍须焊转接板。新PCB只有JP3—JP10共8组跳帽，没有JP1/JP2。旧洞洞板接口及PCF8574 V2.1 PCB均不能混用。
 - 当前电气制作基线为2026年10月12日A1 PCB补充；原330步的功能、机械装配和验收顺序保留。PCB的设计检查及制造文件不等于实物焊接、通电或33项功能验收已完成。
 - 仓库内没有上传账户凭据、订单截图、渲染缓存、临时锁文件或工具依赖目录。
