@@ -8,7 +8,7 @@
 2. [在线阅读全部步骤](docs/manual/ASSEMBLY.md)：按顺序检查、装配和调试，原330步不重编；图解以同名Word最新版为准。
 3. [查看当前A1 PCB资料](hardware/current-low-cost/pcb-a/README.md)、[接线说明](hardware/current-low-cost/WIRING.md)、[逐针接口表](hardware/current-low-cost/pcb-a/connector-map.csv)、[BOM](hardware/current-low-cost/pcb-a/manufacturing/bom.csv)和[33项功能验收清单](docs/ACCEPTANCE.md)。裸板制造文件为[Gerber_RS274X.zip](hardware/current-low-cost/pcb-a/manufacturing/Gerber_RS274X.zip)，原理图及工程在[kicad目录](hardware/current-low-cost/pcb-a/kicad/)。
 4. [查看SG90等图解与说明](docs/manual/illustrated-additions-20261010/)和[木板与PVC裁剪图解](docs/manual/cutting-diagrams-20261010/)；[旧PWR/IO洞洞板正反面与逐根焊线表](hardware/current-low-cost/perfboard/)仅作归档参考，不再作为A1 PCB施工接口。
-5. [打开A1固件与调试说明](firmware/a1/README.md)：已提供可编译Keil工程和烧录文件，先按[实验室集中检查清单](firmware/a1/LAB_CHECKLIST.md)核对硬件，再逐模块上电调试。
+5. [打开A1固件与调试说明](firmware/a1/README.md)：开发环境已确定为Keil，编译、下载及调试均在Keil完成，无需安装CubeMX、CubeIDE或CubeProgrammer。已提供工程和烧录文件；先按[实验室集中检查清单](firmware/a1/LAB_CHECKLIST.md)核对硬件，再逐模块上电调试。Word中旧软件路线以此说明和在线手册第37章为准。
 
 本次接地加强版新增55个GND过孔，不增加元件采购或手焊任务；裸板制造检查通过，仍保留EMC及实物验证边界。详见[四套技能联合审查报告](hardware/current-low-cost/pcb-a/review/four-skills/四套技能联合审查报告.md)。
 

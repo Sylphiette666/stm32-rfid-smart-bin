@@ -4,6 +4,19 @@
 
 这份工程已实现账户、积分持久化、刷卡投放、盖板、运动、菜单、串口和传感器流程，提供可编译工程及烧录文件。编译和主机测试不等于实物33项验收通过。传感器极性、模块型号、供电、机构脉宽及速度必须按实物确认。
 
+## 开发工具已确定使用 Keil
+
+本项目使用 **Keil µVision + Arm Compiler 6** 完成编辑、编译、下载和源码调试。STM32CubeMX、STM32CubeIDE、STM32CubeProgrammer 都不是当前工程的必装软件；早期手册中的 ST 工具路线不再作为本固件的操作入口。继续使用现有下载器，首次按实际型号选择 ST-LINK 或 J-Link 并安装相应驱动。
+
+| 工具 | 本项目用途 |
+|---|---|
+| Keil µVision、Arm Compiler 6、STM32F1xx_DFP | 必需的软件开发环境，已有可用安装可直接复用 |
+| 下载器驱动、USB串口驱动及串口终端 | 连接实物、执行 STATUS/RAW 和保存测量记录 |
+| VS Code | 可选，用于编辑源码；也可在终端调用下方已有构建脚本，无需另建一套工程 |
+| CubeMX / CubeIDE / CubeProgrammer | 当前流程不依赖，无需为本项目安装 |
+
+VS Code 本身不包含 STM32 编译器和下载调试器。Arm 也提供 [Keil Studio for VS Code](https://mdk-packs.github.io/vscode-cmsis-solution-docs/installation.html)，但它采用 CMSIS solution 工程工作流；本次交付的是 µVision `.uvprojx` 工程，未配置 VS Code 原生断点调试。为了直接复用已经验证的工程，本项目的下载和调试入口统一使用 Keil。
+
 ## 打开与编译
 
 1. 用已有 Keil 打开 `MDK/SmartBin_A1.uvprojx`。
@@ -11,6 +24,26 @@
 3. HEX 位于 `build/keil/SmartBin_A1.hex`；AXF 可用于源码调试。
 4. `release/` 提供命令行优化构建的 HEX、BIN、AXF、校验值和验证记录。HEX 已包含地址；BIN 起始地址为 `0x08000000`。
 5. 调试器按实物选择 ST-LINK 或 J-Link、SWD；不要把核心 USB 接入已连接的整机。
+
+保留整个固件目录结构，不要只复制 `.uvprojx`：工程仍引用 `firmware/legacy/SmartBin_F103/CMSIS/Device/` 中的设备头文件。若编译器或器件包未找到，在 Options for Target / Pack Installer 中选择已安装的兼容版本，再重新编译。
+
+Keil的C/C++ Misc Controls已显式设置`-Oz`体积优化。当前重新编译为0错误、0警告，Code+RO+RW为29320字节，低于32KB；许可仍以本机正常激活的编译器为准。优化可能使部分局部变量不可观察、单步顺序与源代码不同；需要细查某个模块时可调整优化后重编译，并重新检查程序大小。
+
+## Keil 下载与源码调试
+
+本工程不附带与个人下载器绑定的 `.uvoptx`，首次连接按以下顺序设置。编译通过不代表已经连接或烧录实物。
+
+1. 先按 [实验室清单](LAB_CHECKLIST.md) 完成供电检查。接线时断电，电机和舵机功率支路断开；SWDIO 接 PA13、SWCLK 接 PA14、GND 共地，有 NRST 则接 NRST。目标板按 A1 方案供电，下载器的参考电压与供电输出按实际型号区分。
+2. 打开 **Options for Target → Debug**，选择实际的 **ST-Link Debugger** 或 **J-LINK / J-TRACE Cortex**；进入 Settings，选 **SWD**，初始时钟选择约 400 kHz 或更低的可用档位。
+3. 在 **Utilities** 中选 **Use Debug Driver**。在 **Flash Download** 中确认适用于 STM32F103C8 的中容量算法 `STM32F10x Med-density Flash`（文件 `STM32F10x_128.FLM`）；实际工程链接范围仍为 `0x08000000` 起的 64KB。算法文件名中的128不代表可把C8工程按128KB使用。保留 Program 和 Verify。
+4. 执行 **Rebuild**，确认无错误，再选 **Flash → Download**。使用当前工程生成的映像；由工程地址配置决定下载位置，无需另开 CubeProgrammer。
+5. 先保持 DISARMED，用串口终端 115200、8N1 发送 `STATUS` 和 `RAW`，核对启动状态和输入。单独核心板未接齐外设时可能报告模块故障，不应通过使能执行器绕过。
+6. 选 **Debug → Start/Stop Debug Session**，在 `main` 或目标模块设置断点，使用 Run、Step、Watch 观察。**设置断点前保持 DISARM 并断开动力支路**：CPU暂停时定时器可能继续输出，不能把暂停当作执行器停止。执行器联调以运行中的串口记录为主。
+7. 下载后退出调试，重新上电检查程序能独立运行，再继续管理员初始化和各模块标定。连接失败先查供电、共地、SWD接线和驱动；必要时连接NRST并尝试 under reset，不先修改 Option Bytes。
+
+该流程对应 [Arm 官方 ST-LINK 与 µVision 使用说明](https://www.keil.com/appnotes/files/apnt_286_v1.7.pdf)。本机已验证编译；实物连接、烧录和断点仍待用户持有硬件时验证。
+
+## 可选命令行构建
 
 也可以用 Python 3 执行：
 

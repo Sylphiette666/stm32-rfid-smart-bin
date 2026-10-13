@@ -25,7 +25,7 @@ for prefix in ('BeforeCompile','BeforeMake','AfterMake'):
 setval('TargetOption/TargetArmAds/Cads/VariousControls/Define','STM32F10X_MD,__MICROLIB')
 setval('TargetOption/TargetArmAds/Cads/VariousControls/IncludePath',
        '..\\include;..\\vendor\\CMSIS5_Core;..\\..\\legacy\\SmartBin_F103\\CMSIS\\Device')
-setval('TargetOption/TargetArmAds/Cads/VariousControls/MiscControls','-std=c11 -Wall -Wextra -Werror')
+setval('TargetOption/TargetArmAds/Cads/VariousControls/MiscControls','-std=c11 -Wall -Wextra -Werror -Oz')
 setval('TargetOption/TargetArmAds/LDads/ScatterFile','.\\flash.sct')
 setval('TargetOption/TargetArmAds/LDads/umfTarg','0')
 setval('TargetOption/TargetArmAds/LDads/Misc','--strict')

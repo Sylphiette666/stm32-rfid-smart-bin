@@ -6,4 +6,6 @@
 
 本次交付使用已有Keil/Arm Compiler和CMSIS寄存器工程，而非手册原规划的CubeMX/HAL路线；引脚及硬件A1接口保持。软件使用方法、配置差异和已知限制以 [A1固件说明](a1/README.md)为准，物理接线仍按最新A1逐针表。旧PCF8574 V2.1引脚配置不能套用。
 
+**开发工具确定为Keil。** 在Keil内完成编辑、编译、下载及源码调试，不要求安装CubeMX、CubeIDE或CubeProgrammer。VS Code可作为可选源码编辑器；当前已验证的工程入口是µVision，首次下载器设置见[A1固件说明](a1/README.md#keil-下载与源码调试)。
+
 `legacy/`保留原基础文件；`a1/vendor/`保留编译所需CMSIS5子集和许可。工具运行依赖及构建缓存不提交。每次修改模块极性或硬件配置后重新编译并验证相应实物。

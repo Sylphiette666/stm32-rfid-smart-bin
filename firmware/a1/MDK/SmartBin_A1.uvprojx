@@ -334,7 +334,7 @@
             <v6WtE>0</v6WtE>
             <v6Rtti>0</v6Rtti>
             <VariousControls>
-              <MiscControls>-std=c11 -Wall -Wextra -Werror</MiscControls>
+              <MiscControls>-std=c11 -Wall -Wextra -Werror -Oz</MiscControls>
               <Define>STM32F10X_MD,__MICROLIB</Define>
               <Undefine />
               <IncludePath>..\include;..\vendor\CMSIS5_Core;..\..\legacy\SmartBin_F103\CMSIS\Device</IncludePath>
