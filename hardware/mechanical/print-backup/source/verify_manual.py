@@ -7,8 +7,8 @@ from PIL import Image
 from docx import Document
 
 REPO=Path(__file__).resolve().parents[4]
-W=REPO.parent/'.p2s-light-20261030/manual'
-OLD=REPO.parent/'.p2s-whole-20261030/manual/render/manual.pdf'
+W=REPO.parent/'.p2s-pack-20261030/manual'
+OLD=REPO.parent/'.p2s-light-20261030/manual/render/manual.pdf'
 NEW=W/'render/manual.pdf'
 old=pdfium.PdfDocument(OLD); new=pdfium.PdfDocument(NEW)
 def picture(doc,i,scale=1.3):
@@ -43,6 +43,6 @@ report={'original_pages':len(old),'new_pages':len(new),'unchanged_page_bodies':l
  'toc_and_page_numbers_updated_in_owned_word_instance':True,
  'docx_sha256':hashlib.sha256((W/name).read_bytes()).hexdigest(),
  'packaged_renderer':'Attempted; LibreOffice is absent. Used existing isolated Word renderer and bundled pypdfium2.',
- 'physical_print_or_load_test_performed':False,'slicer_toolpath_test_performed':False,'whole_plates_only':True}
+ 'physical_print_or_load_test_performed':False,'slicer_toolpath_test_performed':True,'whole_plates_only':True}
 (W/'raster_audit.json').write_text(json.dumps(report,ensure_ascii=False,indent=2),encoding='utf-8')
 print(json.dumps({k:v for k,v in report.items()if k!='unchanged_mapping'},ensure_ascii=False))

@@ -26,10 +26,10 @@ def outline(l,w):
  c=P['corner_clip'];return [(c,0),(l-c,0),(l,c),(l,w-c),(l-c,w),(c,w),(0,w-c),(0,c)]
 def plate(p):
  l,w=p['size'];s=cq.Workplane('XY').polyline(outline(l,w)).close().extrude(T)
- for x,y in p['holes']:
+ for x,y in p['holes']+p.get('extra_holes',[]):
   s=s.cut(cq.Solid.makeCylinder(D/2,T+2,cq.Vector(x,y,-1)))
   assert s.val().intersect(cq.Solid.makeCylinder(D/2-.02,T+2,cq.Vector(x,y,-1))).Volume()<1e-7
- analytic=(l*w-2*P['corner_clip']**2-len(p['holes'])*math.pi*(D/2)**2)*T
+ analytic=(l*w-2*P['corner_clip']**2-len(p['holes']+p.get('extra_holes',[]))*math.pi*(D/2)**2)*T
  assert abs(s.val().Volume()-analytic)<1e-5
  return s
 
@@ -94,7 +94,7 @@ def lighten(s,p):
   assert pad.intersect(plate(p).val()).cut(s.val()).Volume()<1e-6,(p['id'],x,y)
  for x0,y0,x1,y1 in p['solid_rectangles']:
   guard=cq.Workplane('XY').box(x1-x0,y1-y0,T,centered=False).translate((x0,y0,0)).val()
-  assert guard.cut(s.val()).Volume()<1e-6
+  assert guard.intersect(plate(p).val()).cut(s.val()).Volume()<1e-6
  # Entire 3-mm upper slab is unchanged, including original holes.
  slab=cq.Workplane('XY').box(p['size'][0],p['size'][1],skin,centered=False).translate((0,0,depth)).intersect(plate(p))
  assert slab.val().cut(s.val()).Volume()<1e-6
@@ -139,6 +139,8 @@ for ax,p in zip(axs,P['plates']):
   ax.add_patch(Circle((x,y),D/2,fc='white',ec='#244c64'))
   ax.plot([x-4,x+4],[y,y],color='#397ca8',lw=.8);ax.plot([x,x],[y-4,y+4],color='#397ca8',lw=.8)
   ax.text(x,y+(12 if y<w/2 else -15),f'({x:g}, {y:g})',ha='left'if x<l/2 else'right',fontsize=14)
+ for x,y in p.get('extra_holes',[]):
+  ax.add_patch(Circle((x,y),D/2,fc='#e99035',ec='#9d541a'))
  ax.text(l/2,w+27,f'{p["id"]} {p["name"]}  {l:g}×{w:g}×5 mm',ha='center',fontsize=16,fontweight='bold')
  for x0,y0,x1,y1 in p.get('pockets',[]):
   from matplotlib.patches import FancyBboxPatch

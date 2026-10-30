@@ -1,34 +1,44 @@
 {
   "original_pages": 203,
-  "new_pages": 203,
-  "unchanged_page_bodies": 200,
+  "new_pages": 207,
+  "unchanged_page_bodies": 201,
   "pages_requiring_visual_review": [
     201,
-    202,
-    203
+    203,
+    204,
+    205,
+    206,
+    207
   ],
   "all_pages_rasterized": true,
   "steps_preserved": 330,
   "original_tables_preserved": 66,
   "user_word_instances_touched": false,
   "toc_and_page_numbers_updated_in_owned_word_instance": true,
-  "docx_sha256": "0df4b3757ec571e28a61dae82fa2de58f953580ec925e42b047d3f9053ee2834",
+  "docx_sha256": "5ded3452c278ca5db499dc39552ebd92f8d3d7870ac0dfac0eaf6e1c44eb8fae",
   "packaged_renderer": "Attempted; LibreOffice is absent. Used existing isolated Word renderer and bundled pypdfium2.",
   "physical_print_or_load_test_performed": false,
-  "slicer_toolpath_test_performed": false,
+  "slicer_toolpath_test_performed": true,
   "whole_plates_only": true,
   "status": "PASS",
   "visually_inspected_pages": [
     201,
-    202,
-    203
+    203,
+    204,
+    205,
+    206,
+    207
   ],
-  "visual_result": "No clipped text, split tables, overlapping labels or missing glyphs on revised pages.",
+  "visual_result": "No clipping, overlaps, missing glyphs or split tables; all four objects visible in the revised packed 3D view.",
   "chapter_revised": 65,
   "figures": [
     50,
     51,
-    52
+    52,
+    53,
+    54,
+    55,
+    56
   ],
   "material": "PLA",
   "rated_load_kg": null

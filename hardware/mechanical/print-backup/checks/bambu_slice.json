@@ -1,0 +1,28 @@
+{
+  "status": "PASS",
+  "bambu_studio_version": "02.08.02.61",
+  "backend": "Official Windows BambuStudio.dll CLI in isolated helper process; existing user application untouched",
+  "machine": "Bambu Lab P2S 0.4 nozzle",
+  "material": "Generic PLA @BBL P2S",
+  "process": {
+    "layer_height_mm": 0.2,
+    "walls": 4,
+    "infill": "30% gyroid",
+    "top_bottom_layers": 8,
+    "print_sequence": "by layer",
+    "brim_mm": 12,
+    "outer_wall_speed_mm_s": 60,
+    "default_acceleration_mm_s2": 2000
+  },
+  "cli_return_code": 0,
+  "result_message": "Success.",
+  "native_roundtrip_four_object_bounds_match": true,
+  "native_contains_gcode": false,
+  "estimated_time_seconds": 91931.6953125,
+  "estimated_filament_g": 549.55712890625,
+  "slicer_warning_message": "",
+  "physical_print_test": false,
+  "stock_end_script_parser_note": "CLI logs Invalid T command (T65535) while parsing the stock P2S AMS unload command; official end script is unchanged. Export/slice return code is 0. No G-code is distributed; user must re-slice with actual printer/filament in Studio.",
+  "sliced_input_sha256": "2bf26c6c8ecdb00a6b2b59e162a068690c331974ba92f0054952b4e3e03ba5ab",
+  "native_project_sha256": "19f859675bc8073d9d27ab75257c37dbbc48af9c8a17341d3a0dcf625b05d9ed"
+}

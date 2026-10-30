@@ -1,0 +1,135 @@
+{
+  "status": "PASS",
+  "printer": "Bambu Lab P2S",
+  "print_sequence_required": "by layer",
+  "brim_mm": 12,
+  "objects": [
+    {
+      "object": "P01_base",
+      "bounds_mm": [
+        [
+          35.237281799316406,
+          17.23728370666504,
+          0.0
+        ],
+        [
+          236.76271057128906,
+          218.76271057128906,
+          220.0
+        ]
+      ],
+      "brim_mm": 12,
+      "within_p2s_volume": true,
+      "full_xy_projection_with_brim_inside_bed": true
+    },
+    {
+      "object": "P02_upper",
+      "bounds_mm": [
+        [
+          14.923575401306152,
+          47.835262298583984,
+          0.0
+        ],
+        [
+          188.16473388671875,
+          221.07643127441406,
+          190.0
+        ]
+      ],
+      "brim_mm": 12,
+      "within_p2s_volume": true,
+      "full_xy_projection_with_brim_inside_bed": true
+    },
+    {
+      "object": "P03_stand",
+      "bounds_mm": [
+        [
+          174.0,
+          32.0,
+          0.0
+        ],
+        [
+          234.0,
+          56.0,
+          190.0
+        ]
+      ],
+      "brim_mm": 12,
+      "within_p2s_volume": true,
+      "full_xy_projection_with_brim_inside_bed": true
+    },
+    {
+      "object": "P04_tray",
+      "bounds_mm": [
+        [
+          18.0,
+          180.0,
+          0.0
+        ],
+        [
+          98.0,
+          220.0,
+          5.0
+        ]
+      ],
+      "brim_mm": 12,
+      "within_p2s_volume": true,
+      "full_xy_projection_with_brim_inside_bed": true
+    }
+  ],
+  "pair_clearances": [
+    {
+      "a": "P01_base",
+      "b": "P02_upper",
+      "brim_edge_gap_mm": 6.999990281444593
+    },
+    {
+      "a": "P01_base",
+      "b": "P03_stand",
+      "brim_edge_gap_mm": 44.210676793830636
+    },
+    {
+      "a": "P01_base",
+      "b": "P04_tray",
+      "brim_edge_gap_mm": 45.62488898426837
+    },
+    {
+      "a": "P02_upper",
+      "b": "P03_stand",
+      "brim_edge_gap_mm": 80.21067385673662
+    },
+    {
+      "a": "P02_upper",
+      "b": "P04_tray",
+      "brim_edge_gap_mm": 9.624884023436017
+    },
+    {
+      "a": "P03_stand",
+      "b": "P04_tray",
+      "brim_edge_gap_mm": 122.49270420200064
+    }
+  ],
+  "minimum_brim_edge_gap_mm": 6.999990281444593,
+  "independent_objects_in_3mf": 4,
+  "three_mf_roundtrip": true,
+  "upper_has_two_new_tray_mount_holes_mm": [
+    [
+      40,
+      180
+    ],
+    [
+      70,
+      180
+    ]
+  ],
+  "tray_upper_mapping_verified": true,
+  "rear_standoff_tool_access_mm": 10,
+  "stand_tray_interfaces_verified": true,
+  "original_four_standoff_holes_preserved": true,
+  "servo_ear_pattern_verified": false,
+  "physical_print_verified": false,
+  "slicer_toolpath_verified": true,
+  "reserved_wrapping_detection_zone_avoided": true,
+  "rated_load_kg": null,
+  "native_profile_3mf_verified": true
+}

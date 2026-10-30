@@ -210,7 +210,17 @@
           182
         ]
       ],
-      "guard_description": "桶壳外包络在平台局部(50,20)到(210,170)；壁脚周围整圈24mm宽区域及四柱孔周围保留5mm。"
+      "guard_description": "桶壳外包络在平台局部(50,20)到(210,170)；壁脚周围整圈24mm宽区域及四柱孔周围保留5mm。",
+      "extra_holes": [
+        [
+          40,
+          180
+        ],
+        [
+          70,
+          180
+        ]
+      ]
     }
   ],
   "source": "docs/manual/source/mechanical.json",
@@ -225,5 +235,108 @@
     "roof_slope_degrees": 45,
     "minimum_grid_rib_mm": 12.0,
     "note": "Closed continuous upper face; underside pockets only. Same 5mm mounting height. No strength rating without load test."
+  },
+  "servo": {
+    "stand_width_mm": 60,
+    "stand_height_mm": 190,
+    "wall_mm": 5,
+    "foot_depth_mm": 24,
+    "gusset_height_mm": 45,
+    "gusset_thickness_mm": 5,
+    "rail_x_mm": [
+      15,
+      45
+    ],
+    "rail_z_centers_mm": [
+      140,
+      176
+    ],
+    "rail_width_mm": 3.4,
+    "foot_slot_x_mm": [
+      20,
+      50
+    ],
+    "foot_slot_y_centers_mm": [
+      11,
+      17
+    ],
+    "tray_size_mm": [
+      80,
+      40,
+      5
+    ],
+    "tray_platform_holes_mm": [
+      [
+        40,
+        10
+      ],
+      [
+        70,
+        10
+      ]
+    ],
+    "tray_stand_holes_mm": [
+      [
+        20,
+        28
+      ],
+      [
+        50,
+        28
+      ]
+    ],
+    "access_notch_center_mm": [
+      10,
+      10
+    ],
+    "access_notch_diameter_mm": 12,
+    "stand_origin_on_tray_mm": [
+      0,
+      16,
+      5
+    ],
+    "tray_origin_on_upper_mm": [
+      0,
+      170,
+      5
+    ],
+    "servo_ear_pattern_verified": false,
+    "note": "Integrated L foot with two triangular gussets. Upper rails for measured servo adaptor/clamp, not assumed SG90 ear pitch. Tray screw access and mounting reference based on manual M48."
+  },
+  "combined_plate": {
+    "print_sequence": "by layer",
+    "brim_mm": 12,
+    "p01_center_xy": [
+      128,
+      128
+    ],
+    "p02_normal_offset_mm": 36,
+    "p03_foot_origin_xyz": [
+      174,
+      32,
+      0
+    ],
+    "p04_origin_xyz": [
+      18,
+      180,
+      0
+    ],
+    "fit_type": "all XY projections with conservative brim buffers; not physical print verification",
+    "p01_translation_from_individual_mm": [
+      8,
+      -10,
+      0
+    ],
+    "p02_translation_after_normal_offset_mm": [
+      -1,
+      -19,
+      0
+    ],
+    "reserved_wrapping_zone_xy_mm": [
+      153,
+      235,
+      216,
+      256
+    ]
   }
 }

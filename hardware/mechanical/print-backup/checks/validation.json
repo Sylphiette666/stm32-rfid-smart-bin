@@ -88,7 +88,7 @@
           5.0
         ]
       ],
-      "volume_mm3": 227778.41594462254,
+      "volume_mm3": 227687.6239169338,
       "connected_components": 1,
       "watertight": true,
       "step_readback": true
@@ -113,7 +113,7 @@
           5.0
         ]
       ],
-      "volume_mm3": 195656.13734020415,
+      "volume_mm3": 195565.34531223474,
       "connected_components": 1,
       "watertight": true,
       "step_readback": true
@@ -178,7 +178,7 @@
           5.0
         ]
       ],
-      "volume_mm3": 195656.1373402041,
+      "volume_mm3": 195565.3453122348,
       "connected_components": 1,
       "watertight": true,
       "step_readback": true,
@@ -258,7 +258,7 @@
           5.0
         ]
       ],
-      "volume_mm3": 227778.4159446225,
+      "volume_mm3": 227687.6239169338,
       "connected_components": 1,
       "watertight": true,
       "step_readback": true,
@@ -317,11 +317,141 @@
         ]
       ],
       "within_p2s_nominal_volume": true
+    },
+    {
+      "name": "P03_servo_adjustable_stand",
+      "group": "design",
+      "bbox_mm": [
+        60.0,
+        24.0,
+        190.0
+      ],
+      "bounds_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          60.0,
+          24.0,
+          190.0
+        ]
+      ],
+      "volume_mm3": 64890.415944622466,
+      "connected_components": 1,
+      "watertight": true,
+      "step_readback": true
+    },
+    {
+      "name": "P04_servo_adjustable_tray",
+      "group": "design",
+      "bbox_mm": [
+        80.0,
+        40.0,
+        5.0
+      ],
+      "bounds_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          80.0,
+          40.0,
+          5.0
+        ]
+      ],
+      "volume_mm3": 14895.672605799422,
+      "connected_components": 1,
+      "watertight": true,
+      "step_readback": true
+    },
+    {
+      "name": "P03_stand_back_down",
+      "group": "P2S",
+      "bbox_mm": [
+        60.0,
+        190.0,
+        24.0
+      ],
+      "bounds_mm": [
+        [
+          98.0,
+          33.0,
+          0.0
+        ],
+        [
+          158.0,
+          223.0,
+          24.0
+        ]
+      ],
+      "volume_mm3": 64890.41594462249,
+      "connected_components": 1,
+      "watertight": true,
+      "step_readback": true,
+      "3mf_readback": true,
+      "brim_allowance_mm": 12,
+      "brim_conservative_bounds_mm": [
+        [
+          86.0,
+          21.0,
+          0.0
+        ],
+        [
+          170.0,
+          235.0,
+          24.0
+        ]
+      ],
+      "within_p2s_nominal_volume": true
+    },
+    {
+      "name": "P04_tray_flat",
+      "group": "P2S",
+      "bbox_mm": [
+        80.0,
+        40.0,
+        5.0
+      ],
+      "bounds_mm": [
+        [
+          88.0,
+          108.0,
+          0.0
+        ],
+        [
+          168.0,
+          148.0,
+          5.0
+        ]
+      ],
+      "volume_mm3": 14895.672605799426,
+      "connected_components": 1,
+      "watertight": true,
+      "step_readback": true,
+      "3mf_readback": true,
+      "brim_allowance_mm": 12,
+      "brim_conservative_bounds_mm": [
+        [
+          76.0,
+          96.0,
+          0.0
+        ],
+        [
+          180.0,
+          160.0,
+          5.0
+        ]
+      ],
+      "within_p2s_nominal_volume": true
     }
   ],
   "physical_print_test": false,
   "load_test": false,
-  "slicer_toolpath_test": false,
+  "slicer_toolpath_test": true,
   "material": "PLA",
   "rated_load_kg": null,
   "lightweight_comparison": [
@@ -337,9 +467,9 @@
     },
     {
       "id": "P02",
-      "solid5_volume_mm3": 227778.41594462254,
-      "light_volume_mm3": 195656.13734020415,
-      "cad_volume_saved_percent": 14.102424266673253,
+      "solid5_volume_mm3": 227687.6239169338,
+      "light_volume_mm3": 195565.34531223474,
+      "cad_volume_saved_percent": 14.108047706808202,
       "pocket_count": 6,
       "continuous_face_mm": 3.0,
       "full_mount_pad_mm": 5,
@@ -369,5 +499,6 @@
     ],
     "layer_gap_between_plates_mm": 60,
     "base_bottom_to_upper_top_mm": 70
-  }
+  },
+  "slicer_test_scope": "Combined four-object P2S 0.4/Generic PLA plate only; individual files not all separately sliced."
 }
