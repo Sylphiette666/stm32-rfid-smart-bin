@@ -1,11 +1,229 @@
 {
-  "units": "mm", "thickness": 5, "corner_clip": 2, "hole_diameter": 3.4,
-  "standoff_length": 60, "upper_offset": [20, 15],
-  "printer": {"model": "Bambu Lab P2S", "build_volume_mm": [256,256,256], "p01_bed_yaw_degrees": 45, "p01_bed_center_mm": [128,128], "p01_brim_mm": 12, "p02_brim_mm": 5},
+  "units": "mm",
+  "thickness": 5,
+  "corner_clip": 2,
+  "hole_diameter": 3.4,
+  "standoff_length": 60,
+  "upper_offset": [
+    20,
+    15
+  ],
+  "printer": {
+    "model": "Bambu Lab P2S",
+    "build_volume_mm": [
+      256,
+      256,
+      256
+    ],
+    "p01_bed_yaw_degrees": 45,
+    "p01_bed_center_mm": [
+      128,
+      128
+    ],
+    "p01_brim_mm": 12,
+    "p02_brim_mm": 5
+  },
   "plates": [
-    {"id":"P01", "name":"底板", "size":[280,220], "holes":[[30,25],[250,25],[30,195],[250,195]]},
-    {"id":"P02", "name":"上平台", "size":[240,190], "holes":[[10,10],[230,10],[10,180],[230,180]]}
+    {
+      "id": "P01",
+      "name": "底板",
+      "size": [
+        280,
+        220
+      ],
+      "holes": [
+        [
+          30,
+          25
+        ],
+        [
+          250,
+          25
+        ],
+        [
+          30,
+          195
+        ],
+        [
+          250,
+          195
+        ]
+      ],
+      "pockets": [
+        [
+          18,
+          50,
+          42,
+          104
+        ],
+        [
+          54,
+          52,
+          130,
+          104
+        ],
+        [
+          142,
+          18,
+          204,
+          104
+        ],
+        [
+          222,
+          48,
+          262,
+          70
+        ],
+        [
+          18,
+          116,
+          42,
+          170
+        ],
+        [
+          54,
+          116,
+          130,
+          168
+        ],
+        [
+          142,
+          116,
+          204,
+          202
+        ],
+        [
+          222,
+          150,
+          262,
+          172
+        ]
+      ],
+      "solid_rectangles": [
+        [
+          45,
+          0,
+          135,
+          50
+        ],
+        [
+          45,
+          170,
+          135,
+          220
+        ],
+        [
+          214,
+          78,
+          270,
+          142
+        ]
+      ],
+      "guard_description": "两侧电机转接参考区、前万向球转接区、四柱孔周围及12mm以上筋保留5mm。"
+    },
+    {
+      "id": "P02",
+      "name": "上平台",
+      "size": [
+        240,
+        190
+      ],
+      "holes": [
+        [
+          10,
+          10
+        ],
+        [
+          230,
+          10
+        ],
+        [
+          10,
+          180
+        ],
+        [
+          230,
+          180
+        ]
+      ],
+      "pockets": [
+        [
+          18,
+          32,
+          38,
+          88
+        ],
+        [
+          18,
+          100,
+          38,
+          158
+        ],
+        [
+          62,
+          32,
+          120,
+          88
+        ],
+        [
+          62,
+          100,
+          120,
+          158
+        ],
+        [
+          132,
+          32,
+          198,
+          88
+        ],
+        [
+          132,
+          100,
+          198,
+          158
+        ]
+      ],
+      "solid_rectangles": [
+        [
+          38,
+          8,
+          62,
+          182
+        ],
+        [
+          198,
+          8,
+          222,
+          182
+        ],
+        [
+          38,
+          8,
+          222,
+          32
+        ],
+        [
+          38,
+          158,
+          222,
+          182
+        ]
+      ],
+      "guard_description": "桶壳外包络在平台局部(50,20)到(210,170)；壁脚周围整圈24mm宽区域及四柱孔周围保留5mm。"
+    }
   ],
   "source": "docs/manual/source/mechanical.json",
-  "unmeasured_features": "电机转接、电池绑带、万向球、桶壳和电子托板固定孔槽待实测。"
+  "unmeasured_features": "电机转接、电池绑带、万向球、桶壳和电子托板固定孔槽待实测。",
+  "material": "PLA",
+  "maximum_service_mass_kg": null,
+  "lightweight": {
+    "skin_mm": 3.0,
+    "pocket_depth_mm": 2.0,
+    "pocket_corner_radius_mm": 3.0,
+    "root_radius_mm": 0.6,
+    "roof_slope_degrees": 45,
+    "minimum_grid_rib_mm": 12.0,
+    "note": "Closed continuous upper face; underside pockets only. Same 5mm mounting height. No strength rating without load test."
+  }
 }

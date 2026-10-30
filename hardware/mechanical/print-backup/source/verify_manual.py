@@ -7,8 +7,8 @@ from PIL import Image
 from docx import Document
 
 REPO=Path(__file__).resolve().parents[4]
-W=REPO.parent/'.p2s-whole-20261030/manual'
-OLD=REPO.parent/'.mechanical-print-20261030/manual/render/manual.pdf'
+W=REPO.parent/'.p2s-light-20261030/manual'
+OLD=REPO.parent/'.p2s-whole-20261030/manual/render/manual.pdf'
 NEW=W/'render/manual.pdf'
 old=pdfium.PdfDocument(OLD); new=pdfium.PdfDocument(NEW)
 def picture(doc,i,scale=1.3):

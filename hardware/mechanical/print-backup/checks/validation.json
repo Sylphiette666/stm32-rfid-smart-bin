@@ -44,6 +44,31 @@
       "step_readback": true
     },
     {
+      "name": "P01_light",
+      "group": "design",
+      "bbox_mm": [
+        280.0,
+        220.0,
+        5.0
+      ],
+      "bounds_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          280.0,
+          220.0,
+          5.0
+        ]
+      ],
+      "volume_mm3": 262921.9298982922,
+      "connected_components": 1,
+      "watertight": true,
+      "step_readback": true
+    },
+    {
       "name": "P02_full",
       "group": "full",
       "bbox_mm": [
@@ -69,8 +94,113 @@
       "step_readback": true
     },
     {
-      "name": "P01_upright45",
+      "name": "P02_light",
+      "group": "design",
+      "bbox_mm": [
+        240.0,
+        190.0,
+        5.0
+      ],
+      "bounds_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          240.0,
+          190.0,
+          5.0
+        ]
+      ],
+      "volume_mm3": 195656.13734020415,
+      "connected_components": 1,
+      "watertight": true,
+      "step_readback": true
+    },
+    {
+      "name": "P01_light_upright45",
       "group": "P2S",
+      "bbox_mm": [
+        201.52542686462402,
+        201.52542686462402,
+        220.0
+      ],
+      "bounds_mm": [
+        [
+          27.23728370666504,
+          27.23728370666504,
+          0.0
+        ],
+        [
+          228.76271057128906,
+          228.76271057128906,
+          220.0
+        ]
+      ],
+      "volume_mm3": 262921.9298982921,
+      "connected_components": 1,
+      "watertight": true,
+      "step_readback": true,
+      "3mf_readback": true,
+      "brim_allowance_mm": 12,
+      "brim_conservative_bounds_mm": [
+        [
+          15.237283706665039,
+          15.237283706665039,
+          0.0
+        ],
+        [
+          240.76271057128906,
+          240.76271057128906,
+          220.0
+        ]
+      ],
+      "within_p2s_nominal_volume": true
+    },
+    {
+      "name": "P02_light_face_down",
+      "group": "P2S",
+      "bbox_mm": [
+        240.0,
+        190.0,
+        5.0
+      ],
+      "bounds_mm": [
+        [
+          8.0,
+          33.0,
+          0.0
+        ],
+        [
+          248.0,
+          223.0,
+          5.0
+        ]
+      ],
+      "volume_mm3": 195656.1373402041,
+      "connected_components": 1,
+      "watertight": true,
+      "step_readback": true,
+      "3mf_readback": true,
+      "brim_allowance_mm": 5,
+      "brim_conservative_bounds_mm": [
+        [
+          3.0,
+          28.0,
+          0.0
+        ],
+        [
+          253.0,
+          228.0,
+          5.0
+        ]
+      ],
+      "within_p2s_nominal_volume": true
+    },
+    {
+      "name": "P01_solid5_upright45",
+      "group": "reference",
       "bbox_mm": [
         201.52542686462402,
         201.52542686462402,
@@ -109,8 +239,8 @@
       "within_p2s_nominal_volume": true
     },
     {
-      "name": "P02_flat",
-      "group": "P2S",
+      "name": "P02_solid5_flat",
+      "group": "reference",
       "bbox_mm": [
         240.0,
         190.0,
@@ -192,7 +322,36 @@
   "physical_print_test": false,
   "load_test": false,
   "slicer_toolpath_test": false,
+  "material": "PLA",
+  "rated_load_kg": null,
+  "lightweight_comparison": [
+    {
+      "id": "P01",
+      "solid5_volume_mm3": 307778.4159446225,
+      "light_volume_mm3": 262921.9298982922,
+      "cad_volume_saved_percent": 14.574279326462314,
+      "pocket_count": 8,
+      "continuous_face_mm": 3.0,
+      "full_mount_pad_mm": 5,
+      "guards_preserved": true
+    },
+    {
+      "id": "P02",
+      "solid5_volume_mm3": 227778.41594462254,
+      "light_volume_mm3": 195656.13734020415,
+      "cad_volume_saved_percent": 14.102424266673253,
+      "pocket_count": 6,
+      "continuous_face_mm": 3.0,
+      "full_mount_pad_mm": 5,
+      "guards_preserved": true
+    }
+  ],
   "checks": {
+    "minimum_12mm_inter_pocket_ribs_verified": true,
+    "continuous_3mm_face_verified": true,
+    "full_5mm_pads_and_reference_mount_zones_verified": true,
+    "pocket_depth_mm": 2,
+    "pocket_closing_roof_degrees": 45,
     "four_standoff_holes_coaxial": true,
     "no_split_or_joint_holes": true,
     "rigid_orientation_preserves_dimensions_and_volume": true,
