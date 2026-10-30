@@ -14,3 +14,8 @@ hardware/archive/pcb-v2.1/original-exports/** -text
 hardware/current-low-cost/pcb-a/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
 docs/manual/pcb-a-update-20261012/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
 docs/manual/four-skills-review-20261012/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+
+# Mechanical print exports retain exact bytes for manufacturing checksums.
+hardware/mechanical/print-backup/stl/** binary
+hardware/mechanical/print-backup/step/** binary
+hardware/mechanical/print-backup/3mf/** binary

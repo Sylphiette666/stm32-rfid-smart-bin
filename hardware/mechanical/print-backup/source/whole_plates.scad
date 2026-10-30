@@ -1,0 +1,13 @@
+// Units: mm. Set part to P01 or P02. Whole plates only; split CAD is build_models.py.
+$fn=128;
+part="P01";
+thickness=5;
+hole_d=3.4;
+module plate(L,W,H){
+ difference(){
+ linear_extrude(thickness) polygon([[2,0],[L-2,0],[L,2],[L,W-2],[L-2,W],[2,W],[0,W-2],[0,2]]);
+ for(p=H) translate([p[0],p[1],-1]) cylinder(h=thickness+2,d=hole_d);
+ }
+}
+if(part=="P01") plate(280,220,[[30,25],[250,25],[30,195],[250,195]]);
+else plate(240,190,[[10,10],[230,10],[10,180],[230,180]]);
