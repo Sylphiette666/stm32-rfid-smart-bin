@@ -1,9 +1,8 @@
 {
-  "original_pages": 200,
+  "original_pages": 203,
   "new_pages": 203,
-  "unchanged_page_bodies": 199,
+  "unchanged_page_bodies": 200,
   "pages_requiring_visual_review": [
-    5,
     201,
     202,
     203
@@ -13,21 +12,22 @@
   "original_tables_preserved": 66,
   "user_word_instances_touched": false,
   "toc_and_page_numbers_updated_in_owned_word_instance": true,
-  "docx_sha256": "bed0d70e99def8ab17095103fb80db342033fd2ab9f696c6dd1283a803afdd72",
+  "docx_sha256": "a8548be46fcb202ef0b25937272da4acbb04c56ab0c82e876e257d4549b9d9ce",
   "packaged_renderer": "Attempted; LibreOffice is absent. Used existing isolated Word renderer and bundled pypdfium2.",
   "physical_print_or_load_test_performed": false,
+  "slicer_toolpath_test_performed": false,
+  "whole_plates_only": true,
   "status": "PASS",
   "visually_inspected_pages": [
-    5,
     201,
     202,
     203
   ],
-  "visual_result": "No overlapping labels, clipped text, missing glyphs or split tables on updated pages.",
-  "added_chapter": 65,
-  "figures_added": [
+  "visual_result": "No clipped text, split tables, overlapping labels or missing glyphs in replacement pages.",
+  "chapter_revised": 65,
+  "figures": [
     50,
-    51
-  ],
-  "baseline_backup": "Retained outside repository in task staging directory."
+    51,
+    52
+  ]
 }

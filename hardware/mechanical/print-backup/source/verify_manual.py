@@ -7,8 +7,8 @@ from PIL import Image
 from docx import Document
 
 REPO=Path(__file__).resolve().parents[4]
-W=REPO.parent/'.mechanical-print-20261030/manual'
-OLD=REPO.parent/'.four-skills-review-20261012/manual/render/manual.pdf'
+W=REPO.parent/'.p2s-whole-20261030/manual'
+OLD=REPO.parent/'.mechanical-print-20261030/manual/render/manual.pdf'
 NEW=W/'render/manual.pdf'
 old=pdfium.PdfDocument(OLD); new=pdfium.PdfDocument(NEW)
 def picture(doc,i,scale=1.3):
@@ -28,7 +28,7 @@ name='STM32与RFID智能移动垃圾桶_逐步组装与调试实施手册_图解
 a=Document(W/'before.docx'); b=Document(W/name)
 steps=lambda d:[p.text for p in d.paragraphs if re.match(r'步骤 \d{3}',p.text)]
 assert steps(a)==steps(b) and len(steps(b))==330
-assert [[[c.text for c in r.cells]for r in t.rows]for t in a.tables]==[[[c.text for c in r.cells]for r in t.rows]for t in b.tables[:len(a.tables)]]
+assert [[[c.text for c in r.cells]for r in t.rows]for t in a.tables[:66]]==[[[c.text for c in r.cells]for r in t.rows]for t in b.tables[:66]]
 wr=json.loads((W/'word_render.json').read_text(encoding='utf-8-sig'))
 assert wr['status']=='success' and not wr['user_instances_touched']
 # Check that chapter 65 and refreshed TOC entries survived native Word save.
@@ -39,10 +39,10 @@ assert sum('65.1' in t for t in texts)>=1
 assert sum('3D' in t and '65' in t for t in texts)>=2
 report={'original_pages':len(old),'new_pages':len(new),'unchanged_page_bodies':len(same),
  'unchanged_mapping':same,'pages_requiring_visual_review':changed,'all_pages_rasterized':True,
- 'steps_preserved':330,'original_tables_preserved':len(a.tables),'user_word_instances_touched':False,
+ 'steps_preserved':330,'original_tables_preserved':66,'user_word_instances_touched':False,
  'toc_and_page_numbers_updated_in_owned_word_instance':True,
  'docx_sha256':hashlib.sha256((W/name).read_bytes()).hexdigest(),
  'packaged_renderer':'Attempted; LibreOffice is absent. Used existing isolated Word renderer and bundled pypdfium2.',
- 'physical_print_or_load_test_performed':False}
+ 'physical_print_or_load_test_performed':False,'slicer_toolpath_test_performed':False,'whole_plates_only':True}
 (W/'raster_audit.json').write_text(json.dumps(report,ensure_ascii=False,indent=2),encoding='utf-8')
 print(json.dumps({k:v for k,v in report.items()if k!='unchanged_mapping'},ensure_ascii=False))

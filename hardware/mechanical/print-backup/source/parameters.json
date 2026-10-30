@@ -1,20 +1,11 @@
 {
-  "units": "mm",
-  "thickness": 5.0,
-  "corner_clip": 2.0,
-  "hole_diameter": 3.4,
-  "seam_gap": 0.3,
-  "countersink_diameter": 6.4,
-  "countersink_angle_degrees": 90,
-  "standoff_length": 60.0,
-  "upper_offset": [20.0, 15.0],
-  "joiner": {"length": 64.0, "width": 28.0, "thickness": 4.0, "hole_x": 22.0, "hole_y": 7.0},
+  "units": "mm", "thickness": 5, "corner_clip": 2, "hole_diameter": 3.4,
+  "standoff_length": 60, "upper_offset": [20, 15],
+  "printer": {"model": "Bambu Lab P2S", "build_volume_mm": [256,256,256], "p01_bed_yaw_degrees": 45, "p01_bed_center_mm": [128,128], "p01_brim_mm": 12, "p02_brim_mm": 5},
   "plates": [
-    {"id": "P01", "name": "底板", "size": [280.0, 220.0], "holes": [[30,25],[250,25],[30,195],[250,195]], "split_x": 140.0, "split_y": 110.0,
-     "joiners": [[140,55,0],[140,165,0],[70,110,90],[210,110,90]]},
-    {"id": "P02", "name": "上平台", "size": [240.0,190.0], "holes": [[10,10],[230,10],[10,180],[230,180]], "split_x": 120.0, "split_y": null,
-     "joiners": [[120,47.5,0],[120,142.5,0]]}
+    {"id":"P01", "name":"底板", "size":[280,220], "holes":[[30,25],[250,25],[30,195],[250,195]]},
+    {"id":"P02", "name":"上平台", "size":[240,190], "holes":[[10,10],[230,10],[10,180],[230,180]]}
   ],
-  "source": "docs/manual/source/mechanical.json — 坐标、外形与孔槽：先标线后钻孔",
-  "unmeasured_features": "电机转接、电池绑带、万向球、桶壳固定和电子托板孔槽必须实测后再加。"
+  "source": "docs/manual/source/mechanical.json",
+  "unmeasured_features": "电机转接、电池绑带、万向球、桶壳和电子托板固定孔槽待实测。"
 }
