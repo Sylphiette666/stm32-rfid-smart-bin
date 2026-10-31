@@ -19,3 +19,9 @@ docs/manual/four-skills-review-20261012/** -text whitespace=blank-at-eol,blank-a
 hardware/mechanical/print-backup/stl/** binary
 hardware/mechanical/print-backup/step/** binary
 hardware/mechanical/print-backup/3mf/** binary
+# Preserve the complete two-plate release and its manufacturing hashes.
+hardware/mechanical/print-backup/mounted-20261031/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+hardware/mechanical/print-backup/mounted-20261031/step/** binary
+hardware/mechanical/print-backup/mounted-20261031/parts/** binary
+hardware/mechanical/print-backup/mounted-20261031/geometry/** binary
+hardware/mechanical/print-backup/mounted-20261031/projects/*.3mf binary

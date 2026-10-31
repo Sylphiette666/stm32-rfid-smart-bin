@@ -1,0 +1,36 @@
+{
+  "units": "mm",
+  "status": "dimensions_recorded_closure_concept_awaiting_user_selection",
+  "source": "User measurements and dimension drawings provided 2026-10-31; real measured board sizes take priority over seller captions.",
+  "whole_base_mm": [280, 220, 5],
+  "whole_upper_mm": [240, 190, 5],
+  "base_and_upper_must_not_be_split": true,
+  "closure_requirement": "Additional reusable open/close mechanical clamps. Show concept images first; do not integrate final holders until the user chooses.",
+  "previous_22h45_slice_valid_for_new_holders": false,
+  "modules": [
+    {"id":"A1","name":"A1 PCB","board_xy":[100,100],"assembled_total_height_including_solder":28,"holes_xy":[[5,5],[95,5],[5,95],[95,95]],"hole_diameter":3.2,"evidence":"Read-only kicad-tool; outline absolute (50,50)-(150,150), H1-H4 at (55,55),(145,55),(55,145),(145,145).","mount":"Four screws and insulating standoffs; no large flip cover."},
+    {"id":"MCU","name":"STM32F103C8T6 core","board_xy":[53,22],"board_thickness":2,"reported_component_face_height":9,"header_face":"back","header_projection":9,"usb_edge":"right","swd_edge":"left","holes":false},
+    {"id":"MCP","name":"MCP23017","reported_length_width":[21,26],"drawing_xy":[26,21],"board_thickness":2,"reported_component_face_height":5,"header_face":"back","header_projection":9,"holes":false},
+    {"id":"FLASH","name":"SPI FLASH","board_xy":[23,19],"board_thickness":2,"reported_component_face_height":9,"header_face":"front","header_projection":9,"holes":false},
+    {"id":"MOTOR","name":"TB6612 motor driver","board_xy":[25,25],"board_thickness":2,"reported_component_face_height":9,"header_face":"front","header_projection":9,"holes":false},
+    {"id":"BUCK5","name":"5V adjustable buck","board_xy":[43,21],"board_thickness":2,"highest_component":12,"potentiometer_face":"front","terminal_block":false,"mounting_hole_diameter":3,"mounting_holes_xy_bottom_left_origin":[[7,19],[36,2]],"mount_hole_delta_xy":[29,17],"solder_pad_holes":4,"solder_pad_hole_diameter":2,"solder_pad_edge_offset":1,"solder_pads_are_not_mounting_holes":true,"drawing_body_length":43.5,"drawing_39p5_by_17_note":"Likely corner solder-pad spacing; use the two actual measured 3mm mounting holes, with short adjustment slots."},
+    {"id":"REG3","name":"3.3V regulator","board_xy":[13,9],"board_thickness":2,"front_component_height":1,"back_components_and_header_total_height":5,"header_face":"back","bent_header_exit_edge":"right","bent_header_xy_projection":6,"holes":false},
+    {"id":"DFP","name":"DFPlayer Mini","board_xy":[20,20],"board_thickness":2,"reported_component_face_height":3,"header_face":"back","header_projection":8,"tf_card_edge":"bottom","holes":false,"drawing_board_xy":[21,20],"proposed_clearance_xy":[21.5,20.5]},
+    {"id":"BT","name":"HC-05 with carrier","board_xy_native_orientation":[16,39],"two_boards_total_thickness":2,"reported_total_height_including_boards_and_components":3,"antenna_edge":"top","bent_header_face":"front","bent_header_exit_edge":"bottom","bent_header_xy_projection":6,"holes":false,"drawing_board_xy":[17,37],"proposed_clearance_xy":[18,40]},
+    {"id":"IMU","name":"MPU6050","board_xy":[25,25],"board_thickness":2,"reported_component_face_height":2,"header_face":"front","header_projection":9,"axis_y":"up","axis_x":"right","holes":false,"mount_requirement":"Rigid edge support and hard height stops, with no soft foam under the IMU."},
+    {"id":"BUZZ","name":"Buzzer module","board_xy":[24,15],"board_thickness":2,"reported_component_face_height":6,"header_face":"front","header_projection":9,"sound_face":"front","holes":false},
+    {"id":"SPK","name":"Speaker","body_diameter":40,"total_thickness":14,"ear_hole_count":2,"ear_hole_pitch":48,"ear_hole_pitch_tolerance":0.5,"ear_hole_diameter":4,"ear_hole_diameter_tolerance":0.2,"drawing_body_diameter_tolerance":0.3,"drawing_depth_tolerance":0.3,"ear_plane_height":null,"provisional_envelope_xy":[60,42],"mount":"Two screws with washers and adjustable support; do not infer ear elevation from photograph."},
+    {"id":"BAT","name":"2S battery pack","reported_body_xy":[40,76],"height":20,"wire_exit_edge":"top","wire_exit_direction":"outwards","electrical_configuration":"series 2S; confirmed by user after seller image showed a parallel holder","nominal_voltage":7.4,"mount":"Mechanical cradle and open/close retaining arm; do not press cell case or wire protection."}
+  ],
+  "clearance_policy": {
+    "same_face_components_and_pin_height": "Use maximum, not sum; add the opposite face separately.",
+    "back_header_board_under_clearance_provisional": [18,22],
+    "plugged_jumper_head_and_bend_space": "Reserve in addition to exposed pins; final clearance must remain below upper platform.",
+    "seller_and_measured_size_discrepancies": "Use measured size and modest clearance, including larger seller dimension where practical.",
+    "tape_width_original_manual":18,
+    "battery_strap_width_original_manual":20
+  },
+  "not_yet_measured_underbody_parts": ["Gearmotor brackets", "Front ball caster", "Three-channel line sensor", "Front obstacle sensor", "Collision switches", "Fuse holder and main switch"],
+  "pending_choice": ["A: hinge frame with indexed quarter-turn keeper", "B: hinge frame with removable hand knob, captive metal nut and external threaded stud"],
+  "physical_fit_or_print_test": false
+}

@@ -1,0 +1,313 @@
+{
+  "status": "PASS",
+  "bearing_top_equals_keeper_bottom": true,
+  "module_sweeps": [
+    {
+      "id": "M01",
+      "samples": [
+        {
+          "degrees": 0,
+          "rigid_body_intersection_mm3": 0.0
+        },
+        {
+          "degrees": 15,
+          "rigid_body_intersection_mm3": 0.0
+        },
+        {
+          "degrees": 30,
+          "rigid_body_intersection_mm3": 0.0
+        },
+        {
+          "degrees": 45,
+          "rigid_body_intersection_mm3": 0.0
+        },
+        {
+          "degrees": 60,
+          "rigid_body_intersection_mm3": 0.0
+        },
+        {
+          "degrees": 75,
+          "rigid_body_intersection_mm3": 0.0
+        },
+        {
+          "degrees": 90,
+          "rigid_body_intersection_mm3": 0.0
+        }
+      ]
+    },
+    {
+      "id": "M02",
+      "samples": [
+        {
+          "degrees": 0,
+          "rigid_body_intersection_mm3": 0.0
+        },
+        {
+          "degrees": 15,
+          "rigid_body_intersection_mm3": 0.0
+        },
+        {
+          "degrees": 30,
+          "rigid_body_intersection_mm3": 0.0
+        },
+        {
+          "degrees": 45,
+          "rigid_body_intersection_mm3": 0.0
+        },
+        {
+          "degrees": 60,
+          "rigid_body_intersection_mm3": 0.0
+        },
+        {
+          "degrees": 75,
+          "rigid_body_intersection_mm3": 0.0
+        },
+        {
+          "degrees": 90,
+          "rigid_body_intersection_mm3": 0.0
+        }
+      ]
+    },
+    {
+      "id": "M03",
+      "samples": [
+        {
+          "degrees": 0,
+          "rigid_body_intersection_mm3": 0.0
+        },
+        {
+          "degrees": 15,
+          "rigid_body_intersection_mm3": 0.0
+        },
+        {
+          "degrees": 30,
+          "rigid_body_intersection_mm3": 0.0
+        },
+        {
+          "degrees": 45,
+          "rigid_body_intersection_mm3": 0.0
+        },
+        {
+          "degrees": 60,
+          "rigid_body_intersection_mm3": 0.0
+        },
+        {
+          "degrees": 75,
+          "rigid_body_intersection_mm3": 0.0
+        },
+        {
+          "degrees": 90,
+          "rigid_body_intersection_mm3": 0.0
+        }
+      ]
+    },
+    {
+      "id": "M04",
+      "samples": [
+        {
+          "degrees": 0,
+          "rigid_body_intersection_mm3": 0.0
+        },
+        {
+          "degrees": 15,
+          "rigid_body_intersection_mm3": 0.0
+        },
+        {
+          "degrees": 30,
+          "rigid_body_intersection_mm3": 0.0
+        },
+        {
+          "degrees": 45,
+          "rigid_body_intersection_mm3": 0.0
+        },
+        {
+          "degrees": 60,
+          "rigid_body_intersection_mm3": 0.0
+        },
+        {
+          "degrees": 75,
+          "rigid_body_intersection_mm3": 0.0
+        },
+        {
+          "degrees": 90,
+          "rigid_body_intersection_mm3": 0.0
+        }
+      ]
+    },
+    {
+      "id": "M05",
+      "samples": [
+        {
+          "degrees": 0,
+          "rigid_body_intersection_mm3": 0.0
+        },
+        {
+          "degrees": 15,
+          "rigid_body_intersection_mm3": 0.0
+        },
+        {
+          "degrees": 30,
+          "rigid_body_intersection_mm3": 0.0
+        },
+        {
+          "degrees": 45,
+          "rigid_body_intersection_mm3": 0.0
+        },
+        {
+          "degrees": 60,
+          "rigid_body_intersection_mm3": 0.0
+        },
+        {
+          "degrees": 75,
+          "rigid_body_intersection_mm3": 0.0
+        },
+        {
+          "degrees": 90,
+          "rigid_body_intersection_mm3": 0.0
+        }
+      ]
+    },
+    {
+      "id": "M06",
+      "samples": [
+        {
+          "degrees": 0,
+          "rigid_body_intersection_mm3": 0.0
+        },
+        {
+          "degrees": 15,
+          "rigid_body_intersection_mm3": 0.0
+        },
+        {
+          "degrees": 30,
+          "rigid_body_intersection_mm3": 0.0
+        },
+        {
+          "degrees": 45,
+          "rigid_body_intersection_mm3": 0.0
+        },
+        {
+          "degrees": 60,
+          "rigid_body_intersection_mm3": 0.0
+        },
+        {
+          "degrees": 75,
+          "rigid_body_intersection_mm3": 0.0
+        },
+        {
+          "degrees": 90,
+          "rigid_body_intersection_mm3": 0.0
+        }
+      ]
+    },
+    {
+      "id": "M07",
+      "samples": [
+        {
+          "degrees": 0,
+          "rigid_body_intersection_mm3": 0.0
+        },
+        {
+          "degrees": 15,
+          "rigid_body_intersection_mm3": 0.0
+        },
+        {
+          "degrees": 30,
+          "rigid_body_intersection_mm3": 0.0
+        },
+        {
+          "degrees": 45,
+          "rigid_body_intersection_mm3": 0.0
+        },
+        {
+          "degrees": 60,
+          "rigid_body_intersection_mm3": 0.0
+        },
+        {
+          "degrees": 75,
+          "rigid_body_intersection_mm3": 0.0
+        },
+        {
+          "degrees": 90,
+          "rigid_body_intersection_mm3": 0.0
+        }
+      ]
+    },
+    {
+      "id": "M08",
+      "samples": [
+        {
+          "degrees": 0,
+          "rigid_body_intersection_mm3": 0.0
+        },
+        {
+          "degrees": 15,
+          "rigid_body_intersection_mm3": 0.0
+        },
+        {
+          "degrees": 30,
+          "rigid_body_intersection_mm3": 0.0
+        },
+        {
+          "degrees": 45,
+          "rigid_body_intersection_mm3": 0.0
+        },
+        {
+          "degrees": 60,
+          "rigid_body_intersection_mm3": 0.0
+        },
+        {
+          "degrees": 75,
+          "rigid_body_intersection_mm3": 0.0
+        },
+        {
+          "degrees": 90,
+          "rigid_body_intersection_mm3": 0.0
+        }
+      ]
+    },
+    {
+      "id": "M09",
+      "samples": [
+        {
+          "degrees": 0,
+          "rigid_body_intersection_mm3": 0.0
+        },
+        {
+          "degrees": 15,
+          "rigid_body_intersection_mm3": 0.0
+        },
+        {
+          "degrees": 30,
+          "rigid_body_intersection_mm3": 0.0
+        },
+        {
+          "degrees": 45,
+          "rigid_body_intersection_mm3": 0.0
+        },
+        {
+          "degrees": 60,
+          "rigid_body_intersection_mm3": 0.0
+        },
+        {
+          "degrees": 75,
+          "rigid_body_intersection_mm3": 0.0
+        },
+        {
+          "degrees": 90,
+          "rigid_body_intersection_mm3": 0.0
+        }
+      ]
+    }
+  ],
+  "battery_sweep_degrees": [
+    0,
+    15,
+    30,
+    45,
+    60,
+    75,
+    90
+  ],
+  "physical_test": false
+}

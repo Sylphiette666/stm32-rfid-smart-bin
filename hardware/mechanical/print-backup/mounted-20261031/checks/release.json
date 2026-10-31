@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "whole_main_plates": true,
+  "print_jobs": 2,
+  "printed_objects": 47,
+  "package_filename": "一体底板上平台_方案A夹具_两盘打印_20261031.zip",
+  "package_sha256": "3a51c7041fd07d3cb30c2cb20ae1785540c4ccbf5a05885d0e79ee2470c64a2b",
+  "package_bytes": 63847230,
+  "manual_sha256": "4da232e0e8e5c0497e3cee2a0c0fdb9d4f7da4f55c2e37aaaa1989d6ee4db385",
+  "manual_updated_and_visually_checked": true,
+  "physical_print_test": false,
+  "load_tested": false,
+  "unrelated_firmware_changes_included": false
+}

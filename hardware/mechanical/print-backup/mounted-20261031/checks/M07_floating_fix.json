@@ -1,0 +1,108 @@
+{
+  "status": "PASS",
+  "id": "M07_lid",
+  "single_valid_CAD_solid": true,
+  "watertight_STL": true,
+  "consistent_winding": true,
+  "one_mesh_shell": true,
+  "volume_mm3": 1648.125046225956,
+  "web_angle_degrees": 39.8055710922652,
+  "web_PCB_clearance_mm": 0.25,
+  "cross_section_layer_check": {
+    "first_layer": 0.2,
+    "layer_height": 0.24,
+    "layers_checked": 30,
+    "unanchored_components": []
+  },
+  "movement_and_hardware": [
+    {
+      "degrees": 0,
+      "body_intersection_mm3": 0.0,
+      "metal_intersections_mm3": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "degrees": 15,
+      "body_intersection_mm3": 0.0,
+      "metal_intersections_mm3": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "degrees": 30,
+      "body_intersection_mm3": 0.0,
+      "metal_intersections_mm3": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "degrees": 45,
+      "body_intersection_mm3": 0.0,
+      "metal_intersections_mm3": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "degrees": 60,
+      "body_intersection_mm3": 0.0,
+      "metal_intersections_mm3": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "degrees": 75,
+      "body_intersection_mm3": 0.0,
+      "metal_intersections_mm3": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "degrees": 90,
+      "body_intersection_mm3": 0.0,
+      "metal_intersections_mm3": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "degrees": 105,
+      "body_intersection_mm3": 0.0,
+      "metal_intersections_mm3": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  ],
+  "physical_test": false
+}

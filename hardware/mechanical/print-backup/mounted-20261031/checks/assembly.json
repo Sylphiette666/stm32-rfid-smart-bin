@@ -1,0 +1,471 @@
+{
+  "status": "PASS",
+  "clamps": [
+    {
+      "id": "M01",
+      "closed_lid_body_intersection_mm3": 0.0,
+      "open_lid_body_intersection_mm3": 0.0,
+      "each_part_single_valid_solid": true
+    },
+    {
+      "id": "M02",
+      "closed_lid_body_intersection_mm3": 0.0,
+      "open_lid_body_intersection_mm3": 0.0,
+      "each_part_single_valid_solid": true
+    },
+    {
+      "id": "M03",
+      "closed_lid_body_intersection_mm3": 0.0,
+      "open_lid_body_intersection_mm3": 0.0,
+      "each_part_single_valid_solid": true
+    },
+    {
+      "id": "M04",
+      "closed_lid_body_intersection_mm3": 0.0,
+      "open_lid_body_intersection_mm3": 0.0,
+      "each_part_single_valid_solid": true
+    },
+    {
+      "id": "M05",
+      "closed_lid_body_intersection_mm3": 0.0,
+      "open_lid_body_intersection_mm3": 0.0,
+      "each_part_single_valid_solid": true
+    },
+    {
+      "id": "M06",
+      "closed_lid_body_intersection_mm3": 0.0,
+      "open_lid_body_intersection_mm3": 0.0,
+      "each_part_single_valid_solid": true
+    },
+    {
+      "id": "M07",
+      "closed_lid_body_intersection_mm3": 0.0,
+      "open_lid_body_intersection_mm3": 0.0,
+      "each_part_single_valid_solid": true
+    },
+    {
+      "id": "M08",
+      "closed_lid_body_intersection_mm3": 0.0,
+      "open_lid_body_intersection_mm3": 0.0,
+      "each_part_single_valid_solid": true
+    },
+    {
+      "id": "M09",
+      "closed_lid_body_intersection_mm3": 0.0,
+      "open_lid_body_intersection_mm3": 0.0,
+      "each_part_single_valid_solid": true
+    }
+  ],
+  "opening_sweeps": [
+    {
+      "id": "M01",
+      "samples": [
+        {
+          "degrees": 0,
+          "upper_intersection_mm3": 0.0,
+          "other_fixtures": []
+        },
+        {
+          "degrees": 15,
+          "upper_intersection_mm3": 0.0,
+          "other_fixtures": []
+        },
+        {
+          "degrees": 30,
+          "upper_intersection_mm3": 0.0,
+          "other_fixtures": []
+        },
+        {
+          "degrees": 45,
+          "upper_intersection_mm3": 0.0,
+          "other_fixtures": []
+        },
+        {
+          "degrees": 60,
+          "upper_intersection_mm3": 0.0,
+          "other_fixtures": []
+        },
+        {
+          "degrees": 75,
+          "upper_intersection_mm3": 0.0,
+          "other_fixtures": []
+        },
+        {
+          "degrees": 90,
+          "upper_intersection_mm3": 0.0,
+          "other_fixtures": []
+        },
+        {
+          "degrees": 105,
+          "upper_intersection_mm3": 0.0,
+          "other_fixtures": []
+        }
+      ]
+    },
+    {
+      "id": "M02",
+      "samples": [
+        {
+          "degrees": 0,
+          "upper_intersection_mm3": 0.0,
+          "other_fixtures": []
+        },
+        {
+          "degrees": 15,
+          "upper_intersection_mm3": 0.0,
+          "other_fixtures": []
+        },
+        {
+          "degrees": 30,
+          "upper_intersection_mm3": 0.0,
+          "other_fixtures": []
+        },
+        {
+          "degrees": 45,
+          "upper_intersection_mm3": 0.0,
+          "other_fixtures": []
+        },
+        {
+          "degrees": 60,
+          "upper_intersection_mm3": 0.0,
+          "other_fixtures": []
+        },
+        {
+          "degrees": 75,
+          "upper_intersection_mm3": 0.0,
+          "other_fixtures": []
+        },
+        {
+          "degrees": 90,
+          "upper_intersection_mm3": 0.0,
+          "other_fixtures": []
+        },
+        {
+          "degrees": 105,
+          "upper_intersection_mm3": 0.0,
+          "other_fixtures": []
+        }
+      ]
+    },
+    {
+      "id": "M03",
+      "samples": [
+        {
+          "degrees": 0,
+          "upper_intersection_mm3": 0.0,
+          "other_fixtures": []
+        },
+        {
+          "degrees": 15,
+          "upper_intersection_mm3": 0.0,
+          "other_fixtures": []
+        },
+        {
+          "degrees": 30,
+          "upper_intersection_mm3": 0.0,
+          "other_fixtures": []
+        },
+        {
+          "degrees": 45,
+          "upper_intersection_mm3": 0.0,
+          "other_fixtures": []
+        },
+        {
+          "degrees": 60,
+          "upper_intersection_mm3": 0.0,
+          "other_fixtures": []
+        },
+        {
+          "degrees": 75,
+          "upper_intersection_mm3": 0.0,
+          "other_fixtures": []
+        },
+        {
+          "degrees": 90,
+          "upper_intersection_mm3": 0.0,
+          "other_fixtures": []
+        },
+        {
+          "degrees": 105,
+          "upper_intersection_mm3": 0.0,
+          "other_fixtures": []
+        }
+      ]
+    },
+    {
+      "id": "M04",
+      "samples": [
+        {
+          "degrees": 0,
+          "upper_intersection_mm3": 0.0,
+          "other_fixtures": []
+        },
+        {
+          "degrees": 15,
+          "upper_intersection_mm3": 0.0,
+          "other_fixtures": []
+        },
+        {
+          "degrees": 30,
+          "upper_intersection_mm3": 0.0,
+          "other_fixtures": []
+        },
+        {
+          "degrees": 45,
+          "upper_intersection_mm3": 0.0,
+          "other_fixtures": []
+        },
+        {
+          "degrees": 60,
+          "upper_intersection_mm3": 0.0,
+          "other_fixtures": []
+        },
+        {
+          "degrees": 75,
+          "upper_intersection_mm3": 0.0,
+          "other_fixtures": []
+        },
+        {
+          "degrees": 90,
+          "upper_intersection_mm3": 0.0,
+          "other_fixtures": []
+        },
+        {
+          "degrees": 105,
+          "upper_intersection_mm3": 0.0,
+          "other_fixtures": []
+        }
+      ]
+    },
+    {
+      "id": "M05",
+      "samples": [
+        {
+          "degrees": 0,
+          "upper_intersection_mm3": 0.0,
+          "other_fixtures": []
+        },
+        {
+          "degrees": 15,
+          "upper_intersection_mm3": 0.0,
+          "other_fixtures": []
+        },
+        {
+          "degrees": 30,
+          "upper_intersection_mm3": 0.0,
+          "other_fixtures": []
+        },
+        {
+          "degrees": 45,
+          "upper_intersection_mm3": 0.0,
+          "other_fixtures": []
+        },
+        {
+          "degrees": 60,
+          "upper_intersection_mm3": 0.0,
+          "other_fixtures": []
+        },
+        {
+          "degrees": 75,
+          "upper_intersection_mm3": 0.0,
+          "other_fixtures": []
+        },
+        {
+          "degrees": 90,
+          "upper_intersection_mm3": 0.0,
+          "other_fixtures": []
+        },
+        {
+          "degrees": 105,
+          "upper_intersection_mm3": 0.0,
+          "other_fixtures": []
+        }
+      ]
+    },
+    {
+      "id": "M06",
+      "samples": [
+        {
+          "degrees": 0,
+          "upper_intersection_mm3": 0.0,
+          "other_fixtures": []
+        },
+        {
+          "degrees": 15,
+          "upper_intersection_mm3": 0.0,
+          "other_fixtures": []
+        },
+        {
+          "degrees": 30,
+          "upper_intersection_mm3": 0.0,
+          "other_fixtures": []
+        },
+        {
+          "degrees": 45,
+          "upper_intersection_mm3": 0.0,
+          "other_fixtures": []
+        },
+        {
+          "degrees": 60,
+          "upper_intersection_mm3": 0.0,
+          "other_fixtures": []
+        },
+        {
+          "degrees": 75,
+          "upper_intersection_mm3": 0.0,
+          "other_fixtures": []
+        },
+        {
+          "degrees": 90,
+          "upper_intersection_mm3": 0.0,
+          "other_fixtures": []
+        },
+        {
+          "degrees": 105,
+          "upper_intersection_mm3": 0.0,
+          "other_fixtures": []
+        }
+      ]
+    },
+    {
+      "id": "M07",
+      "samples": [
+        {
+          "degrees": 0,
+          "upper_intersection_mm3": 0.0,
+          "other_fixtures": []
+        },
+        {
+          "degrees": 15,
+          "upper_intersection_mm3": 0.0,
+          "other_fixtures": []
+        },
+        {
+          "degrees": 30,
+          "upper_intersection_mm3": 0.0,
+          "other_fixtures": []
+        },
+        {
+          "degrees": 45,
+          "upper_intersection_mm3": 0.0,
+          "other_fixtures": []
+        },
+        {
+          "degrees": 60,
+          "upper_intersection_mm3": 0.0,
+          "other_fixtures": []
+        },
+        {
+          "degrees": 75,
+          "upper_intersection_mm3": 0.0,
+          "other_fixtures": []
+        },
+        {
+          "degrees": 90,
+          "upper_intersection_mm3": 0.0,
+          "other_fixtures": []
+        },
+        {
+          "degrees": 105,
+          "upper_intersection_mm3": 0.0,
+          "other_fixtures": []
+        }
+      ]
+    },
+    {
+      "id": "M08",
+      "samples": [
+        {
+          "degrees": 0,
+          "upper_intersection_mm3": 0.0,
+          "other_fixtures": []
+        },
+        {
+          "degrees": 15,
+          "upper_intersection_mm3": 0.0,
+          "other_fixtures": []
+        },
+        {
+          "degrees": 30,
+          "upper_intersection_mm3": 0.0,
+          "other_fixtures": []
+        },
+        {
+          "degrees": 45,
+          "upper_intersection_mm3": 0.0,
+          "other_fixtures": []
+        },
+        {
+          "degrees": 60,
+          "upper_intersection_mm3": 0.0,
+          "other_fixtures": []
+        },
+        {
+          "degrees": 75,
+          "upper_intersection_mm3": 0.0,
+          "other_fixtures": []
+        },
+        {
+          "degrees": 90,
+          "upper_intersection_mm3": 0.0,
+          "other_fixtures": []
+        },
+        {
+          "degrees": 105,
+          "upper_intersection_mm3": 0.0,
+          "other_fixtures": []
+        }
+      ]
+    },
+    {
+      "id": "M09",
+      "samples": [
+        {
+          "degrees": 0,
+          "upper_intersection_mm3": 0.0,
+          "other_fixtures": []
+        },
+        {
+          "degrees": 15,
+          "upper_intersection_mm3": 0.0,
+          "other_fixtures": []
+        },
+        {
+          "degrees": 30,
+          "upper_intersection_mm3": 0.0,
+          "other_fixtures": []
+        },
+        {
+          "degrees": 45,
+          "upper_intersection_mm3": 0.0,
+          "other_fixtures": []
+        },
+        {
+          "degrees": 60,
+          "upper_intersection_mm3": 0.0,
+          "other_fixtures": []
+        },
+        {
+          "degrees": 75,
+          "upper_intersection_mm3": 0.0,
+          "other_fixtures": []
+        },
+        {
+          "degrees": 90,
+          "upper_intersection_mm3": 0.0,
+          "other_fixtures": []
+        },
+        {
+          "degrees": 105,
+          "upper_intersection_mm3": 0.0,
+          "other_fixtures": []
+        }
+      ]
+    }
+  ],
+  "main_base_single_piece": true,
+  "main_upper_single_piece": true,
+  "original_pillars_preserved": true,
+  "mounting_hole_count": 52,
+  "physical_fit_test": false
+}

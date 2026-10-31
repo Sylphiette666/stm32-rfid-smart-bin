@@ -1,0 +1,641 @@
+{
+  "status": "PASS_WITH_UNMEASURED_PHYSICAL_FIT_ITEMS",
+  "units": "mm",
+  "scope": "Added module mounts only; original chassis/servo hardware excluded.",
+  "hardware_envelopes": {
+    "M3_button_head": [
+      5.7,
+      1.65
+    ],
+    "M3_washer": [
+      3.2,
+      6,
+      0.5
+    ],
+    "M3_locknut_circumscribed_diameter_height": [
+      6.4,
+      4
+    ],
+    "M3_plain_nut_circumscribed_diameter_height": [
+      6.4,
+      2.4
+    ],
+    "threads_modelled": false,
+    "contact_tolerance_mm3": 1e-05
+  },
+  "hardware_groups": 67,
+  "printed_fixture_parts": 43,
+  "static_intersection_pairs_tested": 104,
+  "static_errors": [],
+  "metal_pair_tests": 8,
+  "metal_pair_errors": [],
+  "lid_motion_samples": 72,
+  "lid_hardware_pairs_tested": 88,
+  "lid_motion_errors": [],
+  "lid_own_body_errors": [],
+  "keeper_motion_samples": 77,
+  "keeper_motion_errors": [],
+  "bearing_body_sweeps": [
+    {
+      "id": "M01",
+      "degrees": 0,
+      "volume_mm3": 0.0
+    },
+    {
+      "id": "M01",
+      "degrees": 15,
+      "volume_mm3": 0.0
+    },
+    {
+      "id": "M01",
+      "degrees": 30,
+      "volume_mm3": 0.0
+    },
+    {
+      "id": "M01",
+      "degrees": 45,
+      "volume_mm3": 0.0
+    },
+    {
+      "id": "M01",
+      "degrees": 60,
+      "volume_mm3": 0.0
+    },
+    {
+      "id": "M01",
+      "degrees": 75,
+      "volume_mm3": 0.0
+    },
+    {
+      "id": "M01",
+      "degrees": 90,
+      "volume_mm3": 0.0
+    },
+    {
+      "id": "M02",
+      "degrees": 0,
+      "volume_mm3": 0.0
+    },
+    {
+      "id": "M02",
+      "degrees": 15,
+      "volume_mm3": 0.0
+    },
+    {
+      "id": "M02",
+      "degrees": 30,
+      "volume_mm3": 0.0
+    },
+    {
+      "id": "M02",
+      "degrees": 45,
+      "volume_mm3": 0.0
+    },
+    {
+      "id": "M02",
+      "degrees": 60,
+      "volume_mm3": 0.0
+    },
+    {
+      "id": "M02",
+      "degrees": 75,
+      "volume_mm3": 0.0
+    },
+    {
+      "id": "M02",
+      "degrees": 90,
+      "volume_mm3": 0.0
+    },
+    {
+      "id": "M03",
+      "degrees": 0,
+      "volume_mm3": 0.0
+    },
+    {
+      "id": "M03",
+      "degrees": 15,
+      "volume_mm3": 0.0
+    },
+    {
+      "id": "M03",
+      "degrees": 30,
+      "volume_mm3": 0.0
+    },
+    {
+      "id": "M03",
+      "degrees": 45,
+      "volume_mm3": 0.0
+    },
+    {
+      "id": "M03",
+      "degrees": 60,
+      "volume_mm3": 0.0
+    },
+    {
+      "id": "M03",
+      "degrees": 75,
+      "volume_mm3": 0.0
+    },
+    {
+      "id": "M03",
+      "degrees": 90,
+      "volume_mm3": 0.0
+    },
+    {
+      "id": "M04",
+      "degrees": 0,
+      "volume_mm3": 0.0
+    },
+    {
+      "id": "M04",
+      "degrees": 15,
+      "volume_mm3": 0.0
+    },
+    {
+      "id": "M04",
+      "degrees": 30,
+      "volume_mm3": 0.0
+    },
+    {
+      "id": "M04",
+      "degrees": 45,
+      "volume_mm3": 0.0
+    },
+    {
+      "id": "M04",
+      "degrees": 60,
+      "volume_mm3": 0.0
+    },
+    {
+      "id": "M04",
+      "degrees": 75,
+      "volume_mm3": 0.0
+    },
+    {
+      "id": "M04",
+      "degrees": 90,
+      "volume_mm3": 0.0
+    },
+    {
+      "id": "M05",
+      "degrees": 0,
+      "volume_mm3": 0.0
+    },
+    {
+      "id": "M05",
+      "degrees": 15,
+      "volume_mm3": 0.0
+    },
+    {
+      "id": "M05",
+      "degrees": 30,
+      "volume_mm3": 0.0
+    },
+    {
+      "id": "M05",
+      "degrees": 45,
+      "volume_mm3": 0.0
+    },
+    {
+      "id": "M05",
+      "degrees": 60,
+      "volume_mm3": 0.0
+    },
+    {
+      "id": "M05",
+      "degrees": 75,
+      "volume_mm3": 0.0
+    },
+    {
+      "id": "M05",
+      "degrees": 90,
+      "volume_mm3": 0.0
+    },
+    {
+      "id": "M06",
+      "degrees": 0,
+      "volume_mm3": 0.0
+    },
+    {
+      "id": "M06",
+      "degrees": 15,
+      "volume_mm3": 0.0
+    },
+    {
+      "id": "M06",
+      "degrees": 30,
+      "volume_mm3": 0.0
+    },
+    {
+      "id": "M06",
+      "degrees": 45,
+      "volume_mm3": 0.0
+    },
+    {
+      "id": "M06",
+      "degrees": 60,
+      "volume_mm3": 0.0
+    },
+    {
+      "id": "M06",
+      "degrees": 75,
+      "volume_mm3": 0.0
+    },
+    {
+      "id": "M06",
+      "degrees": 90,
+      "volume_mm3": 0.0
+    },
+    {
+      "id": "M07",
+      "degrees": 0,
+      "volume_mm3": 0.0
+    },
+    {
+      "id": "M07",
+      "degrees": 15,
+      "volume_mm3": 0.0
+    },
+    {
+      "id": "M07",
+      "degrees": 30,
+      "volume_mm3": 0.0
+    },
+    {
+      "id": "M07",
+      "degrees": 45,
+      "volume_mm3": 0.0
+    },
+    {
+      "id": "M07",
+      "degrees": 60,
+      "volume_mm3": 0.0
+    },
+    {
+      "id": "M07",
+      "degrees": 75,
+      "volume_mm3": 0.0
+    },
+    {
+      "id": "M07",
+      "degrees": 90,
+      "volume_mm3": 0.0
+    },
+    {
+      "id": "M08",
+      "degrees": 0,
+      "volume_mm3": 0.0
+    },
+    {
+      "id": "M08",
+      "degrees": 15,
+      "volume_mm3": 0.0
+    },
+    {
+      "id": "M08",
+      "degrees": 30,
+      "volume_mm3": 0.0
+    },
+    {
+      "id": "M08",
+      "degrees": 45,
+      "volume_mm3": 0.0
+    },
+    {
+      "id": "M08",
+      "degrees": 60,
+      "volume_mm3": 0.0
+    },
+    {
+      "id": "M08",
+      "degrees": 75,
+      "volume_mm3": 0.0
+    },
+    {
+      "id": "M08",
+      "degrees": 90,
+      "volume_mm3": 0.0
+    },
+    {
+      "id": "M09",
+      "degrees": 0,
+      "volume_mm3": 0.0
+    },
+    {
+      "id": "M09",
+      "degrees": 15,
+      "volume_mm3": 0.0
+    },
+    {
+      "id": "M09",
+      "degrees": 30,
+      "volume_mm3": 0.0
+    },
+    {
+      "id": "M09",
+      "degrees": 45,
+      "volume_mm3": 0.0
+    },
+    {
+      "id": "M09",
+      "degrees": 60,
+      "volume_mm3": 0.0
+    },
+    {
+      "id": "M09",
+      "degrees": 75,
+      "volume_mm3": 0.0
+    },
+    {
+      "id": "M09",
+      "degrees": 90,
+      "volume_mm3": 0.0
+    }
+  ],
+  "lock_fastener_lengths": [
+    {
+      "id": "M01",
+      "seat_height_mm": 20,
+      "axis_minimum_mm": 39.75,
+      "axis_length_mm": 40,
+      "anchor_minimum_mm": 36.17,
+      "anchor_length_mm": 40
+    },
+    {
+      "id": "M02",
+      "seat_height_mm": 20,
+      "axis_minimum_mm": 39.75,
+      "axis_length_mm": 40,
+      "anchor_minimum_mm": 36.17,
+      "anchor_length_mm": 40
+    },
+    {
+      "id": "M03",
+      "seat_height_mm": 4,
+      "axis_minimum_mm": 23.75,
+      "axis_length_mm": 25,
+      "anchor_minimum_mm": 20.17,
+      "anchor_length_mm": 25
+    },
+    {
+      "id": "M04",
+      "seat_height_mm": 4,
+      "axis_minimum_mm": 23.75,
+      "axis_length_mm": 25,
+      "anchor_minimum_mm": 20.17,
+      "anchor_length_mm": 25
+    },
+    {
+      "id": "M05",
+      "seat_height_mm": 10,
+      "axis_minimum_mm": 29.75,
+      "axis_length_mm": 30,
+      "anchor_minimum_mm": 26.17,
+      "anchor_length_mm": 30
+    },
+    {
+      "id": "M06",
+      "seat_height_mm": 20,
+      "axis_minimum_mm": 39.75,
+      "axis_length_mm": 40,
+      "anchor_minimum_mm": 36.17,
+      "anchor_length_mm": 40
+    },
+    {
+      "id": "M07",
+      "seat_height_mm": 5,
+      "axis_minimum_mm": 24.75,
+      "axis_length_mm": 25,
+      "anchor_minimum_mm": 21.17,
+      "anchor_length_mm": 25
+    },
+    {
+      "id": "M08",
+      "seat_height_mm": 4,
+      "axis_minimum_mm": 23.75,
+      "axis_length_mm": 25,
+      "anchor_minimum_mm": 20.17,
+      "anchor_length_mm": 25
+    },
+    {
+      "id": "M09",
+      "seat_height_mm": 4,
+      "axis_minimum_mm": 23.75,
+      "axis_length_mm": 25,
+      "anchor_minimum_mm": 20.17,
+      "anchor_length_mm": 25
+    },
+    {
+      "id": "BAT_L",
+      "axis_minimum_mm": 38.95,
+      "axis_length_mm": 40,
+      "anchor_minimum_mm": 35.37,
+      "anchor_length_mm": 40
+    },
+    {
+      "id": "BAT_R",
+      "axis_minimum_mm": 38.95,
+      "axis_length_mm": 40,
+      "anchor_minimum_mm": 35.37,
+      "anchor_length_mm": 40
+    }
+  ],
+  "length_assumptions": {
+    "deck_thickness": 5,
+    "washer_thickness_each": 0.5,
+    "locknut_height": 4,
+    "target_exposed_thread": 1,
+    "keeper_axial_play": 0.15,
+    "axis_formula": "5 + keeper_top + 2*0.5 + 4 + 1 + 0.15",
+    "anchor_formula": "5 + fixed_spring_head_top + 2*0.5 + 4 + 1"
+  },
+  "hardware_bill": [
+    {
+      "name": "M3低圆头螺钉",
+      "quantity": 22,
+      "spec": "M3×12，ISO7380圆头高1.65mm",
+      "used_for": "9卡座18颗＋电池座4颗",
+      "notes": "头在座脚上，两片0.5mm小垫圈，底板下方用高2.4mm普通六角螺母；此长度不配高4mm锁紧螺母。"
+    },
+    {
+      "name": "M3螺栓或金属轴",
+      "quantity": 9,
+      "spec": "M3×30，ISO7380低圆头Ø5.7×1.65mm",
+      "used_for": "9个金属轴铰链",
+      "notes": "此头型为铰链避空依据，不可换高圆柱头；自锁螺母只锁轴向间隙，压框应能自由翻动。"
+    },
+    {
+      "name": "M3拨片轴及簧片锚钉",
+      "quantity": 10,
+      "spec": "M3×40",
+      "used_for": "M01/M02/M06各2根＋电池左右各2根",
+      "notes": "全部头在5mm底板下面；每根上下各1片0.5mm垫圈、上方4mm高锁母。轴顶留0.1–0.2mm转动间隙，锚钉固定簧片头。"
+    },
+    {
+      "name": "M3拨片轴及簧片锚钉",
+      "quantity": 2,
+      "spec": "M3×30",
+      "used_for": "M05稳压模块2根",
+      "notes": "同40mm组装法，簧片头上垫圈外径不得超过6mm。"
+    },
+    {
+      "name": "M3拨片轴及簧片锚钉",
+      "quantity": 10,
+      "spec": "M3×25",
+      "used_for": "M03/M04/M07/M08/M09各2根",
+      "notes": "同40mm组装法，不在拨片轴座与拨片之间另加圆垫圈，以免遮住定位凸点。"
+    },
+    {
+      "name": "M3降压载座固定螺钉",
+      "quantity": 2,
+      "spec": "M3×16，ISO7380圆头高1.65mm",
+      "used_for": "BUCK载座与5mm底板",
+      "notes": "头在载座上、锁母在底板下；两片0.5mm垫圈及4mm高锁母，载座厚3.2mm；两颗不包含于22颗座脚螺钉。"
+    },
+    {
+      "name": "M3绝缘双通柱",
+      "quantity": 4,
+      "spec": "10mm",
+      "used_for": "A1 PCB",
+      "notes": "A1四孔90×90mm。"
+    },
+    {
+      "name": "M3绝缘柱下螺钉",
+      "quantity": 4,
+      "spec": "M3×10",
+      "used_for": "A1柱底固定",
+      "notes": "头在5mm底板下，配0.5mm垫圈，名义入柱4.5mm；先核对实物盲孔深度。"
+    },
+    {
+      "name": "M3绝缘柱上螺钉",
+      "quantity": 4,
+      "spec": "M3×6",
+      "used_for": "A1 PCB固定",
+      "notes": "板厚1.6mm＋0.5mm垫圈后名义入柱3.9mm。"
+    },
+    {
+      "name": "M2.5螺钉及螺母",
+      "quantity": 2,
+      "spec": "M2.5×8",
+      "used_for": "5V模块两大孔",
+      "notes": "螺母先放到降压座底面六角窝。此处不加垫圈，约1.8mm有效吃牙；轻载试装，勿换长螺钉顶底板。"
+    },
+    {
+      "name": "M3喇叭螺钉",
+      "quantity": 2,
+      "spec": "M3×30，暂定",
+      "used_for": "喇叭两耳",
+      "notes": "每根头下、耳下、耳上共3片垫圈，耳下普通螺母、耳上锁母。耳下表面距底板顶面E与耳厚t须满足E+t≤19mm；不得压弯耳片或抬高到脱离定位圈。"
+    },
+    {
+      "name": "M3普通六角螺母",
+      "quantity": 24,
+      "spec": "高2.4mm、对边5.5mm",
+      "used_for": "22座脚＋2喇叭耳下调高",
+      "notes": "仅新增模块固定件，不含原立柱及舵机螺丝。"
+    },
+    {
+      "name": "M3尼龙锁紧螺母",
+      "quantity": 35,
+      "spec": "DIN985，高4mm、螺距0.5mm",
+      "used_for": "9铰链＋22轴/锚＋2降压座＋2喇叭耳上",
+      "notes": "不要用高型锁母直接替换4mm高型。"
+    },
+    {
+      "name": "M3小外径平垫圈",
+      "quantity": 124,
+      "spec": "内径3.2mm、外径≤6mm、厚约0.5mm",
+      "used_for": "新增全部M3连接的配套垫圈",
+      "notes": "簧片锚点上方必须小外径，不能压住12mm自由弹臂；124片为上述选定方案数量，不含备用。"
+    }
+  ],
+  "vertical_axis_anchor_bolt_counts": {
+    "M3x25": 10,
+    "M3x30": 2,
+    "M3x40": 10
+  },
+  "all_added_bolt_counts": {
+    "M3x6": 4,
+    "M3x10": 4,
+    "M3x12": 22,
+    "M3x16": 2,
+    "M3x25": 10,
+    "M3x30": 13,
+    "M3x40": 10,
+    "M2.5x8": 2
+  },
+  "upper_platform_hardware_clearance_mm": 25.5,
+  "interface_design_checks": {
+    "M01_USB_central_window_width": 12,
+    "M06_TF_end_open": true,
+    "M07_antenna_end_open": true,
+    "M07_front_header_crossbar_top": 5,
+    "M07_PCB_bottom": 5,
+    "M07_left_foot_xy_local": [
+      -20.5,
+      15.0
+    ]
+  },
+  "battery_nominal_fit": {
+    "case": [
+      76,
+      40,
+      20
+    ],
+    "cradle_inner_xy": [
+      77.2,
+      41.2
+    ],
+    "EVA_thickness": 2,
+    "keeper_bottom_above_deck_top": 24.6,
+    "case_top_above_deck_top": 24.4,
+    "retention_gap": 0.2,
+    "rigid_overlap": 2.3,
+    "right_wire_preferred_corridor_relative_battery_center": {
+      "x": [
+        38,
+        50
+      ],
+      "y": [
+        -5,
+        1
+      ]
+    },
+    "wire_note": "Route out the right central slot toward its negative-Y half; confirm both keepers turn freely without touching wires. Retain plastic end edges, never press a cell."
+  },
+  "physical_fit_pending": [
+    "Corner pad overlap .8mm must be checked against actual solder joints, header plastic and densely packed corner components; their exact XY envelopes were not measured.",
+    "USB cable boot, SWD plug, TF ejection travel and actual mated Dupont wire bending envelopes are not measured.",
+    "Back header tip clearance above deck: MCU/MCP 11mm; DFP12mm; regulator5mm before mating connectors/wire bends.",
+    "A1 total populated height28mm is known, but its split below PCB is not; confirm the10mm standoffs clear every underside joint/pin.",
+    "Speaker ear underside height E and ear thickness t remain unmeasured. M3x30 assumes E+t<=19mm with the selected washers/locknut. Never bend ears or lift the body clear of the locating lips.",
+    "Battery dimensions and EVA compression are nominal; confirm .2mm keeper clearance and end contact on hard case edges. Route wires away from the full keeper sweep.",
+    "Check actual standoff internal thread depth: lower screw engagement4.5mm, upper3.9mm.",
+    "Physical print, load/creep, vibration and endurance testing have not been performed."
+  ],
+  "source_sha256": {
+    "build_mounted_design.py": "cd3d3bafd47cff8c02853acc33b9810ee1b892c9e9165952c2ce704cc21329f6",
+    "module_clamps_a.py": "7c980bce6fddce07f098d5af12d7730c71c73ba9c9d287dadc5d94a9646693a1"
+  },
+  "checked_local_step_sha256": {
+    "P05_BATTERY_cradle.step": "08bfd2cce70d400428a1f98c5cd4d5d0be3c43351c73b8228269d3a04b191d2d",
+    "P06_BUCK_cradle.step": "08aa2faba1362098b8963ec7fd6ff64e53b9c8731c71eaab78116b3ae963b192",
+    "P07_SPEAKER_cradle.step": "9f3dff63456f61825b84f0715c12a910e3ba6938d212803d7956fb4ac9c44e2e"
+  },
+  "physical_test": false,
+  "load_test": false,
+  "standards_sources": [
+    {
+      "item": "M3 ISO7380 head OD5.7 height1.65 pitch.5",
+      "url": "https://www.accu.co.uk/socket-button-screws/8104-SSB-M3-12-A2"
+    },
+    {
+      "item": "M3 DIN985 locknut height4 pitch.5",
+      "url": "https://www.accu.co.uk/hexagon-nylon-locking-nuts/495536-HNN-M3-0-5-C8-Z"
+    },
+    {
+      "item": "M3 ISO7092 washer ID3.2 OD6, about.5 thick; page max.55",
+      "url": "https://www.accu.co.uk/metric-flat-washers/629061-HRDW-M3-6-0-A4-BL"
+    }
+  ]
+}

@@ -9,7 +9,7 @@
 3. [查看当前A1 PCB资料](hardware/current-low-cost/pcb-a/README.md)、[接线说明](hardware/current-low-cost/WIRING.md)、[逐针接口表](hardware/current-low-cost/pcb-a/connector-map.csv)、[BOM](hardware/current-low-cost/pcb-a/manufacturing/bom.csv)和[33项功能验收清单](docs/ACCEPTANCE.md)。裸板制造文件为[Gerber_RS274X.zip](hardware/current-low-cost/pcb-a/manufacturing/Gerber_RS274X.zip)，原理图及工程在[kicad目录](hardware/current-low-cost/pcb-a/kicad/)。
 4. [查看SG90等图解与说明](docs/manual/illustrated-additions-20261010/)和[木板与PVC裁剪图解](docs/manual/cutting-diagrams-20261010/)；[旧PWR/IO洞洞板正反面与逐根焊线表](hardware/current-low-cost/perfboard/)仅作归档参考，不再作为A1 PCB施工接口。
 5. [打开A1固件与调试说明](firmware/a1/README.md)：开发环境已确定为Keil，编译、下载及调试均在Keil完成，无需安装CubeMX、CubeIDE或CubeProgrammer。已提供工程和烧录文件；先按[实验室集中检查清单](firmware/a1/LAB_CHECKLIST.md)核对硬件，再逐模块上电调试。Word中旧软件路线以此说明和在线手册第37章为准。
-6. [底板与上平台3D打印备用件](hardware/mechanical/print-backup/README.md)：PLA轻量版按拓竹P2S整片打印，底板侧立、上平台安装面贴床；连续面3mm，安装区5mm，CAD体积减少约14%，附原厚板备选与3MF/STL/STEP；已加舵机支架与托片，附P2S四件同盘工程；同名Word第65章含图解50—56。
+6. [底板、上平台及方案A模块夹具两盘打印版](hardware/mechanical/print-backup/mounted-20261031/README.md)：两片各自一体，底板50°宽底斜撑，上平台和舵机支架平放；四个主体＋43个附件共47件，两次打印合计约28小时53分/713g PLA。已实际切片，尚未实物验证。Word第65章含模块位置、开闭机构和双盘图解。
 
 本次接地加强版新增55个GND过孔，不增加元件采购或手焊任务；裸板制造检查通过，仍保留EMC及实物验证边界。详见[四套技能联合审查报告](hardware/current-low-cost/pcb-a/review/four-skills/四套技能联合审查报告.md)。
 
