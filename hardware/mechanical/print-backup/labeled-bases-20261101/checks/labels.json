@@ -1,0 +1,307 @@
+{
+  "status": "PASS",
+  "labels": [
+    {
+      "id": "M01_body",
+      "label": "STM32",
+      "module": "M01",
+      "side": "bottom",
+      "plate_thickness_mm": 1.8,
+      "raised_text_mm": 0.64,
+      "text_height_mm": 4,
+      "assembly_tag_bounds": [
+        [
+          40.6349999,
+          87.8999999,
+          5.0
+        ],
+        [
+          58.635000100000006,
+          95.9000001,
+          7.440000100000001
+        ]
+      ],
+      "original_material_retained": true,
+      "existing_part_collision": false,
+      "mount_hardware_clear": true,
+      "in_current_jobs": true
+    },
+    {
+      "id": "M02_body",
+      "label": "MCP23017",
+      "module": "M02",
+      "side": "bottom",
+      "plate_thickness_mm": 1.8,
+      "raised_text_mm": 0.64,
+      "text_height_mm": 4,
+      "assembly_tag_bounds": [
+        [
+          70.4999999,
+          46.5999999,
+          5.0
+        ],
+        [
+          94.05078144999999,
+          54.6000001,
+          7.440000100000001
+        ]
+      ],
+      "original_material_retained": true,
+      "existing_part_collision": false,
+      "mount_hardware_clear": true,
+      "in_current_jobs": true
+    },
+    {
+      "id": "M03_body",
+      "label": "FLASH",
+      "module": "M03",
+      "side": "top",
+      "plate_thickness_mm": 1.8,
+      "raised_text_mm": 0.64,
+      "text_height_mm": 4,
+      "assembly_tag_bounds": [
+        [
+          81.4749999,
+          147.29999990000002,
+          5.0
+        ],
+        [
+          99.47500009999999,
+          155.3000001,
+          7.440000100000001
+        ]
+      ],
+      "original_material_retained": true,
+      "existing_part_collision": false,
+      "mount_hardware_clear": true,
+      "in_current_jobs": true
+    },
+    {
+      "id": "M04_body",
+      "label": "TB6612",
+      "module": "M04",
+      "side": "bottom",
+      "plate_thickness_mm": 1.8,
+      "raised_text_mm": 0.64,
+      "text_height_mm": 4,
+      "assembly_tag_bounds": [
+        [
+          136.4999999,
+          159.0999999,
+          5.0
+        ],
+        [
+          154.5000001,
+          167.1000001,
+          7.440000100000001
+        ]
+      ],
+      "original_material_retained": true,
+      "existing_part_collision": false,
+      "mount_hardware_clear": true,
+      "in_current_jobs": true
+    },
+    {
+      "id": "M05_body",
+      "label": "3.3V",
+      "module": "M05",
+      "side": "top",
+      "plate_thickness_mm": 1.8,
+      "raised_text_mm": 0.64,
+      "text_height_mm": 4,
+      "assembly_tag_bounds": [
+        [
+          50.9649999,
+          35.799999899999996,
+          5.0
+        ],
+        [
+          68.9650001,
+          43.8000001,
+          7.440000100000001
+        ]
+      ],
+      "original_material_retained": true,
+      "existing_part_collision": false,
+      "mount_hardware_clear": true,
+      "in_current_jobs": true
+    },
+    {
+      "id": "M06_body",
+      "label": "DFPLAYER",
+      "module": "M06",
+      "side": "right",
+      "plate_thickness_mm": 1.8,
+      "raised_text_mm": 0.64,
+      "text_height_mm": 4,
+      "assembly_tag_bounds": [
+        [
+          36.4499999,
+          97.44632796500001,
+          5.0
+        ],
+        [
+          44.450000100000004,
+          122.325234615,
+          7.440000100000001
+        ]
+      ],
+      "original_material_retained": true,
+      "existing_part_collision": false,
+      "mount_hardware_clear": true,
+      "in_current_jobs": true
+    },
+    {
+      "id": "M07_body",
+      "label": "HC-05",
+      "module": "M07",
+      "side": "bottom",
+      "plate_thickness_mm": 1.8,
+      "raised_text_mm": 0.64,
+      "text_height_mm": 4,
+      "assembly_tag_bounds": [
+        [
+          44.07632947066559,
+          137.9999999,
+          5.0
+        ],
+        [
+          52.076329670665594,
+          156.0000001,
+          7.440000100000001
+        ]
+      ],
+      "original_material_retained": true,
+      "existing_part_collision": false,
+      "mount_hardware_clear": true,
+      "in_current_jobs": true
+    },
+    {
+      "id": "M08_body",
+      "label": "MPU6050",
+      "module": "M08",
+      "side": "bottom",
+      "plate_thickness_mm": 1.8,
+      "raised_text_mm": 0.64,
+      "text_height_mm": 4,
+      "assembly_tag_bounds": [
+        [
+          99.4999999,
+          159.0999999,
+          5.0
+        ],
+        [
+          120.80664082499999,
+          167.1000001,
+          7.440000100000001
+        ]
+      ],
+      "original_material_retained": true,
+      "existing_part_collision": false,
+      "mount_hardware_clear": true,
+      "in_current_jobs": true
+    },
+    {
+      "id": "M09_body",
+      "label": "BUZZER",
+      "module": "M09",
+      "side": "top",
+      "plate_thickness_mm": 1.8,
+      "raised_text_mm": 0.64,
+      "text_height_mm": 4,
+      "assembly_tag_bounds": [
+        [
+          94.5437497,
+          44.299999899999996,
+          5.0
+        ],
+        [
+          114.4500001,
+          52.3000001,
+          7.440000100000001
+        ]
+      ],
+      "original_material_retained": true,
+      "existing_part_collision": false,
+      "mount_hardware_clear": true,
+      "in_current_jobs": true
+    },
+    {
+      "id": "P05_BATTERY_cradle",
+      "label": "BAT 2S",
+      "module": "BAT",
+      "side": "left",
+      "plate_thickness_mm": 1.8,
+      "raised_text_mm": 0.64,
+      "text_height_mm": 4,
+      "assembly_tag_bounds": [
+        [
+          121.4999999,
+          8.099999900000002,
+          5.0
+        ],
+        [
+          129.5000001,
+          26.100000100000003,
+          7.440000100000001
+        ]
+      ],
+      "original_material_retained": true,
+      "existing_part_collision": false,
+      "mount_hardware_clear": true,
+      "in_current_jobs": true
+    },
+    {
+      "id": "P06_BUCK_cradle",
+      "label": "5V BUCK",
+      "module": "BUCK",
+      "side": "bottom",
+      "plate_thickness_mm": 1.8,
+      "raised_text_mm": 0.64,
+      "text_height_mm": 4,
+      "assembly_tag_bounds": [
+        [
+          176.9999999,
+          168.9999999,
+          5.0
+        ],
+        [
+          198.373047075,
+          177.0000001,
+          7.440000100000001
+        ]
+      ],
+      "original_material_retained": true,
+      "existing_part_collision": false,
+      "mount_hardware_clear": true,
+      "in_current_jobs": true
+    },
+    {
+      "id": "P07_SPEAKER_cradle",
+      "label": "SPEAKER",
+      "module": "SPK",
+      "side": "right",
+      "plate_thickness_mm": 1.8,
+      "raised_text_mm": 0.64,
+      "text_height_mm": 4,
+      "assembly_tag_bounds": [
+        [
+          87.19999990000001,
+          170.9140623,
+          5.0
+        ],
+        [
+          95.2000001,
+          194.0859377,
+          7.440000100000001
+        ]
+      ],
+      "original_material_retained": true,
+      "existing_part_collision": false,
+      "mount_hardware_clear": true,
+      "in_current_jobs": false
+    }
+  ],
+  "optional_speaker_not_in_current_print_jobs": true,
+  "physical_test": false
+}

@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "new_concurrent_jobs": 4,
+  "remaining_objects": 48,
+  "running_old_plate2_objects_excluded": 3,
+  "parallel_seconds": 20026.478515625,
+  "filament_g": 386.75737380981445,
+  "package_filename": "底座带模块标牌_四台打印_20261101.zip",
+  "package_sha256": "cddc48a16106b220341f30b0d86981e1b43268ebdf4de5148496ca385853be79",
+  "package_bytes": 49191653,
+  "manual_sha256": "fd6fcfeb34af216c12cb06f6ecbf08fe38e031c6c03bba7dada700edcc23ecab",
+  "manual_updated_and_visually_checked": true,
+  "physical_print_test": false,
+  "load_tested": false,
+  "printer_jobs_sent": false
+}

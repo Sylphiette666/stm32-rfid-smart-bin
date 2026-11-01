@@ -59,3 +59,10 @@ hardware/mechanical/print-backup/parallel-four-p2s-20261101/projects/*.3mf binar
 hardware/mechanical/print-backup/parallel-after-old-plate2-20261101/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
 hardware/mechanical/print-backup/parallel-after-old-plate2-20261101/geometry/** binary
 hardware/mechanical/print-backup/parallel-after-old-plate2-20261101/projects/*.3mf binary
+
+# Preserve four-machine continuation export bytes.
+hardware/mechanical/print-backup/labeled-bases-20261101/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+hardware/mechanical/print-backup/labeled-bases-20261101/geometry/** binary
+hardware/mechanical/print-backup/labeled-bases-20261101/projects/*.3mf binary
+hardware/mechanical/print-backup/labeled-bases-20261101/parts/** binary
+hardware/mechanical/print-backup/labeled-bases-20261101/step/** binary

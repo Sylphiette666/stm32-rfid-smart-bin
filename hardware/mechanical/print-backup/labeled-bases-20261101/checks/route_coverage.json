@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "running_project": "mounted-20261031/projects/P2S_MOUNTED_PLATE_2.3mf",
+  "running_names": [
+    "P02_UPPER",
+    "P03_STAND",
+    "P07_SPEAKER_cradle"
+  ],
+  "running_objects": 3,
+  "remaining_objects": 48,
+  "total": 51,
+  "duplicates": [],
+  "matches_full_flat_release": true
+}
