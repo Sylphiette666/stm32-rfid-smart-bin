@@ -1,0 +1,98 @@
+{
+  "status": "PASS",
+  "coupons": [
+    {
+      "id": "A",
+      "slot_mm": [
+        12,
+        2.2
+      ],
+      "slot_centres_mm": [
+        [
+          0,
+          -10.5
+        ],
+        [
+          0,
+          10.5
+        ]
+      ],
+      "nominal_inner_tab_gap_mm": 19,
+      "plate_thickness_mm": 5,
+      "size_mm": [
+        28,
+        36,
+        5.4
+      ],
+      "watertight": true,
+      "neck_fit_digital": true
+    },
+    {
+      "id": "B",
+      "slot_mm": [
+        12,
+        2.4
+      ],
+      "slot_centres_mm": [
+        [
+          0,
+          -10.5
+        ],
+        [
+          0,
+          10.5
+        ]
+      ],
+      "nominal_inner_tab_gap_mm": 19,
+      "plate_thickness_mm": 5,
+      "size_mm": [
+        28,
+        36,
+        5.4
+      ],
+      "watertight": true,
+      "neck_fit_digital": true
+    },
+    {
+      "id": "C",
+      "slot_mm": [
+        12,
+        2.6
+      ],
+      "slot_centres_mm": [
+        [
+          0,
+          -10.5
+        ],
+        [
+          0,
+          10.5
+        ]
+      ],
+      "nominal_inner_tab_gap_mm": 19,
+      "plate_thickness_mm": 5,
+      "size_mm": [
+        28,
+        36,
+        5.4
+      ],
+      "watertight": true,
+      "neck_fit_digital": true
+    }
+  ],
+  "estimated_seconds": 2880.176025390625,
+  "filament_g": 9.790091514587402,
+  "warning_message": "",
+  "native_matches_tested_geometry": true,
+  "physical_fit_verified": false,
+  "load_bearing_part": false,
+  "material_identity": "nonmetal per user; exact polymer unspecified",
+  "latest_user_measurements_mm": {
+    "neck_width": 11.5,
+    "tab_thickness": 2,
+    "motor_width": 18.5
+  },
+  "insertion": "downwards; T head above plate",
+  "slot_centre_distance_mm": 21,
+  "note": "19 mm is nominal inner gap for centred 2 mm tabs; slot clearance permits lateral movement. No forced clamping across excess gap."
+}

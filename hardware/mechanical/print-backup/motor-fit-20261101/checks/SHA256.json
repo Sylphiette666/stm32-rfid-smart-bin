@@ -1,0 +1,11 @@
+{
+  "checks/validation.json": "4e27e6c025bfcc7b5e7d42fccdb667b77e3b55c95954d4c6ecf91e76dc5c1c9d",
+  "P2S_D06_FIT_TEST_016.3mf": "b6a8fa538282bc1dc2867ae26ea121dec94c78d554ef6d38baa476f10e4766c8",
+  "parts/FIT_A.stl": "44f858850e579b44a30d2557869a719683c57ff5e0eb08c18a68b97fa284db1b",
+  "parts/FIT_B.stl": "ca96ad938ecd662d019bad0c85218aabafaf63d2bfb94878266e4ff0ac8c9640",
+  "parts/FIT_C.stl": "e0870620f801d54683a7cfa2ac80bc951b424617fe2ce892d9fb56d642da50f3",
+  "README.md": "121d731eabd08c2c6521b4e6194f938c93545cf29685ff215e2bc214317e9eda",
+  "step/FIT_A.step": "caf6899df94c0c4587d7a443cb8d920621c3190ecd000f64a9cff70b30275054",
+  "step/FIT_B.step": "f6edb8c4a654d77b1f83034c100dc0356ef03fe9879b2d4833c2a1fbdbce41e8",
+  "step/FIT_C.step": "7c1c23f13a4769b6b8e021f514923ecf39054416df68d00bef87b476fce83eb0"
+}
