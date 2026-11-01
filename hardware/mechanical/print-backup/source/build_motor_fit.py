@@ -7,11 +7,14 @@ B=Path(__file__).resolve().parents[1]; R=B.parents[2]
 O=B/'motor-fit-20261101';W=R.parent/'.p2s-motor-fit-20261101'
 fast='--fast' in sys.argv;only_b='--only-b' in sys.argv
 thin='--thin3' in sys.argv;thickness=3 if thin else 5
+plain='--no-text' in sys.argv
+assert not plain or thin
 assert not only_b or fast
 assert not thin or (fast and only_b)
 if fast:
  O=O/'fast'/('b_only' if only_b else 'all_three');W=W/('fast_b' if only_b else 'fast_all')
 if thin:O=O/'thin3';W=W/'thin3'
+if plain:O=O/'plain';W=W/'plain'
 for p in [O,O/'parts',O/'step',O/'checks',W]:p.mkdir(parents=True,exist_ok=True)
 ns='http://schemas.microsoft.com/3dmanufacturing/core/2015/02';E.register_namespace('',ns)
 tag=lambda n:'{'+ns+'}'+n
@@ -24,7 +27,7 @@ for i,(name,width) in enumerate([('A',2.2),('B',2.4),('C',2.6)],1):
  for y in [-10.5,10.5]:
   cutter=cq.Workplane('XY').box(12,width,7,centered=(True,True,False)).translate((0,y,-1));s=s.cut(cutter)
  letters=cq.Workplane('XY').text(name,4,.4,font='Arial',kind='bold',halign='center',valign='center').translate((10,0,thickness))
- solid=s.union(letters).val();assert solid.isValid() and len(solid.Solids())==1
+ solid=s.val() if plain else s.union(letters).val();assert solid.isValid() and len(solid.Solids())==1
  if thin:
   old=cq.importers.importStep(str(B/'motor-fit-20261101/step'/f'FIT_{name}.step')).val()
   slab=cq.Workplane('XY').box(40,50,3,centered=(True,True,False)).val()
@@ -41,7 +44,7 @@ for i,(name,width) in enumerate([('A',2.2),('B',2.4),('C',2.6)],1):
  for v in m.vertices:E.SubElement(vs,tag('vertex'),dict(zip(['x','y','z'],map(str,v))))
  for f in m.faces:E.SubElement(ts,tag('triangle'),dict(zip(['v1','v2','v3'],map(str,f))))
  E.SubElement(build,tag('item'),{'objectid':str(i)})
- records.append({'id':name,'slot_mm':[12,width],'slot_centres_mm':[[0,-10.5],[0,10.5]],'nominal_inner_tab_gap_mm':19,'plate_thickness_mm':thickness,'size_mm':[28,36,thickness+.4],'watertight':True,'neck_fit_digital':True})
+ records.append({'id':name,'slot_mm':[12,width],'slot_centres_mm':[[0,-10.5],[0,10.5]],'nominal_inner_tab_gap_mm':19,'plate_thickness_mm':thickness,'size_mm':[28,36,thickness+(0 if plain else .4)],'watertight':True,'neck_fit_digital':True,'text_on_part':not plain})
 geometry=W/'FIT_GEOMETRY.3mf'
 with zipfile.ZipFile(B/'labeled-bases-20261101/geometry/PLATE_3_GEOMETRY.3mf') as template,zipfile.ZipFile(geometry,'w',zipfile.ZIP_DEFLATED) as z:
  for n in ['[Content_Types].xml','_rels/.rels']:z.writestr(n,template.read(n))
@@ -66,6 +69,7 @@ assert done.returncode==0,(W/'slice.log').read_text(errors='replace')[-2000:]
 result=json.loads((W/'result.json').read_text(encoding='utf-8'));p=result['sliced_plates'][0];assert not p['warning_message']
 filename=('P2S_D06_FIT_B_ONLY_FAST_028.3mf' if only_b else 'P2S_D06_FIT_ABC_FAST_028.3mf') if fast else 'P2S_D06_FIT_TEST_016.3mf'
 if thin:filename='P2S_D06_FIT_B_THICKNESS_3MM_FAST.3mf'
+if plain:filename='P2S_D06_FIT_B_3MM_NO_TEXT_FAST.3mf'
 n=cmd.index('--slice');del cmd[n:n+2];cmd[cmd.index('--export-3mf')+1]=filename;cmd[cmd.index('--outputdir')+1]=str(O)
 with (W/'export.log').open('w') as log:done=subprocess.run(cmd,cwd=cli.parent,stdout=log,stderr=subprocess.STDOUT)
 assert done.returncode==0
@@ -92,6 +96,9 @@ if thin:
  heights=[float(v) for v in re.findall(r'; Z_HEIGHT: ([\d.]+)',code)]
  assert any(abs(v-3)<1e-6 for v in heights)
  report.update({'thickness_reduced_mm':2,'xy_profile_unchanged_boolean_verified':True,'sliced_body_top_mm':3,'coupon_B_assumed_from_previous_recommendation':True,'user_feedback':'Width fits; reduce plate thickness by 2mm. New thickness not physically tested.'})
+ if plain:
+  assert abs(max(heights)-3)<1e-6
+  report.update({'text_removed':True,'max_sliced_height_mm':max(heights),'final_motor_adapter_contact_faces_must_be_plain':True})
 (O/'checks/validation.json').write_text(json.dumps(report,ensure_ascii=False,indent=2),encoding='utf-8')
 if (O/'result.json').exists():(O/'result.json').unlink()
 print(json.dumps(report,ensure_ascii=False))
