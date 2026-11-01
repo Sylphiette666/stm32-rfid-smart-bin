@@ -1,0 +1,119 @@
+{
+  "status": "GEOMETRY_CHECKED_WHEEL_PLACEMENT_PENDING",
+  "variants": {
+    "LEFT": {
+      "centre": [
+        96,
+        14
+      ],
+      "holes": [
+        [
+          -20,
+          -6
+        ],
+        [
+          -20,
+          6
+        ],
+        [
+          20,
+          -6
+        ],
+        [
+          20,
+          6
+        ]
+      ],
+      "size_mm": [
+        51.0,
+        36.0,
+        9.0
+      ],
+      "candidate_base_holes": [
+        [
+          76,
+          8
+        ],
+        [
+          76,
+          20
+        ],
+        [
+          116,
+          8
+        ],
+        [
+          116,
+          20
+        ]
+      ]
+    },
+    "RIGHT": {
+      "centre": [
+        96,
+        206
+      ],
+      "holes": [
+        [
+          16,
+          -22
+        ],
+        [
+          16,
+          -10
+        ],
+        [
+          32,
+          -22
+        ],
+        [
+          32,
+          -10
+        ]
+      ],
+      "size_mm": [
+        51.5,
+        45.49999000344451,
+        9.0
+      ],
+      "candidate_base_holes": [
+        [
+          112,
+          184
+        ],
+        [
+          112,
+          196
+        ],
+        [
+          128,
+          184
+        ],
+        [
+          128,
+          196
+        ]
+      ]
+    }
+  },
+  "slot_mm": [
+    12,
+    2.4
+  ],
+  "slot_centre_distance_mm": 21,
+  "contact_thickness_mm": 3,
+  "head_cavity_mm": 6,
+  "head_height_measured_mm": 5,
+  "quantity": 2,
+  "identical_parts": false,
+  "text_on_part": false,
+  "closed_valid_solids": true,
+  "watertight_meshes": true,
+  "proven_coupon_material_preserved": true,
+  "candidate_bolt_heads_clear": true,
+  "base_drilling_authorized_by_this_drawing": false,
+  "physical_load_test": false,
+  "motor_wheel_full_envelope_verified": false,
+  "final_drilling_requires_dry_fit": true,
+  "all_candidate_feet_bear_on_full_5mm_chassis": true
+}

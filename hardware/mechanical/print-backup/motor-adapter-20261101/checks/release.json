@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "project": "P2S_D06_ADAPTER_PAIR_028.3mf",
+  "project_sha256": "d71ab8cfdddaeab49bd238f0fac57712c44c0108752c64d8ed7c8b919ea6fbea",
+  "estimated_seconds": 2789.737060546875,
+  "filament_g": 16.3076229095459,
+  "manual_sha256": "3bcb22b2f761b9e77c5d6b8c4c45c651f01165286920418738b754be5e07c6b9",
+  "manual_visually_checked": true,
+  "printer_jobs_sent": false,
+  "full_motor_wheel_fit_tested": false,
+  "load_tested": false
+}

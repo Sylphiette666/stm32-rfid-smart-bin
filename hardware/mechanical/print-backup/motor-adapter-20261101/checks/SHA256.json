@@ -1,0 +1,17 @@
+{
+  "checks/design.json": "7abf35fb86a2689debeb438a9c2b89f1113dbf97044c4b57f7d72258a79da79c",
+  "checks/first_layers.json": "3d0acd252a564847c13bc3f3da14b23acdf8f4af30a6bde23ac18b5ec65520ce",
+  "checks/manual_qa.json": "fc7af0afbec5fbc3cb7a683fdaa8d73699dff4279a3d231a4afce9024c4b76d5",
+  "checks/release.json": "560ed3773df3483ca64830056ef8a6b59b99d1d0906eb5f9e4d3bbc80f63ed06",
+  "checks/slicing.json": "f85198c497675c0a9b24d57fa16ad325488e316cae84d9a79af7703c4d759cfa",
+  "checks/visual_review.json": "45f6de6cd8aa116fdcb7b5ea4d262621e8f7fb1021a4170755a9189e638a41e0",
+  "P2S_D06_ADAPTER_PAIR_028.3mf": "d71ab8cfdddaeab49bd238f0fac57712c44c0108752c64d8ed7c8b919ea6fbea",
+  "parts/D06_ADAPTER_LEFT.stl": "93194190aa52787ce545433168a982a5321d80ade01b7e2e6b18a66a57138074",
+  "parts/D06_ADAPTER_RIGHT.stl": "16eb1f7627fa6fffc651aacdb5e18db5782a1466e2516ed4b553e63fead2b724",
+  "preview/installation.png": "7fd161d2f69f13dd96ed8ebe345cc7c38cf58f966ca7f51349455bcabab324ff",
+  "preview/LEFT.png": "1c9f296ef9457af4031898b7108a90ddf84ec9527560549ce9ed432583b01846",
+  "preview/RIGHT.png": "8b1b11b31af9a83fe76c748921cfde936048aee69e9e979cc887afbb3b5259d0",
+  "README.md": "ddaca640d33ddaffeafb97d03856e1394e11cd1350e7557b7db27cda05f70380",
+  "step/D06_ADAPTER_LEFT.step": "901f581b77adba0e86b594b1c6fa83e1feacffe5da9f650056d7ca9f78d29428",
+  "step/D06_ADAPTER_RIGHT.step": "c57183da8e719a07121301e0d092fccb76e39755354a6e40cc7e1fdc0edd2d92"
+}
