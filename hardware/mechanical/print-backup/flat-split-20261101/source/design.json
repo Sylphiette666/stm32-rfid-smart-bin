@@ -1,0 +1,3567 @@
+{
+  "units": "mm",
+  "status": "flat_split_geometry_checked_slicing_pending",
+  "coordinate_notes": "底板局部X由车尾指向车头，Y=0..220。layout_origin记录模块/卡座的中心；rotation为从模块本地长边+X逆时针转角。",
+  "seat_height_reference": "座高相对底板顶面Z=5；PCB底面绝对Z=5+seat_height。",
+  "base_size": [
+    280,
+    220,
+    5
+  ],
+  "upper_size": [
+    240,
+    190,
+    5
+  ],
+  "standoff_height": 60,
+  "modules": [
+    {
+      "id": "M01",
+      "name": "STM32核心板",
+      "board_size": [
+        53,
+        22,
+        2
+      ],
+      "layout_origin": [
+        31.5,
+        68
+      ],
+      "rotation": 180,
+      "seat_height": 20,
+      "fixing": "方案A：金属轴翻盖压框、90°拨片、独立定位簧片",
+      "header_side": "back",
+      "header_protrusion": 9,
+      "mount_holes": [
+        {
+          "type": "foot",
+          "xy": [
+            57.0,
+            52.0
+          ],
+          "diameter": 3.4
+        },
+        {
+          "type": "foot",
+          "xy": [
+            5.999999999999998,
+            52.0
+          ],
+          "diameter": 3.4
+        },
+        {
+          "type": "axis",
+          "xy": [
+            31.499999999999996,
+            48.5
+          ],
+          "diameter": 3.4
+        },
+        {
+          "type": "anchor",
+          "xy": [
+            46.5,
+            45.7
+          ],
+          "diameter": 3.4
+        }
+      ],
+      "interfaces": {
+        "USB": "right",
+        "SWD": "left"
+      },
+      "notes": [
+        "座高不含底板厚5mm。",
+        "压框只搭边，装配后核查排针塑壳和实际器件净空。"
+      ],
+      "mechanism": {
+        "closed_bounds_mm": [
+          [
+            -29.7,
+            -21.9,
+            0.0
+          ],
+          [
+            29.95,
+            25.8,
+            31.37800089942414
+          ]
+        ],
+        "closed_extents_mm": [
+          59.65,
+          47.7,
+          31.37800089942414
+        ],
+        "part_bounds_mm": {
+          "body": [
+            [
+              -29.7,
+              -21.9,
+              0.0
+            ],
+            [
+              29.95,
+              25.8,
+              31.37800089942414
+            ]
+          ],
+          "lid": [
+            [
+              -29.7,
+              -19.5,
+              20.8
+            ],
+            [
+              29.700000000000003,
+              15.3,
+              27.0
+            ]
+          ],
+          "keeper": [
+            [
+              -3.7,
+              13.0,
+              25.4
+            ],
+            [
+              3.7,
+              25.0,
+              28.599999999999998
+            ]
+          ],
+          "detent": [
+            [
+              -18.0,
+              19.3,
+              24.009999999999998
+            ],
+            [
+              1.0,
+              25.3,
+              25.649999999999995
+            ]
+          ]
+        },
+        "mechanism_length_mm": 53.0,
+        "seat_height_mm": 20.0,
+        "pcb_thickness_mm": 2.0,
+        "pcb_vertical_clearance_mm": 0.15,
+        "hinge_axis": {
+          "point": [
+            0,
+            -16.5,
+            24.0
+          ],
+          "direction": [
+            1,
+            0,
+            0
+          ],
+          "hole_diameter_mm": 3.4,
+          "nominal_open_degrees": 105,
+          "suggested_pin_length_mm": 30,
+          "fixed_ear_x_intervals_mm": [
+            [
+              -11.5,
+              -6.5
+            ],
+            [
+              6.5,
+              11.5
+            ]
+          ],
+          "lid_knuckle_x_interval_mm": [
+            -6,
+            6
+          ],
+          "total_bearing_span_mm": 23
+        },
+        "lock_axis_xy": [
+          0.0,
+          19.5
+        ],
+        "lock_anchor_xy": [
+          -15.0,
+          22.3
+        ],
+        "keeper_rigid_overlap_mm": 2.3,
+        "fully_open_end_edges": [],
+        "lowered_end_edges": [],
+        "usb_clear_window_width_mm": 12,
+        "lid_flat_floor_z": 20.8,
+        "detent": {
+          "free_length_mm": 12,
+          "width_mm": 2,
+          "thickness_mm": 1.16,
+          "maximum_deflection_mm": 0.25,
+          "nib_height_mm": 0.48,
+          "keeper_leaf_gap_mm": 0.23,
+          "pocket_depth_mm": 0.48,
+          "dome_flat_tip_diameter_mm": 0.3979949748426484,
+          "is_load_bearing": false
+        },
+        "mount_screw_note": "2 x M3 through holder foot and 5-mm main plate; nuts below main plate; use low-profile heads <=2 mm above the holder foot",
+        "hinge_hardware_clearance_radius_mm": 3.4,
+        "hinge_hardware_clearance_x_intervals_mm": [
+          [
+            -14.2,
+            -11.4
+          ],
+          [
+            11.4,
+            16.5
+          ]
+        ],
+        "lock_screw_note": "Latch axis and detent anchor also pass through 5-mm main plate; low round heads below that plate, locking nuts above. Adjust latch axial play to 0.1-0.2 mm while allowing rotation; no printed thread carries the hinge or latch load.",
+        "interface_note": "TF/antenna short-end crossbar omitted completely. USB short-end crossbar has a >=12-mm central through-window. A front bent-header end uses a crossbar no higher than the PCB underside. Other end beams top out 0.5 mm above the PCB upper face. Inspect actual connector shell and corner pad clearance."
+      }
+    },
+    {
+      "id": "M02",
+      "name": "MCP23017",
+      "board_size": [
+        26,
+        21,
+        2
+      ],
+      "layout_origin": [
+        91,
+        74
+      ],
+      "rotation": 0,
+      "seat_height": 20,
+      "fixing": "方案A：金属轴翻盖压框、90°拨片、独立定位簧片",
+      "header_side": "back",
+      "header_protrusion": 9,
+      "mount_holes": [
+        {
+          "type": "foot",
+          "xy": [
+            79.0,
+            89.5
+          ],
+          "diameter": 3.4
+        },
+        {
+          "type": "foot",
+          "xy": [
+            103.0,
+            89.5
+          ],
+          "diameter": 3.4
+        },
+        {
+          "type": "axis",
+          "xy": [
+            91.0,
+            93.0
+          ],
+          "diameter": 3.4
+        },
+        {
+          "type": "anchor",
+          "xy": [
+            76.0,
+            95.8
+          ],
+          "diameter": 3.4
+        }
+      ],
+      "interfaces": {},
+      "notes": [
+        "座高不含底板厚5mm。",
+        "压框只搭边，装配后核查排针塑壳和实际器件净空。"
+      ],
+      "mechanism": {
+        "closed_bounds_mm": [
+          [
+            -18.5,
+            -21.4,
+            0.0
+          ],
+          [
+            16.5,
+            25.3,
+            31.378000899424144
+          ]
+        ],
+        "closed_extents_mm": [
+          35.0,
+          46.7,
+          31.378000899424144
+        ],
+        "part_bounds_mm": {
+          "body": [
+            [
+              -18.5,
+              -21.4,
+              0.0
+            ],
+            [
+              16.45,
+              25.3,
+              31.378000899424144
+            ]
+          ],
+          "lid": [
+            [
+              -16.2,
+              -19.0,
+              20.8
+            ],
+            [
+              16.5,
+              14.8,
+              27.0
+            ]
+          ],
+          "keeper": [
+            [
+              -3.7,
+              12.5,
+              25.4
+            ],
+            [
+              3.7,
+              24.5,
+              28.599999999999998
+            ]
+          ],
+          "detent": [
+            [
+              -18.0,
+              18.8,
+              24.009999999999998
+            ],
+            [
+              1.0,
+              24.8,
+              25.649999999999995
+            ]
+          ]
+        },
+        "mechanism_length_mm": 26.0,
+        "seat_height_mm": 20.0,
+        "pcb_thickness_mm": 2.0,
+        "pcb_vertical_clearance_mm": 0.15,
+        "hinge_axis": {
+          "point": [
+            0,
+            -16.0,
+            24.0
+          ],
+          "direction": [
+            1,
+            0,
+            0
+          ],
+          "hole_diameter_mm": 3.4,
+          "nominal_open_degrees": 105,
+          "suggested_pin_length_mm": 30,
+          "fixed_ear_x_intervals_mm": [
+            [
+              -11.5,
+              -6.5
+            ],
+            [
+              6.5,
+              11.5
+            ]
+          ],
+          "lid_knuckle_x_interval_mm": [
+            -6,
+            6
+          ],
+          "total_bearing_span_mm": 23
+        },
+        "lock_axis_xy": [
+          0.0,
+          19.0
+        ],
+        "lock_anchor_xy": [
+          -15.0,
+          21.8
+        ],
+        "keeper_rigid_overlap_mm": 2.3,
+        "fully_open_end_edges": [],
+        "lowered_end_edges": [],
+        "usb_clear_window_width_mm": 0,
+        "lid_flat_floor_z": 20.8,
+        "detent": {
+          "free_length_mm": 12,
+          "width_mm": 2,
+          "thickness_mm": 1.16,
+          "maximum_deflection_mm": 0.25,
+          "nib_height_mm": 0.48,
+          "keeper_leaf_gap_mm": 0.23,
+          "pocket_depth_mm": 0.48,
+          "dome_flat_tip_diameter_mm": 0.3979949748426484,
+          "is_load_bearing": false
+        },
+        "mount_screw_note": "2 x M3 through holder foot and 5-mm main plate; nuts below main plate; use low-profile heads <=2 mm above the holder foot",
+        "hinge_hardware_clearance_radius_mm": 3.4,
+        "hinge_hardware_clearance_x_intervals_mm": [
+          [
+            -14.2,
+            -11.4
+          ],
+          [
+            11.4,
+            16.5
+          ]
+        ],
+        "lock_screw_note": "Latch axis and detent anchor also pass through 5-mm main plate; low round heads below that plate, locking nuts above. Adjust latch axial play to 0.1-0.2 mm while allowing rotation; no printed thread carries the hinge or latch load.",
+        "interface_note": "TF/antenna short-end crossbar omitted completely. USB short-end crossbar has a >=12-mm central through-window. A front bent-header end uses a crossbar no higher than the PCB underside. Other end beams top out 0.5 mm above the PCB upper face. Inspect actual connector shell and corner pad clearance."
+      }
+    },
+    {
+      "id": "M03",
+      "name": "FLASH",
+      "board_size": [
+        23,
+        19,
+        2
+      ],
+      "layout_origin": [
+        92,
+        125
+      ],
+      "rotation": 0,
+      "seat_height": 4,
+      "fixing": "方案A：金属轴翻盖压框、90°拨片、独立定位簧片",
+      "header_side": "front",
+      "header_protrusion": 9,
+      "mount_holes": [
+        {
+          "type": "foot",
+          "xy": [
+            81.0,
+            139.5
+          ],
+          "diameter": 3.4
+        },
+        {
+          "type": "foot",
+          "xy": [
+            103.0,
+            139.5
+          ],
+          "diameter": 3.4
+        },
+        {
+          "type": "axis",
+          "xy": [
+            92.0,
+            143.0
+          ],
+          "diameter": 3.4
+        },
+        {
+          "type": "anchor",
+          "xy": [
+            77.0,
+            145.8
+          ],
+          "diameter": 3.4
+        }
+      ],
+      "interfaces": {},
+      "notes": [
+        "座高不含底板厚5mm。",
+        "压框只搭边，装配后核查排针塑壳和实际器件净空。"
+      ],
+      "mechanism": {
+        "closed_bounds_mm": [
+          [
+            -18.5,
+            -20.4,
+            0.0
+          ],
+          [
+            16.5,
+            24.3,
+            15.378000899424144
+          ]
+        ],
+        "closed_extents_mm": [
+          35.0,
+          44.7,
+          15.378000899424144
+        ],
+        "part_bounds_mm": {
+          "body": [
+            [
+              -18.5,
+              -20.4,
+              0.0
+            ],
+            [
+              15.450000000000001,
+              24.3,
+              15.378000899424144
+            ]
+          ],
+          "lid": [
+            [
+              -15.2,
+              -18.0,
+              4.8
+            ],
+            [
+              16.5,
+              13.8,
+              11.0
+            ]
+          ],
+          "keeper": [
+            [
+              -3.7,
+              11.5,
+              9.399999999999999
+            ],
+            [
+              3.7,
+              23.5,
+              12.599999999999998
+            ]
+          ],
+          "detent": [
+            [
+              -18.0,
+              17.8,
+              8.009999999999998
+            ],
+            [
+              1.0,
+              23.8,
+              9.649999999999999
+            ]
+          ]
+        },
+        "mechanism_length_mm": 24.0,
+        "seat_height_mm": 4.0,
+        "pcb_thickness_mm": 2.0,
+        "pcb_vertical_clearance_mm": 0.15,
+        "hinge_axis": {
+          "point": [
+            0,
+            -15.0,
+            8.0
+          ],
+          "direction": [
+            1,
+            0,
+            0
+          ],
+          "hole_diameter_mm": 3.4,
+          "nominal_open_degrees": 105,
+          "suggested_pin_length_mm": 30,
+          "fixed_ear_x_intervals_mm": [
+            [
+              -11.5,
+              -6.5
+            ],
+            [
+              6.5,
+              11.5
+            ]
+          ],
+          "lid_knuckle_x_interval_mm": [
+            -6,
+            6
+          ],
+          "total_bearing_span_mm": 23
+        },
+        "lock_axis_xy": [
+          0.0,
+          18.0
+        ],
+        "lock_anchor_xy": [
+          -15.0,
+          20.8
+        ],
+        "keeper_rigid_overlap_mm": 2.3,
+        "fully_open_end_edges": [],
+        "lowered_end_edges": [],
+        "usb_clear_window_width_mm": 0,
+        "lid_flat_floor_z": 4.8,
+        "detent": {
+          "free_length_mm": 12,
+          "width_mm": 2,
+          "thickness_mm": 1.16,
+          "maximum_deflection_mm": 0.25,
+          "nib_height_mm": 0.48,
+          "keeper_leaf_gap_mm": 0.23,
+          "pocket_depth_mm": 0.48,
+          "dome_flat_tip_diameter_mm": 0.3979949748426484,
+          "is_load_bearing": false
+        },
+        "mount_screw_note": "2 x M3 through holder foot and 5-mm main plate; nuts below main plate; use low-profile heads <=2 mm above the holder foot",
+        "hinge_hardware_clearance_radius_mm": 3.4,
+        "hinge_hardware_clearance_x_intervals_mm": [
+          [
+            -14.2,
+            -11.4
+          ],
+          [
+            11.4,
+            16.5
+          ]
+        ],
+        "lock_screw_note": "Latch axis and detent anchor also pass through 5-mm main plate; low round heads below that plate, locking nuts above. Adjust latch axial play to 0.1-0.2 mm while allowing rotation; no printed thread carries the hinge or latch load.",
+        "interface_note": "TF/antenna short-end crossbar omitted completely. USB short-end crossbar has a >=12-mm central through-window. A front bent-header end uses a crossbar no higher than the PCB underside. Other end beams top out 0.5 mm above the PCB upper face. Inspect actual connector shell and corner pad clearance."
+      }
+    },
+    {
+      "id": "M04",
+      "name": "TB6612驱动",
+      "board_size": [
+        25,
+        25,
+        2
+      ],
+      "layout_origin": [
+        157,
+        188.5
+      ],
+      "rotation": 0,
+      "seat_height": 4,
+      "fixing": "方案A：金属轴翻盖压框、90°拨片、独立定位簧片",
+      "header_side": "front",
+      "header_protrusion": 9,
+      "mount_holes": [
+        {
+          "type": "foot",
+          "xy": [
+            145.5,
+            206.0
+          ],
+          "diameter": 3.4
+        },
+        {
+          "type": "foot",
+          "xy": [
+            168.5,
+            206.0
+          ],
+          "diameter": 3.4
+        },
+        {
+          "type": "axis",
+          "xy": [
+            157.0,
+            209.5
+          ],
+          "diameter": 3.4
+        },
+        {
+          "type": "anchor",
+          "xy": [
+            142.0,
+            212.3
+          ],
+          "diameter": 3.4
+        }
+      ],
+      "interfaces": {},
+      "notes": [
+        "座高不含底板厚5mm。",
+        "压框只搭边，装配后核查排针塑壳和实际器件净空。"
+      ],
+      "mechanism": {
+        "closed_bounds_mm": [
+          [
+            -18.5,
+            -23.4,
+            0.0
+          ],
+          [
+            16.5,
+            27.3,
+            15.378000899424144
+          ]
+        ],
+        "closed_extents_mm": [
+          35.0,
+          50.7,
+          15.378000899424144
+        ],
+        "part_bounds_mm": {
+          "body": [
+            [
+              -18.5,
+              -23.4,
+              0.0
+            ],
+            [
+              15.950000000000001,
+              27.3,
+              15.378000899424144
+            ]
+          ],
+          "lid": [
+            [
+              -15.7,
+              -21.0,
+              4.8
+            ],
+            [
+              16.5,
+              16.8,
+              11.0
+            ]
+          ],
+          "keeper": [
+            [
+              -3.7,
+              14.5,
+              9.399999999999999
+            ],
+            [
+              3.7,
+              26.5,
+              12.599999999999998
+            ]
+          ],
+          "detent": [
+            [
+              -18.0,
+              20.8,
+              8.009999999999998
+            ],
+            [
+              1.0,
+              26.8,
+              9.649999999999999
+            ]
+          ]
+        },
+        "mechanism_length_mm": 25.0,
+        "seat_height_mm": 4.0,
+        "pcb_thickness_mm": 2.0,
+        "pcb_vertical_clearance_mm": 0.15,
+        "hinge_axis": {
+          "point": [
+            0,
+            -18.0,
+            8.0
+          ],
+          "direction": [
+            1,
+            0,
+            0
+          ],
+          "hole_diameter_mm": 3.4,
+          "nominal_open_degrees": 105,
+          "suggested_pin_length_mm": 30,
+          "fixed_ear_x_intervals_mm": [
+            [
+              -11.5,
+              -6.5
+            ],
+            [
+              6.5,
+              11.5
+            ]
+          ],
+          "lid_knuckle_x_interval_mm": [
+            -6,
+            6
+          ],
+          "total_bearing_span_mm": 23
+        },
+        "lock_axis_xy": [
+          0.0,
+          21.0
+        ],
+        "lock_anchor_xy": [
+          -15.0,
+          23.8
+        ],
+        "keeper_rigid_overlap_mm": 2.3,
+        "fully_open_end_edges": [],
+        "lowered_end_edges": [],
+        "usb_clear_window_width_mm": 0,
+        "lid_flat_floor_z": 4.8,
+        "detent": {
+          "free_length_mm": 12,
+          "width_mm": 2,
+          "thickness_mm": 1.16,
+          "maximum_deflection_mm": 0.25,
+          "nib_height_mm": 0.48,
+          "keeper_leaf_gap_mm": 0.23,
+          "pocket_depth_mm": 0.48,
+          "dome_flat_tip_diameter_mm": 0.3979949748426484,
+          "is_load_bearing": false
+        },
+        "mount_screw_note": "2 x M3 through holder foot and 5-mm main plate; nuts below main plate; use low-profile heads <=2 mm above the holder foot",
+        "hinge_hardware_clearance_radius_mm": 3.4,
+        "hinge_hardware_clearance_x_intervals_mm": [
+          [
+            -14.2,
+            -11.4
+          ],
+          [
+            11.4,
+            16.5
+          ]
+        ],
+        "lock_screw_note": "Latch axis and detent anchor also pass through 5-mm main plate; low round heads below that plate, locking nuts above. Adjust latch axial play to 0.1-0.2 mm while allowing rotation; no printed thread carries the hinge or latch load.",
+        "interface_note": "TF/antenna short-end crossbar omitted completely. USB short-end crossbar has a >=12-mm central through-window. A front bent-header end uses a crossbar no higher than the PCB underside. Other end beams top out 0.5 mm above the PCB upper face. Inspect actual connector shell and corner pad clearance."
+      }
+    },
+    {
+      "id": "M05",
+      "name": "3.3V稳压",
+      "board_size": [
+        13,
+        9,
+        2
+      ],
+      "layout_origin": [
+        57.5,
+        18.5
+      ],
+      "rotation": 0,
+      "seat_height": 10,
+      "fixing": "方案A：金属轴翻盖压框、90°拨片、独立定位簧片",
+      "header_side": "back",
+      "header_protrusion": 5,
+      "mount_holes": [
+        {
+          "type": "foot",
+          "xy": [
+            46.5,
+            28.0
+          ],
+          "diameter": 3.4
+        },
+        {
+          "type": "foot",
+          "xy": [
+            68.5,
+            28.0
+          ],
+          "diameter": 3.4
+        },
+        {
+          "type": "axis",
+          "xy": [
+            57.5,
+            31.5
+          ],
+          "diameter": 3.4
+        },
+        {
+          "type": "anchor",
+          "xy": [
+            42.5,
+            34.3
+          ],
+          "diameter": 3.4
+        }
+      ],
+      "interfaces": {
+        "bent_header": "right"
+      },
+      "notes": [
+        "座高不含底板厚5mm。",
+        "压框只搭边，装配后核查排针塑壳和实际器件净空。"
+      ],
+      "mechanism": {
+        "closed_bounds_mm": [
+          [
+            -18.5,
+            -15.4,
+            0.0
+          ],
+          [
+            16.5,
+            19.3,
+            21.378000899424144
+          ]
+        ],
+        "closed_extents_mm": [
+          35.0,
+          34.7,
+          21.378000899424144
+        ],
+        "part_bounds_mm": {
+          "body": [
+            [
+              -18.5,
+              -15.4,
+              0.0
+            ],
+            [
+              15.450000000000001,
+              19.3,
+              21.378000899424144
+            ]
+          ],
+          "lid": [
+            [
+              -15.2,
+              -13.0,
+              10.8
+            ],
+            [
+              16.5,
+              8.8,
+              17.0
+            ]
+          ],
+          "keeper": [
+            [
+              -3.7,
+              6.5,
+              15.399999999999999
+            ],
+            [
+              3.7,
+              18.5,
+              18.599999999999998
+            ]
+          ],
+          "detent": [
+            [
+              -18.0,
+              12.8,
+              14.009999999999998
+            ],
+            [
+              1.0,
+              18.8,
+              15.649999999999999
+            ]
+          ]
+        },
+        "mechanism_length_mm": 24.0,
+        "seat_height_mm": 10.0,
+        "pcb_thickness_mm": 2.0,
+        "pcb_vertical_clearance_mm": 0.15,
+        "hinge_axis": {
+          "point": [
+            0,
+            -10.0,
+            14.0
+          ],
+          "direction": [
+            1,
+            0,
+            0
+          ],
+          "hole_diameter_mm": 3.4,
+          "nominal_open_degrees": 105,
+          "suggested_pin_length_mm": 30,
+          "fixed_ear_x_intervals_mm": [
+            [
+              -11.5,
+              -6.5
+            ],
+            [
+              6.5,
+              11.5
+            ]
+          ],
+          "lid_knuckle_x_interval_mm": [
+            -6,
+            6
+          ],
+          "total_bearing_span_mm": 23
+        },
+        "lock_axis_xy": [
+          0.0,
+          13.0
+        ],
+        "lock_anchor_xy": [
+          -15.0,
+          15.8
+        ],
+        "keeper_rigid_overlap_mm": 2.3,
+        "fully_open_end_edges": [],
+        "lowered_end_edges": [],
+        "usb_clear_window_width_mm": 0,
+        "lid_flat_floor_z": 10.8,
+        "detent": {
+          "free_length_mm": 12,
+          "width_mm": 2,
+          "thickness_mm": 1.16,
+          "maximum_deflection_mm": 0.25,
+          "nib_height_mm": 0.48,
+          "keeper_leaf_gap_mm": 0.23,
+          "pocket_depth_mm": 0.48,
+          "dome_flat_tip_diameter_mm": 0.3979949748426484,
+          "is_load_bearing": false
+        },
+        "mount_screw_note": "2 x M3 through holder foot and 5-mm main plate; nuts below main plate; use low-profile heads <=2 mm above the holder foot",
+        "hinge_hardware_clearance_radius_mm": 3.4,
+        "hinge_hardware_clearance_x_intervals_mm": [
+          [
+            -14.2,
+            -11.4
+          ],
+          [
+            11.4,
+            16.5
+          ]
+        ],
+        "lock_screw_note": "Latch axis and detent anchor also pass through 5-mm main plate; low round heads below that plate, locking nuts above. Adjust latch axial play to 0.1-0.2 mm while allowing rotation; no printed thread carries the hinge or latch load.",
+        "interface_note": "TF/antenna short-end crossbar omitted completely. USB short-end crossbar has a >=12-mm central through-window. A front bent-header end uses a crossbar no higher than the PCB underside. Other end beams top out 0.5 mm above the PCB upper face. Inspect actual connector shell and corner pad clearance."
+      }
+    },
+    {
+      "id": "M06",
+      "name": "DFPlayer",
+      "board_size": [
+        21.5,
+        20.5,
+        2
+      ],
+      "layout_origin": [
+        23,
+        113
+      ],
+      "rotation": 0,
+      "seat_height": 20,
+      "fixing": "方案A：金属轴翻盖压框、90°拨片、独立定位簧片",
+      "header_side": "back",
+      "header_protrusion": 8,
+      "mount_holes": [
+        {
+          "type": "foot",
+          "xy": [
+            12.0,
+            128.25
+          ],
+          "diameter": 3.4
+        },
+        {
+          "type": "foot",
+          "xy": [
+            34.0,
+            128.25
+          ],
+          "diameter": 3.4
+        },
+        {
+          "type": "axis",
+          "xy": [
+            23.0,
+            131.75
+          ],
+          "diameter": 3.4
+        },
+        {
+          "type": "anchor",
+          "xy": [
+            8.0,
+            134.55
+          ],
+          "diameter": 3.4
+        }
+      ],
+      "interfaces": {
+        "TF": "left"
+      },
+      "notes": [
+        "座高不含底板厚5mm。",
+        "压框只搭边，装配后核查排针塑壳和实际器件净空。"
+      ],
+      "mechanism": {
+        "closed_bounds_mm": [
+          [
+            -18.5,
+            -21.15,
+            0.0
+          ],
+          [
+            16.5,
+            25.05,
+            31.378000899424144
+          ]
+        ],
+        "closed_extents_mm": [
+          35.0,
+          46.2,
+          31.378000899424144
+        ],
+        "part_bounds_mm": {
+          "body": [
+            [
+              -18.5,
+              -21.15,
+              0.0
+            ],
+            [
+              15.450000000000001,
+              25.05,
+              31.378000899424144
+            ]
+          ],
+          "lid": [
+            [
+              -15.2,
+              -18.75,
+              20.8
+            ],
+            [
+              16.5,
+              14.55,
+              27.0
+            ]
+          ],
+          "keeper": [
+            [
+              -3.7,
+              12.25,
+              25.4
+            ],
+            [
+              3.7,
+              24.25,
+              28.599999999999998
+            ]
+          ],
+          "detent": [
+            [
+              -18.0,
+              18.55,
+              24.009999999999998
+            ],
+            [
+              1.0,
+              24.55,
+              25.649999999999995
+            ]
+          ]
+        },
+        "mechanism_length_mm": 24.0,
+        "seat_height_mm": 20.0,
+        "pcb_thickness_mm": 2.0,
+        "pcb_vertical_clearance_mm": 0.15,
+        "hinge_axis": {
+          "point": [
+            0,
+            -15.75,
+            24.0
+          ],
+          "direction": [
+            1,
+            0,
+            0
+          ],
+          "hole_diameter_mm": 3.4,
+          "nominal_open_degrees": 105,
+          "suggested_pin_length_mm": 30,
+          "fixed_ear_x_intervals_mm": [
+            [
+              -11.5,
+              -6.5
+            ],
+            [
+              6.5,
+              11.5
+            ]
+          ],
+          "lid_knuckle_x_interval_mm": [
+            -6,
+            6
+          ],
+          "total_bearing_span_mm": 23
+        },
+        "lock_axis_xy": [
+          0.0,
+          18.75
+        ],
+        "lock_anchor_xy": [
+          -15.0,
+          21.55
+        ],
+        "keeper_rigid_overlap_mm": 2.3,
+        "fully_open_end_edges": [
+          "x-"
+        ],
+        "lowered_end_edges": [],
+        "usb_clear_window_width_mm": 0,
+        "lid_flat_floor_z": 20.8,
+        "detent": {
+          "free_length_mm": 12,
+          "width_mm": 2,
+          "thickness_mm": 1.16,
+          "maximum_deflection_mm": 0.25,
+          "nib_height_mm": 0.48,
+          "keeper_leaf_gap_mm": 0.23,
+          "pocket_depth_mm": 0.48,
+          "dome_flat_tip_diameter_mm": 0.3979949748426484,
+          "is_load_bearing": false
+        },
+        "mount_screw_note": "2 x M3 through holder foot and 5-mm main plate; nuts below main plate; use low-profile heads <=2 mm above the holder foot",
+        "hinge_hardware_clearance_radius_mm": 3.4,
+        "hinge_hardware_clearance_x_intervals_mm": [
+          [
+            -14.2,
+            -11.4
+          ],
+          [
+            11.4,
+            16.5
+          ]
+        ],
+        "lock_screw_note": "Latch axis and detent anchor also pass through 5-mm main plate; low round heads below that plate, locking nuts above. Adjust latch axial play to 0.1-0.2 mm while allowing rotation; no printed thread carries the hinge or latch load.",
+        "interface_note": "TF/antenna short-end crossbar omitted completely. USB short-end crossbar has a >=12-mm central through-window. A front bent-header end uses a crossbar no higher than the PCB underside. Other end beams top out 0.5 mm above the PCB upper face. Inspect actual connector shell and corner pad clearance."
+      }
+    },
+    {
+      "id": "M07",
+      "name": "HC-05蓝牙",
+      "board_size": [
+        39,
+        16,
+        2
+      ],
+      "layout_origin": [
+        25,
+        164
+      ],
+      "rotation": 90,
+      "seat_height": 5,
+      "fixing": "方案A：金属轴翻盖压框、90°拨片、独立定位簧片",
+      "header_side": "front",
+      "header_protrusion": 6,
+      "mount_holes": [
+        {
+          "type": "foot",
+          "xy": [
+            10.0,
+            143.5
+          ],
+          "diameter": 3.4
+        },
+        {
+          "type": "foot",
+          "xy": [
+            10.0,
+            182.5
+          ],
+          "diameter": 3.4
+        },
+        {
+          "type": "axis",
+          "xy": [
+            8.5,
+            164.0
+          ],
+          "diameter": 3.4
+        },
+        {
+          "type": "anchor",
+          "xy": [
+            5.699999999999999,
+            149.0
+          ],
+          "diameter": 3.4
+        }
+      ],
+      "interfaces": {
+        "antenna": "right",
+        "front_header": {
+          "edge": "left",
+          "face": "front"
+        }
+      },
+      "notes": [
+        "座高不含底板厚5mm。",
+        "压框只搭边，装配后核查排针塑壳和实际器件净空。"
+      ],
+      "mechanism": {
+        "closed_bounds_mm": [
+          [
+            -24.0,
+            -21.076329570667856,
+            0.0
+          ],
+          [
+            22.7,
+            22.8,
+            13.899999999999999
+          ]
+        ],
+        "closed_extents_mm": [
+          46.7,
+          43.876329570667856,
+          13.899999999999999
+        ],
+        "part_bounds_mm": {
+          "body": [
+            [
+              -24.0,
+              -21.076329570667856,
+              0.0
+            ],
+            [
+              22.7,
+              22.8,
+              13.899999999999999
+            ]
+          ],
+          "lid": [
+            [
+              -22.7,
+              -16.5,
+              3.0
+            ],
+            [
+              22.7,
+              12.3,
+              10.200000000000001
+            ]
+          ],
+          "keeper": [
+            [
+              -3.7,
+              10.0,
+              10.399999999999999
+            ],
+            [
+              3.7,
+              22.0,
+              13.599999999999998
+            ]
+          ],
+          "detent": [
+            [
+              -18.0,
+              16.3,
+              9.009999999999998
+            ],
+            [
+              1.0,
+              22.3,
+              10.649999999999999
+            ]
+          ]
+        },
+        "mechanism_length_mm": 39.0,
+        "seat_height_mm": 5.0,
+        "pcb_thickness_mm": 2.0,
+        "pcb_vertical_clearance_mm": 0.15,
+        "hinge_axis": {
+          "point": [
+            0,
+            -13.5,
+            6.2
+          ],
+          "direction": [
+            1,
+            0,
+            0
+          ],
+          "hole_diameter_mm": 3.4,
+          "nominal_open_degrees": 105,
+          "suggested_pin_length_mm": 30,
+          "fixed_ear_x_intervals_mm": [
+            [
+              -11.5,
+              -6.5
+            ],
+            [
+              6.5,
+              11.5
+            ]
+          ],
+          "lid_knuckle_x_interval_mm": [
+            -6,
+            6
+          ],
+          "total_bearing_span_mm": 23
+        },
+        "lock_axis_xy": [
+          0.0,
+          16.5
+        ],
+        "lock_anchor_xy": [
+          -15.0,
+          19.3
+        ],
+        "keeper_rigid_overlap_mm": 2.3,
+        "fully_open_end_edges": [
+          "x+"
+        ],
+        "lowered_end_edges": [
+          "x-"
+        ],
+        "usb_clear_window_width_mm": 0,
+        "lid_flat_floor_z": 3.0,
+        "detent": {
+          "free_length_mm": 12,
+          "width_mm": 2,
+          "thickness_mm": 1.16,
+          "maximum_deflection_mm": 0.25,
+          "nib_height_mm": 0.48,
+          "keeper_leaf_gap_mm": 0.23,
+          "pocket_depth_mm": 0.48,
+          "dome_flat_tip_diameter_mm": 0.3979949748426484,
+          "is_load_bearing": false
+        },
+        "mount_screw_note": "2 x M3 through holder foot and 5-mm main plate; nuts below main plate; use low-profile heads <=2 mm above the holder foot",
+        "hinge_hardware_clearance_radius_mm": 3.4,
+        "hinge_hardware_clearance_x_intervals_mm": [
+          [
+            -14.2,
+            -11.4
+          ],
+          [
+            11.4,
+            16.5
+          ]
+        ],
+        "lock_screw_note": "Latch axis and detent anchor also pass through 5-mm main plate; low round heads below that plate, locking nuts above. Adjust latch axial play to 0.1-0.2 mm while allowing rotation; no printed thread carries the hinge or latch load.",
+        "interface_note": "TF/antenna short-end crossbar omitted completely. USB short-end crossbar has a >=12-mm central through-window. A front bent-header end uses a crossbar no higher than the PCB underside. Other end beams top out 0.5 mm above the PCB upper face. Inspect actual connector shell and corner pad clearance."
+      }
+    },
+    {
+      "id": "M08",
+      "name": "MPU6050",
+      "board_size": [
+        25,
+        25,
+        2
+      ],
+      "layout_origin": [
+        120,
+        188.5
+      ],
+      "rotation": 0,
+      "seat_height": 4,
+      "fixing": "方案A：金属轴翻盖压框、90°拨片、独立定位簧片",
+      "header_side": "front",
+      "header_protrusion": 9,
+      "mount_holes": [
+        {
+          "type": "foot",
+          "xy": [
+            108.5,
+            206.0
+          ],
+          "diameter": 3.4
+        },
+        {
+          "type": "foot",
+          "xy": [
+            131.5,
+            206.0
+          ],
+          "diameter": 3.4
+        },
+        {
+          "type": "axis",
+          "xy": [
+            120.0,
+            209.5
+          ],
+          "diameter": 3.4
+        },
+        {
+          "type": "anchor",
+          "xy": [
+            105.0,
+            212.3
+          ],
+          "diameter": 3.4
+        }
+      ],
+      "interfaces": {},
+      "notes": [
+        "座高不含底板厚5mm。",
+        "压框只搭边，装配后核查排针塑壳和实际器件净空。"
+      ],
+      "mechanism": {
+        "closed_bounds_mm": [
+          [
+            -18.5,
+            -23.4,
+            0.0
+          ],
+          [
+            16.5,
+            27.3,
+            15.378000899424144
+          ]
+        ],
+        "closed_extents_mm": [
+          35.0,
+          50.7,
+          15.378000899424144
+        ],
+        "part_bounds_mm": {
+          "body": [
+            [
+              -18.5,
+              -23.4,
+              0.0
+            ],
+            [
+              15.950000000000001,
+              27.3,
+              15.378000899424144
+            ]
+          ],
+          "lid": [
+            [
+              -15.7,
+              -21.0,
+              4.8
+            ],
+            [
+              16.5,
+              16.8,
+              11.0
+            ]
+          ],
+          "keeper": [
+            [
+              -3.7,
+              14.5,
+              9.399999999999999
+            ],
+            [
+              3.7,
+              26.5,
+              12.599999999999998
+            ]
+          ],
+          "detent": [
+            [
+              -18.0,
+              20.8,
+              8.009999999999998
+            ],
+            [
+              1.0,
+              26.8,
+              9.649999999999999
+            ]
+          ]
+        },
+        "mechanism_length_mm": 25.0,
+        "seat_height_mm": 4.0,
+        "pcb_thickness_mm": 2.0,
+        "pcb_vertical_clearance_mm": 0.15,
+        "hinge_axis": {
+          "point": [
+            0,
+            -18.0,
+            8.0
+          ],
+          "direction": [
+            1,
+            0,
+            0
+          ],
+          "hole_diameter_mm": 3.4,
+          "nominal_open_degrees": 105,
+          "suggested_pin_length_mm": 30,
+          "fixed_ear_x_intervals_mm": [
+            [
+              -11.5,
+              -6.5
+            ],
+            [
+              6.5,
+              11.5
+            ]
+          ],
+          "lid_knuckle_x_interval_mm": [
+            -6,
+            6
+          ],
+          "total_bearing_span_mm": 23
+        },
+        "lock_axis_xy": [
+          0.0,
+          21.0
+        ],
+        "lock_anchor_xy": [
+          -15.0,
+          23.8
+        ],
+        "keeper_rigid_overlap_mm": 2.3,
+        "fully_open_end_edges": [],
+        "lowered_end_edges": [],
+        "usb_clear_window_width_mm": 0,
+        "lid_flat_floor_z": 4.8,
+        "detent": {
+          "free_length_mm": 12,
+          "width_mm": 2,
+          "thickness_mm": 1.16,
+          "maximum_deflection_mm": 0.25,
+          "nib_height_mm": 0.48,
+          "keeper_leaf_gap_mm": 0.23,
+          "pocket_depth_mm": 0.48,
+          "dome_flat_tip_diameter_mm": 0.3979949748426484,
+          "is_load_bearing": false
+        },
+        "mount_screw_note": "2 x M3 through holder foot and 5-mm main plate; nuts below main plate; use low-profile heads <=2 mm above the holder foot",
+        "hinge_hardware_clearance_radius_mm": 3.4,
+        "hinge_hardware_clearance_x_intervals_mm": [
+          [
+            -14.2,
+            -11.4
+          ],
+          [
+            11.4,
+            16.5
+          ]
+        ],
+        "lock_screw_note": "Latch axis and detent anchor also pass through 5-mm main plate; low round heads below that plate, locking nuts above. Adjust latch axial play to 0.1-0.2 mm while allowing rotation; no printed thread carries the hinge or latch load.",
+        "interface_note": "TF/antenna short-end crossbar omitted completely. USB short-end crossbar has a >=12-mm central through-window. A front bent-header end uses a crossbar no higher than the PCB underside. Other end beams top out 0.5 mm above the PCB upper face. Inspect actual connector shell and corner pad clearance."
+      }
+    },
+    {
+      "id": "M09",
+      "name": "蜂鸣器",
+      "board_size": [
+        24,
+        15,
+        2
+      ],
+      "layout_origin": [
+        97,
+        24
+      ],
+      "rotation": 0,
+      "seat_height": 4,
+      "fixing": "方案A：金属轴翻盖压框、90°拨片、独立定位簧片",
+      "header_side": "front",
+      "header_protrusion": 9,
+      "mount_holes": [
+        {
+          "type": "foot",
+          "xy": [
+            86.0,
+            36.5
+          ],
+          "diameter": 3.4
+        },
+        {
+          "type": "foot",
+          "xy": [
+            108.0,
+            36.5
+          ],
+          "diameter": 3.4
+        },
+        {
+          "type": "axis",
+          "xy": [
+            97.0,
+            40.0
+          ],
+          "diameter": 3.4
+        },
+        {
+          "type": "anchor",
+          "xy": [
+            82.0,
+            42.8
+          ],
+          "diameter": 3.4
+        }
+      ],
+      "interfaces": {
+        "sound": "centre"
+      },
+      "notes": [
+        "座高不含底板厚5mm。",
+        "压框只搭边，装配后核查排针塑壳和实际器件净空。"
+      ],
+      "mechanism": {
+        "closed_bounds_mm": [
+          [
+            -18.5,
+            -18.4,
+            0.0
+          ],
+          [
+            16.5,
+            22.3,
+            15.378000899424142
+          ]
+        ],
+        "closed_extents_mm": [
+          35.0,
+          40.7,
+          15.378000899424142
+        ],
+        "part_bounds_mm": {
+          "body": [
+            [
+              -18.5,
+              -18.4,
+              0.0
+            ],
+            [
+              15.450000000000001,
+              22.3,
+              15.378000899424142
+            ]
+          ],
+          "lid": [
+            [
+              -15.2,
+              -16.0,
+              4.8
+            ],
+            [
+              16.5,
+              11.8,
+              11.0
+            ]
+          ],
+          "keeper": [
+            [
+              -3.7,
+              9.5,
+              9.399999999999999
+            ],
+            [
+              3.7,
+              21.5,
+              12.599999999999998
+            ]
+          ],
+          "detent": [
+            [
+              -18.0,
+              15.8,
+              8.009999999999998
+            ],
+            [
+              1.0,
+              21.8,
+              9.649999999999999
+            ]
+          ]
+        },
+        "mechanism_length_mm": 24.0,
+        "seat_height_mm": 4.0,
+        "pcb_thickness_mm": 2.0,
+        "pcb_vertical_clearance_mm": 0.15,
+        "hinge_axis": {
+          "point": [
+            0,
+            -13.0,
+            8.0
+          ],
+          "direction": [
+            1,
+            0,
+            0
+          ],
+          "hole_diameter_mm": 3.4,
+          "nominal_open_degrees": 105,
+          "suggested_pin_length_mm": 30,
+          "fixed_ear_x_intervals_mm": [
+            [
+              -11.5,
+              -6.5
+            ],
+            [
+              6.5,
+              11.5
+            ]
+          ],
+          "lid_knuckle_x_interval_mm": [
+            -6,
+            6
+          ],
+          "total_bearing_span_mm": 23
+        },
+        "lock_axis_xy": [
+          0.0,
+          16.0
+        ],
+        "lock_anchor_xy": [
+          -15.0,
+          18.8
+        ],
+        "keeper_rigid_overlap_mm": 2.3,
+        "fully_open_end_edges": [],
+        "lowered_end_edges": [],
+        "usb_clear_window_width_mm": 0,
+        "lid_flat_floor_z": 4.8,
+        "detent": {
+          "free_length_mm": 12,
+          "width_mm": 2,
+          "thickness_mm": 1.16,
+          "maximum_deflection_mm": 0.25,
+          "nib_height_mm": 0.48,
+          "keeper_leaf_gap_mm": 0.23,
+          "pocket_depth_mm": 0.48,
+          "dome_flat_tip_diameter_mm": 0.3979949748426484,
+          "is_load_bearing": false
+        },
+        "mount_screw_note": "2 x M3 through holder foot and 5-mm main plate; nuts below main plate; use low-profile heads <=2 mm above the holder foot",
+        "hinge_hardware_clearance_radius_mm": 3.4,
+        "hinge_hardware_clearance_x_intervals_mm": [
+          [
+            -14.2,
+            -11.4
+          ],
+          [
+            11.4,
+            16.5
+          ]
+        ],
+        "lock_screw_note": "Latch axis and detent anchor also pass through 5-mm main plate; low round heads below that plate, locking nuts above. Adjust latch axial play to 0.1-0.2 mm while allowing rotation; no printed thread carries the hinge or latch load.",
+        "interface_note": "TF/antenna short-end crossbar omitted completely. USB short-end crossbar has a >=12-mm central through-window. A front bent-header end uses a crossbar no higher than the PCB underside. Other end beams top out 0.5 mm above the PCB upper face. Inspect actual connector shell and corner pad clearance."
+      }
+    },
+    {
+      "id": "A1",
+      "name": "A1主PCB",
+      "board_size": [
+        100,
+        100,
+        1.6
+      ],
+      "layout_origin": [
+        160,
+        110
+      ],
+      "rotation": 180,
+      "seat_height": 10,
+      "fixing": "四个M3孔＋10mm绝缘隔离柱",
+      "notes": [
+        "四孔中心115/205、65/155。",
+        "动力端子朝车头+X，外侧预留20mm以上走线区。",
+        "用户28mm为正反焊后总包络，不与板厚重复叠加。"
+      ],
+      "mount_holes": [
+        {
+          "name": "A1_M3",
+          "xy": [
+            115.0,
+            65.0
+          ],
+          "diameter": 3.4
+        },
+        {
+          "name": "A1_M3",
+          "xy": [
+            205.0,
+            65.0
+          ],
+          "diameter": 3.4
+        },
+        {
+          "name": "A1_M3",
+          "xy": [
+            115.0,
+            155.0
+          ],
+          "diameter": 3.4
+        },
+        {
+          "name": "A1_M3",
+          "xy": [
+            205.0,
+            155.0
+          ],
+          "diameter": 3.4
+        }
+      ]
+    },
+    {
+      "id": "BUCK",
+      "name": "5V降压模块",
+      "board_size": [
+        43,
+        21,
+        2
+      ],
+      "layout_origin": [
+        202.5,
+        187.5
+      ],
+      "rotation": 0,
+      "seat_height": 6.2,
+      "fixing": "两大孔M2.5螺钉＋独立绝缘座；座再用2颗M3固定",
+      "notes": [
+        "模块局部孔(7,19)/(36,2)，孔心横差29、纵差17；4焊盘不作安装孔。",
+        "先放底面M2.5螺母再固定载座，电位器上方留空。"
+      ]
+    },
+    {
+      "id": "SPK",
+      "name": "小喇叭",
+      "board_size": [
+        40,
+        40,
+        14
+      ],
+      "layout_origin": [
+        68,
+        198
+      ],
+      "rotation": 0,
+      "seat_height": 2,
+      "fixing": "Ø40定位圈＋48mm耳距M3螺柱，耳下螺母调高",
+      "notes": [
+        "按图两耳孔Ø4±0.2、孔心距48±0.5。",
+        "安装耳高度未量，用下方螺母调到接触耳片，再用垫片和上螺母固定，勿压弯耳片。"
+      ]
+    },
+    {
+      "id": "BAT",
+      "name": "2S串联电池",
+      "board_size": [
+        76,
+        40,
+        20
+      ],
+      "layout_origin": [
+        176,
+        30
+      ],
+      "rotation": 0,
+      "seat_height": 4.4,
+      "fixing": "框式托架＋两端方案A旋转压片；支承条铺2mm EVA",
+      "notes": [
+        "用户确认同尺寸为2S串联7.4V。",
+        "出线朝+X，右端中央12mm让线口；压片在端部塑料壳边，勿压电芯或导线。",
+        "闭合留0.2mm限位余隙，防跳出而非压紧电芯。"
+      ]
+    }
+  ],
+  "hardware": [
+    {
+      "name": "M3低圆头螺钉",
+      "quantity": 22,
+      "spec": "M3×12，ISO7380圆头高1.65mm",
+      "used_for": "9卡座18颗＋电池座4颗",
+      "notes": "头在座脚上，两片0.5mm小垫圈，底板下方用高2.4mm普通六角螺母；此长度不配高4mm锁紧螺母。"
+    },
+    {
+      "name": "M3螺栓或金属轴",
+      "quantity": 9,
+      "spec": "M3×30，ISO7380低圆头Ø5.7×1.65mm",
+      "used_for": "9个金属轴铰链",
+      "notes": "此头型为铰链避空依据，不可换高圆柱头；自锁螺母只锁轴向间隙，压框应能自由翻动。"
+    },
+    {
+      "name": "M3拨片轴及簧片锚钉",
+      "quantity": 10,
+      "spec": "M3×40",
+      "used_for": "M01/M02/M06各2根＋电池左右各2根",
+      "notes": "全部头在5mm底板下面；每根上下各1片0.5mm垫圈、上方4mm高锁母。轴顶留0.1–0.2mm转动间隙，锚钉固定簧片头。"
+    },
+    {
+      "name": "M3拨片轴及簧片锚钉",
+      "quantity": 2,
+      "spec": "M3×30",
+      "used_for": "M05稳压模块2根",
+      "notes": "同40mm组装法，簧片头上垫圈外径不得超过6mm。"
+    },
+    {
+      "name": "M3拨片轴及簧片锚钉",
+      "quantity": 10,
+      "spec": "M3×25",
+      "used_for": "M03/M04/M07/M08/M09各2根",
+      "notes": "同40mm组装法，不在拨片轴座与拨片之间另加圆垫圈，以免遮住定位凸点。"
+    },
+    {
+      "name": "M3降压载座固定螺钉",
+      "quantity": 2,
+      "spec": "M3×16，ISO7380圆头高1.65mm",
+      "used_for": "BUCK载座与5mm底板",
+      "notes": "头在载座上、锁母在底板下；两片0.5mm垫圈及4mm高锁母，载座厚3.2mm；两颗不包含于22颗座脚螺钉。"
+    },
+    {
+      "name": "M3绝缘双通柱",
+      "quantity": 4,
+      "spec": "10mm",
+      "used_for": "A1 PCB",
+      "notes": "A1四孔90×90mm。"
+    },
+    {
+      "name": "M3绝缘柱下螺钉",
+      "quantity": 4,
+      "spec": "M3×10",
+      "used_for": "A1柱底固定",
+      "notes": "头在5mm底板下，配0.5mm垫圈，名义入柱4.5mm；先核对实物盲孔深度。"
+    },
+    {
+      "name": "M3绝缘柱上螺钉",
+      "quantity": 4,
+      "spec": "M3×6",
+      "used_for": "A1 PCB固定",
+      "notes": "板厚1.6mm＋0.5mm垫圈后名义入柱3.9mm。"
+    },
+    {
+      "name": "M2.5螺钉及螺母",
+      "quantity": 2,
+      "spec": "M2.5×8",
+      "used_for": "5V模块两大孔",
+      "notes": "螺母先放到降压座底面六角窝。此处不加垫圈，约1.8mm有效吃牙；轻载试装，勿换长螺钉顶底板。"
+    },
+    {
+      "name": "M3喇叭螺钉",
+      "quantity": 2,
+      "spec": "M3×30，暂定",
+      "used_for": "喇叭两耳",
+      "notes": "每根头下、耳下、耳上共3片垫圈，耳下普通螺母、耳上锁母。耳下表面距底板顶面E与耳厚t须满足E+t≤19mm；不得压弯耳片或抬高到脱离定位圈。"
+    },
+    {
+      "name": "M3普通六角螺母",
+      "quantity": 24,
+      "spec": "高2.4mm、对边5.5mm",
+      "used_for": "22座脚＋2喇叭耳下调高",
+      "notes": "仅新增模块固定件，不含原立柱及舵机螺丝。"
+    },
+    {
+      "name": "M3尼龙锁紧螺母",
+      "quantity": 35,
+      "spec": "DIN985，高4mm、螺距0.5mm",
+      "used_for": "9铰链＋22轴/锚＋2降压座＋2喇叭耳上",
+      "notes": "不要用高型锁母直接替换4mm高型。"
+    },
+    {
+      "name": "M3小外径平垫圈",
+      "quantity": 124,
+      "spec": "内径3.2mm、外径≤6mm、厚约0.5mm",
+      "used_for": "新增全部M3连接的配套垫圈",
+      "notes": "簧片锚点上方必须小外径，不能压住12mm自由弹臂；124片为上述选定方案数量，不含备用。"
+    }
+  ],
+  "mount_holes": [
+    {
+      "name": "M01_foot",
+      "xy": [
+        57.0,
+        52.0
+      ],
+      "diameter": 3.4
+    },
+    {
+      "name": "M01_foot",
+      "xy": [
+        5.999999999999998,
+        52.0
+      ],
+      "diameter": 3.4
+    },
+    {
+      "name": "M01_axis",
+      "xy": [
+        31.499999999999996,
+        48.5
+      ],
+      "diameter": 3.4
+    },
+    {
+      "name": "M01_anchor",
+      "xy": [
+        46.5,
+        45.7
+      ],
+      "diameter": 3.4
+    },
+    {
+      "name": "M02_foot",
+      "xy": [
+        79.0,
+        89.5
+      ],
+      "diameter": 3.4
+    },
+    {
+      "name": "M02_foot",
+      "xy": [
+        103.0,
+        89.5
+      ],
+      "diameter": 3.4
+    },
+    {
+      "name": "M02_axis",
+      "xy": [
+        91.0,
+        93.0
+      ],
+      "diameter": 3.4
+    },
+    {
+      "name": "M02_anchor",
+      "xy": [
+        76.0,
+        95.8
+      ],
+      "diameter": 3.4
+    },
+    {
+      "name": "M03_foot",
+      "xy": [
+        81.0,
+        139.5
+      ],
+      "diameter": 3.4
+    },
+    {
+      "name": "M03_foot",
+      "xy": [
+        103.0,
+        139.5
+      ],
+      "diameter": 3.4
+    },
+    {
+      "name": "M03_axis",
+      "xy": [
+        92.0,
+        143.0
+      ],
+      "diameter": 3.4
+    },
+    {
+      "name": "M03_anchor",
+      "xy": [
+        77.0,
+        145.8
+      ],
+      "diameter": 3.4
+    },
+    {
+      "name": "M04_foot",
+      "xy": [
+        145.5,
+        206.0
+      ],
+      "diameter": 3.4
+    },
+    {
+      "name": "M04_foot",
+      "xy": [
+        168.5,
+        206.0
+      ],
+      "diameter": 3.4
+    },
+    {
+      "name": "M04_axis",
+      "xy": [
+        157.0,
+        209.5
+      ],
+      "diameter": 3.4
+    },
+    {
+      "name": "M04_anchor",
+      "xy": [
+        142.0,
+        212.3
+      ],
+      "diameter": 3.4
+    },
+    {
+      "name": "M05_foot",
+      "xy": [
+        46.5,
+        28.0
+      ],
+      "diameter": 3.4
+    },
+    {
+      "name": "M05_foot",
+      "xy": [
+        68.5,
+        28.0
+      ],
+      "diameter": 3.4
+    },
+    {
+      "name": "M05_axis",
+      "xy": [
+        57.5,
+        31.5
+      ],
+      "diameter": 3.4
+    },
+    {
+      "name": "M05_anchor",
+      "xy": [
+        42.5,
+        34.3
+      ],
+      "diameter": 3.4
+    },
+    {
+      "name": "M06_foot",
+      "xy": [
+        12.0,
+        128.25
+      ],
+      "diameter": 3.4
+    },
+    {
+      "name": "M06_foot",
+      "xy": [
+        34.0,
+        128.25
+      ],
+      "diameter": 3.4
+    },
+    {
+      "name": "M06_axis",
+      "xy": [
+        23.0,
+        131.75
+      ],
+      "diameter": 3.4
+    },
+    {
+      "name": "M06_anchor",
+      "xy": [
+        8.0,
+        134.55
+      ],
+      "diameter": 3.4
+    },
+    {
+      "name": "M07_foot",
+      "xy": [
+        10.0,
+        143.5
+      ],
+      "diameter": 3.4
+    },
+    {
+      "name": "M07_foot",
+      "xy": [
+        10.0,
+        182.5
+      ],
+      "diameter": 3.4
+    },
+    {
+      "name": "M07_axis",
+      "xy": [
+        8.5,
+        164.0
+      ],
+      "diameter": 3.4
+    },
+    {
+      "name": "M07_anchor",
+      "xy": [
+        5.699999999999999,
+        149.0
+      ],
+      "diameter": 3.4
+    },
+    {
+      "name": "M08_foot",
+      "xy": [
+        108.5,
+        206.0
+      ],
+      "diameter": 3.4
+    },
+    {
+      "name": "M08_foot",
+      "xy": [
+        131.5,
+        206.0
+      ],
+      "diameter": 3.4
+    },
+    {
+      "name": "M08_axis",
+      "xy": [
+        120.0,
+        209.5
+      ],
+      "diameter": 3.4
+    },
+    {
+      "name": "M08_anchor",
+      "xy": [
+        105.0,
+        212.3
+      ],
+      "diameter": 3.4
+    },
+    {
+      "name": "M09_foot",
+      "xy": [
+        86.0,
+        36.5
+      ],
+      "diameter": 3.4
+    },
+    {
+      "name": "M09_foot",
+      "xy": [
+        108.0,
+        36.5
+      ],
+      "diameter": 3.4
+    },
+    {
+      "name": "M09_axis",
+      "xy": [
+        97.0,
+        40.0
+      ],
+      "diameter": 3.4
+    },
+    {
+      "name": "M09_anchor",
+      "xy": [
+        82.0,
+        42.8
+      ],
+      "diameter": 3.4
+    },
+    {
+      "name": "A1_M3",
+      "xy": [
+        115.0,
+        65.0
+      ],
+      "diameter": 3.4
+    },
+    {
+      "name": "A1_M3",
+      "xy": [
+        205.0,
+        65.0
+      ],
+      "diameter": 3.4
+    },
+    {
+      "name": "A1_M3",
+      "xy": [
+        115.0,
+        155.0
+      ],
+      "diameter": 3.4
+    },
+    {
+      "name": "A1_M3",
+      "xy": [
+        205.0,
+        155.0
+      ],
+      "diameter": 3.4
+    },
+    {
+      "name": "BUCK_base",
+      "xy": [
+        189.5,
+        187.5
+      ],
+      "diameter": 3.4
+    },
+    {
+      "name": "BUCK_base",
+      "xy": [
+        215.5,
+        187.5
+      ],
+      "diameter": 3.4
+    },
+    {
+      "name": "SPK_ear",
+      "xy": [
+        44.0,
+        198.0
+      ],
+      "diameter": 3.4
+    },
+    {
+      "name": "SPK_ear",
+      "xy": [
+        92.0,
+        198.0
+      ],
+      "diameter": 3.4
+    },
+    {
+      "name": "BAT_foot",
+      "xy": [
+        152.0,
+        6.0
+      ],
+      "diameter": 3.4
+    },
+    {
+      "name": "BAT_foot",
+      "xy": [
+        152.0,
+        54.0
+      ],
+      "diameter": 3.4
+    },
+    {
+      "name": "BAT_foot",
+      "xy": [
+        200.0,
+        6.0
+      ],
+      "diameter": 3.4
+    },
+    {
+      "name": "BAT_foot",
+      "xy": [
+        200.0,
+        54.0
+      ],
+      "diameter": 3.4
+    },
+    {
+      "name": "BAT_L_axis",
+      "xy": [
+        133.8,
+        20.0
+      ],
+      "diameter": 3.4
+    },
+    {
+      "name": "BAT_L_anchor",
+      "xy": [
+        131.0,
+        5.0
+      ],
+      "diameter": 3.4
+    },
+    {
+      "name": "BAT_R_axis",
+      "xy": [
+        218.2,
+        40.0
+      ],
+      "diameter": 3.4
+    },
+    {
+      "name": "BAT_R_anchor",
+      "xy": [
+        221.0,
+        55.0
+      ],
+      "diameter": 3.4
+    }
+  ],
+  "parts": [
+    {
+      "id": "M01_body",
+      "module": "M01",
+      "role": "body",
+      "stl": "parts/M01_body.stl",
+      "step": "step/M01_body.step",
+      "print_extents": [
+        59.650001525878906,
+        47.70000076293945,
+        31.378000259399414
+      ],
+      "normalising_translation": [
+        29.7,
+        21.9,
+        -0.0
+      ],
+      "volume_mm3": 4957.14566025064,
+      "numerical_mesh_weld_mm": 1e-05,
+      "closed_internal_voids": 0
+    },
+    {
+      "id": "M01_lid",
+      "module": "M01",
+      "role": "lid",
+      "stl": "parts/M01_lid.stl",
+      "step": "step/M01_lid.step",
+      "print_extents": [
+        59.400001525878906,
+        34.79999923706055,
+        6.19992208480835
+      ],
+      "normalising_translation": [
+        29.7,
+        19.5,
+        -20.8
+      ],
+      "volume_mm3": 1438.2988424636176,
+      "numerical_mesh_weld_mm": 1e-05,
+      "closed_internal_voids": 0
+    },
+    {
+      "id": "M01_keeper",
+      "module": "M01",
+      "role": "keeper",
+      "stl": "parts/M01_keeper.stl",
+      "step": "step/M01_keeper.step",
+      "print_extents": [
+        7.399997816028872,
+        12.0,
+        3.200000047683716
+      ],
+      "normalising_translation": [
+        3.7,
+        -13.0,
+        -25.4
+      ],
+      "volume_mm3": 180.26218440969518,
+      "numerical_mesh_weld_mm": 1e-05,
+      "closed_internal_voids": 0
+    },
+    {
+      "id": "M01_detent",
+      "module": "M01",
+      "role": "detent",
+      "stl": "parts/M01_detent.stl",
+      "step": "step/M01_detent.step",
+      "print_extents": [
+        19.0,
+        6.0,
+        1.6399999856948853
+      ],
+      "normalising_translation": [
+        18.0,
+        -19.3,
+        -24.009999999999998
+      ],
+      "volume_mm3": 59.757817472904065,
+      "numerical_mesh_weld_mm": 1e-05,
+      "closed_internal_voids": 0
+    },
+    {
+      "id": "M02_body",
+      "module": "M02",
+      "role": "body",
+      "stl": "parts/M02_body.stl",
+      "step": "step/M02_body.step",
+      "print_extents": [
+        34.95000076293945,
+        46.70000076293945,
+        31.378000259399414
+      ],
+      "normalising_translation": [
+        18.5,
+        21.4,
+        -0.0
+      ],
+      "volume_mm3": 4609.518228145188,
+      "numerical_mesh_weld_mm": 1e-05,
+      "closed_internal_voids": 0
+    },
+    {
+      "id": "M02_lid",
+      "module": "M02",
+      "role": "lid",
+      "stl": "parts/M02_lid.stl",
+      "step": "step/M02_lid.step",
+      "print_extents": [
+        32.70000076293945,
+        33.79999923706055,
+        6.19992208480835
+      ],
+      "normalising_translation": [
+        16.2,
+        19.0,
+        -20.8
+      ],
+      "volume_mm3": 1034.3135806518133,
+      "numerical_mesh_weld_mm": 1e-05,
+      "closed_internal_voids": 0
+    },
+    {
+      "id": "M02_keeper",
+      "module": "M02",
+      "role": "keeper",
+      "stl": "parts/M02_keeper.stl",
+      "step": "step/M02_keeper.step",
+      "print_extents": [
+        7.399997816028872,
+        12.0,
+        3.200000047683716
+      ],
+      "normalising_translation": [
+        3.7,
+        -12.5,
+        -25.4
+      ],
+      "volume_mm3": 180.26218440969518,
+      "numerical_mesh_weld_mm": 1e-05,
+      "closed_internal_voids": 0
+    },
+    {
+      "id": "M02_detent",
+      "module": "M02",
+      "role": "detent",
+      "stl": "parts/M02_detent.stl",
+      "step": "step/M02_detent.step",
+      "print_extents": [
+        19.0,
+        6.0,
+        1.6399999856948853
+      ],
+      "normalising_translation": [
+        18.0,
+        -18.8,
+        -24.009999999999998
+      ],
+      "volume_mm3": 59.757817472904065,
+      "numerical_mesh_weld_mm": 1e-05,
+      "closed_internal_voids": 0
+    },
+    {
+      "id": "M03_body",
+      "module": "M03",
+      "role": "body",
+      "stl": "parts/M03_body.stl",
+      "step": "step/M03_body.step",
+      "print_extents": [
+        33.95000076293945,
+        44.70000076293945,
+        15.37800121307373
+      ],
+      "normalising_translation": [
+        18.5,
+        20.4,
+        -0.0
+      ],
+      "volume_mm3": 2328.654890366958,
+      "numerical_mesh_weld_mm": 1e-05,
+      "closed_internal_voids": 0
+    },
+    {
+      "id": "M03_lid",
+      "module": "M03",
+      "role": "lid",
+      "stl": "parts/M03_lid.stl",
+      "step": "step/M03_lid.step",
+      "print_extents": [
+        31.700000762939453,
+        31.799999237060547,
+        6.19992208480835
+      ],
+      "normalising_translation": [
+        15.2,
+        18.0,
+        -4.8
+      ],
+      "volume_mm3": 1019.6107543246851,
+      "numerical_mesh_weld_mm": 1e-05,
+      "closed_internal_voids": 0
+    },
+    {
+      "id": "M03_keeper",
+      "module": "M03",
+      "role": "keeper",
+      "stl": "parts/M03_keeper.stl",
+      "step": "step/M03_keeper.step",
+      "print_extents": [
+        7.399997816028872,
+        12.0,
+        3.200000047683716
+      ],
+      "normalising_translation": [
+        3.7,
+        -11.5,
+        -9.399999999999999
+      ],
+      "volume_mm3": 180.26218440969515,
+      "numerical_mesh_weld_mm": 1e-05,
+      "closed_internal_voids": 0
+    },
+    {
+      "id": "M03_detent",
+      "module": "M03",
+      "role": "detent",
+      "stl": "parts/M03_detent.stl",
+      "step": "step/M03_detent.step",
+      "print_extents": [
+        19.0,
+        6.0,
+        1.6399999856948853
+      ],
+      "normalising_translation": [
+        18.0,
+        -17.8,
+        -8.009999999999998
+      ],
+      "volume_mm3": 59.757817472904065,
+      "numerical_mesh_weld_mm": 1e-05,
+      "closed_internal_voids": 0
+    },
+    {
+      "id": "M04_body",
+      "module": "M04",
+      "role": "body",
+      "stl": "parts/M04_body.stl",
+      "step": "step/M04_body.step",
+      "print_extents": [
+        34.45000076293945,
+        50.70000076293945,
+        15.37800121307373
+      ],
+      "normalising_translation": [
+        18.5,
+        23.4,
+        -0.0
+      ],
+      "volume_mm3": 2414.7345761369006,
+      "numerical_mesh_weld_mm": 1e-05,
+      "closed_internal_voids": 0
+    },
+    {
+      "id": "M04_lid",
+      "module": "M04",
+      "role": "lid",
+      "stl": "parts/M04_lid.stl",
+      "step": "step/M04_lid.step",
+      "print_extents": [
+        32.20000076293945,
+        37.79999923706055,
+        6.19992208480835
+      ],
+      "normalising_translation": [
+        15.7,
+        21.0,
+        -4.8
+      ],
+      "volume_mm3": 1045.7571674882497,
+      "numerical_mesh_weld_mm": 1e-05,
+      "closed_internal_voids": 0
+    },
+    {
+      "id": "M04_keeper",
+      "module": "M04",
+      "role": "keeper",
+      "stl": "parts/M04_keeper.stl",
+      "step": "step/M04_keeper.step",
+      "print_extents": [
+        7.399997816028872,
+        12.0,
+        3.200000047683716
+      ],
+      "normalising_translation": [
+        3.7,
+        -14.5,
+        -9.399999999999999
+      ],
+      "volume_mm3": 180.26218440969518,
+      "numerical_mesh_weld_mm": 1e-05,
+      "closed_internal_voids": 0
+    },
+    {
+      "id": "M04_detent",
+      "module": "M04",
+      "role": "detent",
+      "stl": "parts/M04_detent.stl",
+      "step": "step/M04_detent.step",
+      "print_extents": [
+        19.0,
+        6.0,
+        1.6399999856948853
+      ],
+      "normalising_translation": [
+        18.0,
+        -20.8,
+        -8.009999999999998
+      ],
+      "volume_mm3": 59.757817472904065,
+      "numerical_mesh_weld_mm": 1e-05,
+      "closed_internal_voids": 0
+    },
+    {
+      "id": "M05_body",
+      "module": "M05",
+      "role": "body",
+      "stl": "parts/M05_body.stl",
+      "step": "step/M05_body.step",
+      "print_extents": [
+        33.95000076293945,
+        34.70000076293945,
+        21.378000259399414
+      ],
+      "normalising_translation": [
+        18.5,
+        15.4,
+        -0.0
+      ],
+      "volume_mm3": 3038.8508777063294,
+      "numerical_mesh_weld_mm": 1e-05,
+      "closed_internal_voids": 0
+    },
+    {
+      "id": "M05_lid",
+      "module": "M05",
+      "role": "lid",
+      "stl": "parts/M05_lid.stl",
+      "step": "step/M05_lid.step",
+      "print_extents": [
+        31.700000762939453,
+        21.799999237060547,
+        6.19992208480835
+      ],
+      "normalising_translation": [
+        15.2,
+        13.0,
+        -10.8
+      ],
+      "volume_mm3": 1122.3467543246863,
+      "numerical_mesh_weld_mm": 1e-05,
+      "closed_internal_voids": 0
+    },
+    {
+      "id": "M05_keeper",
+      "module": "M05",
+      "role": "keeper",
+      "stl": "parts/M05_keeper.stl",
+      "step": "step/M05_keeper.step",
+      "print_extents": [
+        7.399997816028872,
+        12.0,
+        3.200000047683716
+      ],
+      "normalising_translation": [
+        3.7,
+        -6.5,
+        -15.399999999999999
+      ],
+      "volume_mm3": 180.26218440969518,
+      "numerical_mesh_weld_mm": 1e-05,
+      "closed_internal_voids": 0
+    },
+    {
+      "id": "M05_detent",
+      "module": "M05",
+      "role": "detent",
+      "stl": "parts/M05_detent.stl",
+      "step": "step/M05_detent.step",
+      "print_extents": [
+        19.0,
+        6.0,
+        1.6399999856948853
+      ],
+      "normalising_translation": [
+        18.0,
+        -12.8,
+        -14.009999999999998
+      ],
+      "volume_mm3": 59.757817472904065,
+      "numerical_mesh_weld_mm": 1e-05,
+      "closed_internal_voids": 0
+    },
+    {
+      "id": "M06_body",
+      "module": "M06",
+      "role": "body",
+      "stl": "parts/M06_body.stl",
+      "step": "step/M06_body.step",
+      "print_extents": [
+        33.95000076293945,
+        46.20000076293945,
+        31.378000259399414
+      ],
+      "normalising_translation": [
+        18.5,
+        21.15,
+        -0.0
+      ],
+      "volume_mm3": 4574.182856605288,
+      "numerical_mesh_weld_mm": 1e-05,
+      "closed_internal_voids": 0
+    },
+    {
+      "id": "M06_lid",
+      "module": "M06",
+      "role": "lid",
+      "stl": "parts/M06_lid.stl",
+      "step": "step/M06_lid.step",
+      "print_extents": [
+        31.700000762939453,
+        33.29999923706055,
+        6.19992208480835
+      ],
+      "normalising_translation": [
+        15.2,
+        18.75,
+        -20.8
+      ],
+      "volume_mm3": 991.7592543246864,
+      "numerical_mesh_weld_mm": 1e-05,
+      "closed_internal_voids": 0
+    },
+    {
+      "id": "M06_keeper",
+      "module": "M06",
+      "role": "keeper",
+      "stl": "parts/M06_keeper.stl",
+      "step": "step/M06_keeper.step",
+      "print_extents": [
+        7.399997816028872,
+        12.0,
+        3.200000047683716
+      ],
+      "normalising_translation": [
+        3.7,
+        -12.25,
+        -25.4
+      ],
+      "volume_mm3": 180.26218440969518,
+      "numerical_mesh_weld_mm": 1e-05,
+      "closed_internal_voids": 0
+    },
+    {
+      "id": "M06_detent",
+      "module": "M06",
+      "role": "detent",
+      "stl": "parts/M06_detent.stl",
+      "step": "step/M06_detent.step",
+      "print_extents": [
+        19.0,
+        6.0,
+        1.6399999856948853
+      ],
+      "normalising_translation": [
+        18.0,
+        -18.55,
+        -24.009999999999998
+      ],
+      "volume_mm3": 59.75781747290407,
+      "numerical_mesh_weld_mm": 1e-05,
+      "closed_internal_voids": 0
+    },
+    {
+      "id": "M07_body",
+      "module": "M07",
+      "role": "body",
+      "stl": "parts/M07_body.stl",
+      "step": "step/M07_body.step",
+      "print_extents": [
+        46.70000076293945,
+        43.8763313293457,
+        13.899999618530273
+      ],
+      "normalising_translation": [
+        24.0,
+        21.076329570667856,
+        -0.0
+      ],
+      "volume_mm3": 2574.1635344875945,
+      "numerical_mesh_weld_mm": 1e-05,
+      "closed_internal_voids": 0
+    },
+    {
+      "id": "M07_lid",
+      "module": "M07",
+      "role": "lid",
+      "stl": "parts/M07_lid.stl",
+      "step": "step/M07_lid.step",
+      "print_extents": [
+        45.400001525878906,
+        28.799999237060547,
+        7.199999809265137
+      ],
+      "normalising_translation": [
+        22.7,
+        16.5,
+        -3.0
+      ],
+      "volume_mm3": 1648.125046225956,
+      "numerical_mesh_weld_mm": 1e-05,
+      "closed_internal_voids": 0
+    },
+    {
+      "id": "M07_keeper",
+      "module": "M07",
+      "role": "keeper",
+      "stl": "parts/M07_keeper.stl",
+      "step": "step/M07_keeper.step",
+      "print_extents": [
+        7.399997816028872,
+        12.0,
+        3.200000047683716
+      ],
+      "normalising_translation": [
+        3.7,
+        -10.0,
+        -10.399999999999999
+      ],
+      "volume_mm3": 180.26218440969515,
+      "numerical_mesh_weld_mm": 1e-05,
+      "closed_internal_voids": 0
+    },
+    {
+      "id": "M07_detent",
+      "module": "M07",
+      "role": "detent",
+      "stl": "parts/M07_detent.stl",
+      "step": "step/M07_detent.step",
+      "print_extents": [
+        19.0,
+        6.0,
+        1.6399999856948853
+      ],
+      "normalising_translation": [
+        18.0,
+        -16.3,
+        -9.009999999999998
+      ],
+      "volume_mm3": 59.75781747290407,
+      "numerical_mesh_weld_mm": 1e-05,
+      "closed_internal_voids": 0
+    },
+    {
+      "id": "M08_body",
+      "module": "M08",
+      "role": "body",
+      "stl": "parts/M08_body.stl",
+      "step": "step/M08_body.step",
+      "print_extents": [
+        34.45000076293945,
+        50.70000076293945,
+        15.37800121307373
+      ],
+      "normalising_translation": [
+        18.5,
+        23.4,
+        -0.0
+      ],
+      "volume_mm3": 2414.7345761369006,
+      "numerical_mesh_weld_mm": 1e-05,
+      "closed_internal_voids": 0
+    },
+    {
+      "id": "M08_lid",
+      "module": "M08",
+      "role": "lid",
+      "stl": "parts/M08_lid.stl",
+      "step": "step/M08_lid.step",
+      "print_extents": [
+        32.20000076293945,
+        37.79999923706055,
+        6.19992208480835
+      ],
+      "normalising_translation": [
+        15.7,
+        21.0,
+        -4.8
+      ],
+      "volume_mm3": 1045.7571674882497,
+      "numerical_mesh_weld_mm": 1e-05,
+      "closed_internal_voids": 0
+    },
+    {
+      "id": "M08_keeper",
+      "module": "M08",
+      "role": "keeper",
+      "stl": "parts/M08_keeper.stl",
+      "step": "step/M08_keeper.step",
+      "print_extents": [
+        7.399997816028872,
+        12.0,
+        3.200000047683716
+      ],
+      "normalising_translation": [
+        3.7,
+        -14.5,
+        -9.399999999999999
+      ],
+      "volume_mm3": 180.26218440969518,
+      "numerical_mesh_weld_mm": 1e-05,
+      "closed_internal_voids": 0
+    },
+    {
+      "id": "M08_detent",
+      "module": "M08",
+      "role": "detent",
+      "stl": "parts/M08_detent.stl",
+      "step": "step/M08_detent.step",
+      "print_extents": [
+        19.0,
+        6.0,
+        1.6399999856948853
+      ],
+      "normalising_translation": [
+        18.0,
+        -20.8,
+        -8.009999999999998
+      ],
+      "volume_mm3": 59.757817472904065,
+      "numerical_mesh_weld_mm": 1e-05,
+      "closed_internal_voids": 0
+    },
+    {
+      "id": "M09_body",
+      "module": "M09",
+      "role": "body",
+      "stl": "parts/M09_body.stl",
+      "step": "step/M09_body.step",
+      "print_extents": [
+        33.95000076293945,
+        40.70000076293945,
+        15.37800121307373
+      ],
+      "normalising_translation": [
+        18.5,
+        18.4,
+        -0.0
+      ],
+      "volume_mm3": 2274.8948903669557,
+      "numerical_mesh_weld_mm": 1e-05,
+      "closed_internal_voids": 0
+    },
+    {
+      "id": "M09_lid",
+      "module": "M09",
+      "role": "lid",
+      "stl": "parts/M09_lid.stl",
+      "step": "step/M09_lid.step",
+      "print_extents": [
+        31.700000762939453,
+        27.799999237060547,
+        6.19992208480835
+      ],
+      "normalising_translation": [
+        15.2,
+        16.0,
+        -4.8
+      ],
+      "volume_mm3": 980.7707543246854,
+      "numerical_mesh_weld_mm": 1e-05,
+      "closed_internal_voids": 0
+    },
+    {
+      "id": "M09_keeper",
+      "module": "M09",
+      "role": "keeper",
+      "stl": "parts/M09_keeper.stl",
+      "step": "step/M09_keeper.step",
+      "print_extents": [
+        7.399997816028872,
+        12.0,
+        3.200000047683716
+      ],
+      "normalising_translation": [
+        3.7,
+        -9.5,
+        -9.399999999999999
+      ],
+      "volume_mm3": 180.26218440969515,
+      "numerical_mesh_weld_mm": 1e-05,
+      "closed_internal_voids": 0
+    },
+    {
+      "id": "M09_detent",
+      "module": "M09",
+      "role": "detent",
+      "stl": "parts/M09_detent.stl",
+      "step": "step/M09_detent.step",
+      "print_extents": [
+        19.0,
+        6.0,
+        1.6399999856948853
+      ],
+      "normalising_translation": [
+        18.0,
+        -15.8,
+        -8.009999999999998
+      ],
+      "volume_mm3": 59.757817472904065,
+      "numerical_mesh_weld_mm": 1e-05,
+      "closed_internal_voids": 0
+    },
+    {
+      "id": "P06_BUCK_cradle",
+      "module": "BUCK",
+      "role": "body",
+      "stl": "parts/P06_BUCK_cradle.stl",
+      "step": "step/P06_BUCK_cradle.step",
+      "print_extents": [
+        47.0,
+        25.0,
+        6.199999809265137
+      ],
+      "normalising_translation": [
+        23.5,
+        12.5,
+        -0.0
+      ],
+      "volume_mm3": 3746.790070049315,
+      "numerical_mesh_weld_mm": 1e-05,
+      "closed_internal_voids": 0
+    },
+    {
+      "id": "P07_SPEAKER_cradle",
+      "module": "SPK",
+      "role": "body",
+      "stl": "parts/P07_SPEAKER_cradle.stl",
+      "step": "step/P07_SPEAKER_cradle.step",
+      "print_extents": [
+        57.59925673546968,
+        42.18666076660156,
+        4.0
+      ],
+      "normalising_translation": [
+        28.8,
+        20.986662431172807,
+        -0.0
+      ],
+      "volume_mm3": 1326.718232793259,
+      "numerical_mesh_weld_mm": 1e-05,
+      "closed_internal_voids": 0
+    },
+    {
+      "id": "BAT_L_keeper",
+      "module": "BAT",
+      "role": "keeper",
+      "stl": "parts/BAT_L_keeper.stl",
+      "step": "step/BAT_L_keeper.step",
+      "print_extents": [
+        12.0,
+        7.399997816028872,
+        3.200000047683716
+      ],
+      "normalising_translation": [
+        47.7,
+        13.7,
+        -24.599999999999998
+      ],
+      "volume_mm3": 180.26218440969518,
+      "numerical_mesh_weld_mm": 1e-05,
+      "closed_internal_voids": 0
+    },
+    {
+      "id": "BAT_L_detent",
+      "module": "BAT",
+      "role": "detent",
+      "stl": "parts/BAT_L_detent.stl",
+      "step": "step/BAT_L_detent.step",
+      "print_extents": [
+        6.0,
+        19.0,
+        1.6399999856948853
+      ],
+      "normalising_translation": [
+        48.00000000000001,
+        28.0,
+        -23.209999999999997
+      ],
+      "volume_mm3": 59.75781747290407,
+      "numerical_mesh_weld_mm": 1e-05,
+      "closed_internal_voids": 0
+    },
+    {
+      "id": "BAT_R_keeper",
+      "module": "BAT",
+      "role": "keeper",
+      "stl": "parts/BAT_R_keeper.stl",
+      "step": "step/BAT_R_keeper.step",
+      "print_extents": [
+        12.0,
+        7.399997711181641,
+        3.200000047683716
+      ],
+      "normalising_translation": [
+        -35.7,
+        -6.3,
+        -24.599999999999998
+      ],
+      "volume_mm3": 180.26218440969518,
+      "numerical_mesh_weld_mm": 1e-05,
+      "closed_internal_voids": 0
+    },
+    {
+      "id": "BAT_R_detent",
+      "module": "BAT",
+      "role": "detent",
+      "stl": "parts/BAT_R_detent.stl",
+      "step": "step/BAT_R_detent.step",
+      "print_extents": [
+        6.0,
+        19.0,
+        1.6399999856948853
+      ],
+      "normalising_translation": [
+        -42.0,
+        -9.0,
+        -23.209999999999997
+      ],
+      "volume_mm3": 59.75781747290408,
+      "numerical_mesh_weld_mm": 1e-05,
+      "closed_internal_voids": 0
+    },
+    {
+      "id": "P05_BATTERY_cradle",
+      "module": "BAT",
+      "role": "body",
+      "stl": "parts/P05_BATTERY_cradle.stl",
+      "step": "step/P05_BATTERY_cradle.step",
+      "print_extents": [
+        97.0,
+        57.0,
+        28.100000381469727
+      ],
+      "normalising_translation": [
+        48.50000000000001,
+        28.5,
+        -0.0
+      ],
+      "volume_mm3": 9861.231902583964,
+      "numerical_mesh_weld_mm": 1e-05,
+      "closed_internal_voids": 0
+    },
+    {
+      "id": "P01_REAR_HALF",
+      "stl": "parts/P01_REAR_HALF.stl",
+      "step": "step/P01_REAR_HALF.step",
+      "print_extents": [
+        144.0,
+        220.0,
+        5.0
+      ],
+      "assembly_bounds": [
+        [
+          -4.440892098500626e-16,
+          -4.440892098500626e-16,
+          -1e-07
+        ],
+        [
+          144.0,
+          220.0,
+          5.0
+        ]
+      ],
+      "volume_mm3": 134142.12129177822
+    },
+    {
+      "id": "P01_FRONT_HALF",
+      "stl": "parts/P01_FRONT_HALF.stl",
+      "step": "step/P01_FRONT_HALF.step",
+      "print_extents": [
+        141.85000610351562,
+        220.0,
+        5.0
+      ],
+      "assembly_bounds": [
+        [
+          138.15,
+          0.0,
+          -1e-07
+        ],
+        [
+          280.0,
+          220.0,
+          5.0
+        ]
+      ],
+      "volume_mm3": 133554.59583805822
+    },
+    {
+      "id": "P01_SPLICE_BRIDGE",
+      "stl": "parts/P01_SPLICE_BRIDGE.stl",
+      "step": "step/P01_SPLICE_BRIDGE.step",
+      "print_extents": [
+        40.0,
+        24.0,
+        5.0
+      ],
+      "assembly_bounds": [
+        [
+          -20.0,
+          -12.0,
+          0.0
+        ],
+        [
+          20.0,
+          12.0,
+          5.0
+        ]
+      ],
+      "volume_mm3": 4601.247797694306
+    },
+    {
+      "id": "P02_UPPER",
+      "stl": "parts/P02_UPPER.stl",
+      "step": "step/P02_UPPER.step",
+      "print_extents": [
+        240.0,
+        190.0,
+        5.0
+      ],
+      "assembly_bounds": [
+        [
+          -4.440892098500626e-16,
+          -4.440892098500626e-16,
+          -1e-07
+        ],
+        [
+          240.0,
+          190.0,
+          5.0
+        ]
+      ],
+      "volume_mm3": 195565.34531127408
+    },
+    {
+      "id": "P03_STAND",
+      "stl": "parts/P03_STAND.stl",
+      "step": "step/P03_STAND.step",
+      "print_extents": [
+        190.0,
+        60.0,
+        24.0
+      ],
+      "assembly_bounds": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          60.0,
+          24.0,
+          190.0
+        ]
+      ],
+      "volume_mm3": 64890.41594462298
+    },
+    {
+      "id": "P04_TRAY",
+      "stl": "parts/P04_TRAY.stl",
+      "step": "step/P04_TRAY.step",
+      "print_extents": [
+        80.0,
+        40.0,
+        5.0
+      ],
+      "assembly_bounds": [
+        [
+          -4.440892098500626e-16,
+          -4.440892098500626e-16,
+          0.0
+        ],
+        [
+          80.0,
+          40.0,
+          5.0
+        ]
+      ],
+      "volume_mm3": 14895.672605799304
+    }
+  ],
+  "latch_parameters": {
+    "type": "A",
+    "closed_degrees": 0,
+    "open_degrees": 90,
+    "rigid_overlap_mm": 2.3,
+    "metal_hinge": "M3轴；中央三节，统一30mm",
+    "spring_thickness_mm": 1.16,
+    "index_nib_mm": 0.48,
+    "nominal_deflection_mm": 0.25,
+    "spring_load_bearing": false
+  },
+  "assembly_notes": [
+    "本次全部M3螺钉按ISO7380低圆头Ø5.7×1.65mm审核，铰链、座脚与降压载座不得换高圆柱头。",
+    "先将卡座固定到底板，再装PCB、铰链轴、定位簧片和拨片。",
+    "定位簧片平放打印；只防误转，刚性拨片承受压框抬起力。",
+    "闭合到硬止挡，切勿用大力压弯PCB。",
+    "装配前按实物试合角点，排针塑壳/元件密集角位应避免强扣。",
+    "建议先拆上平台再维护；开盖包络的数字检查见checks/assembly.json。"
+  ],
+  "print_notes": [
+    "所有板件完全平放；不使用原斜撑工程。",
+    "底板组装尺寸仍为280x220x5；两片定位后用三个底部连接片和12颗M3螺钉固定。",
+    "上平台一整片；模块卡座和原孔位不缩放、不移动。"
+  ],
+  "unmeasured_features": [
+    "电机支架、万向球、循迹与碰撞开关实际孔距仍未提供，不声称已核实它们的安装孔。",
+    "喇叭耳片高度用可调螺母处理。",
+    "杜邦线插好后的实际弯线包络仍需实装检查。"
+  ],
+  "physical_print_test": false,
+  "load_tested": false,
+  "base_one_piece": false,
+  "upper_one_piece": true,
+  "joint": {
+    "split_x": 138,
+    "gap_mm": 0.3,
+    "tongue_clearance_each_side_mm": 0.25,
+    "bridge_size_mm": [
+      40,
+      24,
+      5
+    ],
+    "bridge_centres": [
+      [
+        138,
+        82
+      ],
+      [
+        138,
+        110
+      ],
+      [
+        138,
+        138
+      ]
+    ],
+    "new_holes": [
+      [
+        126,
+        76
+      ],
+      [
+        126,
+        88
+      ],
+      [
+        150,
+        76
+      ],
+      [
+        150,
+        88
+      ],
+      [
+        126,
+        104
+      ],
+      [
+        126,
+        116
+      ],
+      [
+        150,
+        104
+      ],
+      [
+        150,
+        116
+      ],
+      [
+        126,
+        132
+      ],
+      [
+        126,
+        144
+      ],
+      [
+        150,
+        132
+      ],
+      [
+        150,
+        144
+      ]
+    ],
+    "hardware": "12 x M3x16 ISO7380 low round head, 24 x OD6 washer 0.5, 12 x DIN985 M3 locknut height4",
+    "below_base_extension_mm": 10.5,
+    "above_base_extension_mm": 2.15
+  },
+  "decision": "250mm shortened base would truncate original caster land X214..270 and change original front post/upper registration; preserve original dimensions using newly authorized split option."
+}

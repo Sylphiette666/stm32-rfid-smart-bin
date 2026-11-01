@@ -1,0 +1,34 @@
+{
+  "status": "PASS",
+  "plates": [
+    {
+      "plate": 1,
+      "objects": 3,
+      "names": [
+        "JOIN_BRIDGE_2",
+        "JOIN_BRIDGE_3",
+        "P01_REAR_HALF"
+      ]
+    },
+    {
+      "plate": 2,
+      "objects": 2,
+      "names": [
+        "JOIN_BRIDGE_1",
+        "P01_FRONT_HALF"
+      ]
+    },
+    {
+      "plate": 3,
+      "objects": 3,
+      "names": [
+        "P02_UPPER",
+        "P03_STAND",
+        "P07_SPEAKER_cradle"
+      ]
+    }
+  ],
+  "geometry_and_positions_retained": true,
+  "total_objects": 8,
+  "complements_fine_plate_without_duplicates": true
+}

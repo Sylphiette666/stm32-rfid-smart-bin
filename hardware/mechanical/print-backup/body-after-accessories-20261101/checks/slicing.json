@@ -1,0 +1,1575 @@
+{
+  "status": "PASS",
+  "bambu_studio_version": "02.08.02.61",
+  "machine": "Bambu Lab P2S 0.4 nozzle",
+  "material": "Generic PLA",
+  "plates": {
+    "PLATE_1_GEOMETRY": {
+      "estimated_seconds": 17636.36328125,
+      "filament_g": 150.93478393554688,
+      "return_code": 0,
+      "warning_message": "",
+      "feature_type_times": {
+        "Bottom surface": 1380.548828125,
+        "Bridge": 867.1397705078125,
+        "Brim": 159.13075256347656,
+        "Custom": 404.332763671875,
+        "Flush": 26.0,
+        "Gap infill": 30.970693588256836,
+        "Inner wall": 1788.4876708984375,
+        "Internal solid infill": 8293.625,
+        "Outer wall": 985.1824951171875,
+        "Sparse infill": 2061.423828125,
+        "Top surface": 733.341064453125,
+        "Travel": 916.5269165039062,
+        "Undefined": 908.8109741210938
+      },
+      "native_project": "P2S_BODY_AFTER_ACCESSORIES_PLATE_1.3mf",
+      "native_contains_gcode": false,
+      "native_geometry_and_positions_match_tested": true,
+      "object_count": 3,
+      "nozzle_wrapping_detection_disabled": true,
+      "gcode_has_no_G39_command": true,
+      "sha256": "5630806c3862680fc0a0179e4f17d55fe1f0b3efb574ae68957e2b206337eee6",
+      "process": {
+        "type": "process",
+        "name": "SmartBin Body After Fine Accessories 0.24 P2S",
+        "from": "system",
+        "instantiation": "true",
+        "adaptive_layer_height": "0",
+        "bottom_shell_layers": "7",
+        "bottom_color_penetration_layers": "3",
+        "bottom_shell_thickness": "1.6",
+        "bottom_surface_pattern": "monotonic",
+        "bottom_surface_density": "100",
+        "bridge_flow": "1",
+        "bridge_no_support": "0",
+        "bridge_speed": [
+          "50",
+          "50",
+          "50"
+        ],
+        "brim_object_gap": "0",
+        "brim_width": "2",
+        "compatible_printers_condition": "",
+        "circle_compensation_manual_offset": "0",
+        "default_acceleration": [
+          "3000",
+          "3000",
+          "3000"
+        ],
+        "detect_floating_vertical_shell": "1",
+        "detect_overhang_wall": "1",
+        "detect_thin_wall": "0",
+        "draft_shield": "disabled",
+        "elefant_foot_compensation": "0.15",
+        "enable_arc_fitting": "1",
+        "enable_prime_tower": "0",
+        "enable_support": "0",
+        "enable_circle_compensation": "0",
+        "enable_wrapping_detection": "0",
+        "filename_format": "{input_filename_base}_{filament_type[0]}_{print_time}.gcode",
+        "gap_infill_speed": [
+          "250",
+          "250",
+          "250"
+        ],
+        "infill_combination": "0",
+        "infill_direction": "45",
+        "infill_wall_overlap": "15%",
+        "monotonic_travel_into_wall": "45.0",
+        "initial_layer_line_width": "0.5",
+        "initial_layer_print_height": "0.2",
+        "initial_layer_speed": [
+          "25",
+          "25",
+          "25"
+        ],
+        "inner_wall_line_width": "0.45",
+        "inner_wall_speed": [
+          "100",
+          "100",
+          "100"
+        ],
+        "interface_shells": "0",
+        "internal_bridge_support_thickness": "0.8",
+        "internal_solid_infill_line_width": "0.42",
+        "internal_solid_infill_speed": [
+          "140",
+          "140",
+          "140"
+        ],
+        "ironing_flow": "10%",
+        "ironing_inset": "0.21",
+        "ironing_spacing": "0.15",
+        "ironing_speed": "30",
+        "ironing_type": "no ironing",
+        "infill_lock_depth": "1.0",
+        "initial_layer_travel_acceleration": [
+          "6000",
+          "6000",
+          "6000"
+        ],
+        "infill_shift_step": "0.4",
+        "infill_rotate_step": "0",
+        "layer_height": "0.24",
+        "layer_time_smoothing": "0",
+        "layer_time_smoothing_threshold": "30",
+        "line_width": "0.42",
+        "locked_skin_infill_pattern": "crosszag",
+        "locked_skeleton_infill_pattern": "zigzag",
+        "max_bridge_length": "0",
+        "max_travel_detour_distance": "0",
+        "avoid_crossing_wall_includes_support": "0",
+        "minimum_sparse_infill_area": "15",
+        "only_one_wall_top": "1",
+        "outer_wall_line_width": "0.42",
+        "outer_wall_speed": [
+          "60",
+          "60",
+          "60"
+        ],
+        "overhang_totally_speed": [
+          "10",
+          "10",
+          "10"
+        ],
+        "override_filament_scarf_seam_setting": "0",
+        "pre_start_fan_time": [
+          "0"
+        ],
+        "prime_tower_width": "35",
+        "print_sequence": "by layer",
+        "print_settings_id": "",
+        "prime_tower_brim_width": "3",
+        "prime_tower_enable_framework": "0",
+        "prime_tower_lift_speed": "90",
+        "prime_tower_lift_height": "-1",
+        "prime_tower_max_speed": "90",
+        "prime_tower_flat_ironing": "1",
+        "raft_layers": "0",
+        "reduce_crossing_wall": "0",
+        "reduce_infill_retraction_mode": "Auto",
+        "resolution": "0.012",
+        "scarf_angle_threshold": "155",
+        "seam_position": "aligned",
+        "seam_placement_away_from_overhangs": "0",
+        "skirt_distance": "2",
+        "skirt_per_object": "1",
+        "skirt_height": "1",
+        "skirt_loops": "0",
+        "smooth_coefficient": "4",
+        "sparse_infill_density": "30%",
+        "fill_multiline": "1",
+        "skeleton_infill_density": "15%",
+        "skin_infill_density": "15%",
+        "sparse_infill_line_width": "0.45",
+        "skin_infill_line_width": "0.45",
+        "skin_infill_depth": "2.0",
+        "skeleton_infill_line_width": "0.45",
+        "sparse_infill_pattern": "gyroid",
+        "sparse_infill_speed": [
+          "270",
+          "600",
+          "600"
+        ],
+        "spiral_mode": "0",
+        "standby_temperature_delta": "-5",
+        "support_base_pattern": "default",
+        "support_base_pattern_spacing": "2.5",
+        "support_bottom_z_distance": "0.2",
+        "support_expansion": "0",
+        "support_filament": "0",
+        "support_interface_bottom_layers": "2",
+        "support_interface_filament": "0",
+        "support_interface_loop_pattern": "0",
+        "support_interface_pattern": "auto",
+        "support_interface_spacing": "0.5",
+        "support_interface_speed": [
+          "80",
+          "80",
+          "80"
+        ],
+        "support_interface_top_layers": "2",
+        "support_line_width": "0.42",
+        "support_object_xy_distance": "0.35",
+        "support_on_build_plate_only": "0",
+        "support_speed": [
+          "150",
+          "150",
+          "150"
+        ],
+        "support_style": "default",
+        "support_threshold_angle": "30",
+        "support_top_z_distance": "0.2",
+        "support_type": "tree(auto)",
+        "enable_support_ironing": "0",
+        "support_ironing_pattern": "zig-zag",
+        "support_ironing_speed": "30",
+        "support_ironing_flow": "10%",
+        "support_ironing_spacing": "0.15",
+        "support_ironing_inset": "0.0",
+        "support_ironing_direction": "0",
+        "seam_slope_type": "none",
+        "seam_slope_start_height": "10%",
+        "seam_slope_gap": "0",
+        "seam_slope_min_length": "10",
+        "symmetric_infill_y_axis": "0",
+        "sparse_infill_lattice_angle_1": "-45",
+        "sparse_infill_lattice_angle_2": "45",
+        "top_shell_layers": "7",
+        "top_color_penetration_layers": "5",
+        "top_shell_thickness": "1.6",
+        "top_surface_line_width": "0.42",
+        "top_surface_pattern": "monotonicline",
+        "top_surface_density": "100",
+        "top_surface_speed": [
+          "200",
+          "200",
+          "200"
+        ],
+        "top_solid_infill_flow_ratio": [
+          "1",
+          "1",
+          "1"
+        ],
+        "travel_acceleration": [
+          "3000",
+          "3000",
+          "3000"
+        ],
+        "travel_short_distance_acceleration": [
+          "250",
+          "250",
+          "250"
+        ],
+        "travel_speed": [
+          "300",
+          "300",
+          "300"
+        ],
+        "tree_support_branch_angle": "45",
+        "tree_support_branch_diameter": "2",
+        "tree_support_wall_count": "-1",
+        "wall_generator": "classic",
+        "wall_infill_order": "inner wall/outer wall/infill",
+        "wall_loops": "4",
+        "wipe_tower_no_sparse_layers": "0",
+        "xy_contour_compensation": "0",
+        "xy_hole_compensation": "0",
+        "z_direction_outwall_speed_continuous": "0",
+        "enable_tower_interface_features": "0",
+        "sparse_infill_filament": "0",
+        "wall_filament": "0",
+        "solid_infill_filament": "0",
+        "infill_instead_top_bottom_surfaces": "0",
+        "fuzzy_skin": "none",
+        "fuzzy_skin_thickness": "0.3",
+        "fuzzy_skin_point_distance": "0.8",
+        "fuzzy_skin_first_layer": "0",
+        "fuzzy_skin_noise_type": "classic",
+        "fuzzy_skin_mode": "displacement",
+        "fuzzy_skin_scale": "1.0",
+        "fuzzy_skin_octaves": "4",
+        "fuzzy_skin_persistence": "0.5",
+        "enable_overhang_speed": [
+          "1",
+          "1",
+          "1"
+        ],
+        "enable_height_slowdown": [
+          "0",
+          "0",
+          "0"
+        ],
+        "initial_layer_acceleration": [
+          "500",
+          "500",
+          "500"
+        ],
+        "initial_layer_infill_speed": [
+          "50",
+          "50",
+          "50"
+        ],
+        "inner_wall_acceleration": [
+          "0",
+          "0",
+          "0"
+        ],
+        "outer_wall_acceleration": [
+          "1000",
+          "1000",
+          "1000"
+        ],
+        "overhang_1_4_speed": [
+          "0",
+          "0",
+          "0"
+        ],
+        "overhang_2_4_speed": [
+          "50",
+          "50",
+          "50"
+        ],
+        "overhang_3_4_speed": [
+          "30",
+          "30",
+          "30"
+        ],
+        "overhang_4_4_speed": [
+          "10",
+          "10",
+          "10"
+        ],
+        "print_extruder_id": [
+          "1",
+          "1",
+          "1"
+        ],
+        "print_extruder_variant": [
+          "Direct Drive Standard",
+          "Direct Drive High Flow",
+          "Direct Drive E3D High Flow"
+        ],
+        "slowdown_start_height": [
+          "0",
+          "0",
+          "0"
+        ],
+        "slowdown_start_speed": [
+          "1000",
+          "1000",
+          "1000"
+        ],
+        "slowdown_start_acc": [
+          "100000",
+          "100000",
+          "100000"
+        ],
+        "slowdown_end_height": [
+          "400",
+          "400",
+          "400"
+        ],
+        "slowdown_end_speed": [
+          "1000",
+          "1000",
+          "1000"
+        ],
+        "slowdown_end_acc": [
+          "100000",
+          "100000",
+          "100000"
+        ],
+        "small_perimeter_speed": [
+          "50%",
+          "50%",
+          "50%"
+        ],
+        "small_perimeter_threshold": [
+          "0",
+          "0",
+          "0"
+        ],
+        "sparse_infill_acceleration": [
+          "100%",
+          "100%",
+          "100%"
+        ],
+        "top_surface_acceleration": [
+          "2000",
+          "2000",
+          "2000"
+        ],
+        "travel_speed_z": [
+          "0",
+          "0",
+          "0"
+        ],
+        "vertical_shell_speed": [
+          "80%",
+          "80%",
+          "80%"
+        ],
+        "setting_id": "GP155",
+        "description": "Standard profile for 0.4mm nozzle, prioritizing speed.",
+        "compatible_printers": [
+          "Bambu Lab P2S 0.4 nozzle"
+        ],
+        "brim_type": "outer_only",
+        "timelapse_type": "0"
+      }
+    },
+    "PLATE_2_GEOMETRY": {
+      "estimated_seconds": 15920.20703125,
+      "filament_g": 145.65533447265625,
+      "return_code": 0,
+      "warning_message": "",
+      "feature_type_times": {
+        "Bottom surface": 1372.08203125,
+        "Bridge": 818.3082885742188,
+        "Brim": 141.3780517578125,
+        "Custom": 404.3702697753906,
+        "Flush": 26.0,
+        "Gap infill": 17.261072158813477,
+        "Inner wall": 1232.92578125,
+        "Internal solid infill": 7967.35498046875,
+        "Outer wall": 679.2457885742188,
+        "Sparse infill": 1974.640380859375,
+        "Top surface": 708.63037109375,
+        "Travel": 586.2847900390625,
+        "Undefined": 578.56884765625
+      },
+      "native_project": "P2S_BODY_AFTER_ACCESSORIES_PLATE_2.3mf",
+      "native_contains_gcode": false,
+      "native_geometry_and_positions_match_tested": true,
+      "object_count": 2,
+      "nozzle_wrapping_detection_disabled": true,
+      "gcode_has_no_G39_command": true,
+      "sha256": "381b378c0fabed9e5a4bf560c6cb126f1c61a5aedd95fdefd927ff0caa8c7413",
+      "process": {
+        "type": "process",
+        "name": "SmartBin Body After Fine Accessories 0.24 P2S",
+        "from": "system",
+        "instantiation": "true",
+        "adaptive_layer_height": "0",
+        "bottom_shell_layers": "7",
+        "bottom_color_penetration_layers": "3",
+        "bottom_shell_thickness": "1.6",
+        "bottom_surface_pattern": "monotonic",
+        "bottom_surface_density": "100",
+        "bridge_flow": "1",
+        "bridge_no_support": "0",
+        "bridge_speed": [
+          "50",
+          "50",
+          "50"
+        ],
+        "brim_object_gap": "0",
+        "brim_width": "2",
+        "compatible_printers_condition": "",
+        "circle_compensation_manual_offset": "0",
+        "default_acceleration": [
+          "3000",
+          "3000",
+          "3000"
+        ],
+        "detect_floating_vertical_shell": "1",
+        "detect_overhang_wall": "1",
+        "detect_thin_wall": "0",
+        "draft_shield": "disabled",
+        "elefant_foot_compensation": "0.15",
+        "enable_arc_fitting": "1",
+        "enable_prime_tower": "0",
+        "enable_support": "0",
+        "enable_circle_compensation": "0",
+        "enable_wrapping_detection": "0",
+        "filename_format": "{input_filename_base}_{filament_type[0]}_{print_time}.gcode",
+        "gap_infill_speed": [
+          "250",
+          "250",
+          "250"
+        ],
+        "infill_combination": "0",
+        "infill_direction": "45",
+        "infill_wall_overlap": "15%",
+        "monotonic_travel_into_wall": "45.0",
+        "initial_layer_line_width": "0.5",
+        "initial_layer_print_height": "0.2",
+        "initial_layer_speed": [
+          "25",
+          "25",
+          "25"
+        ],
+        "inner_wall_line_width": "0.45",
+        "inner_wall_speed": [
+          "100",
+          "100",
+          "100"
+        ],
+        "interface_shells": "0",
+        "internal_bridge_support_thickness": "0.8",
+        "internal_solid_infill_line_width": "0.42",
+        "internal_solid_infill_speed": [
+          "140",
+          "140",
+          "140"
+        ],
+        "ironing_flow": "10%",
+        "ironing_inset": "0.21",
+        "ironing_spacing": "0.15",
+        "ironing_speed": "30",
+        "ironing_type": "no ironing",
+        "infill_lock_depth": "1.0",
+        "initial_layer_travel_acceleration": [
+          "6000",
+          "6000",
+          "6000"
+        ],
+        "infill_shift_step": "0.4",
+        "infill_rotate_step": "0",
+        "layer_height": "0.24",
+        "layer_time_smoothing": "0",
+        "layer_time_smoothing_threshold": "30",
+        "line_width": "0.42",
+        "locked_skin_infill_pattern": "crosszag",
+        "locked_skeleton_infill_pattern": "zigzag",
+        "max_bridge_length": "0",
+        "max_travel_detour_distance": "0",
+        "avoid_crossing_wall_includes_support": "0",
+        "minimum_sparse_infill_area": "15",
+        "only_one_wall_top": "1",
+        "outer_wall_line_width": "0.42",
+        "outer_wall_speed": [
+          "60",
+          "60",
+          "60"
+        ],
+        "overhang_totally_speed": [
+          "10",
+          "10",
+          "10"
+        ],
+        "override_filament_scarf_seam_setting": "0",
+        "pre_start_fan_time": [
+          "0"
+        ],
+        "prime_tower_width": "35",
+        "print_sequence": "by layer",
+        "print_settings_id": "",
+        "prime_tower_brim_width": "3",
+        "prime_tower_enable_framework": "0",
+        "prime_tower_lift_speed": "90",
+        "prime_tower_lift_height": "-1",
+        "prime_tower_max_speed": "90",
+        "prime_tower_flat_ironing": "1",
+        "raft_layers": "0",
+        "reduce_crossing_wall": "0",
+        "reduce_infill_retraction_mode": "Auto",
+        "resolution": "0.012",
+        "scarf_angle_threshold": "155",
+        "seam_position": "aligned",
+        "seam_placement_away_from_overhangs": "0",
+        "skirt_distance": "2",
+        "skirt_per_object": "1",
+        "skirt_height": "1",
+        "skirt_loops": "0",
+        "smooth_coefficient": "4",
+        "sparse_infill_density": "30%",
+        "fill_multiline": "1",
+        "skeleton_infill_density": "15%",
+        "skin_infill_density": "15%",
+        "sparse_infill_line_width": "0.45",
+        "skin_infill_line_width": "0.45",
+        "skin_infill_depth": "2.0",
+        "skeleton_infill_line_width": "0.45",
+        "sparse_infill_pattern": "gyroid",
+        "sparse_infill_speed": [
+          "270",
+          "600",
+          "600"
+        ],
+        "spiral_mode": "0",
+        "standby_temperature_delta": "-5",
+        "support_base_pattern": "default",
+        "support_base_pattern_spacing": "2.5",
+        "support_bottom_z_distance": "0.2",
+        "support_expansion": "0",
+        "support_filament": "0",
+        "support_interface_bottom_layers": "2",
+        "support_interface_filament": "0",
+        "support_interface_loop_pattern": "0",
+        "support_interface_pattern": "auto",
+        "support_interface_spacing": "0.5",
+        "support_interface_speed": [
+          "80",
+          "80",
+          "80"
+        ],
+        "support_interface_top_layers": "2",
+        "support_line_width": "0.42",
+        "support_object_xy_distance": "0.35",
+        "support_on_build_plate_only": "0",
+        "support_speed": [
+          "150",
+          "150",
+          "150"
+        ],
+        "support_style": "default",
+        "support_threshold_angle": "30",
+        "support_top_z_distance": "0.2",
+        "support_type": "tree(auto)",
+        "enable_support_ironing": "0",
+        "support_ironing_pattern": "zig-zag",
+        "support_ironing_speed": "30",
+        "support_ironing_flow": "10%",
+        "support_ironing_spacing": "0.15",
+        "support_ironing_inset": "0.0",
+        "support_ironing_direction": "0",
+        "seam_slope_type": "none",
+        "seam_slope_start_height": "10%",
+        "seam_slope_gap": "0",
+        "seam_slope_min_length": "10",
+        "symmetric_infill_y_axis": "0",
+        "sparse_infill_lattice_angle_1": "-45",
+        "sparse_infill_lattice_angle_2": "45",
+        "top_shell_layers": "7",
+        "top_color_penetration_layers": "5",
+        "top_shell_thickness": "1.6",
+        "top_surface_line_width": "0.42",
+        "top_surface_pattern": "monotonicline",
+        "top_surface_density": "100",
+        "top_surface_speed": [
+          "200",
+          "200",
+          "200"
+        ],
+        "top_solid_infill_flow_ratio": [
+          "1",
+          "1",
+          "1"
+        ],
+        "travel_acceleration": [
+          "3000",
+          "3000",
+          "3000"
+        ],
+        "travel_short_distance_acceleration": [
+          "250",
+          "250",
+          "250"
+        ],
+        "travel_speed": [
+          "300",
+          "300",
+          "300"
+        ],
+        "tree_support_branch_angle": "45",
+        "tree_support_branch_diameter": "2",
+        "tree_support_wall_count": "-1",
+        "wall_generator": "classic",
+        "wall_infill_order": "inner wall/outer wall/infill",
+        "wall_loops": "4",
+        "wipe_tower_no_sparse_layers": "0",
+        "xy_contour_compensation": "0",
+        "xy_hole_compensation": "0",
+        "z_direction_outwall_speed_continuous": "0",
+        "enable_tower_interface_features": "0",
+        "sparse_infill_filament": "0",
+        "wall_filament": "0",
+        "solid_infill_filament": "0",
+        "infill_instead_top_bottom_surfaces": "0",
+        "fuzzy_skin": "none",
+        "fuzzy_skin_thickness": "0.3",
+        "fuzzy_skin_point_distance": "0.8",
+        "fuzzy_skin_first_layer": "0",
+        "fuzzy_skin_noise_type": "classic",
+        "fuzzy_skin_mode": "displacement",
+        "fuzzy_skin_scale": "1.0",
+        "fuzzy_skin_octaves": "4",
+        "fuzzy_skin_persistence": "0.5",
+        "enable_overhang_speed": [
+          "1",
+          "1",
+          "1"
+        ],
+        "enable_height_slowdown": [
+          "0",
+          "0",
+          "0"
+        ],
+        "initial_layer_acceleration": [
+          "500",
+          "500",
+          "500"
+        ],
+        "initial_layer_infill_speed": [
+          "50",
+          "50",
+          "50"
+        ],
+        "inner_wall_acceleration": [
+          "0",
+          "0",
+          "0"
+        ],
+        "outer_wall_acceleration": [
+          "1000",
+          "1000",
+          "1000"
+        ],
+        "overhang_1_4_speed": [
+          "0",
+          "0",
+          "0"
+        ],
+        "overhang_2_4_speed": [
+          "50",
+          "50",
+          "50"
+        ],
+        "overhang_3_4_speed": [
+          "30",
+          "30",
+          "30"
+        ],
+        "overhang_4_4_speed": [
+          "10",
+          "10",
+          "10"
+        ],
+        "print_extruder_id": [
+          "1",
+          "1",
+          "1"
+        ],
+        "print_extruder_variant": [
+          "Direct Drive Standard",
+          "Direct Drive High Flow",
+          "Direct Drive E3D High Flow"
+        ],
+        "slowdown_start_height": [
+          "0",
+          "0",
+          "0"
+        ],
+        "slowdown_start_speed": [
+          "1000",
+          "1000",
+          "1000"
+        ],
+        "slowdown_start_acc": [
+          "100000",
+          "100000",
+          "100000"
+        ],
+        "slowdown_end_height": [
+          "400",
+          "400",
+          "400"
+        ],
+        "slowdown_end_speed": [
+          "1000",
+          "1000",
+          "1000"
+        ],
+        "slowdown_end_acc": [
+          "100000",
+          "100000",
+          "100000"
+        ],
+        "small_perimeter_speed": [
+          "50%",
+          "50%",
+          "50%"
+        ],
+        "small_perimeter_threshold": [
+          "0",
+          "0",
+          "0"
+        ],
+        "sparse_infill_acceleration": [
+          "100%",
+          "100%",
+          "100%"
+        ],
+        "top_surface_acceleration": [
+          "2000",
+          "2000",
+          "2000"
+        ],
+        "travel_speed_z": [
+          "0",
+          "0",
+          "0"
+        ],
+        "vertical_shell_speed": [
+          "80%",
+          "80%",
+          "80%"
+        ],
+        "setting_id": "GP155",
+        "description": "Standard profile for 0.4mm nozzle, prioritizing speed.",
+        "compatible_printers": [
+          "Bambu Lab P2S 0.4 nozzle"
+        ],
+        "brim_type": "outer_only",
+        "timelapse_type": "0"
+      }
+    },
+    "PLATE_3_GEOMETRY": {
+      "estimated_seconds": 27915.892578125,
+      "filament_g": 269.3855285644531,
+      "return_code": 0,
+      "warning_message": "",
+      "feature_type_times": {
+        "Bottom surface": 2454.458251953125,
+        "Bridge": 1639.46728515625,
+        "Brim": 129.235595703125,
+        "Custom": 403.3544006347656,
+        "Flush": 26.0,
+        "Gap infill": 19.457134246826172,
+        "Inner wall": 2144.9736328125,
+        "Internal solid infill": 13872.9853515625,
+        "Outer wall": 1219.384765625,
+        "Overhang wall": 0.4163765609264374,
+        "Sparse infill": 4151.66259765625,
+        "Top surface": 1232.51318359375,
+        "Travel": 630.2371215820312,
+        "Undefined": 623.4691772460938
+      },
+      "native_project": "P2S_BODY_AFTER_ACCESSORIES_PLATE_3.3mf",
+      "native_contains_gcode": false,
+      "native_geometry_and_positions_match_tested": true,
+      "object_count": 3,
+      "nozzle_wrapping_detection_disabled": true,
+      "gcode_has_no_G39_command": true,
+      "sha256": "c5c7e7bcdb00ef46d58058ddc635374f45d729c4819697fe1bba67802a5b3a29",
+      "process": {
+        "type": "process",
+        "name": "SmartBin Body After Fine Accessories 0.24 P2S",
+        "from": "system",
+        "instantiation": "true",
+        "adaptive_layer_height": "0",
+        "bottom_shell_layers": "7",
+        "bottom_color_penetration_layers": "3",
+        "bottom_shell_thickness": "1.6",
+        "bottom_surface_pattern": "monotonic",
+        "bottom_surface_density": "100",
+        "bridge_flow": "1",
+        "bridge_no_support": "0",
+        "bridge_speed": [
+          "50",
+          "50",
+          "50"
+        ],
+        "brim_object_gap": "0",
+        "brim_width": "1",
+        "compatible_printers_condition": "",
+        "circle_compensation_manual_offset": "0",
+        "default_acceleration": [
+          "3000",
+          "3000",
+          "3000"
+        ],
+        "detect_floating_vertical_shell": "1",
+        "detect_overhang_wall": "1",
+        "detect_thin_wall": "0",
+        "draft_shield": "disabled",
+        "elefant_foot_compensation": "0.15",
+        "enable_arc_fitting": "1",
+        "enable_prime_tower": "0",
+        "enable_support": "0",
+        "enable_circle_compensation": "0",
+        "enable_wrapping_detection": "0",
+        "filename_format": "{input_filename_base}_{filament_type[0]}_{print_time}.gcode",
+        "gap_infill_speed": [
+          "250",
+          "250",
+          "250"
+        ],
+        "infill_combination": "0",
+        "infill_direction": "45",
+        "infill_wall_overlap": "15%",
+        "monotonic_travel_into_wall": "45.0",
+        "initial_layer_line_width": "0.5",
+        "initial_layer_print_height": "0.2",
+        "initial_layer_speed": [
+          "25",
+          "25",
+          "25"
+        ],
+        "inner_wall_line_width": "0.45",
+        "inner_wall_speed": [
+          "100",
+          "100",
+          "100"
+        ],
+        "interface_shells": "0",
+        "internal_bridge_support_thickness": "0.8",
+        "internal_solid_infill_line_width": "0.42",
+        "internal_solid_infill_speed": [
+          "140",
+          "140",
+          "140"
+        ],
+        "ironing_flow": "10%",
+        "ironing_inset": "0.21",
+        "ironing_spacing": "0.15",
+        "ironing_speed": "30",
+        "ironing_type": "no ironing",
+        "infill_lock_depth": "1.0",
+        "initial_layer_travel_acceleration": [
+          "6000",
+          "6000",
+          "6000"
+        ],
+        "infill_shift_step": "0.4",
+        "infill_rotate_step": "0",
+        "layer_height": "0.24",
+        "layer_time_smoothing": "0",
+        "layer_time_smoothing_threshold": "30",
+        "line_width": "0.42",
+        "locked_skin_infill_pattern": "crosszag",
+        "locked_skeleton_infill_pattern": "zigzag",
+        "max_bridge_length": "0",
+        "max_travel_detour_distance": "0",
+        "avoid_crossing_wall_includes_support": "0",
+        "minimum_sparse_infill_area": "15",
+        "only_one_wall_top": "1",
+        "outer_wall_line_width": "0.42",
+        "outer_wall_speed": [
+          "60",
+          "60",
+          "60"
+        ],
+        "overhang_totally_speed": [
+          "10",
+          "10",
+          "10"
+        ],
+        "override_filament_scarf_seam_setting": "0",
+        "pre_start_fan_time": [
+          "0"
+        ],
+        "prime_tower_width": "35",
+        "print_sequence": "by layer",
+        "print_settings_id": "",
+        "prime_tower_brim_width": "3",
+        "prime_tower_enable_framework": "0",
+        "prime_tower_lift_speed": "90",
+        "prime_tower_lift_height": "-1",
+        "prime_tower_max_speed": "90",
+        "prime_tower_flat_ironing": "1",
+        "raft_layers": "0",
+        "reduce_crossing_wall": "0",
+        "reduce_infill_retraction_mode": "Auto",
+        "resolution": "0.012",
+        "scarf_angle_threshold": "155",
+        "seam_position": "aligned",
+        "seam_placement_away_from_overhangs": "0",
+        "skirt_distance": "2",
+        "skirt_per_object": "1",
+        "skirt_height": "1",
+        "skirt_loops": "0",
+        "smooth_coefficient": "4",
+        "sparse_infill_density": "30%",
+        "fill_multiline": "1",
+        "skeleton_infill_density": "15%",
+        "skin_infill_density": "15%",
+        "sparse_infill_line_width": "0.45",
+        "skin_infill_line_width": "0.45",
+        "skin_infill_depth": "2.0",
+        "skeleton_infill_line_width": "0.45",
+        "sparse_infill_pattern": "gyroid",
+        "sparse_infill_speed": [
+          "270",
+          "600",
+          "600"
+        ],
+        "spiral_mode": "0",
+        "standby_temperature_delta": "-5",
+        "support_base_pattern": "default",
+        "support_base_pattern_spacing": "2.5",
+        "support_bottom_z_distance": "0.2",
+        "support_expansion": "0",
+        "support_filament": "0",
+        "support_interface_bottom_layers": "2",
+        "support_interface_filament": "0",
+        "support_interface_loop_pattern": "0",
+        "support_interface_pattern": "auto",
+        "support_interface_spacing": "0.5",
+        "support_interface_speed": [
+          "80",
+          "80",
+          "80"
+        ],
+        "support_interface_top_layers": "2",
+        "support_line_width": "0.42",
+        "support_object_xy_distance": "0.35",
+        "support_on_build_plate_only": "0",
+        "support_speed": [
+          "150",
+          "150",
+          "150"
+        ],
+        "support_style": "default",
+        "support_threshold_angle": "30",
+        "support_top_z_distance": "0.2",
+        "support_type": "tree(auto)",
+        "enable_support_ironing": "0",
+        "support_ironing_pattern": "zig-zag",
+        "support_ironing_speed": "30",
+        "support_ironing_flow": "10%",
+        "support_ironing_spacing": "0.15",
+        "support_ironing_inset": "0.0",
+        "support_ironing_direction": "0",
+        "seam_slope_type": "none",
+        "seam_slope_start_height": "10%",
+        "seam_slope_gap": "0",
+        "seam_slope_min_length": "10",
+        "symmetric_infill_y_axis": "0",
+        "sparse_infill_lattice_angle_1": "-45",
+        "sparse_infill_lattice_angle_2": "45",
+        "top_shell_layers": "7",
+        "top_color_penetration_layers": "5",
+        "top_shell_thickness": "1.6",
+        "top_surface_line_width": "0.42",
+        "top_surface_pattern": "monotonicline",
+        "top_surface_density": "100",
+        "top_surface_speed": [
+          "200",
+          "200",
+          "200"
+        ],
+        "top_solid_infill_flow_ratio": [
+          "1",
+          "1",
+          "1"
+        ],
+        "travel_acceleration": [
+          "3000",
+          "3000",
+          "3000"
+        ],
+        "travel_short_distance_acceleration": [
+          "250",
+          "250",
+          "250"
+        ],
+        "travel_speed": [
+          "300",
+          "300",
+          "300"
+        ],
+        "tree_support_branch_angle": "45",
+        "tree_support_branch_diameter": "2",
+        "tree_support_wall_count": "-1",
+        "wall_generator": "classic",
+        "wall_infill_order": "inner wall/outer wall/infill",
+        "wall_loops": "4",
+        "wipe_tower_no_sparse_layers": "0",
+        "xy_contour_compensation": "0",
+        "xy_hole_compensation": "0",
+        "z_direction_outwall_speed_continuous": "0",
+        "enable_tower_interface_features": "0",
+        "sparse_infill_filament": "0",
+        "wall_filament": "0",
+        "solid_infill_filament": "0",
+        "infill_instead_top_bottom_surfaces": "0",
+        "fuzzy_skin": "none",
+        "fuzzy_skin_thickness": "0.3",
+        "fuzzy_skin_point_distance": "0.8",
+        "fuzzy_skin_first_layer": "0",
+        "fuzzy_skin_noise_type": "classic",
+        "fuzzy_skin_mode": "displacement",
+        "fuzzy_skin_scale": "1.0",
+        "fuzzy_skin_octaves": "4",
+        "fuzzy_skin_persistence": "0.5",
+        "enable_overhang_speed": [
+          "1",
+          "1",
+          "1"
+        ],
+        "enable_height_slowdown": [
+          "0",
+          "0",
+          "0"
+        ],
+        "initial_layer_acceleration": [
+          "500",
+          "500",
+          "500"
+        ],
+        "initial_layer_infill_speed": [
+          "50",
+          "50",
+          "50"
+        ],
+        "inner_wall_acceleration": [
+          "0",
+          "0",
+          "0"
+        ],
+        "outer_wall_acceleration": [
+          "1000",
+          "1000",
+          "1000"
+        ],
+        "overhang_1_4_speed": [
+          "0",
+          "0",
+          "0"
+        ],
+        "overhang_2_4_speed": [
+          "50",
+          "50",
+          "50"
+        ],
+        "overhang_3_4_speed": [
+          "30",
+          "30",
+          "30"
+        ],
+        "overhang_4_4_speed": [
+          "10",
+          "10",
+          "10"
+        ],
+        "print_extruder_id": [
+          "1",
+          "1",
+          "1"
+        ],
+        "print_extruder_variant": [
+          "Direct Drive Standard",
+          "Direct Drive High Flow",
+          "Direct Drive E3D High Flow"
+        ],
+        "slowdown_start_height": [
+          "0",
+          "0",
+          "0"
+        ],
+        "slowdown_start_speed": [
+          "1000",
+          "1000",
+          "1000"
+        ],
+        "slowdown_start_acc": [
+          "100000",
+          "100000",
+          "100000"
+        ],
+        "slowdown_end_height": [
+          "400",
+          "400",
+          "400"
+        ],
+        "slowdown_end_speed": [
+          "1000",
+          "1000",
+          "1000"
+        ],
+        "slowdown_end_acc": [
+          "100000",
+          "100000",
+          "100000"
+        ],
+        "small_perimeter_speed": [
+          "50%",
+          "50%",
+          "50%"
+        ],
+        "small_perimeter_threshold": [
+          "0",
+          "0",
+          "0"
+        ],
+        "sparse_infill_acceleration": [
+          "100%",
+          "100%",
+          "100%"
+        ],
+        "top_surface_acceleration": [
+          "2000",
+          "2000",
+          "2000"
+        ],
+        "travel_speed_z": [
+          "0",
+          "0",
+          "0"
+        ],
+        "vertical_shell_speed": [
+          "80%",
+          "80%",
+          "80%"
+        ],
+        "setting_id": "GP155",
+        "description": "Standard profile for 0.4mm nozzle, prioritizing speed.",
+        "compatible_printers": [
+          "Bambu Lab P2S 0.4 nozzle"
+        ],
+        "brim_type": "outer_only",
+        "timelapse_type": "0"
+      }
+    }
+  },
+  "total_estimated_seconds": 61472.462890625,
+  "total_filament_g": 565.9756469726562,
+  "process_changes": {
+    "type": "process",
+    "name": "SmartBin Body After Fine Accessories 0.24 P2S",
+    "from": "system",
+    "instantiation": "true",
+    "adaptive_layer_height": "0",
+    "bottom_shell_layers": "7",
+    "bottom_color_penetration_layers": "3",
+    "bottom_shell_thickness": "1.6",
+    "bottom_surface_pattern": "monotonic",
+    "bottom_surface_density": "100",
+    "bridge_flow": "1",
+    "bridge_no_support": "0",
+    "bridge_speed": [
+      "50",
+      "50",
+      "50"
+    ],
+    "brim_object_gap": "0",
+    "brim_width": "3",
+    "compatible_printers_condition": "",
+    "circle_compensation_manual_offset": "0",
+    "default_acceleration": [
+      "1500",
+      "1500",
+      "1500"
+    ],
+    "detect_floating_vertical_shell": "1",
+    "detect_overhang_wall": "1",
+    "detect_thin_wall": "0",
+    "draft_shield": "disabled",
+    "elefant_foot_compensation": "0.15",
+    "enable_arc_fitting": "1",
+    "enable_prime_tower": "0",
+    "enable_support": "0",
+    "enable_circle_compensation": "0",
+    "enable_wrapping_detection": "0",
+    "filename_format": "{input_filename_base}_{filament_type[0]}_{print_time}.gcode",
+    "gap_infill_speed": [
+      "250",
+      "250",
+      "250"
+    ],
+    "infill_combination": "0",
+    "infill_direction": "45",
+    "infill_wall_overlap": "15%",
+    "monotonic_travel_into_wall": "45.0",
+    "initial_layer_line_width": "0.5",
+    "initial_layer_print_height": "0.2",
+    "initial_layer_speed": [
+      "25",
+      "25",
+      "25"
+    ],
+    "inner_wall_line_width": "0.45",
+    "inner_wall_speed": [
+      "100",
+      "100",
+      "100"
+    ],
+    "interface_shells": "0",
+    "internal_bridge_support_thickness": "0.8",
+    "internal_solid_infill_line_width": "0.42",
+    "internal_solid_infill_speed": [
+      "140",
+      "140",
+      "140"
+    ],
+    "ironing_flow": "10%",
+    "ironing_inset": "0.21",
+    "ironing_spacing": "0.15",
+    "ironing_speed": "30",
+    "ironing_type": "no ironing",
+    "infill_lock_depth": "1.0",
+    "initial_layer_travel_acceleration": [
+      "6000",
+      "6000",
+      "6000"
+    ],
+    "infill_shift_step": "0.4",
+    "infill_rotate_step": "0",
+    "layer_height": "0.24",
+    "layer_time_smoothing": "0",
+    "layer_time_smoothing_threshold": "30",
+    "line_width": "0.42",
+    "locked_skin_infill_pattern": "crosszag",
+    "locked_skeleton_infill_pattern": "zigzag",
+    "max_bridge_length": "0",
+    "max_travel_detour_distance": "0",
+    "avoid_crossing_wall_includes_support": "0",
+    "minimum_sparse_infill_area": "15",
+    "only_one_wall_top": "1",
+    "outer_wall_line_width": "0.42",
+    "outer_wall_speed": [
+      "60",
+      "60",
+      "60"
+    ],
+    "overhang_totally_speed": [
+      "10",
+      "10",
+      "10"
+    ],
+    "override_filament_scarf_seam_setting": "0",
+    "pre_start_fan_time": [
+      "0"
+    ],
+    "prime_tower_width": "35",
+    "print_sequence": "by layer",
+    "print_settings_id": "",
+    "prime_tower_brim_width": "3",
+    "prime_tower_enable_framework": "0",
+    "prime_tower_lift_speed": "90",
+    "prime_tower_lift_height": "-1",
+    "prime_tower_max_speed": "90",
+    "prime_tower_flat_ironing": "1",
+    "raft_layers": "0",
+    "reduce_crossing_wall": "0",
+    "reduce_infill_retraction_mode": "Auto",
+    "resolution": "0.012",
+    "scarf_angle_threshold": "155",
+    "seam_position": "aligned",
+    "seam_placement_away_from_overhangs": "0",
+    "skirt_distance": "2",
+    "skirt_per_object": "1",
+    "skirt_height": "1",
+    "skirt_loops": "0",
+    "smooth_coefficient": "4",
+    "sparse_infill_density": "30%",
+    "fill_multiline": "1",
+    "skeleton_infill_density": "15%",
+    "skin_infill_density": "15%",
+    "sparse_infill_line_width": "0.45",
+    "skin_infill_line_width": "0.45",
+    "skin_infill_depth": "2.0",
+    "skeleton_infill_line_width": "0.45",
+    "sparse_infill_pattern": "gyroid",
+    "sparse_infill_speed": [
+      "270",
+      "600",
+      "600"
+    ],
+    "spiral_mode": "0",
+    "standby_temperature_delta": "-5",
+    "support_base_pattern": "default",
+    "support_base_pattern_spacing": "2.5",
+    "support_bottom_z_distance": "0.2",
+    "support_expansion": "0",
+    "support_filament": "0",
+    "support_interface_bottom_layers": "2",
+    "support_interface_filament": "0",
+    "support_interface_loop_pattern": "0",
+    "support_interface_pattern": "auto",
+    "support_interface_spacing": "0.5",
+    "support_interface_speed": [
+      "80",
+      "80",
+      "80"
+    ],
+    "support_interface_top_layers": "2",
+    "support_line_width": "0.42",
+    "support_object_xy_distance": "0.35",
+    "support_on_build_plate_only": "0",
+    "support_speed": [
+      "150",
+      "150",
+      "150"
+    ],
+    "support_style": "default",
+    "support_threshold_angle": "30",
+    "support_top_z_distance": "0.2",
+    "support_type": "tree(auto)",
+    "enable_support_ironing": "0",
+    "support_ironing_pattern": "zig-zag",
+    "support_ironing_speed": "30",
+    "support_ironing_flow": "10%",
+    "support_ironing_spacing": "0.15",
+    "support_ironing_inset": "0.0",
+    "support_ironing_direction": "0",
+    "seam_slope_type": "none",
+    "seam_slope_start_height": "10%",
+    "seam_slope_gap": "0",
+    "seam_slope_min_length": "10",
+    "symmetric_infill_y_axis": "0",
+    "sparse_infill_lattice_angle_1": "-45",
+    "sparse_infill_lattice_angle_2": "45",
+    "top_shell_layers": "7",
+    "top_color_penetration_layers": "5",
+    "top_shell_thickness": "1.6",
+    "top_surface_line_width": "0.42",
+    "top_surface_pattern": "monotonicline",
+    "top_surface_density": "100",
+    "top_surface_speed": [
+      "200",
+      "200",
+      "200"
+    ],
+    "top_solid_infill_flow_ratio": [
+      "1",
+      "1",
+      "1"
+    ],
+    "travel_acceleration": [
+      "2000",
+      "2000",
+      "2000"
+    ],
+    "travel_short_distance_acceleration": [
+      "250",
+      "250",
+      "250"
+    ],
+    "travel_speed": [
+      "250",
+      "250",
+      "250"
+    ],
+    "tree_support_branch_angle": "45",
+    "tree_support_branch_diameter": "2",
+    "tree_support_wall_count": "-1",
+    "wall_generator": "classic",
+    "wall_infill_order": "inner wall/outer wall/infill",
+    "wall_loops": "4",
+    "wipe_tower_no_sparse_layers": "0",
+    "xy_contour_compensation": "0",
+    "xy_hole_compensation": "0",
+    "z_direction_outwall_speed_continuous": "0",
+    "enable_tower_interface_features": "0",
+    "sparse_infill_filament": "0",
+    "wall_filament": "0",
+    "solid_infill_filament": "0",
+    "infill_instead_top_bottom_surfaces": "0",
+    "fuzzy_skin": "none",
+    "fuzzy_skin_thickness": "0.3",
+    "fuzzy_skin_point_distance": "0.8",
+    "fuzzy_skin_first_layer": "0",
+    "fuzzy_skin_noise_type": "classic",
+    "fuzzy_skin_mode": "displacement",
+    "fuzzy_skin_scale": "1.0",
+    "fuzzy_skin_octaves": "4",
+    "fuzzy_skin_persistence": "0.5",
+    "enable_overhang_speed": [
+      "1",
+      "1",
+      "1"
+    ],
+    "enable_height_slowdown": [
+      "0",
+      "0",
+      "0"
+    ],
+    "initial_layer_acceleration": [
+      "500",
+      "500",
+      "500"
+    ],
+    "initial_layer_infill_speed": [
+      "40",
+      "40",
+      "40"
+    ],
+    "inner_wall_acceleration": [
+      "0",
+      "0",
+      "0"
+    ],
+    "outer_wall_acceleration": [
+      "800",
+      "800",
+      "800"
+    ],
+    "overhang_1_4_speed": [
+      "0",
+      "0",
+      "0"
+    ],
+    "overhang_2_4_speed": [
+      "50",
+      "50",
+      "50"
+    ],
+    "overhang_3_4_speed": [
+      "30",
+      "30",
+      "30"
+    ],
+    "overhang_4_4_speed": [
+      "10",
+      "10",
+      "10"
+    ],
+    "print_extruder_id": [
+      "1",
+      "1",
+      "1"
+    ],
+    "print_extruder_variant": [
+      "Direct Drive Standard",
+      "Direct Drive High Flow",
+      "Direct Drive E3D High Flow"
+    ],
+    "slowdown_start_height": [
+      "0",
+      "0",
+      "0"
+    ],
+    "slowdown_start_speed": [
+      "1000",
+      "1000",
+      "1000"
+    ],
+    "slowdown_start_acc": [
+      "100000",
+      "100000",
+      "100000"
+    ],
+    "slowdown_end_height": [
+      "400",
+      "400",
+      "400"
+    ],
+    "slowdown_end_speed": [
+      "1000",
+      "1000",
+      "1000"
+    ],
+    "slowdown_end_acc": [
+      "100000",
+      "100000",
+      "100000"
+    ],
+    "small_perimeter_speed": [
+      "50%",
+      "50%",
+      "50%"
+    ],
+    "small_perimeter_threshold": [
+      "0",
+      "0",
+      "0"
+    ],
+    "sparse_infill_acceleration": [
+      "100%",
+      "100%",
+      "100%"
+    ],
+    "top_surface_acceleration": [
+      "2000",
+      "2000",
+      "2000"
+    ],
+    "travel_speed_z": [
+      "0",
+      "0",
+      "0"
+    ],
+    "vertical_shell_speed": [
+      "80%",
+      "80%",
+      "80%"
+    ],
+    "setting_id": "GP155",
+    "description": "Standard profile for 0.4mm nozzle, prioritizing speed.",
+    "compatible_printers": [
+      "Bambu Lab P2S 0.4 nozzle"
+    ],
+    "brim_type": "outer_only",
+    "timelapse_type": "0"
+  },
+  "physical_print_test": false,
+  "baseline_fast_four_upright_estimated_seconds": 83025.5,
+  "comparison_note": "Historical four-part 0.20-mm speed profile; failed physically. New three-task total includes separate printer start/end scripts. Manual plate swap time is excluded.",
+  "stock_end_script_note": "Official P2S T65535 stock end command triggers a CLI parser note; stock script unchanged; return code zero and no sliced G-code is delivered."
+}

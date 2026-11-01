@@ -1,0 +1,11 @@
+{
+  "checks/final_printing.json": "9ba29e2e7e520e7082cc9cf5bc358faffee6d8813adcf509ce4fb4c0ea168d15",
+  "checks/first_layers.json": "bb7211c400b769944714e97e552343a943e4b00733992e66fc881d01631641ac",
+  "checks/packing.json": "9b6f081767bb87cbdb121c8059a7176792127c9583f554a0d0cc8ed5571acbf6",
+  "checks/removal.json": "85dbd47b7b1e6872a5442dcd9de143322d0ef0b4d5d7a42e55cf8c697b3d50b5",
+  "checks/slicing.json": "e8ba49caf962414dd5be99d3695ccf5d67d27e5b99e461ef921d2c4ca0b97938",
+  "geometry/PLATE_1_GEOMETRY.3mf": "44eda37fdab6582c72345b0dbfffce66d11b3ba2a29b40c2f771b7668b2a5828",
+  "preview/07_plate1_bed.png": "a681e393917d493177c024f7339f9b14813e105ddb46e51ff67db0c95894b47c",
+  "projects/P2S_ORIGINAL_PLATE1_NO_BASE_FINE_016.3mf": "b68ae78857eb53375def3193316f376a38225e9bbc34faa74f90c1322a617560",
+  "README.md": "5b9efbcd8636bda86d8175281300fbd234218d943ebbce65f68b7098294db445"
+}

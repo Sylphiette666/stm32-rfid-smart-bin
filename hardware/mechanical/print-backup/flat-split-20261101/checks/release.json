@@ -1,0 +1,27 @@
+{
+  "status": "PASS",
+  "package_filename": "附件精细打印及底板平放拼接_20261101.zip",
+  "package_sha256": "75571fdf32b2625af547db3a98f58d41571ff6280da3142e01a4a1ba52b2ea91",
+  "package_bytes": 82231983,
+  "manual_sha256": "1b476a4e056fde01e1e320003295b297f1e42b01112dde66e2e0196763dce65f",
+  "manual_updated_and_visually_checked": true,
+  "original_steps": 330,
+  "immediate_route": {
+    "fine_accessory_jobs": 1,
+    "remaining_body_jobs": 3,
+    "objects": 51
+  },
+  "alternative_full_route": {
+    "jobs": 3,
+    "objects": 51
+  },
+  "base_original_envelope_mm": [
+    280,
+    220
+  ],
+  "base_halves": 2,
+  "upper_whole": true,
+  "physical_print_test": false,
+  "load_tested": false,
+  "unrelated_firmware_changes_included": false
+}

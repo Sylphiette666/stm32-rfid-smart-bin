@@ -1,0 +1,46 @@
+{
+  "status": "PASS",
+  "slicer_version": "Bambu Studio 02.08.02.61",
+  "plates": [
+    {
+      "file": "projects/P2S_FLAT_SPLIT_PLATE_1.3mf",
+      "objects": 23,
+      "estimated_seconds": 26749.38671875,
+      "filament_g": 187.0806427001953
+    },
+    {
+      "file": "projects/P2S_FLAT_SPLIT_PLATE_2.3mf",
+      "objects": 25,
+      "estimated_seconds": 27208.00390625,
+      "filament_g": 192.1190948486328
+    },
+    {
+      "file": "projects/P2S_FLAT_SPLIT_PLATE_3.3mf",
+      "objects": 3,
+      "estimated_seconds": 27915.892578125,
+      "filament_g": 269.3855285644531
+    }
+  ],
+  "total_seconds": 81873.283203125,
+  "total_filament_g": 648.5852661132812,
+  "settings": {
+    "printer": "P2S 0.4 mm",
+    "material": "Generic PLA",
+    "layer_height_mm": 0.24,
+    "wall_loops": 4,
+    "infill": "30% gyroid",
+    "auto_support": false,
+    "sequence": "by layer",
+    "brim_mm": "第一、二盘2；第三盘1",
+    "nozzle_wrapping_detection": false
+  },
+  "notes": [
+    "保持工程位置，禁止自动排盘/自动朝向和逐件打印。",
+    "喷嘴缠料检测关闭；相机炒面检测为独立功能，应保持开启。",
+    "三项任务耗时均含机器起止脚本，不含人工换板。",
+    "此版包含原43件安装附件及3块连接片，底板拆为两片，合计51件；全部平放。"
+  ],
+  "physical_print_test": false,
+  "unprinted": true,
+  "load_tested": false
+}

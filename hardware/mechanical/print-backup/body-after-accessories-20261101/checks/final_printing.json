@@ -1,0 +1,46 @@
+{
+  "status": "PASS",
+  "slicer_version": "Bambu Studio 02.08.02.61",
+  "plates": [
+    {
+      "file": "projects/P2S_BODY_AFTER_ACCESSORIES_PLATE_1.3mf",
+      "objects": 3,
+      "estimated_seconds": 17636.36328125,
+      "filament_g": 150.93478393554688
+    },
+    {
+      "file": "projects/P2S_BODY_AFTER_ACCESSORIES_PLATE_2.3mf",
+      "objects": 2,
+      "estimated_seconds": 15920.20703125,
+      "filament_g": 145.65533447265625
+    },
+    {
+      "file": "projects/P2S_BODY_AFTER_ACCESSORIES_PLATE_3.3mf",
+      "objects": 3,
+      "estimated_seconds": 27915.892578125,
+      "filament_g": 269.3855285644531
+    }
+  ],
+  "total_seconds": 61472.462890625,
+  "total_filament_g": 565.9756469726562,
+  "settings": {
+    "printer": "P2S 0.4 mm",
+    "material": "Generic PLA",
+    "layer_height_mm": 0.24,
+    "wall_loops": 4,
+    "infill": "30% gyroid",
+    "auto_support": false,
+    "sequence": "by layer",
+    "brim_mm": "第一、二盘2；第三盘1",
+    "nozzle_wrapping_detection": false
+  },
+  "notes": [
+    "保持工程位置，禁止自动排盘/自动朝向和逐件打印。",
+    "喷嘴缠料检测关闭；相机炒面检测为独立功能，应保持开启。",
+    "三项任务耗时均含机器起止脚本，不含人工换板。",
+    "仅补打附件精细盘之外的8件：底板两片、连接片三块、上平台、舵机支架、喇叭圈。"
+  ],
+  "physical_print_test": false,
+  "unprinted": true,
+  "load_tested": false
+}

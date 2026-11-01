@@ -1,0 +1,162 @@
+{
+  "status": "PASS",
+  "original_envelope_mm": [
+    280,
+    220,
+    5
+  ],
+  "original_hole_count_preserved": 56,
+  "new_join_hole_count": 12,
+  "halves_no_intersection": true,
+  "single_solid_each_part": true,
+  "fixture_head_collisions": [],
+  "original_motor_caster_zones_unchanged": true,
+  "original_posts_and_upper_offset_preserved": true,
+  "joint_hardware_below_A1_board_clearance_mm": 7.85,
+  "new_bridge_intrusion_below_original_base_mm": 10.5,
+  "reference_ground_clearance_mm": 34.5,
+  "reference_Hb_mm": 45,
+  "actual_underbody_geometry_unmeasured": true,
+  "physical_print_test": false,
+  "load_tested": false,
+  "parts_added": [
+    {
+      "id": "P01_REAR_HALF",
+      "stl": "parts/P01_REAR_HALF.stl",
+      "step": "step/P01_REAR_HALF.step",
+      "print_extents": [
+        144.0,
+        220.0,
+        5.0
+      ],
+      "assembly_bounds": [
+        [
+          -4.440892098500626e-16,
+          -4.440892098500626e-16,
+          -1e-07
+        ],
+        [
+          144.0,
+          220.0,
+          5.0
+        ]
+      ],
+      "volume_mm3": 134142.12129177822
+    },
+    {
+      "id": "P01_FRONT_HALF",
+      "stl": "parts/P01_FRONT_HALF.stl",
+      "step": "step/P01_FRONT_HALF.step",
+      "print_extents": [
+        141.85000610351562,
+        220.0,
+        5.0
+      ],
+      "assembly_bounds": [
+        [
+          138.15,
+          0.0,
+          -1e-07
+        ],
+        [
+          280.0,
+          220.0,
+          5.0
+        ]
+      ],
+      "volume_mm3": 133554.59583805822
+    },
+    {
+      "id": "P01_SPLICE_BRIDGE",
+      "stl": "parts/P01_SPLICE_BRIDGE.stl",
+      "step": "step/P01_SPLICE_BRIDGE.step",
+      "print_extents": [
+        40.0,
+        24.0,
+        5.0
+      ],
+      "assembly_bounds": [
+        [
+          -20.0,
+          -12.0,
+          0.0
+        ],
+        [
+          20.0,
+          12.0,
+          5.0
+        ]
+      ],
+      "volume_mm3": 4601.247797694306
+    },
+    {
+      "id": "P02_UPPER",
+      "stl": "parts/P02_UPPER.stl",
+      "step": "step/P02_UPPER.step",
+      "print_extents": [
+        240.0,
+        190.0,
+        5.0
+      ],
+      "assembly_bounds": [
+        [
+          -4.440892098500626e-16,
+          -4.440892098500626e-16,
+          -1e-07
+        ],
+        [
+          240.0,
+          190.0,
+          5.0
+        ]
+      ],
+      "volume_mm3": 195565.34531127408
+    },
+    {
+      "id": "P03_STAND",
+      "stl": "parts/P03_STAND.stl",
+      "step": "step/P03_STAND.step",
+      "print_extents": [
+        190.0,
+        60.0,
+        24.0
+      ],
+      "assembly_bounds": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          60.0,
+          24.0,
+          190.0
+        ]
+      ],
+      "volume_mm3": 64890.41594462298
+    },
+    {
+      "id": "P04_TRAY",
+      "stl": "parts/P04_TRAY.stl",
+      "step": "step/P04_TRAY.step",
+      "print_extents": [
+        80.0,
+        40.0,
+        5.0
+      ],
+      "assembly_bounds": [
+        [
+          -4.440892098500626e-16,
+          -4.440892098500626e-16,
+          0.0
+        ],
+        [
+          80.0,
+          40.0,
+          5.0
+        ]
+      ],
+      "volume_mm3": 14895.672605799304
+    }
+  ]
+}

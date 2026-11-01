@@ -25,3 +25,27 @@ hardware/mechanical/print-backup/mounted-20261031/step/** binary
 hardware/mechanical/print-backup/mounted-20261031/parts/** binary
 hardware/mechanical/print-backup/mounted-20261031/geometry/** binary
 hardware/mechanical/print-backup/mounted-20261031/projects/*.3mf binary
+
+# Preserve checked print export bytes.
+hardware/mechanical/print-backup/flat-split-20261101/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+hardware/mechanical/print-backup/flat-split-20261101/step/** binary
+hardware/mechanical/print-backup/flat-split-20261101/parts/** binary
+hardware/mechanical/print-backup/flat-split-20261101/geometry/** binary
+hardware/mechanical/print-backup/flat-split-20261101/projects/*.3mf binary
+hardware/mechanical/print-backup/flat-split-20261101/source/*.stl binary
+
+# Preserve checked print export bytes.
+hardware/mechanical/print-backup/accessories-fine-20261101/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+hardware/mechanical/print-backup/accessories-fine-20261101/step/** binary
+hardware/mechanical/print-backup/accessories-fine-20261101/parts/** binary
+hardware/mechanical/print-backup/accessories-fine-20261101/geometry/** binary
+hardware/mechanical/print-backup/accessories-fine-20261101/projects/*.3mf binary
+hardware/mechanical/print-backup/accessories-fine-20261101/source/*.stl binary
+
+# Preserve checked print export bytes.
+hardware/mechanical/print-backup/body-after-accessories-20261101/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+hardware/mechanical/print-backup/body-after-accessories-20261101/step/** binary
+hardware/mechanical/print-backup/body-after-accessories-20261101/parts/** binary
+hardware/mechanical/print-backup/body-after-accessories-20261101/geometry/** binary
+hardware/mechanical/print-backup/body-after-accessories-20261101/projects/*.3mf binary
+hardware/mechanical/print-backup/body-after-accessories-20261101/source/*.stl binary

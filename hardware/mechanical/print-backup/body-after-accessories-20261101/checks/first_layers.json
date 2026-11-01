@@ -1,0 +1,50 @@
+{
+  "1": {
+    "first_layer_segment_count": 4409,
+    "first_layer_model_bounds": [
+      [
+        8.4,
+        8.4
+      ],
+      [
+        250.85,
+        241.2
+      ]
+    ],
+    "objects_with_first_layer_comment": 3,
+    "all_model_extrusions_within_bed": true,
+    "G39_absent": true
+  },
+  "2": {
+    "first_layer_segment_count": 2734,
+    "first_layer_model_bounds": [
+      [
+        8.4,
+        8.4
+      ],
+      [
+        243.598,
+        250.75
+      ]
+    ],
+    "objects_with_first_layer_comment": 2,
+    "all_model_extrusions_within_bed": true,
+    "G39_absent": true
+  },
+  "3": {
+    "first_layer_segment_count": 2909,
+    "first_layer_model_bounds": [
+      [
+        8.4,
+        2.4
+      ],
+      [
+        247.6,
+        253.6
+      ]
+    ],
+    "objects_with_first_layer_comment": 3,
+    "all_model_extrusions_within_bed": true,
+    "G39_absent": true
+  }
+}
