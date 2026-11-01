@@ -1,0 +1,122 @@
+{
+  "status": "PASS",
+  "plates": [
+    {
+      "plate": 1,
+      "printer_label": 2,
+      "objects": 1,
+      "names": [
+        "P01_REAR_HALF"
+      ],
+      "geometry_unchanged_from_checked_flat_half": true,
+      "layer_height": 0.24,
+      "brim_mm": 5
+    },
+    {
+      "plate": 2,
+      "printer_label": 3,
+      "objects": 1,
+      "names": [
+        "P01_FRONT_HALF"
+      ],
+      "geometry_unchanged_from_checked_flat_half": true,
+      "layer_height": 0.24,
+      "brim_mm": 5
+    },
+    {
+      "plate": 3,
+      "printer_label": 4,
+      "objects": 23,
+      "names": [
+        "P04_TRAY",
+        "M02_body",
+        "M02_detent",
+        "M02_keeper",
+        "M02_lid",
+        "JOIN_BRIDGE_3",
+        "JOIN_BRIDGE_2",
+        "M05_body",
+        "M05_lid",
+        "M05_detent",
+        "M05_keeper",
+        "M08_body",
+        "M08_detent",
+        "M08_keeper",
+        "M08_lid",
+        "M03_body",
+        "M03_detent",
+        "M03_lid",
+        "M03_keeper",
+        "M07_body",
+        "M07_detent",
+        "M07_lid",
+        "M07_keeper"
+      ],
+      "module_groups": [
+        "P04_TRAY",
+        "M02",
+        "JOIN_BRIDGE_3",
+        "JOIN_BRIDGE_2",
+        "M05",
+        "M08",
+        "M03",
+        "M07"
+      ],
+      "volume_mm3": 46134.11379608183,
+      "old_accessory_geometry_and_positions_unchanged": true,
+      "layer_height": 0.16,
+      "brim_mm": 3
+    },
+    {
+      "plate": 4,
+      "printer_label": 5,
+      "objects": 23,
+      "names": [
+        "P05_BATTERY_cradle",
+        "BAT_L_keeper",
+        "BAT_R_keeper",
+        "BAT_L_detent",
+        "BAT_R_detent",
+        "M01_body",
+        "M01_detent",
+        "M01_keeper",
+        "M01_lid",
+        "M06_body",
+        "M06_detent",
+        "M06_keeper",
+        "M06_lid",
+        "JOIN_BRIDGE_1",
+        "P06_BUCK_cradle",
+        "M04_body",
+        "M04_detent",
+        "M04_keeper",
+        "M04_lid",
+        "M09_body",
+        "M09_detent",
+        "M09_lid",
+        "M09_keeper"
+      ],
+      "module_groups": [
+        "BAT",
+        "M01",
+        "M06",
+        "JOIN_BRIDGE_1",
+        "P06_BUCK_cradle",
+        "M04",
+        "M09"
+      ],
+      "volume_mm3": 38326.52136437458,
+      "old_accessory_geometry_and_positions_unchanged": true,
+      "layer_height": 0.16,
+      "brim_mm": 3
+    }
+  ],
+  "total_objects": 48,
+  "print_jobs": 4,
+  "running_old_plate2_excluded": [
+    "P02_UPPER",
+    "P03_STAND",
+    "P07_SPEAKER_cradle"
+  ],
+  "physical_print_test": false
+}

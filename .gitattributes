@@ -54,3 +54,8 @@ hardware/mechanical/print-backup/body-after-accessories-20261101/source/*.stl bi
 hardware/mechanical/print-backup/parallel-four-p2s-20261101/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
 hardware/mechanical/print-backup/parallel-four-p2s-20261101/geometry/** binary
 hardware/mechanical/print-backup/parallel-four-p2s-20261101/projects/*.3mf binary
+
+# Preserve four-machine continuation export bytes.
+hardware/mechanical/print-backup/parallel-after-old-plate2-20261101/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+hardware/mechanical/print-backup/parallel-after-old-plate2-20261101/geometry/** binary
+hardware/mechanical/print-backup/parallel-after-old-plate2-20261101/projects/*.3mf binary

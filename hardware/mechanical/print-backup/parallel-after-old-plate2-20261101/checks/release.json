@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "new_concurrent_jobs": 4,
+  "remaining_objects": 48,
+  "running_old_plate2_objects_excluded": 3,
+  "parallel_seconds": 19101.439453125,
+  "filament_g": 382.2934036254883,
+  "package_filename": "昨天第二盘继续_四台补打底板及精细附件_20261101.zip",
+  "package_sha256": "9fb1c3494088d9c2686ce1c976fd5e1477a82fdaf4e72d62bd10ad7c55255052",
+  "package_bytes": 31261171,
+  "manual_sha256": "e3d666762a6ec2e096f55bc56e2d7f4cd5acf66da6a8e56cfb7516130f9d74ba",
+  "manual_updated_and_visually_checked": true,
+  "physical_print_test": false,
+  "load_tested": false,
+  "printer_jobs_sent": false
+}
