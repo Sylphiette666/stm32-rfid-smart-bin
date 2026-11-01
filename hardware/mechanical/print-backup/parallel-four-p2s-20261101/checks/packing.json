@@ -1,0 +1,249 @@
+{
+  "status": "PASS",
+  "plates": [
+    {
+      "plate": 1,
+      "printer_label": 2,
+      "objects": 1,
+      "names": [
+        "P01_REAR_HALF"
+      ],
+      "placements": [
+        {
+          "name": "P01_REAR_HALF",
+          "bounds_mm": [
+            [
+              18.0,
+              56.0,
+              0.0
+            ],
+            [
+              238.0,
+              200.0,
+              5.0
+            ]
+          ],
+          "xy_translation_mm": [
+            10.0,
+            48.0
+          ],
+          "scale": 1,
+          "orientation_unchanged": true,
+          "faces_sha256": "9a6773db27cbc6a3ea8ef7e0ce7f1393811ccdd14e31c318d6cebe4aba83fe51"
+        }
+      ],
+      "all_objects_directly_on_bed": true,
+      "all_meshes_watertight": true,
+      "brim_mm": 5,
+      "aabb_separation_with_two_brims_checked": true
+    },
+    {
+      "plate": 2,
+      "printer_label": 3,
+      "objects": 1,
+      "names": [
+        "P01_FRONT_HALF"
+      ],
+      "placements": [
+        {
+          "name": "P01_FRONT_HALF",
+          "bounds_mm": [
+            [
+              18.0,
+              57.07499695,
+              0.0
+            ],
+            [
+              238.0,
+              198.92500305,
+              5.0
+            ]
+          ],
+          "xy_translation_mm": [
+            10.0,
+            49.07499695
+          ],
+          "scale": 1,
+          "orientation_unchanged": true,
+          "faces_sha256": "cd00bb8f46afbc081031e451683720cc78943ca8da8ff2fc51873543565f9584"
+        }
+      ],
+      "all_objects_directly_on_bed": true,
+      "all_meshes_watertight": true,
+      "brim_mm": 5,
+      "aabb_separation_with_two_brims_checked": true
+    },
+    {
+      "plate": 3,
+      "printer_label": 4,
+      "objects": 1,
+      "names": [
+        "P02_UPPER"
+      ],
+      "placements": [
+        {
+          "name": "P02_UPPER",
+          "bounds_mm": [
+            [
+              8.0,
+              33.0,
+              0.0
+            ],
+            [
+              248.0,
+              223.0,
+              5.0
+            ]
+          ],
+          "xy_translation_mm": [
+            0.0,
+            31.0
+          ],
+          "scale": 1,
+          "orientation_unchanged": true,
+          "faces_sha256": "2afae70eace04fd8a79d3c16c55c873beb5341afe167f8745af861017f9cd7c1"
+        }
+      ],
+      "all_objects_directly_on_bed": true,
+      "all_meshes_watertight": true,
+      "brim_mm": 5,
+      "aabb_separation_with_two_brims_checked": true
+    },
+    {
+      "plate": 4,
+      "printer_label": 5,
+      "objects": 5,
+      "names": [
+        "P03_STAND",
+        "P07_SPEAKER_cradle",
+        "JOIN_BRIDGE_1",
+        "JOIN_BRIDGE_2",
+        "JOIN_BRIDGE_3"
+      ],
+      "placements": [
+        {
+          "name": "P03_STAND",
+          "bounds_mm": [
+            [
+              33.0,
+              35.0,
+              0.0
+            ],
+            [
+              223.0,
+              95.0,
+              24.0
+            ]
+          ],
+          "xy_translation_mm": [
+            25.0,
+            -159.0
+          ],
+          "scale": 1,
+          "orientation_unchanged": true,
+          "faces_sha256": "88f8eff3b3b39aec7d05c066245f1c7ccdc1c52eab52476e84c89ff3cb166596"
+        },
+        {
+          "name": "P07_SPEAKER_cradle",
+          "bounds_mm": [
+            [
+              35.0,
+              135.0,
+              0.0
+            ],
+            [
+              77.18666077,
+              192.59925843,
+              4.0
+            ]
+          ],
+          "xy_translation_mm": [
+            -165.80000305,
+            -59.80036926
+          ],
+          "scale": 1,
+          "orientation_unchanged": true,
+          "faces_sha256": "3ddc34884a432bc321ebd0aba4920bc48ad8e5a64ba844aa45f406fc7b52b379"
+        },
+        {
+          "name": "JOIN_BRIDGE_1",
+          "bounds_mm": [
+            [
+              100.0,
+              130.0,
+              0.0
+            ],
+            [
+              140.0,
+              154.0,
+              5.0
+            ]
+          ],
+          "xy_translation_mm": [
+            -104.0,
+            -97.1499939
+          ],
+          "scale": 1,
+          "orientation_unchanged": true,
+          "faces_sha256": "0626f32ef2a67a117edd97b0086cf6e43b9f315ec3c4e5da33777808e8bfe86d"
+        },
+        {
+          "name": "JOIN_BRIDGE_2",
+          "bounds_mm": [
+            [
+              160.0,
+              130.0,
+              0.0
+            ],
+            [
+              184.0,
+              170.0,
+              5.0
+            ]
+          ],
+          "xy_translation_mm": [
+            -67.25,
+            -29.199996950000013
+          ],
+          "scale": 1,
+          "orientation_unchanged": true,
+          "faces_sha256": "5031ad3e612f2ae5811e39cb8a6f3a82ec97ce6ad7392268ab2d06ec04c89271"
+        },
+        {
+          "name": "JOIN_BRIDGE_3",
+          "bounds_mm": [
+            [
+              205.0,
+              130.0,
+              0.0
+            ],
+            [
+              229.0,
+              170.0,
+              5.0
+            ]
+          ],
+          "xy_translation_mm": [
+            -22.25,
+            -71.6000061
+          ],
+          "scale": 1,
+          "orientation_unchanged": true,
+          "faces_sha256": "5031ad3e612f2ae5811e39cb8a6f3a82ec97ce6ad7392268ab2d06ec04c89271"
+        }
+      ],
+      "all_objects_directly_on_bed": true,
+      "all_meshes_watertight": true,
+      "brim_mm": 5,
+      "aabb_separation_with_two_brims_checked": true
+    }
+  ],
+  "total_objects": 8,
+  "print_jobs": 4,
+  "source": "body-after-accessories-20261101/geometry",
+  "only_xy_translation_and_redistribution": true,
+  "base_two_flat_halves": true,
+  "upper_one_piece": true,
+  "fine_plate_43_parts_excluded": true,
+  "physical_print_test": false
+}

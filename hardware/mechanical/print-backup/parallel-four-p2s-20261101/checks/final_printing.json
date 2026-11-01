@@ -1,0 +1,53 @@
+{
+  "status": "PASS",
+  "slicer_version": "Bambu Studio 02.08.02.61",
+  "plates": [
+    {
+      "file": "projects/P2S_PRINTER_02_BASE_REAR.3mf",
+      "objects": 1,
+      "estimated_seconds": 16342.3857421875,
+      "filament_g": 141.76197814941406
+    },
+    {
+      "file": "projects/P2S_PRINTER_03_BASE_FRONT.3mf",
+      "objects": 1,
+      "estimated_seconds": 15378.39453125,
+      "filament_g": 141.33860778808594
+    },
+    {
+      "file": "projects/P2S_PRINTER_04_UPPER.3mf",
+      "objects": 1,
+      "estimated_seconds": 20700.736328125,
+      "filament_g": 205.49449157714844
+    },
+    {
+      "file": "projects/P2S_PRINTER_05_STAND_SPEAKER_BRIDGES.3mf",
+      "objects": 5,
+      "estimated_seconds": 10444.0419921875,
+      "filament_g": 80.11466979980469
+    }
+  ],
+  "total_seconds": 62865.55859375,
+  "total_filament_g": 568.7097473144531,
+  "parallel_elapsed_seconds_if_started_together": 20700.736328125,
+  "settings": {
+    "printer": "P2S 0.4 mm",
+    "material": "Generic PLA",
+    "layer_height_mm": 0.24,
+    "wall_loops": 4,
+    "infill": "30% gyroid",
+    "auto_support": false,
+    "sequence": "by layer",
+    "brim_mm": 5,
+    "nozzle_wrapping_detection": false
+  },
+  "notes": [
+    "保持工程位置，禁止自动排盘/自动朝向和逐件打印。",
+    "喷嘴缠料检测关闭；相机炒面检测为独立功能，应保持开启。",
+    "四项任务可在四台P2S同时运行，均含机器起止脚本；并行等待时间取最长项。",
+    "仅补打附件精细盘之外的8件：底板两片、连接片三块、上平台、舵机支架、喇叭圈。"
+  ],
+  "physical_print_test": false,
+  "unprinted": true,
+  "load_tested": false
+}

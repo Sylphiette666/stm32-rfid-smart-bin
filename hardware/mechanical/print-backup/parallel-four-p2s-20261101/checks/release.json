@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "new_concurrent_jobs": 4,
+  "remaining_objects": 8,
+  "running_accessories_excluded": 43,
+  "parallel_seconds": 20700.736328125,
+  "filament_g": 568.7097473144531,
+  "package_filename": "四台P2S并行补打主体_20261101.zip",
+  "package_sha256": "8cd397d69c68af9283d9c25eebca363569ecd4c10b22122d09674d77fcd9cd11",
+  "package_bytes": 27871473,
+  "manual_sha256": "fd5d4c3c92752b9c6e1e3ad56424cae27c44ad56a9836ae0dbc962112ec1e623",
+  "manual_updated_and_visually_checked": true,
+  "physical_print_test": false,
+  "load_tested": false,
+  "printer_jobs_sent": false
+}

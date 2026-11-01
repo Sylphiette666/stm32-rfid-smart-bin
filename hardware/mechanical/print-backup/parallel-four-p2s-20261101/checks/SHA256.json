@@ -1,0 +1,18 @@
+{
+  "checks/final_printing.json": "433861aba47ace77be0289234736d610b07a5995bf2b74120ba2eb5263f18fc0",
+  "checks/first_layers.json": "9c4b0bcb3bcf64dc6e1af9cfc9abf26d7ca581367ab322c63497479a663d2746",
+  "checks/manual_qa.json": "d9ee2bdfd097cba07f128846492c5969ce6da97f8957fe144d86b0d88648c766",
+  "checks/packing.json": "6a8536e3662d5df3ed96730771b102d073b06a3b22febd7ca5b775ea1774b92a",
+  "checks/route_coverage.json": "46352bb1be0e437c0e586865ca836e495ff1f7bd8c4aa93192af0de98a042c0b",
+  "checks/slicing.json": "453f60ac3dc7ebc2d3a4ce36866ecade3c14c714f0c5ff4c5129f477749622a4",
+  "checks/visual_review.json": "8eaec3965ab7f16307ca420cbca96d50271c60ed608bb097e2b0eff050c583ce",
+  "geometry/PLATE_1_GEOMETRY.3mf": "345c9c8f73ba285d4831b09d38229791aeed9cdce351c186316f0503c433ac28",
+  "geometry/PLATE_2_GEOMETRY.3mf": "731f96b81912039e342939ec7b64d73221f73c2c9aaf65b50b0d9879b5e38f08",
+  "geometry/PLATE_3_GEOMETRY.3mf": "1ce18255ed20d67f2824acc777868d0239d6849696267016a0d0e699810eaee4",
+  "geometry/PLATE_4_GEOMETRY.3mf": "f5fc4266a0f7374bcc2cb11017d43397a5f516c54c18769711e1aa4b364b6c3b",
+  "projects/P2S_PRINTER_02_BASE_REAR.3mf": "66d0ae6d6efc2013ba4c92569014ed2ff103335ff51cdfcd10e0641f202a410e",
+  "projects/P2S_PRINTER_03_BASE_FRONT.3mf": "70a15bfa8b40e5873ed03494f95ddd3df91c898d700339fd97fd5ef04ef45763",
+  "projects/P2S_PRINTER_04_UPPER.3mf": "2ac7efc11c0341f75ad8476313f114980de12c870a14ccc3fb1056f21fc46886",
+  "projects/P2S_PRINTER_05_STAND_SPEAKER_BRIDGES.3mf": "929f29afcdb6c63ea52138992fbd19fb876b685ee6723156a080a45d5250a603",
+  "README.md": "a9adb611433c30613a432bb7faf2887b416aec6d7e66b3c457e769b7e8701f0f"
+}
