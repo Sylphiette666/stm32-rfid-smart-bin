@@ -1,0 +1,14 @@
+{
+  "all_three": {
+    "body_top_layer_mm": 5,
+    "max_print_z_mm": 5.28,
+    "sliced_object_count": 3,
+    "geometry_unchanged": true
+  },
+  "b_only": {
+    "body_top_layer_mm": 5,
+    "max_print_z_mm": 5.28,
+    "sliced_object_count": 1,
+    "geometry_unchanged": true
+  }
+}
