@@ -1,0 +1,2576 @@
+{
+  "status": "CAD_CHECKED_PENDING_SLICE_AND_DRY_FIT",
+  "parts": {
+    "W03_LEFT": {
+      "size_mm": [
+        160.0,
+        180.0,
+        15.0
+      ],
+      "solid_volume_mm3": 81668.21555351149,
+      "watertight": true,
+      "solid_count": 1
+    },
+    "W04_RIGHT": {
+      "size_mm": [
+        160.0,
+        180.0,
+        15.0
+      ],
+      "solid_volume_mm3": 69326.58153988043,
+      "watertight": true,
+      "solid_count": 1
+    },
+    "W02_REAR": {
+      "size_mm": [
+        144.0,
+        180.0,
+        5.5
+      ],
+      "solid_volume_mm3": 56222.544234524015,
+      "watertight": true,
+      "solid_count": 1
+    },
+    "W01_FRONT": {
+      "size_mm": [
+        144.0,
+        180.0,
+        60.0
+      ],
+      "solid_volume_mm3": 140892.4146012574,
+      "watertight": true,
+      "solid_count": 1
+    },
+    "PANEL_COVER": {
+      "size_mm": [
+        144.0,
+        88.0,
+        5.400000095367432
+      ],
+      "solid_volume_mm3": 25110.664905097834,
+      "watertight": true,
+      "solid_count": 1
+    },
+    "ENCODER_PIN_HOOD": {
+      "size_mm": [
+        22.59934420353966,
+        35.599342296191026,
+        25.0
+      ],
+      "solid_volume_mm3": 7523.404570039095,
+      "watertight": true,
+      "solid_count": 1
+    },
+    "BUTTON_CARRIER": {
+      "size_mm": [
+        24.0,
+        25.0,
+        4.0
+      ],
+      "solid_volume_mm3": 920.0948703937834,
+      "watertight": true,
+      "solid_count": 1
+    },
+    "BUTTON_RETAINER": {
+      "size_mm": [
+        24.0,
+        25.0,
+        2.0
+      ],
+      "solid_volume_mm3": 573.9299135958563,
+      "watertight": true,
+      "solid_count": 1
+    },
+    "BUTTON_SPACER": {
+      "size_mm": [
+        6.0,
+        5.998813803889789,
+        8.199999809265137
+      ],
+      "solid_volume_mm3": 181.35786070643155,
+      "watertight": true,
+      "solid_count": 1
+    },
+    "RFID_EDGE_RAIL": {
+      "size_mm": [
+        10.0,
+        35.0,
+        4.0
+      ],
+      "solid_volume_mm3": 860.729913595856,
+      "watertight": true,
+      "solid_count": 1
+    },
+    "RFID_RETAINER": {
+      "size_mm": [
+        10.0,
+        35.0,
+        2.0
+      ],
+      "solid_volume_mm3": 650.7299135958558,
+      "watertight": true,
+      "solid_count": 1
+    },
+    "CORNER_ANGLE": {
+      "size_mm": [
+        15.0,
+        15.0,
+        12.0
+      ],
+      "solid_volume_mm3": 917.5247833867529,
+      "watertight": true,
+      "solid_count": 1
+    },
+    "SHIM_1": {
+      "size_mm": [
+        8.0,
+        8.0,
+        1.0
+      ],
+      "solid_volume_mm3": 57.84247839896399,
+      "watertight": true,
+      "solid_count": 1
+    },
+    "SHIM_2": {
+      "size_mm": [
+        8.0,
+        8.0,
+        2.0
+      ],
+      "solid_volume_mm3": 115.68495679792798,
+      "watertight": true,
+      "solid_count": 1
+    },
+    "BEAM_SEAT": {
+      "size_mm": [
+        30.0,
+        28.0,
+        12.300000190734863
+      ],
+      "solid_volume_mm3": 3821.2407719450043,
+      "watertight": true,
+      "solid_count": 1
+    },
+    "BEAM_RETAINER": {
+      "size_mm": [
+        30.0,
+        5.0,
+        2.4000000953674316
+      ],
+      "solid_volume_mm3": 316.41982670940246,
+      "watertight": true,
+      "solid_count": 1
+    },
+    "LIGHT_CRADLE": {
+      "size_mm": [
+        44.0,
+        30.0,
+        7.300000190734863
+      ],
+      "solid_volume_mm3": 2616.580491897833,
+      "watertight": true,
+      "solid_count": 1
+    },
+    "LIGHT_EDGE_BAR": {
+      "size_mm": [
+        44.0,
+        5.599999904632568,
+        2.4000000953674316
+      ],
+      "solid_volume_mm3": 547.7798267094024,
+      "watertight": true,
+      "solid_count": 1
+    },
+    "DHT_SEAT": {
+      "size_mm": [
+        28.0,
+        30.0,
+        9.5
+      ],
+      "solid_volume_mm3": 2634.0375059389235,
+      "watertight": true,
+      "solid_count": 1
+    },
+    "DHT_GUARD": {
+      "size_mm": [
+        28.0,
+        30.0,
+        1.600000023841858
+      ],
+      "solid_volume_mm3": 1039.7465511396017,
+      "watertight": true,
+      "solid_count": 1
+    },
+    "APPROACH_SHELF": {
+      "size_mm": [
+        47.0,
+        30.0,
+        24.0
+      ],
+      "solid_volume_mm3": 6119.60485447429,
+      "watertight": true,
+      "solid_count": 1
+    },
+    "APPROACH_EDGE_BAR": {
+      "size_mm": [
+        47.0,
+        5.599999904632568,
+        2.4000000953674316
+      ],
+      "solid_volume_mm3": 588.0998267094024,
+      "watertight": true,
+      "solid_count": 1
+    },
+    "POWER_POD": {
+      "size_mm": [
+        42.0,
+        34.0,
+        34.0
+      ],
+      "solid_volume_mm3": 16304.17870921269,
+      "watertight": true,
+      "solid_count": 1
+    },
+    "POWER_INSERT": {
+      "size_mm": [
+        42.0,
+        34.0,
+        2.0
+      ],
+      "solid_volume_mm3": 2302.2463778490046,
+      "watertight": true,
+      "solid_count": 1
+    },
+    "BEAM_LEDGE": {
+      "size_mm": [
+        30.0,
+        26.0,
+        15.0
+      ],
+      "solid_volume_mm3": 3878.2871750801296,
+      "watertight": true,
+      "solid_count": 1
+    },
+    "ULTRASONIC_BEAM": {
+      "size_mm": [
+        137.60000610351562,
+        35.0,
+        6.0
+      ],
+      "solid_volume_mm3": 13292.554524174326,
+      "watertight": true,
+      "solid_count": 1
+    },
+    "ULTRASONIC_RETAINER": {
+      "size_mm": [
+        8.0,
+        30.0,
+        2.0
+      ],
+      "solid_volume_mm3": 455.369913595856,
+      "watertight": true,
+      "solid_count": 1
+    },
+    "LID_SWITCH_PLATE": {
+      "size_mm": [
+        34.0,
+        28.0,
+        3.0
+      ],
+      "solid_volume_mm3": 2567.516820721691,
+      "watertight": true,
+      "solid_count": 1
+    },
+    "LID_TOUCH_TAB": {
+      "size_mm": [
+        30.0,
+        12.0,
+        3.0
+      ],
+      "solid_volume_mm3": 952.0847833867531,
+      "watertight": true,
+      "solid_count": 1
+    },
+    "LID_SOFTSTOP_SEAT": {
+      "size_mm": [
+        16.0,
+        20.0,
+        12.0
+      ],
+      "solid_volume_mm3": 1481.524783386753,
+      "watertight": true,
+      "solid_count": 1
+    },
+    "LED_INSERT": {
+      "size_mm": [
+        22.0,
+        18.0,
+        3.0
+      ],
+      "solid_volume_mm3": 1084.8693671642811,
+      "watertight": true,
+      "solid_count": 1
+    },
+    "CABLE_SADDLE": {
+      "size_mm": [
+        24.0,
+        10.0,
+        7.0
+      ],
+      "solid_volume_mm3": 952.891161235757,
+      "watertight": true,
+      "solid_count": 1
+    },
+    "CABLE_CAP": {
+      "size_mm": [
+        24.0,
+        10.0,
+        2.0
+      ],
+      "solid_volume_mm3": 443.6831889245021,
+      "watertight": true,
+      "solid_count": 1
+    }
+  },
+  "plates": {
+    "1": [
+      {
+        "name": "W01_FRONT",
+        "x": 5,
+        "y": 5,
+        "rotation": 90,
+        "copy": 1,
+        "bounds": [
+          [
+            5.0,
+            5.0,
+            0.0
+          ],
+          [
+            185.0,
+            149.0,
+            60.0
+          ]
+        ]
+      },
+      {
+        "name": "PANEL_COVER",
+        "x": 5,
+        "y": 158,
+        "rotation": 0,
+        "copy": 1,
+        "bounds": [
+          [
+            5.0,
+            158.0,
+            0.0
+          ],
+          [
+            149.0,
+            246.0,
+            5.400000095367432
+          ]
+        ]
+      },
+      {
+        "name": "ENCODER_PIN_HOOD",
+        "x": 199,
+        "y": 8,
+        "rotation": 0,
+        "copy": 1,
+        "bounds": [
+          [
+            199.00032811396522,
+            8.000328113965224,
+            0.0
+          ],
+          [
+            221.59967231750488,
+            43.59967041015625,
+            25.0
+          ]
+        ]
+      },
+      {
+        "name": "BUTTON_CARRIER",
+        "x": 199,
+        "y": 52,
+        "rotation": 0,
+        "copy": 1,
+        "bounds": [
+          [
+            199.0,
+            52.0,
+            0.0
+          ],
+          [
+            223.0,
+            77.0,
+            4.0
+          ]
+        ]
+      },
+      {
+        "name": "BUTTON_CARRIER",
+        "x": 199,
+        "y": 85,
+        "rotation": 0,
+        "copy": 2,
+        "bounds": [
+          [
+            199.0,
+            85.0,
+            0.0
+          ],
+          [
+            223.0,
+            110.0,
+            4.0
+          ]
+        ]
+      },
+      {
+        "name": "RFID_EDGE_RAIL",
+        "x": 155,
+        "y": 158,
+        "rotation": 0,
+        "copy": 1,
+        "bounds": [
+          [
+            155.0,
+            158.0,
+            0.0
+          ],
+          [
+            165.0,
+            193.0,
+            4.0
+          ]
+        ]
+      },
+      {
+        "name": "RFID_EDGE_RAIL",
+        "x": 173,
+        "y": 158,
+        "rotation": 0,
+        "copy": 2,
+        "bounds": [
+          [
+            173.0,
+            158.0,
+            0.0
+          ],
+          [
+            183.0,
+            193.0,
+            4.0
+          ]
+        ]
+      },
+      {
+        "name": "RFID_RETAINER",
+        "x": 191,
+        "y": 158,
+        "rotation": 0,
+        "copy": 3,
+        "bounds": [
+          [
+            191.0,
+            158.0,
+            0.0
+          ],
+          [
+            201.0,
+            193.0,
+            2.0
+          ]
+        ]
+      },
+      {
+        "name": "RFID_RETAINER",
+        "x": 209,
+        "y": 158,
+        "rotation": 0,
+        "copy": 4,
+        "bounds": [
+          [
+            209.0,
+            158.0,
+            0.0
+          ],
+          [
+            219.0,
+            193.0,
+            2.0
+          ]
+        ]
+      },
+      {
+        "name": "SHIM_1",
+        "x": 155,
+        "y": 218,
+        "rotation": 0,
+        "copy": 1,
+        "bounds": [
+          [
+            155.0,
+            218.0,
+            0.0
+          ],
+          [
+            163.0,
+            226.0,
+            1.0
+          ]
+        ]
+      },
+      {
+        "name": "SHIM_1",
+        "x": 169,
+        "y": 218,
+        "rotation": 0,
+        "copy": 2,
+        "bounds": [
+          [
+            169.0,
+            218.0,
+            0.0
+          ],
+          [
+            177.0,
+            226.0,
+            1.0
+          ]
+        ]
+      },
+      {
+        "name": "SHIM_1",
+        "x": 183,
+        "y": 218,
+        "rotation": 0,
+        "copy": 3,
+        "bounds": [
+          [
+            183.0,
+            218.0,
+            0.0
+          ],
+          [
+            191.0,
+            226.0,
+            1.0
+          ]
+        ]
+      },
+      {
+        "name": "SHIM_2",
+        "x": 197,
+        "y": 218,
+        "rotation": 0,
+        "copy": 4,
+        "bounds": [
+          [
+            197.0,
+            218.0,
+            0.0
+          ],
+          [
+            205.0,
+            226.0,
+            2.0
+          ]
+        ]
+      },
+      {
+        "name": "SHIM_2",
+        "x": 211,
+        "y": 218,
+        "rotation": 0,
+        "copy": 5,
+        "bounds": [
+          [
+            211.0,
+            218.0,
+            0.0
+          ],
+          [
+            219.0,
+            226.0,
+            2.0
+          ]
+        ]
+      },
+      {
+        "name": "SHIM_2",
+        "x": 225,
+        "y": 218,
+        "rotation": 0,
+        "copy": 6,
+        "bounds": [
+          [
+            225.0,
+            218.0,
+            0.0
+          ],
+          [
+            233.0,
+            226.0,
+            2.0
+          ]
+        ]
+      }
+    ],
+    "2": [
+      {
+        "name": "W02_REAR",
+        "x": 8,
+        "y": 8,
+        "rotation": 0,
+        "copy": 1,
+        "bounds": [
+          [
+            8.0,
+            8.0,
+            0.0
+          ],
+          [
+            152.0,
+            188.0,
+            5.5
+          ]
+        ]
+      },
+      {
+        "name": "CORNER_ANGLE",
+        "x": 170,
+        "y": 15,
+        "rotation": 0,
+        "copy": 1,
+        "bounds": [
+          [
+            170.0,
+            15.0,
+            0.0
+          ],
+          [
+            185.0,
+            30.0,
+            12.0
+          ]
+        ]
+      },
+      {
+        "name": "CORNER_ANGLE",
+        "x": 200,
+        "y": 15,
+        "rotation": 0,
+        "copy": 2,
+        "bounds": [
+          [
+            200.0,
+            15.0,
+            0.0
+          ],
+          [
+            215.0,
+            30.0,
+            12.0
+          ]
+        ]
+      },
+      {
+        "name": "CORNER_ANGLE",
+        "x": 170,
+        "y": 45,
+        "rotation": 0,
+        "copy": 3,
+        "bounds": [
+          [
+            170.0,
+            45.0,
+            0.0
+          ],
+          [
+            185.0,
+            60.0,
+            12.0
+          ]
+        ]
+      },
+      {
+        "name": "CORNER_ANGLE",
+        "x": 200,
+        "y": 45,
+        "rotation": 0,
+        "copy": 4,
+        "bounds": [
+          [
+            200.0,
+            45.0,
+            0.0
+          ],
+          [
+            215.0,
+            60.0,
+            12.0
+          ]
+        ]
+      },
+      {
+        "name": "ULTRASONIC_BEAM",
+        "x": 5,
+        "y": 201,
+        "rotation": 0,
+        "copy": 1,
+        "bounds": [
+          [
+            5.0,
+            201.0,
+            0.0
+          ],
+          [
+            142.60000610351562,
+            236.0,
+            6.0
+          ]
+        ]
+      },
+      {
+        "name": "POWER_POD",
+        "x": 165,
+        "y": 73,
+        "rotation": 0,
+        "copy": 1,
+        "bounds": [
+          [
+            165.0,
+            73.0,
+            0.0
+          ],
+          [
+            207.0,
+            107.0,
+            34.0
+          ]
+        ]
+      },
+      {
+        "name": "POWER_INSERT",
+        "x": 165,
+        "y": 119,
+        "rotation": 0,
+        "copy": 1,
+        "bounds": [
+          [
+            165.0,
+            119.0,
+            0.0
+          ],
+          [
+            207.0,
+            153.0,
+            2.0
+          ]
+        ]
+      },
+      {
+        "name": "LIGHT_CRADLE",
+        "x": 165,
+        "y": 165,
+        "rotation": 0,
+        "copy": 1,
+        "bounds": [
+          [
+            165.0,
+            165.0,
+            0.0
+          ],
+          [
+            209.0,
+            195.0,
+            7.300000190734863
+          ]
+        ]
+      },
+      {
+        "name": "LID_SWITCH_PLATE",
+        "x": 155,
+        "y": 207,
+        "rotation": 0,
+        "copy": 1,
+        "bounds": [
+          [
+            155.0,
+            207.0,
+            0.0
+          ],
+          [
+            189.0,
+            235.0,
+            3.0
+          ]
+        ]
+      },
+      {
+        "name": "BEAM_SEAT",
+        "x": 219,
+        "y": 73,
+        "rotation": 0,
+        "copy": 1,
+        "bounds": [
+          [
+            219.0,
+            73.0,
+            0.0
+          ],
+          [
+            249.0,
+            101.0,
+            12.300000190734863
+          ]
+        ]
+      },
+      {
+        "name": "BEAM_SEAT",
+        "x": 219,
+        "y": 113,
+        "rotation": 0,
+        "copy": 2,
+        "bounds": [
+          [
+            219.0,
+            113.0,
+            0.0
+          ],
+          [
+            249.0,
+            141.0,
+            12.300000190734863
+          ]
+        ]
+      },
+      {
+        "name": "DHT_SEAT",
+        "x": 221,
+        "y": 153,
+        "rotation": 0,
+        "copy": 1,
+        "bounds": [
+          [
+            221.0,
+            153.0,
+            0.0
+          ],
+          [
+            249.0,
+            183.0,
+            9.5
+          ]
+        ]
+      },
+      {
+        "name": "DHT_GUARD",
+        "x": 221,
+        "y": 195,
+        "rotation": 0,
+        "copy": 1,
+        "bounds": [
+          [
+            221.0,
+            195.0,
+            0.0
+          ],
+          [
+            249.0,
+            225.0,
+            1.600000023841858
+          ]
+        ]
+      },
+      {
+        "name": "BUTTON_RETAINER",
+        "x": 227,
+        "y": 5,
+        "rotation": 0,
+        "copy": 1,
+        "bounds": [
+          [
+            227.0,
+            5.0,
+            0.0
+          ],
+          [
+            251.0,
+            30.0,
+            2.0
+          ]
+        ]
+      },
+      {
+        "name": "LED_INSERT",
+        "x": 227,
+        "y": 43,
+        "rotation": 0,
+        "copy": 1,
+        "bounds": [
+          [
+            227.0,
+            43.0,
+            0.0
+          ],
+          [
+            249.0,
+            61.0,
+            3.0
+          ]
+        ]
+      },
+      {
+        "name": "LID_TOUCH_TAB",
+        "x": 201,
+        "y": 237,
+        "rotation": 0,
+        "copy": 1,
+        "bounds": [
+          [
+            201.0,
+            237.0,
+            0.0
+          ],
+          [
+            231.0,
+            249.0,
+            3.0
+          ]
+        ]
+      },
+      {
+        "name": "BUTTON_SPACER",
+        "x": 201,
+        "y": 207,
+        "rotation": 0,
+        "copy": 1,
+        "bounds": [
+          [
+            201.0,
+            207.0005930106854,
+            0.0
+          ],
+          [
+            207.0,
+            212.9994068145752,
+            8.199999809265137
+          ]
+        ]
+      },
+      {
+        "name": "BUTTON_SPACER",
+        "x": 243,
+        "y": 237,
+        "rotation": 0,
+        "copy": 2,
+        "bounds": [
+          [
+            243.0,
+            237.0005930106854,
+            0.0
+          ],
+          [
+            249.0,
+            242.9994068145752,
+            8.199999809265137
+          ]
+        ]
+      }
+    ],
+    "3": [
+      {
+        "name": "W03_LEFT",
+        "x": 8,
+        "y": 8,
+        "rotation": 0,
+        "copy": 1,
+        "bounds": [
+          [
+            8.0,
+            8.0,
+            0.0
+          ],
+          [
+            168.0,
+            188.0,
+            15.0
+          ]
+        ]
+      },
+      {
+        "name": "CORNER_ANGLE",
+        "x": 185,
+        "y": 15,
+        "rotation": 0,
+        "copy": 1,
+        "bounds": [
+          [
+            185.0,
+            15.0,
+            0.0
+          ],
+          [
+            200.0,
+            30.0,
+            12.0
+          ]
+        ]
+      },
+      {
+        "name": "CORNER_ANGLE",
+        "x": 185,
+        "y": 45,
+        "rotation": 0,
+        "copy": 2,
+        "bounds": [
+          [
+            185.0,
+            45.0,
+            0.0
+          ],
+          [
+            200.0,
+            60.0,
+            12.0
+          ]
+        ]
+      },
+      {
+        "name": "BEAM_LEDGE",
+        "x": 213,
+        "y": 5,
+        "rotation": 0,
+        "copy": 1,
+        "bounds": [
+          [
+            213.0,
+            5.0,
+            0.0
+          ],
+          [
+            243.0,
+            31.0,
+            15.0
+          ]
+        ]
+      },
+      {
+        "name": "BEAM_LEDGE",
+        "x": 213,
+        "y": 43,
+        "rotation": 0,
+        "copy": 2,
+        "bounds": [
+          [
+            213.0,
+            43.0,
+            0.0
+          ],
+          [
+            243.0,
+            69.0,
+            15.0
+          ]
+        ]
+      },
+      {
+        "name": "BUTTON_RETAINER",
+        "x": 181,
+        "y": 81,
+        "rotation": 0,
+        "copy": 2,
+        "bounds": [
+          [
+            181.0,
+            81.0,
+            0.0
+          ],
+          [
+            205.0,
+            106.0,
+            2.0
+          ]
+        ]
+      },
+      {
+        "name": "LID_SOFTSTOP_SEAT",
+        "x": 217,
+        "y": 81,
+        "rotation": 0,
+        "copy": 1,
+        "bounds": [
+          [
+            217.0,
+            81.0,
+            0.0
+          ],
+          [
+            233.0,
+            101.0,
+            12.0
+          ]
+        ]
+      },
+      {
+        "name": "LID_SOFTSTOP_SEAT",
+        "x": 217,
+        "y": 113,
+        "rotation": 0,
+        "copy": 2,
+        "bounds": [
+          [
+            217.0,
+            113.0,
+            0.0
+          ],
+          [
+            233.0,
+            133.0,
+            12.0
+          ]
+        ]
+      },
+      {
+        "name": "APPROACH_EDGE_BAR",
+        "x": 181,
+        "y": 145,
+        "rotation": 0,
+        "copy": 1,
+        "bounds": [
+          [
+            181.0,
+            145.0,
+            0.0
+          ],
+          [
+            228.0,
+            150.59999990463257,
+            2.4000000953674316
+          ]
+        ]
+      },
+      {
+        "name": "APPROACH_EDGE_BAR",
+        "x": 181,
+        "y": 163,
+        "rotation": 0,
+        "copy": 2,
+        "bounds": [
+          [
+            181.0,
+            163.0,
+            0.0
+          ],
+          [
+            228.0,
+            168.59999990463257,
+            2.4000000953674316
+          ]
+        ]
+      },
+      {
+        "name": "LIGHT_EDGE_BAR",
+        "x": 181,
+        "y": 181,
+        "rotation": 0,
+        "copy": 1,
+        "bounds": [
+          [
+            181.0,
+            181.0,
+            0.0
+          ],
+          [
+            225.0,
+            186.59999990463257,
+            2.4000000953674316
+          ]
+        ]
+      },
+      {
+        "name": "LIGHT_EDGE_BAR",
+        "x": 181,
+        "y": 199,
+        "rotation": 0,
+        "copy": 2,
+        "bounds": [
+          [
+            181.0,
+            199.0,
+            0.0
+          ],
+          [
+            225.0,
+            204.59999990463257,
+            2.4000000953674316
+          ]
+        ]
+      },
+      {
+        "name": "ULTRASONIC_RETAINER",
+        "x": 241,
+        "y": 145,
+        "rotation": 0,
+        "copy": 1,
+        "bounds": [
+          [
+            241.0,
+            145.0,
+            0.0
+          ],
+          [
+            249.0,
+            175.0,
+            2.0
+          ]
+        ]
+      },
+      {
+        "name": "ULTRASONIC_RETAINER",
+        "x": 237,
+        "y": 187,
+        "rotation": 0,
+        "copy": 2,
+        "bounds": [
+          [
+            237.0,
+            187.0,
+            0.0
+          ],
+          [
+            245.0,
+            217.0,
+            2.0
+          ]
+        ]
+      },
+      {
+        "name": "CABLE_SADDLE",
+        "x": 181,
+        "y": 119,
+        "rotation": 0,
+        "copy": 1,
+        "bounds": [
+          [
+            181.0,
+            119.0,
+            0.0
+          ],
+          [
+            205.0,
+            129.0,
+            7.0
+          ]
+        ]
+      },
+      {
+        "name": "CABLE_SADDLE",
+        "x": 5,
+        "y": 201,
+        "rotation": 0,
+        "copy": 2,
+        "bounds": [
+          [
+            5.0,
+            201.0,
+            0.0
+          ],
+          [
+            29.0,
+            211.0,
+            7.0
+          ]
+        ]
+      },
+      {
+        "name": "CABLE_SADDLE",
+        "x": 41,
+        "y": 201,
+        "rotation": 0,
+        "copy": 3,
+        "bounds": [
+          [
+            41.0,
+            201.0,
+            0.0
+          ],
+          [
+            65.0,
+            211.0,
+            7.0
+          ]
+        ]
+      },
+      {
+        "name": "CABLE_SADDLE",
+        "x": 77,
+        "y": 201,
+        "rotation": 0,
+        "copy": 4,
+        "bounds": [
+          [
+            77.0,
+            201.0,
+            0.0
+          ],
+          [
+            101.0,
+            211.0,
+            7.0
+          ]
+        ]
+      },
+      {
+        "name": "CABLE_CAP",
+        "x": 113,
+        "y": 201,
+        "rotation": 0,
+        "copy": 1,
+        "bounds": [
+          [
+            113.0,
+            201.0,
+            0.0
+          ],
+          [
+            137.0,
+            211.0,
+            2.0
+          ]
+        ]
+      },
+      {
+        "name": "CABLE_CAP",
+        "x": 149,
+        "y": 217,
+        "rotation": 0,
+        "copy": 2,
+        "bounds": [
+          [
+            149.0,
+            217.0,
+            0.0
+          ],
+          [
+            173.0,
+            227.0,
+            2.0
+          ]
+        ]
+      },
+      {
+        "name": "CABLE_CAP",
+        "x": 185,
+        "y": 217,
+        "rotation": 0,
+        "copy": 3,
+        "bounds": [
+          [
+            185.0,
+            217.0,
+            0.0
+          ],
+          [
+            209.0,
+            227.0,
+            2.0
+          ]
+        ]
+      },
+      {
+        "name": "CABLE_CAP",
+        "x": 5,
+        "y": 223,
+        "rotation": 0,
+        "copy": 4,
+        "bounds": [
+          [
+            5.0,
+            223.0,
+            0.0
+          ],
+          [
+            29.0,
+            233.0,
+            2.0
+          ]
+        ]
+      },
+      {
+        "name": "BEAM_RETAINER",
+        "x": 41,
+        "y": 223,
+        "rotation": 0,
+        "copy": 1,
+        "bounds": [
+          [
+            41.0,
+            223.0,
+            0.0
+          ],
+          [
+            71.0,
+            228.0,
+            2.4000000953674316
+          ]
+        ]
+      },
+      {
+        "name": "BEAM_RETAINER",
+        "x": 83,
+        "y": 223,
+        "rotation": 0,
+        "copy": 2,
+        "bounds": [
+          [
+            83.0,
+            223.0,
+            0.0
+          ],
+          [
+            113.0,
+            228.0,
+            2.4000000953674316
+          ]
+        ]
+      },
+      {
+        "name": "BUTTON_SPACER",
+        "x": 245,
+        "y": 81,
+        "rotation": 0,
+        "copy": 3,
+        "bounds": [
+          [
+            245.0,
+            81.0005930106854,
+            0.0
+          ],
+          [
+            251.0,
+            86.9994068145752,
+            8.199999809265137
+          ]
+        ]
+      },
+      {
+        "name": "BUTTON_SPACER",
+        "x": 245,
+        "y": 99,
+        "rotation": 0,
+        "copy": 4,
+        "bounds": [
+          [
+            245.0,
+            99.0005930106854,
+            0.0
+          ],
+          [
+            251.0,
+            104.9994068145752,
+            8.199999809265137
+          ]
+        ]
+      }
+    ],
+    "4": [
+      {
+        "name": "W04_RIGHT",
+        "x": 8,
+        "y": 8,
+        "rotation": 0,
+        "copy": 1,
+        "bounds": [
+          [
+            8.0,
+            8.0,
+            0.0
+          ],
+          [
+            168.0,
+            188.0,
+            15.0
+          ]
+        ]
+      },
+      {
+        "name": "CORNER_ANGLE",
+        "x": 185,
+        "y": 15,
+        "rotation": 0,
+        "copy": 1,
+        "bounds": [
+          [
+            185.0,
+            15.0,
+            0.0
+          ],
+          [
+            200.0,
+            30.0,
+            12.0
+          ]
+        ]
+      },
+      {
+        "name": "CORNER_ANGLE",
+        "x": 185,
+        "y": 45,
+        "rotation": 0,
+        "copy": 2,
+        "bounds": [
+          [
+            185.0,
+            45.0,
+            0.0
+          ],
+          [
+            200.0,
+            60.0,
+            12.0
+          ]
+        ]
+      },
+      {
+        "name": "APPROACH_SHELF",
+        "x": 193,
+        "y": 85,
+        "rotation": 0,
+        "copy": 1,
+        "bounds": [
+          [
+            193.0,
+            85.0,
+            0.0
+          ],
+          [
+            240.0,
+            115.0,
+            24.0
+          ]
+        ]
+      }
+    ]
+  },
+  "shell_outer_nominal_mm": [
+    160,
+    150,
+    180
+  ],
+  "skin_mm": 1.6,
+  "ribs_max_mm": 5,
+  "corner_bearing_mm": 3,
+  "control_bay_depth_mm": 60,
+  "emergency_cutout_mm": 22.6,
+  "emergency_mount_land_mm": 4,
+  "rear_depth_with_wires_verified": false,
+  "sensor_specific_mounts_complete": true,
+  "sensor_instances": [
+    {
+      "name": "BEAM_SEAT",
+      "wall": "W03_LEFT",
+      "origin": [
+        85,
+        130.8,
+        5.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "BEAM_RETAINER",
+      "wall": "W03_LEFT",
+      "origin": [
+        85,
+        137.0,
+        17.8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "BEAM_SEAT",
+      "wall": "W04_RIGHT",
+      "origin": [
+        45,
+        130.8,
+        5.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "BEAM_RETAINER",
+      "wall": "W04_RIGHT",
+      "origin": [
+        45,
+        137.0,
+        17.8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "LIGHT_CRADLE",
+      "wall": "W03_LEFT",
+      "origin": [
+        75,
+        78,
+        5.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "LIGHT_EDGE_BAR",
+      "wall": "W03_LEFT",
+      "origin": [
+        75,
+        78.7,
+        12.8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "LIGHT_EDGE_BAR",
+      "wall": "W03_LEFT",
+      "origin": [
+        75,
+        101.7,
+        12.8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "DHT_SEAT",
+      "wall": "W03_LEFT",
+      "origin": [
+        28,
+        78,
+        5.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "DHT_GUARD",
+      "wall": "W03_LEFT",
+      "origin": [
+        28,
+        78,
+        15
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "APPROACH_SHELF",
+      "wall": "W01_FRONT",
+      "origin": [
+        57,
+        140,
+        5.5
+      ],
+      "matrix": [
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "name": "APPROACH_EDGE_BAR",
+      "wall": "W01_FRONT",
+      "origin": [
+        57.7,
+        147.7,
+        5.5
+      ],
+      "matrix": [
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "name": "APPROACH_EDGE_BAR",
+      "wall": "W01_FRONT",
+      "origin": [
+        80.7,
+        147.7,
+        5.5
+      ],
+      "matrix": [
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "name": "POWER_POD",
+      "wall": "W03_LEFT",
+      "origin": [
+        75,
+        25,
+        5.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "POWER_INSERT",
+      "wall": "W03_LEFT",
+      "origin": [
+        75,
+        25,
+        39.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "BEAM_LEDGE",
+      "wall": "W03_LEFT",
+      "origin": [
+        50,
+        145,
+        0
+      ],
+      "matrix": [
+        [
+          -1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          -1
+        ]
+      ]
+    },
+    {
+      "name": "BEAM_LEDGE",
+      "wall": "W04_RIGHT",
+      "origin": [
+        140,
+        145,
+        0
+      ],
+      "matrix": [
+        [
+          -1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          -1
+        ]
+      ]
+    },
+    {
+      "name": "ULTRASONIC_BEAM",
+      "world_origin": [
+        17.5,
+        3,
+        162
+      ],
+      "world_matrix": [
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "name": "ULTRASONIC_RETAINER",
+      "world_origin": [
+        20,
+        47,
+        166.6
+      ],
+      "world_matrix": [
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "name": "ULTRASONIC_RETAINER",
+      "world_origin": [
+        20,
+        97,
+        166.6
+      ],
+      "world_matrix": [
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "name": "LID_SWITCH_PLATE",
+      "wall": "W01_FRONT",
+      "origin": [
+        100,
+        149,
+        5.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "LID_SOFTSTOP_SEAT",
+      "wall": "W03_LEFT",
+      "origin": [
+        78,
+        158,
+        0
+      ],
+      "matrix": [
+        [
+          -1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          -1
+        ]
+      ]
+    },
+    {
+      "name": "LID_SOFTSTOP_SEAT",
+      "wall": "W04_RIGHT",
+      "origin": [
+        98,
+        158,
+        0
+      ],
+      "matrix": [
+        [
+          -1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          -1
+        ]
+      ]
+    },
+    {
+      "name": "LED_INSERT",
+      "wall": "W01_FRONT",
+      "origin": [
+        18,
+        158,
+        5.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "CABLE_SADDLE",
+      "wall": "W03_LEFT",
+      "origin": [
+        24,
+        46,
+        5.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "CABLE_CAP",
+      "wall": "W03_LEFT",
+      "origin": [
+        24,
+        46,
+        12.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "CABLE_SADDLE",
+      "wall": "W03_LEFT",
+      "origin": [
+        118,
+        46,
+        5.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "CABLE_CAP",
+      "wall": "W03_LEFT",
+      "origin": [
+        118,
+        46,
+        12.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "CABLE_SADDLE",
+      "wall": "W04_RIGHT",
+      "origin": [
+        50,
+        82,
+        5.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "CABLE_CAP",
+      "wall": "W04_RIGHT",
+      "origin": [
+        50,
+        82,
+        12.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "CABLE_SADDLE",
+      "wall": "W02_REAR",
+      "origin": [
+        60,
+        24,
+        5.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "CABLE_CAP",
+      "wall": "W02_REAR",
+      "origin": [
+        60,
+        24,
+        12.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "interface_features": [
+    {
+      "wall": "W03_LEFT",
+      "origin_uv": [
+        85,
+        130.8
+      ],
+      "pad_size": [
+        30,
+        28
+      ],
+      "hole_centres_uv": [
+        [
+          89,
+          139.5
+        ],
+        [
+          111,
+          139.5
+        ]
+      ],
+      "diameter": 3.4,
+      "vertical_slot_length": 9
+    },
+    {
+      "wall": "W03_LEFT",
+      "function": "beam optical window",
+      "centre_uv": [
+        100,
+        150
+      ],
+      "slot_width": 9,
+      "slot_length": 17,
+      "adjustment_each_direction_mm": 2.8
+    },
+    {
+      "wall": "W04_RIGHT",
+      "origin_uv": [
+        45,
+        130.8
+      ],
+      "pad_size": [
+        30,
+        28
+      ],
+      "hole_centres_uv": [
+        [
+          49,
+          139.5
+        ],
+        [
+          71,
+          139.5
+        ]
+      ],
+      "diameter": 3.4,
+      "vertical_slot_length": 9
+    },
+    {
+      "wall": "W04_RIGHT",
+      "function": "beam optical window",
+      "centre_uv": [
+        60,
+        150
+      ],
+      "slot_width": 9,
+      "slot_length": 17,
+      "adjustment_each_direction_mm": 2.8
+    },
+    {
+      "wall": "W03_LEFT",
+      "origin_uv": [
+        75,
+        78
+      ],
+      "pad_size": [
+        44,
+        30
+      ],
+      "hole_centres_uv": [
+        [
+          79,
+          81.5
+        ],
+        [
+          115,
+          81.5
+        ],
+        [
+          79,
+          104.5
+        ],
+        [
+          115,
+          104.5
+        ]
+      ],
+      "diameter": 3.4,
+      "vertical_slot_length": null
+    },
+    {
+      "wall": "W03_LEFT",
+      "function": "LIGHT PCB seat",
+      "origin_uv": [
+        75,
+        78
+      ],
+      "pcb_outline": [
+        28,
+        20
+      ],
+      "pcb_lower_left_local": [
+        8,
+        5
+      ],
+      "pcb_support_z": 10.5,
+      "clamp_gap_mm": 2.3,
+      "note": "Open header side. Thin insulating shim if needed; do not bend PCB."
+    },
+    {
+      "wall": "W03_LEFT",
+      "origin_uv": [
+        28,
+        78
+      ],
+      "pad_size": [
+        28,
+        30
+      ],
+      "hole_centres_uv": [
+        [
+          31,
+          93
+        ],
+        [
+          53,
+          93
+        ]
+      ],
+      "diameter": 3.4,
+      "vertical_slot_length": null
+    },
+    {
+      "wall": "W01_FRONT",
+      "origin_uv": [
+        56,
+        140
+      ],
+      "pad_size": [
+        32,
+        28
+      ],
+      "hole_centres_uv": [
+        [
+          63,
+          157
+        ],
+        [
+          81,
+          157
+        ]
+      ],
+      "diameter": 3.4,
+      "vertical_slot_length": null
+    },
+    {
+      "wall": "W03_LEFT",
+      "origin_uv": [
+        75,
+        25
+      ],
+      "pad_size": [
+        42,
+        34
+      ],
+      "hole_centres_uv": [
+        [
+          80,
+          30
+        ],
+        [
+          112,
+          30
+        ],
+        [
+          80,
+          54
+        ],
+        [
+          112,
+          54
+        ]
+      ],
+      "diameter": 3.4,
+      "vertical_slot_length": null
+    },
+    {
+      "wall": "W03_LEFT",
+      "origin_uv": [
+        20,
+        145
+      ],
+      "pad_size": [
+        30,
+        26
+      ],
+      "hole_centres_uv": [
+        [
+          26,
+          150
+        ],
+        [
+          44,
+          150
+        ]
+      ],
+      "diameter": 3.4,
+      "vertical_slot_length": null
+    },
+    {
+      "wall": "W04_RIGHT",
+      "origin_uv": [
+        110,
+        145
+      ],
+      "pad_size": [
+        30,
+        26
+      ],
+      "hole_centres_uv": [
+        [
+          116,
+          150
+        ],
+        [
+          134,
+          150
+        ]
+      ],
+      "diameter": 3.4,
+      "vertical_slot_length": null
+    },
+    {
+      "wall": "W01_FRONT",
+      "origin_uv": [
+        100,
+        149
+      ],
+      "pad_size": [
+        34,
+        28
+      ],
+      "hole_centres_uv": [
+        [
+          105,
+          157
+        ],
+        [
+          129,
+          157
+        ]
+      ],
+      "diameter": 3.4,
+      "vertical_slot_length": null
+    },
+    {
+      "wall": "W03_LEFT",
+      "origin_uv": [
+        62,
+        158
+      ],
+      "pad_size": [
+        16,
+        20
+      ],
+      "hole_centres_uv": [
+        [
+          70,
+          163
+        ],
+        [
+          70,
+          169
+        ]
+      ],
+      "diameter": 3.4,
+      "vertical_slot_length": null
+    },
+    {
+      "wall": "W04_RIGHT",
+      "origin_uv": [
+        82,
+        158
+      ],
+      "pad_size": [
+        16,
+        20
+      ],
+      "hole_centres_uv": [
+        [
+          90,
+          163
+        ],
+        [
+          90,
+          169
+        ]
+      ],
+      "diameter": 3.4,
+      "vertical_slot_length": null
+    },
+    {
+      "wall": "W01_FRONT",
+      "origin_uv": [
+        18,
+        158
+      ],
+      "pad_size": [
+        22,
+        18
+      ],
+      "hole_centres_uv": [
+        [
+          22,
+          167
+        ],
+        [
+          36,
+          167
+        ]
+      ],
+      "diameter": 2.8,
+      "vertical_slot_length": null
+    },
+    {
+      "wall": "W03_LEFT",
+      "origin_uv": [
+        24,
+        46
+      ],
+      "pad_size": [
+        24,
+        10
+      ],
+      "hole_centres_uv": [
+        [
+          27,
+          51
+        ],
+        [
+          45,
+          51
+        ]
+      ],
+      "diameter": 3.4,
+      "vertical_slot_length": null
+    },
+    {
+      "wall": "W03_LEFT",
+      "origin_uv": [
+        118,
+        46
+      ],
+      "pad_size": [
+        24,
+        10
+      ],
+      "hole_centres_uv": [
+        [
+          121,
+          51
+        ],
+        [
+          139,
+          51
+        ]
+      ],
+      "diameter": 3.4,
+      "vertical_slot_length": null
+    },
+    {
+      "wall": "W04_RIGHT",
+      "origin_uv": [
+        50,
+        82
+      ],
+      "pad_size": [
+        24,
+        10
+      ],
+      "hole_centres_uv": [
+        [
+          53,
+          87
+        ],
+        [
+          71,
+          87
+        ]
+      ],
+      "diameter": 3.4,
+      "vertical_slot_length": null
+    },
+    {
+      "wall": "W02_REAR",
+      "origin_uv": [
+        60,
+        24
+      ],
+      "pad_size": [
+        24,
+        10
+      ],
+      "hole_centres_uv": [
+        [
+          63,
+          29
+        ],
+        [
+          81,
+          29
+        ]
+      ],
+      "diameter": 3.4,
+      "vertical_slot_length": null
+    }
+  ],
+  "bottom": "Existing P02 upper platform continuous face UP supports bare bin; no new liner or bag. Surface beneath160x150 footprint verified solid at localZ3..5; not watertight. Four jobs exclude moving lid.",
+  "hinge_hole_centres": [
+    [
+      34,
+      173
+    ],
+    [
+      46,
+      173
+    ],
+    [
+      98,
+      173
+    ],
+    [
+      110,
+      173
+    ]
+  ],
+  "physical_print_test": false,
+  "load_rating": null,
+  "all_walls_flat": true
+}

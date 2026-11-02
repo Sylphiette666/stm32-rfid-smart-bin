@@ -1,0 +1,44 @@
+{
+  "status": "PASS_GEOMETRY_ONLY",
+  "proposed_drill_diameter_mm": 3.4,
+  "points": [
+    {
+      "P02_local_xy_mm": [
+        90,
+        13
+      ],
+      "material_test_diameter_mm": 9,
+      "material_test_height_mm": 5,
+      "missing_material_mm3": 0.0
+    },
+    {
+      "P02_local_xy_mm": [
+        170,
+        13
+      ],
+      "material_test_diameter_mm": 9,
+      "material_test_height_mm": 5,
+      "missing_material_mm3": 0.0
+    },
+    {
+      "P02_local_xy_mm": [
+        90,
+        177
+      ],
+      "material_test_diameter_mm": 9,
+      "material_test_height_mm": 5,
+      "missing_material_mm3": 0.0
+    },
+    {
+      "P02_local_xy_mm": [
+        170,
+        177
+      ],
+      "material_test_diameter_mm": 9,
+      "material_test_height_mm": 5,
+      "missing_material_mm3": 0.0
+    }
+  ],
+  "drill_only_after_physical_dry_fit": true,
+  "existing_platform_modified": false
+}

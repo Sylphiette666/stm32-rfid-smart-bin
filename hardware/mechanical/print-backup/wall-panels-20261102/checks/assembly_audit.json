@@ -1,0 +1,12 @@
+{
+  "status": "PASS_GEOMETRY_ONLY",
+  "intersection_pairs_evaluated": 59,
+  "collisions": [],
+  "assembly_instances": 57,
+  "bare_floor_void_mm3": 0.0,
+  "caveats": [
+    "No screws or real electronic components included in exact collision test.",
+    "Moving lid and servo swept envelope still require physical dry fit.",
+    "Print and sensor performance are not certified by this digital audit."
+  ]
+}

@@ -88,3 +88,17 @@ hardware/mechanical/print-backup/motor-adapter-clearance-20261102/** -text
 hardware/mechanical/print-backup/motor-adapter-clearance-20261102/parts/** binary
 hardware/mechanical/print-backup/motor-adapter-clearance-20261102/step/** binary
 hardware/mechanical/print-backup/motor-adapter-clearance-20261102/*.3mf binary
+
+# Checked CAD exports
+hardware/mechanical/print-backup/wall-panels-20261102/** -text
+hardware/mechanical/print-backup/wall-panels-20261102/**/*.3mf binary
+hardware/mechanical/print-backup/wall-panels-20261102/*.3mf binary
+hardware/mechanical/print-backup/wall-panels-20261102/parts/** binary
+hardware/mechanical/print-backup/wall-panels-20261102/step/** binary
+
+# Checked CAD exports
+hardware/mechanical/print-backup/motor-adapter-clearance2-20261102/** -text
+hardware/mechanical/print-backup/motor-adapter-clearance2-20261102/**/*.3mf binary
+hardware/mechanical/print-backup/motor-adapter-clearance2-20261102/*.3mf binary
+hardware/mechanical/print-backup/motor-adapter-clearance2-20261102/parts/** binary
+hardware/mechanical/print-backup/motor-adapter-clearance2-20261102/step/** binary

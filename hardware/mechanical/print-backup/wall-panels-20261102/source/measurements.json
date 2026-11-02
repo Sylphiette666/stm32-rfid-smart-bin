@@ -1,0 +1,295 @@
+{
+  "status": "MEASURED_ENVELOPES_IMPLEMENTED_PHYSICAL_FIT_PENDING",
+  "units": "mm",
+  "date": "2026-11-02",
+  "requirements": {
+    "separate_walls": 4,
+    "front_integrates_controls": true,
+    "material": "PLA",
+    "lightweight_with_local_reinforcement": true,
+    "removable_liner": false,
+    "reference_shell_outer_xyz": [
+      160,
+      150,
+      180
+    ],
+    "protect_controls_from_waste": true,
+    "bag_and_bottom_arrangement": "No bag or liner. Existing P02 continuous face UP supports bare bin; digital surface check passed, not waterproof.",
+    "garbage_bag": false
+  },
+  "oled_user_measured": {
+    "board_length_width_thickness": [
+      26.5,
+      27.5,
+      1.2
+    ],
+    "board_horizontal_dimension": 27.5,
+    "active_width_height": null,
+    "active_top_edge_offset": null,
+    "active_side_edge_offsets": null,
+    "glass_width_height": [
+      24,
+      14
+    ],
+    "holes": {
+      "quantity": 2,
+      "diameter": 3,
+      "positions": "upper left and upper right",
+      "hole_edge_to_top": 1.5,
+      "hole_edge_to_side": 1.5,
+      "derived_centre_to_top": 3,
+      "derived_centre_to_side": 3
+    },
+    "rear_projection_reported": 17,
+    "rear_projection_with_plug_reported": 22,
+    "headers": "rear",
+    "open_issues": [
+      "Glass width24 plus side offsets1.5 each totals27 versus27.5PCB; use adjustable carrier/oversized glass clearance, do not assume exact active-area size."
+    ],
+    "board_vertical_dimension": 26.5,
+    "glass_top_edge_offset": 6,
+    "glass_side_offsets_reported": [
+      1.5,
+      1.5
+    ],
+    "rear_projection_confirmed": 17
+  },
+  "encoder_user_measured": {
+    "board_length_width": [
+      29,
+      19.5
+    ],
+    "board_holes": false,
+    "threaded_bushing_diameter_length": [
+      7,
+      7
+    ],
+    "shaft_projection_reported": 7.5,
+    "knob_diameter_reported": 5,
+    "knob_height_above_bushing_reported": 7.5,
+    "headers": "left toward front",
+    "open_issues": [
+      "Rear board clearance not measured; 22mm clearance applies to front-facing headers."
+    ],
+    "knob_diameter_confirmed": 5,
+    "front_header_clearance": 22
+  },
+  "hinge_product_drawing": {
+    "open_width_height": [
+      20,
+      20
+    ],
+    "leaf_thickness": 1.4,
+    "barrel_diameter": 6.5,
+    "pin_diameter": 3,
+    "holes": {
+      "quantity": 4,
+      "diameter": 3,
+      "rectangular_centre_spacing": [
+        14,
+        12
+      ]
+    },
+    "physical_dimensions_verified": false,
+    "seller_load_rating_used": false
+  },
+  "limit_switch_product_drawing": {
+    "body_length": 19.8,
+    "body_height": 10.2,
+    "mount_hole_nominal_diameter": 2.35,
+    "mount_hole_centre_spacing": 9.5,
+    "left_hole_centre_from_left": 5.1,
+    "body_thickness": null,
+    "variant": "straight lever versus roller must be confirmed",
+    "note": "image shows multiple variants; terminal dimensions are not mounting holes"
+  },
+  "rc522": {
+    "product_board_length_width": [
+      60,
+      40
+    ],
+    "user_mounting_holes": 4,
+    "user_top_holes": "hole edges tangent to left/right board edges; top hole edge13 from top",
+    "user_bottom_holes": "hole edges5 from left/right and bottom",
+    "hole_diameter": 4,
+    "rear_and_plug_projection": 22,
+    "header_direction": "rear",
+    "derived_centres_edge_offsets": {
+      "top_side": 2,
+      "top_top": 15,
+      "bottom_side": 7,
+      "bottom_bottom": 7
+    },
+    "board_horizontal_vertical_orientation_confirmed": false
+  },
+  "emergency_stop_product_drawing": {
+    "model": "LAY37",
+    "head_diameter": 39,
+    "overall_length": 73,
+    "rear_block_plan": [
+      30,
+      37
+    ],
+    "mounting_cutout_diameter": null,
+    "clampable_panel_thickness": null,
+    "behind_panel_depth_with_wires": null,
+    "note": "Do not infer cutout or behind-panel depth from model name or overall length",
+    "mounting_neck_diameter_user_measured": 22,
+    "open_issues": [
+      "Mounting nut remains fitted in photo; mounting plane and usable threaded length not fully exposed",
+      "Rear depth with wiring remains unmeasured; photograph is only approximate envelope evidence"
+    ],
+    "latest_user_response": "1: approximately22mm with clearance;2: yes (button cap edge offset)",
+    "mounting_neck_diameter_candidate": 22,
+    "latest_dimension_reference_confirmed": true,
+    "photo_received": "codex-clipboard-6bb22c39-10b8-46c0-92f4-9dde4ad4c7ac.jpg"
+  },
+  "mode_back_button_product_drawing": {
+    "single_board_length_width": [
+      19.6,
+      13.6
+    ],
+    "reported_height": 14,
+    "holes": {
+      "diameter": 2,
+      "centre_spacing": 9
+    },
+    "button_cap_diameter": 11,
+    "button_centre_on_board": null,
+    "hole_row_location_on_board": null,
+    "plugged_connector_envelope": null,
+    "quantity_and_single_board_variant_confirmed": true,
+    "quantity": 2,
+    "mounting_holes_usable": false,
+    "mounting_method": "PCB cradle and removable retaining clips, no existing hole use",
+    "position_response_raw": "1mm",
+    "position_response_ambiguity": "Edge distance confirmed; which board edge and other axis remain unspecified. Use adjustable carrier until positional fit checked.",
+    "cap_edge_to_board_edge_confirmed": 1
+  },
+  "hcsr04_product_drawing": {
+    "board_length_width": [
+      45,
+      20.5
+    ],
+    "hole_centre_spacing": [
+      42.3,
+      17.4
+    ],
+    "hole_diameter": 1.5,
+    "probe_height_reported": 12,
+    "probe_diameter_and_centres": null,
+    "rear_and_plug_clearance": null,
+    "mounting": "separate removable crossbeam facing down, not moving lid"
+  },
+  "not_yet_dimensioned": [
+    "light sensor plugged connector clearance",
+    "actual lid and hinge arrangement",
+    "approach IR plugged connector clearance and optical axis orientation"
+  ],
+  "design_direction_not_validated": {
+    "walls": "flat print, continuous smooth inner skin, external ribs and reinforced fastener zones",
+    "front": "controls arranged vertically in outward service cavity; no intrusion into waste volume",
+    "emergency_stop": "verify depth against upper platform front margin and actual access before choosing front or side position",
+    "bottom": "No bag or liner. Existing P02 continuous face UP supports bare bin; digital surface check passed, not waterproof.",
+    "strength_or_print_time_claim": "Four CLI slices passed; estimated time is in checks/slicing.json; physical strength and fit remain unverified."
+  },
+  "main_power_switch_product_drawing": {
+    "source": "user supplied KCD1 dimensional screenshot 2026-11-02",
+    "body_plan_mm": [
+      19,
+      12
+    ],
+    "body_plan_tolerance_mm": 0.2,
+    "bezel_plan_mm": [
+      21,
+      15
+    ],
+    "bezel_plan_tolerance_mm": 0.2,
+    "bezel_thickness_mm": 2,
+    "body_depth_below_bezel_mm": 13.5,
+    "terminal_extension_mm": 8,
+    "terminal_width_mm": 4.8,
+    "terminal_thickness_mm": 0.6,
+    "terminal_pitch_mm": 7,
+    "switch_mount_method": "spring clips; replaceable thin mounting insert",
+    "explicit_panel_cutout_dimension_provided": false,
+    "candidate_cutout_mm": [
+      19.4,
+      12.4
+    ],
+    "candidate_is_trial_not_manufacturer_cutout": true,
+    "panel_clamping_thickness_confirmed": false,
+    "rear_wired_clearance_mm": null,
+    "electrical_poles_positions_and_dc_rating_not_inferred": true
+  },
+  "beam_break_product_drawing": {
+    "source": "user supplied YIYA F3/F5 screenshots 2026-11-02",
+    "quantity": 2,
+    "body_width_height_depth_mm": [
+      10,
+      20,
+      9
+    ],
+    "optical_axis_from_left_mm": 5,
+    "optical_axis_from_top_mm": 4.5,
+    "mount_hole_from_left_mm": 5,
+    "mount_hole_from_bottom_mm": 5,
+    "optical_axis_to_mount_hole_mm": 10.5,
+    "mount_hole_nominal_mm": 3,
+    "mount_hole_photo_label_mm": 2.7,
+    "mount_recess_nominal_mm": 5,
+    "lens_surround_nominal_mm": 7,
+    "led_diameter_variants_mm": [
+      3,
+      5
+    ],
+    "selected_variant_confirmed": false,
+    "mechanical_strategy": "same body seat with anti-rotation walls; adjustable mount position; common optical aperture accommodates both variants",
+    "exit_wires": "bottom",
+    "wire_spacing_photo_mm": 5.3,
+    "wired_bend_envelope_mm": null,
+    "physical_fit_verified": false,
+    "electrical_specification_use": "mechanical modeling only; seller electrical claims are not independently validated"
+  },
+  "dht11_user_measured": {
+    "body_length_width_thickness_mm": [
+      12,
+      16,
+      6
+    ],
+    "scope_confirmed": true,
+    "open_issues": [
+      "Lead and plugged-wire envelope unmeasured; open lower wiring channel."
+    ],
+    "design_intent": "Ventilated external removable enclosure; keep sensing vents clear.",
+    "package": "bare blue sensor, no carrier PCB"
+  },
+  "light_sensor_user_measured": {
+    "board_length_width_thickness_mm": [
+      28,
+      20,
+      2
+    ],
+    "front_total_height_reported_mm": 9,
+    "header_location": "left, projecting toward front",
+    "photosensitive_resistor_location": "right",
+    "plugged_header_projection_mm": null,
+    "mount_holes_confirmed": false,
+    "design_intent": "Removable edge cradle and retaining clip, left connector access and right optical opening."
+  },
+  "approach_ir_user_measured": {
+    "board_length_width_mm": [
+      31,
+      20
+    ],
+    "height_including_components_mm": 10,
+    "probe_location": "right",
+    "probe_projection_beyond_board_mm": 10,
+    "header_location": "left, projecting toward front",
+    "plugged_header_projection_mm": null,
+    "board_thickness_mm": null,
+    "mounting_holes_confirmed": false,
+    "design_intent": "Removable edge cradle with open left connector access, unobstructed right probes and access for sensitivity adjustment. Orient optical axes toward approach area; do not infer their direction from the word right alone.",
+    "envelope_note": "31mm is board length, excluding reported 10mm probe extension; actual connector envelope remains unmeasured."
+  }
+}

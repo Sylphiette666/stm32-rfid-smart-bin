@@ -1,0 +1,29 @@
+{
+  "status": "PASS_DIGITAL_CHECKS_FIRST_ARTICLE",
+  "project_files": [
+    "P2S_WALL_01_FRONT_CONTROLS.3mf",
+    "P2S_WALL_02_REAR.3mf",
+    "P2S_WALL_03_LEFT.3mf",
+    "P2S_WALL_04_RIGHT.3mf"
+  ],
+  "parallel_estimated_seconds": 26371.447265625,
+  "total_filament_g": 511.98387145996094,
+  "manual_sha256": "ad39a2e2e93a8673ff4e399a7b96ad654521467a074ee0c966dfbfa145b8e77e",
+  "manual_visually_checked": true,
+  "physical_fit_verified": false,
+  "physical_load_tested": false,
+  "printer_jobs_sent": false,
+  "cad_source_sha256": {
+    "build_wall_panels.py": "c97e31719f91f0069f7f1fd58e088168e29bf2c9f70c45b125ddf06e58cc81a2",
+    "wall_sensor_interfaces.py": "84a25196be93be6dcc16e8e64ad1dcfa6f147530ebcdd3ec846ff72a6526309e",
+    "slice_wall_panels.py": "c8e1cd98b13b975d2c77770bfbeea467d0a202b4849f7521a91049cb917d907d",
+    "review_wall_panels.py": "e35c36d1724735fd3fdba7dd8ae0fed9190ffd240478cadc916eadb0e08cba82",
+    "audit_wall_interfaces.py": "420e255d914b7fdcea6e6c172c6cb96c1d228d4f49dd4b358860e9cbf5342a38",
+    "document_wall_interfaces.py": "e84d9cbb403f8e6ac8f174f71913a0d03b075c871d312ef03f9e1664ae5671a7",
+    "update_wall_metadata.py": "90d1e55b5be90a6079c47c079da5c05059d95f086303de86c23ce430b02e3a9f",
+    "update_wall_manual.py": "757d1a0e05d84a9217382b440a8a869da1e13eadc8b91a656a1f4b6298f8f3fe",
+    "check_wall_manual.py": "1383138b559316845211ef5b8c26b435b1d3474cab8e68a298590ebf8e4f9d24",
+    "check_wall_platform.py": "f431b3a4b9cf5139948c883046246adfecc2953abbe2e2b11579a79fee1b9249",
+    "finalize_wall_release.py": "f401578c46ef32a16fe165cd0ffcb8e0e8d8527726bbaa7014335d2ddc9d6796"
+  }
+}

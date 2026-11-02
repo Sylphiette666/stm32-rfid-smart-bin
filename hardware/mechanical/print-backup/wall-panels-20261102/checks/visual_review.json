@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "plates_and_actual_first_layers": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "assembly_front_rear_cutaway_reviewed": true,
+  "instruction_and_five_coordinate_sheets_reviewed": true,
+  "manual_changed_pages": [
+    227,
+    228,
+    229,
+    230,
+    231,
+    232,
+    233,
+    234
+  ],
+  "physical_print_or_load_test": false
+}

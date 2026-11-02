@@ -1,0 +1,178 @@
+{
+  "status": "IMPLEMENTED_AND_DIGITALLY_CHECKED_PHYSICAL_FIT_PENDING",
+  "date": "2026-11-02",
+  "source_references": [
+    "docs/manual/ASSEMBLY.md steps041,067–082",
+    "wall-panels-20261102/source/measurements.json",
+    "user: no liner; four separately flat printed walls; front controls; tree support; other parts retain print quality",
+    "read-only inventory_status_20261019.json: whiteLED5mm, DHT/light/IR held; no mechanical dimensions found"
+  ],
+  "items": [
+    {
+      "item": "OLED",
+      "quantity": 1,
+      "location": "前操作面板",
+      "mounts_or_openings": "25×15玻璃让位窗；可调安装孔和PCB承托",
+      "evidence_status": "已测，需装配检查",
+      "constraint": "保留背后插线22mm，不压玻璃"
+    },
+    {
+      "item": "旋转编码器",
+      "quantity": 1,
+      "location": "前操作面板",
+      "mounts_or_openings": "套筒孔Ø7.4；前出排针独立避让罩",
+      "evidence_status": "已测，需装配检查",
+      "constraint": "前方排针22mm；套筒固定处核实螺母咬合长度"
+    },
+    {
+      "item": "MODE/BACK按键",
+      "quantity": 2,
+      "location": "前操作面板",
+      "mounts_or_openings": "可调按钮开窗；PCB托架及可拆压条",
+      "evidence_status": "已测，采用位置调节",
+      "constraint": "不用无法使用的板孔；PCB边缘承受按压力"
+    },
+    {
+      "item": "RC522",
+      "quantity": 1,
+      "location": "前操作面板",
+      "mounts_or_openings": "1.2mm非金属刷卡区域；可调边缘夹持",
+      "evidence_status": "已测，需装配检查",
+      "constraint": "无需按不确定的相切孔定位；背部插线22mm"
+    },
+    {
+      "item": "急停",
+      "quantity": 1,
+      "location": "前操作面板",
+      "mounts_or_openings": "Ø22.6安装孔及局部加强",
+      "evidence_status": "孔径已测，背后接线及螺纹夹持长度待核",
+      "constraint": "39mm按钮头；不得把73mm总长当后部深度"
+    },
+    {
+      "item": "靠近开盖红外",
+      "quantity": 1,
+      "location": "前壁上部外侧水平托架",
+      "mounts_or_openings": "31×20板边缘压条，右端探头伸出10mm，排针侧开放",
+      "evidence_status": "按实测外形完成；实际光轴及插头仍需试装",
+      "constraint": "独立于低位前避障；不照射投放接收器"
+    },
+    {
+      "item": "投放对射TX/RX",
+      "quantity": 2,
+      "location": "左右壁外侧，光轴v150mm",
+      "mounts_or_openings": "9×17光窗、竖向长孔和外壳夹座；不使用歧义孔径",
+      "evidence_status": "20×10×9外壳已建模；不用内胆和袋；需实测对射对准",
+      "constraint": "光轴距桶口30mm；同轴调节后做遮挡测试"
+    },
+    {
+      "item": "DHT11",
+      "quantity": 1,
+      "location": "左壁外侧",
+      "mounts_or_openings": "裸探头通风罩及开放下端出线",
+      "evidence_status": "已按12×16×6mm裸蓝色探头完成",
+      "constraint": "测外界空气；不把垃圾腔通风孔当传感器进气口"
+    },
+    {
+      "item": "光敏",
+      "quantity": 1,
+      "location": "左壁外侧",
+      "mounts_or_openings": "边缘夹座和可拆压条，左针右探头开放",
+      "evidence_status": "已按28×20×2mm和正面高9mm完成；插线空间实物复核",
+      "constraint": "避开本机LED直射"
+    },
+    {
+      "item": "白色LED",
+      "quantity": 1,
+      "location": "桶口固定部位",
+      "mounts_or_openings": "按现清单5mm直插LED预备可更换小夹座",
+      "evidence_status": "清单标称5mm，实物试配",
+      "constraint": "朝投放区域；脚部绝缘并另做应力释放"
+    },
+    {
+      "item": "HC-SR04",
+      "quantity": 1,
+      "location": "桶内后上方可拆横梁，横梁底v162mm",
+      "mounts_or_openings": "43.4×18.9探头避让口和引线缺口、PCB边缘压条",
+      "evidence_status": "按45×20.5板外形设计；不使用Ø1.5安装孔，探头包络试装",
+      "constraint": "探头向下且不随盖转；横梁可拆，保留清理通道"
+    },
+    {
+      "item": "闭盖微动开关",
+      "quantity": 1,
+      "location": "前壁内侧上方",
+      "mounts_or_openings": "竖向长孔调节片、9.5mm孔距M2螺钉、独立触片",
+      "evidence_status": "侧视尺寸建模；模块厚度和实际行程需试装",
+      "constraint": "独立软止挡承受盖重；开关不承力"
+    },
+    {
+      "item": "铰链",
+      "quantity": 2,
+      "location": "后壁顶部",
+      "mounts_or_openings": "对应20×20合页、单叶两孔12mm间距、局部承托",
+      "evidence_status": "有商品图；需与实物盖一起检查",
+      "constraint": "转轴、盖沿与超声横梁不得互相阻挡"
+    },
+    {
+      "item": "舵机连杆",
+      "quantity": 1,
+      "location": "舵机侧后上方外部",
+      "mounts_or_openings": "活动包络留空；不预先猜测贯穿槽",
+      "evidence_status": "需对完整运动轨迹核查",
+      "constraint": "舵机本体继续使用原独立立架和托片"
+    },
+    {
+      "item": "独立电源总开关",
+      "quantity": 1,
+      "location": "左壁下部外置接线盒",
+      "mounts_or_openings": "KCD1可换2mm安装片、19.4×12.4试配孔",
+      "evidence_status": "按商品外形完成；卡扣夹持厚度和后部接线需试装",
+      "constraint": "与急停功能不同；不能因急停已有孔就遗漏总开关"
+    },
+    {
+      "item": "主线束/传感线",
+      "quantity": 1,
+      "location": "外壁及操作腔下方",
+      "mounts_or_openings": "26×12腔底开口及4组可拆线夹",
+      "evidence_status": "已建模；实际线束须绝缘及固定，不依赖未量的护线圈",
+      "constraint": "8mm通径不等于安装孔径；信号与电机线分开"
+    },
+    {
+      "item": "裸桶腔/桶底",
+      "quantity": 1,
+      "location": "现有上平台P02连续面朝上",
+      "mounts_or_openings": "四壁连续内侧薄面及平台底面",
+      "evidence_status": "内腔底面连续性检查通过；不防水，不用内胆/袋",
+      "constraint": "不作防水或密封容器承诺"
+    },
+    {
+      "item": "壁板连接/平台固定",
+      "quantity": 1,
+      "location": "四角外侧及左右底脚",
+      "mounts_or_openings": "8角码及4底脚；P02四候选孔处5mm完整材料",
+      "evidence_status": "已完成实体、摆盘和路径检查；平台实物试摆后钻孔",
+      "constraint": "保证四壁单独平放打印，连接件可随四盘排入"
+    },
+    {
+      "item": "前避障/循迹/碰撞横杠",
+      "quantity": 1,
+      "location": "底盘低位，不在高筒壁",
+      "mounts_or_openings": "独立底盘支架及走线",
+      "evidence_status": "位置边界已明确",
+      "constraint": "不可与靠近开盖或投放对射共用探头"
+    },
+    {
+      "item": "喇叭/蜂鸣器/蓝牙/DFPlayer",
+      "quantity": 1,
+      "location": "沿用底板模块座",
+      "mounts_or_openings": "保留发声、天线及TF插拔路径",
+      "evidence_status": "已存在安装座",
+      "constraint": "不在高筒壁重复开喇叭孔或挪动模块"
+    }
+  ],
+  "required_user_inputs": [],
+  "release_gate": "CAD, assembly, slicing, toolpath and manual QA; physical fits and sensor performance remain first-article checks.",
+  "remaining_clearance_checks": [
+    "light sensor plugged connector clearance; preserve open access",
+    "approach IR optical axes and plugged header access; reported probe extension is additional to PCB length"
+  ]
+}
