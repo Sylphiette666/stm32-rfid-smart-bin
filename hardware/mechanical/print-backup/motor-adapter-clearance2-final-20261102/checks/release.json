@@ -1,0 +1,16 @@
+{
+  "status": "PASS_DIGITAL_CHECKS_USER_CONFIRMED_FIT",
+  "project": "P2S_D06_CLEARANCE2_FINAL_PAIR_016.3mf",
+  "quantity": 2,
+  "user_confirmed_fit": true,
+  "geometry_unchanged": true,
+  "first_layer_visually_reviewed": true,
+  "estimated_seconds": 4165.130859375,
+  "filament_g": 14.784542083740234,
+  "physical_load_tested": false,
+  "printer_jobs_sent": false,
+  "source_sha256": {
+    "build_motor_clearance2_final.py": "1516fdc8dd8e9677a1f7ae054ba9bda77872669fd6c9efec3a40e8c3214e4a51",
+    "review_motor_clearance2_final.py": "2c6ea1e4d8046a78650cef98b61928522e2e6bd4710073e5e2318a5a090c3878"
+  }
+}

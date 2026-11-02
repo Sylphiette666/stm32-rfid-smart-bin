@@ -1,0 +1,9 @@
+{
+  "1": {
+    "objects_on_first_layer": 2,
+    "expected_objects": 2,
+    "all_extrusions_in_bed": true,
+    "support_extrusion_moves": 0,
+    "G39_absent": true
+  }
+}
