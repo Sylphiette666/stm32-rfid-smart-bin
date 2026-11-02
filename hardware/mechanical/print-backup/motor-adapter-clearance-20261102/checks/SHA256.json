@@ -6,7 +6,12 @@
   "P2S_D06_CLEARANCE_TRIAL_PAIR_028.3mf": "79dd5136b188a8e9fccfeddcc8f0c63d49ef781c24dcf7b96972729c11e1c4cd",
   "parts/D06_ADAPTER_LEFT.stl": "030d62645a4a2385ce63e71ac8f45bc62dd7dbca6a7d58be33724b0ef3a22f61",
   "parts/D06_ADAPTER_RIGHT.stl": "e2ce80a8a358a0954f0421eaa6243f06dfbe10c54871ddc9d1885c3606053954",
-  "README.md": "5e5407d1ef3a61222849e64ede91d2843c8120283b93b0e798c48b1e00cd5d33",
+  "quick-fit/checks/first_layers.json": "3961ff496f155231f69096a5a51d707c6f0cc8f3beeb370c42527456a21e5872",
+  "quick-fit/checks/release.json": "e812afc759829548e6eadcfde242d386e47cd5d38b9fe8d28d5ea1d38802b9fa",
+  "quick-fit/checks/slicing.json": "671beb3c38b8c2fbf8b34bccf029ae6136612f05024a15b488b9a313c5bbb00c",
+  "quick-fit/P2S_D06_RIGHT_QUICK_FIT_028.3mf": "cf76debfdb463ab388376b32e89fff811a0a2e3dff073f8584882134b0d0069e",
+  "quick-fit/README.md": "5a4ffa98f4b755f9a716487b2e298490ab0bc632ef6ab5a10488f22a0afad4bb",
+  "README.md": "5ecc7a8a975709b347eba9a67c2db3ac0892b5fa5b5829503791e0823bec2726",
   "step/D06_ADAPTER_LEFT.step": "f21e1596c72210d9908defaa2ec5aa51e44deb2e76212815e7598ef149ff7a06",
   "step/D06_ADAPTER_RIGHT.step": "2049fe0b4b23dcb3f672149ef2d46adf6316a393b18e4bb35d37e68947642023"
 }

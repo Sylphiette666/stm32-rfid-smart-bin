@@ -1,6 +1,6 @@
 """Render the checked packed geometry and the actual slicer's first layer."""
 from pathlib import Path
-import json,re,zipfile,math
+import json,re,zipfile,math,argparse
 import numpy as np
 import trimesh
 import vtk
@@ -14,7 +14,13 @@ from PIL import Image,ImageDraw,ImageFont
 ROOT=Path(__file__).resolve().parents[1]/'motor-adapter-clearance-20261102'
 # Work directory is outside the repository and holds slicer intermediate code.
 WORK=Path(__file__).resolve().parents[5]/'.p2s-motor-clearance-20261102'
-packing={'plates':[{'plate':1,'objects':2}]}
+parser=argparse.ArgumentParser()
+parser.add_argument('--work',type=Path,default=WORK)
+parser.add_argument('--output',type=Path,default=ROOT)
+parser.add_argument('--objects',type=int,default=2)
+parser.add_argument('--report',default='first_layers.json')
+args=parser.parse_args();WORK=args.work;ROOT=args.output
+packing={'plates':[{'plate':1,'objects':args.objects}]}
 font=ImageFont.truetype('C:/Windows/Fonts/msyh.ttc',30)
 small=ImageFont.truetype('C:/Windows/Fonts/msyh.ttc',23)
 plt.rcParams['font.family']='Microsoft YaHei'
@@ -81,12 +87,12 @@ for plate in [1]:
     ax.add_collection(LineCollection(brims,colors='#a8c2cc',linewidths=.55))
     ax.add_collection(LineCollection(segments,colors='#225d7d',linewidths=.6))
     ax.set(xlim=(0,256),ylim=(0,256),xlabel='X / mm',ylabel='Y / mm');ax.set_aspect('equal');ax.grid(alpha=.16)
-    ax.set_title('电机转接座两件 · 实际切片首层路径',fontsize=15,pad=15)
-    fig.text(.12,.02,'避让试装版：两件平放贴床，无防翘边；圆弧按0.05mm弧长采样。',fontsize=10)
+    ax.set_title(f'电机转接座 {args.objects} 件 · 实际切片首层路径',fontsize=15,pad=15)
+    fig.text(.12,.02,'避让试装版：平放贴床，无防翘边；圆弧按0.05mm弧长采样。',fontsize=10)
     fig.tight_layout(rect=[0,.04,1,1]);fig.savefig(WORK/f'printer_{plate+1:02d}_first_layer.png',dpi=160);plt.close(fig)
     reports[str(plate)]={'first_layer_segment_count':len(segments),
         'first_layer_model_bounds':np.array([points.min(axis=0),points.max(axis=0)]).tolist(),
         'objects_with_first_layer_id':len(objects),'all_model_extrusions_within_bed':True,
         'G39_absent':not bool(re.search(r'^\s*G39(?:\s|;|$)',code,re.M))}
-(ROOT/'checks/first_layers.json').write_text(json.dumps(reports,ensure_ascii=False,indent=2)+'\n',encoding='utf-8',newline='\n')
+(ROOT/'checks'/args.report).write_text(json.dumps(reports,ensure_ascii=False,indent=2)+'\n',encoding='utf-8',newline='\n')
 print(json.dumps(reports,ensure_ascii=False))

@@ -1,0 +1,9 @@
+{
+  "status": "DIMENSIONAL_FIT_ONLY",
+  "project_sha256": "cf76debfdb463ab388376b32e89fff811a0a2e3dff073f8584882134b0d0069e",
+  "original_pair_project_unchanged": true,
+  "first_layer_visual_reviewed": true,
+  "physical_fit_verified": false,
+  "load_tested": false,
+  "other_part_profiles_modified": false
+}
