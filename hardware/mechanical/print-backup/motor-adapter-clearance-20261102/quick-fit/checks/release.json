@@ -1,9 +1,26 @@
 {
   "status": "DIMENSIONAL_FIT_ONLY",
-  "project_sha256": "cf76debfdb463ab388376b32e89fff811a0a2e3dff073f8584882134b0d0069e",
+  "projects": {
+    "LEFT": {
+      "file": "P2S_D06_LEFT_QUICK_FIT_028.3mf",
+      "sha256": "f4c8e1e6441f935055c883f76ef55c21a96b6eda2718b55f14b065f5117f308e"
+    },
+    "RIGHT": {
+      "file": "P2S_D06_RIGHT_QUICK_FIT_028.3mf",
+      "sha256": "d0e0cc3a28dda21a9c90bcfbd85a5f710a569ce10d29b14e773cb5415d4e3656"
+    },
+    "PAIR": {
+      "file": "P2S_D06_PAIR_QUICK_FIT_028.3mf",
+      "sha256": "4c91c9158580f6b1a0dd0e1e1f104d98270f0be975d86a4c2a898208bf99d8e2"
+    }
+  },
+  "same_quick_fit_settings_on_both_parts": true,
   "original_pair_project_unchanged": true,
-  "first_layer_visual_reviewed": true,
+  "first_layers_visual_reviewed": [
+    "LEFT",
+    "RIGHT",
+    "PAIR"
+  ],
   "physical_fit_verified": false,
-  "load_tested": false,
   "other_part_profiles_modified": false
 }
