@@ -1,0 +1,16 @@
+{
+  "status": "PASS_DIGITAL_CHECKS_FIRST_ARTICLE_PENDING",
+  "project": "P2S_D06_EXISTING_HOLES_CARRIERS_016.3mf",
+  "estimated_seconds": 40219.59765625,
+  "filament_g": 146.96697998046875,
+  "new_chassis_holes": 0,
+  "shared_existing_holes": 9,
+  "additional_motor_drop_mm": 16,
+  "original_motor_seats_reused": true,
+  "manual_sha256": "96413a2983124d415233a71427f3b7f816e1a15c7ba3829c4262f7103f3cf339",
+  "manual_visually_checked": true,
+  "original_steps_preserved": 330,
+  "physical_load_tested": false,
+  "rated_payload_kg": null,
+  "printer_jobs_sent": false
+}

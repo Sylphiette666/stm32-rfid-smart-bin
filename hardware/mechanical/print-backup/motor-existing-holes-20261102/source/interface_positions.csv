@@ -1,0 +1,35 @@
+﻿part,id,kind,x_mm,yb_mm,spec
+LEFT,L1,现有孔共用,46.5,28,通孔Ø3.4
+LEFT,L2,现有孔共用,68.5,28,通孔Ø3.4
+LEFT,L3,现有孔共用,86,36.5,通孔Ø3.4
+LEFT,L4,现有孔共用,108,36.5,通孔Ø3.4
+LEFT,L5,现有孔共用,57,52,通孔Ø3.4
+LEFT,L6,原座连接,76,8,Ø3.4＋对边6.0六角窝深6
+LEFT,L7,原座连接,76,20,Ø3.4＋对边6.0六角窝深6
+LEFT,L8,原座连接,116,8,Ø3.4＋对边6.0六角窝深6
+LEFT,L9,原座连接,116,20,Ø3.4＋对边6.0六角窝深6
+LEFT,P1,top hardware relief,46.5,45.7,Ø8盲避空 深8
+LEFT,P2,top hardware relief,57.5,31.5,Ø8盲避空 深8
+LEFT,P3,top hardware relief,42.5,34.3,Ø8盲避空 深8
+LEFT,P4,top hardware relief,97.0,40.0,Ø8盲避空 深8
+LEFT,P5,top hardware relief,82.0,42.8,Ø8盲避空 深8
+RIGHT,R1,现有孔共用,126,144,通孔Ø3.4
+RIGHT,R2,现有孔共用,150,144,通孔Ø3.4
+RIGHT,R3,现有孔共用,131.5,206,通孔Ø3.4
+RIGHT,R4,现有孔共用,189.5,187.5,通孔Ø3.4
+RIGHT,R5,原座连接,112,184,Ø3.4＋对边6.0六角窝深6
+RIGHT,R6,原座连接,112,196,Ø3.4＋对边6.0六角窝深6
+RIGHT,R7,原座连接,128,184,Ø3.4＋对边6.0六角窝深6
+RIGHT,R8,原座连接,128,196,Ø3.4＋对边6.0六角窝深6
+RIGHT,P1,top hardware relief,145.5,206.0,Ø8盲避空 深8
+RIGHT,P2,top hardware relief,168.5,206.0,Ø8盲避空 深8
+RIGHT,P3,top hardware relief,157.0,209.5,Ø8盲避空 深8
+RIGHT,P4,top hardware relief,142.0,212.3,Ø8盲避空 深8
+RIGHT,P5,top hardware relief,108.5,206.0,Ø8盲避空 深8
+RIGHT,P6,top hardware relief,120.0,209.5,Ø8盲避空 深8
+RIGHT,P7,top hardware relief,105.0,212.3,Ø8盲避空 深8
+RIGHT,P8,top hardware relief,115.0,155.0,Ø8盲避空 深8
+RIGHT,P9,top hardware relief,92.0,198.0,Ø8盲避空 深8
+RIGHT,P10,top hardware relief,126,132,Ø8盲避空 深12
+RIGHT,P11,top hardware relief,150,132,Ø8盲避空 深12
+RIGHT,J1,splice bridge recess,138,138,41x25 depth5 from top

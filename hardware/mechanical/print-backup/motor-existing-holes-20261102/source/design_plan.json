@@ -1,0 +1,18 @@
+{
+  "objective": "Reuse current chassis holes, retain confirmed motor seats and published slot datums",
+  "process": "PLA FDM",
+  "architecture": "Two new load-spreader carriers plus two previously fitted removable motor seats",
+  "assumptions": [
+    "No rated payload requested",
+    "Original 96mm slot datum retained; actual axle offset is not a measured dimension"
+  ],
+  "review_plan": [
+    "Coordinate match to current split chassis",
+    "Hardware clearance",
+    "STEP and watertight mesh",
+    "Slicer and actual paths",
+    "Images",
+    "DOCX preserve 330 steps",
+    "Physical dry fit and incremental load before drive"
+  ]
+}

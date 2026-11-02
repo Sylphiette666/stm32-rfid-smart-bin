@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "layout_and_stack_and_sections_reviewed": true,
+  "coordinate_pages_reviewed": [
+    "LEFT",
+    "RIGHT"
+  ],
+  "four_views_reviewed": [
+    "LEFT",
+    "RIGHT"
+  ],
+  "actual_first_layer_reviewed": true,
+  "physical_load_tested": false
+}
