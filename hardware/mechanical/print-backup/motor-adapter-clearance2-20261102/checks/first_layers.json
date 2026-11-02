@@ -1,0 +1,18 @@
+{
+  "1": {
+    "first_layer_segment_count": 13329,
+    "first_layer_model_bounds": [
+      [
+        60.40082121466028,
+        105.4
+      ],
+      [
+        181.09864828463333,
+        145.1
+      ]
+    ],
+    "objects_with_first_layer_id": 2,
+    "all_model_extrusions_within_bed": true,
+    "G39_absent": true
+  }
+}
