@@ -1,0 +1,298 @@
+[
+  {
+    "plate": 1,
+    "baseline_project": "P2S_WALL_01_FRONT_CONTROLS.3mf",
+    "native_geometry_byte_identical": true,
+    "model_sha256": {
+      "3D/3dmodel.model": "3b7b12bb18b69262d6a039ba1b61abcfdfc8ae59dfeec7fbc3b51b4ab38eeebc",
+      "3D/Objects/object_1.model": "279a2d5cdfdb7e1b0acecc5892da2b909d32b6f2b8d862063d562f3b94464cdd",
+      "3D/Objects/object_10.model": "af87abca1c193c59ecf3961e0ab7da6ca6587c6688233cd2223748f79d7f50f1",
+      "3D/Objects/object_11.model": "c531a18a798f82c5aa74227505b810a58bbb81725ac92a7fd4e0964652849974",
+      "3D/Objects/object_12.model": "a2603ed175bd04f86ffffbe44821977a2525c7a3b9c786e40a597d1d3e6ceefc",
+      "3D/Objects/object_13.model": "d5983094f0f4a08294ec38ad7902d8457d76c093a254c0f54d811abb03c1eba4",
+      "3D/Objects/object_14.model": "e8585b9d0c1403ba48c4fc6fe8516f845885b84780fd97bae11f92f1b5c97bda",
+      "3D/Objects/object_15.model": "ec37d2e9140fb56a5371dc86abdba8ac99a527faa0633ebada024de6c35c2156",
+      "3D/Objects/object_2.model": "b5527d0ccf8024356061d97e61604dcef2e628ef6b6bcba553bbeb186ec88fb6",
+      "3D/Objects/object_3.model": "6db66760231a9e267b8b6b30c41d208cbca3cc2711f460840bf4d653cd292445",
+      "3D/Objects/object_4.model": "89023557bbd13f7d3eb7a7aadba5671cc084d0e2e7a23f8e8e646fb80141e3e7",
+      "3D/Objects/object_5.model": "b1a1ca895ee4f48c2018b3bbbf76a51b2cf7806ed2a52615ccee0db0b749a23b",
+      "3D/Objects/object_6.model": "b0368d5015b5c22c202b77e75e306bb13f71d006db54004513de06df20e2f8c0",
+      "3D/Objects/object_7.model": "ac9c2647e70680861cdf20f3088e6ffcc5c70822ed2522f5d305bfcfbb95e2d8",
+      "3D/Objects/object_8.model": "580a5ade3a25b1aeac01fc277314872c6ae3d56acf69c6f01fb0030f39396550",
+      "3D/Objects/object_9.model": "c6d9b049d2346c05687755287072723c4c8b0fa9efc8d2244d868e4b9f20cd24"
+    },
+    "settings_changes": {
+      "top_shell_layers": {
+        "old": "4",
+        "new": "6"
+      },
+      "layer_height": {
+        "old": "0.2",
+        "new": "0.16"
+      },
+      "support_top_z_distance": {
+        "old": "0.2",
+        "new": "0.16"
+      },
+      "support_bottom_z_distance": {
+        "old": "0.2",
+        "new": "0.16"
+      },
+      "bottom_shell_layers": {
+        "old": "4",
+        "new": "6"
+      },
+      "print_settings_id": {
+        "old": "Wall 1 flat tree PLA 0.2",
+        "new": "Wall 1 FINE 016 PLA"
+      },
+      "outer_wall_speed": {
+        "old": [
+          "80",
+          "80",
+          "80"
+        ],
+        "new": [
+          "60",
+          "60",
+          "60"
+        ]
+      },
+      "top_surface_speed": {
+        "old": [
+          "200",
+          "200",
+          "200"
+        ],
+        "new": [
+          "80",
+          "80",
+          "80"
+        ]
+      }
+    }
+  },
+  {
+    "plate": 2,
+    "baseline_project": "P2S_WALL_02_REAR.3mf",
+    "native_geometry_byte_identical": true,
+    "model_sha256": {
+      "3D/3dmodel.model": "511e15bb8319589e11c4311af5064da92756c7abd91a144777b33080ecc92632",
+      "3D/Objects/object_1.model": "1762a4c78964754664c13985b3a8d3552e85f5421a21dd7251ce90effffb8bbd",
+      "3D/Objects/object_10.model": "cedccabfd8188304dc977ed8998d5e421e317e698a55ffe329334b394eab3d86",
+      "3D/Objects/object_11.model": "45669a49937a9900ef13d7637fe00ccf7dff3715ae6ecb44a9e3cca3fef8a93f",
+      "3D/Objects/object_12.model": "74d56e8fa3094ca52a3183c2a013d75ea75b6a76b859438979c0fe7577d5099b",
+      "3D/Objects/object_13.model": "c24fa83912d7440e81407f6bfc02d566b0134d4242de5c3361f2d708e1da661e",
+      "3D/Objects/object_14.model": "e74610487116c4fca9fd74490ad84f9ad20d0a8e4eee29e216993da88af638e0",
+      "3D/Objects/object_15.model": "b5f8a8a55f5daaf850a7da093eb3005805c56129efdfe99e8b7136c44d9ca2fc",
+      "3D/Objects/object_16.model": "dae9c5f214acfc18dc5398f35443918173c5c37d4221fdfb4cef41f6e3811313",
+      "3D/Objects/object_17.model": "793f21cec7b478d848b58f4bbb65c69fe5f30a1a9341d6b52928acfc328073f1",
+      "3D/Objects/object_18.model": "a74579852d3466bcec10ef05a7487343309466e2601c672951a6e476e14e2658",
+      "3D/Objects/object_19.model": "aefe17244eee42a3433934a4537598ed8a04f926a47ccb240317dec9edad5c0f",
+      "3D/Objects/object_2.model": "9849aec72c1cc3013927352ac93397d0a45c37b208c447885c90e0d87dfdc731",
+      "3D/Objects/object_3.model": "15ff11b08ec248b57c54da5b3446cb8816d05c97e2efb67006880fb488c3711a",
+      "3D/Objects/object_4.model": "9ffd0b4472a7494668f9342fff97a527a8d2a93631180a5c3de1485b73bb5989",
+      "3D/Objects/object_5.model": "15388f5727f83a01c015d8deeb9d6cdeec92170a29753ae74b1e41ec99df22aa",
+      "3D/Objects/object_6.model": "c9a398eabca163f0113049e30e9188c7bd00165a94c3a780677fa2bef13b1935",
+      "3D/Objects/object_7.model": "3a8f1468f9a1bb56c6bdc40cc7878e9ac9b966f34934f3893d8ce5765da7090d",
+      "3D/Objects/object_8.model": "8e1dbe1185f54d2f5b9152e903b40247fc735d52012834f3259e87dbcd937391",
+      "3D/Objects/object_9.model": "7812f512b751a8a7b3871441fb1c2723c18cf8994dea417bf61a0dc451bd653a"
+    },
+    "settings_changes": {
+      "top_shell_layers": {
+        "old": "4",
+        "new": "6"
+      },
+      "layer_height": {
+        "old": "0.24",
+        "new": "0.16"
+      },
+      "support_top_z_distance": {
+        "old": "0.24",
+        "new": "0.16"
+      },
+      "support_bottom_z_distance": {
+        "old": "0.24",
+        "new": "0.16"
+      },
+      "bottom_shell_layers": {
+        "old": "4",
+        "new": "6"
+      },
+      "print_settings_id": {
+        "old": "Wall 2 flat tree PLA 0.24",
+        "new": "Wall 2 FINE 016 PLA"
+      },
+      "outer_wall_speed": {
+        "old": [
+          "80",
+          "80",
+          "80"
+        ],
+        "new": [
+          "60",
+          "60",
+          "60"
+        ]
+      },
+      "top_surface_speed": {
+        "old": [
+          "200",
+          "200",
+          "200"
+        ],
+        "new": [
+          "80",
+          "80",
+          "80"
+        ]
+      }
+    }
+  },
+  {
+    "plate": 3,
+    "baseline_project": "P2S_WALL_03_LEFT.3mf",
+    "native_geometry_byte_identical": true,
+    "model_sha256": {
+      "3D/3dmodel.model": "c0940e868c4fe7c7da6612120e572c0e40788402e553bbdb67fd5d402c9d225e",
+      "3D/Objects/object_1.model": "14c518bcae78e48b6ee4eba3417202b7b9d69a89dfdaf7ff4b8b107a7e3eabfe",
+      "3D/Objects/object_10.model": "4c5335e0933576ba2699514a240719dbb0be19e5b0a5a9c559f1ca8138b40a36",
+      "3D/Objects/object_11.model": "2d95cf962b7fa3d2520ef88d0c79b468c5a2b644af0be59483a4b3001798fcb8",
+      "3D/Objects/object_12.model": "b277acae47d2f30574041a995642783a54ef2cc343d5e8842f5c34996dd272b2",
+      "3D/Objects/object_13.model": "c1295259d0f3c91acc2199e70490184f276abe28e63ace976540d47fcc9c5358",
+      "3D/Objects/object_14.model": "41024729f5d99cc02fde2b09860deec55cf103ccc44e96e9ec34b02ef9b3fc1e",
+      "3D/Objects/object_15.model": "336a58e43c87941ac995a4f300bf02344275b9c3bdf0a238d138130f7174bd5c",
+      "3D/Objects/object_16.model": "666a52b757e38ed52656551e4be3cf8f137eeec4196efa320fe59aff7b2fdeb3",
+      "3D/Objects/object_17.model": "4668c8aa55baa1f777488f11f0a2d140df8d2853aee972e6445d600a7eb4200c",
+      "3D/Objects/object_18.model": "918d98a2d8ee708c905373c20529943a4b4a7546e433957543719b1e6fc68f83",
+      "3D/Objects/object_19.model": "86b254d6e8d92c72ac8d954bc08769378fcc9d424d0a0f7f97a9c15d4a511a51",
+      "3D/Objects/object_2.model": "9849aec72c1cc3013927352ac93397d0a45c37b208c447885c90e0d87dfdc731",
+      "3D/Objects/object_20.model": "13c98627c06be96cdf964b7a2fc6702f0f8c646c586293119416768fc088a8cd",
+      "3D/Objects/object_21.model": "46c2e6838b73494059bfbe884a8f90cdde43f57869ede904a6c1c7a9a2bc1fab",
+      "3D/Objects/object_22.model": "29e67e0306664b56b20a74e4197fcf90aef1ae76be78e129cd6daca7ab89bb8d",
+      "3D/Objects/object_23.model": "e43a191a605ca289040547c7da301bfa8d6ca4ce4c8b6f283b9f1f4041e2c9c7",
+      "3D/Objects/object_24.model": "9d3bf50baa51a463ff9ebae57fe349b4240e9b53cc830289bdbd11bbcc0de4fe",
+      "3D/Objects/object_25.model": "dea16f1de0b7a370faf4c661ac8c24d44ebcd5bb668fdfd8fc16ce42376b67d0",
+      "3D/Objects/object_26.model": "fce4b699bd34fcd7d7d39659c38b9eeaec4a5a51c22c3b4e5d177922f2dc80eb",
+      "3D/Objects/object_3.model": "ae15be6be867895c59790dfd121651cfd57a7762b47cd67516ab5e55c6150ddb",
+      "3D/Objects/object_4.model": "8cb49a98006fbcade65a3ed28f5bb504ad2d79081d8fe0552f801559e8b36923",
+      "3D/Objects/object_5.model": "709a8f9915294fc8bddc332c0bce0abde6c2a4456a9d1704e0735d733f3b2300",
+      "3D/Objects/object_6.model": "70291584e1c70bc25415479e8ef4096e46de611ad94da490c740d283fb7d4669",
+      "3D/Objects/object_7.model": "e61baccf8e335a0ab74607805ba324bdef4d6dac8cd97b12dc75d88313bb833d",
+      "3D/Objects/object_8.model": "7dc03dfb81838f0c31efd0c47d0c7fb24b5b3cf35fbf02e8bce89d19a56540bc",
+      "3D/Objects/object_9.model": "9c9df30ae482853bcf2b1327b8da01bc7e1cb3612b8e82243d6c7165c142c413"
+    },
+    "settings_changes": {
+      "top_shell_layers": {
+        "old": "4",
+        "new": "6"
+      },
+      "layer_height": {
+        "old": "0.24",
+        "new": "0.16"
+      },
+      "support_top_z_distance": {
+        "old": "0.24",
+        "new": "0.16"
+      },
+      "support_bottom_z_distance": {
+        "old": "0.24",
+        "new": "0.16"
+      },
+      "bottom_shell_layers": {
+        "old": "4",
+        "new": "6"
+      },
+      "print_settings_id": {
+        "old": "Wall 3 flat tree PLA 0.24",
+        "new": "Wall 3 FINE 016 PLA"
+      },
+      "outer_wall_speed": {
+        "old": [
+          "80",
+          "80",
+          "80"
+        ],
+        "new": [
+          "60",
+          "60",
+          "60"
+        ]
+      },
+      "top_surface_speed": {
+        "old": [
+          "200",
+          "200",
+          "200"
+        ],
+        "new": [
+          "80",
+          "80",
+          "80"
+        ]
+      }
+    }
+  },
+  {
+    "plate": 4,
+    "baseline_project": "P2S_WALL_04_RIGHT.3mf",
+    "native_geometry_byte_identical": true,
+    "model_sha256": {
+      "3D/3dmodel.model": "dc3b27c067513fef4976f54ffcaab5afbf1fb23afb65fc9390e2a8aa17ae73ce",
+      "3D/Objects/object_1.model": "17dee8090401f6762c6c0bc7f755a6afef1ff3a9e0b86303029e31ff8fe23aa2",
+      "3D/Objects/object_2.model": "9849aec72c1cc3013927352ac93397d0a45c37b208c447885c90e0d87dfdc731",
+      "3D/Objects/object_3.model": "ae15be6be867895c59790dfd121651cfd57a7762b47cd67516ab5e55c6150ddb",
+      "3D/Objects/object_4.model": "41ebaded58c84fa9a8b04ad33021c42cbcced371ff7486ecd2d1e543b09c1dac"
+    },
+    "settings_changes": {
+      "top_shell_layers": {
+        "old": "4",
+        "new": "6"
+      },
+      "layer_height": {
+        "old": "0.24",
+        "new": "0.16"
+      },
+      "support_top_z_distance": {
+        "old": "0.24",
+        "new": "0.16"
+      },
+      "support_bottom_z_distance": {
+        "old": "0.24",
+        "new": "0.16"
+      },
+      "bottom_shell_layers": {
+        "old": "4",
+        "new": "6"
+      },
+      "print_settings_id": {
+        "old": "Wall 4 flat tree PLA 0.24",
+        "new": "Wall 4 FINE 016 PLA"
+      },
+      "outer_wall_speed": {
+        "old": [
+          "80",
+          "80",
+          "80"
+        ],
+        "new": [
+          "60",
+          "60",
+          "60"
+        ]
+      },
+      "top_surface_speed": {
+        "old": [
+          "200",
+          "200",
+          "200"
+        ],
+        "new": [
+          "80",
+          "80",
+          "80"
+        ]
+      }
+    }
+  }
+]

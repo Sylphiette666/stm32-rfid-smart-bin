@@ -1,0 +1,19 @@
+{
+  "status": "PASS_DIGITAL_CHECKS",
+  "project_files": [
+    "P2S_WALL_01_FRONT_CONTROLS_FINE_016.3mf",
+    "P2S_WALL_02_REAR_FINE_016.3mf",
+    "P2S_WALL_03_LEFT_FINE_016.3mf",
+    "P2S_WALL_04_RIGHT_FINE_016.3mf"
+  ],
+  "parallel_estimated_seconds": 33865.91796875,
+  "total_filament_g": 529.1108703613281,
+  "geometry_unchanged": true,
+  "printer_jobs_sent": false,
+  "physical_print_tested": false,
+  "source_sha256": {
+    "slice_wall_panels_fine.py": "3ac00c40dad19ca41650fd7393b597a7af39a1fd4bedadc59f24fa3ae4803cb9",
+    "review_wall_panels_fine.py": "1ee0fb654679e7e470b2be9b48299489416acb376a5c4df6bea8f969fb8a5b56",
+    "finalize_wall_fine_release.py": "a022c3e2887fad546a212879de429ba41efb4dae3f6ad53dbcda226860199d00"
+  }
+}

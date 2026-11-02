@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "actual_first_layers_visually_reviewed": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "geometry_and_packing_unchanged": true,
+  "physical_print_tested": false
+}
