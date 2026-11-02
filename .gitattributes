@@ -82,3 +82,9 @@ hardware/mechanical/print-backup/motor-adapter-20261101/** -text
 hardware/mechanical/print-backup/motor-adapter-20261101/parts/** binary
 hardware/mechanical/print-backup/motor-adapter-20261101/step/** binary
 hardware/mechanical/print-backup/motor-adapter-20261101/*.3mf binary
+
+# Wheel-clearance trial exports
+hardware/mechanical/print-backup/motor-adapter-clearance-20261102/** -text
+hardware/mechanical/print-backup/motor-adapter-clearance-20261102/parts/** binary
+hardware/mechanical/print-backup/motor-adapter-clearance-20261102/step/** binary
+hardware/mechanical/print-backup/motor-adapter-clearance-20261102/*.3mf binary

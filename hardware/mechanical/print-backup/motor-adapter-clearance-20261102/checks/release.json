@@ -1,0 +1,15 @@
+{
+  "status": "RELEASED_FOR_DRY_FIT_ONLY",
+  "project": "P2S_D06_CLEARANCE_TRIAL_PAIR_028.3mf",
+  "project_sha256": "79dd5136b188a8e9fccfeddcc8f0c63d49ef781c24dcf7b96972729c11e1c4cd",
+  "estimated_seconds": 2557.4931640625,
+  "filament_g": 14.657228469848633,
+  "actual_first_layer_visual_reviewed": true,
+  "both_mesh_previews_reviewed": true,
+  "slot_region_boolean_preserved": true,
+  "bolt_ear_boolean_preserved": true,
+  "measured_wheel_clearance_mm": null,
+  "physical_fit_verified": false,
+  "load_tested": false,
+  "printer_job_sent": false
+}
