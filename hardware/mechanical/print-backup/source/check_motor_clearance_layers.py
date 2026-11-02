@@ -88,5 +88,5 @@ for plate in [1]:
         'first_layer_model_bounds':np.array([points.min(axis=0),points.max(axis=0)]).tolist(),
         'objects_with_first_layer_id':len(objects),'all_model_extrusions_within_bed':True,
         'G39_absent':not bool(re.search(r'^\s*G39(?:\s|;|$)',code,re.M))}
-(ROOT/'checks/first_layers.json').write_text(json.dumps(reports,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+(ROOT/'checks/first_layers.json').write_text(json.dumps(reports,ensure_ascii=False,indent=2)+'\n',encoding='utf-8',newline='\n')
 print(json.dumps(reports,ensure_ascii=False))

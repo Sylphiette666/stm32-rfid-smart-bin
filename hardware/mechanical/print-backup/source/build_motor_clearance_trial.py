@@ -73,7 +73,7 @@ for name,v in variants.items():
   assert not [(n,intersect(cyl(x,y,5,3,2.2),f)) for n,f in fixtures if intersect(cyl(x,y,5,3,2.2),f)>1e-6],(name,x,y,'head interference')
  assert intersect(shapes[name].translate((cx,cy,-HEIGHT)),rear)<1e-6
 report={'status':'GEOMETRY_CHECKED_WHEEL_PLACEMENT_PENDING','variants':variants,'slot_mm':[12,2.4],'slot_centre_distance_mm':21,'contact_thickness_mm':3,'head_cavity_mm':CLEAR,'head_height_measured_mm':5,'quantity':2,'identical_parts':False,'text_on_part':False,'closed_valid_solids':True,'watertight_meshes':True,'proven_coupon_material_preserved':False,'reduced_coupon_preserved':True,'slot_body_width_before_mm':36,'slot_body_width_after_mm':30,'edge_setback_each_side_mm':3,'slot_outer_ligament_mm':3.3,'actual_wheel_gap_mm':None,'release_type':'DRY_FIT_TRIAL','candidate_bolt_heads_clear':True,'base_drilling_authorized_by_this_drawing':False,'physical_load_test':False,'motor_wheel_full_envelope_verified':False,'final_drilling_requires_dry_fit':True,'all_candidate_feet_bear_on_full_5mm_chassis':True}
-(O/'checks/design.json').write_text(json.dumps(report,ensure_ascii=False,indent=2),encoding='utf-8')
+(O/'checks/design.json').write_text(json.dumps(report,ensure_ascii=False,indent=2),encoding='utf-8',newline='\n')
 ns='http://schemas.microsoft.com/3dmanufacturing/core/2015/02';E.register_namespace('',ns);tag=lambda n:'{'+ns+'}'+n
 root=E.Element(tag('model'),{'unit':'millimeter','xml:lang':'en-US'});resources=E.SubElement(root,tag('resources'));build=E.SubElement(root,tag('build'))
 for i,(name,xy) in enumerate([('LEFT',(60,105)),('RIGHT',(130,105))],1):
@@ -103,6 +103,6 @@ with zipfile.ZipFile(O/'P2S_D06_CLEARANCE_TRIAL_PAIR_028.3mf') as z,zipfile.ZipF
  for n in z.namelist():
   if n.endswith('.model'):assert z.read(n)==tested.read(n)
 report={'status':'PASS','estimated_seconds':p['total_predication'],'filament_g':sum(f['total_used_g'] for f in p['filaments']),'warning_message':p['warning_message'],'process':process,'native_matches_tested':True,'physical_test':False}
-(O/'checks/slicing.json').write_text(json.dumps(report,ensure_ascii=False,indent=2),encoding='utf-8')
+(O/'checks/slicing.json').write_text(json.dumps(report,ensure_ascii=False,indent=2),encoding='utf-8',newline='\n')
 if (O/'result.json').exists():(O/'result.json').unlink()
 print(json.dumps({'slice_seconds':report['estimated_seconds'],'filament_g':report['filament_g'],'variants':list(variants)},ensure_ascii=False))
