@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "actual_CAD_oblique_views_reviewed": [
+    "LEFT",
+    "RIGHT"
+  ],
+  "four_views_reviewed": [
+    "LEFT",
+    "RIGHT"
+  ],
+  "actual_first_layer_reviewed": true,
+  "pocket_location_sheets_reviewed": [
+    "LEFT",
+    "RIGHT"
+  ],
+  "manual_changed_pages": [
+    240,
+    241,
+    242
+  ],
+  "physical_strength_tested": false
+}

@@ -1,0 +1,36 @@
+{
+  "status": "PASS",
+  "geometry": {
+    "LEFT": {
+      "reimported_STEP_valid": true,
+      "thickness_mm": 16.0,
+      "volume_mm3": 52222.15135795568,
+      "mesh_volume_relative_error": 5.552964931685354e-06,
+      "all_through_holes_clear": true
+    },
+    "RIGHT": {
+      "reimported_STEP_valid": true,
+      "thickness_mm": 16.0,
+      "volume_mm3": 80861.22499119988,
+      "mesh_volume_relative_error": 4.656251502598041e-06,
+      "all_through_holes_clear": true
+    }
+  },
+  "first_layer_object_count": 2,
+  "all_extrusions_checked": 952098,
+  "all_layers": 100,
+  "all_extrusion_bounds": [
+    [
+      9.39,
+      27.386
+    ],
+    [
+      241.108,
+      115.614
+    ]
+  ],
+  "support_moves": 0,
+  "all_paths_in_bed": true,
+  "G39_absent": true,
+  "physical_load_or_wheel_fit_tested": false
+}

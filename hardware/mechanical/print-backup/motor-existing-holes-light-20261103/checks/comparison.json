@@ -1,0 +1,11 @@
+{
+  "baseline_filament_g": 146.96697998046875,
+  "light_filament_g": 135.92677307128906,
+  "filament_saved_percent": 7.512032233803046,
+  "baseline_seconds": 40219.59765625,
+  "light_seconds": 34859.09765625,
+  "time_saved_minutes": 89.34166666666667,
+  "CAD_volume_saved_percent": 17.206774228540368,
+  "same_slicing_parameters": true,
+  "physical_strength_equivalence_claimed": false
+}

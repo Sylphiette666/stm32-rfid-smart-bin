@@ -1,0 +1,18 @@
+{
+  "status": "PASS_DIGITAL_CHECKS_PHYSICAL_STRENGTH_PENDING",
+  "project": "P2S_D06_EXISTING_HOLES_LIGHT_016.3mf",
+  "filament_g": 135.92677307128906,
+  "estimated_seconds": 34859.09765625,
+  "filament_saved_percent": 7.512032233803046,
+  "CAD_volume_saved_percent": 17.206774228540368,
+  "time_saved_minutes": 89.34166666666667,
+  "new_chassis_holes": 0,
+  "shared_existing_holes": 9,
+  "interfaces_unchanged": true,
+  "protected_load_paths_preserved": true,
+  "manual_sha256": "e0d79c591f899d11f12f9f0ac223fc1c2dc421efd6bf4e6297ade955a295c9b6",
+  "manual_visually_checked": true,
+  "printer_jobs_sent": false,
+  "physical_load_tested": false,
+  "equal_strength_to_original_claimed": false
+}

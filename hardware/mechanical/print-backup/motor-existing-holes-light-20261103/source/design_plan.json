@@ -1,0 +1,25 @@
+{
+  "requirement": "Lightweight existing-hole carriers while retaining load paths and all interfaces",
+  "strategy": "Top-open rounded blind pockets; retain 5mm lower layer and 16mm high ribs/pads",
+  "unchanged": [
+    "9 existing chassis anchors",
+    "8 seat attachment holes",
+    "16mm carrier height",
+    "all old hardware clearances",
+    "old motor seats",
+    "fasteners"
+  ],
+  "validation": [
+    "Exact protected-material boolean difference",
+    "STEP reimport",
+    "closed mesh",
+    "actual slicing comparison",
+    "four-view visual review",
+    "same-name manual update"
+  ],
+  "limitations": [
+    "No rated payload requested",
+    "No physical strength or durability test",
+    "Not certified equal strength to original solid plate"
+  ]
+}

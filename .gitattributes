@@ -116,3 +116,9 @@ hardware/mechanical/print-backup/motor-existing-holes-20261102/** -text
 hardware/mechanical/print-backup/motor-existing-holes-20261102/*.3mf binary
 hardware/mechanical/print-backup/motor-existing-holes-20261102/parts/** binary
 hardware/mechanical/print-backup/motor-existing-holes-20261102/step/** binary
+
+# Ribbed lightweight D06 carrier exports
+hardware/mechanical/print-backup/motor-existing-holes-light-20261103/** -text
+hardware/mechanical/print-backup/motor-existing-holes-light-20261103/*.3mf binary
+hardware/mechanical/print-backup/motor-existing-holes-light-20261103/parts/** binary
+hardware/mechanical/print-backup/motor-existing-holes-light-20261103/step/** binary
