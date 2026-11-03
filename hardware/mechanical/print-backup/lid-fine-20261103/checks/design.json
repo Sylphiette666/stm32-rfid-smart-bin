@@ -1,0 +1,716 @@
+{
+  "status": "PASS_NOMINAL_CAD_PHYSICAL_FIT_PENDING",
+  "parts": {
+    "L01_LIGHT_LID": {
+      "copies": 1,
+      "print_orientation": "x180",
+      "normalization_translation": [
+        -48.5,
+        172.00000000000003,
+        185.56
+      ],
+      "size_mm": [
+        174.5,
+        154.0,
+        2.9600000381469727
+      ],
+      "volume_mm3": 17487.527059146167,
+      "solid_PLA_mass_g_at_1_24": 21.684533553341247,
+      "mesh_relative_volume_error": 2.6307984600136616e-06,
+      "valid_single_solid": true,
+      "watertight_connected": true,
+      "STEP_reopened": true
+    },
+    "L02_HINGE_SHOE": {
+      "copies": 2,
+      "print_orientation": "none",
+      "normalization_translation": [
+        -50.1,
+        -53.0,
+        -185.55999989999998
+      ],
+      "size_mm": [
+        17.899999618530273,
+        20.0,
+        3.5400001002716124
+      ],
+      "volume_mm3": 829.6818219888187,
+      "solid_PLA_mass_g_at_1_24": 1.028805459266135,
+      "mesh_relative_volume_error": 1.1781012513176367e-05,
+      "valid_single_solid": true,
+      "watertight_connected": true,
+      "STEP_reopened": true
+    },
+    "L03_LINK_ARM": {
+      "copies": 1,
+      "print_orientation": "none",
+      "normalization_translation": [
+        -55.0,
+        -161.0,
+        -185.56
+      ],
+      "size_mm": [
+        25.0,
+        14.0,
+        9.140000343322754
+      ],
+      "volume_mm3": 1020.8673161926408,
+      "solid_PLA_mass_g_at_1_24": 1.2658754720788745,
+      "mesh_relative_volume_error": 3.6667189457189357e-06,
+      "valid_single_solid": true,
+      "watertight_connected": true,
+      "STEP_reopened": true
+    },
+    "L04_SWITCH_FOOT": {
+      "copies": 1,
+      "print_orientation": "y90",
+      "normalization_translation": [
+        -180.50000000000003,
+        -131.0,
+        219.99999999999997
+      ],
+      "size_mm": [
+        9.5,
+        16.0,
+        20.0
+      ],
+      "volume_mm3": 869.525997533806,
+      "solid_PLA_mass_g_at_1_24": 1.0782122369419196,
+      "mesh_relative_volume_error": 5.267171527314585e-06,
+      "valid_single_solid": true,
+      "watertight_connected": true,
+      "STEP_reopened": true
+    },
+    "L05_SWITCH_TONGUE": {
+      "copies": 1,
+      "print_orientation": "y90",
+      "normalization_translation": [
+        -182.00000000000003,
+        -131.0,
+        221.59999999999997
+      ],
+      "size_mm": [
+        10.0,
+        16.0,
+        1.6000000238418581
+      ],
+      "volume_mm3": 198.6639308766842,
+      "solid_PLA_mass_g_at_1_24": 0.2463432742870884,
+      "mesh_relative_volume_error": 1.0314527180140697e-05,
+      "valid_single_solid": true,
+      "watertight_connected": true,
+      "STEP_reopened": true
+    },
+    "T01_HINGE_FIT_COUPON": {
+      "copies": 1,
+      "print_orientation": "x180",
+      "normalization_translation": [
+        -48.5,
+        76.00000000000003,
+        185.56
+      ],
+      "size_mm": [
+        23.5,
+        26.0,
+        2.9600000381469727
+      ],
+      "volume_mm3": 503.9630342311139,
+      "solid_PLA_mass_g_at_1_24": 0.6249141624465813,
+      "mesh_relative_volume_error": 2.4233479237520917e-05,
+      "valid_single_solid": true,
+      "watertight_connected": true,
+      "STEP_reopened": true
+    }
+  },
+  "print_objects": 6,
+  "coordinates": "P02 mm; X0 rear, Y190 servo side, platform top Z5",
+  "lid_skin_size_mm": [
+    166.5,
+    154,
+    0.56
+  ],
+  "lid_outer_with_lift_lip_mm": [
+    174.5,
+    154
+  ],
+  "reinforced_max_thickness_mm": 2.96,
+  "hinge_axis_nominal_xz": [
+    46.5,
+    185
+  ],
+  "original_wall_hole_centres_yz": [
+    [
+      57,
+      178
+    ],
+    [
+      69,
+      178
+    ],
+    [
+      121,
+      178
+    ],
+    [
+      133,
+      178
+    ]
+  ],
+  "metal_hinge_unfolded_mm": [
+    20,
+    20,
+    1.4
+  ],
+  "metal_hinge_hole_rectangle_mm": [
+    14,
+    12
+  ],
+  "metal_hinge_barrel_diameter_mm": 6.5,
+  "hinge_shoe_nominal_standoff_mm": 1.54,
+  "hinge_hole_slot_mm": [
+    4.5,
+    2.3
+  ],
+  "hinge_shoe_flat_M2_head_max_diameter_mm": 4,
+  "hinge_offset_evidence": "Nominal envelope only; actual knuckle-to-leaf plane not measured. Hand-fit original hinges before full print or powered motion; revise shim thickness if needed.",
+  "closed_lid_z_mm": 185,
+  "reuse_two_softstops_and_2mm_EVA": true,
+  "nominal_motion_checks": 9288,
+  "sweep_degrees": [
+    0,
+    2,
+    4,
+    6,
+    8,
+    10,
+    12,
+    14,
+    16,
+    18,
+    20,
+    22,
+    24,
+    26,
+    28,
+    30,
+    32,
+    34,
+    36,
+    38,
+    40,
+    42,
+    44,
+    46,
+    48,
+    50,
+    52,
+    54,
+    56,
+    58,
+    60,
+    62,
+    64,
+    66,
+    68,
+    70
+  ],
+  "fixed_interferences": [],
+  "moving_internal_interferences": [],
+  "moving_printed_mass_solid_PLA_g": 26.3325754551814,
+  "bare_lid_solid_PLA_g": 21.684533553341247,
+  "moving_assembly_weighing_target_g": 40,
+  "moving_assembly_weighing_limit_g": 45,
+  "metal_hardware_and_linkage_mass_measured": false,
+  "old_parallelogram_reused": false,
+  "ground_distance_mm": 41.5,
+  "cranks_mm": [
+    20,
+    20
+  ],
+  "rod_hole_centre_length_mm": 50,
+  "linkage_plane_y_mm": 179,
+  "nominal_ball_envelope_radius_mm": 4,
+  "ball_envelope_measured": false,
+  "servo_horn_original_retained": true,
+  "kinematics": [
+    {
+      "lid_deg": 0,
+      "servo_crank_geometric_angle_deg": 55.79283225505878,
+      "rod_length_error_mm": 0.0,
+      "lid_ball_xz": [
+        65.29385241571816,
+        191.8404028665134
+      ],
+      "servo_ball_xz": [
+        16.24373683705933,
+        201.54020501502188
+      ]
+    },
+    {
+      "lid_deg": 2,
+      "servo_crank_geometric_angle_deg": 56.939529068203534,
+      "rod_length_error_mm": 7.105427357601002e-15,
+      "lid_ball_xz": [
+        65.04367709133575,
+        192.49213186831824
+      ],
+      "servo_ball_xz": [
+        15.91047757142915,
+        201.76190559463157
+      ]
+    },
+    {
+      "lid_deg": 4,
+      "servo_crank_geometric_angle_deg": 58.128381201883094,
+      "rod_length_error_mm": 7.105427357601002e-15,
+      "lid_ball_xz": [
+        64.77090915285201,
+        193.134732861516
+      ],
+      "servo_ball_xz": [
+        15.56035471345856,
+        201.98466685943336
+      ]
+    },
+    {
+      "lid_deg": 6,
+      "servo_crank_geometric_angle_deg": 59.358267583080085,
+      "rod_length_error_mm": 0.0,
+      "lid_ball_xz": [
+        64.47588092598335,
+        193.76742293578155
+      ],
+      "servo_ball_xz": [
+        15.19336435368489,
+        202.20742058395234
+      ]
+    },
+    {
+      "lid_deg": 8,
+      "servo_crank_geometric_angle_deg": 60.62804815365331,
+      "rod_length_error_mm": 0.0,
+      "lid_ball_xz": [
+        64.15895185717854,
+        194.38943125571782
+      ],
+      "servo_ball_xz": [
+        14.809544144459792,
+        202.42908040253113
+      ]
+    },
+    {
+      "lid_deg": 10,
+      "servo_crank_geometric_angle_deg": 61.9365743577768,
+      "rod_length_error_mm": 7.105427357601002e-15,
+      "lid_ball_xz": [
+        63.82050807568878,
+        195.0
+      ],
+      "servo_ball_xz": [
+        14.408973716282365,
+        202.64854706785542
+      ]
+    },
+    {
+      "lid_deg": 12,
+      "servo_crank_geometric_angle_deg": 63.28269902164723,
+      "rod_length_error_mm": 0.0,
+      "lid_ball_xz": [
+        63.46096192312852,
+        195.5983852846641
+      ],
+      "servo_ball_xz": [
+        13.991774793815688,
+        202.86471343339434
+      ]
+    },
+    {
+      "lid_deg": 14,
+      "servo_crank_geometric_angle_deg": 64.66528552814432,
+      "rod_length_error_mm": 0.0,
+      "lid_ball_xz": [
+        63.08075145110084,
+        196.18385806941495
+      ],
+      "servo_ball_xz": [
+        13.558111042102558,
+        203.07646910740706
+      ]
+    },
+    {
+      "lid_deg": 16,
+      "servo_crank_geometric_angle_deg": 66.0832162256153,
+      "rod_length_error_mm": 0.0,
+      "lid_ball_xz": [
+        62.680339887498945,
+        196.75570504584945
+      ],
+      "servo_ball_xz": [
+        13.108187674930049,
+        203.28270474049484
+      ]
+    },
+    {
+      "lid_deg": 18,
+      "servo_crank_geometric_angle_deg": 67.53540004318562,
+      "rod_length_error_mm": 7.105427357601002e-15,
+      "lid_ball_xz": [
+        62.260215072134436,
+        197.31322950651315
+      ],
+      "servo_ball_xz": [
+        12.642250857531554,
+        203.48231592172795
+      ]
+    },
+    {
+      "lid_deg": 20,
+      "servo_crank_geometric_angle_deg": 69.02077931414742,
+      "rod_length_error_mm": 0.0,
+      "lid_ball_xz": [
+        61.82088886237956,
+        197.85575219373078
+      ],
+      "servo_ball_xz": [
+        12.160586935082467,
+        203.67420666976582
+      ]
+    },
+    {
+      "lid_deg": 22,
+      "servo_crank_geometric_angle_deg": 70.53833583362315,
+      "rod_length_error_mm": 7.105427357601002e-15,
+      "lid_ball_xz": [
+        61.36289650954788,
+        198.38261212717717
+      ],
+      "servo_ball_xz": [
+        11.663521516976788,
+        203.85729251490753
+      ]
+    },
+    {
+      "lid_deg": 24,
+      "servo_crank_geometric_angle_deg": 72.08709619679625,
+      "rod_length_error_mm": 7.105427357601002e-15,
+      "lid_ball_xz": [
+        60.886796006773025,
+        198.89316740917994
+      ],
+      "servo_ball_xz": [
+        11.151418444888249,
+        204.03050317558336
+      ]
+    },
+    {
+      "lid_deg": 26,
+      "servo_crank_geometric_angle_deg": 73.6661364797654,
+      "rod_length_error_mm": 0.0,
+      "lid_ball_xz": [
+        60.393167409179945,
+        199.386796006773
+      ],
+      "servo_ball_xz": [
+        10.624678670323773,
+        204.1927848384648
+      ]
+    },
+    {
+      "lid_deg": 28,
+      "servo_crank_geometric_angle_deg": 75.27458633694384,
+      "rod_length_error_mm": 7.105427357601002e-15,
+      "lid_ball_xz": [
+        59.88261212717717,
+        199.86289650954788
+      ],
+      "servo_ball_xz": [
+        10.083739064944918,
+        204.34310205524318
+      ]
+    },
+    {
+      "lid_deg": 30,
+      "servo_crank_geometric_angle_deg": 76.91163259745802,
+      "rod_length_error_mm": 7.105427357601002e-15,
+      "lid_ball_xz": [
+        59.35575219373079,
+        200.32088886237955
+      ],
+      "servo_ball_xz": [
+        9.529071184506048,
+        204.48043927137365
+      ]
+    },
+    {
+      "lid_deg": 32,
+      "servo_crank_geometric_angle_deg": 78.57652244882622,
+      "rod_length_error_mm": 7.105427357601002e-15,
+      "lid_ball_xz": [
+        58.81322950651317,
+        200.76021507213443
+      ],
+      "servo_ball_xz": [
+        8.96118000495547,
+        204.60380200288557
+      ]
+    },
+    {
+      "lid_deg": 34,
+      "servo_crank_geometric_angle_deg": 80.26856629999128,
+      "rod_length_error_mm": 7.105427357601002e-15,
+      "lid_ball_xz": [
+        58.25570504584947,
+        201.18033988749895
+      ],
+      "servo_ball_xz": [
+        8.380602647151264,
+        204.71221767691483
+      ]
+    },
+    {
+      "lid_deg": 36,
+      "servo_crank_geometric_angle_deg": 81.98714041819034,
+      "rod_length_error_mm": 0.0,
+      "lid_ball_xz": [
+        57.68385806941494,
+        201.58075145110084
+      ],
+      "servo_ball_xz": [
+        7.787907104826093,
+        204.8047361500945
+      ]
+    },
+    {
+      "lid_deg": 38,
+      "servo_crank_geometric_angle_deg": 83.73168943581109,
+      "rod_length_error_mm": 0.0,
+      "lid_ball_xz": [
+        57.0983852846641,
+        201.96096192312854
+      ],
+      "servo_ball_xz": [
+        7.183690988939052,
+        204.88042991649894
+      ]
+    },
+    {
+      "lid_deg": 40,
+      "servo_crank_geometric_angle_deg": 85.5017288249064,
+      "rod_length_error_mm": 0.0,
+      "lid_ball_xz": [
+        56.5,
+        202.32050807568876
+      ],
+      "servo_ball_xz": [
+        6.568580300414646,
+        204.93839401358974
+      ]
+    },
+    {
+      "lid_deg": 42,
+      "servo_crank_geometric_angle_deg": 87.29684743899948,
+      "rod_length_error_mm": 0.0,
+      "lid_ball_xz": [
+        55.88943125571782,
+        202.65895185717852
+      ],
+      "servo_ball_xz": [
+        5.943228242514106,
+        204.9777456306392
+      ]
+    },
+    {
+      "lid_deg": 44,
+      "servo_crank_geometric_angle_deg": 89.11671022476412,
+      "rod_length_error_mm": 0.0,
+      "lid_ball_xz": [
+        55.26742293578155,
+        202.97588092598335
+      ],
+      "servo_ball_xz": [
+        5.308314083739881,
+        204.9976234194408
+      ]
+    },
+    {
+      "lid_deg": 46,
+      "servo_crank_geometric_angle_deg": 90.96106121067892,
+      "rod_length_error_mm": 7.105427357601002e-15,
+      "lid_ball_xz": [
+        54.63473286151601,
+        203.27090915285203
+      ],
+      "servo_ball_xz": [
+        4.664542082265311,
+        204.99718650174142
+      ]
+    },
+    {
+      "lid_deg": 48,
+      "servo_crank_geometric_angle_deg": 92.82972688641787,
+      "rod_length_error_mm": 7.105427357601002e-15,
+      "lid_ball_xz": [
+        53.99213186831824,
+        203.54367709133575
+      ],
+      "servo_ball_xz": [
+        4.012640483446707,
+        204.97561316167972
+      ]
+    },
+    {
+      "lid_deg": 50,
+      "servo_crank_geometric_angle_deg": 94.72262009621085,
+      "rod_length_error_mm": 0.0,
+      "lid_ball_xz": [
+        53.34040286651338,
+        203.79385241571816
+      ],
+      "servo_ball_xz": [
+        3.353360603063568,
+        204.93209920446054
+      ]
+    },
+    {
+      "lid_deg": 52,
+      "servo_crank_geometric_angle_deg": 96.63974458245109,
+      "rod_length_error_mm": 0.0,
+      "lid_ball_xz": [
+        52.680339887498945,
+        204.02113032590307
+      ],
+      "servo_ball_xz": [
+        2.6874760106148274,
+        204.8658559543383
+      ]
+    },
+    {
+      "lid_deg": 54,
+      "servo_crank_geometric_angle_deg": 98.58120033336752,
+      "rod_length_error_mm": 0.0,
+      "lid_ball_xz": [
+        52.01274711633998,
+        204.22523391876638
+      ],
+      "servo_ball_xz": [
+        2.0157818293759124,
+        204.77610785544306
+      ]
+    },
+    {
+      "lid_deg": 56,
+      "servo_crank_geometric_angle_deg": 100.54718991178824,
+      "rod_length_error_mm": 0.0,
+      "lid_ball_xz": [
+        51.33843791199335,
+        204.40591452551993
+      ],
+      "servo_ball_xz": [
+        1.3390941731297854,
+        204.6620896276766
+      ]
+    },
+    {
+      "lid_deg": 58,
+      "servo_crank_geometric_angle_deg": 102.53802597239215,
+      "rod_length_error_mm": 7.105427357601002e-15,
+      "lid_ball_xz": [
+        50.65823381635519,
+        204.5629520146761
+      ],
+      "servo_ball_xz": [
+        0.6582497437190495,
+        204.52304291631006
+      ]
+    },
+    {
+      "lid_deg": 60,
+      "servo_crank_geometric_angle_deg": 104.5541402143588,
+      "rod_length_error_mm": 0.0,
+      "lid_ball_xz": [
+        49.97296355333861,
+        204.69615506024417
+      ],
+      "servo_ball_xz": [
+        -0.02589438091379126,
+        204.35821235734073
+      ]
+    },
+    {
+      "lid_deg": 62,
+      "servo_crank_geometric_angle_deg": 106.59609406759425,
+      "rod_length_error_mm": 0.0,
+      "lid_ball_xz": [
+        49.28346201920131,
+        204.80536137483142
+      ],
+      "servo_ball_xz": [
+        -0.71246073135974,
+        204.16684096017582
+      ]
+    },
+    {
+      "lid_deg": 64,
+      "servo_crank_geometric_angle_deg": 108.6645914772812,
+      "rod_length_error_mm": 7.105427357601002e-15,
+      "lid_ball_xz": [
+        48.59056926535307,
+        204.89043790736548
+      ],
+      "servo_ball_xz": [
+        -1.400551157895019,
+        203.94816468355626
+      ]
+    },
+    {
+      "lid_deg": 66,
+      "servo_crank_geometric_angle_deg": 110.76049423818193,
+      "rod_length_error_mm": 0.0,
+      "lid_ball_xz": [
+        47.8951294748825,
+        204.95128100519648
+      ],
+      "servo_ball_xz": [
+        -2.089246209841673,
+        203.70140604810894
+      ]
+    },
+    {
+      "lid_deg": 68,
+      "servo_crank_geometric_angle_deg": 112.88484044355634,
+      "rod_length_error_mm": 7.105427357601002e-15,
+      "lid_ball_xz": [
+        47.19798993405002,
+        204.9878165403819
+      ],
+      "servo_ball_xz": [
+        -2.7776041088798484,
+        203.42576658718804
+      ]
+    },
+    {
+      "lid_deg": 70,
+      "servo_crank_geometric_angle_deg": 115.03886676298002,
+      "rod_length_error_mm": 0.0,
+      "lid_ball_xz": [
+        46.5,
+        205.0
+      ],
+      "servo_ball_xz": [
+        -3.464659220966947,
+        203.12041788350643
+      ]
+    }
+  ],
+  "mesh_tolerance_mm": 0.01,
+  "angular_tolerance_rad": 0.05,
+  "sweep_limitations": [
+    "Discrete 2-degree CAD samples, not continuous certified clearance",
+    "No actual wire harness, bolt/nut envelopes or hinge knuckle offset verified",
+    "Switch lever not measured: adjustable strike must be hand-set",
+    "Servo horn zero, shaft position and20mm effective crank require hand calibration",
+    "PLA stiffness, fatigue, impact and actual lid mass not tested"
+  ],
+  "no_firmware_or_servo_endpoint_change_made": true,
+  "physical_trial_fit_or_strength_tested": false
+}

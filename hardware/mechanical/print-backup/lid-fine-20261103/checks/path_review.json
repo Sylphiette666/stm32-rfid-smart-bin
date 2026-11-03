@@ -1,0 +1,49 @@
+{
+  "LID": {
+    "status": "PASS_ALL_LAYER_PATHS",
+    "first_layer_objects": 6,
+    "layers": 166,
+    "extrusions_checked": 45062,
+    "bounds": [
+      [
+        15.558,
+        15.558
+      ],
+      [
+        234.442,
+        230.442
+      ]
+    ],
+    "support_moves": 0,
+    "all_paths_in_bed": true,
+    "G39_absent": true,
+    "closed_skin_first_four_layers": {
+      "0.2": 2336,
+      "0.32": 1610,
+      "0.44": 1610,
+      "0.56": 875,
+      "0.68": 823,
+      "0.8": 824
+    }
+  },
+  "HINGE_TRIAL": {
+    "status": "PASS_ALL_LAYER_PATHS",
+    "first_layer_objects": 2,
+    "layers": 29,
+    "extrusions_checked": 10108,
+    "bounds": [
+      [
+        45.558,
+        45.558
+      ],
+      [
+        122.342,
+        80.442
+      ]
+    ],
+    "support_moves": 0,
+    "all_paths_in_bed": true,
+    "G39_absent": true,
+    "closed_skin_first_four_layers": null
+  }
+}

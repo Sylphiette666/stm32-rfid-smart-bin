@@ -1,0 +1,31 @@
+{
+  "intent": "Closed thin-skin lightweight lid and ALL moving attachments, retain printed walls and two20mm metal hinges/M2 linkage",
+  "deliverables": [
+    "six-object native P2S fine3MF",
+    "five parameterized printable shapes STEP/STL",
+    "closed/open assembly evidence",
+    "original holes and sampled motion audit",
+    "updated same-name manual"
+  ],
+  "included_accessories": [
+    "two moving hinge shoes with recessed screw heads",
+    "20mm lid linkage arm",
+    "adjustable microswitch foot and separate strike tongue",
+    "integral finger lift lip",
+    "EVA contact reliefs"
+  ],
+  "retained_fixed_accessories": [
+    "two20mm metal hinges",
+    "M2 dual ball rod and original SG90 horn",
+    "original microswitch bracket",
+    "two existing softstops and2mm EVA",
+    "fixed HC-SR04 beam and LED"
+  ],
+  "backend": "CadQuery/OCCT, no native SolidWorks claim",
+  "critical_unverified_interfaces": [
+    "actual hinge leaf-to-axis offset",
+    "servo/horn physical zero and crank",
+    "microswitch lever envelope"
+  ],
+  "physical_strength_guarantee": false
+}
