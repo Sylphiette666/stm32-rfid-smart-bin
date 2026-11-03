@@ -1,0 +1,20 @@
+{
+  "status": "REVIEWABLE_CONCEPT_PREVIEW",
+  "new_platform_holes": 0,
+  "wall_lift_mm": 0,
+  "new_clamps": 4,
+  "new_pressure_pads": 4,
+  "STEP_reopen_checked": true,
+  "manual_sha256": "14b32a7a8b89d460dfd0d922a0eee509ab659bc87049c30adbf204c01f2db5de",
+  "manual_section": "66.14",
+  "figures": [
+    79,
+    80,
+    81,
+    82
+  ],
+  "print_project_released": false,
+  "printer_jobs_sent": false,
+  "physical_fit_tested": false,
+  "load_tested": false
+}

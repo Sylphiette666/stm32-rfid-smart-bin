@@ -1,0 +1,194 @@
+{
+  "status": "CONCEPT_PREVIEW_GEOMETRY_CHECKED_NOT_PRINT_RELEASE",
+  "clamps": [
+    {
+      "id": "C1_LEFT_REAR",
+      "anchor": [
+        10,
+        10
+      ],
+      "pressure": [
+        90,
+        13
+      ],
+      "edge": "left",
+      "anchor_type": "platform_corner",
+      "anchor_screw": "M3x16",
+      "anchor_top_z": 11,
+      "pressure_pad_top_z": 9.4,
+      "nut_top_z": 12.6,
+      "nut_roof_thickness_mm": 2.4,
+      "nut_insertion": "from underside before clamp installation",
+      "pressure_bolt_under_head_z": 17.4,
+      "footprint_size_mm": [
+        99.0001363475603,
+        20.2000002000001,
+        15.000336239390986
+      ],
+      "volume_mm3": 8170.155945525888,
+      "collision_check": "PASS"
+    },
+    {
+      "id": "C2_LEFT_FRONT",
+      "anchor": [
+        230,
+        10
+      ],
+      "pressure": [
+        170,
+        13
+      ],
+      "edge": "left",
+      "anchor_type": "platform_corner",
+      "anchor_screw": "M3x16",
+      "anchor_top_z": 11,
+      "pressure_pad_top_z": 9.4,
+      "nut_top_z": 12.6,
+      "nut_roof_thickness_mm": 2.4,
+      "nut_insertion": "from underside before clamp installation",
+      "pressure_bolt_under_head_z": 17.4,
+      "footprint_size_mm": [
+        79.00013634756033,
+        20.200000200000115,
+        15.000336239390997
+      ],
+      "volume_mm3": 6682.155945525896,
+      "collision_check": "PASS"
+    },
+    {
+      "id": "C3_RIGHT_FRONT",
+      "anchor": [
+        230,
+        180
+      ],
+      "pressure": [
+        170,
+        177
+      ],
+      "edge": "right",
+      "anchor_type": "platform_corner",
+      "anchor_screw": "M3x16",
+      "anchor_top_z": 11,
+      "pressure_pad_top_z": 9.4,
+      "nut_top_z": 12.6,
+      "nut_roof_thickness_mm": 2.4,
+      "nut_insertion": "from underside before clamp installation",
+      "pressure_bolt_under_head_z": 17.4,
+      "footprint_size_mm": [
+        79.0001363475603,
+        20.20000020000012,
+        15.000336239391006
+      ],
+      "volume_mm3": 6682.155945525888,
+      "collision_check": "PASS"
+    },
+    {
+      "id": "C4_RIGHT_REAR",
+      "anchor": [
+        70,
+        180
+      ],
+      "pressure": [
+        90,
+        177
+      ],
+      "edge": "right",
+      "anchor_type": "shared_servo_tray",
+      "anchor_screw": "M3x20",
+      "anchor_top_z": 14,
+      "pressure_pad_top_z": 9.4,
+      "nut_top_z": 12.6,
+      "nut_roof_thickness_mm": 2.4,
+      "nut_insertion": "from underside before clamp installation",
+      "pressure_bolt_under_head_z": 17.4,
+      "footprint_size_mm": [
+        38.50000020000012,
+        15.500000200000102,
+        10.000336239390949
+      ],
+      "volume_mm3": 1961.1932543428911,
+      "collision_check": "PASS"
+    }
+  ],
+  "new_platform_holes": 0,
+  "wall_position_changed": false,
+  "wall_lift_mm": 0,
+  "platform_size_mm": [
+    240,
+    190,
+    5
+  ],
+  "wall_main_frame_origin_xy": [
+    50,
+    20
+  ],
+  "anchors_used": [
+    [
+      10,
+      10
+    ],
+    [
+      230,
+      10
+    ],
+    [
+      230,
+      180
+    ],
+    [
+      70,
+      180
+    ]
+  ],
+  "corner_hole_left_free": [
+    10,
+    180
+  ],
+  "shared_servo_tray_hole": [
+    70,
+    180
+  ],
+  "foot_pressure_points": [
+    [
+      90,
+      13
+    ],
+    [
+      170,
+      13
+    ],
+    [
+      170,
+      177
+    ],
+    [
+      90,
+      177
+    ]
+  ],
+  "pressure_uses_existing_foot_hole": false,
+  "pressure_pad_diameter_mm": 8,
+  "pressure_pad_thickness_mm": 1.2,
+  "corner_bolt_engagement_nominal_mm": 4.5,
+  "shared_tray_bolt_projection_below_P02_mm": 5.5,
+  "new_parts": {
+    "clamp_bodies": 4,
+    "pressure_pads": 4
+  },
+  "provisional_hardware": {
+    "M3x16_corner": 3,
+    "M3x20_tray": 1,
+    "M3x8_pressure": 4,
+    "ordinary_M3_nut_for_pressure": 4
+  },
+  "full_wall_platform_tray_stand_and_modeled_fastener_interference": "PASS",
+  "physical_fit_tested": false,
+  "load_tested": false,
+  "print_project_released": false,
+  "limits": [
+    "Model dimensions only; no physical clamp/creep test",
+    "Pressure screw must be finger-light; it must not crack the existing 3.2mm foot",
+    "Corner post blind depth and actual screw heads must be checked before print release",
+    "CAD preview does not prove rated strength"
+  ]
+}

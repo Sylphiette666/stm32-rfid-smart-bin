@@ -1,0 +1,46 @@
+{
+  "status": "PASS_CONCEPT_GEOMETRY_ONLY",
+  "parts": [
+    {
+      "part": "C1_LEFT_REAR",
+      "STEP_reopened_valid_one_solid": true,
+      "existing_anchor_bore_clear": true,
+      "bottom_nut_insertion_pocket_clear": true,
+      "retaining_roof_2_4_mm_present": true,
+      "watertight_connected_QA_mesh": true,
+      "STEP_sha256": "b821fc30908c92512244ff06c3bfe1425a7441a6e2ff759241969301eb416c7e"
+    },
+    {
+      "part": "C2_LEFT_FRONT",
+      "STEP_reopened_valid_one_solid": true,
+      "existing_anchor_bore_clear": true,
+      "bottom_nut_insertion_pocket_clear": true,
+      "retaining_roof_2_4_mm_present": true,
+      "watertight_connected_QA_mesh": true,
+      "STEP_sha256": "7bddf36b7c656fc60f5dd12d3b56a4f0a1a99598f9203dc8e060a7ba7648d234"
+    },
+    {
+      "part": "C3_RIGHT_FRONT",
+      "STEP_reopened_valid_one_solid": true,
+      "existing_anchor_bore_clear": true,
+      "bottom_nut_insertion_pocket_clear": true,
+      "retaining_roof_2_4_mm_present": true,
+      "watertight_connected_QA_mesh": true,
+      "STEP_sha256": "ab46b4beb85e722784337219e512a16951f23f473db986c3a7b78f35d2aef443"
+    },
+    {
+      "part": "C4_RIGHT_REAR",
+      "STEP_reopened_valid_one_solid": true,
+      "existing_anchor_bore_clear": true,
+      "bottom_nut_insertion_pocket_clear": true,
+      "retaining_roof_2_4_mm_present": true,
+      "watertight_connected_QA_mesh": true,
+      "STEP_sha256": "53f86f3bf71339af4ec8975d9db21581911d83b77cfe946bc85cf1c66515a158"
+    }
+  ],
+  "assembly_STEP_reopened": true,
+  "assembly_solid_count": 31,
+  "manual_or_actual_load_test": false,
+  "printing_profile_validated": false,
+  "rated_strength_claimed": false
+}

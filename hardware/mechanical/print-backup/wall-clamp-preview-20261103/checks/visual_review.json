@@ -1,0 +1,21 @@
+{
+  "status": "PASS_CONCEPT_VISUAL_REVIEW",
+  "actual_CAD_overview_reviewed": true,
+  "actual_CAD_regular_clamp_reviewed": true,
+  "actual_CAD_servo_tray_clamp_reviewed": true,
+  "four_views_reviewed": [
+    "C1_LEFT_REAR",
+    "C2_LEFT_FRONT",
+    "C3_RIGHT_FRONT",
+    "C4_RIGHT_REAR"
+  ],
+  "anchor_plan_reviewed": true,
+  "manual_changed_pages": [
+    243,
+    244,
+    245,
+    246
+  ],
+  "physical_fit_or_load_tested": false,
+  "final_print_project": false
+}

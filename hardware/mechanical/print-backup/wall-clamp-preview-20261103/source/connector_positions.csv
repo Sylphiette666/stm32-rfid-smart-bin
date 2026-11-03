@@ -1,0 +1,9 @@
+﻿part,role,x,y,hole
+C1_LEFT_REAR,existing anchor,10,10,3.4
+C1_LEFT_REAR,pressure screw above existing foot,90,13,3.4
+C2_LEFT_FRONT,existing anchor,230,10,3.4
+C2_LEFT_FRONT,pressure screw above existing foot,170,13,3.4
+C3_RIGHT_FRONT,existing anchor,230,180,3.4
+C3_RIGHT_FRONT,pressure screw above existing foot,170,177,3.4
+C4_RIGHT_REAR,existing anchor,70,180,3.4
+C4_RIGHT_REAR,pressure screw above existing foot,90,177,3.4

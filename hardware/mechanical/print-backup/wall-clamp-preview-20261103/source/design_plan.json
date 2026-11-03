@@ -1,0 +1,13 @@
+{
+  "scope": "Preview requested by user; no print-ready 3MF or printer dispatch",
+  "architecture": "Three edge-keyed corner hold-downs plus short servo-tray-keyed hold-down",
+  "principle": "Press existing feet from above without drilling the P02 floor or lifting the bin",
+  "review_plan": [
+    "Exact existing-hole alignment",
+    "Full wall/servo interference",
+    "Nut/screw geometry",
+    "Oblique and plan previews",
+    "Manual append as concept only"
+  ],
+  "release_gate": "User reviews appearance; detailed print orientation and physical fit validation remain subsequent work"
+}
