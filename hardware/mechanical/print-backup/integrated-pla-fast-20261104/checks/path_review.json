@@ -1,0 +1,29 @@
+{
+  "LOWER_H41_B1": {
+    "objects_on_first_layer": 1,
+    "expected_objects": 1,
+    "all_extrusions_in_bed": true,
+    "maximum_print_z_mm": 220.0,
+    "layer_count": 786,
+    "support_extrusion_moves": 684255,
+    "G39_absent": true
+  },
+  "UPPER_INTEGRATED": {
+    "objects_on_first_layer": 1,
+    "expected_objects": 1,
+    "all_extrusions_in_bed": true,
+    "maximum_print_z_mm": 245.2,
+    "layer_count": 876,
+    "support_extrusion_moves": 2362289,
+    "G39_absent": true
+  },
+  "PANEL_COVER": {
+    "objects_on_first_layer": 1,
+    "expected_objects": 1,
+    "all_extrusions_in_bed": true,
+    "maximum_print_z_mm": 5.4,
+    "layer_count": 27,
+    "support_extrusion_moves": 0,
+    "G39_absent": true
+  }
+}

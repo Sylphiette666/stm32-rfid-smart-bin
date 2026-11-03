@@ -1,0 +1,10 @@
+{
+  "status": "24H_TARGET_NOT_MET",
+  "variants": {
+    "LOWER_H41_B1": "r3",
+    "UPPER_INTEGRATED": "r4",
+    "PANEL_COVER": "r1"
+  },
+  "target_total_hours": 24,
+  "physical_print_tested": false
+}

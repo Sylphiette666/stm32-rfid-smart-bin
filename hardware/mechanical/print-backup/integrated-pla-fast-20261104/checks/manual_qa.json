@@ -1,0 +1,19 @@
+{
+  "status": "STRUCTURAL_CHECKS_PASS",
+  "steps_preserved": 330,
+  "old_tables_preserved": 83,
+  "explicit_table_changes": [],
+  "old_media_preserved": true,
+  "pages": 269,
+  "page_numbers_verified": true,
+  "visual_review_pages": [
+    1,
+    5,
+    267,
+    268,
+    269
+  ],
+  "docx_sha256": "b6adff9f5ff562f46af3968ce16abf821693dd23355220747887e53bcae960f0",
+  "baseline_sha256": "214666ad6b1719157dfdb0b5b20e24ccc1bab7cb5681b9e508118229948e2df3",
+  "pdf_sha256": "1f4ea6029ae86c993ae32697f242f24e2145b9bb4c1075b4d6a0a5fb9a24be3e"
+}

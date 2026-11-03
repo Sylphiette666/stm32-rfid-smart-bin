@@ -1,0 +1,61 @@
+{
+  "status": "CANDIDATE_CHECKED_24H_TARGET_NOT_MET",
+  "target_seconds": 86400,
+  "estimated_total_seconds": 171691.9619140625,
+  "estimated_total_grams": 1202.1977443695068,
+  "files": [
+    {
+      "part": "LOWER_H41_B1",
+      "variant": "r3",
+      "project": "projects/P2S_LOWER_H41_B1_PLA_FAST_CANDIDATE.3mf",
+      "project_sha256": "4a017cf85f1bbae176fa0814ba82ef8219e36f287e8e27a295e26dce182f7414",
+      "estimated_seconds": 49278.73828125,
+      "grams": 373.94830322265625,
+      "max_vertex_error_after_rigid_transform_mm": 0.0,
+      "source_step_sha256": "edc79b88d22916703bf07481206c190100a6e0840a0e343c1ab054c5b2f266c6",
+      "scale": 1,
+      "layer_height_mm": 0.28
+    },
+    {
+      "part": "UPPER_INTEGRATED",
+      "variant": "r4",
+      "project": "projects/P2S_UPPER_INTEGRATED_PLA_FAST_CANDIDATE.3mf",
+      "project_sha256": "c6bcdd7bcbadeacc28bf5fb35d27884eda829f49c87f3c9eb9254bdc720032a0",
+      "estimated_seconds": 118706.3515625,
+      "grams": 802.9749755859375,
+      "max_vertex_error_after_rigid_transform_mm": 8.526512829121202e-14,
+      "source_step_sha256": "65b4bdc752fe85640e9a51772fc1e6ab5cb53beb3482654fe9bc4b3f57b254a2",
+      "scale": 1,
+      "layer_height_mm": 0.28
+    },
+    {
+      "part": "PANEL_COVER",
+      "variant": "r1",
+      "project": "projects/P2S_PANEL_COVER_PLA_FAST_CANDIDATE.3mf",
+      "project_sha256": "4bef97c2cdc29172b8652704442a0ee4e86fa46f7f38cc93174843e52779cdc2",
+      "estimated_seconds": 3706.8720703125,
+      "grams": 25.274465560913086,
+      "max_vertex_error_after_rigid_transform_mm": 0.0,
+      "source_step_sha256": "566ade4121140f15c5420b210554dcc6d88a29479faa20bddb00b219b3507e80",
+      "scale": 1,
+      "layer_height_mm": 0.2
+    }
+  ],
+  "physical_print_tested": false,
+  "print_job_sent": false,
+  "manual_chapter": 69,
+  "slicer": "Bambu Studio 02.08.02.61",
+  "nozzle_mm": 0.4,
+  "material": "Generic PLA",
+  "max_volumetric_speed_mm3_s": 12,
+  "limitations": [
+    "24 hours unmet for total AND for upper part",
+    "0.28 mm reduces surface finish relative to 0.08 mm",
+    "physical adhesion, strength and support removal untested"
+  ],
+  "log_review": [
+    "Final sliced plate warning fields empty",
+    "Voronoi automatic input rotation warning occurred for upper; completed slice and full path bounds verified",
+    "T65535 analyzer message is from unchanged official P2S machine_end_gcode AMS unloading block; no manufacturing G-code shipped"
+  ]
+}

@@ -147,3 +147,5 @@ hardware/mechanical/print-backup/lid-petg-final-20261103/** -text
 # Integral PLA artifacts retain exact bytes
 hardware/mechanical/print-backup/integrated-pla-20261104/** -text
 hardware/mechanical/print-backup/integrated-pla-20261104/step/*.step -diff -merge -text
+
+hardware/mechanical/print-backup/integrated-pla-fast-20261104/** -text
