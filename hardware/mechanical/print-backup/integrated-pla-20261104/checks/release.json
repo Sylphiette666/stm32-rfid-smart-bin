@@ -1,0 +1,80 @@
+{
+  "status": "DIGITAL_GEOMETRY_AND_SLICE_CHECKS_PASS_PHYSICAL_TRIAL_REQUIRED",
+  "printer": "P2S 0.4 nozzle",
+  "bed": "Textured PEI",
+  "bed_mm": [
+    256,
+    256,
+    256
+  ],
+  "material_user_confirmed": "PLA",
+  "slicer_version": "Bambu Studio 02.08.02.61 via local CLI host",
+  "principal_integral_bodies": 2,
+  "separate_service_cover": true,
+  "files": [
+    {
+      "id": "LOWER_H41_B1",
+      "label": "下半主体",
+      "project": "projects/P2S_LOWER_H41_B1_PLA_008.3mf",
+      "sha256": "b2a53630d12fd89c925ed345f2cabb5b5ac407e08d16c8621eed5011f9bb490c",
+      "seconds": 394992.0625,
+      "grams": 653.8988647460938,
+      "native_geometry_matches_sliced": true,
+      "layer_height_mm": 0.08,
+      "material": "PLA",
+      "source_step_sha256": "edc79b88d22916703bf07481206c190100a6e0840a0e343c1ab054c5b2f266c6",
+      "warning_message": ""
+    },
+    {
+      "id": "UPPER_INTEGRATED",
+      "label": "上半主体",
+      "project": "projects/P2S_UPPER_INTEGRATED_PLA_008.3mf",
+      "sha256": "dfd091e560b39c99eefcdea7b0c329f387f6acd4765bf25e5b73160daa986eca",
+      "seconds": 722051.5,
+      "grams": 1212.4832763671875,
+      "native_geometry_matches_sliced": true,
+      "layer_height_mm": 0.08,
+      "material": "PLA",
+      "source_step_sha256": "65b4bdc752fe85640e9a51772fc1e6ab5cb53beb3482654fe9bc4b3f57b254a2",
+      "warning_message": ""
+    },
+    {
+      "id": "PANEL_COVER",
+      "label": "可拆操作面板",
+      "project": "projects/P2S_PANEL_COVER_PLA_008.3mf",
+      "sha256": "d5ed7dc79248ee853e0bcdd93af145b1335b771aa194f8a606cc88fade334c54",
+      "seconds": 12613.078125,
+      "grams": 27.464052200317383,
+      "native_geometry_matches_sliced": true,
+      "layer_height_mm": 0.08,
+      "material": "PLA",
+      "source_step_sha256": "566ade4121140f15c5420b210554dcc6d88a29479faa20bddb00b219b3507e80",
+      "warning_message": ""
+    }
+  ],
+  "no_print_job_sent": true,
+  "physical_print_tested": false,
+  "load_tested": false,
+  "freecad_independent_check_performed": false,
+  "checked": [
+    "valid single solid for each principal body",
+    "closed manifold meshes",
+    "STEP roundtrip",
+    "motor contact face identity",
+    "PCB and closed module fixture interference",
+    "four platform pillars",
+    "functional through holes",
+    "removable panel interference",
+    "full extruded-path bed bounds including supports and brim",
+    "project geometry identical to sliced geometry",
+    "manual original 330 steps preserved"
+  ],
+  "limitations": [
+    "H41 is a nominal derived value, not measured Hb",
+    "tracker board thickness assumed 1.6 mm",
+    "actual solder joints and cable bend space require trial fit",
+    "full wheel and lid moving envelopes not available",
+    "PLA layer adhesion, load, fatigue, and support removal not physically tested",
+    "minimum mass is not proven by optimization or FEA"
+  ]
+}

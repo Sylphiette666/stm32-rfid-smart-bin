@@ -1,0 +1,35 @@
+{
+  "date": "2026-11-04",
+  "status": "USER_REQUIREMENTS_CONFIRMED_AND_DIGITAL_CHECKS_COMPLETE",
+  "printer": "Bambu Lab P2S",
+  "build_volume_mm": [
+    256,
+    256,
+    256
+  ],
+  "nozzle_mm": 0.4,
+  "bed": "Textured PEI",
+  "material": "PLA",
+  "material_authority": "User latest correction: 材质仍然是PLA, supersedes PETG history",
+  "layer_height_mm": 0.08,
+  "minimum_profile_layer_height_verified_mm": 0.08,
+  "principal_printed_bodies": 2,
+  "control_panel": "removable four-screw cover retained as accessory",
+  "caster_nominal_riser_mm": 41,
+  "tracker_probe_mm": 8,
+  "pcb_B1_outline_mm": [
+    125,
+    100
+  ],
+  "pcb_mount_pitch_mm": [
+    90,
+    90
+  ],
+  "source_chats": [
+    "制定智能垃圾桶搭建步骤1",
+    "3D打印"
+  ],
+  "skill": "https://github.com/alexanderkoller/codex-cad/blob/main/cad/SKILL.md",
+  "tree_support_reference": "https://github.com/OrcaSlicer/OrcaSlicer/wiki/support_settings_tree",
+  "physical_print_tested": false
+}

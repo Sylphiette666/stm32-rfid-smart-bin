@@ -1,0 +1,105 @@
+{
+  "units": "mm",
+  "status": "PASS",
+  "motor": [
+    {
+      "side": "LEFT",
+      "slot_centre_datum": [
+        96,
+        14
+      ],
+      "slot_size": [
+        12,
+        2.4
+      ],
+      "slot_pitch": 21,
+      "contact_plane_z": -25,
+      "contact_thickness": 3,
+      "contact_geometry_difference_mm3": 0.0,
+      "wheel_side_ligament": 1.3
+    },
+    {
+      "side": "RIGHT",
+      "slot_centre_datum": [
+        96,
+        206
+      ],
+      "slot_size": [
+        12,
+        2.4
+      ],
+      "slot_pitch": 21,
+      "contact_plane_z": -25,
+      "contact_thickness": 3,
+      "contact_geometry_difference_mm3": 0.0,
+      "wheel_side_ligament": 1.3
+    }
+  ],
+  "removable_panel_vs_upper_intersection_mm3": 0.0,
+  "lower_outline": [
+    280,
+    220,
+    5
+  ],
+  "upper_platform_outline": [
+    240,
+    190,
+    5
+  ],
+  "upper_platform_offset_from_lower": [
+    20,
+    15,
+    65
+  ],
+  "main_shell_outer": [
+    160,
+    150,
+    180
+  ],
+  "shell_position_on_upper": [
+    50,
+    20,
+    5
+  ],
+  "pcb_holes": [
+    [
+      115,
+      65
+    ],
+    [
+      205,
+      65
+    ],
+    [
+      115,
+      155
+    ],
+    [
+      205,
+      155
+    ]
+  ],
+  "caster_holes": [
+    [
+      240,
+      90
+    ],
+    [
+      240,
+      130
+    ]
+  ],
+  "caster_seat_z": -41,
+  "tracker_holes": [
+    [
+      185,
+      80.25
+    ],
+    [
+      185,
+      139.75
+    ]
+  ],
+  "tracker_seat_z": -43.4,
+  "physical_fit_confirmed": "only previous separate motor core user fit; all new integral assembly unprinted"
+}

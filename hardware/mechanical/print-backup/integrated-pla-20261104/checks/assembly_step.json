@@ -1,0 +1,23 @@
+{
+  "solid_count": 3,
+  "valid": true,
+  "source_volume_mm3": 978550.5130923036,
+  "roundtrip_volume_mm3": 978606.9796190441,
+  "volume_relative_error": 5.7704253367589965e-05,
+  "bounds_max_difference_each_mm": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "lower_origin": [
+    0,
+    0,
+    0
+  ],
+  "upper_origin": [
+    20,
+    15,
+    65
+  ],
+  "print_as_single_object": false
+}

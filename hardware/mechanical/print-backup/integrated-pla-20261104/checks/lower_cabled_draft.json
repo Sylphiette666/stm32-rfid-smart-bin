@@ -1,0 +1,68 @@
+{
+  "status": "CAD_GEOMETRY_CHECKED_SEE_RELEASE_JSON",
+  "units": "mm",
+  "solid_count": 1,
+  "valid_brep": true,
+  "step_roundtrip": true,
+  "mesh_watertight": true,
+  "volume_mm3": 345300.0598855051,
+  "caster_H_mm": 41,
+  "caster_H_provenance": "manual 66.19: nominal Hb61 minus wheel20 = H41; derived not measured",
+  "caster_centres": [
+    [
+      240,
+      90
+    ],
+    [
+      240,
+      130
+    ]
+  ],
+  "tracker_centres": [
+    [
+      185,
+      80.25
+    ],
+    [
+      185,
+      139.75
+    ]
+  ],
+  "tracker_probe_projection_user_mm": 8,
+  "tracker_drop_mm": 43.4,
+  "tracker_drop_provisional": true,
+  "pcb_concept_outline": [
+    125,
+    100
+  ],
+  "pcb_origin": [
+    110,
+    60
+  ],
+  "pcb_posts": [
+    [
+      115,
+      65
+    ],
+    [
+      205,
+      65
+    ],
+    [
+      115,
+      155
+    ],
+    [
+      205,
+      155
+    ]
+  ],
+  "pcb_seating_z": 25,
+  "pcb_not_frozen": false,
+  "not_checked": [
+    "physical printing, loads and dimensional accuracy",
+    "complete motor wheel and lid motion envelope",
+    "real cable routing",
+    "FreeCAD independent verification"
+  ]
+}

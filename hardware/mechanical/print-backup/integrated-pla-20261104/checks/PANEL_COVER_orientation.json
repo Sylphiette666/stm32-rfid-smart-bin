@@ -1,0 +1,59 @@
+{
+  "scale": 1,
+  "units": "mm",
+  "matrix_design_to_print": [
+    [
+      1.0,
+      0.0,
+      0.0,
+      56.0
+    ],
+    [
+      0.0,
+      1.0,
+      0.0,
+      84.0
+    ],
+    [
+      0.0,
+      0.0,
+      1.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "exact_brep_extent_mm": [
+    144.00000020000056,
+    88.00000020000058,
+    5.40113344722516
+  ],
+  "mesh_bounds_mm": [
+    [
+      56.0,
+      84.0,
+      0.0
+    ],
+    [
+      200.0,
+      172.0,
+      5.4
+    ]
+  ],
+  "mesh_faces": 25456,
+  "watertight": true,
+  "winding_consistent": true,
+  "cad_volume_mm3": 25110.6649050973,
+  "tessellation_linear_mm": 0.01,
+  "bed_mm": [
+    256,
+    256,
+    256
+  ],
+  "reserved_xy_each_side_mm": 8,
+  "source_material": "PLA"
+}

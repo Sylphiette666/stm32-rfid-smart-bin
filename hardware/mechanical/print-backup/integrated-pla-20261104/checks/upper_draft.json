@@ -1,0 +1,48 @@
+{
+  "status": "CAD_GEOMETRY_CHECKED_SEE_RELEASE_JSON",
+  "units": "mm",
+  "valid_brep": true,
+  "solid_count": 1,
+  "step_roundtrip": true,
+  "volume_mm3": 608142.3998426965,
+  "bounds_mm": [
+    [
+      -1.0000006355287431e-07,
+      -16.500549182004317,
+      -0.00047645494145648814
+    ],
+    [
+      267.00086431005366,
+      190.00000010000005,
+      185.00000010000102
+    ]
+  ],
+  "fixed_sensor_seats": [
+    "BEAM_SEAT",
+    "BEAM_SEAT",
+    "LIGHT_CRADLE",
+    "DHT_SEAT",
+    "POWER_POD",
+    "BEAM_LEDGE",
+    "BEAM_LEDGE",
+    "LID_SWITCH_PLATE",
+    "LID_SOFTSTOP_SEAT",
+    "LID_SOFTSTOP_SEAT",
+    "LED_INSERT",
+    "CABLE_SADDLE",
+    "CABLE_SADDLE",
+    "CABLE_SADDLE",
+    "CABLE_SADDLE"
+  ],
+  "mesh_watertight": true,
+  "mesh_winding": true,
+  "orientation_candidates_with_8mm_xy_margin": [],
+  "not_checked": [
+    "physical printing, loads and dimensional accuracy",
+    "complete motor wheel and lid motion envelope",
+    "real cable routing",
+    "FreeCAD independent verification"
+  ],
+  "panel_access": "user confirmed removable panel matching original four-screw scheme; separate accessory",
+  "source": "original STEP and explicit transforms from render_wall_clamp_preview.py"
+}

@@ -1,0 +1,33 @@
+{
+  "status": "STRUCTURAL_CHECKS_PASS",
+  "steps_preserved": 330,
+  "old_tables_preserved": 80,
+  "explicit_table_changes": [
+    {
+      "table": 0,
+      "row": 2,
+      "cell": 1,
+      "before": "3mm PVC固定外壳，2mm PVC活动盖，1mm PP五片内胆。",
+      "after": "PLA一体底板及上平台筒壁，操作面板和活动盖可拆，见第68章。"
+    }
+  ],
+  "old_media_preserved": true,
+  "pages": 266,
+  "page_numbers_verified": true,
+  "visual_review_pages": [
+    1,
+    2,
+    5,
+    6,
+    260,
+    261,
+    262,
+    263,
+    264,
+    265,
+    266
+  ],
+  "docx_sha256": "214666ad6b1719157dfdb0b5b20e24ccc1bab7cb5681b9e508118229948e2df3",
+  "baseline_sha256": "710d6eb9d7d4843d2290b1a6eb7779b5462571460a63ba17c334a671815f2cdb",
+  "pdf_sha256": "69ce0ef8ac36bc45d70c9f8cf2bc36c92852df695d740ff4e5b523429a51cae0"
+}

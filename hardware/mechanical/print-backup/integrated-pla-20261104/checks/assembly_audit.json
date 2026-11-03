@@ -1,0 +1,91 @@
+{
+  "status": "PASS",
+  "conflicts": [],
+  "holes": [
+    {
+      "xy": [
+        115,
+        65
+      ],
+      "bore_core_intersection_mm3": 0.0
+    },
+    {
+      "xy": [
+        205,
+        65
+      ],
+      "bore_core_intersection_mm3": 0.0
+    },
+    {
+      "xy": [
+        115,
+        155
+      ],
+      "bore_core_intersection_mm3": 0.0
+    },
+    {
+      "xy": [
+        205,
+        155
+      ],
+      "bore_core_intersection_mm3": 0.0
+    },
+    {
+      "xy": [
+        240,
+        90
+      ],
+      "bore_core_intersection_mm3": 0.0
+    },
+    {
+      "xy": [
+        240,
+        130
+      ],
+      "bore_core_intersection_mm3": 0.0
+    },
+    {
+      "xy": [
+        185,
+        80.25
+      ],
+      "bore_core_intersection_mm3": 0.0
+    },
+    {
+      "xy": [
+        185,
+        139.75
+      ],
+      "bore_core_intersection_mm3": 0.0
+    }
+  ],
+  "pcb_outline_mm": [
+    125,
+    100,
+    1.6
+  ],
+  "pcb_bottom_z": 25,
+  "pcb_origin": [
+    110,
+    60
+  ],
+  "pcb_vs_lower_intersection_mm3": 0.0,
+  "upper_offset_xyz": [
+    20,
+    15,
+    65
+  ],
+  "caster_H": 41,
+  "nominal_ground_z": -61,
+  "tracker_board_thickness_assumed_mm": 1.6,
+  "tracker_probe_protrusion_user_mm": 8,
+  "nominal_probe_ground_clearance_mm": 8,
+  "caster_height_provenance": "Manual 66.19 nominal dimensional chain, not a measured ground height",
+  "module_clamps": 27,
+  "physical_strength_tested": false,
+  "limitations": [
+    "connector cable bend radius and actual solder joints require fit check",
+    "full motor wheel solid unavailable",
+    "load and fatigue not tested"
+  ]
+}

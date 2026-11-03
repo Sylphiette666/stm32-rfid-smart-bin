@@ -1,0 +1,17 @@
+{
+  "input": "D:\\Work\\嵌入式课设\\codex_readback\\integrated_pla_manual_20261104\\STM32与RFID智能移动垃圾桶_逐步组装与调试实施手册_图解增强版.docx",
+  "pdf": "D:\\Work\\嵌入式课设\\codex_readback\\integrated_pla_manual_20261104\\manual.pdf",
+  "text": "",
+  "update_and_save": true,
+  "initial_word_pids": [],
+  "owned_word_pid": 10364,
+  "ownership_verified": true,
+  "pages": 266,
+  "status": "success",
+  "ownership_method": "single_new_pid_creation_time_and_COM_identity_hwnd_zero",
+  "hwnd_pid_before_open": 0,
+  "hwnd_pid_after_open": 0,
+  "user_instances_touched": false,
+  "cleanup_warnings": [],
+  "finished_at": "2026-11-04T01:49:41.9396757+08:00"
+}
