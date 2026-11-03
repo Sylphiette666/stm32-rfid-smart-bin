@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "project": "P2S_CASTER_H41_TRACKER_ALL_012.3mf",
+  "objects": 10,
+  "printer": "Bambu Lab P2S 0.4 nozzle",
+  "material": "Generic PLA",
+  "layer_mm": 0.12,
+  "wall_loops": 6,
+  "infill": "45% gyroid",
+  "estimated_seconds": 9095.703125,
+  "filament_g": 27.69638442993164,
+  "warning_message": "",
+  "sha256": "830deb0a82afdc1be6cb025bb7cb8b92d0b0c21f43c2a270ad54cbafff581c43",
+  "physical_print_tested": false
+}

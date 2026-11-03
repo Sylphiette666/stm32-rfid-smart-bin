@@ -1,0 +1,120 @@
+{
+  "status": "CAD_GEOMETRY_CHECKED",
+  "source_parts": [
+    "CASTER_FRAME",
+    "TRACKER_FRAME",
+    "CASTER_COLUMN_A_H41",
+    "CASTER_COLUMN_B_H41",
+    "TRACKER_SPACER_14_A",
+    "TRACKER_SPACER_14_B",
+    "TRACKER_SPACER_18_A",
+    "TRACKER_SPACER_18_B",
+    "TRACKER_SPACER_22_A",
+    "TRACKER_SPACER_22_B"
+  ],
+  "object_count": 10,
+  "plate_size_mm": [
+    256,
+    256
+  ],
+  "bounds_xy_mm": [
+    [
+      "CASTER_FRAME",
+      [
+        20.0,
+        70.0,
+        70.5,
+        175.0
+      ]
+    ],
+    [
+      "TRACKER_FRAME",
+      [
+        95.0,
+        70.0,
+        142.0,
+        141.5
+      ]
+    ],
+    [
+      "CASTER_COLUMN_A_H41",
+      [
+        165.0,
+        70.0,
+        178.0,
+        83.0
+      ]
+    ],
+    [
+      "CASTER_COLUMN_B_H41",
+      [
+        195.0,
+        70.0,
+        208.0,
+        83.0
+      ]
+    ],
+    [
+      "TRACKER_SPACER_14_A",
+      [
+        165.0,
+        105.0,
+        173.0,
+        113.0
+      ]
+    ],
+    [
+      "TRACKER_SPACER_14_B",
+      [
+        165.0,
+        135.0,
+        173.0,
+        143.0
+      ]
+    ],
+    [
+      "TRACKER_SPACER_18_A",
+      [
+        195.0,
+        105.0,
+        203.0,
+        113.0
+      ]
+    ],
+    [
+      "TRACKER_SPACER_18_B",
+      [
+        195.0,
+        135.0,
+        203.0,
+        143.0
+      ]
+    ],
+    [
+      "TRACKER_SPACER_22_A",
+      [
+        225.0,
+        105.0,
+        233.0,
+        113.0
+      ]
+    ],
+    [
+      "TRACKER_SPACER_22_B",
+      [
+        225.0,
+        135.0,
+        233.0,
+        143.0
+      ]
+    ]
+  ],
+  "minimum_clearance_mm": 10.2,
+  "print_orientations_preserved": true,
+  "same_height_tracker_spacer_pairs_mm": [
+    14,
+    18,
+    22
+  ],
+  "physical_print_tested": false
+}

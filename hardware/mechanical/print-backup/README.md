@@ -4,6 +4,8 @@
 
 [三路循迹模块轻量转接架](tracker-mount-20261103/README.md)：复用底板拼接孔，模块59.5mm孔距，打印工程约9.6g。
 
+[H41 万向轮支架与循迹架同盘打印](caster-tracker-plate-20261103/README.md)：10件同盘，P2S切片约27.7g。
+
 # 当前桶盖打印版本
 
 [PETG高精度最终打印工程](lid-petg-final-20261103/README.md)：0.08mm层高，六件，约3小时53分钟。替代此前PLA打印设置，安装结构不变。
