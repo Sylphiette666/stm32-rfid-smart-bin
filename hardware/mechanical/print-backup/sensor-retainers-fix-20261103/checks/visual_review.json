@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "old_seat_assembly_previews_reviewed": [
+    "LIGHT_CRADLE",
+    "BEAM_SEAT"
+  ],
+  "replacement_four_views_reviewed": [
+    "LIGHT_BAR_V2",
+    "BEAM_CUP_V2"
+  ],
+  "actual_first_layer_reviewed": true,
+  "manual_pages_reviewed": [
+    249,
+    250
+  ],
+  "physical_trial_fit": false
+}

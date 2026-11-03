@@ -1,0 +1,128 @@
+{
+  "status": "PASS_DIGITAL_FIT_OLD_PRINT_PHYSICAL_FIT_PENDING",
+  "parts": {
+    "LIGHT_BAR_V2": {
+      "copies": 2,
+      "size_mm": [
+        50.0,
+        5.599999904632568,
+        3.299999952316284
+      ],
+      "volume_mm3": 661.553443865276,
+      "print_rotation_x_deg": 180,
+      "normalization_translation": [
+        -0.0,
+        5.6,
+        3.0
+      ],
+      "mesh_relative_volume_error": 7.817281096626136e-06,
+      "valid_single_solid": true,
+      "watertight_connected": true,
+      "STEP_reopened": true
+    },
+    "BEAM_CUP_V2": {
+      "copies": 2,
+      "size_mm": [
+        29.9999999,
+        9.900000472204589,
+        11.400000472204589
+      ],
+      "volume_mm3": 749.2698773086994,
+      "print_rotation_x_deg": 180,
+      "normalization_translation": [
+        1e-07,
+        11.200000100000002,
+        14.7000001
+      ],
+      "mesh_relative_volume_error": 6.188093986256665e-06,
+      "valid_single_solid": true,
+      "watertight_connected": true,
+      "STEP_reopened": true
+    }
+  },
+  "total_print_objects": 4,
+  "old_seats_and_walls_reprinted": false,
+  "light": {
+    "old_seat_nominal_hole_pitch_x_mm": 36,
+    "old_seat_nominal_hole_pitch_y_mm": 23,
+    "old_matched_bar_nominal_pitch_mm": 36,
+    "actual_old_print_not_remeasured": true,
+    "new_bar_length_mm": 50,
+    "slot_length_mm": 10,
+    "slot_width_mm": 3.4,
+    "slot_centre_pitch_mm": 36,
+    "ideal_hole_pitch_adjustment_range_mm": [
+      29.4,
+      42.6
+    ],
+    "range_requires_hardware_clearance_check": true,
+    "inner_contact_step_mm": 0.3,
+    "nominal_PCB_thickness_mm": 2,
+    "PCB_and_old_seat_collision_mm3": 0,
+    "mounts": [
+      {
+        "origin": [
+          -3,
+          0.7,
+          7.3
+        ],
+        "rotate_z": 0
+      },
+      {
+        "origin": [
+          -3,
+          23.7,
+          7.3
+        ],
+        "rotate_z": 180,
+        "rotation_centre_xy": [
+          25,
+          2.8
+        ]
+      }
+    ]
+  },
+  "beam": {
+    "old_two_hole_pitch_mm": 22,
+    "new_cap_plate_thickness_mm": 2.4,
+    "cap_holes_in_old_seat_xy": [
+      [
+        4,
+        8.7
+      ],
+      [
+        26,
+        8.7
+      ]
+    ],
+    "lower_shoulders_x_mm": [
+      [
+        7.4,
+        11
+      ],
+      [
+        19,
+        22.6
+      ]
+    ],
+    "lower_stop_y_mm": 3.7,
+    "open_wire_gap_mm": 8,
+    "sensor_nominal_envelope_mm": [
+      10,
+      20,
+      9
+    ],
+    "sensor_origin": [
+      10,
+      3.7,
+      3.3
+    ],
+    "downward_0_1mm_blocked_intersection_mm3": 1.8000000000000016,
+    "outward_0_1mm_blocked_intersection_mm3": 6.299999999999978,
+    "optical_gauge_diameter_mm": 7,
+    "old_seat_interference_mm3": 0,
+    "wire_gauge_clear": true
+  },
+  "mesh_tolerance_mm": 0.01,
+  "physical_trial_fit_or_load_tested": false
+}

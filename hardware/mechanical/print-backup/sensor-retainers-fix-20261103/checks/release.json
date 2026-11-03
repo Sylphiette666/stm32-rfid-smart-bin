@@ -1,0 +1,22 @@
+{
+  "status": "REPLACEMENT_PRINT_PROJECT_RELEASED_PHYSICAL_FIT_PENDING",
+  "project": "P2S_LIGHT_BARS_IR_CUPS_FIX_FINE_012.3mf",
+  "objects": 4,
+  "retained_original_seats": true,
+  "old_light_pitch_nominal_mm": 36,
+  "old_beam_pitch_mm": 22,
+  "actual_old_print_not_remeasured": true,
+  "light_adjustable_hole_pitch_ideal_mm": [
+    29.4,
+    42.6
+  ],
+  "beam_lower_shoulders_added": true,
+  "open_wire_gap_mm": 8,
+  "estimated_seconds": 2427.858154296875,
+  "filament_g": 3.622675657272339,
+  "layer_height_mm": 0.12,
+  "manual_section": "66.16",
+  "manual_sha256": "ead9eb3f7a6491806c4deaa59d2c1f835b5a3f3cc2f99faa4aa2e4510a5169a6",
+  "printer_jobs_sent": false,
+  "physical_trial_fit": false
+}

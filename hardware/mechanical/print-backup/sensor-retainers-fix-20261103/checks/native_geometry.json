@@ -1,0 +1,32 @@
+{
+  "status": "PASS_NATIVE_ROUNDTRIP",
+  "objects": [
+    {
+      "name": "LIGHT_BAR_V2",
+      "bidirectional_vertex_error_mm": 4.32420045287161e-06,
+      "on_bed": true,
+      "scale_and_orientation_match": true
+    },
+    {
+      "name": "LIGHT_BAR_V2",
+      "bidirectional_vertex_error_mm": 5.387211057308118e-06,
+      "on_bed": true,
+      "scale_and_orientation_match": true
+    },
+    {
+      "name": "BEAM_CUP_V2",
+      "bidirectional_vertex_error_mm": 7.759356639115238e-06,
+      "on_bed": true,
+      "scale_and_orientation_match": true
+    },
+    {
+      "name": "BEAM_CUP_V2",
+      "bidirectional_vertex_error_mm": 7.874568004798049e-06,
+      "on_bed": true,
+      "scale_and_orientation_match": true
+    }
+  ],
+  "max_allowed_roundtrip_error_mm": 5e-05,
+  "all_objects_verified": 4,
+  "not_a_physical_tolerance_claim": true
+}

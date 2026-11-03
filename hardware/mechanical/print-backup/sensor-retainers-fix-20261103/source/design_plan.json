@@ -1,0 +1,21 @@
+{
+  "user_reports": [
+    "Fig1 upper strips do not align with previously printed base",
+    "Fig2 IR housing can slip out downwards"
+  ],
+  "scope": "Reuse original LIGHT_CRADLE and BEAM_SEAT and all wall holes. Replace two L bars and two IR fork caps only.",
+  "evidence_limit": "Original light digital matched pair both nominal36mm; actual old printed pitch was not measured. Do not claim the physical mismatch cause identified.",
+  "changes": [
+    "Adjustable slots and equal two L bars, existing PCB contact band maintained",
+    "Two lower positive support shoulders and front capture, open8mm wiring slot"
+  ],
+  "review_plan": [
+    "Saved old STEP fit",
+    "Nominal PCB/sensor envelopes, holes and optical opening",
+    "Downward and outward motion stops",
+    "Fine mesh and print flat-face setup",
+    "Native P2S slice, full paths and geometry roundtrip",
+    "Manual update with old parts retained"
+  ],
+  "physical_dimensions_or_strength_guaranteed": false
+}

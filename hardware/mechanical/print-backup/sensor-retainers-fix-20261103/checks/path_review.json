@@ -1,0 +1,20 @@
+{
+  "status": "PASS_ALL_LAYER_PATHS",
+  "first_layer_objects": 4,
+  "layers": 94,
+  "extrusions_checked": 18634,
+  "bounds": [
+    [
+      27.386,
+      32.386
+    ],
+    [
+      192.614,
+      68.214
+    ]
+  ],
+  "support_moves": 0,
+  "all_paths_in_bed": true,
+  "G39_absent": true,
+  "physical_trial_fit": false
+}
