@@ -1,0 +1,16 @@
+{
+  "P2S_HINGE_TRIAL_PETG_FINAL_008.3mf": "6d05a69d64114487ff3edf2c919525195200a744ddc6c9087f1dae38d88b7ab2",
+  "P2S_LID_PETG_FINAL_008.3mf": "f27ba67f5a45958c712445817f93c05bf203bbd5820a1bf7f682838ad7ad65cc",
+  "README.md": "885be11ebac208db497adb5abdedf0f7c1061d9e83ae7c62fec08bbb2cb0160f",
+  "checks/native_geometry.json": "433ba2db7696c7e5447fa53ea094b804905e3a835dcb55a151ca036ed49aab01",
+  "checks/path_review.json": "bac17c6fd1c4e3389f493c8797bd0f61237efbd3e01e0cd5a75b2608db23800c",
+  "checks/slicing.json": "5c71a825c860b6600c8dcb4567fc34ba3b362a36f51eddc9e62cb5acfb2474eb",
+  "parts/L01_LIGHT_LID_PRINT.stl": "6bbe5e3cc3ea7a3ee761745529a556086e73414e68b879e45a8585cdb9226c97",
+  "parts/L02_HINGE_SHOE_PRINT.stl": "44023eee514625bfe1895f6260f917e3f2b76ea4055e325aaf2aa9b5b3a94c53",
+  "parts/L03_LINK_ARM_PRINT.stl": "dce583c7d41123fe3e950bef4d91cf6d3c047760cc877b41617e32aa2cc9cb37",
+  "parts/L04_SWITCH_FOOT_PRINT.stl": "c6247c6ec10f2ebdb4214e353be699e98168572c3d5a0ed2f27fe88347d70326",
+  "parts/L05_SWITCH_TONGUE_PRINT.stl": "f8eb9dd0b75723951af70f6d971f42189ed5bb1ac165a291a58c194e24de4a26",
+  "parts/T01_HINGE_FIT_COUPON_PRINT.stl": "12a6c191bd6d347dbe463d4d31b61933ff1127b22e41c9a0e756845027ddd9ce",
+  "preview/05_actual_first_layers.png": "48bf7a3fae33abb31342a0bfccaf366303564d8cdc91787e1bfbc7cabc55f87a",
+  "source/layout.json": "0edb771e105c40ef5e74b2c0dc99418cbe9fd52f3519e42dd227bdb3cc8dd102"
+}

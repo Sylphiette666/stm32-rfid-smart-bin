@@ -1,0 +1,56 @@
+{
+  "LID": {
+    "status": "PASS",
+    "objects_verified": 6,
+    "objects": [
+      {
+        "name": "L01_LIGHT_LID",
+        "bidirectional_vertex_error_mm": 9.56889275802875e-06,
+        "on_bed": true
+      },
+      {
+        "name": "L02_HINGE_SHOE",
+        "bidirectional_vertex_error_mm": 7.920313730850373e-06,
+        "on_bed": true
+      },
+      {
+        "name": "L02_HINGE_SHOE",
+        "bidirectional_vertex_error_mm": 8.48959504752511e-06,
+        "on_bed": true
+      },
+      {
+        "name": "L03_LINK_ARM",
+        "bidirectional_vertex_error_mm": 8.424450866445643e-06,
+        "on_bed": true
+      },
+      {
+        "name": "L04_SWITCH_FOOT",
+        "bidirectional_vertex_error_mm": 7.867943162927904e-06,
+        "on_bed": true
+      },
+      {
+        "name": "L05_SWITCH_TONGUE",
+        "bidirectional_vertex_error_mm": 8.53094436179501e-06,
+        "on_bed": true
+      }
+    ],
+    "physical_tolerance_claim": false
+  },
+  "HINGE_TRIAL": {
+    "status": "PASS",
+    "objects_verified": 2,
+    "objects": [
+      {
+        "name": "T01_HINGE_FIT_COUPON",
+        "bidirectional_vertex_error_mm": 5.399023604374755e-06,
+        "on_bed": true
+      },
+      {
+        "name": "L02_HINGE_SHOE",
+        "bidirectional_vertex_error_mm": 8.748497634032085e-06,
+        "on_bed": true
+      }
+    ],
+    "physical_tolerance_claim": false
+  }
+}
