@@ -1,0 +1,13 @@
+{
+  "status": "SLICED",
+  "project": "P2S_TRACKER_LIGHT_FINE_012.3mf",
+  "objects": 7,
+  "material": "Generic PLA",
+  "printer": "Bambu Lab P2S 0.4 nozzle",
+  "layer_mm": 0.12,
+  "estimated_seconds": 4122.4443359375,
+  "filament_g": 9.562958717346191,
+  "warning_message": "",
+  "sha256": "1180784223679b74ce9dd0c404294751282e1e56606069706a516676a4ed8d68",
+  "physical_trial_fit": false
+}

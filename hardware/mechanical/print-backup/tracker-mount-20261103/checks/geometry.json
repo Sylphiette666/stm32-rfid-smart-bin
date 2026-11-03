@@ -1,0 +1,54 @@
+{
+  "status": "CAD_GEOMETRY_CHECKED",
+  "anchors_mm": [
+    [
+      150,
+      88
+    ],
+    [
+      150,
+      116
+    ]
+  ],
+  "tracker_holes_mm": [
+    [
+      185,
+      80.25
+    ],
+    [
+      185,
+      139.75
+    ]
+  ],
+  "tracker_hole_pitch_mm": 59.5,
+  "frame_thickness_mm": 3,
+  "board_envelope_mm": [
+    27,
+    67,
+    1.6
+  ],
+  "front_caster_protected_zone_start_x_mm": 214,
+  "board_to_zone_nominal_xy_gap_mm": 15.5,
+  "spacer_lengths_mm": [
+    14,
+    18,
+    22
+  ],
+  "volume_mm3": 3185.8824813298243,
+  "spacer_volume_mm3": {
+    "14": 576.6079156398706,
+    "18": 741.3530343941194,
+    "22": 906.098153148368
+  },
+  "collision_checks": [
+    "split base",
+    "three splice bridges",
+    "both motor carriers",
+    "other splice bolt envelopes",
+    "board versus motor carriers"
+  ],
+  "physical_ground_height_unmeasured": true,
+  "actual_caster_envelope_unmeasured": true,
+  "actual_sensor_component_depth_unmeasured": true,
+  "slicer_tested": false
+}
