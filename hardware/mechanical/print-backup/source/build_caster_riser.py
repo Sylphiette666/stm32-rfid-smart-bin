@@ -36,7 +36,7 @@ cq.exporters.export(frame,str(O/'step/CASTER_FRAME_ASSEMBLY.step'))
 flat=frame.rotate((0,0,0),(1,0,0),180);bb=flat.BoundingBox();flat=flat.translate((-bb.xmin,-bb.ymin,-bb.zmin))
 cq.exporters.export(flat,str(O/'parts/CASTER_FRAME_PRINT.stl'),tolerance=.02,angularTolerance=.05)
 vol={};meshes={}
-for H in (35,40,45):
+for H in (35,40,41,45):
  h=H-7
  # 13 mm outer diameter and 3.4 mm metal-fastener clearance: 4.8 mm radial wall.
  s=cq.Solid.makeCylinder(6.5,h).cut(cq.Solid.makeCylinder(1.7,h))
@@ -46,7 +46,7 @@ for H in (35,40,45):
  vol[H]=s.Volume()
 ns='http://schemas.microsoft.com/3dmanufacturing/core/2015/02';ET.register_namespace('',ns);tag=lambda n:'{'+ns+'}'+n
 template=B/'flat-split-20261101/geometry/PLATE_3_GEOMETRY.3mf'
-for H in (35,40,45):
+for H in (35,40,41,45):
  items=[]
  for name,path,xy in [('CASTER_FRAME',O/'parts/CASTER_FRAME_PRINT.stl',(25,25)),('COLUMN_A',O/'parts'/f'CASTER_COLUMN_{H}_PRINT.stl',(145,35)),('COLUMN_B',O/'parts'/f'CASTER_COLUMN_{H}_PRINT.stl',(170,35))]:
   mesh=trimesh.load_mesh(path);mesh.merge_vertices(digits_vertex=5)
@@ -62,5 +62,5 @@ for H in (35,40,45):
  with zipfile.ZipFile(template) as z0,zipfile.ZipFile(out,'w',zipfile.ZIP_DEFLATED) as z:
   for n in ('[Content_Types].xml','_rels/.rels'):z.writestr(n,z0.read(n))
   z.writestr('3D/3dmodel.model',ET.tostring(root,encoding='utf-8',xml_declaration=True))
-save(O/'checks/geometry.json',{'status':'CAD_GEOMETRY_CHECKED','base_holes_mm':a,'caster_holes_mm':c,'caster_hole_pitch_mm':40,'base_to_caster_top_drop_variants_mm':[35,40,45],'frame_thickness_mm':4,'caster_pad_total_depth_mm':7,'counterbore_diameter_mm':6.4,'counterbore_depth_mm':2.2,'column_outer_diameter_mm':13,'column_bore_mm':3.4,'frame_volume_mm3':frame.Volume(),'column_volume_each_mm3':vol,'collision_checks':['split base','both motor carriers','tracker frame'],'caster_plate_hole_diameter_unmeasured':True,'caster_plate_footprint_unmeasured':True,'actual_Hb_unmeasured':True,'physical_strength_tested':False})
+save(O/'checks/geometry.json',{'status':'CAD_GEOMETRY_CHECKED','base_holes_mm':a,'caster_holes_mm':c,'caster_hole_pitch_mm':40,'base_to_caster_top_drop_variants_mm':[35,40,41,45],'nominal_height_chain_mm':{'wheel_radius':32.5,'old_reference_Hb':45,'old_reference_axle_below_deck':12.5,'new_motor_drop':16,'new_nominal_Hb':61,'caster_total_height':20,'nominal_riser_H':41},'frame_thickness_mm':4,'caster_pad_total_depth_mm':7,'counterbore_diameter_mm':6.4,'counterbore_depth_mm':2.2,'column_outer_diameter_mm':13,'column_bore_mm':3.4,'frame_volume_mm3':frame.Volume(),'column_volume_each_mm3':vol,'collision_checks':['split base','both motor carriers','tracker frame'],'caster_plate_hole_diameter_unmeasured':True,'caster_plate_footprint_unmeasured':True,'actual_axle_offset_unmeasured':True,'actual_Hb_unmeasured':True,'physical_strength_tested':False})
 print((O/'checks/geometry.json').read_text(encoding='utf8'))

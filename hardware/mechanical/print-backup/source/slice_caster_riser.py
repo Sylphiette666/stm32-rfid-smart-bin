@@ -10,7 +10,7 @@ cfg=R.parent/'.p2s-pack-20261030/slicer-validation'
 for n,data in [('process',process),('machine',load(cfg/'machine.json')),('filament',load(cfg/'filament.json'))]:save(W/f'{n}.json',data)
 cli=Path(r'C:\Users\35462\AppData\Local\Temp\smartbin-bambu-cli-20261030\portable\BambuCliHost.exe')
 reports={}
-for H in (35,40,45):
+for H in (35,40,41,45):
  v=W/f'H{H}';v.mkdir(exist_ok=True)
  src=O/f'CASTER_RISER_H{H}_GEOMETRY.3mf';pname=f'P2S_CASTER_RISER_H{H}_LIGHT_016.3mf'
  cmd=[str(cli),'--datadir',str(cli.parent.parent/'isolated-data'),'--load-settings',str(W/'machine.json')+';'+str(W/'process.json'),'--load-filaments',str(W/'filament.json'),'--arrange','0','--orient','0','--slice','0','--export-3mf','sliced.3mf','--outputdir',str(v),'--debug','2',str(src)]

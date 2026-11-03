@@ -24,8 +24,18 @@
   "base_to_caster_top_drop_variants_mm": [
     35,
     40,
+    41,
     45
   ],
+  "nominal_height_chain_mm": {
+    "wheel_radius": 32.5,
+    "old_reference_Hb": 45,
+    "old_reference_axle_below_deck": 12.5,
+    "new_motor_drop": 16,
+    "new_nominal_Hb": 61,
+    "caster_total_height": 20,
+    "nominal_riser_H": 41
+  },
   "frame_thickness_mm": 4,
   "caster_pad_total_depth_mm": 7,
   "counterbore_diameter_mm": 6.4,
@@ -36,6 +46,7 @@
   "column_volume_each_mm3": {
     "35": 3462.2864316682385,
     "40": 4080.55186589471,
+    "41": 4204.204952740003,
     "45": 4698.81730012118
   },
   "collision_checks": [
@@ -45,6 +56,7 @@
   ],
   "caster_plate_hole_diameter_unmeasured": true,
   "caster_plate_footprint_unmeasured": true,
+  "actual_axle_offset_unmeasured": true,
   "actual_Hb_unmeasured": true,
   "physical_strength_tested": false
 }
