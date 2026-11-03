@@ -1,0 +1,56 @@
+{
+  "status": "PASS_NATIVE_ROUNDTRIP",
+  "objects": [
+    {
+      "name": "C1_LEFT_REAR",
+      "bidirectional_vertex_error_mm": 6.744261189693421e-06,
+      "on_bed": true,
+      "scale_and_orientation_match": true
+    },
+    {
+      "name": "C2_LEFT_FRONT",
+      "bidirectional_vertex_error_mm": 5.9531854380958205e-06,
+      "on_bed": true,
+      "scale_and_orientation_match": true
+    },
+    {
+      "name": "C3_RIGHT_FRONT",
+      "bidirectional_vertex_error_mm": 6.085717933582192e-06,
+      "on_bed": true,
+      "scale_and_orientation_match": true
+    },
+    {
+      "name": "C4_RIGHT_REAR",
+      "bidirectional_vertex_error_mm": 7.767023746927087e-06,
+      "on_bed": true,
+      "scale_and_orientation_match": true
+    },
+    {
+      "name": "PRESSURE_PAD_1",
+      "bidirectional_vertex_error_mm": 8.377157317269645e-06,
+      "on_bed": true,
+      "scale_and_orientation_match": true
+    },
+    {
+      "name": "PRESSURE_PAD_2",
+      "bidirectional_vertex_error_mm": 8.377157317269645e-06,
+      "on_bed": true,
+      "scale_and_orientation_match": true
+    },
+    {
+      "name": "PRESSURE_PAD_3",
+      "bidirectional_vertex_error_mm": 8.377157317269645e-06,
+      "on_bed": true,
+      "scale_and_orientation_match": true
+    },
+    {
+      "name": "PRESSURE_PAD_4",
+      "bidirectional_vertex_error_mm": 8.377157317269645e-06,
+      "on_bed": true,
+      "scale_and_orientation_match": true
+    }
+  ],
+  "max_allowed_roundtrip_error_mm": 5e-05,
+  "all_objects_verified": 8,
+  "not_a_physical_tolerance_claim": true
+}

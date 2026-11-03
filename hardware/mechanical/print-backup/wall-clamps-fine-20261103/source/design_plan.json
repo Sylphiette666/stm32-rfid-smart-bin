@@ -1,0 +1,21 @@
+{
+  "user_request": "High precision print-ready .3MF",
+  "printer": "existing Bambu P2S 0.4mm nozzle",
+  "material_assumption": "Generic PLA, matching previous released projects",
+  "construction": "Bottom-loaded metal M3 nut; floating-head pressure screw; original flush wall position",
+  "changes_from_preview": [
+    "45 degree cap gussets on three long clamps",
+    "R0.6 outer long edges on C1/C2/C3",
+    "R0.4 outer lower edge on C4",
+    "Fine .01mm mesh; side-print bodies; pads flat; tree supports as sliced"
+  ],
+  "review_plan": [
+    "Exact BRep interference",
+    "Nut roof and bores",
+    "Watertight meshes and STEP reopen",
+    "Slicer warnings and all-layer bounds",
+    "Actual support and first layer images",
+    "Same-name Word update"
+  ],
+  "printer_dispatch": false
+}

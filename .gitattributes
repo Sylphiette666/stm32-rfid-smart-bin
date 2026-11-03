@@ -127,3 +127,9 @@ hardware/mechanical/print-backup/motor-existing-holes-light-20261103/step/** bin
 hardware/mechanical/print-backup/wall-clamp-preview-20261103/** -text
 hardware/mechanical/print-backup/wall-clamp-preview-20261103/step/** binary
 hardware/mechanical/print-backup/wall-clamp-preview-20261103/qa_meshes/** binary
+
+# Fine-print wall hold-down release exports
+hardware/mechanical/print-backup/wall-clamps-fine-20261103/** -text
+hardware/mechanical/print-backup/wall-clamps-fine-20261103/*.3mf binary
+hardware/mechanical/print-backup/wall-clamps-fine-20261103/step/** binary
+hardware/mechanical/print-backup/wall-clamps-fine-20261103/parts/** binary

@@ -1,0 +1,242 @@
+{
+  "status": "PASS_DIGITAL_GEOMETRY_PHYSICAL_FIT_PENDING",
+  "variants": [
+    {
+      "id": "C1_LEFT_REAR",
+      "anchor": [
+        10,
+        10
+      ],
+      "pressure": [
+        90,
+        13
+      ],
+      "edge": "left",
+      "anchor_type": "platform_corner",
+      "anchor_screw": "M3x16",
+      "anchor_top_z": 11,
+      "pressure_pad_top_z": 9.4,
+      "nut_top_z": 12.6,
+      "nut_roof_thickness_mm": 2.4,
+      "nut_insertion": "from underside before clamp installation",
+      "pressure_bolt_under_head_z": 17.4,
+      "footprint_size_mm": [
+        99.0001363475603,
+        20.2000002000001,
+        15.000336239390986
+      ],
+      "volume_mm3": 8170.155945525888,
+      "collision_check": "PASS",
+      "actual_convex_edge_radius_mm": 0.6,
+      "fillet_edge_count": 2,
+      "gusset_angle_deg": 45,
+      "assembly_to_print_rotation_x_deg": 90,
+      "normalization_translation": [
+        -3.0,
+        15.0,
+        2.7000000000000006
+      ],
+      "print_size_mm": [
+        98.99996132755405,
+        15.0,
+        20.200000762939453
+      ],
+      "print_volume_mm3": 8235.940719869199,
+      "mesh_relative_volume_error": 9.106965040371335e-06,
+      "triangles": 3436,
+      "host_interference_mm3": {
+        "P02": 0.0,
+        "P04": 0.0,
+        "P03": 0.0,
+        "W01_FRONT": 0.0,
+        "W02_REAR": 0.0,
+        "W03_LEFT": 0.0,
+        "W04_RIGHT": 0.0
+      },
+      "nut_pocket_and_2_4_mm_roof_checked": true,
+      "orientation_note": "outer side toward bed; keep saved orientation; automatic tree support"
+    },
+    {
+      "id": "C2_LEFT_FRONT",
+      "anchor": [
+        230,
+        10
+      ],
+      "pressure": [
+        170,
+        13
+      ],
+      "edge": "left",
+      "anchor_type": "platform_corner",
+      "anchor_screw": "M3x16",
+      "anchor_top_z": 11,
+      "pressure_pad_top_z": 9.4,
+      "nut_top_z": 12.6,
+      "nut_roof_thickness_mm": 2.4,
+      "nut_insertion": "from underside before clamp installation",
+      "pressure_bolt_under_head_z": 17.4,
+      "footprint_size_mm": [
+        79.00013634756033,
+        20.200000200000115,
+        15.000336239390997
+      ],
+      "volume_mm3": 6682.155945525896,
+      "collision_check": "PASS",
+      "actual_convex_edge_radius_mm": 0.6,
+      "fillet_edge_count": 2,
+      "gusset_angle_deg": 45,
+      "assembly_to_print_rotation_x_deg": 90,
+      "normalization_translation": [
+        -158.0,
+        15.0,
+        2.7000000000000006
+      ],
+      "print_size_mm": [
+        78.99996185302734,
+        15.0,
+        20.200000762939453
+      ],
+      "print_volume_mm3": 6751.030986316592,
+      "mesh_relative_volume_error": 1.089591134695967e-05,
+      "triangles": 3436,
+      "host_interference_mm3": {
+        "P02": 0.0,
+        "P04": 0.0,
+        "P03": 0.0,
+        "W01_FRONT": 0.0,
+        "W02_REAR": 0.0,
+        "W03_LEFT": 0.0,
+        "W04_RIGHT": 0.0
+      },
+      "nut_pocket_and_2_4_mm_roof_checked": true,
+      "orientation_note": "outer side toward bed; keep saved orientation; automatic tree support"
+    },
+    {
+      "id": "C3_RIGHT_FRONT",
+      "anchor": [
+        230,
+        180
+      ],
+      "pressure": [
+        170,
+        177
+      ],
+      "edge": "right",
+      "anchor_type": "platform_corner",
+      "anchor_screw": "M3x16",
+      "anchor_top_z": 11,
+      "pressure_pad_top_z": 9.4,
+      "nut_top_z": 12.6,
+      "nut_roof_thickness_mm": 2.4,
+      "nut_insertion": "from underside before clamp installation",
+      "pressure_bolt_under_head_z": 17.4,
+      "footprint_size_mm": [
+        79.0001363475603,
+        20.20000020000012,
+        15.000336239391006
+      ],
+      "volume_mm3": 6682.155945525888,
+      "collision_check": "PASS",
+      "actual_convex_edge_radius_mm": 0.6,
+      "fillet_edge_count": 2,
+      "gusset_angle_deg": 45,
+      "assembly_to_print_rotation_x_deg": -90,
+      "normalization_translation": [
+        -158.0,
+        -2.112754415861673e-14,
+        192.7
+      ],
+      "print_size_mm": [
+        78.99996185302734,
+        15.0,
+        20.200000762939453
+      ],
+      "print_volume_mm3": 6751.030986316148,
+      "mesh_relative_volume_error": 1.0897500266788543e-05,
+      "triangles": 3436,
+      "host_interference_mm3": {
+        "P02": 0.0,
+        "P04": 0.0,
+        "P03": 0.0,
+        "W01_FRONT": 0.0,
+        "W02_REAR": 0.0,
+        "W03_LEFT": 0.0,
+        "W04_RIGHT": 0.0
+      },
+      "nut_pocket_and_2_4_mm_roof_checked": true,
+      "orientation_note": "outer side toward bed; keep saved orientation; automatic tree support"
+    },
+    {
+      "id": "C4_RIGHT_REAR",
+      "anchor": [
+        70,
+        180
+      ],
+      "pressure": [
+        90,
+        177
+      ],
+      "edge": "right",
+      "anchor_type": "shared_servo_tray",
+      "anchor_screw": "M3x20",
+      "anchor_top_z": 14,
+      "pressure_pad_top_z": 9.4,
+      "nut_top_z": 12.6,
+      "nut_roof_thickness_mm": 2.4,
+      "nut_insertion": "from underside before clamp installation",
+      "pressure_bolt_under_head_z": 17.4,
+      "footprint_size_mm": [
+        38.50000020000012,
+        15.500000200000102,
+        10.000336239390949
+      ],
+      "volume_mm3": 1961.1932543428911,
+      "collision_check": "PASS",
+      "actual_convex_edge_radius_mm": 0.4,
+      "fillet_edge_count": 1,
+      "gusset_angle_deg": null,
+      "assembly_to_print_rotation_x_deg": -90,
+      "normalization_translation": [
+        -63.499999999999815,
+        -5.0000000000000195,
+        188.0
+      ],
+      "print_size_mm": [
+        38.499999999999815,
+        10.0,
+        15.5
+      ],
+      "print_volume_mm3": 1960.5752010534934,
+      "mesh_relative_volume_error": 2.960602610331211e-06,
+      "triangles": 2530,
+      "host_interference_mm3": {
+        "P02": 0.0,
+        "P04": 0.0,
+        "P03": 0.0,
+        "W01_FRONT": 0.0,
+        "W02_REAR": 0.0,
+        "W03_LEFT": 0.0,
+        "W04_RIGHT": 0.0
+      },
+      "nut_pocket_and_2_4_mm_roof_checked": true,
+      "orientation_note": "outer side toward bed; keep saved orientation; automatic tree support"
+    }
+  ],
+  "pressure_pad": {
+    "diameter_mm": 8,
+    "thickness_mm": 1.2,
+    "copies": 4,
+    "flat_face_on_bed": true
+  },
+  "clamps": 4,
+  "total_print_objects": 8,
+  "nominal_anchor_and_pressure_positions_unchanged": true,
+  "new_P02_holes": 0,
+  "wall_lift_mm": 0,
+  "minimum_nut_retaining_roof_mm": 2.4,
+  "mesh_linear_tolerance_mm": 0.01,
+  "mesh_angular_tolerance_radian": 0.05,
+  "actual_screw_head_and_post_depth_unmeasured": true,
+  "physical_fit_tested": false,
+  "physical_load_tested": false
+}

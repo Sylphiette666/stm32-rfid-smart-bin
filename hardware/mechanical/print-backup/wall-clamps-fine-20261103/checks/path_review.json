@@ -1,0 +1,23 @@
+{
+  "status": "PASS_DIGITAL_PRINT_CHECKS",
+  "first_layer_object_count": 8,
+  "layers": 168,
+  "all_extrusion_moves_checked": 97430,
+  "extrusion_bounds": [
+    [
+      20.558,
+      24.305741276647268
+    ],
+    [
+      230.435,
+      135.46018028990505
+    ]
+  ],
+  "all_paths_in_bed": true,
+  "actual_support_moves": 12519,
+  "support_starts_on_build_plate": true,
+  "native_geometry_matches_tested": true,
+  "scale": 1,
+  "G39_absent": true,
+  "physical_fit_or_load_tested": false
+}

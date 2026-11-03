@@ -1,0 +1,18 @@
+{
+  "status": "PRINT_PROJECT_RELEASED_PHYSICAL_FIT_PENDING",
+  "project": "P2S_WALL_CLAMPS_AND_PADS_FINE_012.3mf",
+  "object_count": 8,
+  "layer_height_mm": 0.12,
+  "mesh_linear_tolerance_mm": 0.01,
+  "dimensional_accuracy_guarantee": false,
+  "estimated_seconds": 12030.9345703125,
+  "filament_g": 30.46011734008789,
+  "support": "tree(auto)",
+  "manual_section": "66.15",
+  "manual_sha256": "e4aa267f21ff33bc50dc65e2e86ac022e57623b65466415996079c2ee8c13548",
+  "new_P02_holes": 0,
+  "wall_lift_mm": 0,
+  "physical_printed": false,
+  "load_tested": false,
+  "printer_jobs_sent": false
+}

@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "actual_CAD_four_views_reviewed": [
+    "C1_LEFT_REAR",
+    "C2_LEFT_FRONT",
+    "C3_RIGHT_FRONT",
+    "C4_RIGHT_REAR"
+  ],
+  "saved_print_orientation_reviewed": true,
+  "actual_first_layer_reviewed": true,
+  "actual_all_layer_support_reviewed": true,
+  "manual_changed_pages": [
+    247,
+    248
+  ],
+  "physical_print_or_load_tested": false
+}
