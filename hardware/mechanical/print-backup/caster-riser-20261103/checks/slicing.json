@@ -1,0 +1,33 @@
+{
+  "status": "PASS",
+  "printer": "Bambu Lab P2S 0.4 nozzle",
+  "material": "Generic PLA",
+  "layer_mm": 0.16,
+  "variants": {
+    "35": {
+      "project": "P2S_CASTER_RISER_H35_LIGHT_016.3mf",
+      "objects": 3,
+      "estimated_seconds": 4229.419921875,
+      "filament_g": 16.60171890258789,
+      "sha256": "2eb87d06fd393e8afcad813d0ee92c9a8a73271a10fa298d0da93f8ad7bb0940",
+      "warning_message": ""
+    },
+    "40": {
+      "project": "P2S_CASTER_RISER_H40_LIGHT_016.3mf",
+      "objects": 3,
+      "estimated_seconds": 4572.97998046875,
+      "filament_g": 18.128076553344727,
+      "sha256": "e61c6022a9870fd190820c5f905c9be93dab54c9d465c24753f959734ba44432",
+      "warning_message": ""
+    },
+    "45": {
+      "project": "P2S_CASTER_RISER_H45_LIGHT_016.3mf",
+      "objects": 3,
+      "estimated_seconds": 4916.896484375,
+      "filament_g": 19.65447425842285,
+      "sha256": "bae374feb5b68911ed11d436246a149f743edf0d06b05afaf848a00619a5fc1b",
+      "warning_message": ""
+    }
+  },
+  "physical_test": false
+}

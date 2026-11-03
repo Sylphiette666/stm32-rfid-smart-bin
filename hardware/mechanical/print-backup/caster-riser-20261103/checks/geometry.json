@@ -1,0 +1,50 @@
+{
+  "status": "CAD_GEOMETRY_CHECKED",
+  "base_holes_mm": [
+    [
+      205,
+      65
+    ],
+    [
+      205,
+      155
+    ]
+  ],
+  "caster_holes_mm": [
+    [
+      240,
+      90
+    ],
+    [
+      240,
+      130
+    ]
+  ],
+  "caster_hole_pitch_mm": 40,
+  "base_to_caster_top_drop_variants_mm": [
+    35,
+    40,
+    45
+  ],
+  "frame_thickness_mm": 4,
+  "caster_pad_total_depth_mm": 7,
+  "counterbore_diameter_mm": 6.4,
+  "counterbore_depth_mm": 2.2,
+  "column_outer_diameter_mm": 13,
+  "column_bore_mm": 3.4,
+  "frame_volume_mm3": 6401.914206816107,
+  "column_volume_each_mm3": {
+    "35": 3462.2864316682385,
+    "40": 4080.55186589471,
+    "45": 4698.81730012118
+  },
+  "collision_checks": [
+    "split base",
+    "both motor carriers",
+    "tracker frame"
+  ],
+  "caster_plate_hole_diameter_unmeasured": true,
+  "caster_plate_footprint_unmeasured": true,
+  "actual_Hb_unmeasured": true,
+  "physical_strength_tested": false
+}
