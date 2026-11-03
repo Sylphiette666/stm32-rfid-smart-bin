@@ -1,0 +1,13 @@
+{
+  "valid": true,
+  "solids": 114,
+  "bbox_mm": [
+    0.0,
+    125.0,
+    -100.0,
+    0.0,
+    -2.1850000000000005,
+    15.395000000000001
+  ],
+  "scope": "nominal KiCad library models, not measured purchased-module envelopes"
+}

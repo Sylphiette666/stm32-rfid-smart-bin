@@ -1,0 +1,71 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-11-03T23:18:21",
+    "ignored_checks": [
+        {
+            "description": "Global label only appears once in the schematic",
+            "key": "single_global_label"
+        },
+        {
+            "description": "Four connection points are joined together",
+            "key": "four_way_junction"
+        },
+        {
+            "description": "SPICE model issue",
+            "key": "simulation_model_issue"
+        },
+        {
+            "description": "Assigned footprint doesn't match footprint filters",
+            "key": "footprint_filter"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "10.0.6",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/09ca505d-b72c-5316-9c7d-22df3b4c4c7e",
+            "violations": []
+        },
+        {
+            "path": "/02 01 Power distribution and ADC/",
+            "uuid_path": "/09ca505d-b72c-5316-9c7d-22df3b4c4c7e/e82f8422-854b-5c29-b3bd-f4a660ba2c2a",
+            "violations": []
+        },
+        {
+            "path": "/03 02 MCU, MCP23017 and emergency stop/",
+            "uuid_path": "/09ca505d-b72c-5316-9c7d-22df3b4c4c7e/0a2dd61d-d329-5e90-a515-92f62d783ebf",
+            "violations": []
+        },
+        {
+            "path": "/04 03 Serial module interfaces/",
+            "uuid_path": "/09ca505d-b72c-5316-9c7d-22df3b4c4c7e/f3afd5a6-afe9-5b43-8212-e3eacd60c4b8",
+            "violations": []
+        },
+        {
+            "path": "/05 04 Buffered outputs and actuators/",
+            "uuid_path": "/09ca505d-b72c-5316-9c7d-22df3b4c4c7e/24d41a6d-1403-5787-92cc-2bb88121841f",
+            "violations": []
+        },
+        {
+            "path": "/06 05 Sensor and user inputs/",
+            "uuid_path": "/09ca505d-b72c-5316-9c7d-22df3b4c4c7e/d38554b3-fb4a-5996-b3b8-9059a77b15ff",
+            "violations": []
+        },
+        {
+            "path": "/07 06 Non-inverting sensor input translation/",
+            "uuid_path": "/09ca505d-b72c-5316-9c7d-22df3b4c4c7e/4f682112-6ec9-598d-bbab-900dc2642a53",
+            "violations": []
+        },
+        {
+            "path": "/08 06 Non-inverting sensor input translation/",
+            "uuid_path": "/09ca505d-b72c-5316-9c7d-22df3b4c4c7e/433e2736-1f93-5298-b48b-e0df2ed1b68f",
+            "violations": []
+        }
+    ],
+    "source": "SmartBin_B.kicad_sch"
+}

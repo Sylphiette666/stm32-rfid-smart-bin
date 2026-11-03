@@ -1,0 +1,611 @@
+{
+  "pass": true,
+  "parts": 126,
+  "connected_pins_expected": 372,
+  "changed_existing_pins": [
+    {
+      "ref": "J31",
+      "pin": "3",
+      "before": "MCP_GPA6",
+      "after": "DF_BUSY_RAW"
+    },
+    {
+      "ref": "J33",
+      "pin": "4",
+      "before": "MCP_GPB0",
+      "after": "IR0_RAW"
+    },
+    {
+      "ref": "J33",
+      "pin": "5",
+      "before": "MCP_GPB1",
+      "after": "IR1_RAW"
+    },
+    {
+      "ref": "J33",
+      "pin": "6",
+      "before": "MCP_GPB2",
+      "after": "IR2_RAW"
+    },
+    {
+      "ref": "J33",
+      "pin": "7",
+      "before": "MCP_GPB3",
+      "after": "IR3_RAW"
+    },
+    {
+      "ref": "J33",
+      "pin": "8",
+      "before": "PB8",
+      "after": "IR4_RAW"
+    },
+    {
+      "ref": "J33",
+      "pin": "9",
+      "before": "PA12",
+      "after": "IR5_RAW"
+    }
+  ],
+  "preserved_power_segments": [
+    {
+      "net": "VBAT_SW",
+      "width_mm": 3,
+      "start": [
+        7,
+        13
+      ],
+      "end": [
+        13.5,
+        13
+      ],
+      "missing_mm": 0.0
+    },
+    {
+      "net": "VBAT_SW",
+      "width_mm": 3,
+      "start": [
+        13.5,
+        13
+      ],
+      "end": [
+        13.5,
+        27
+      ],
+      "missing_mm": 0.0
+    },
+    {
+      "net": "VBAT_SW",
+      "width_mm": 3,
+      "start": [
+        13.5,
+        27
+      ],
+      "end": [
+        7,
+        27
+      ],
+      "missing_mm": 0.0
+    },
+    {
+      "net": "5V_BUS",
+      "width_mm": 3,
+      "start": [
+        7,
+        41
+      ],
+      "end": [
+        13.5,
+        41
+      ],
+      "missing_mm": 0.0
+    },
+    {
+      "net": "5V_BUS",
+      "width_mm": 3,
+      "start": [
+        13.5,
+        41
+      ],
+      "end": [
+        13.5,
+        87
+      ],
+      "missing_mm": 0.0
+    },
+    {
+      "net": "5V_BUS",
+      "width_mm": 2,
+      "start": [
+        7,
+        55
+      ],
+      "end": [
+        13.5,
+        55
+      ],
+      "missing_mm": 0.0
+    },
+    {
+      "net": "5V_BUS",
+      "width_mm": 2,
+      "start": [
+        7,
+        69
+      ],
+      "end": [
+        13.5,
+        69
+      ],
+      "missing_mm": 0.0
+    },
+    {
+      "net": "5V_BUS",
+      "width_mm": 2,
+      "start": [
+        7,
+        82
+      ],
+      "end": [
+        13.5,
+        82
+      ],
+      "missing_mm": 0.0
+    },
+    {
+      "net": "5V_BUS",
+      "width_mm": 2,
+      "start": [
+        13.5,
+        51
+      ],
+      "end": [
+        21,
+        51
+      ],
+      "missing_mm": 0.0
+    },
+    {
+      "net": "5V_BUS",
+      "width_mm": 2,
+      "start": [
+        13.5,
+        69
+      ],
+      "end": [
+        21,
+        69
+      ],
+      "missing_mm": 0.0
+    },
+    {
+      "net": "5V_BUS",
+      "width_mm": 2,
+      "start": [
+        13.5,
+        87
+      ],
+      "end": [
+        21,
+        87
+      ],
+      "missing_mm": 0.0
+    },
+    {
+      "net": "5V_BUS",
+      "width_mm": 0.8,
+      "start": [
+        13.5,
+        60
+      ],
+      "end": [
+        13.5,
+        60
+      ],
+      "missing_mm": 0.0
+    },
+    {
+      "net": "5V_BUS",
+      "width_mm": 0.8,
+      "start": [
+        13.5,
+        60
+      ],
+      "end": [
+        18,
+        60
+      ],
+      "missing_mm": 0.0
+    },
+    {
+      "net": "5V_BUS",
+      "width_mm": 0.8,
+      "start": [
+        13.5,
+        78
+      ],
+      "end": [
+        13.5,
+        78
+      ],
+      "missing_mm": 0.0
+    },
+    {
+      "net": "5V_BUS",
+      "width_mm": 0.8,
+      "start": [
+        13.5,
+        78
+      ],
+      "end": [
+        18,
+        78
+      ],
+      "missing_mm": 0.0
+    },
+    {
+      "net": "5V_BUS",
+      "width_mm": 0.8,
+      "start": [
+        13.5,
+        87
+      ],
+      "end": [
+        13.5,
+        96
+      ],
+      "missing_mm": 0.0
+    },
+    {
+      "net": "5V_BUS",
+      "width_mm": 0.8,
+      "start": [
+        13.5,
+        96
+      ],
+      "end": [
+        18,
+        96
+      ],
+      "missing_mm": 0.0
+    },
+    {
+      "net": "GND",
+      "width_mm": 3,
+      "start": [
+        13.5,
+        18.08
+      ],
+      "end": [
+        13.5,
+        93
+      ],
+      "missing_mm": 0.0
+    },
+    {
+      "net": "GND",
+      "width_mm": 3,
+      "start": [
+        7,
+        18.08
+      ],
+      "end": [
+        13.5,
+        18.08
+      ],
+      "missing_mm": 0.0
+    },
+    {
+      "net": "GND",
+      "width_mm": 3,
+      "start": [
+        7,
+        32.08
+      ],
+      "end": [
+        13.5,
+        32.08
+      ],
+      "missing_mm": 0.0
+    },
+    {
+      "net": "GND",
+      "width_mm": 3,
+      "start": [
+        7,
+        46.08
+      ],
+      "end": [
+        13.5,
+        46.08
+      ],
+      "missing_mm": 0.0
+    },
+    {
+      "net": "GND",
+      "width_mm": 2,
+      "start": [
+        7,
+        60.08
+      ],
+      "end": [
+        13.5,
+        60.08
+      ],
+      "missing_mm": 0.0
+    },
+    {
+      "net": "GND",
+      "width_mm": 2,
+      "start": [
+        7,
+        74.08
+      ],
+      "end": [
+        13.5,
+        74.08
+      ],
+      "missing_mm": 0.0
+    },
+    {
+      "net": "GND",
+      "width_mm": 2,
+      "start": [
+        7,
+        87.08
+      ],
+      "end": [
+        13.5,
+        87.08
+      ],
+      "missing_mm": 0.0
+    },
+    {
+      "net": "GND",
+      "width_mm": 2,
+      "start": [
+        26,
+        51
+      ],
+      "end": [
+        29,
+        54
+      ],
+      "missing_mm": 0.0
+    },
+    {
+      "net": "GND",
+      "width_mm": 2,
+      "start": [
+        29,
+        54
+      ],
+      "end": [
+        29,
+        57
+      ],
+      "missing_mm": 0.0
+    },
+    {
+      "net": "GND",
+      "width_mm": 2,
+      "start": [
+        29,
+        57
+      ],
+      "end": [
+        13.5,
+        57
+      ],
+      "missing_mm": 0.0
+    },
+    {
+      "net": "GND",
+      "width_mm": 2,
+      "start": [
+        26,
+        69
+      ],
+      "end": [
+        29,
+        72
+      ],
+      "missing_mm": 0.0
+    },
+    {
+      "net": "GND",
+      "width_mm": 2,
+      "start": [
+        29,
+        72
+      ],
+      "end": [
+        29,
+        75
+      ],
+      "missing_mm": 0.0
+    },
+    {
+      "net": "GND",
+      "width_mm": 2,
+      "start": [
+        29,
+        75
+      ],
+      "end": [
+        13.5,
+        75
+      ],
+      "missing_mm": 0.0
+    },
+    {
+      "net": "GND",
+      "width_mm": 2,
+      "start": [
+        26,
+        87
+      ],
+      "end": [
+        29,
+        90
+      ],
+      "missing_mm": 0.0
+    },
+    {
+      "net": "GND",
+      "width_mm": 2,
+      "start": [
+        29,
+        90
+      ],
+      "end": [
+        29,
+        93
+      ],
+      "missing_mm": 0.0
+    },
+    {
+      "net": "GND",
+      "width_mm": 2,
+      "start": [
+        29,
+        93
+      ],
+      "end": [
+        13.5,
+        93
+      ],
+      "missing_mm": 0.0
+    },
+    {
+      "net": "5V_BUS",
+      "width_mm": 0.8,
+      "start": [
+        45.62,
+        46
+      ],
+      "end": [
+        45.62,
+        45.38
+      ],
+      "missing_mm": 0.0
+    },
+    {
+      "net": "5V_BUS",
+      "width_mm": 0.8,
+      "start": [
+        45.62,
+        45.38
+      ],
+      "end": [
+        49,
+        42
+      ],
+      "missing_mm": 0.0
+    }
+  ],
+  "holes_from_top_left_mm": {
+    "H1": [
+      5.0,
+      5.0
+    ],
+    "H2": [
+      95.0,
+      5.0
+    ],
+    "H3": [
+      5.0,
+      95.0
+    ],
+    "H4": [
+      95.0,
+      95.0
+    ]
+  },
+  "input_buffer_channels": 7,
+  "buffer_pinout_source": "TI SCES351Y page 3 DBV; 1 NC,2 A,3 GND,4 Y,5 VCC",
+  "bypass_geometry": [
+    {
+      "buffer": "U2",
+      "cap": "C9",
+      "pad_distance_mm": 2.2577989835235552,
+      "track_graph_length_mm": 2.32766504294497
+    },
+    {
+      "buffer": "U3",
+      "cap": "C10",
+      "pad_distance_mm": 2.2577989835235552,
+      "track_graph_length_mm": 2.32766504294497
+    },
+    {
+      "buffer": "U4",
+      "cap": "C11",
+      "pad_distance_mm": 2.2577989835235552,
+      "track_graph_length_mm": 2.3276650429449695
+    },
+    {
+      "buffer": "U5",
+      "cap": "C12",
+      "pad_distance_mm": 2.2577989835235552,
+      "track_graph_length_mm": 2.3276650429449695
+    },
+    {
+      "buffer": "U6",
+      "cap": "C13",
+      "pad_distance_mm": 2.2577989835235552,
+      "track_graph_length_mm": 2.3276650429449695
+    },
+    {
+      "buffer": "U7",
+      "cap": "C14",
+      "pad_distance_mm": 2.2577989835235552,
+      "track_graph_length_mm": 2.3276650429449695
+    },
+    {
+      "buffer": "U8",
+      "cap": "C15",
+      "pad_distance_mm": 2.2577989835235552,
+      "track_graph_length_mm": 2.3276650429449752
+    }
+  ],
+  "pcb_drc": {
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-11-03T23:31:29",
+    "ignored_checks": [
+      {
+        "description": "Footprint has no courtyard defined",
+        "key": "missing_courtyard"
+      },
+      {
+        "description": "Track endpoint not centered on via",
+        "key": "track_not_centered_on_via"
+      },
+      {
+        "description": "Tuning profile track geometries",
+        "key": "tuning_profile_track_geometries"
+      },
+      {
+        "description": "Footprint doesn't match symbol's footprint filters",
+        "key": "footprint_filters_mismatch"
+      },
+      {
+        "description": "Footprint component type doesn't match footprint pads",
+        "key": "footprint_type_mismatch"
+      }
+    ],
+    "included_severities": [
+      "error",
+      "warning"
+    ],
+    "kicad_version": "10.0.6",
+    "schematic_parity": [],
+    "source": "SmartBin_B.kicad_pcb",
+    "unconnected_items": [],
+    "violations": []
+  },
+  "limitations": [
+    "No physical assembly, load, thermal or EMC validation.",
+    "Original A1 two-layer return-path limitations retained.",
+    "125x100 outline requires mechanical clearance review; 90x90 mounting pitch retained."
+  ]
+}

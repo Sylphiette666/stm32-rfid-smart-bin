@@ -1,0 +1,12 @@
+{
+  "SmartBin_B-F_Cu.gtl": "e40506ba3935e998fd9051cc32feac817bdcb4691c9c3da2bb9c44f73828aecc",
+  "SmartBin_B-B_Cu.gbl": "6bfa7aa4c57bab4633f81a212eceb64abadf0898728951a5240ae88b8b4dae18",
+  "SmartBin_B-F_Mask.gts": "22e07259638682a48eb1faf10f68f7269b60b5a0fb4c0641a9f13f027479a2ea",
+  "SmartBin_B-B_Mask.gbs": "4ef0afda45269c6a7b95b9b8304043ebdaa0f46b72996b459371e00301e489c2",
+  "SmartBin_B-F_Silkscreen.gto": "a73a85fd1058df5501949b9d6ae1779f963f63f947b847ee36a1fe01b978503b",
+  "SmartBin_B-B_Silkscreen.gbo": "85fbc82e0f80645e69ad2d3406febe780a9c1b3df01c68d0d12f08cb7c34c7b1",
+  "SmartBin_B-Edge_Cuts.gm1": "9e3a48324875dec459ff4a3f0fc9fd433fffbadde1013123c58f21e9d0763f2e",
+  "SmartBin_B-PTH.drl": "5c6ce82a5cb862cb566e157824e18243f28882e4253de0236eedca29176b37ce",
+  "SmartBin_B-NPTH.drl": "fbbbdccfb885b39f575dec455260b4def33b83a4a1140a6a9540e67bcf6b8dc3",
+  "Gerber_RS274X.zip": "1b8b3e079ba02926eb4b3fff88b39c265b799dcbf3e91559954281963cff6565"
+}

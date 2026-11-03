@@ -1,0 +1,2 @@
+# Keep released CAD/manufacturing bytes stable across checkouts and SHA checks.
+* -text

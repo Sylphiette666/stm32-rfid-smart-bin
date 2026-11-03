@@ -1,0 +1,166 @@
+(kicad_sch (version 20250114) (generator kicad-tool)
+  (generator_version "1.0")
+
+  (uuid 09ca505d-b72c-5316-9c7d-22df3b4c4c7e)
+
+  (paper "A3")
+
+  (title_block
+    (title "SmartBin B / System index")
+    (date "2026-11-03")
+    (rev "B1")
+    (company "STM32 + RFID / DIY through-hole carrier")
+    (comment 1 "Existing external modules; cable connected; all named nets are global.")
+    (comment 2 "Prototype: verify polarity and module pin order before connection.")
+  )
+  (lib_symbols)
+
+  (text "SYSTEM INDEX"
+    (at 15 16 0)
+    (effects (font (size 2 2) (bold yes)) (justify left))
+    (uuid 3bf5090a-4ee8-58bd-bae1-cd7b77964356)
+  )
+  (text "B1 | Cable carrier + input buffers | Existing assembled modules remain external"
+    (at 15 22 0)
+    (effects (font (size 1.15 1.15)) (justify left))
+    (uuid 22b4574b-ccd5-5d41-b953-7fe6e1fc556c)
+  )
+  (text "PROJECT STRUCTURE"
+    (at 20 38 0)
+    (effects (font (size 1.5 1.5) (bold yes)) (justify left))
+    (uuid 05236938-6d4b-5629-b3b2-355b1e1f4946)
+  )
+  (text "Assembly guidance and external module connections are specified in the accompanying manual."
+    (at 20 255 0)
+    (effects (font (size 1.2 1.2)) (justify left))
+    (uuid 22a5a8fc-2c88-56fa-8108-59f7d8272cab)
+  )
+  (text "Do not connect the core 3.3 V rail in parallel with the external 3.3 V regulator."
+    (at 20 262 0)
+    (effects (font (size 1.2 1.2)) (justify left))
+    (uuid 8a1670b4-b96a-515d-a42f-6708e3242645)
+  )
+
+  (sheet (at 25 54) (size 160 20)
+    (stroke (width 0))
+    (fill (color 0 0 0 0))
+    (uuid e82f8422-854b-5c29-b3bd-f4a660ba2c2a)
+    (property "Sheetname" "02 01 Power distribution and ADC" (at 30 59 0)
+      (effects (font (size 1.2 1.2)) (justify left))
+    )
+    (property "Sheetfile" "SmartBin_B_01_01.kicad_sch" (at 30 68 0)
+      (effects (font (size 1.1 1.1)) (justify left))
+    )
+    (instances
+      (project "SmartBin_B"
+        (path "/09ca505d-b72c-5316-9c7d-22df3b4c4c7e" (page "2"))
+      )
+    )
+  )
+
+  (sheet (at 215 54) (size 160 20)
+    (stroke (width 0))
+    (fill (color 0 0 0 0))
+    (uuid 0a2dd61d-d329-5e90-a515-92f62d783ebf)
+    (property "Sheetname" "03 02 MCU, MCP23017 and emergency stop" (at 220 59 0)
+      (effects (font (size 1.2 1.2)) (justify left))
+    )
+    (property "Sheetfile" "SmartBin_B_02_01.kicad_sch" (at 220 68 0)
+      (effects (font (size 1.1 1.1)) (justify left))
+    )
+    (instances
+      (project "SmartBin_B"
+        (path "/09ca505d-b72c-5316-9c7d-22df3b4c4c7e" (page "3"))
+      )
+    )
+  )
+
+  (sheet (at 25 91) (size 160 20)
+    (stroke (width 0))
+    (fill (color 0 0 0 0))
+    (uuid f3afd5a6-afe9-5b43-8212-e3eacd60c4b8)
+    (property "Sheetname" "04 03 Serial module interfaces" (at 30 96 0)
+      (effects (font (size 1.2 1.2)) (justify left))
+    )
+    (property "Sheetfile" "SmartBin_B_03_01.kicad_sch" (at 30 105 0)
+      (effects (font (size 1.1 1.1)) (justify left))
+    )
+    (instances
+      (project "SmartBin_B"
+        (path "/09ca505d-b72c-5316-9c7d-22df3b4c4c7e" (page "4"))
+      )
+    )
+  )
+
+  (sheet (at 215 91) (size 160 20)
+    (stroke (width 0))
+    (fill (color 0 0 0 0))
+    (uuid 24d41a6d-1403-5787-92cc-2bb88121841f)
+    (property "Sheetname" "05 04 Buffered outputs and actuators" (at 220 96 0)
+      (effects (font (size 1.2 1.2)) (justify left))
+    )
+    (property "Sheetfile" "SmartBin_B_04_01.kicad_sch" (at 220 105 0)
+      (effects (font (size 1.1 1.1)) (justify left))
+    )
+    (instances
+      (project "SmartBin_B"
+        (path "/09ca505d-b72c-5316-9c7d-22df3b4c4c7e" (page "5"))
+      )
+    )
+  )
+
+  (sheet (at 25 128) (size 160 20)
+    (stroke (width 0))
+    (fill (color 0 0 0 0))
+    (uuid d38554b3-fb4a-5996-b3b8-9059a77b15ff)
+    (property "Sheetname" "06 05 Sensor and user inputs" (at 30 133 0)
+      (effects (font (size 1.2 1.2)) (justify left))
+    )
+    (property "Sheetfile" "SmartBin_B_05_01.kicad_sch" (at 30 142 0)
+      (effects (font (size 1.1 1.1)) (justify left))
+    )
+    (instances
+      (project "SmartBin_B"
+        (path "/09ca505d-b72c-5316-9c7d-22df3b4c4c7e" (page "6"))
+      )
+    )
+  )
+
+  (sheet (at 215 128) (size 160 20)
+    (stroke (width 0))
+    (fill (color 0 0 0 0))
+    (uuid 4f682112-6ec9-598d-bbab-900dc2642a53)
+    (property "Sheetname" "07 06 Non-inverting sensor input translation" (at 220 133 0)
+      (effects (font (size 1.2 1.2)) (justify left))
+    )
+    (property "Sheetfile" "SmartBin_B_06_01.kicad_sch" (at 220 142 0)
+      (effects (font (size 1.1 1.1)) (justify left))
+    )
+    (instances
+      (project "SmartBin_B"
+        (path "/09ca505d-b72c-5316-9c7d-22df3b4c4c7e" (page "7"))
+      )
+    )
+  )
+
+  (sheet (at 25 165) (size 160 20)
+    (stroke (width 0))
+    (fill (color 0 0 0 0))
+    (uuid 433e2736-1f93-5298-b48b-e0df2ed1b68f)
+    (property "Sheetname" "08 06 Non-inverting sensor input translation" (at 30 170 0)
+      (effects (font (size 1.2 1.2)) (justify left))
+    )
+    (property "Sheetfile" "SmartBin_B_06_02.kicad_sch" (at 30 179 0)
+      (effects (font (size 1.1 1.1)) (justify left))
+    )
+    (instances
+      (project "SmartBin_B"
+        (path "/09ca505d-b72c-5316-9c7d-22df3b4c4c7e" (page "8"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)

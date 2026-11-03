@@ -1,0 +1,26 @@
+ERC report (2026-11-03T23:18:23, Encoding UTF8)
+Report includes: Errors, Warnings
+
+***** Sheet /
+
+***** Sheet /02 01 Power distribution and ADC/
+
+***** Sheet /03 02 MCU, MCP23017 and emergency stop/
+
+***** Sheet /04 03 Serial module interfaces/
+
+***** Sheet /05 04 Buffered outputs and actuators/
+
+***** Sheet /06 05 Sensor and user inputs/
+
+***** Sheet /07 06 Non-inverting sensor input translation/
+
+***** Sheet /08 06 Non-inverting sensor input translation/
+
+ ** ERC messages: 0  Errors 0  Warnings 0
+
+ ** Ignored checks:
+    - Global label only appears once in the schematic
+    - Four connection points are joined together
+    - SPICE model issue
+    - Assigned footprint doesn't match footprint filters

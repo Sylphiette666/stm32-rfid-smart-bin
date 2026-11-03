@@ -1,0 +1,31 @@
+{
+  "revision": "B1",
+  "date": "2026-11-03",
+  "cad": "KiCad 10.0.6",
+  "pcb_size_mm": [
+    125,
+    100
+  ],
+  "layers": 2,
+  "thickness_mm": 1.6,
+  "erc_violations": 0,
+  "drc_violations": 0,
+  "unconnected": 0,
+  "schematic_parity_errors": 0,
+  "components": 126,
+  "connector_endpoints": 190,
+  "netlist_connected_pins": 372,
+  "netlist_nc_pins": 8,
+  "preserved_power_segments": 33,
+  "pth_holes": 465,
+  "npth_holes": 4,
+  "manufacturing_zip_sha256": "1b8b3e079ba02926eb4b3fff88b39c265b799dcbf3e91559954281963cff6565",
+  "physical_tests_performed": false,
+  "manufacturing_order_placed": false,
+  "visual_review": [
+    "eight-sheet schematic PDF",
+    "native PCB 3D render",
+    "independent actual Gerber top/bottom copper and silkscreen"
+  ],
+  "mechanical_scope": "Nominal PCB STEP valid; integrated chassis fit remains to be checked for 125x100 outline."
+}

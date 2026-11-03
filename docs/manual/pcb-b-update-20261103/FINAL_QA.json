@@ -1,0 +1,55 @@
+{
+  "status": "PASS",
+  "steps_preserved": 330,
+  "existing_tables_verified": 79,
+  "explicit_table_cell_updates": [
+    {
+      "table": 0,
+      "row": 1,
+      "cell": 0,
+      "before": "核心板加PCB A1",
+      "after": "核心板加PCB B1"
+    },
+    {
+      "table": 1,
+      "row": 1,
+      "cell": 1,
+      "before": "核心板拆出独立固定；SmartBin_A A1 PCB汇总接线，模块在板外按信号名用编号线束连接。",
+      "after": "核心板拆出独立固定；SmartBin_B B1 PCB汇总接线，模块在板外按信号名用编号线束连接。"
+    }
+  ],
+  "all_existing_media_preserved": true,
+  "pages": 260,
+  "all_page_numbers_verified": true,
+  "review_pages": [
+    1,
+    2,
+    5,
+    6,
+    7,
+    177,
+    258,
+    259,
+    260
+  ],
+  "docx_sha256": "710d6eb9d7d4843d2290b1a6eb7779b5462571460a63ba17c334a671815f2cdb",
+  "pdf_sha256": "a25783112ca5174d31e3ca8d398a7fcd35dd84c94b39d7ec6fd861790415c8a7",
+  "word_report": {
+    "input": "D:\\Work\\嵌入式课设\\codex_readback\\pcb_b_manual_release\\STM32与RFID智能移动垃圾桶_逐步组装与调试实施手册_图解增强版.docx",
+    "pdf": "D:\\Work\\嵌入式课设\\codex_readback\\pcb_b_manual_release\\manual.pdf",
+    "text": "",
+    "update_and_save": true,
+    "initial_word_pids": [],
+    "owned_word_pid": 14560,
+    "ownership_verified": true,
+    "pages": 260,
+    "status": "success",
+    "ownership_method": "single_new_pid_creation_time_and_COM_identity_hwnd_zero",
+    "hwnd_pid_before_open": 0,
+    "hwnd_pid_after_open": 0,
+    "user_instances_touched": false,
+    "cleanup_warnings": [],
+    "finished_at": "2026-11-03T23:47:00.0038114+08:00"
+  },
+  "visual_review": "Reviewed updated front matter, TOC, A1 archive entry and all 3 B1 pages; no clipping or overlap. All 260 page numbers verified. Existing media and 330 step headings retained."
+}

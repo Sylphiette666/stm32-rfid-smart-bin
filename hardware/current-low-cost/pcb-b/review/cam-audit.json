@@ -1,0 +1,57 @@
+{
+  "pass": true,
+  "zip_sha256": "1b8b3e079ba02926eb4b3fff88b39c265b799dcbf3e91559954281963cff6565",
+  "parser": "gerbonara 1.6.3",
+  "bounds_including_outline_stroke_mm": [
+    [
+      49.95,
+      -150.05
+    ],
+    [
+      175.05,
+      -49.95
+    ]
+  ],
+  "nominal_board_size_mm": [
+    125,
+    100
+  ],
+  "pth_count": 465,
+  "npth_count": 4,
+  "all_drill_positions_and_diameters_match": true,
+  "drill_coordinate_quantization_max_mm": 0.0006403124237445668,
+  "layers": {
+    "('top', 'copper')": 1376,
+    "('top', 'mask')": 384,
+    "('top', 'silk')": 5414,
+    "('bottom', 'copper')": 1180,
+    "('bottom', 'mask')": 307,
+    "('bottom', 'silk')": 3734,
+    "('mechanical', 'outline')": 4
+  },
+  "warnings": [
+    "C:\\Users\\35462\\AppData\\Local\\Temp\\tmp5zwlmntk\\input\\SmartBin_B-NPTH.drl:12 \"G90\": G90 header statement found after end of header",
+    "C:\\Users\\35462\\AppData\\Local\\Temp\\tmp5zwlmntk\\input\\SmartBin_B-PTH.drl:20 \"G90\": G90 header statement found after end of header",
+    "Aperture definition using macro RoundRect has more parameters than the macro uses.",
+    "Aperture definition using macro RoundRect has more parameters than the macro uses.",
+    "Aperture definition using macro RoundRect has more parameters than the macro uses.",
+    "Aperture definition using macro RoundRect has more parameters than the macro uses.",
+    "Aperture definition using macro RoundRect has more parameters than the macro uses.",
+    "Aperture definition using macro RoundRect has more parameters than the macro uses.",
+    "Aperture definition using macro RoundRect has more parameters than the macro uses.",
+    "Aperture definition using macro RoundRect has more parameters than the macro uses.",
+    "Aperture definition using macro RoundRect has more parameters than the macro uses.",
+    "Aperture definition using macro RoundRect has more parameters than the macro uses.",
+    "Aperture definition using macro RoundRect has more parameters than the macro uses.",
+    "Aperture definition using macro RoundRect has more parameters than the macro uses.",
+    "Layer \"top paste\" not found. Found layers: top copper, top mask, top silk, bottom copper, bottom mask, bottom silk, mechanical outline",
+    "Aperture definition using macro RoundRect has more parameters than the macro uses.",
+    "Aperture definition using macro RoundRect has more parameters than the macro uses.",
+    "Aperture definition using macro RoundRect has more parameters than the macro uses.",
+    "Aperture definition using macro RoundRect has more parameters than the macro uses.",
+    "Aperture definition using macro RoundRect has more parameters than the macro uses.",
+    "Aperture definition using macro RoundRect has more parameters than the macro uses.",
+    "Layer \"bottom paste\" not found. Found layers: top copper, top mask, top silk, bottom copper, bottom mask, bottom silk, mechanical outline"
+  ],
+  "warning_review": "KiCad G90 after M95 is accepted and all drill positions match. RoundRect extra unused macro parameters do not change the defined aperture geometry. Paste layers intentionally omitted for manual soldering; no stencil requested. Actual copper and silk rendered independently; bottom view mirrored once."
+}
