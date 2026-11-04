@@ -93,5 +93,11 @@
     "render_pages_differing": [
       263
     ]
+  },
+  "layer_height_tradeoff": {
+    "check": "checks/layer_height_tradeoff.json",
+    "verified_same_structure": true,
+    "time_and_weight_optimum_028": true,
+    "strength_optimum": "thinner layers (0.20 / 0.16) directionally better; not physically tested"
   }
 }

@@ -36,4 +36,5 @@
 - 手册第69章已同步为上述数字：正文改为“三件合计耗材约1203.9 g”和“面板盖同为0.28 mm”，末表面板盖行改为0.28 mm / 57分51秒 / 27.0 g；2439段落、84表、330步、目录69条均未变。用LibreOffice渲染前后PDF均265页，全265页逐像素比对仅第263页（第69章标题与表格页）不同，页脚仍为“第263页”；本机未驱动Word进程，记录见 checks/manual_qa.json、checks/word_render.json。
 - 交付目录与zip内附更新后的同名手册docx（sha256 8FD54B21…24BE8，与仓库docs/manual和本机根目录副本字节一致）。
 - 本轮新增：checks/layer028_change.json（变更与数值）、checks/r7_PANEL_COVER_slicing.json（切片原始结果）、source/r7.json（参数补丁）、source/slice_panel028.py（重切片脚本）。各轮历史结果保留在 checks/*_slicing.json，选用下半件 r3、上半件 r4、面板盖 r7；r5有机树形、r6混合树形实测没有更快。
+- 层高权衡复核（同一结构：3墙、10%螺旋体、≥0.8 mm壳层，仅改层高与壳层数）：下半 0.28=13.69 h/373.9 g、0.20=17.43 h/388.2 g、0.16=20.43 h/389.1 g；上半 0.28=32.97 h/803.0 g、0.20=42.26 h/813.1 g、0.16=45.86 h/848.2 g。0.28 在时间和用料上均为实测最优；强度（层间结合）方向 0.20/0.16 更好，但未做实打强度试验，不作强度结论。详见 checks/layer_height_tradeoff.json。
 - 检查参考 [GitHub codex-cad](https://github.com/alexanderkoller/codex-cad/blob/main/cad/SKILL.md)、[OrcaSlicer 树形支撑参数](https://github.com/OrcaSlicer/OrcaSlicer/wiki/support_settings_tree)。本机为 Bambu Studio 02.08.02.61。

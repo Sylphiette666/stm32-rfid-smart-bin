@@ -1,0 +1,170 @@
+{
+  "date": "2026-11-04",
+  "purpose": "Verify whether 0.28 mm is really the best layer height when print time, strength and light weight are all considered (user follow-up question).",
+  "method": "Same process for all runs: P2S 0.4 nozzle, Generic PLA 12 mm3/s, 3 walls, 10% gyroid infill, >=0.8 mm top/bottom shells, tree-slim supports, identical geometry; ONLY layer_height and shell layer count changed (0.28->3 layers=0.84 mm; 0.20->4 layers=0.80 mm; 0.16->5 layers=0.80 mm).",
+  "selected_028": {
+    "LOWER_H41_B1": {
+      "variant": "r3",
+      "layer_height_mm": 0.28,
+      "shell_layers": 3,
+      "estimated_seconds": 49278.73828125,
+      "grams": 373.94830322265625,
+      "warning": "",
+      "return_code": 0
+    },
+    "UPPER_INTEGRATED": {
+      "variant": "r4",
+      "layer_height_mm": 0.28,
+      "shell_layers": 3,
+      "estimated_seconds": 118706.3515625,
+      "grams": 802.9749755859375,
+      "warning": "",
+      "return_code": 0
+    },
+    "PANEL_COVER": {
+      "variant": "r7",
+      "layer_height_mm": 0.28,
+      "estimated_seconds": 3471.180419921875,
+      "grams": 27.012527465820312
+    }
+  },
+  "comparison": {
+    "LOWER_H41_B1": [
+      {
+        "layer_height_mm": 0.28,
+        "shell_layers": 3,
+        "estimated_seconds": 49278.73828125,
+        "grams": 373.94830322265625,
+        "warning": "",
+        "return_code": 0
+      },
+      {
+        "layer_height_mm": 0.2,
+        "shell_layers": 4,
+        "estimated_seconds": 62757.02734375,
+        "grams": 388.2071228027344,
+        "warning": "",
+        "return_code": 0
+      },
+      {
+        "layer_height_mm": 0.16,
+        "shell_layers": 5,
+        "estimated_seconds": 73535.046875,
+        "grams": 389.13555908203125,
+        "warning": "",
+        "return_code": 0
+      }
+    ],
+    "UPPER_INTEGRATED": [
+      {
+        "layer_height_mm": 0.28,
+        "shell_layers": 3,
+        "estimated_seconds": 118706.3515625,
+        "grams": 802.9749755859375,
+        "warning": "",
+        "return_code": 0
+      },
+      {
+        "layer_height_mm": 0.2,
+        "shell_layers": 4,
+        "estimated_seconds": 152129.796875,
+        "grams": 813.1138916015625,
+        "warning": "",
+        "return_code": 0
+      },
+      {
+        "layer_height_mm": 0.16,
+        "shell_layers": 5,
+        "estimated_seconds": 165093.671875,
+        "grams": 848.1484375,
+        "warning": "",
+        "return_code": 0
+      }
+    ],
+    "PANEL_COVER": [
+      {
+        "layer_height_mm": 0.28,
+        "estimated_seconds": 3471.180419921875,
+        "grams": 27.012527465820312,
+        "variant": "r7"
+      },
+      {
+        "layer_height_mm": 0.2,
+        "estimated_seconds": 3706.8720703125,
+        "grams": 25.274465560913086,
+        "variant": "r1"
+      }
+    ]
+  },
+  "cost_of_thinner_bodies_vs_028": {
+    "at_0.20_mm": {
+      "LOWER_H41_B1": {
+        "extra_seconds": 13478.289,
+        "extra_hours": 3.74,
+        "extra_grams": 14.26
+      },
+      "UPPER_INTEGRATED": {
+        "extra_seconds": 33423.445,
+        "extra_hours": 9.28,
+        "extra_grams": 10.14
+      }
+    },
+    "at_0.16_mm": {
+      "LOWER_H41_B1": {
+        "extra_seconds": 24256.309,
+        "extra_hours": 6.74,
+        "extra_grams": 15.19
+      },
+      "UPPER_INTEGRATED": {
+        "extra_seconds": 46387.32,
+        "extra_hours": 12.89,
+        "extra_grams": 45.17
+      }
+    }
+  },
+  "totals": {
+    "all_028_seconds": 171456.27026367188,
+    "all_028_hours": 47.63,
+    "all_028_grams": 1203.935806274414,
+    "bodies_020_plus_panel_020_seconds": 218593.696,
+    "bodies_020_plus_panel_020_hours": 60.72,
+    "bodies_020_plus_panel_020_grams": 1226.595
+  },
+  "time_effect": "0.28 mm is fastest: vs 0.20 mm it saves 3.74 h on the lower body and 9.28 h on the upper body (~13.1 h together with the panel); vs 0.16 mm it saves 6.74 h / 12.89 h.",
+  "weight_effect": "With identical walls/infill the 0.28 mm bodies came out slightly LIGHTER (lower 373.95 vs 388.21 g at 0.20 and 389.14 g at 0.16; upper 802.97 vs 813.11 / 848.15 g). The panel is 1.74 g heavier at 0.28 (27.01 vs 25.27 g) because its shells round to 3x0.28=0.84 mm. Net all-part weight is 1203.9 g at 0.28 vs 1226.6 g at 0.20, so 0.28 does not cost weight.",
+  "strength_effect": "0.28 mm is NOT the strength-optimum: ~35% fewer layers (lower 786 vs 1100 at 0.20) means fewer interlayer bonds, and thicker layers generally reduce Z-direction (layer-adhesion) strength; in-plane stiffness is unchanged because walls/infill/shell thickness are unchanged. No physical strength test was performed, so no strength claim is made for either setting.",
+  "layer_height_limit": "0.28 mm is about 70% of the 0.4 mm nozzle diameter, the practical upper limit; not raised further (0.32 mm would be 80% and is not a reliable/checked setting, and no shipped P2S 0.4 process profile goes above 0.24).",
+  "verdict": "0.28 mm is the optimum on print time AND light weight (both measured); strength (layer adhesion) would favor 0.20 mm (strength/finish balance) or 0.16 mm (finest surface), at +13.1 h/+19.9 h total respectively and without weight benefit. Because the user asked for the fastest reliable setting while preserving structure/material, 0.28 mm remains the selected delivery; if strength is a hard requirement the 0.20 mm variant can be produced on request.",
+  "runs": [
+    {
+      "part": "LOWER_H41_B1",
+      "layer_height_mm": 0.2,
+      "shell_layers": 4,
+      "return_code": 0,
+      "warning_message": ""
+    },
+    {
+      "part": "LOWER_H41_B1",
+      "layer_height_mm": 0.16,
+      "shell_layers": 5,
+      "return_code": 0,
+      "warning_message": ""
+    },
+    {
+      "part": "UPPER_INTEGRATED",
+      "layer_height_mm": 0.2,
+      "shell_layers": 4,
+      "return_code": 0,
+      "warning_message": ""
+    },
+    {
+      "part": "UPPER_INTEGRATED",
+      "layer_height_mm": 0.16,
+      "shell_layers": 5,
+      "return_code": 0,
+      "warning_message": ""
+    }
+  ],
+  "script": "source/compare_layer_tradeoff.py",
+  "note": "Numbers are slicer predictions from the same Bambu Studio 02.08.02.61 CLI; physical prints not tested."
+}
