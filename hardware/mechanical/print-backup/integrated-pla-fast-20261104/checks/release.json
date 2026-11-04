@@ -1,5 +1,5 @@
 {
-  "status": "CANDIDATE_CHECKED_24H_TARGET_NOT_MET",
+  "status": "SELECTED_BEST_TESTED_SETTINGS_UPPER_24H_UNMET",
   "target_seconds": 86400,
   "estimated_total_seconds": 171691.9619140625,
   "estimated_total_grams": 1202.1977443695068,
@@ -49,7 +49,7 @@
   "material": "Generic PLA",
   "max_volumetric_speed_mm3_s": 12,
   "limitations": [
-    "24 hours unmet for total AND for upper part",
+    "Upper body exceeds per-body 24-hour target; user selected the fastest checked settings while preserving structure and material",
     "0.28 mm reduces surface finish relative to 0.08 mm",
     "physical adhesion, strength and support removal untested"
   ],
@@ -57,5 +57,12 @@
     "Final sliced plate warning fields empty",
     "Voronoi automatic input rotation warning occurred for upper; completed slice and full path bounds verified",
     "T65535 analyzer message is from unchanged official P2S machine_end_gcode AMS unloading block; no manufacturing G-code shipped"
-  ]
+  ],
+  "target_scope": "each principal body, not total",
+  "user_fallback_selection": "保持当前结构和材料，交付最快可靠设置",
+  "user_clarification": "每个主体不超过24小时",
+  "time_target_met_by_principal_body": {
+    "LOWER_H41_B1": true,
+    "UPPER_INTEGRATED": false
+  }
 }

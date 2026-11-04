@@ -1,9 +1,11 @@
 from pathlib import Path
 from collections import Counter
 import json,re,zipfile,hashlib
+import sys
 from docx import Document
 import pypdfium2 as pdf
 O=Path(__file__).resolve().parents[1];R=O.parent.parents[2];W=R.parent/'codex_readback/integrated_pla_fast_manual_20261104'
+if len(sys.argv)>1:W=Path(sys.argv[1])
 NAME='STM32与RFID智能移动垃圾桶_逐步组装与调试实施手册_图解增强版.docx'
 old=Document(W/'before.docx');new=Document(W/NAME)
 steps=lambda d:[p.text for p in d.paragraphs if re.match(r'步骤 \d{3}',p.text)]

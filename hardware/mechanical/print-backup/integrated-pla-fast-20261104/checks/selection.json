@@ -1,10 +1,11 @@
 {
-  "status": "24H_TARGET_NOT_MET",
+  "status": "SELECTED_BEST_TESTED_SETTINGS_UPPER_24H_UNMET",
   "variants": {
     "LOWER_H41_B1": "r3",
     "UPPER_INTEGRATED": "r4",
     "PANEL_COVER": "r1"
   },
-  "target_total_hours": 24,
-  "physical_print_tested": false
+  "physical_print_tested": false,
+  "target_per_principal_body_hours": 24,
+  "user_fallback_selection": "保持当前结构和材料，交付最快可靠设置"
 }
