@@ -1,0 +1,88 @@
+{
+  "date": "2026-11-04",
+  "user_request": "更改这三个文件的层高，使其达到最佳打印时间",
+  "printer": "Bambu Lab P2S",
+  "nozzle_mm": 0.4,
+  "all_parts_layer_height_mm": 0.28,
+  "rationale": "0.28 mm is the practical upper layer height for a 0.4 mm nozzle (~70% of nozzle diameter). LOWER_H41_B1 (r3) and UPPER_INTEGRATED (r4) were already sliced at 0.28 mm; only PANEL_COVER still used 0.20 mm and was re-sliced at 0.28 mm (r7) with the same fast process settings.",
+  "parts": [
+    {
+      "part": "LOWER_H41_B1",
+      "variant": "r3",
+      "layer_height_mm": 0.28,
+      "changed": false,
+      "estimated_seconds": 49278.73828125,
+      "grams": 373.94830322265625,
+      "project_sha256": "4a017cf85f1bbae176fa0814ba82ef8219e36f287e8e27a295e26dce182f7414"
+    },
+    {
+      "part": "UPPER_INTEGRATED",
+      "variant": "r4",
+      "layer_height_mm": 0.28,
+      "changed": false,
+      "estimated_seconds": 118706.3515625,
+      "grams": 802.9749755859375,
+      "project_sha256": "c6bcdd7bcbadeacc28bf5fb35d27884eda829f49c87f3c9eb9254bdc720032a0"
+    },
+    {
+      "part": "PANEL_COVER",
+      "variant": "r7",
+      "layer_height_mm": 0.28,
+      "changed": true,
+      "layer_height_before_mm": 0.2,
+      "estimated_seconds": 3471.180419921875,
+      "grams": 27.012527465820312,
+      "project_sha256": "be1590002b759b45f662ba2340631c74ec7e22e40706d832dc547209d074745c",
+      "geometry_unchanged": true
+    }
+  ],
+  "totals": {
+    "estimated_seconds": 171456.27026367188,
+    "estimated_total_hours": 47.62674173990885,
+    "estimated_total_grams": 1203.935806274414
+  },
+  "physical_print_tested": false,
+  "print_job_sent": false,
+  "geometry_validation": {
+    "geometry_3mf_identical_r1_r7": true,
+    "geometry_3mf_sha256": "09391e594ed7ebafc6b3bad1aaba5428ea2a9bc3845cac36426b82963e65e4c5",
+    "geometry_vertex_count": 12682,
+    "geometry_z_range_mm": [
+      0.0,
+      5.4
+    ],
+    "mesh_object_identical": true,
+    "project_3dmodel_identical_after_stripping_export_dates": true,
+    "differing_3mf_parts": [
+      "3D/3dmodel.model",
+      "Metadata/model_settings.config",
+      "Metadata/project_settings.config"
+    ],
+    "project_settings_diff_keys": [
+      "bottom_shell_layers",
+      "layer_height",
+      "print_settings_id",
+      "top_shell_layers"
+    ],
+    "project_settings_diff": {
+      "bottom_shell_layers": {
+        "r1": "4",
+        "r7": "3"
+      },
+      "layer_height": {
+        "r1": "0.2",
+        "r7": "0.28"
+      },
+      "print_settings_id": {
+        "r1": "SmartBin PLA Fast Tree r1",
+        "r7": "SmartBin PLA Fast Tree r7 PANEL 0.28"
+      },
+      "top_shell_layers": {
+        "r1": "4",
+        "r7": "3"
+      }
+    },
+    "note": "r7 与 r1 使用同一 geometry.3mf；导出的 project.3mf 仅在 CreationDate/ModificationDate、model_settings.config 的 part UUID、以及 process 的 layer_height/top/bottom_shell_layers/print_settings_id 上不同，网格数据与摆放位置未变。",
+    "slicing_side_effect": "面板盖高 5.40 mm，0.20+19×0.28=5.52 mm，切片器把最后一层放在 5.52 mm（顶面比模型高 0.12 mm）；几何文件未变，但实际打印厚度会增加该值。"
+  }
+}

@@ -1,17 +1,55 @@
 {
-  "input": "D:\\Work\\嵌入式课设\\codex_readback\\integrated_pla_fast_confirmed_20261104\\STM32与RFID智能移动垃圾桶_逐步组装与调试实施手册_图解增强版.docx",
-  "pdf": "D:\\Work\\嵌入式课设\\codex_readback\\integrated_pla_fast_confirmed_20261104\\manual.pdf",
-  "text": "",
-  "update_and_save": true,
-  "initial_word_pids": [],
-  "owned_word_pid": 34512,
-  "ownership_verified": true,
-  "pages": 269,
+  "renderer": "LibreOffice Kit headless convert -> PDF, pdfium raster",
+  "word_com_used": false,
+  "docx": "D:\\Work\\嵌入式课设\\智能垃圾桶_PLA树形支撑_全件0.28最快_20261104\\STM32与RFID智能移动垃圾桶_逐步组装与调试实施手册_图解增强版.docx",
+  "docx_sha256": "8FD54B216AE0301605145E88C540D7C9D00B144A80661C3ACD42C8B15CD24BE8",
+  "docx_size": 28854402,
+  "pdf_before": {
+    "pdf": "D:\\Work\\嵌入式课设\\codex_readback\\layer028_manual_20261104\\render\\before.pdf",
+    "sha256": "27c594dbc8aa3f4db9914593095072ea757bbdbc2e6ce9dd4f379ecedc71af52",
+    "size": 14133888,
+    "pageCount": 265
+  },
+  "pdf_after": {
+    "pdf": "D:\\Work\\嵌入式课设\\codex_readback\\layer028_manual_20261104\\render\\after.pdf",
+    "sha256": "0371287e36301748eb31acbf5970bda08c25278b4e96af5d48e8a68f4bb307c9",
+    "size": 14133878,
+    "pageCount": 265
+  },
+  "pages_before": 265,
+  "pages_after": 265,
+  "pages_compared": 265,
+  "pages_differing": [
+    "page-0263"
+  ],
+  "chapter_69_table_page": 263,
+  "chapter_69_last_page": 265,
+  "toc_pages": [
+    3,
+    4,
+    5
+  ],
+  "toc_entry_69_cached_page": 267,
+  "docprops_pages_cached": 269,
+  "extra_checks": {
+    "zip_testzip_ok": true,
+    "python_docx_reopen": true,
+    "paragraphs": 2439,
+    "tables": 84,
+    "steps_preserved": 330,
+    "toc_entries": 69,
+    "last_table_row3": [
+      "可拆操作面板",
+      "0.28 mm",
+      "57分51秒",
+      "27.0 g"
+    ],
+    "render_full_dir_before": "D:\\Work\\嵌入式课设\\codex_readback\\layer028_manual_20261104\\render\\full_before",
+    "render_full_dir_after": "D:\\Work\\嵌入式课设\\codex_readback\\layer028_manual_20261104\\render\\full_after",
+    "key_png_p263_after": "D:\\Work\\嵌入式课设\\codex_readback\\layer028_manual_20261104\\render\\tail_after\\page-0016.png",
+    "key_png_p263_before": "D:\\Work\\嵌入式课设\\codex_readback\\layer028_manual_20261104\\render\\tail_before\\page-0016.png"
+  },
   "status": "success",
-  "ownership_method": "single_new_pid_creation_time_and_COM_identity_hwnd_zero",
-  "hwnd_pid_before_open": 0,
-  "hwnd_pid_after_open": 0,
-  "user_instances_touched": false,
-  "cleanup_warnings": [],
-  "finished_at": "2026-11-04T08:03:25.2711826+08:00"
+  "note": "LibreOffice paginates 265 pages; TOC keeps Word-cached page 267 / docProps Pages=269, a pre-existing state left untouched. All 265 pages pixel-compared; only the chapter-69 table page (physical p263) differs, footer still reads 第263页. Previous Word COM render record (docx sha 2BB8DAD3...E7D5, 269 pages) is superseded.",
+  "finished_at": "2026-11-04T11:44:42+08:00"
 }

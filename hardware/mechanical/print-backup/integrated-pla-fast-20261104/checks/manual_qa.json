@@ -1,19 +1,332 @@
 {
-  "status": "STRUCTURAL_CHECKS_PASS",
-  "steps_preserved": 330,
-  "old_tables_preserved": 84,
-  "explicit_table_changes": [],
-  "old_media_preserved": true,
-  "pages": 269,
-  "page_numbers_verified": true,
-  "visual_review_pages": [
-    1,
-    5,
-    267,
-    268,
-    269
+  "generated_at": "2026-11-04T11:44:42+08:00",
+  "status": "pass",
+  "task": "manual chapter 69: PANEL_COVER 0.20 mm -> 0.28 mm re-slice numbers",
+  "edited_files": [],
+  "baseline_sha256": "2BB8DAD3D6F8F56FC1772F22F8DF56F2E0B667DE7DA7E02B1B71952D1801E7D5",
+  "docx_sha256": "8FD54B216AE0301605145E88C540D7C9D00B144A80661C3ACD42C8B15CD24BE8",
+  "baseline_sha256_matches_expected": true,
+  "zip": [
+    "word/document.xml"
   ],
-  "docx_sha256": "2bb8dad3d6f8f56fc1772f22f8df56f2e0b667de7da7e02b1b71952d1801e7d5",
-  "baseline_sha256": "b6adff9f5ff562f46af3968ce16abf821693dd23355220747887e53bcae960f0",
-  "pdf_sha256": "790b0dd25660862b5d6fcb190973ebd084e2795a8e309ac54211672e6e72afe6"
+  "steps_preserved": 330,
+  "toc_entries": 69,
+  "toc_identical": true,
+  "old_tables_preserved": 83,
+  "explicit_table_changes": [
+    {
+      "table": 83,
+      "row": 3,
+      "cell": 1,
+      "before": "0.20 mm",
+      "after": "0.28 mm"
+    },
+    {
+      "table": 83,
+      "row": 3,
+      "cell": 2,
+      "before": "1小时1分",
+      "after": "57分51秒"
+    },
+    {
+      "table": 83,
+      "row": 3,
+      "cell": 3,
+      "before": "25.3 g",
+      "after": "27.0 g"
+    }
+  ],
+  "paragraph_changes": [
+    {
+      "idx": 2423,
+      "before": "设备保持P2S、0.4 mm喷嘴、256×256 mm纹理PEI板和PLA；喷嘴220℃、热床55℃，使用官方Generic PLA的12 mm³/s最大体积流量。三件合计耗材约1202.2 g。估算包含各盘启动流程，不包含换盘、冷却取件和人工拆支撑。",
+      "after": "设备保持P2S、0.4 mm喷嘴、256×256 mm纹理PEI板和PLA；喷嘴220℃、热床55℃，使用官方Generic PLA的12 mm³/s最大体积流量。三件合计耗材约1203.9 g。估算包含各盘启动流程，不包含换盘、冷却取件和人工拆支撑。"
+    },
+    {
+      "idx": 2424,
+      "before": "主体改为0.28 mm层高、3道墙、10%螺旋体填充，顶底3层且最小0.8 mm；面板盖为0.20 mm。主体外墙120 mm/s、内墙230 mm/s，实际速度受流量、加速度和悬垂限速约束。与第68章0.08 mm工程相比，斜面台阶更明显，薄槽与孔仍需清理试配；不能声称保留同等表面精细度。",
+      "after": "主体改为0.28 mm层高、3道墙、10%螺旋体填充，顶底3层且最小0.8 mm；面板盖同为0.28 mm。主体外墙120 mm/s、内墙230 mm/s，实际速度受流量、加速度和悬垂限速约束。与第68章0.08 mm工程相比，斜面台阶更明显，薄槽与孔仍需清理试配；不能声称保留同等表面精细度。"
+    }
+  ],
+  "final_table": {
+    "header": [
+      "打印件",
+      "层高",
+      "预计时间",
+      "PLA含支撑"
+    ],
+    "rows": [
+      [
+        "打印件",
+        "层高",
+        "预计时间",
+        "PLA含支撑"
+      ],
+      [
+        "下半主体",
+        "0.28 mm",
+        "13小时41分",
+        "373.9 g"
+      ],
+      [
+        "上半主体",
+        "0.28 mm",
+        "32小时58分",
+        "803.0 g"
+      ],
+      [
+        "可拆操作面板",
+        "0.28 mm",
+        "57分51秒",
+        "27.0 g"
+      ]
+    ]
+  },
+  "final_table_run_texts": [
+    [
+      "打印件"
+    ],
+    [
+      "层高"
+    ],
+    [
+      "预计时间"
+    ],
+    [
+      "PLA",
+      "含支撑"
+    ],
+    [
+      "下半主体"
+    ],
+    [
+      "0.28 mm"
+    ],
+    [
+      "13",
+      "小时",
+      "41",
+      "分"
+    ],
+    [
+      "373.9 g"
+    ],
+    [
+      "上半主体"
+    ],
+    [
+      "0.28 mm"
+    ],
+    [
+      "32",
+      "小时",
+      "58",
+      "分"
+    ],
+    [
+      "803.0 g"
+    ],
+    [
+      "可拆操作面板"
+    ],
+    [
+      "0.28 mm"
+    ],
+    [
+      "57",
+      "分",
+      "51",
+      "秒"
+    ],
+    [
+      "27.0 g"
+    ]
+  ],
+  "final_expected_values_found": {
+    "table_panel_layer": true,
+    "table_panel_time": true,
+    "table_panel_material": true,
+    "total_material": true,
+    "panel_sentence": true
+  },
+  "old_target_47h_present": false,
+  "deviations": [
+    {
+      "id": "task1_replacement_#1_not_applicable",
+      "detail": "task-1 lists a replacement of '三件合计47小时42分' -> '三件合计47小时38分'. The authoritative manual revision contains no '47小时' text anywhere in word/document.xml (chapter 69 now reports 下半主体/上半主体 separately and has no total-duration sentence), so this replacement had no target and was not applied; no sentence was invented."
+    }
+  ],
+  "pdf_before": {
+    "pdf": "D:\\Work\\嵌入式课设\\codex_readback\\layer028_manual_20261104\\render\\before.pdf",
+    "pdf_sha256": "27C594DBC8AA3F4DB9914593095072EA757BBDBC2E6CE9DD4F379ECEDC71AF52",
+    "pdf_size": 14133888,
+    "pageCount": 265,
+    "rasterEngine": "pdfium",
+    "missingFonts": []
+  },
+  "pdf_after": {
+    "pdf": "D:\\Work\\嵌入式课设\\codex_readback\\layer028_manual_20261104\\render\\after.pdf",
+    "pdf_sha256": "0371287E36301748EB31ACBF5970BDA08C25278B4E96AF5D48E8A68F4BB307C9",
+    "pdf_size": 14133878,
+    "pageCount": 265,
+    "rasterEngine": "pdfium",
+    "missingFonts": []
+  },
+  "pdf_page_count_equal": true,
+  "rendered_pages_compared": 265,
+  "rendered_pages_differing": [
+    "page-0263"
+  ],
+  "render_diff_exhaustive": true,
+  "pdf_layout": {
+    "toc_pages": [
+      3,
+      4,
+      5
+    ],
+    "toc_page_with_entry_69": 5,
+    "toc_entry_69_cached_page_number": "267",
+    "chapter_69_title_page": 263,
+    "chapter_69_table_page": 263,
+    "chapter_69_last_page": 265,
+    "heading_and_table_same_page": true,
+    "evidence_png": [
+      "D:\\Work\\嵌入式课设\\codex_readback\\layer028_manual_20261104\\render\\tail_before\\page-0003.png",
+      "D:\\Work\\嵌入式课设\\codex_readback\\layer028_manual_20261104\\render\\tail_before\\page-0005.png",
+      "D:\\Work\\嵌入式课设\\codex_readback\\layer028_manual_20261104\\render\\tail_after\\page-0016.png",
+      "D:\\Work\\嵌入式课设\\codex_readback\\layer028_manual_20261104\\render\\tail_after\\page-0018.png"
+    ],
+    "page_numbers_verified": true,
+    "page_numbers_verified_method": "rendered PNG visual check of footer PAGE field on samples: pdf p5 (第5页), p6 (第6页), p263 (第263页), p265 (第265页); plus exhaustive before/after pixel diff of all 265 pages, which differ only on page 263 where the footer still reads 第263页",
+    "note_toc_cached_vs_libreoffice": "TOC keeps Word-cached page numbers (entry 69 -> 267, docProps Pages=269) while LibreOffice paginates 265 pages; this difference pre-exists in the authoritative revision and was not touched (TOC fields/text byte-identical, TOC pages 3-5 pixel-identical before/after)."
+  },
+  "visual_review_pages": [
+    263
+  ],
+  "visual_review": {
+    "pages_rendered_for_inspection": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      254,
+      255,
+      256,
+      257,
+      258,
+      259,
+      260,
+      261,
+      262,
+      263,
+      264,
+      265
+    ],
+    "after_png_page_263": "D:\\Work\\嵌入式课设\\codex_readback\\layer028_manual_20261104\\render\\tail_after\\page-0016.png",
+    "before_png_page_263": "D:\\Work\\嵌入式课设\\codex_readback\\layer028_manual_20261104\\render\\tail_before\\page-0016.png",
+    "after_png_last_page_265": "D:\\Work\\嵌入式课设\\codex_readback\\layer028_manual_20261104\\render\\tail_after\\page-0018.png",
+    "observed": [
+      "after p263: table row 可拆操作面板 shows 0.28 mm / 57分51秒 / 27.0 g, all on one line, no cell overflow;",
+      "after p263: body text shows 三件合计耗材约1203.9 g and 面板盖同为0.28 mm;",
+      "after p263 keeps the same line breaks, table position, chapter heading position and footer 第263页 as before;",
+      "TOC page 5 shows entry 69 unchanged (cached 267); TOC pages 3-5 pixel-identical before/after;",
+      "chapter 69 figures (69.1/69.2, 图69-1..69-4) on p264-265 pixel-identical before/after."
+    ],
+    "not_verified": [
+      "no OCR of every footer page number (PDF text extraction is unavailable in this environment); all-page pixel diff used instead",
+      "no native Word repagination check (Word not driven per constraints); LibreOffice render only"
+    ]
+  },
+  "pages": 265,
+  "page_numbers_verified": true,
+  "delivery": {
+    "repo": {
+      "path": "D:\\Work\\嵌入式课设\\stm32-rfid-smart-bin\\docs\\manual\\STM32与RFID智能移动垃圾桶_逐步组装与调试实施手册_图解增强版.docx",
+      "size": 28854402,
+      "sha256": "8FD54B216AE0301605145E88C540D7C9D00B144A80661C3ACD42C8B15CD24BE8",
+      "matches_after_sha256": true,
+      "zip_testzip_ok": true,
+      "python_docx_reopen": true,
+      "paragraphs": 2439,
+      "tables": 84,
+      "last_table_row3": [
+        "可拆操作面板",
+        "0.28 mm",
+        "57分51秒",
+        "27.0 g"
+      ],
+      "contains_new_total": true,
+      "contains_old_total": false,
+      "contains_panel_028_sentence": true
+    },
+    "root": {
+      "path": "D:\\Work\\嵌入式课设\\STM32与RFID智能移动垃圾桶_逐步组装与调试实施手册_图解增强版.docx",
+      "size": 28854402,
+      "sha256": "8FD54B216AE0301605145E88C540D7C9D00B144A80661C3ACD42C8B15CD24BE8",
+      "matches_after_sha256": true,
+      "zip_testzip_ok": true,
+      "python_docx_reopen": true,
+      "paragraphs": 2439,
+      "tables": 84,
+      "last_table_row3": [
+        "可拆操作面板",
+        "0.28 mm",
+        "57分51秒",
+        "27.0 g"
+      ],
+      "contains_new_total": true,
+      "contains_old_total": false,
+      "contains_panel_028_sentence": true
+    }
+  },
+  "delivery_all_identical": true,
+  "backup": {
+    "before_docx": "D:\\Work\\嵌入式课设\\codex_readback\\layer028_manual_20261104\\before.docx",
+    "sha256": "2BB8DAD3D6F8F56FC1772F22F8DF56F2E0B667DE7DA7E02B1B71952D1801E7D5"
+  },
+  "artifacts": {
+    "work_after_docx": "D:\\Work\\嵌入式课设\\codex_readback\\layer028_manual_20261104\\after.docx",
+    "pdf_before": "D:\\Work\\嵌入式课设\\codex_readback\\layer028_manual_20261104\\render\\before.pdf",
+    "pdf_after": "D:\\Work\\嵌入式课设\\codex_readback\\layer028_manual_20261104\\render\\after.pdf",
+    "png_tail_after_p263": "D:\\Work\\嵌入式课设\\codex_readback\\layer028_manual_20261104\\render\\tail_after\\page-0016.png",
+    "png_tail_before_p263": "D:\\Work\\嵌入式课设\\codex_readback\\layer028_manual_20261104\\render\\tail_before\\page-0016.png",
+    "png_tail_after_p265": "D:\\Work\\嵌入式课设\\codex_readback\\layer028_manual_20261104\\render\\tail_after\\page-0018.png",
+    "png_tail_before_toc_p5": "D:\\Work\\嵌入式课设\\codex_readback\\layer028_manual_20261104\\render\\tail_before\\page-0005.png",
+    "full_render_before_dir": "D:\\Work\\嵌入式课设\\codex_readback\\layer028_manual_20261104\\render\\full_before",
+    "full_render_after_dir": "D:\\Work\\嵌入式课设\\codex_readback\\layer028_manual_20261104\\render\\full_after",
+    "qa_json": "D:\\Work\\嵌入式课设\\codex_readback\\layer028_manual_20261104\\checks\\manual_qa.json"
+  },
+  "residual_old_value_scan": {
+    "targets_removed": {
+      "25.3 g": [],
+      "1小时1分": [],
+      "1202.2": [],
+      "47小时": []
+    },
+    "remaining_0_20mm_mentions_not_in_scope": [
+      {
+        "where": "P",
+        "idx": 2177,
+        "text": "精细参数：层高0.16 mm、首层0.20 mm、外墙40/内墙80 mm/s，4墙、30% gyroid、顶底10层/最小1.6 mm。其余保持原工程设置。层高改善层向细节，不等同于孔径公差保证，不"
+      },
+      {
+        "where": "P",
+        "idx": 2191,
+        "text": "2/3号底板平放，0.24 mm层高、顶底7层、5 mm防翘边；4/5号附件0.16 mm层高、顶底10层、3 mm防翘边。均为首层0.20 mm、4墙、30% gyroid，自动支撑与擦料塔关闭。原"
+      },
+      {
+        "where": "T",
+        "idx": [
+          75,
+          2,
+          1
+        ],
+        "text": "0.24 / 0.20 mm"
+      }
+    ],
+    "note": "remaining 0.20 mm mentions are chapter 66/68 first-layer settings and table 75, unrelated to PANEL_COVER; left untouched as instructed"
+  },
+  "missing_fonts_note": "LibreOffice convert reported missing font Courier for both before and after identically (pre-existing in document, unrelated to this edit)."
 }

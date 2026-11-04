@@ -1,8 +1,8 @@
 {
-  "status": "SELECTED_BEST_TESTED_SETTINGS_UPPER_24H_UNMET",
+  "status": "SELECTED_FASTEST_TESTED_ALL_0.28_UPPER_24H_UNMET",
   "target_seconds": 86400,
-  "estimated_total_seconds": 171691.9619140625,
-  "estimated_total_grams": 1202.1977443695068,
+  "estimated_total_seconds": 171456.27026367188,
+  "estimated_total_grams": 1203.935806274414,
   "files": [
     {
       "part": "LOWER_H41_B1",
@@ -30,15 +30,16 @@
     },
     {
       "part": "PANEL_COVER",
-      "variant": "r1",
+      "variant": "r7",
       "project": "projects/P2S_PANEL_COVER_PLA_FAST_CANDIDATE.3mf",
-      "project_sha256": "4bef97c2cdc29172b8652704442a0ee4e86fa46f7f38cc93174843e52779cdc2",
-      "estimated_seconds": 3706.8720703125,
-      "grams": 25.274465560913086,
+      "project_sha256": "be1590002b759b45f662ba2340631c74ec7e22e40706d832dc547209d074745c",
+      "estimated_seconds": 3471.180419921875,
+      "grams": 27.012527465820312,
       "max_vertex_error_after_rigid_transform_mm": 0.0,
       "source_step_sha256": "566ade4121140f15c5420b210554dcc6d88a29479faa20bddb00b219b3507e80",
       "scale": 1,
-      "layer_height_mm": 0.2
+      "layer_height_mm": 0.28,
+      "geometry_unchanged_from_r1": true
     }
   ],
   "physical_print_tested": false,
@@ -50,7 +51,8 @@
   "max_volumetric_speed_mm3_s": 12,
   "limitations": [
     "Upper body exceeds per-body 24-hour target; user selected the fastest checked settings while preserving structure and material",
-    "0.28 mm reduces surface finish relative to 0.08 mm",
+    "0.28 mm reduces surface finish relative to 0.08 mm; PANEL_COVER top-surface stepping is more visible at 0.28 than at the earlier 0.20 mm",
+    "PANEL_COVER at 0.28 mm saves only about 3 min 50 s versus 0.20 mm while adding about 1.7 g; the 0.20 mm slice is kept as r1 for comparison",
     "physical adhesion, strength and support removal untested"
   ],
   "log_review": [
@@ -64,5 +66,32 @@
   "time_target_met_by_principal_body": {
     "LOWER_H41_B1": true,
     "UPPER_INTEGRATED": false
+  },
+  "all_parts_layer_height_mm": 0.28,
+  "panel_change": {
+    "from": {
+      "variant": "r1",
+      "layer_height_mm": 0.2,
+      "estimated_seconds": 3706.8720703125,
+      "grams": 25.274465560913086
+    },
+    "to": {
+      "variant": "r7",
+      "layer_height_mm": 0.28,
+      "estimated_seconds": 3471.180419921875,
+      "grams": 27.012527465820312
+    },
+    "geometry_unchanged": true,
+    "script": "source/slice_panel028.py"
+  },
+  "manual_check": {
+    "docx_sha256": "8fd54b216ae0301605145e88c540d7c9d00b144a80661c3acd42c8b15cd24be8",
+    "docx_size": 28854402,
+    "qa": "checks/manual_qa.json",
+    "render": "checks/word_render.json",
+    "render_pages": 265,
+    "render_pages_differing": [
+      263
+    ]
   }
 }

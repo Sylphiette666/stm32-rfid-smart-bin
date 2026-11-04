@@ -1,11 +1,12 @@
 {
-  "status": "SELECTED_BEST_TESTED_SETTINGS_UPPER_24H_UNMET",
+  "status": "SELECTED_FASTEST_TESTED_ALL_0.28_UPPER_24H_UNMET",
   "variants": {
     "LOWER_H41_B1": "r3",
     "UPPER_INTEGRATED": "r4",
-    "PANEL_COVER": "r1"
+    "PANEL_COVER": "r7"
   },
   "physical_print_tested": false,
   "target_per_principal_body_hours": 24,
-  "user_fallback_selection": "保持当前结构和材料，交付最快可靠设置"
+  "user_fallback_selection": "保持当前结构和材料，交付最快可靠设置",
+  "all_parts_layer_height_mm": 0.28
 }

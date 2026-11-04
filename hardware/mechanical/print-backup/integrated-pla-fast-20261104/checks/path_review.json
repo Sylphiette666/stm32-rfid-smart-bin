@@ -18,12 +18,26 @@
     "G39_absent": true
   },
   "PANEL_COVER": {
+    "variant": "r7",
+    "layer_height_mm": 0.28,
     "objects_on_first_layer": 1,
     "expected_objects": 1,
     "all_extrusions_in_bed": true,
-    "maximum_print_z_mm": 5.4,
-    "layer_count": 27,
+    "bed_bounds_tolerance_mm": 0.5,
+    "xy_bounds_mm": [
+      53.4,
+      202.6,
+      -0.2,
+      174.6
+    ],
+    "maximum_print_z_mm": 5.52,
+    "model_top_z_mm": 5.4,
+    "last_layer_above_model_mm": 0.12,
+    "layer_count": 20,
     "support_extrusion_moves": 0,
-    "G39_absent": true
+    "executed_g39_count": 0,
+    "G39_absent": true,
+    "previous_r1_layer_count": 0,
+    "note": "位置与 r1 完全相同（同一 geometry.3mf）；r1 的 Y 最小值为 -0.2 mm 亦按同一容差通过。"
   }
 }

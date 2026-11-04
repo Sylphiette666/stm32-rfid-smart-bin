@@ -5,5 +5,11 @@
   "preserve_two_integral_bodies": true,
   "material": "PLA",
   "rerun_slicing_required": false,
-  "reason": "printing projects unchanged; user clarified target scope and accepted retaining structure/material"
+  "reason": "printing projects unchanged; user clarified target scope and accepted retaining structure/material",
+  "layer028_request": {
+    "date": "2026-11-04",
+    "request": "更改这三个文件的层高，使其达到最佳打印时间",
+    "printer_confirmed_by_user": "Bambu Lab P2S",
+    "action": "bodies already at 0.28 mm (r3/r4); PANEL_COVER re-sliced from 0.20 mm (r1) to 0.28 mm (r7)"
+  }
 }
