@@ -1,0 +1,41 @@
+{
+  "material": "R3D PETG",
+  "part": "UPPER_INTEGRATED",
+  "tag": "R3D_PETG_UPPER_INTEGRATED",
+  "seconds": 119343.773438,
+  "hours": 33.151048,
+  "grams": 787.205444,
+  "human_time": "33小时9分4秒",
+  "warning": "",
+  "triangle_count": 308868,
+  "project_file": "P2S_UPPER_INTEGRATED_R3D_PETG_EASYSUPPORT_0.28.3mf",
+  "sha256": "FE1B67B7BF348FAAE7F22AF45534232890A6B83014E9D19D28E50EA56D58624E",
+  "bytes": 4313966,
+  "config_checks": {
+    "layer_height": true,
+    "support_top_z_distance": true,
+    "support_bottom_z_distance": true,
+    "support_interface_spacing": true,
+    "support_interface_top_layers": true,
+    "support_object_xy_distance": true,
+    "support_type": true,
+    "enable_support": true,
+    "filament_type": true,
+    "filament_vendor": true
+  },
+  "support_metrics": {
+    "support_extrusion_mm": 1433885.8,
+    "support_interface_extrusion_mm": 189335.0,
+    "support_transition_mm": 210521.6,
+    "interface_contact_area_mm2_approx": 79520.7
+  },
+  "work_dir": "D:\\Work\\嵌入式课设\\.easy-support-20261104\\work\\R3D_PETG_UPPER_INTEGRATED",
+  "baseline_support_metrics": {
+    "support_extrusion_mm": 1439596.1,
+    "support_interface_extrusion_mm": 240748.6,
+    "support_transition_mm": 235825.0,
+    "interface_contact_area_mm2_approx": 101114.4
+  },
+  "baseline_seconds": 120354.953125,
+  "baseline_grams": 797.2297973632812
+}

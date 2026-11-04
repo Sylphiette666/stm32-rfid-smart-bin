@@ -1,0 +1,40 @@
+{
+  "material": "PLA",
+  "part": "LOWER_H41_B1",
+  "tag": "PLA_LOWER_H41_B1",
+  "seconds": 48801.0,
+  "hours": 13.555833,
+  "grams": 371.32373,
+  "human_time": "13小时33分21秒",
+  "warning": "",
+  "triangle_count": 414824,
+  "project_file": "P2S_LOWER_H41_B1_PLA_EASYSUPPORT_0.28.3mf",
+  "sha256": "52FE95A80E21E56F9AC9B3ACA1AF90EF8FEC50A9F04F409D0A4CB097CAFD415D",
+  "bytes": 5426865,
+  "config_checks": {
+    "layer_height": true,
+    "support_top_z_distance": true,
+    "support_bottom_z_distance": true,
+    "support_interface_spacing": true,
+    "support_interface_top_layers": true,
+    "support_object_xy_distance": true,
+    "support_type": true,
+    "enable_support": true,
+    "filament_type": true
+  },
+  "support_metrics": {
+    "support_extrusion_mm": 656269.4,
+    "support_interface_extrusion_mm": 16206.4,
+    "support_transition_mm": 27371.4,
+    "interface_contact_area_mm2_approx": 6806.7
+  },
+  "work_dir": "D:\\Work\\嵌入式课设\\.easy-support-20261104\\work\\PLA_LOWER_H41_B1",
+  "baseline_support_metrics": {
+    "support_extrusion_mm": 658162.6,
+    "support_interface_extrusion_mm": 31532.8,
+    "support_transition_mm": 31428.2,
+    "interface_contact_area_mm2_approx": 13243.8
+  },
+  "baseline_seconds": 49278.73828125,
+  "baseline_grams": 373.94830322265625
+}
