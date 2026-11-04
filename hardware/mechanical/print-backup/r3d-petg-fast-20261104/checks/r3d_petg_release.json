@@ -1,0 +1,66 @@
+{
+  "date": "2026-11-04",
+  "status": "SELECTED_FASTEST_TESTED_ALL_0.28_R3D_PETG_UPPER_24H_UNMET",
+  "material": "R3D PETG",
+  "target_seconds": 86400,
+  "estimated_total_seconds": 173868.654052,
+  "estimated_total_hours": 48.296848,
+  "estimated_total_human_time": "48小时17分49秒",
+  "grams": 1195.320942,
+  "files": [
+    {
+      "part": "LOWER_H41_B1",
+      "label": "下半主体 H41/B1",
+      "project": "projects/P2S_LOWER_H41_B1_R3D_PETG_FAST_CANDIDATE.3mf",
+      "sha256": "752174F0799BB50255E7BE8F65DC41DF94CA5DD911D6651F169D3E816D8D5600",
+      "seconds": 50019.632812,
+      "hours": 13.894342,
+      "grams": 371.272034,
+      "human_time": "13小时53分40秒",
+      "layer_height": 0.28,
+      "support": true
+    },
+    {
+      "part": "UPPER_INTEGRATED",
+      "label": "上半集成主体",
+      "project": "projects/P2S_UPPER_INTEGRATED_R3D_PETG_FAST_CANDIDATE.3mf",
+      "sha256": "117DB05437FFFA35806FA9E30D837E63A295770969849F0EDA96B9F421824E04",
+      "seconds": 120354.953125,
+      "hours": 33.431931,
+      "grams": 797.229797,
+      "human_time": "33小时25分55秒",
+      "layer_height": 0.28,
+      "support": true
+    },
+    {
+      "part": "PANEL_COVER",
+      "label": "可拆操作面板",
+      "project": "projects/P2S_PANEL_COVER_R3D_PETG_FAST_CANDIDATE.3mf",
+      "sha256": "D3B77AD0EFA861D84C05BF23BEB4D65A686E916E4115B27E9D51EB45685472A9",
+      "seconds": 3494.068115,
+      "hours": 0.970574,
+      "grams": 26.819111,
+      "human_time": "58分14秒",
+      "layer_height": 0.28,
+      "support": false
+    }
+  ],
+  "slicer": "Bambu Studio 02.08.02.61",
+  "printer": "Bambu Lab P2S",
+  "nozzle": "0.4 mm",
+  "bed": "Textured PEI Plate",
+  "material_source": "R3D PETG 1.75 mm (r3dprint.com)",
+  "material_profile_note": "Bambu Studio 无 R3D 官方配置；按 R3D 官网参数区间 + Bambu Generic PETG 基础，取保守值",
+  "physical_print_tested": false,
+  "print_job_sent": false,
+  "time_target_met_by_principal_body": {
+    "LOWER_H41_B1": true,
+    "UPPER_INTEGRATED": false
+  },
+  "limitations": [
+    "估算时间为 Bambu Studio CLI 切片预测，实际会因环境温度/AMS/换料等浮动。",
+    "未实物打印验证；PETG 附着力和拆支撑手感需实机确认。",
+    "上半件约 33.4 小时，单件 24 小时目标未达。",
+    "层高 0.28 mm、PETG 低风扇在悬垂/桥接处可能出现拉丝或下垂，首件建议先小件试打。"
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "date": "2026-11-04",
+  "purpose": "选择 R3D PETG 的最佳层高（同一几何、同一结构参数，只改层高/顶底壳层数/支撑 Z 间隙）",
+  "material": "R3D PETG",
+  "process_base": "PLA 快速候选 process.json（0.28 基础）逐层高替换：layer_height、initial_layer_print_height=0.2、top/bottom_shell_layers 按 0.8mm 以上壳厚、support_top/bottom_z_distance=层高",
+  "results": {
+    "LOWER_H41_B1_L28": {
+      "seconds": 50019.632812,
+      "hours": 13.894342,
+      "grams": 371.272034,
+      "warning": "",
+      "layer_height": 0.28,
+      "wall_loops": 3,
+      "sparse_infill_density": 10.0,
+      "triangle_count": 414824,
+      "return_code": 0,
+      "sliced_3mf_sha256": "94A1148A7B5CD48647FEC18D84516C0A727A82E35CF8F85613A818B7F895AD5E"
+    },
+    "LOWER_H41_B1_L24": {
+      "seconds": 54745.882812,
+      "hours": 15.20719,
+      "grams": 375.364532,
+      "warning": "",
+      "layer_height": 0.24,
+      "wall_loops": 3,
+      "sparse_infill_density": 10.0,
+      "triangle_count": 414824,
+      "return_code": 0,
+      "sliced_3mf_sha256": "F9C4CD75B786CB3BD6BB61B62D8A7B25734541675C22FFA38B8228FD786FE391"
+    },
+    "LOWER_H41_B1_L20": {
+      "seconds": 64759.425781,
+      "hours": 17.988729,
+      "grams": 389.205414,
+      "warning": "",
+      "layer_height": 0.2,
+      "wall_loops": 3,
+      "sparse_infill_density": 10.0,
+      "triangle_count": 414824,
+      "return_code": 0,
+      "sliced_3mf_sha256": "CF04BBCA81D65484FB1F386ED823160133A82D7B7DFA02CAF1E48A043CE7A905"
+    },
+    "UPPER_INTEGRATED_L28": {
+      "seconds": 120354.953125,
+      "hours": 33.431931,
+      "grams": 797.229797,
+      "warning": "",
+      "layer_height": 0.28,
+      "wall_loops": 3,
+      "sparse_infill_density": 10.0,
+      "triangle_count": 308868,
+      "return_code": 0,
+      "sliced_3mf_sha256": "9207441923F923785776A75546D7FC1BF6446153AE3C1F3DA44FD23006B75AAD"
+    },
+    "UPPER_INTEGRATED_L24": {
+      "seconds": 133740.328125,
+      "hours": 37.150091,
+      "grams": 816.387878,
+      "warning": "",
+      "layer_height": 0.24,
+      "wall_loops": 3,
+      "sparse_infill_density": 10.0,
+      "triangle_count": 308868,
+      "return_code": 0,
+      "sliced_3mf_sha256": "2C5D4E00996D178F61D1C40AC407509B0F7447CCD17364D2FCD5952C012A389D"
+    },
+    "UPPER_INTEGRATED_L20": {
+      "seconds": 158881.5,
+      "hours": 44.13375,
+      "grams": 826.742065,
+      "warning": "",
+      "layer_height": 0.2,
+      "wall_loops": 3,
+      "sparse_infill_density": 10.0,
+      "triangle_count": 308868,
+      "return_code": 0,
+      "sliced_3mf_sha256": "FBF737EF8BEA43F662F757585E12408CA7C546730345DD7C1BD9E55EF4900B8A"
+    },
+    "PANEL_COVER_L28": {
+      "seconds": 3494.068115,
+      "hours": 0.970574,
+      "grams": 26.819111,
+      "warning": "",
+      "layer_height": 0.28,
+      "wall_loops": 3,
+      "sparse_infill_density": 15.0,
+      "triangle_count": 25456,
+      "return_code": 0,
+      "sliced_3mf_sha256": "132718D6CB38481377FD081B28268C2CBCC8F36D4994F2FAD9BB5905543071A7"
+    },
+    "PANEL_COVER_L24": {
+      "seconds": 3612.10791,
+      "hours": 1.003363,
+      "grams": 26.516827,
+      "warning": "",
+      "layer_height": 0.24,
+      "wall_loops": 3,
+      "sparse_infill_density": 15.0,
+      "triangle_count": 25456,
+      "return_code": 0,
+      "sliced_3mf_sha256": "496CA6DB07CC13D27E53C53A1B769BF7EE76B6C9D7949CA8F6AA1C60ECD14013"
+    },
+    "PANEL_COVER_L20": {
+      "seconds": 3735.635498,
+      "hours": 1.037677,
+      "grams": 25.093433,
+      "warning": "",
+      "layer_height": 0.2,
+      "wall_loops": 3,
+      "sparse_infill_density": 15.0,
+      "triangle_count": 25456,
+      "return_code": 0,
+      "sliced_3mf_sha256": "05926FBC1632B6366086E67F1EEF058E57D88769DCDC84748604CB163833D892"
+    }
+  },
+  "note": "warning_message 均为空；0.28 是 0.4 喷嘴可稳定挤出的上限（约喷嘴直径 70%），再高会明显牺牲层间结合与表面质量。"
+}

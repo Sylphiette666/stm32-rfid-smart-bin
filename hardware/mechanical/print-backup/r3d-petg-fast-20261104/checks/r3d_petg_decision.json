@@ -1,0 +1,33 @@
+{
+  "date": "2026-11-04",
+  "request": "改用 R3D PETG 耗材输出一版三个文件，并重新判定/设定该情况下的最佳层高与参数（用户 m00558/m00588）",
+  "printer": "Bambu Lab P2S",
+  "material": "R3D PETG",
+  "selected_layer_height_mm": 0.28,
+  "params": {
+    "nozzle_temperature_c": [
+      250,
+      250
+    ],
+    "textured_plate_temp_c": 60,
+    "hot_plate_temp_c": 60,
+    "filament_flow_ratio": 0.95,
+    "filament_max_volumetric_speed_mm3_s": 12,
+    "fan_min_percent": 10,
+    "fan_max_percent": 40,
+    "overhang_fan_percent": 40,
+    "close_fan_first_layers": 3,
+    "wall_loops": 3,
+    "sparse_infill_density": "10% (面板 15%)",
+    "infill_pattern": "gyroid",
+    "top_bottom_shell_layers": "3 (0.84 mm)",
+    "brim_width_mm": "6 (面板 3)",
+    "outer_wall_speed_mm_s": 120,
+    "inner_wall_speed_mm_s": 230,
+    "support": "tree(auto) slim，Z 间隙 0.28（面板无支撑）",
+    "drying": "60-65 ℃ / 4-8 h（R3D 官方建议）"
+  },
+  "why_not_thinner": "0.24/0.20 每件都更慢且更重：0.24 全套约 +5.1 小时 / +23 g，0.20 约 +14.9 小时 / +46 g；只有强度/表面要求更高时才值得。",
+  "why_not_thicker": "0.28 已是 0.4 mm 喷嘴可稳定挤出的上限（约 70% 喷嘴直径）；0.32 及以上层间结合与表面质量明显下降，不建议用于承力结构件。",
+  "physical_print_tested": false
+}

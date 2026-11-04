@@ -1,0 +1,50 @@
+{
+  "date": "2026-11-04",
+  "status": "SELECTED_FASTEST_TESTED_ALL_0.28_R3D_PETG_UPPER_24H_UNMET",
+  "material": "R3D PETG",
+  "selected": {
+    "LOWER_H41_B1": {
+      "tag": "LOWER_H41_B1_L28",
+      "layer_height_mm": 0.28,
+      "seconds": 50019.632812,
+      "hours": 13.894342,
+      "grams": 371.272034,
+      "project": "projects/P2S_LOWER_H41_B1_R3D_PETG_FAST_CANDIDATE.3mf",
+      "sha256": "752174F0799BB50255E7BE8F65DC41DF94CA5DD911D6651F169D3E816D8D5600"
+    },
+    "UPPER_INTEGRATED": {
+      "tag": "UPPER_INTEGRATED_L28",
+      "layer_height_mm": 0.28,
+      "seconds": 120354.953125,
+      "hours": 33.431931,
+      "grams": 797.229797,
+      "project": "projects/P2S_UPPER_INTEGRATED_R3D_PETG_FAST_CANDIDATE.3mf",
+      "sha256": "117DB05437FFFA35806FA9E30D837E63A295770969849F0EDA96B9F421824E04"
+    },
+    "PANEL_COVER": {
+      "tag": "PANEL_COVER_L28",
+      "layer_height_mm": 0.28,
+      "seconds": 3494.068115,
+      "hours": 0.970574,
+      "grams": 26.819111,
+      "project": "projects/P2S_PANEL_COVER_R3D_PETG_FAST_CANDIDATE.3mf",
+      "sha256": "D3B77AD0EFA861D84C05BF23BEB4D65A686E916E4115B27E9D51EB45685472A9"
+    }
+  },
+  "total_seconds": 173868.654052,
+  "total_hours": 48.296848,
+  "total_grams": 1195.320942,
+  "total_human_time": "48小时17分49秒",
+  "target_seconds": 86400,
+  "rationale": [
+    "0.28 mm 相对 0.24 mm：全套约少 5.1 小时；相对 0.20 mm 约少 10.6 小时，是耗时最大的杠杆。",
+    "0.28 mm 为 0.4 mm 喷嘴可稳定挤出的层高上限；PETG 层间结合较好，0.28 mm 仍可用，但 Z 向强度低于更薄层高。",
+    "R3D PETG 的 Bambu 参数按官网建议区间取保守值（喷嘴 250 ℃、热床 60 ℃、体积流量 12 mm³/s、风扇 10–40 %、流量比 0.95）。",
+    "上半件在 0.28 mm 下仍约 33.4 小时，25 小时目标未达；这是几何体量决定的结构性限制，不能通过层高弥补。"
+  ],
+  "alternatives": {
+    "0.24": "强度更好：全套约多 5.1 小时、多约 23 g",
+    "0.20": "强度/表面最好：全套约多 14.9 小时、多约 46 g"
+  },
+  "physical_print_tested": false
+}
