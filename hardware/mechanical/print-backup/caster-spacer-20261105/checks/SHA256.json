@@ -1,0 +1,21 @@
+{
+  "checks/design_basis.json": "dd591d82c3b6975df4b0bba31859c346c2b6f0896e8d5b9f3e42b8d93aa2b7b3",
+  "checks/H3_slicing.json": "4adf755ed02cd5a8058385f4dea127f18efc28d190fd085207dea56985fe5c4f",
+  "checks/H4_slicing.json": "b93aadfbeda5b9458a089b58703257fa9c319f58f6d6267dcdabc69c67f46de6",
+  "checks/H5_slicing.json": "01b49853513b14086acb05ffdc0b90f40d9ff2fa5d8e5106eb92917f738be189",
+  "checks/release.json": "3cf6694807bba983f10a238de5794d0cf3ccd7eee7d2040bfd05601ac7da588e",
+  "preview/H3_plan.png": "8e38952084a3d9563a6b73d21cfd06c4dba56a1bbbffaa94ee81d4b4000f9844",
+  "preview/H3_plate.png": "ff9e28d5fce27dee9147050ef9c9c0a751815632f01e9369931f48c0b39b5bc6",
+  "preview/H3_top.png": "98ea48dfe33782820971152bcbcddcafefa76e0b8247088624d987675bc61088",
+  "preview/H4_plan.png": "be3a4b0ef5c62c1037f9ed7912b251edb805b0b0783d490b85b5ebe22a84c1b4",
+  "preview/H4_plate.png": "96dd021ef3596a0b593528e0ee63d26b919f8369369884e6067635dec9c4d063",
+  "preview/H4_top.png": "98ea48dfe33782820971152bcbcddcafefa76e0b8247088624d987675bc61088",
+  "preview/H5_plan.png": "6bac315d76a7c134f2685d14a0a6b8cb9328d1e3ea1c0da24e98345cb8fbbb4d",
+  "preview/H5_plate.png": "d8022f88c6e816b888215249df4e59c02cb862f94b18241acc0cbca28a516889",
+  "preview/H5_top.png": "98ea48dfe33782820971152bcbcddcafefa76e0b8247088624d987675bc61088",
+  "projects/P2S_CASTER_SPACER_H3_PETG.3mf": "ed6f3d68584f13104bab5c19a2cfb2db847aa61c1b2a0da0fb8f3624bed28ce1",
+  "projects/P2S_CASTER_SPACER_H4_PETG.3mf": "b6982e414adf321bd832be820c8a556b782f346927f87ac00c8b29f552e890fe",
+  "projects/P2S_CASTER_SPACER_H5_PETG.3mf": "5c1d8458bfccce307881d811cfd0bb43bb9b0d11cd203123f3aa4043d9cd7c92",
+  "README.md": "a8ca5dc5c59e0b5ba346e645d5bfa99dc4a82058119fdc186b5fc064499300b3",
+  "source/build_spacer.py": "8fcd949c09c4c08e53b4ac688ab38b75ec72adadebd994d393f6f5e38d0a7469"
+}

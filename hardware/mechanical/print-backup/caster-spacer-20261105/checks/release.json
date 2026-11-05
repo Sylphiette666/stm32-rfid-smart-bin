@@ -1,0 +1,60 @@
+{
+  "date": "2026-11-05",
+  "purpose": "万向轮增高垫块，修正“底板上平面到地面约70mm、万向轮短约4mm”",
+  "design_basis": {
+    "measured_top_plane_to_ground_mm": 70,
+    "measured_by": "user, verbal, approximate",
+    "nominal_stack_mm": {
+      "deck_thickness": 5,
+      "integrated_caster_seat_z": 41,
+      "caster_total_height": 20,
+      "nominal_total": 66
+    },
+    "manual_provenance_mm": 66.19,
+    "formula": "t = measured_top_plane_height - 66 (or measured_bottom_plane_height - 61)"
+  },
+  "selected": "H4",
+  "variants": [
+    {
+      "tag": "H3",
+      "thickness_mm": 3.0,
+      "project": "P2S_CASTER_SPACER_H3_PETG.3mf",
+      "estimate_seconds": 1168.319,
+      "estimate_human": "19分28秒",
+      "estimate_grams": 4.45
+    },
+    {
+      "tag": "H4",
+      "thickness_mm": 4.0,
+      "project": "P2S_CASTER_SPACER_H4_PETG.3mf",
+      "estimate_seconds": 1366.792,
+      "estimate_human": "22分47秒",
+      "estimate_grams": 5.44
+    },
+    {
+      "tag": "H5",
+      "thickness_mm": 5.0,
+      "project": "P2S_CASTER_SPACER_H5_PETG.3mf",
+      "estimate_seconds": 1570.974,
+      "estimate_human": "26分11秒",
+      "estimate_grams": 6.45
+    }
+  ],
+  "printing": {
+    "printer": "Bambu Lab P2S",
+    "nozzle": 0.4,
+    "plate": "Textured PEI Plate",
+    "material": "R3D PETG",
+    "layer_height": 0.2,
+    "process": "0.2mm / 6 walls / 45% gyroid / 5 top-bottom shells / brim 5 / no support"
+  },
+  "hardware_note": "沿用一体座 Φ3.4 通孔与顶部 Φ6.8 沉孔；螺钉长度需增加 t（H4 约 +4 mm，按实物试装确认啮合与不碰轮）。",
+  "status": "DESIGN_AND_SLICE_CHECKED_NOT_PHYSICALLY_TESTED",
+  "physical_print_tested": false,
+  "limitations": [
+    "未实物装配",
+    "未做强度/疲劳/冲击验证",
+    "高度基于约70mm口述测量，需装车复测三点着地",
+    "PETG 蠕变：不要靠过拧螺钉压平"
+  ]
+}

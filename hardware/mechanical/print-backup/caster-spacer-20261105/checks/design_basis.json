@@ -1,0 +1,12 @@
+{
+  "measured_top_plane_to_ground_mm": 70,
+  "measured_by": "user, verbal, approximate",
+  "nominal_stack_mm": {
+    "deck_thickness": 5,
+    "integrated_caster_seat_z": 41,
+    "caster_total_height": 20,
+    "nominal_total": 66
+  },
+  "manual_provenance_mm": 66.19,
+  "formula": "t = measured_top_plane_height - 66 (or measured_bottom_plane_height - 61)"
+}

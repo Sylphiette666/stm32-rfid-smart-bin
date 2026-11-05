@@ -1,0 +1,66 @@
+{
+  "status": "DESIGN_AND_SLICE_CHECKED",
+  "tag": "H3",
+  "thickness_mm": 3.0,
+  "design": {
+    "length_mm": 56,
+    "width_mm": 24,
+    "corner_r_mm": 4,
+    "hole_d_mm": 3.4,
+    "hole_pitch_mm": 40,
+    "mount_pads_d_mm": 15,
+    "caster_seat_z_mm": -41
+  },
+  "mesh": {
+    "watertight": true,
+    "winding_consistent": true,
+    "volume_mm3": 3936.28,
+    "bbox_mm": [
+      56.0,
+      24.0,
+      3.0
+    ],
+    "faces": 1556
+  },
+  "printer": "Bambu Lab P2S 0.4 nozzle",
+  "plate": "Textured PEI Plate",
+  "material": "R3D PETG",
+  "process_key_values": {
+    "layer_height": "0.2",
+    "initial_layer_print_height": "0.2",
+    "wall_loops": "6",
+    "sparse_infill_density": "45%",
+    "sparse_infill_pattern": "gyroid",
+    "top_shell_layers": "5",
+    "bottom_shell_layers": "5",
+    "enable_support": "0",
+    "brim_width": "5",
+    "outer_wall_speed": "80",
+    "inner_wall_speed": "150"
+  },
+  "filament_key_values": {
+    "filament_type": "PETG",
+    "filament_vendor": "R3D",
+    "nozzle_temperature": "250",
+    "textured_plate_temp": "60",
+    "filament_max_volumetric_speed": "12",
+    "filament_flow_ratio": "0.95",
+    "filament_density": "1.27"
+  },
+  "slice_estimate": {
+    "seconds": 1570.9735107421875,
+    "human": "26分11秒",
+    "used_g": 6.45
+  },
+  "exported_project": {
+    "file": "P2S_CASTER_SPACER_H3_PETG.3mf",
+    "no_gcode": true,
+    "embedded_layer_height": "0.2",
+    "embedded_filament_type": "PETG"
+  },
+  "extrusion_volume_mm3_from_slicer_gcode": null,
+  "physical_print_tested": false,
+  "notes": [
+    "设计基于用户口述“底板上平面到地面约70mm”；未做实物装配验证。"
+  ]
+}
