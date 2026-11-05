@@ -1,0 +1,85 @@
+{
+  "status": "pass",
+  "render": {
+    "engine": "Pillow 12.3.0（无 svg/cairo），绘制 2× 超采样后 LANCZOS 缩回",
+    "canvas_px": [
+      2000,
+      1400
+    ],
+    "a4_pdf": {
+      "page": "A4 横向",
+      "dpi": 200,
+      "page_px": [
+        2338,
+        1653
+      ]
+    }
+  },
+  "self_checks": {
+    "text_blocks": 90,
+    "wire_segments": 31,
+    "boxes": 31,
+    "text_text_overlaps": 0,
+    "text_out_of_canvas": 0,
+    "wire_crosses_text": 0,
+    "box_content_overflow": 0,
+    "wire_crossing_other_wires": 0,
+    "layout_warnings": [],
+    "method": "每个文本记录 bbox 做两两相交检测；每段导线按 3 px 步长采样检测是否落入文本 bbox；每个圆角框检查标题+行文本总高是否超出框高；导线之间做线段内部相交检测（端点相接不算）"
+  },
+  "pixel_checks": {
+    "script": "verify_pixels.py",
+    "result": "pass",
+    "samples": [
+      "5V rail ×2",
+      "GND vertical ×2",
+      "GND run",
+      "PWM vertical",
+      "PWM run",
+      "R6 tap",
+      "VCC/GND/SIG 端子色块",
+      "band/servo 底色",
+      "页边 20 px 无墨（0 px）"
+    ]
+  },
+  "data_checks": {
+    "PA0_is_J8_pin4": true,
+    "R6_10k_on_PA0": true,
+    "U1_1A_PA0_1Y_SERVO_SIG_5V": true,
+    "J20_1_SERVO_SIG_5V": true,
+    "J5_1_5V_BUS_J5_2_GND": true,
+    "C2_near_J5": true,
+    "TIM2_50Hz_arr19999": true,
+    "pulse_range_900_2100": true
+  },
+  "not_verified": [
+    "实物通电",
+    "舵机实际行程与堵转电流"
+  ],
+  "files": {
+    "servo_wiring.png": {
+      "bytes": 581043,
+      "sha256": "4d3af24c33b7b40efcaa958f9d835f1fa04296b37cdc934b626dae738d5ab592"
+    },
+    "servo_wiring_A4.pdf": {
+      "bytes": 313368,
+      "sha256": "1b3caf16d516100832357dbf03192dfd6e8ecc66bc6baf1fe783cd3c0e8cb900"
+    },
+    "build_servo_diagram.py": {
+      "bytes": 15897,
+      "sha256": "71c5ddace9108c469c1a13026a83aa489697e34c74c25acfcc096165c3cf497f"
+    },
+    "make_pdf.py": {
+      "bytes": 1316,
+      "sha256": "a6f35e59f68dd9de433bb642093de42ce0d9907047de41838521ab586cf1f2c7"
+    },
+    "verify_pixels.py": {
+      "bytes": 2489,
+      "sha256": "9db9396e52b42cc3d359f2d44fe005b79733199358a3a30241001c3e165f98bb"
+    },
+    "layout-stats.json": {
+      "bytes": 171,
+      "sha256": "391ee577d6acd7c71a34b870af44b32f6882634f5b8b44994abc75fab6aaa389"
+    }
+  }
+}

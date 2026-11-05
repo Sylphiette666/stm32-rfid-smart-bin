@@ -1,0 +1,12 @@
+{
+  "canvas": [
+    2000,
+    1400
+  ],
+  "supersample": 2,
+  "text_blocks": 90,
+  "wire_segments": 31,
+  "boxes": 31,
+  "warnings": [],
+  "wire_crossings": 0
+}

@@ -49,3 +49,7 @@ J33 上的两种电源是供选择的独立脚，不能同时接到同一模块 
 规则：0.20 mm 间距，常规信号 0.30 mm、局部 0.25 mm，过孔 0.8/0.4 mm，原动力主干 3 mm/分支 2 mm保留。低电流缓冲器供电脚采用短 0.30 mm 扇出连接本地去耦，不用于动力供电。双层板的局部回流绕行和原 C8 距离限制仍需实物验证；数字 DRC 通过不等于抗干扰认证。
 
 使用的技能与资料：[mash KiCad skills](https://github.com/mash/kicad-skills)、[PCB-design 检查流程](https://github.com/Toaster496/PCB-design)、[TI SN74LVC1G17 数据手册](https://www.ti.com/lit/ds/symlink/sn74lvc1g17.pdf)。用户已改用 KiCad，本版没有执行 EasyEDA 检查。
+
+## 舵机接线示意图
+
+`diagrams/servo/servo_wiring.png`（同目录另有 A4 横向 `servo_wiring_A4.pdf`）给出 SG90 三根线的分工：红→`J5.1`（5V_BUS，22 AWG，主电流只走这一路）、棕/黑→`J5.2`（GND）、橙→`J20.1`（SERVO_SIG_5V，由 `U1 SN74AHCT125N` 把 PA0 的 3.3 V PWM 提升到 5 V，`R6` 10 kΩ 下拉）。原厂 3 芯延长线必须在配电处拆成电源、信号两路，整根插 `J20` 会把 5 V 灌进信号排针。图源 `diagrams/servo/build_servo_diagram.py`，数据来源与自检见同目录 `diagram-manifest.json`、`diagram-qa.json`（排版自检 0 重叠、导线 0 交叉、像素抽查通过）。该图是接线图，未做实物通电验证。

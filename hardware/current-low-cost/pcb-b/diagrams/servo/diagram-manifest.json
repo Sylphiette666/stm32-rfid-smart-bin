@@ -1,0 +1,118 @@
+{
+  "title": "SG90 舵机接线示意图（B1 印制板 + A1 固件）",
+  "date": "2026-11-05",
+  "printer": "Bambu Lab P2S（与接线无关，仅作项目上下文）",
+  "board": "hardware/current-low-cost/pcb-b（125×100 mm 双层板）",
+  "mcu_pin": "PA0 = TIM2_CH1",
+  "pwm": {
+    "timer": "TIM2_CH1",
+    "prescaler_us": 1,
+    "arr": 19999,
+    "frequency_hz": 50,
+    "pulse_range_us": [
+      900,
+      2100
+    ],
+    "out_of_range_outputs": 0,
+    "default_close_us": 1500,
+    "default_open_us": 1500
+  },
+  "level_shifter": {
+    "ref": "U1",
+    "part": "SN74AHCT125N",
+    "package": "DIP-14",
+    "input_pin": "1A = pin 2 = PA0",
+    "output_pin": "1Y = pin 3 = SERVO_SIG_5V",
+    "vcc": "pins 13/14 = 5V_BUS",
+    "enable": "1OE = pin 1 = GND（常使能）"
+  },
+  "pull_down": {
+    "ref": "R6",
+    "value": "10 kΩ",
+    "net": "PA0 → GND"
+  },
+  "connectors": {
+    "J5": {
+      "name": "SERVO_PWR",
+      "type": "2P 5.08 mm 螺钉端子",
+      "pos_mm": [
+        7,
+        69
+      ],
+      "pins": {
+        "1": "5V_BUS",
+        "2": "GND"
+      }
+    },
+    "J20": {
+      "name": "SERVO_SIG",
+      "type": "1x2 2.54 mm 排针",
+      "pos_mm": [
+        45.5,
+        39
+      ],
+      "pins": {
+        "1": "SERVO_SIG_5V",
+        "2": "GND（仅信号参考）"
+      }
+    },
+    "J8": {
+      "name": "CORE_PA",
+      "pins": {
+        "4": "PA0"
+      }
+    },
+    "J1": {
+      "name": "BAT_SW",
+      "pins": {
+        "1": "VBAT_SW",
+        "2": "GND"
+      }
+    },
+    "J2": {
+      "name": "BUCK_IN",
+      "pins": {
+        "1": "VBAT_SW"
+      }
+    },
+    "J3": {
+      "name": "BUCK_OUT",
+      "pins": {
+        "1": "5V_BUS"
+      }
+    }
+  },
+  "bulk_cap": {
+    "ref": "C2",
+    "value": "1000 uF / 16 V",
+    "placement": "就近 J5 两端"
+  },
+  "power_chain": "2S 18650 → 保险座 + 总开关 → J1 BAT_SW → J2 BUCK_IN → 外置 5 V 降压 → J3 BUCK_OUT 5V_BUS → J5.1",
+  "servo": {
+    "model": "SG90（H12 位置舵机，非 360° 连续旋转）",
+    "wires": {
+      "red": "VCC 5 V → J5.1",
+      "brown_black": "GND → J5.2",
+      "orange": "PWM → J20.1"
+    },
+    "mechanical": [
+      "轴在盖铰链轴后方 50 mm",
+      "摇臂与舵盘等高平行",
+      "正常开盖约 70°",
+      "维护位约 120°，须断电拆拉杆"
+    ]
+  },
+  "sources": [
+    "hardware/current-low-cost/pcb-b/connector-map.csv",
+    "hardware/current-low-cost/pcb-b/checks/board-geometry.json",
+    "hardware/current-low-cost/pcb-b/netlist-verified.json",
+    "firmware/a1/src/platform.c（servo_output / TIM2 初始化）",
+    "firmware/a1/src/storage.c（close_us/open_us 默认 1500，范围校验 900–2100）",
+    "智能垃圾桶_装配顺序与模块安装_20261105/README.md（机械边界）"
+  ],
+  "limitations": [
+    "图为设计/接线图，基于现有连接表与固件，非实物测绘",
+    "整机未做实物通电验收；通电前需万用表复核 J5 极性与 PA0→U1 通路",
+    "舵机型号为手册 H12 列的 SG90；若换型号需重核堵转电流与 5 V 支路余量"
+  ]
+}
