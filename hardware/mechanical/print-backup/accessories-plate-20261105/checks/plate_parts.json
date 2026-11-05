@@ -1,0 +1,129 @@
+{
+  "parts": [
+    {
+      "object": "M01_lid",
+      "cn": "M01 模块压框"
+    },
+    {
+      "object": "M01_detent",
+      "cn": "M01 定位簧片"
+    },
+    {
+      "object": "M01_keeper",
+      "cn": "M01 刚性拨片/锁片"
+    },
+    {
+      "object": "M02_lid",
+      "cn": "M02 模块压框"
+    },
+    {
+      "object": "M02_detent",
+      "cn": "M02 定位簧片"
+    },
+    {
+      "object": "M02_keeper",
+      "cn": "M02 刚性拨片/锁片"
+    },
+    {
+      "object": "M03_lid",
+      "cn": "M03 模块压框"
+    },
+    {
+      "object": "M03_detent",
+      "cn": "M03 定位簧片"
+    },
+    {
+      "object": "M03_keeper",
+      "cn": "M03 刚性拨片/锁片"
+    },
+    {
+      "object": "M04_lid",
+      "cn": "M04 模块压框"
+    },
+    {
+      "object": "M04_detent",
+      "cn": "M04 定位簧片"
+    },
+    {
+      "object": "M04_keeper",
+      "cn": "M04 刚性拨片/锁片"
+    },
+    {
+      "object": "M05_lid",
+      "cn": "M05 模块压框"
+    },
+    {
+      "object": "M05_detent",
+      "cn": "M05 定位簧片"
+    },
+    {
+      "object": "M05_keeper",
+      "cn": "M05 刚性拨片/锁片"
+    },
+    {
+      "object": "M06_lid",
+      "cn": "M06 模块压框"
+    },
+    {
+      "object": "M06_detent",
+      "cn": "M06 定位簧片"
+    },
+    {
+      "object": "M06_keeper",
+      "cn": "M06 刚性拨片/锁片"
+    },
+    {
+      "object": "M07_lid",
+      "cn": "M07 模块压框"
+    },
+    {
+      "object": "M07_detent",
+      "cn": "M07 定位簧片"
+    },
+    {
+      "object": "M07_keeper",
+      "cn": "M07 刚性拨片/锁片"
+    },
+    {
+      "object": "M08_lid",
+      "cn": "M08 模块压框"
+    },
+    {
+      "object": "M08_detent",
+      "cn": "M08 定位簧片"
+    },
+    {
+      "object": "M08_keeper",
+      "cn": "M08 刚性拨片/锁片"
+    },
+    {
+      "object": "M09_lid",
+      "cn": "M09 模块压框"
+    },
+    {
+      "object": "M09_detent",
+      "cn": "M09 定位簧片"
+    },
+    {
+      "object": "M09_keeper",
+      "cn": "M09 刚性拨片/锁片"
+    },
+    {
+      "object": "BAT_L_detent",
+      "cn": "电池左锁定位簧片"
+    },
+    {
+      "object": "BAT_L_keeper",
+      "cn": "电池左锁刚性锁片"
+    },
+    {
+      "object": "BAT_R_detent",
+      "cn": "电池右锁定位簧片"
+    },
+    {
+      "object": "BAT_R_keeper",
+      "cn": "电池右锁刚性锁片"
+    }
+  ],
+  "note": "压框/簧片/拨片 与装配指南 A/B 阶段配套；铰链轴 M3×30、锚钉 M3×25/30/40、DIN985 锁母按各模块高度选。"
+}

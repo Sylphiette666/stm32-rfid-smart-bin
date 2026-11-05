@@ -1,0 +1,10 @@
+{
+  "checks/accessories_plate_checks.json": "51f975f7b24159d6f01d67fe2c73bd47685c6646352ad5e4d2022895a5920f61",
+  "checks/accessories_plate_slicing.json": "c6e0b9f0e729482847a81a28abfbbc32078a3f74497c0b7facb3f5caffa1e384",
+  "checks/plate_parts.json": "df108cd347f937257694973877e7af6052962dcdaf2eb0b4ad801e98bd98b055",
+  "geometry/accessories_31.3mf": "47b6d97ff8d67b6b3763f262bec15855e0aaf7c6458911afd85ea1bb42d9a0a9",
+  "preview/accessories_31_plate.png": "70b3d8f2a264ead7890316bfe7cef1dc8189aa62b19eaad581e5a46d7e031bf6",
+  "projects/P2S_MODULE_ACCESSORIES_31PCS_PLA_20261105.3mf": "49aa1f1e122d83b02c556a3f8ca87f6d765fd5ade51b48eb56495567e0fb6389",
+  "README.md": "cc024d324982d7bee4f0e592faa44b7e8bc7af17f49feb21eaf1554d8bc98712",
+  "source/build_accessory_plate.py": "1e2e408284b76b092c4540db43a2101e3f4f042adfe0b3aaa19ec52a225215bc"
+}
